@@ -1,0 +1,9 @@
+{
+  "libName": "pandas",
+  "sourceVersion": "0.20.0",
+  "targetVersion": "2.0.0",
+  "oldApiFqn": "pandas.DataFrame.append",
+  "apiType": "method",
+  "topK": 3,
+  "libRepoPath": "/path/to/pandas_repo"
+}

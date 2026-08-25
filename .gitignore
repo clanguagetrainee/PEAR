@@ -1,0 +1,23 @@
+# PEAR 版本控制排除清单
+# 原则：只入库源码/文档/测试；可再生数据与缓存一律排除。
+
+# 第三方库原始 checkout（可再生，从各库官方仓库重新 clone）
+Libraries/
+
+# 临时产物（worktree 列表、分析中间文件）
+tmp/
+
+# 运行时缓存
+CodeCache/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# pytest
+.pytest_cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
