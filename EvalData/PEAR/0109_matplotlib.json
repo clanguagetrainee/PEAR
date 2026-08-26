@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.9.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.contour.ContourLabeler.add_label_clabeltext",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.transforms.Transform.__add__",
+      "api_type": "method",
+      "similarity": 0.4594594594594595,
+      "evolution_path": [
+        "matplotlib.transforms.Transform.__add__"
+      ],
+      "local_scores": [
+        0.4594594594594595
+      ]
+    },
+    {
+      "fqn": "matplotlib._layoutgrid.LayoutGrid.add_child",
+      "api_type": "method",
+      "similarity": 0.425531914893617,
+      "evolution_path": [
+        "matplotlib._layoutgrid.LayoutGrid.add_child"
+      ],
+      "local_scores": [
+        0.425531914893617
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorbar.Colorbar.set_label",
+      "api_type": "method",
+      "similarity": 0.40816326530612246,
+      "evolution_path": [
+        "matplotlib.colorbar.Colorbar.set_label"
+      ],
+      "local_scores": [
+        0.40816326530612246
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._axes.Axes.quiverkey",
+      "api_type": "method",
+      "similarity": 0.40425531914893614,
+      "evolution_path": [
+        "matplotlib.axes._axes.Axes.quiverkey"
+      ],
+      "local_scores": [
+        0.40425531914893614
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.Duration.Duration.__add__",
+      "api_type": "method",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [
+        "matplotlib.testing.jpl_units.Duration.Duration.__add__"
+      ],
+      "local_scores": [
+        0.3958333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends._backend_gtk.RubberbandGTK.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [
+        "matplotlib.backends._backend_gtk.RubberbandGTK.draw_rubberband"
+      ],
+      "local_scores": [
+        0.3953488372093023
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.RubberbandTk.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [
+        "matplotlib.backends._backend_tk.RubberbandTk.draw_rubberband"
+      ],
+      "local_scores": [
+        0.3953488372093023
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.RubberbandQt.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [
+        "matplotlib.backends.backend_qt.RubberbandQt.draw_rubberband"
+      ],
+      "local_scores": [
+        0.3953488372093023
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.RubberbandWx.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [
+        "matplotlib.backends.backend_wx.RubberbandWx.draw_rubberband"
+      ],
+      "local_scores": [
+        0.3953488372093023
+      ]
+    },
+    {
+      "fqn": "matplotlib.dviread.Dvi._fnt_def",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [
+        "matplotlib.dviread.Dvi._fnt_def"
+      ],
+      "local_scores": [
+        0.3953488372093023
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.RendererBase.draw_text",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [
+        "matplotlib.backend_bases.RendererBase.draw_text"
+      ],
+      "local_scores": [
+        0.391304347826087
+      ]
+    },
+    {
+      "fqn": "matplotlib.streamplot.DomainMap.start_trajectory",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [
+        "matplotlib.streamplot.DomainMap.start_trajectory"
+      ],
+      "local_scores": [
+        0.391304347826087
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure.FigureBase.add_gridspec",
+      "api_type": "method",
+      "similarity": 0.3877551020408163,
+      "evolution_path": [
+        "matplotlib.figure.FigureBase.add_gridspec"
+      ],
+      "local_scores": [
+        0.3877551020408163
+      ]
+    },
+    {
+      "fqn": "matplotlib.patheffects.PathEffectRenderer.draw_path",
+      "api_type": "method",
+      "similarity": 0.38636363636363635,
+      "evolution_path": [
+        "matplotlib.patheffects.PathEffectRenderer.draw_path"
+      ],
+      "local_scores": [
+        0.38636363636363635
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.draw_rubberband"
+      ],
+      "local_scores": [
+        0.38095238095238093
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg._print_pil",
+      "api_type": "method",
+      "similarity": 0.38,
+      "evolution_path": [
+        "matplotlib.backends.backend_agg.FigureCanvasAgg._print_pil"
+      ],
+      "local_scores": [
+        0.38
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_macosx.NavigationToolbar2Mac.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.38,
+      "evolution_path": [
+        "matplotlib.backends.backend_macosx.NavigationToolbar2Mac.draw_rubberband"
+      ],
+      "local_scores": [
+        0.38
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.RendererBase.draw_tex",
+      "api_type": "method",
+      "similarity": 0.37777777777777777,
+      "evolution_path": [
+        "matplotlib.backend_bases.RendererBase.draw_tex"
+      ],
+      "local_scores": [
+        0.37777777777777777
+      ]
+    },
+    {
+      "fqn": "matplotlib.inset.InsetIndicator._shared_setter",
+      "api_type": "method",
+      "similarity": 0.37777777777777777,
+      "evolution_path": [
+        "matplotlib.inset.InsetIndicator._shared_setter"
+      ],
+      "local_scores": [
+        0.37777777777777777
+      ]
+    },
+    {
+      "fqn": "matplotlib.legend_handler.HandlerStepPatch._create_patch",
+      "api_type": "method",
+      "similarity": 0.37777777777777777,
+      "evolution_path": [
+        "matplotlib.legend_handler.HandlerStepPatch._create_patch"
+      ],
+      "local_scores": [
+        0.37777777777777777
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.contour.ContourLabeler.add_label_clabeltext",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.9.4",
+      "vpost": "3.10.0",
+      "resolved_fqn": "matplotlib.contour.ContourLabeler.add_label_clabeltext",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.transforms.Transform.__add__",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "matplotlib._layoutgrid.LayoutGrid.add_child",
+          "similarity": 0.425532
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar.set_label",
+          "similarity": 0.408163
+        },
+        {
+          "fqn": "matplotlib.axes._axes.Axes.quiverkey",
+          "similarity": 0.404255
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.Duration.Duration.__add__",
+          "similarity": 0.395833
+        },
+        {
+          "fqn": "matplotlib.backends._backend_gtk.RubberbandGTK.draw_rubberband",
+          "similarity": 0.395349
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.RubberbandTk.draw_rubberband",
+          "similarity": 0.395349
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.RubberbandQt.draw_rubberband",
+          "similarity": 0.395349
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.RubberbandWx.draw_rubberband",
+          "similarity": 0.395349
+        },
+        {
+          "fqn": "matplotlib.dviread.Dvi._fnt_def",
+          "similarity": 0.395349
+        },
+        {
+          "fqn": "matplotlib.backend_bases.RendererBase.draw_text",
+          "similarity": 0.391304
+        },
+        {
+          "fqn": "matplotlib.streamplot.DomainMap.start_trajectory",
+          "similarity": 0.391304
+        },
+        {
+          "fqn": "matplotlib.figure.FigureBase.add_gridspec",
+          "similarity": 0.387755
+        },
+        {
+          "fqn": "matplotlib.patheffects.PathEffectRenderer.draw_path",
+          "similarity": 0.386364
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.draw_rubberband",
+          "similarity": 0.380952
+        },
+        {
+          "fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg._print_pil",
+          "similarity": 0.38
+        },
+        {
+          "fqn": "matplotlib.backends.backend_macosx.NavigationToolbar2Mac.draw_rubberband",
+          "similarity": 0.38
+        },
+        {
+          "fqn": "matplotlib.backend_bases.RendererBase.draw_tex",
+          "similarity": 0.377778
+        },
+        {
+          "fqn": "matplotlib.inset.InsetIndicator._shared_setter",
+          "similarity": 0.377778
+        },
+        {
+          "fqn": "matplotlib.legend_handler.HandlerStepPatch._create_patch",
+          "similarity": 0.377778
+        }
+      ],
+      "entered_final": [
+        "matplotlib.transforms.Transform.__add__",
+        "matplotlib._layoutgrid.LayoutGrid.add_child",
+        "matplotlib.colorbar.Colorbar.set_label",
+        "matplotlib.axes._axes.Axes.quiverkey",
+        "matplotlib.testing.jpl_units.Duration.Duration.__add__",
+        "matplotlib.backends._backend_gtk.RubberbandGTK.draw_rubberband",
+        "matplotlib.backends._backend_tk.RubberbandTk.draw_rubberband",
+        "matplotlib.backends.backend_qt.RubberbandQt.draw_rubberband",
+        "matplotlib.backends.backend_wx.RubberbandWx.draw_rubberband",
+        "matplotlib.dviread.Dvi._fnt_def",
+        "matplotlib.backend_bases.RendererBase.draw_text",
+        "matplotlib.streamplot.DomainMap.start_trajectory",
+        "matplotlib.figure.FigureBase.add_gridspec",
+        "matplotlib.patheffects.PathEffectRenderer.draw_path",
+        "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.draw_rubberband",
+        "matplotlib.backends.backend_agg.FigureCanvasAgg._print_pil",
+        "matplotlib.backends.backend_macosx.NavigationToolbar2Mac.draw_rubberband",
+        "matplotlib.backend_bases.RendererBase.draw_tex",
+        "matplotlib.inset.InsetIndicator._shared_setter",
+        "matplotlib.legend_handler.HandlerStepPatch._create_patch"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.377778,
+      "dead_reason": null
+    }
+  ]
+}

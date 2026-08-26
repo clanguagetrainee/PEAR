@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.10.8",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.backends.postgresql.introspection.DatabaseIntrospection.get_indexes",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.introspection.SpatiaLiteIntrospection.get_constraints",
+      "api_type": "method",
+      "similarity": 0.5053763440860215,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.FilteredSelectMultiple.get_context",
+      "api_type": "method",
+      "similarity": 0.47474747474747475,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.SlugField.deconstruct",
+      "api_type": "method",
+      "similarity": 0.46236559139784944,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.AdminSplitDateTime.get_context",
+      "api_type": "method",
+      "similarity": 0.4574468085106383,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_sequences",
+      "api_type": "method",
+      "similarity": 0.4563106796116505,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.AdminURLFieldWidget.get_context",
+      "api_type": "method",
+      "similarity": 0.4537037037037037,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.query_utils.DeferredAttribute.__get__",
+      "api_type": "method",
+      "similarity": 0.45,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.debug.SafeExceptionReporterFilter.get_post_parameters",
+      "api_type": "method",
+      "similarity": 0.44761904761904764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.state.ProjectState._get_concrete_models_mapping_and_proxy_models",
+      "api_type": "method",
+      "similarity": 0.44680851063829785,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.base.models.SpatialRefSysMixin.get_spheroid",
+      "api_type": "method",
+      "similarity": 0.44554455445544555,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.urls.resolvers.LocaleRegexDescriptor.__get__",
+      "api_type": "method",
+      "similarity": 0.44554455445544555,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.files.FileField.deconstruct",
+      "api_type": "method",
+      "similarity": 0.4421052631578947,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.FilePathField.deconstruct",
+      "api_type": "method",
+      "similarity": 0.44144144144144143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.loader.MigrationLoader.check_key",
+      "api_type": "method",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.introspection.DatabaseIntrospection._get_column_collations",
+      "api_type": "method",
+      "similarity": 0.4393939393939394,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.servers.basehttp.WSGIRequestHandler.log_message",
+      "api_type": "method",
+      "similarity": 0.4392523364485981,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.operations.OracleOperations.get_distance",
+      "api_type": "method",
+      "similarity": 0.4368932038834951,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.get_distance",
+      "api_type": "method",
+      "similarity": 0.4368932038834951,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.widgets.ClearableFileInput.get_context",
+      "api_type": "method",
+      "similarity": 0.43636363636363634,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.runner.DiscoverRunner._get_databases",
+      "api_type": "method",
+      "similarity": 0.43434343434343436,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

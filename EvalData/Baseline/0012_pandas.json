@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.19.2",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.tools.plotting.scatter_matrix",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.plotting._matplotlib.misc.scatter_matrix",
+      "api_type": "function",
+      "similarity": 0.87,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.plotting._matplotlib.misc.radviz",
+      "api_type": "function",
+      "similarity": 0.5839285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.stata._cast_to_stata_types",
+      "api_type": "function",
+      "similarity": 0.5538694992412747,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.base.get_values_for_csv",
+      "api_type": "function",
+      "similarity": 0.5483870967741935,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.clipboard.__init__.init_windows_clipboard",
+      "api_type": "function",
+      "similarity": 0.5334538878842676,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.reshape.reshape.stack_v3",
+      "api_type": "function",
+      "similarity": 0.5321428571428571,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.reshape.melt.melt",
+      "api_type": "function",
+      "similarity": 0.5283911671924291,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.reshape.pivot._generate_marginal_results",
+      "api_type": "function",
+      "similarity": 0.5283018867924528,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.sparse.array._sparse_array_op",
+      "api_type": "function",
+      "similarity": 0.5267857142857143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.groupby.test_groupby.test_empty_groupby",
+      "api_type": "function",
+      "similarity": 0.5254515599343186,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_datetime.test_getitem_setitem_datetimeindex",
+      "api_type": "function",
+      "similarity": 0.5192012288786483,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.reshape.pivot.__internal_pivot_table",
+      "api_type": "function",
+      "similarity": 0.5174050632911392,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.reshape.reshape._unstack_multiple",
+      "api_type": "function",
+      "similarity": 0.5147058823529411,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.algorithms.diff",
+      "api_type": "function",
+      "similarity": 0.5115864527629234,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.plotting._matplotlib.boxplot.boxplot",
+      "api_type": "function",
+      "similarity": 0.506872852233677,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.align._align_core",
+      "api_type": "function",
+      "similarity": 0.5040485829959515,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.stata._datetime_to_stata_elapsed_vec",
+      "api_type": "function",
+      "similarity": 0.5007429420505201,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.api.union_indexes",
+      "api_type": "function",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.interval.interval_range",
+      "api_type": "function",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.frame.test_reductions.assert_stat_op_calc",
+      "api_type": "function",
+      "similarity": 0.499009900990099,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

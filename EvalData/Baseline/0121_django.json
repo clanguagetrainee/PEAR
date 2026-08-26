@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.9.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.geos.point.Point.get_coords",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_argtypes",
+      "api_type": "method",
+      "similarity": 0.625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_errcheck",
+      "api_type": "method",
+      "similarity": 0.625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_restype",
+      "api_type": "method",
+      "similarity": 0.625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.forms.AuthenticationForm.get_user",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.AnonymousUser.get_username",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.uploadedfile.UploadedFile._get_name",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.Field.get_attname",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.RegexField._get_regex",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.models.ModelChoiceField._get_queryset",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.edit.FormMixin.get_prefix",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.list.MultipleObjectMixin.get_ordering",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.tokens.PasswordResetTokenGenerator._get_secret",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.utils.BoundVar.get_value",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.reverse_related.ForeignObjectRel.get_lookups",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.sql.query.Query.get_meta",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.edit.FormMixin.get_initial",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.num_coords",
+      "api_type": "method",
+      "similarity": 0.5294117647058824,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.Ref.get_refs",
+      "api_type": "method",
+      "similarity": 0.5294117647058824,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.handlers.wsgi.WSGIRequest._get_scheme",
+      "api_type": "method",
+      "similarity": 0.5263157894736842,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.base.DatabaseWrapper.get_database_version",
+      "api_type": "method",
+      "similarity": 0.5263157894736842,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

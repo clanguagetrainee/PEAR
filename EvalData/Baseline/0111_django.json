@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.8.19",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.backends.base.operations.BaseDatabaseOperations.check_aggregate_support",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.db.backends.base.operations.BaseDatabaseOperations.check_expression_support",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.options.BaseModelAdmin.check",
+      "api_type": "method",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.constraints.BaseConstraint.check",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.AnonymousUser.check_password",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.sql.where.WhereNode.contains_aggregate",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.backends.django.DjangoTemplates.check",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.urls.resolvers.LocalePrefixPattern.check",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.contenttypes.fields.GenericRelation.check",
+      "api_type": "method",
+      "similarity": 0.39285714285714285,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.commands.runserver.Command.get_check_kwargs",
+      "api_type": "method",
+      "similarity": 0.39285714285714285,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.AutoFieldMixin.check",
+      "api_type": "method",
+      "similarity": 0.39285714285714285,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.BinaryField.check",
+      "api_type": "method",
+      "similarity": 0.39285714285714285,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.IntegerField.check",
+      "api_type": "method",
+      "similarity": 0.39285714285714285,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.files.ImageField.check",
+      "api_type": "method",
+      "similarity": 0.39285714285714285,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.__and__",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.__or__",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.__sub__",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.__xor__",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__and__",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__or__",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.__sub__",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

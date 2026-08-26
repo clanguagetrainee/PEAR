@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.7.5",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.colorbar.Colorbar.draw_all",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends.backend_gtk3.FigureCanvasGTK3.draw",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.draw",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.draw_idle",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.handle_draw",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.draw",
+      "api_type": "method",
+      "similarity": 0.4375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.draw",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetImage.draw",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.PolygonSelector._draw_polygon",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.Animation._init_draw",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.draw",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk3.FigureCanvasGTK3._draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4._draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.Animation._pre_draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.FigureCanvasPdf.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.FigureCanvasPgf.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps.FigureCanvasPS.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.FigureCanvasSVG.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.AxLine.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_template.FigureCanvasTemplate.draw",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.registry.BackendRegistry.list_all",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

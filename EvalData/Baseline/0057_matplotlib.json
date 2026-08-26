@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.0.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.scale.InvertedLogTransformBase",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.scale.LogisticTransform",
+      "api_type": "class",
+      "similarity": 0.5851063829787234,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.InvertedAsinhTransform",
+      "api_type": "class",
+      "similarity": 0.5681818181818182,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform",
+      "api_type": "class",
+      "similarity": 0.5540540540540541,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.AsinhTransform",
+      "api_type": "class",
+      "similarity": 0.5208333333333334,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo._GeoTransform",
+      "api_type": "class",
+      "similarity": 0.5051546391752577,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.InvertedLogTransform",
+      "api_type": "class",
+      "similarity": 0.5042016806722689,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.FuncTransform",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_transforms.NonAffineForTest",
+      "api_type": "class",
+      "similarity": 0.49504950495049505,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_axes._Translation",
+      "api_type": "class",
+      "similarity": 0.45569620253164556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.LogitTransform",
+      "api_type": "class",
+      "similarity": 0.44776119402985076,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform",
+      "api_type": "class",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform",
+      "api_type": "class",
+      "similarity": 0.4032258064516129,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.AffineDeltaTransform",
+      "api_type": "class",
+      "similarity": 0.4019607843137255,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.FuncScaleLog",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform",
+      "api_type": "class",
+      "similarity": 0.392,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform",
+      "api_type": "class",
+      "similarity": 0.3875968992248062,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.LogTransform",
+      "api_type": "class",
+      "similarity": 0.38323353293413176,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.polar.InvertedPolarTransform",
+      "api_type": "class",
+      "similarity": 0.3698630136986301,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.PathPatch",
+      "api_type": "class",
+      "similarity": 0.35398230088495575,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.Widget",
+      "api_type": "class",
+      "similarity": 0.3473684210526316,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

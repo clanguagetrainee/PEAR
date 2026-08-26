@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.utils.decorators.classproperty",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.utils.functional.classproperty",
+      "api_type": "class",
+      "similarity": 0.9795918367346939,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaulttags.TemplateLiteral",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetCurrentLanguageBidiNode",
+      "api_type": "class",
+      "similarity": 0.4603174603174603,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetCurrentLanguageNode",
+      "api_type": "class",
+      "similarity": 0.4603174603174603,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.exceptions.NodeNotFoundError",
+      "api_type": "class",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.query_utils.class_or_instance_method",
+      "api_type": "class",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.tz.GetCurrentTimezoneNode",
+      "api_type": "class",
+      "similarity": 0.453125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.utils.Approximate",
+      "api_type": "class",
+      "similarity": 0.4342105263157895,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.testcases._DatabaseFailure",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.http.multipartparser.InterBoundaryIter",
+      "api_type": "class",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.backends.django.Template",
+      "api_type": "class",
+      "similarity": 0.4268292682926829,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetLanguageInfoNode",
+      "api_type": "class",
+      "similarity": 0.4246575342465753,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetAvailableLanguagesNode",
+      "api_type": "class",
+      "similarity": 0.42028985507246375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.serializers.base.Deserializer",
+      "api_type": "class",
+      "similarity": 0.4189189189189189,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.datastructures.DeferredSubDict",
+      "api_type": "class",
+      "similarity": 0.4153846153846154,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.conf.__init__.SettingsReference",
+      "api_type": "class",
+      "similarity": 0.4126984126984127,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.log.CallbackFilter",
+      "api_type": "class",
+      "similarity": 0.4126984126984127,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.base.TextNode",
+      "api_type": "class",
+      "similarity": 0.4125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.base.VariableDoesNotExist",
+      "api_type": "class",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.base.VariableNode",
+      "api_type": "class",
+      "similarity": 0.4050632911392405,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

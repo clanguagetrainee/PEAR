@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "1.3.5",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.resample.Resampler.backfill",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.core.resample.Resampler.asfreq",
+      "api_type": "method",
+      "similarity": 0.631578947368421,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.any",
+      "api_type": "method",
+      "similarity": 0.5263157894736842,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.expr.Expr.assigner",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.DataCol.shape",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.Fixed.nrows",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.Table.storable",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.__radd__",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.__matmul__",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.arithmetic.test_object.MyIndex.__radd__",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.internals.managers.BaseBlockManager.isna",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.GenericTable.storable",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.resample.Resampler.bfill",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.resample.Resampler.ffill",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.resample.Resampler.nearest",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.dtypes.test_inference.MockNumpyLikeArray.__array__",
+      "api_type": "method",
+      "similarity": 0.43478260869565216,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.frame.methods.test_select_dtypes.DummyArray.__array__",
+      "api_type": "method",
+      "similarity": 0.43478260869565216,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.__array__",
+      "api_type": "method",
+      "similarity": 0.43478260869565216,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.internals.managers.BaseBlockManager.pad_or_backfill",
+      "api_type": "method",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arraylike.OpsMixin.__divmod__",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.IndexCol.col",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

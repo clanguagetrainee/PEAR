@@ -1,0 +1,13 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.cbook.warn_deprecated",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [],
+  "error": "ValueError: 待分析 API 在 Vs(3.3.4) 无定义: matplotlib.cbook.warn_deprecated"
+}

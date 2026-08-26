@@ -1,0 +1,474 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.2.25",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.http.request.HttpRequest.get_raw_uri",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.views.debug.ExceptionReporter._get_raw_insecure_uri",
+      "api_type": "method",
+      "similarity": 0.7096774193548387,
+      "evolution_path": [
+        "django.views.debug.ExceptionReporter._get_raw_insecure_uri"
+      ],
+      "local_scores": [
+        0.7096774193548387
+      ]
+    },
+    {
+      "fqn": "django.views.generic.edit.DeletionMixin.get_success_url",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "django.views.generic.edit.DeletionMixin.get_success_url"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "django.contrib.messages.storage.session.SessionStorage._get",
+      "api_type": "method",
+      "similarity": 0.4375,
+      "evolution_path": [
+        "django.contrib.messages.storage.session.SessionStorage._get"
+      ],
+      "local_scores": [
+        0.4375
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.CombinedExpression.__str__",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "django.db.models.expressions.CombinedExpression.__str__"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.array.ArrayField.get_placeholder",
+      "api_type": "method",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [
+        "django.contrib.postgres.fields.array.ArrayField.get_placeholder"
+      ],
+      "local_scores": [
+        0.42424242424242425
+      ]
+    },
+    {
+      "fqn": "django.core.handlers.wsgi.WSGIRequest._get_scheme",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [
+        "django.core.handlers.wsgi.WSGIRequest._get_scheme"
+      ],
+      "local_scores": [
+        0.41379310344827586
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.OrderBy.__repr__",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [
+        "django.db.models.expressions.OrderBy.__repr__"
+      ],
+      "local_scores": [
+        0.41379310344827586
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.RawSQL.__repr__",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [
+        "django.db.models.expressions.RawSQL.__repr__"
+      ],
+      "local_scores": [
+        0.41379310344827586
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.Ref.__repr__",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [
+        "django.db.models.expressions.Ref.__repr__"
+      ],
+      "local_scores": [
+        0.41379310344827586
+      ]
+    },
+    {
+      "fqn": "django.contrib.sessions.base_session.AbstractBaseSession.get_decoded",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [
+        "django.contrib.sessions.base_session.AbstractBaseSession.get_decoded"
+      ],
+      "local_scores": [
+        0.4117647058823529
+      ]
+    },
+    {
+      "fqn": "django.core.handlers.asgi.ASGIRequest._get_scheme",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [
+        "django.core.handlers.asgi.ASGIRequest._get_scheme"
+      ],
+      "local_scores": [
+        0.4117647058823529
+      ]
+    },
+    {
+      "fqn": "django.views.generic.dates.BaseDateListView.get_ordering",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [
+        "django.views.generic.dates.BaseDateListView.get_ordering"
+      ],
+      "local_scores": [
+        0.40625
+      ]
+    },
+    {
+      "fqn": "django.db.models.manager.BaseManager.get_queryset",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.db.models.manager.BaseManager.get_queryset"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.template.loaders.filesystem.Loader.get_dirs",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.template.loaders.filesystem.Loader.get_dirs"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.views.generic.edit.ProcessFormView.get",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.views.generic.edit.ProcessFormView.get"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.core.mail.utils.CachedDnsName.get_fqdn",
+      "api_type": "method",
+      "similarity": 0.39473684210526316,
+      "evolution_path": [
+        "django.core.mail.utils.CachedDnsName.get_fqdn"
+      ],
+      "local_scores": [
+        0.39473684210526316
+      ]
+    },
+    {
+      "fqn": "django.apps.registry.Apps.get_app_configs",
+      "api_type": "method",
+      "similarity": 0.3939393939393939,
+      "evolution_path": [
+        "django.apps.registry.Apps.get_app_configs"
+      ],
+      "local_scores": [
+        0.3939393939393939
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.files.FieldFile._get_file",
+      "api_type": "method",
+      "similarity": 0.3902439024390244,
+      "evolution_path": [
+        "django.db.models.fields.files.FieldFile._get_file"
+      ],
+      "local_scores": [
+        0.3902439024390244
+      ]
+    },
+    {
+      "fqn": "django.views.generic.edit.BaseUpdateView.get",
+      "api_type": "method",
+      "similarity": 0.3888888888888889,
+      "evolution_path": [
+        "django.views.generic.edit.BaseUpdateView.get"
+      ],
+      "local_scores": [
+        0.3888888888888889
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.ExpressionWrapper.__repr__",
+      "api_type": "method",
+      "similarity": 0.3879310344827586,
+      "evolution_path": [
+        "django.db.models.fields.related_lookups.MultiColSource.__repr__",
+        "django.db.models.expressions.ExpressionWrapper.__repr__"
+      ],
+      "local_scores": [
+        0.41379310344827586,
+        0.9375
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.http.request.HttpRequest.get_raw_uri",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.2.25",
+      "vpost": "4.0",
+      "resolved_fqn": "django.http.request.HttpRequest.get_raw_uri",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.views.debug.ExceptionReporter._get_raw_insecure_uri",
+          "similarity": 0.709677
+        },
+        {
+          "fqn": "django.views.generic.edit.DeletionMixin.get_success_url",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "django.contrib.messages.storage.session.SessionStorage._get",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "django.db.models.expressions.CombinedExpression.__str__",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "django.contrib.postgres.fields.array.ArrayField.get_placeholder",
+          "similarity": 0.424242
+        },
+        {
+          "fqn": "django.core.handlers.wsgi.WSGIRequest._get_scheme",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "django.db.models.expressions.OrderBy.__repr__",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "django.db.models.expressions.RawSQL.__repr__",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "django.db.models.expressions.Ref.__repr__",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "django.db.models.fields.related_lookups.MultiColSource.__repr__",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "django.contrib.sessions.base_session.AbstractBaseSession.get_decoded",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "django.core.handlers.asgi.ASGIRequest._get_scheme",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "django.views.generic.dates.BaseDateListView.get_ordering",
+          "similarity": 0.40625
+        },
+        {
+          "fqn": "django.db.models.manager.BaseManager.get_queryset",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.template.loaders.filesystem.Loader.get_dirs",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.views.generic.edit.ProcessFormView.get",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.core.mail.utils.CachedDnsName.get_fqdn",
+          "similarity": 0.394737
+        },
+        {
+          "fqn": "django.apps.registry.Apps.get_app_configs",
+          "similarity": 0.393939
+        },
+        {
+          "fqn": "django.db.models.fields.files.FieldFile._get_file",
+          "similarity": 0.390244
+        },
+        {
+          "fqn": "django.views.generic.edit.BaseUpdateView.get",
+          "similarity": 0.388889
+        }
+      ],
+      "entered_final": [
+        "django.views.debug.ExceptionReporter._get_raw_insecure_uri",
+        "django.views.generic.edit.DeletionMixin.get_success_url",
+        "django.contrib.messages.storage.session.SessionStorage._get",
+        "django.db.models.expressions.CombinedExpression.__str__",
+        "django.contrib.postgres.fields.array.ArrayField.get_placeholder",
+        "django.core.handlers.wsgi.WSGIRequest._get_scheme",
+        "django.db.models.expressions.OrderBy.__repr__",
+        "django.db.models.expressions.RawSQL.__repr__",
+        "django.db.models.expressions.Ref.__repr__",
+        "django.contrib.sessions.base_session.AbstractBaseSession.get_decoded",
+        "django.core.handlers.asgi.ASGIRequest._get_scheme",
+        "django.views.generic.dates.BaseDateListView.get_ordering",
+        "django.db.models.manager.BaseManager.get_queryset",
+        "django.template.loaders.filesystem.Loader.get_dirs",
+        "django.views.generic.edit.ProcessFormView.get",
+        "django.core.mail.utils.CachedDnsName.get_fqdn",
+        "django.apps.registry.Apps.get_app_configs",
+        "django.db.models.fields.files.FieldFile._get_file",
+        "django.views.generic.edit.BaseUpdateView.get"
+      ],
+      "entered_iter": [
+        "django.db.models.fields.related_lookups.MultiColSource.__repr__"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.db.models.fields.related_lookups.MultiColSource.__repr__",
+      "path_score": 0.413793,
+      "boundary": "DEPRECATED",
+      "vpre": "5.1.15",
+      "vpost": "5.2",
+      "resolved_fqn": "django.db.models.fields.related_lookups.MultiColSource.__repr__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.db.models.expressions.OrderBy.__repr__",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.db.models.expressions.RawSQL.__repr__",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.db.models.expressions.Ref.__repr__",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.db.models.expressions.ExpressionWrapper.__repr__",
+          "similarity": 0.9375
+        },
+        {
+          "fqn": "django.db.models.expressions.F.__repr__",
+          "similarity": 0.9375
+        },
+        {
+          "fqn": "django.db.models.expressions.CombinedExpression.__repr__",
+          "similarity": 0.823529
+        },
+        {
+          "fqn": "django.db.models.constraints.Deferrable.__repr__",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "django.db.models.enums.Choices.__repr__",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "django.db.models.expressions.WindowFrameExclusion.__repr__",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "django.contrib.admin.options.ModelAdmin.__repr__",
+          "similarity": 0.736842
+        },
+        {
+          "fqn": "django.urls.resolvers.URLPattern.__repr__",
+          "similarity": 0.736842
+        },
+        {
+          "fqn": "django.core.files.uploadedfile.UploadedFile.__repr__",
+          "similarity": 0.722222
+        },
+        {
+          "fqn": "django.db.migrations.state.ModelState.__repr__",
+          "similarity": 0.722222
+        },
+        {
+          "fqn": "django.db.models.lookups.Lookup.__repr__",
+          "similarity": 0.722222
+        },
+        {
+          "fqn": "django.template.loader_tags.ExtendsNode.__repr__",
+          "similarity": 0.722222
+        },
+        {
+          "fqn": "django.templatetags.static.StaticNode.__repr__",
+          "similarity": 0.722222
+        },
+        {
+          "fqn": "django.contrib.admin.sites.AdminSite.__repr__",
+          "similarity": 0.705882
+        },
+        {
+          "fqn": "django.contrib.auth.context_processors.PermWrapper.__repr__",
+          "similarity": 0.705882
+        },
+        {
+          "fqn": "django.db.models.expressions.Value.__repr__",
+          "similarity": 0.705882
+        },
+        {
+          "fqn": "django.contrib.admin.helpers.AdminForm.__repr__",
+          "similarity": 0.7
+        }
+      ],
+      "entered_final": [
+        "django.db.models.expressions.OrderBy.__repr__",
+        "django.db.models.expressions.RawSQL.__repr__",
+        "django.db.models.expressions.Ref.__repr__",
+        "django.db.models.expressions.ExpressionWrapper.__repr__",
+        "django.db.models.expressions.F.__repr__",
+        "django.db.models.expressions.CombinedExpression.__repr__",
+        "django.db.models.constraints.Deferrable.__repr__",
+        "django.db.models.enums.Choices.__repr__",
+        "django.db.models.expressions.WindowFrameExclusion.__repr__",
+        "django.contrib.admin.options.ModelAdmin.__repr__",
+        "django.urls.resolvers.URLPattern.__repr__",
+        "django.core.files.uploadedfile.UploadedFile.__repr__",
+        "django.db.migrations.state.ModelState.__repr__",
+        "django.db.models.lookups.Lookup.__repr__",
+        "django.template.loader_tags.ExtendsNode.__repr__",
+        "django.templatetags.static.StaticNode.__repr__",
+        "django.contrib.admin.sites.AdminSite.__repr__",
+        "django.contrib.auth.context_processors.PermWrapper.__repr__",
+        "django.db.models.expressions.Value.__repr__",
+        "django.contrib.admin.helpers.AdminForm.__repr__"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.393939,
+      "dead_reason": null
+    }
+  ]
+}

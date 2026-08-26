@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "1.4.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.GraphicsContextBase.set_graylevel",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.patches.Rectangle.set_xy",
+      "api_type": "method",
+      "similarity": 0.6,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_antialiased",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Patch.set_capstyle",
+      "api_type": "method",
+      "similarity": 0.5517241379310345,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Patch.set_joinstyle",
+      "api_type": "method",
+      "similarity": 0.5517241379310345,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_markersize",
+      "api_type": "method",
+      "similarity": 0.5483870967741935,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.Collection.set_hatch",
+      "api_type": "method",
+      "similarity": 0.5357142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_color",
+      "api_type": "method",
+      "similarity": 0.5357142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Patch.set_hatch",
+      "api_type": "method",
+      "similarity": 0.5357142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget.set_visible",
+      "api_type": "method",
+      "similarity": 0.5357142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorbar._ColorbarSpine.set_xy",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image._ImageBase.set_resample",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.AnchoredOffsetbox.set_child",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_snap",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.Collection.set_paths",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.set_dpi",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_markevery",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetBox.set_height",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetBox.set_offset",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetBox.set_width",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetImage.set_zoom",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.5.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.FigureCanvasBase.resize",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.backend_bases.FigureManagerBase.resize",
+      "api_type": "method",
+      "similarity": 1.0,
+      "evolution_path": [
+        "matplotlib.backend_bases.FigureManagerBase.resize"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox._resize",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [
+        "matplotlib.widgets.TextBox._resize"
+      ],
+      "local_scores": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolBase.trigger",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.backend_tools.ToolBase.trigger"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget._onmove",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "matplotlib.widgets._SelectorWidget._onmove"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget._press",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "matplotlib.widgets._SelectorWidget._press"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget._release",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "matplotlib.widgets._SelectorWidget._release"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.DraggableBase.update_offset",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.offsetbox.DraggableBase.update_offset"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.blit",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "matplotlib.backend_bases.FigureCanvasBase.blit"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolToggleBase.disable",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "matplotlib.backend_tools.ToolToggleBase.disable"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolToggleBase.enable",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "matplotlib.backend_tools.ToolToggleBase.enable"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "matplotlib.dviread.Dvi._nop",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "matplotlib.dviread.Dvi._nop"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "matplotlib.layout_engine.PlaceHolderLayoutEngine.execute",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "matplotlib.layout_engine.PlaceHolderLayoutEngine.execute"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.RendererBase.open_group",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.backend_bases.RendererBase.open_group"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfPages.__exit__",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.PdfPages.__exit__"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.PdfPages.__exit__",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.backends.backend_pgf.PdfPages.__exit__"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.dviread.Dvi.__exit__",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.dviread.Dvi.__exit__"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines.VertexSelector.process_selected",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.lines.VertexSelector.process_selected"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.GeoAxes.start_pan",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.projections.geo.GeoAxes.start_pan"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureManagerWebAgg.resize",
+      "api_type": "method",
+      "similarity": 0.36,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg_core.FigureManagerWebAgg.resize"
+      ],
+      "local_scores": [
+        0.36
+      ]
+    },
+    {
+      "fqn": "matplotlib.layout_engine.LayoutEngine.execute",
+      "api_type": "method",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [
+        "matplotlib.layout_engine.LayoutEngine.execute"
+      ],
+      "local_scores": [
+        0.35714285714285715
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.resize",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.backend_bases.FigureCanvasBase.resize",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backend_bases.FigureManagerBase.resize",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.widgets.TextBox._resize",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolBase.trigger",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget._onmove",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget._press",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget._release",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.offsetbox.DraggableBase.update_offset",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureCanvasBase.blit",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolToggleBase.disable",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolToggleBase.enable",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "matplotlib.dviread.Dvi._nop",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "matplotlib.layout_engine.PlaceHolderLayoutEngine.execute",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "matplotlib.backend_bases.RendererBase.open_group",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfPages.__exit__",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.PdfPages.__exit__",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.dviread.Dvi.__exit__",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.lines.VertexSelector.process_selected",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.projections.geo.GeoAxes.start_pan",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.FigureManagerWebAgg.resize",
+          "similarity": 0.36
+        },
+        {
+          "fqn": "matplotlib.layout_engine.LayoutEngine.execute",
+          "similarity": 0.357143
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backend_bases.FigureManagerBase.resize",
+        "matplotlib.widgets.TextBox._resize",
+        "matplotlib.backend_tools.ToolBase.trigger",
+        "matplotlib.widgets._SelectorWidget._onmove",
+        "matplotlib.widgets._SelectorWidget._press",
+        "matplotlib.widgets._SelectorWidget._release",
+        "matplotlib.offsetbox.DraggableBase.update_offset",
+        "matplotlib.backend_bases.FigureCanvasBase.blit",
+        "matplotlib.backend_tools.ToolToggleBase.disable",
+        "matplotlib.backend_tools.ToolToggleBase.enable",
+        "matplotlib.dviread.Dvi._nop",
+        "matplotlib.layout_engine.PlaceHolderLayoutEngine.execute",
+        "matplotlib.backend_bases.RendererBase.open_group",
+        "matplotlib.backends.backend_pdf.PdfPages.__exit__",
+        "matplotlib.backends.backend_pgf.PdfPages.__exit__",
+        "matplotlib.dviread.Dvi.__exit__",
+        "matplotlib.lines.VertexSelector.process_selected",
+        "matplotlib.projections.geo.GeoAxes.start_pan",
+        "matplotlib.backends.backend_webagg_core.FigureManagerWebAgg.resize",
+        "matplotlib.layout_engine.LayoutEngine.execute"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.357143,
+      "dead_reason": null
+    }
+  ]
+}

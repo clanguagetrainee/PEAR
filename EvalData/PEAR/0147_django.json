@@ -1,0 +1,391 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.2.25",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.admin.options.OSMGeoAdmin",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.contrib.redirects.admin.RedirectAdmin",
+      "api_type": "class",
+      "similarity": 0.44680851063829785,
+      "evolution_path": [
+        "django.contrib.redirects.admin.RedirectAdmin"
+      ],
+      "local_scores": [
+        0.44680851063829785
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.mysql.base.DatabaseWrapper",
+      "api_type": "class",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.mysql.base.DatabaseWrapper"
+      ],
+      "local_scores": [
+        0.40476190476190477
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.base.DatabaseWrapper",
+      "api_type": "class",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.oracle.base.DatabaseWrapper"
+      ],
+      "local_scores": [
+        0.40476190476190477
+      ]
+    },
+    {
+      "fqn": "django.db.backends.dummy.base.DatabaseIntrospection",
+      "api_type": "class",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [
+        "django.db.backends.dummy.base.DatabaseIntrospection"
+      ],
+      "local_scores": [
+        0.40476190476190477
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.fields.PointField",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.contrib.gis.db.models.fields.PointField"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.fields.PolygonField",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.contrib.gis.db.models.fields.PolygonField"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.apps.SimpleAdminConfig",
+      "api_type": "class",
+      "similarity": 0.390625,
+      "evolution_path": [
+        "django.contrib.admin.apps.SimpleAdminConfig"
+      ],
+      "local_scores": [
+        0.390625
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.coordseq.CsInt",
+      "api_type": "class",
+      "similarity": 0.3829787234042553,
+      "evolution_path": [
+        "django.contrib.gis.geos.prototypes.coordseq.CsInt"
+      ],
+      "local_scores": [
+        0.3829787234042553
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.topology.Topology",
+      "api_type": "class",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [
+        "django.contrib.gis.geos.prototypes.topology.Topology"
+      ],
+      "local_scores": [
+        0.38095238095238093
+      ]
+    },
+    {
+      "fqn": "django.contrib.sites.admin.SiteAdmin",
+      "api_type": "class",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [
+        "django.contrib.sites.admin.SiteAdmin"
+      ],
+      "local_scores": [
+        0.38095238095238093
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.io.WKBReadFunc",
+      "api_type": "class",
+      "similarity": 0.37777777777777777,
+      "evolution_path": [
+        "django.contrib.gis.geos.prototypes.io.WKBReadFunc"
+      ],
+      "local_scores": [
+        0.37777777777777777
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.contrib.gis.admin.options.OSMGeoAdmin",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "4.2.30",
+      "vpost": "5.0",
+      "resolved_fqn": "django.contrib.gis.admin.options.OSMGeoAdmin",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.postgres.fields.ranges.RangeOperators",
+          "similarity": 0.490196
+        },
+        {
+          "fqn": "django.contrib.redirects.admin.RedirectAdmin",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "django.contrib.redirects.models.Redirect.Meta",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "django.contrib.admin.models.LogEntry.Meta",
+          "similarity": 0.44186
+        },
+        {
+          "fqn": "django.contrib.flatpages.models.FlatPage.Meta",
+          "similarity": 0.44186
+        },
+        {
+          "fqn": "django.contrib.sites.models.Site.Meta",
+          "similarity": 0.44186
+        },
+        {
+          "fqn": "django.contrib.contenttypes.models.ContentType.Meta",
+          "similarity": 0.422222
+        },
+        {
+          "fqn": "django.core.checks.registry.Tags",
+          "similarity": 0.409836
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.mysql.base.DatabaseWrapper",
+          "similarity": 0.404762
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.oracle.base.DatabaseWrapper",
+          "similarity": 0.404762
+        },
+        {
+          "fqn": "django.db.backends.dummy.base.DatabaseIntrospection",
+          "similarity": 0.404762
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.fields.PointField",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.fields.PolygonField",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.contrib.auth.models.Permission.Meta",
+          "similarity": 0.395833
+        },
+        {
+          "fqn": "django.contrib.admin.apps.SimpleAdminConfig",
+          "similarity": 0.390625
+        },
+        {
+          "fqn": "django.contrib.auth.forms.UserChangeForm.Meta",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.coordseq.CsInt",
+          "similarity": 0.382979
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.topology.Topology",
+          "similarity": 0.380952
+        },
+        {
+          "fqn": "django.contrib.sites.admin.SiteAdmin",
+          "similarity": 0.380952
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.io.WKBReadFunc",
+          "similarity": 0.377778
+        }
+      ],
+      "entered_final": [
+        "django.contrib.redirects.admin.RedirectAdmin",
+        "django.contrib.gis.db.backends.mysql.base.DatabaseWrapper",
+        "django.contrib.gis.db.backends.oracle.base.DatabaseWrapper",
+        "django.db.backends.dummy.base.DatabaseIntrospection",
+        "django.contrib.gis.db.models.fields.PointField",
+        "django.contrib.gis.db.models.fields.PolygonField",
+        "django.contrib.admin.apps.SimpleAdminConfig",
+        "django.contrib.gis.geos.prototypes.coordseq.CsInt",
+        "django.contrib.gis.geos.prototypes.topology.Topology",
+        "django.contrib.sites.admin.SiteAdmin",
+        "django.contrib.gis.geos.prototypes.io.WKBReadFunc"
+      ],
+      "entered_iter": [
+        "django.contrib.postgres.fields.ranges.RangeOperators",
+        "django.contrib.redirects.models.Redirect.Meta",
+        "django.contrib.admin.models.LogEntry.Meta",
+        "django.contrib.flatpages.models.FlatPage.Meta",
+        "django.contrib.sites.models.Site.Meta",
+        "django.contrib.contenttypes.models.ContentType.Meta",
+        "django.core.checks.registry.Tags",
+        "django.contrib.auth.models.Permission.Meta",
+        "django.contrib.auth.forms.UserChangeForm.Meta"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.ranges.RangeOperators",
+      "path_score": 0.490196,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.redirects.models.Redirect.Meta",
+      "path_score": 0.446809,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.admin.models.LogEntry.Meta",
+      "path_score": 0.44186,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.flatpages.models.FlatPage.Meta",
+      "path_score": 0.44186,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.sites.models.Site.Meta",
+      "path_score": 0.44186,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.contenttypes.models.ContentType.Meta",
+      "path_score": 0.422222,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.core.checks.registry.Tags",
+      "path_score": 0.409836,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.auth.models.Permission.Meta",
+      "path_score": 0.395833,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.auth.forms.UserChangeForm.Meta",
+      "path_score": 0.384615,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    }
+  ]
+}

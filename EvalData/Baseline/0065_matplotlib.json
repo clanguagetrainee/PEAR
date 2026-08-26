@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.1.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.patches.YAArrow",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.patches.ConnectionStyle.Arc",
+      "api_type": "class",
+      "similarity": 0.6096033402922756,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.ConnectionStyle.Bar",
+      "api_type": "class",
+      "similarity": 0.5862884160756501,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.BoxStyle.Sawtooth",
+      "api_type": "class",
+      "similarity": 0.5456521739130434,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.ArrowStyle.Fancy",
+      "api_type": "class",
+      "similarity": 0.5431034482758621,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.BoxStyle.RArrow",
+      "api_type": "class",
+      "similarity": 0.5375586854460094,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.BoxStyle.DArrow",
+      "api_type": "class",
+      "similarity": 0.5314685314685315,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patheffects.TickedStroke",
+      "api_type": "class",
+      "similarity": 0.5302752293577981,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.LambertAxes",
+      "api_type": "class",
+      "similarity": 0.5203883495145631,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.MollweideAxes",
+      "api_type": "class",
+      "similarity": 0.5201612903225806,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.LogitLocator",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.SymmetricalLogLocator",
+      "api_type": "class",
+      "similarity": 0.49146757679180886,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.AxLine",
+      "api_type": "class",
+      "similarity": 0.4895470383275261,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._mathtext.Output",
+      "api_type": "class",
+      "similarity": 0.4893203883495146,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.legend_handler.HandlerErrorbar",
+      "api_type": "class",
+      "similarity": 0.4868189806678383,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.polar.PolarTransform",
+      "api_type": "class",
+      "similarity": 0.4807370184254606,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Arc",
+      "api_type": "class",
+      "similarity": 0.46195652173913043,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image.AxesImage",
+      "api_type": "class",
+      "similarity": 0.46153846153846156,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections._MeshData",
+      "api_type": "class",
+      "similarity": 0.4612850082372323,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._tritools.TriAnalyzer",
+      "api_type": "class",
+      "similarity": 0.45875542691751087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.ArrowStyle.Simple",
+      "api_type": "class",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.23.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.dtypes.common.is_datetimetz",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "pandas.core.dtypes.common.is_datetime64tz_dtype",
+      "api_type": "function",
+      "similarity": 0.9259259259259259,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_datetime64tz_dtype"
+      ],
+      "local_scores": [
+        0.9259259259259259
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_categorical_dtype",
+      "api_type": "function",
+      "similarity": 0.7333333333333333,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_categorical_dtype"
+      ],
+      "local_scores": [
+        0.7333333333333333
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_interval_dtype",
+      "api_type": "function",
+      "similarity": 0.7333333333333333,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_interval_dtype"
+      ],
+      "local_scores": [
+        0.7333333333333333
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_period_dtype",
+      "api_type": "function",
+      "similarity": 0.7333333333333333,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_period_dtype"
+      ],
+      "local_scores": [
+        0.7333333333333333
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays.datetimes.tz_to_dtype",
+      "api_type": "function",
+      "similarity": 0.48484848484848486,
+      "evolution_path": [
+        "pandas.core.arrays.datetimes.tz_to_dtype"
+      ],
+      "local_scores": [
+        0.48484848484848486
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_complex_dtype",
+      "api_type": "function",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_complex_dtype"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_datetime64_dtype",
+      "api_type": "function",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_datetime64_dtype"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_float_dtype",
+      "api_type": "function",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_float_dtype"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_int64_dtype",
+      "api_type": "function",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_int64_dtype"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_integer_dtype",
+      "api_type": "function",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_integer_dtype"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_object_dtype",
+      "api_type": "function",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_object_dtype"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_timedelta64_dtype",
+      "api_type": "function",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_timedelta64_dtype"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common._is_dtype",
+      "api_type": "function",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [
+        "pandas.core.dtypes.common._is_dtype"
+      ],
+      "local_scores": [
+        0.46511627906976744
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_numeric_dtype",
+      "api_type": "function",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_numeric_dtype"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "pandas.tests.dtypes.test_common.test__is_dtype_type",
+      "api_type": "function",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [
+        "pandas.tests.dtypes.test_common.test__is_dtype_type"
+      ],
+      "local_scores": [
+        0.4411764705882353
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_datetime64_any_dtype",
+      "api_type": "function",
+      "similarity": 0.4358974358974359,
+      "evolution_path": [
+        "pandas.core.dtypes.common.is_datetime64_any_dtype"
+      ],
+      "local_scores": [
+        0.4358974358974359
+      ]
+    },
+    {
+      "fqn": "pandas.core.computation.expr._is_type",
+      "api_type": "function",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [
+        "pandas.core.computation.expr._is_type"
+      ],
+      "local_scores": [
+        0.43333333333333335
+      ]
+    },
+    {
+      "fqn": "pandas.tests.extension.test_numpy.dtype",
+      "api_type": "function",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [
+        "pandas.tests.extension.test_numpy.dtype"
+      ],
+      "local_scores": [
+        0.43333333333333335
+      ]
+    },
+    {
+      "fqn": "pandas.tests.extension.test_datetime.dtype",
+      "api_type": "function",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "pandas.tests.extension.test_datetime.dtype"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "pandas.io.common.is_url",
+      "api_type": "function",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "pandas.io.common.is_url"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "pandas.core.dtypes.common.is_datetimetz",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "0.25.3",
+      "vpost": "1.0.0",
+      "resolved_fqn": "pandas.core.dtypes.common.is_datetime64tz_dtype",
+      "resolved_kind": "forward",
+      "candidates": [
+        {
+          "fqn": "pandas.core.dtypes.common.is_datetime64tz_dtype",
+          "similarity": 0.925926
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_categorical_dtype",
+          "similarity": 0.733333
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_interval_dtype",
+          "similarity": 0.733333
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_period_dtype",
+          "similarity": 0.733333
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.tz_to_dtype",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_complex_dtype",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_datetime64_dtype",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_float_dtype",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_int64_dtype",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_integer_dtype",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_object_dtype",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_timedelta64_dtype",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.dtypes.common._is_dtype",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_numeric_dtype",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "pandas.tests.dtypes.test_common.test__is_dtype_type",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "pandas.core.dtypes.common.is_datetime64_any_dtype",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "pandas.core.computation.expr._is_type",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "pandas.tests.extension.test_numpy.dtype",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "pandas.tests.extension.test_datetime.dtype",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "pandas.io.common.is_url",
+          "similarity": 0.421053
+        }
+      ],
+      "entered_final": [
+        "pandas.core.dtypes.common.is_datetime64tz_dtype",
+        "pandas.core.dtypes.common.is_categorical_dtype",
+        "pandas.core.dtypes.common.is_interval_dtype",
+        "pandas.core.dtypes.common.is_period_dtype",
+        "pandas.core.arrays.datetimes.tz_to_dtype",
+        "pandas.core.dtypes.common.is_complex_dtype",
+        "pandas.core.dtypes.common.is_datetime64_dtype",
+        "pandas.core.dtypes.common.is_float_dtype",
+        "pandas.core.dtypes.common.is_int64_dtype",
+        "pandas.core.dtypes.common.is_integer_dtype",
+        "pandas.core.dtypes.common.is_object_dtype",
+        "pandas.core.dtypes.common.is_timedelta64_dtype",
+        "pandas.core.dtypes.common._is_dtype",
+        "pandas.core.dtypes.common.is_numeric_dtype",
+        "pandas.tests.dtypes.test_common.test__is_dtype_type",
+        "pandas.core.dtypes.common.is_datetime64_any_dtype",
+        "pandas.core.computation.expr._is_type",
+        "pandas.tests.extension.test_numpy.dtype",
+        "pandas.tests.extension.test_datetime.dtype",
+        "pandas.io.common.is_url"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.421053,
+      "dead_reason": null
+    }
+  ]
+}

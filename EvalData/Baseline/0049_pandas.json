@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "2.1.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.tests.extension.base.reduce.BaseNumericReduceTests",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.errors.__init__.PyperclipWindowsException",
+      "api_type": "class",
+      "similarity": 0.2898550724637681,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.accessor.Accessor",
+      "api_type": "class",
+      "similarity": 0.2876712328767123,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.plotting._matplotlib.converter.PandasAutoDateFormatter",
+      "api_type": "class",
+      "similarity": 0.2835820895522388,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexing.test_coercion.CoercionBase",
+      "api_type": "class",
+      "similarity": 0.27941176470588236,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.TestCoercionString",
+      "api_type": "class",
+      "similarity": 0.2727272727272727,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.datetimelike.DatelikeOps",
+      "api_type": "class",
+      "similarity": 0.2682926829268293,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.UndefinedVariableError",
+      "api_type": "class",
+      "similarity": 0.26506024096385544,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.sparse.accessor.BaseAccessor",
+      "api_type": "class",
+      "similarity": 0.2647058823529412,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesDatetimeIndex",
+      "api_type": "class",
+      "similarity": 0.25806451612903225,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesTimedeltaIndex",
+      "api_type": "class",
+      "similarity": 0.25806451612903225,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tseries.holiday.HolidayCalendarMetaClass",
+      "api_type": "class",
+      "similarity": 0.25675675675675674,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.api.test_api.TestErrors",
+      "api_type": "class",
+      "similarity": 0.2537313432835821,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.test_string.Test2DCompat",
+      "api_type": "class",
+      "similarity": 0.2537313432835821,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesPeriodIndex",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas._libs.indexing.NDFrameIndexerBase",
+      "api_type": "class",
+      "similarity": 0.24691358024691357,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.TestCoercionObject",
+      "api_type": "class",
+      "similarity": 0.2465753424657534,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.test_common.CapturingStringArray",
+      "api_type": "class",
+      "similarity": 0.24615384615384617,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core._numba.extensions.SeriesModel",
+      "api_type": "class",
+      "similarity": 0.24324324324324326,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.ops.FuncNode",
+      "api_type": "class",
+      "similarity": 0.2413793103448276,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.test_any_index.TestRendering",
+      "api_type": "class",
+      "similarity": 0.23943661971830985,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

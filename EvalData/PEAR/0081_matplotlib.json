@@ -1,0 +1,714 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.colorbar.ColorbarPatch",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.transforms.TransformedBbox",
+      "api_type": "class",
+      "similarity": 0.5758513931888545,
+      "evolution_path": [
+        "matplotlib.transforms.TransformedBbox"
+      ],
+      "local_scores": [
+        0.5758513931888545
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.polar._WedgeBbox",
+      "api_type": "class",
+      "similarity": 0.5357142857142857,
+      "evolution_path": [
+        "matplotlib.projections.polar._WedgeBbox"
+      ],
+      "local_scores": [
+        0.5357142857142857
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.BoundaryNorm",
+      "api_type": "class",
+      "similarity": 0.5114942528735632,
+      "evolution_path": [
+        "matplotlib.colors.BoundaryNorm"
+      ],
+      "local_scores": [
+        0.5114942528735632
+      ]
+    },
+    {
+      "fqn": "matplotlib.hatch.Shapes",
+      "api_type": "class",
+      "similarity": 0.5104166666666666,
+      "evolution_path": [
+        "matplotlib.hatch.Shapes"
+      ],
+      "local_scores": [
+        0.5104166666666666
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorbar._ColorbarAxesLocator",
+      "api_type": "class",
+      "similarity": 0.5096153846153846,
+      "evolution_path": [
+        "matplotlib.colorbar._ColorbarAxesLocator"
+      ],
+      "local_scores": [
+        0.5096153846153846
+      ]
+    },
+    {
+      "fqn": "matplotlib.streamplot.Grid",
+      "api_type": "class",
+      "similarity": 0.5072046109510087,
+      "evolution_path": [
+        "matplotlib.streamplot.Grid"
+      ],
+      "local_scores": [
+        0.5072046109510087
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_min_E",
+      "api_type": "class",
+      "similarity": 0.5017421602787456,
+      "evolution_path": [
+        "matplotlib.tri.triinterpolate._DOF_estimator_min_E",
+        "matplotlib.tri._triinterpolate._DOF_estimator_min_E"
+      ],
+      "local_scores": [
+        0.5017421602787456,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.ListedColormap",
+      "api_type": "class",
+      "similarity": 0.501577287066246,
+      "evolution_path": [
+        "matplotlib.colors.ListedColormap"
+      ],
+      "local_scores": [
+        0.501577287066246
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.PaddedBox",
+      "api_type": "class",
+      "similarity": 0.49240121580547114,
+      "evolution_path": [
+        "matplotlib.offsetbox.PaddedBox"
+      ],
+      "local_scores": [
+        0.49240121580547114
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._triinterpolate._DOF_estimator",
+      "api_type": "class",
+      "similarity": 0.4897360703812317,
+      "evolution_path": [
+        "matplotlib.tri.triinterpolate._DOF_estimator",
+        "matplotlib.tri._triinterpolate._DOF_estimator"
+      ],
+      "local_scores": [
+        0.4897360703812317,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.PowerNorm",
+      "api_type": "class",
+      "similarity": 0.48773006134969327,
+      "evolution_path": [
+        "matplotlib.colors.PowerNorm"
+      ],
+      "local_scores": [
+        0.48773006134969327
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.StrConverter.StrConverter",
+      "api_type": "class",
+      "similarity": 0.48757763975155277,
+      "evolution_path": [
+        "matplotlib.testing.jpl_units.StrConverter.StrConverter"
+      ],
+      "local_scores": [
+        0.48757763975155277
+      ]
+    },
+    {
+      "fqn": "matplotlib.legend_handler.HandlerTuple",
+      "api_type": "class",
+      "similarity": 0.4784172661870504,
+      "evolution_path": [
+        "matplotlib.legend_handler.HandlerTuple"
+      ],
+      "local_scores": [
+        0.4784172661870504
+      ]
+    },
+    {
+      "fqn": "matplotlib.text.OffsetFrom",
+      "api_type": "class",
+      "similarity": 0.4755700325732899,
+      "evolution_path": [
+        "matplotlib.text.OffsetFrom"
+      ],
+      "local_scores": [
+        0.4755700325732899
+      ]
+    },
+    {
+      "fqn": "matplotlib._mathtext.Vlist",
+      "api_type": "class",
+      "similarity": 0.47384615384615386,
+      "evolution_path": [
+        "matplotlib._mathtext.Vlist"
+      ],
+      "local_scores": [
+        0.47384615384615386
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.PolyCollection",
+      "api_type": "class",
+      "similarity": 0.4732142857142857,
+      "evolution_path": [
+        "matplotlib.collections.PolyCollection"
+      ],
+      "local_scores": [
+        0.4732142857142857
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._axis_method_wrapper",
+      "api_type": "class",
+      "similarity": 0.4716312056737589,
+      "evolution_path": [
+        "matplotlib.axes._base._axis_method_wrapper"
+      ],
+      "local_scores": [
+        0.4716312056737589
+      ]
+    },
+    {
+      "fqn": "matplotlib.dviread.Tfm",
+      "api_type": "class",
+      "similarity": 0.47115384615384615,
+      "evolution_path": [
+        "matplotlib.dviread.Tfm"
+      ],
+      "local_scores": [
+        0.47115384615384615
+      ]
+    },
+    {
+      "fqn": "matplotlib.dviread.DviFont",
+      "api_type": "class",
+      "similarity": 0.46438746438746437,
+      "evolution_path": [
+        "matplotlib.dviread.DviFont"
+      ],
+      "local_scores": [
+        0.46438746438746437
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._tricontour.TriContourSet",
+      "api_type": "class",
+      "similarity": 0.4556170591103335,
+      "evolution_path": [
+        "matplotlib.tri.tricontour.TriContourSet",
+        "matplotlib.tri._tricontour.TriContourSet"
+      ],
+      "local_scores": [
+        0.4733893557422969,
+        0.962457337883959
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.colorbar.ColorbarPatch",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.colorbar.ColorbarPatch",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.transforms.TransformedBbox",
+          "similarity": 0.575851
+        },
+        {
+          "fqn": "matplotlib.projections.polar._WedgeBbox",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.colors.BoundaryNorm",
+          "similarity": 0.511494
+        },
+        {
+          "fqn": "matplotlib.hatch.Shapes",
+          "similarity": 0.510417
+        },
+        {
+          "fqn": "matplotlib.colorbar._ColorbarAxesLocator",
+          "similarity": 0.509615
+        },
+        {
+          "fqn": "matplotlib.streamplot.Grid",
+          "similarity": 0.507205
+        },
+        {
+          "fqn": "matplotlib.tri.triinterpolate._DOF_estimator_min_E",
+          "similarity": 0.501742
+        },
+        {
+          "fqn": "matplotlib.colors.ListedColormap",
+          "similarity": 0.501577
+        },
+        {
+          "fqn": "matplotlib.offsetbox.PaddedBox",
+          "similarity": 0.492401
+        },
+        {
+          "fqn": "matplotlib.tri.triinterpolate._DOF_estimator",
+          "similarity": 0.489736
+        },
+        {
+          "fqn": "matplotlib.colors.PowerNorm",
+          "similarity": 0.48773
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.StrConverter.StrConverter",
+          "similarity": 0.487578
+        },
+        {
+          "fqn": "matplotlib.legend_handler.HandlerTuple",
+          "similarity": 0.478417
+        },
+        {
+          "fqn": "matplotlib.text.OffsetFrom",
+          "similarity": 0.47557
+        },
+        {
+          "fqn": "matplotlib._mathtext.Vlist",
+          "similarity": 0.473846
+        },
+        {
+          "fqn": "matplotlib.tri.tricontour.TriContourSet",
+          "similarity": 0.473389
+        },
+        {
+          "fqn": "matplotlib.collections.PolyCollection",
+          "similarity": 0.473214
+        },
+        {
+          "fqn": "matplotlib.axes._base._axis_method_wrapper",
+          "similarity": 0.471631
+        },
+        {
+          "fqn": "matplotlib.dviread.Tfm",
+          "similarity": 0.471154
+        },
+        {
+          "fqn": "matplotlib.dviread.DviFont",
+          "similarity": 0.464387
+        }
+      ],
+      "entered_final": [
+        "matplotlib.transforms.TransformedBbox",
+        "matplotlib.projections.polar._WedgeBbox",
+        "matplotlib.colors.BoundaryNorm",
+        "matplotlib.hatch.Shapes",
+        "matplotlib.colorbar._ColorbarAxesLocator",
+        "matplotlib.streamplot.Grid",
+        "matplotlib.colors.ListedColormap",
+        "matplotlib.offsetbox.PaddedBox",
+        "matplotlib.colors.PowerNorm",
+        "matplotlib.testing.jpl_units.StrConverter.StrConverter",
+        "matplotlib.legend_handler.HandlerTuple",
+        "matplotlib.text.OffsetFrom",
+        "matplotlib._mathtext.Vlist",
+        "matplotlib.collections.PolyCollection",
+        "matplotlib.axes._base._axis_method_wrapper",
+        "matplotlib.dviread.Tfm",
+        "matplotlib.dviread.DviFont"
+      ],
+      "entered_iter": [
+        "matplotlib.tri.triinterpolate._DOF_estimator_min_E",
+        "matplotlib.tri.triinterpolate._DOF_estimator",
+        "matplotlib.tri.tricontour.TriContourSet"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tri.triinterpolate._DOF_estimator_min_E",
+      "path_score": 0.501742,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.tri.triinterpolate._DOF_estimator_min_E",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_min_E",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.tri._triinterpolate._DOF_estimator",
+          "similarity": 0.550676
+        },
+        {
+          "fqn": "matplotlib.dviread.Tfm",
+          "similarity": 0.535581
+        },
+        {
+          "fqn": "matplotlib._mathtext.Vlist",
+          "similarity": 0.519435
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes",
+          "similarity": 0.514815
+        },
+        {
+          "fqn": "matplotlib.patches.ConnectionStyle.Angle3",
+          "similarity": 0.514019
+        },
+        {
+          "fqn": "matplotlib.colors.PowerNorm",
+          "similarity": 0.508651
+        },
+        {
+          "fqn": "matplotlib.projections.geo.LambertAxes.LambertTransform",
+          "similarity": 0.508197
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qtagg.FigureCanvasQTAgg",
+          "similarity": 0.501779
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.Wedge",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.ConnectionStyle.Angle",
+          "similarity": 0.494881
+        },
+        {
+          "fqn": "matplotlib.projections.geo.LambertAxes.InvertedLambertTransform",
+          "similarity": 0.484
+        },
+        {
+          "fqn": "matplotlib.projections.geo.MollweideAxes.MollweideTransform",
+          "similarity": 0.481848
+        },
+        {
+          "fqn": "matplotlib.axes._base._axis_method_wrapper",
+          "similarity": 0.481781
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformedBbox",
+          "similarity": 0.4791
+        },
+        {
+          "fqn": "matplotlib.colors.ListedColormap",
+          "similarity": 0.477509
+        },
+        {
+          "fqn": "matplotlib.ticker.AutoMinorLocator",
+          "similarity": 0.477099
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes",
+          "similarity": 0.472574
+        },
+        {
+          "fqn": "matplotlib.colors.BoundaryNorm",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib.tri._tricontour.TriContourSet",
+          "similarity": 0.46789
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tri._triinterpolate._DOF_estimator_min_E",
+        "matplotlib.tri._triinterpolate._DOF_estimator",
+        "matplotlib.dviread.Tfm",
+        "matplotlib._mathtext.Vlist",
+        "matplotlib.projections.geo.HammerAxes",
+        "matplotlib.patches.ConnectionStyle.Angle3",
+        "matplotlib.colors.PowerNorm",
+        "matplotlib.projections.geo.LambertAxes.LambertTransform",
+        "matplotlib.backends.backend_qtagg.FigureCanvasQTAgg",
+        "matplotlib.patches.ArrowStyle.Wedge",
+        "matplotlib.patches.ConnectionStyle.Angle",
+        "matplotlib.projections.geo.LambertAxes.InvertedLambertTransform",
+        "matplotlib.projections.geo.MollweideAxes.MollweideTransform",
+        "matplotlib.axes._base._axis_method_wrapper",
+        "matplotlib.transforms.TransformedBbox",
+        "matplotlib.colors.ListedColormap",
+        "matplotlib.ticker.AutoMinorLocator",
+        "matplotlib.projections.geo.AitoffAxes",
+        "matplotlib.colors.BoundaryNorm",
+        "matplotlib.tri._tricontour.TriContourSet"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.268723,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tri.triinterpolate._DOF_estimator",
+      "path_score": 0.489736,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.tri.triinterpolate._DOF_estimator",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tri._triinterpolate._DOF_estimator",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_min_E",
+          "similarity": 0.550676
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformedBbox",
+          "similarity": 0.54755
+        },
+        {
+          "fqn": "matplotlib.projections.polar._WedgeBbox",
+          "similarity": 0.527439
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.Simple",
+          "similarity": 0.472081
+        },
+        {
+          "fqn": "matplotlib.streamplot.Grid",
+          "similarity": 0.457672
+        },
+        {
+          "fqn": "matplotlib.dviread.Tfm",
+          "similarity": 0.453731
+        },
+        {
+          "fqn": "matplotlib.collections.EllipseCollection",
+          "similarity": 0.439614
+        },
+        {
+          "fqn": "matplotlib.tri._tricontour.TriContourSet",
+          "similarity": 0.439276
+        },
+        {
+          "fqn": "matplotlib.lines._AxLine",
+          "similarity": 0.43734
+        },
+        {
+          "fqn": "matplotlib.colors.ListedColormap",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_geom",
+          "similarity": 0.435484
+        },
+        {
+          "fqn": "matplotlib.colors.LinearSegmentedColormap",
+          "similarity": 0.428879
+        },
+        {
+          "fqn": "matplotlib.patches.Wedge",
+          "similarity": 0.427896
+        },
+        {
+          "fqn": "matplotlib.colors.BoundaryNorm",
+          "similarity": 0.427835
+        },
+        {
+          "fqn": "matplotlib.text.OffsetFrom",
+          "similarity": 0.4273
+        },
+        {
+          "fqn": "matplotlib.patches.ConnectionStyle.Angle",
+          "similarity": 0.426593
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.Fancy",
+          "similarity": 0.422434
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.colorbar._ColorbarAxesLocator",
+          "similarity": 0.415205
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tri._triinterpolate._DOF_estimator",
+        "matplotlib.tri._triinterpolate._DOF_estimator_min_E",
+        "matplotlib.transforms.TransformedBbox",
+        "matplotlib.projections.polar._WedgeBbox",
+        "matplotlib.patches.ArrowStyle.Simple",
+        "matplotlib.streamplot.Grid",
+        "matplotlib.dviread.Tfm",
+        "matplotlib.collections.EllipseCollection",
+        "matplotlib.tri._tricontour.TriContourSet",
+        "matplotlib.colors.ListedColormap",
+        "matplotlib.tri._triinterpolate._DOF_estimator_geom",
+        "matplotlib.colors.LinearSegmentedColormap",
+        "matplotlib.patches.Wedge",
+        "matplotlib.colors.BoundaryNorm",
+        "matplotlib.text.OffsetFrom",
+        "matplotlib.patches.ConnectionStyle.Angle",
+        "matplotlib.patches.ArrowStyle.Fancy",
+        "matplotlib.projections.geo.HammerAxes",
+        "matplotlib.colorbar._ColorbarAxesLocator"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.lines._AxLine"
+      ],
+      "prune_bound": 0.276297,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tri.tricontour.TriContourSet",
+      "path_score": 0.473389,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.tri.tricontour.TriContourSet",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tri._tricontour.TriContourSet",
+          "similarity": 0.962457
+        },
+        {
+          "fqn": "matplotlib.streamplot.Grid",
+          "similarity": 0.542005
+        },
+        {
+          "fqn": "matplotlib.collections.PolyCollection",
+          "similarity": 0.535354
+        },
+        {
+          "fqn": "matplotlib.tri._triinterpolate.TriInterpolator",
+          "similarity": 0.534314
+        },
+        {
+          "fqn": "matplotlib.collections.EllipseCollection",
+          "similarity": 0.531172
+        },
+        {
+          "fqn": "matplotlib.collections.TriMesh",
+          "similarity": 0.507042
+        },
+        {
+          "fqn": "matplotlib.widgets.SliderBase",
+          "similarity": 0.506702
+        },
+        {
+          "fqn": "matplotlib.colors.PowerNorm",
+          "similarity": 0.504249
+        },
+        {
+          "fqn": "matplotlib.colors.BoundaryNorm",
+          "similarity": 0.501312
+        },
+        {
+          "fqn": "matplotlib.mathtext.MathtextBackendAgg",
+          "similarity": 0.493976
+        },
+        {
+          "fqn": "matplotlib.patches.StepPatch",
+          "similarity": 0.490644
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3agg.FigureCanvasGTK3Agg",
+          "similarity": 0.488608
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformedBbox",
+          "similarity": 0.487936
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformWrapper",
+          "similarity": 0.483776
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.PdfPages",
+          "similarity": 0.482517
+        },
+        {
+          "fqn": "matplotlib._mathtext.Hlist",
+          "similarity": 0.479319
+        },
+        {
+          "fqn": "matplotlib.transforms.BlendedGenericTransform",
+          "similarity": 0.477578
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qtagg.FigureCanvasQTAgg",
+          "similarity": 0.477143
+        },
+        {
+          "fqn": "matplotlib.mlab.GaussianKDE",
+          "similarity": 0.476821
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.FormDialog",
+          "similarity": 0.473193
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tri._tricontour.TriContourSet",
+        "matplotlib.streamplot.Grid",
+        "matplotlib.collections.PolyCollection",
+        "matplotlib.tri._triinterpolate.TriInterpolator",
+        "matplotlib.collections.EllipseCollection",
+        "matplotlib.collections.TriMesh",
+        "matplotlib.widgets.SliderBase",
+        "matplotlib.colors.PowerNorm",
+        "matplotlib.colors.BoundaryNorm",
+        "matplotlib.patches.StepPatch",
+        "matplotlib.backends.backend_gtk3agg.FigureCanvasGTK3Agg",
+        "matplotlib.transforms.TransformedBbox",
+        "matplotlib.transforms.TransformWrapper",
+        "matplotlib.backends.backend_pgf.PdfPages",
+        "matplotlib._mathtext.Hlist",
+        "matplotlib.transforms.BlendedGenericTransform",
+        "matplotlib.backends.backend_qtagg.FigureCanvasQTAgg",
+        "matplotlib.mlab.GaussianKDE",
+        "matplotlib.backends.qt_editor._formlayout.FormDialog"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.mathtext.MathtextBackendAgg"
+      ],
+      "prune_bound": 0.455617,
+      "dead_reason": null
+    }
+  ]
+}

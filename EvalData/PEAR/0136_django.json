@@ -1,0 +1,31 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.views.debug.ExceptionReporterFilter",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "NOT_FOUND",
+  "error": null,
+  "candidates": [],
+  "trace": [
+    {
+      "fqn": "django.views.debug.ExceptionReporterFilter",
+      "path_score": 1.0,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found_root"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.offsetbox.DraggableBase.on_motion_blit",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.offsetbox.DraggableBase.on_motion",
+      "api_type": "method",
+      "similarity": 0.847457627118644,
+      "evolution_path": [
+        "matplotlib.offsetbox.DraggableBase.on_motion"
+      ],
+      "local_scores": [
+        0.847457627118644
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.Button._motion",
+      "api_type": "method",
+      "similarity": 0.5967741935483871,
+      "evolution_path": [
+        "matplotlib.widgets.Button._motion"
+      ],
+      "local_scores": [
+        0.5967741935483871
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox._motion",
+      "api_type": "method",
+      "similarity": 0.5967741935483871,
+      "evolution_path": [
+        "matplotlib.widgets.TextBox._motion"
+      ],
+      "local_scores": [
+        0.5967741935483871
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.TimerTornado._timer_start",
+      "api_type": "method",
+      "similarity": 0.4788732394366197,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg_core.TimerTornado._timer_start"
+      ],
+      "local_scores": [
+        0.4788732394366197
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.NavigationToolbar2.pan",
+      "api_type": "method",
+      "similarity": 0.4782608695652174,
+      "evolution_path": [
+        "matplotlib.backend_bases.NavigationToolbar2.pan"
+      ],
+      "local_scores": [
+        0.4782608695652174
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.NavigationToolbar2.zoom",
+      "api_type": "method",
+      "similarity": 0.4782608695652174,
+      "evolution_path": [
+        "matplotlib.backend_bases.NavigationToolbar2.zoom"
+      ],
+      "local_scores": [
+        0.4782608695652174
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.PolygonSelector._press",
+      "api_type": "method",
+      "similarity": 0.4722222222222222,
+      "evolution_path": [
+        "matplotlib.widgets.PolygonSelector._press"
+      ],
+      "local_scores": [
+        0.4722222222222222
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.Tick.draw",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.axis.Tick.draw"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.quiver.QuiverKey.draw",
+      "api_type": "method",
+      "similarity": 0.4657534246575342,
+      "evolution_path": [
+        "matplotlib.quiver.QuiverKey.draw"
+      ],
+      "local_scores": [
+        0.4657534246575342
+      ]
+    },
+    {
+      "fqn": "matplotlib._mathtext.Accent._update_metrics",
+      "api_type": "method",
+      "similarity": 0.4603174603174603,
+      "evolution_path": [
+        "matplotlib._mathtext.Accent._update_metrics"
+      ],
+      "local_scores": [
+        0.4603174603174603
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox._click",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [
+        "matplotlib.widgets.TextBox._click"
+      ],
+      "local_scores": [
+        0.4583333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib._mathtext.Char._update_metrics",
+      "api_type": "method",
+      "similarity": 0.45588235294117646,
+      "evolution_path": [
+        "matplotlib._mathtext.Char._update_metrics"
+      ],
+      "local_scores": [
+        0.45588235294117646
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.Stream.end",
+      "api_type": "method",
+      "similarity": 0.45569620253164556,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.Stream.end"
+      ],
+      "local_scores": [
+        0.45569620253164556
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.DraggableBase.on_pick",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.offsetbox.DraggableBase.on_pick"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.SpanSelector.direction",
+      "api_type": "method",
+      "similarity": 0.4520547945205479,
+      "evolution_path": [
+        "matplotlib.widgets.SpanSelector.direction"
+      ],
+      "local_scores": [
+        0.4520547945205479
+      ]
+    },
+    {
+      "fqn": "matplotlib.animation.Animation._on_resize",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [
+        "matplotlib.animation.Animation._on_resize"
+      ],
+      "local_scores": [
+        0.45161290322580644
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.NavigationToolbar2.release_pan",
+      "api_type": "method",
+      "similarity": 0.44285714285714284,
+      "evolution_path": [
+        "matplotlib.backend_bases.NavigationToolbar2.release_pan"
+      ],
+      "local_scores": [
+        0.44285714285714284
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.CenteredNorm.autoscale",
+      "api_type": "method",
+      "similarity": 0.4426229508196721,
+      "evolution_path": [
+        "matplotlib.colors.CenteredNorm.autoscale"
+      ],
+      "local_scores": [
+        0.4426229508196721
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.XTick.update_position",
+      "api_type": "method",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [
+        "matplotlib.axis.XTick.update_position"
+      ],
+      "local_scores": [
+        0.4411764705882353
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_motion",
+      "api_type": "method",
+      "similarity": 0.28364468166221884,
+      "evolution_path": [
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._onMotion",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_motion"
+      ],
+      "local_scores": [
+        0.5081967213114754,
+        0.5581395348837209
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.offsetbox.DraggableBase.on_motion_blit",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.offsetbox.DraggableBase.on_motion_blit",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.offsetbox.DraggableBase.on_motion",
+          "similarity": 0.847458
+        },
+        {
+          "fqn": "matplotlib.widgets.Button._motion",
+          "similarity": 0.596774
+        },
+        {
+          "fqn": "matplotlib.widgets.TextBox._motion",
+          "similarity": 0.596774
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._onMotion",
+          "similarity": 0.508197
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.TimerTornado._timer_start",
+          "similarity": 0.478873
+        },
+        {
+          "fqn": "matplotlib.backend_bases.NavigationToolbar2.pan",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backend_bases.NavigationToolbar2.zoom",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.widgets.PolygonSelector._press",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib.axis.Tick.draw",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.quiver.QuiverKey.draw",
+          "similarity": 0.465753
+        },
+        {
+          "fqn": "matplotlib._mathtext.Accent._update_metrics",
+          "similarity": 0.460317
+        },
+        {
+          "fqn": "matplotlib.widgets.TextBox._click",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib._mathtext.Char._update_metrics",
+          "similarity": 0.455882
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Stream.end",
+          "similarity": 0.455696
+        },
+        {
+          "fqn": "matplotlib.offsetbox.DraggableBase.on_pick",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.widgets.SpanSelector.direction",
+          "similarity": 0.452055
+        },
+        {
+          "fqn": "matplotlib.animation.Animation._on_resize",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.backend_bases.NavigationToolbar2.release_pan",
+          "similarity": 0.442857
+        },
+        {
+          "fqn": "matplotlib.colors.CenteredNorm.autoscale",
+          "similarity": 0.442623
+        },
+        {
+          "fqn": "matplotlib.axis.XTick.update_position",
+          "similarity": 0.441176
+        }
+      ],
+      "entered_final": [
+        "matplotlib.offsetbox.DraggableBase.on_motion",
+        "matplotlib.widgets.Button._motion",
+        "matplotlib.widgets.TextBox._motion",
+        "matplotlib.backends.backend_webagg_core.TimerTornado._timer_start",
+        "matplotlib.backend_bases.NavigationToolbar2.pan",
+        "matplotlib.backend_bases.NavigationToolbar2.zoom",
+        "matplotlib.widgets.PolygonSelector._press",
+        "matplotlib.axis.Tick.draw",
+        "matplotlib.quiver.QuiverKey.draw",
+        "matplotlib._mathtext.Accent._update_metrics",
+        "matplotlib.widgets.TextBox._click",
+        "matplotlib._mathtext.Char._update_metrics",
+        "matplotlib.backends.backend_pdf.Stream.end",
+        "matplotlib.offsetbox.DraggableBase.on_pick",
+        "matplotlib.widgets.SpanSelector.direction",
+        "matplotlib.animation.Animation._on_resize",
+        "matplotlib.backend_bases.NavigationToolbar2.release_pan",
+        "matplotlib.colors.CenteredNorm.autoscale",
+        "matplotlib.axis.XTick.update_position"
+      ],
+      "entered_iter": [
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._onMotion"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._onMotion",
+      "path_score": 0.508197,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._onMotion",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_motion",
+          "similarity": 0.55814
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.Epoch.Epoch.__add__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.SingleFigurePage.get",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolGrid.trigger",
+          "similarity": 0.472727
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolMinorGrid.trigger",
+          "similarity": 0.472727
+        },
+        {
+          "fqn": "matplotlib.backends.backend_agg.RendererAgg._prepare_font",
+          "similarity": 0.471698
+        },
+        {
+          "fqn": "matplotlib.offsetbox.DraggableBase.on_motion",
+          "similarity": 0.469697
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.Epoch.Epoch._cmp",
+          "similarity": 0.465517
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.get_majorticklines",
+          "similarity": 0.462963
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.get_minorticklines",
+          "similarity": 0.462963
+        },
+        {
+          "fqn": "matplotlib.backends._backend_pdf_ps.CharacterTracker.track",
+          "similarity": 0.462963
+        },
+        {
+          "fqn": "matplotlib.transforms.BboxBase.rotated",
+          "similarity": 0.462963
+        },
+        {
+          "fqn": "matplotlib.animation.MovieWriter._run",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_enter",
+          "similarity": 0.456522
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_leave",
+          "similarity": 0.456522
+        },
+        {
+          "fqn": "matplotlib.backends._backend_pdf_ps.RendererPDFPSBase._get_font_ttf",
+          "similarity": 0.45614
+        },
+        {
+          "fqn": "matplotlib.colors.ListedColormap.resampled",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.category.StrCategoryConverter.axisinfo",
+          "similarity": 0.45098
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget._get_data",
+          "similarity": 0.45
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.WebSocket.on_message",
+          "similarity": 0.448276
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_motion",
+        "matplotlib.testing.jpl_units.Epoch.Epoch.__add__",
+        "matplotlib.backends.backend_webagg.WebAggApplication.SingleFigurePage.get",
+        "matplotlib.backend_tools.ToolGrid.trigger",
+        "matplotlib.backend_tools.ToolMinorGrid.trigger",
+        "matplotlib.backends.backend_agg.RendererAgg._prepare_font",
+        "matplotlib.offsetbox.DraggableBase.on_motion",
+        "matplotlib.testing.jpl_units.Epoch.Epoch._cmp",
+        "matplotlib.axis.Axis.get_majorticklines",
+        "matplotlib.axis.Axis.get_minorticklines",
+        "matplotlib.backends._backend_pdf_ps.CharacterTracker.track",
+        "matplotlib.transforms.BboxBase.rotated",
+        "matplotlib.animation.MovieWriter._run",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_enter",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_leave",
+        "matplotlib.backends._backend_pdf_ps.RendererPDFPSBase._get_font_ttf",
+        "matplotlib.colors.ListedColormap.resampled",
+        "matplotlib.category.StrCategoryConverter.axisinfo",
+        "matplotlib.widgets._SelectorWidget._get_data",
+        "matplotlib.backends.backend_webagg.WebAggApplication.WebSocket.on_message"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.283645,
+      "dead_reason": null
+    }
+  ]
+}

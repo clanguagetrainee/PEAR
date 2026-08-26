@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.colorbar.Colorbar.on_mappable_changed",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.widgets.RangeSlider.on_changed",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.Slider.on_changed",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.Button.on_clicked",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox.on_submit",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._Buttons.on_clicked",
+      "api_type": "method",
+      "similarity": 0.4642857142857143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.MultiNorm._changed",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.Norm._changed",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox.on_text_change",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx._HelpDialog._on_close",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image._ImageBase.changed",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.SubplotTool._on_slider_changed",
+      "api_type": "method",
+      "similarity": 0.425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.Text.set_clip_on",
+      "api_type": "method",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.set_autoscale_on",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer.Colorizer.changed",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolZoom._switch_on_zoom_mode",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget.on_scroll",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer._ScalarMappable.changed",
+      "api_type": "method",
+      "similarity": 0.39285714285714285,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_enter",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_leave",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_nbagg.CommSocket.on_close",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

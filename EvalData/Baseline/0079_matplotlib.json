@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.projections.polar.ThetaAxis.cla",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.projections.polar.ThetaAxis.clear",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.polar.RadialAxis.clear",
+      "api_type": "method",
+      "similarity": 0.5416666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.pan",
+      "api_type": "method",
+      "similarity": 0.48148148148148145,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.zoom",
+      "api_type": "method",
+      "similarity": 0.48148148148148145,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorbar.Colorbar._cbar_cla",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._secondary_axes.SecondaryAxis.draw",
+      "api_type": "method",
+      "similarity": 0.4642857142857143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.cla",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._mathtext.Accent.shrink",
+      "api_type": "method",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.draw",
+      "api_type": "method",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.qt_editor._formlayout.FormDialog.accept",
+      "api_type": "method",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.testing.compare._SVGConverter.__del__",
+      "api_type": "method",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.LambertAxes.clear",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk3.FigureCanvasGTK3.destroy",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.draw",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_gtk._NavigationToolbar2GTK.pan",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_gtk._NavigationToolbar2GTK.zoom",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.NavigationToolbar2Tk.pan",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.NavigationToolbar2Tk.zoom",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.FigureCanvasPdf.draw",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf.paint",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

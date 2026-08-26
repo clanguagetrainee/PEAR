@@ -1,0 +1,474 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.5.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.ticker.LogFormatter.base",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.ticker.LogFormatter.set_base",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [
+        "matplotlib.ticker.LogFormatter.set_base"
+      ],
+      "local_scores": [
+        0.6470588235294118
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.Bbox.ignore",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "matplotlib.transforms.Bbox.ignore"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "matplotlib.gridspec.SubplotSpec.num2",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [
+        "matplotlib.gridspec.SubplotSpec.num2"
+      ],
+      "local_scores": [
+        0.5333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.scale.FuncScaleLog.base",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [
+        "matplotlib.scale.FuncScaleLog.base"
+      ],
+      "local_scores": [
+        0.5333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.LinearLocator.numticks",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [
+        "matplotlib.ticker.LinearLocator.numticks"
+      ],
+      "local_scores": [
+        0.5333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.PercentFormatter.symbol",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [
+        "matplotlib.ticker.PercentFormatter.symbol"
+      ],
+      "local_scores": [
+        0.5333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.SymLogNorm.linthresh",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.colors.SymLogNorm.linthresh"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.dviread.Dvi._post",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.dviread.Dvi._post"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure.SubFigure.dpi",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.figure.SubFigure.dpi"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_gid",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.artist.Artist.set_gid"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_picker",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.artist.Artist.set_picker"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_url",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.artist.Artist.set_url"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.set_navigate",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.set_navigate"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_gid",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_gid"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_hatch",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_hatch"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_snap",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_snap"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_url",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_url"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolBase.set_figure",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.backend_tools.ToolBase.set_figure"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.dates.AutoDateFormatter._set_locator",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.dates.AutoDateFormatter._set_locator"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorizer._ColorizerInterface.set_norm",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.cm.ScalarMappable.set_norm",
+        "matplotlib.colorizer._ColorizerInterface.set_norm"
+      ],
+      "local_scores": [
+        0.47058823529411764,
+        1.0
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.ticker.LogFormatter.base",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.ticker.LogFormatter.base",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.ticker.LogFormatter.set_base",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.transforms.Bbox.ignore",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.gridspec.SubplotSpec.num2",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "matplotlib.scale.FuncScaleLog.base",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "matplotlib.ticker.LinearLocator.numticks",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "matplotlib.ticker.PercentFormatter.symbol",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "matplotlib.colors.SymLogNorm.linthresh",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.dviread.Dvi._post",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.figure.SubFigure.dpi",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_gid",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_picker",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_url",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_navigate",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_gid",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_hatch",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_snap",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_url",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolBase.set_figure",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.set_norm",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.dates.AutoDateFormatter._set_locator",
+          "similarity": 0.470588
+        }
+      ],
+      "entered_final": [
+        "matplotlib.ticker.LogFormatter.set_base",
+        "matplotlib.transforms.Bbox.ignore",
+        "matplotlib.gridspec.SubplotSpec.num2",
+        "matplotlib.scale.FuncScaleLog.base",
+        "matplotlib.ticker.LinearLocator.numticks",
+        "matplotlib.ticker.PercentFormatter.symbol",
+        "matplotlib.colors.SymLogNorm.linthresh",
+        "matplotlib.dviread.Dvi._post",
+        "matplotlib.figure.SubFigure.dpi",
+        "matplotlib.artist.Artist.set_gid",
+        "matplotlib.artist.Artist.set_picker",
+        "matplotlib.artist.Artist.set_url",
+        "matplotlib.axes._base._AxesBase.set_navigate",
+        "matplotlib.backend_bases.GraphicsContextBase.set_gid",
+        "matplotlib.backend_bases.GraphicsContextBase.set_hatch",
+        "matplotlib.backend_bases.GraphicsContextBase.set_snap",
+        "matplotlib.backend_bases.GraphicsContextBase.set_url",
+        "matplotlib.backend_tools.ToolBase.set_figure",
+        "matplotlib.dates.AutoDateFormatter._set_locator"
+      ],
+      "entered_iter": [
+        "matplotlib.cm.ScalarMappable.set_norm"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cm.ScalarMappable.set_norm",
+      "path_score": 0.470588,
+      "boundary": "DEPRECATED",
+      "vpre": "3.9.4",
+      "vpost": "3.10.0",
+      "resolved_fqn": "matplotlib.cm.ScalarMappable.set_norm",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.colorizer._ColorizerInterface.set_norm",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.colorizer._ColorizerInterface.norm",
+          "similarity": 0.6875
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_gid",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_picker",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_url",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_navigate",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_gid",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_hatch",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_snap",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_url",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolBase.set_figure",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.colorizer._ColorizerInterface.set_cmap",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.dates.AutoDateFormatter._set_locator",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.set_canvas",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.legend.Legend.set_ncols",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.patches.PathPatch.set_path",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.text.Annotation.set_anncoords",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_wrap",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.ticker.Formatter.set_locs",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "matplotlib.ticker.TickHelper.set_axis",
+          "similarity": 0.647059
+        }
+      ],
+      "entered_final": [
+        "matplotlib.colorizer._ColorizerInterface.set_norm",
+        "matplotlib.colorizer._ColorizerInterface.norm",
+        "matplotlib.artist.Artist.set_gid",
+        "matplotlib.artist.Artist.set_picker",
+        "matplotlib.artist.Artist.set_url",
+        "matplotlib.axes._base._AxesBase.set_navigate",
+        "matplotlib.backend_bases.GraphicsContextBase.set_gid",
+        "matplotlib.backend_bases.GraphicsContextBase.set_hatch",
+        "matplotlib.backend_bases.GraphicsContextBase.set_snap",
+        "matplotlib.backend_bases.GraphicsContextBase.set_url",
+        "matplotlib.backend_tools.ToolBase.set_figure",
+        "matplotlib.colorizer._ColorizerInterface.set_cmap",
+        "matplotlib.dates.AutoDateFormatter._set_locator",
+        "matplotlib.figure.Figure.set_canvas",
+        "matplotlib.legend.Legend.set_ncols",
+        "matplotlib.patches.PathPatch.set_path",
+        "matplotlib.text.Annotation.set_anncoords",
+        "matplotlib.text.Text.set_wrap",
+        "matplotlib.ticker.Formatter.set_locs",
+        "matplotlib.ticker.TickHelper.set_axis"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.470588,
+      "dead_reason": null
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "4.1.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.test.testcases.TransactionTestCase.assertQuerysetEqual",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.test.testcases.TransactionTestCase.assertQuerySetEqual",
+      "api_type": "method",
+      "similarity": 0.8723404255319149,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.UserManager.with_perm",
+      "api_type": "method",
+      "similarity": 0.5675675675675675,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.composite.CompositeAttribute.__set__",
+      "api_type": "method",
+      "similarity": 0.5233644859813084,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.sql.query.Query.resolve_lookup_value",
+      "api_type": "method",
+      "similarity": 0.5137614678899083,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.apps.config.AppConfig._path_from_module",
+      "api_type": "method",
+      "similarity": 0.5126050420168067,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.io._WKBReader.read",
+      "api_type": "method",
+      "similarity": 0.5092592592592593,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.base.operations.BaseDatabaseOperations.window_frame_rows_start_end",
+      "api_type": "method",
+      "similarity": 0.5083333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.lookups.In.process_rhs",
+      "api_type": "method",
+      "similarity": 0.5081967213114754,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.base.Storage.save",
+      "api_type": "method",
+      "similarity": 0.504950495049505,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.BaseExpression.resolve_expression",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.manager.BaseManager._get_queryset_methods",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.datetime.TruncBase.convert_value",
+      "api_type": "method",
+      "similarity": 0.4956521739130435,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.signing.TimestampSigner.unsign",
+      "api_type": "method",
+      "similarity": 0.4954128440366973,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.testcases.SimpleTestCase.assertContains",
+      "api_type": "method",
+      "similarity": 0.4915254237288136,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.graph.MigrationGraph.make_state",
+      "api_type": "method",
+      "similarity": 0.4909090909090909,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.sites.AdminSite.admin_view",
+      "api_type": "method",
+      "similarity": 0.48739495798319327,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.backends.ModelBackend._get_permissions",
+      "api_type": "method",
+      "similarity": 0.48739495798319327,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.layer.Layer._set_spatial_filter",
+      "api_type": "method",
+      "similarity": 0.48695652173913045,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.testcases.SimpleTestCase.assertURLEqual",
+      "api_type": "method",
+      "similarity": 0.4864864864864865,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.Field.get_choices",
+      "api_type": "method",
+      "similarity": 0.48360655737704916,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

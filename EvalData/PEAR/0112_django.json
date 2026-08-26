@@ -1,0 +1,713 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.8.19",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.fields.related.ManyRelatedObjectsDescriptor",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.db.models.fields.files.FileDescriptor",
+      "api_type": "class",
+      "similarity": 0.5353982300884956,
+      "evolution_path": [
+        "django.db.models.fields.files.FileDescriptor"
+      ],
+      "local_scores": [
+        0.5353982300884956
+      ]
+    },
+    {
+      "fqn": "django.contrib.contenttypes.forms.BaseGenericInlineFormSet",
+      "api_type": "class",
+      "similarity": 0.5289256198347108,
+      "evolution_path": [
+        "django.contrib.contenttypes.forms.BaseGenericInlineFormSet"
+      ],
+      "local_scores": [
+        0.5289256198347108
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
+      "api_type": "class",
+      "similarity": 0.4702702702702703,
+      "evolution_path": [
+        "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor"
+      ],
+      "local_scores": [
+        0.4702702702702703
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.proxy.SpatialProxy",
+      "api_type": "class",
+      "similarity": 0.46184738955823296,
+      "evolution_path": [
+        "django.contrib.gis.db.models.proxy.SpatialProxy"
+      ],
+      "local_scores": [
+        0.46184738955823296
+      ]
+    },
+    {
+      "fqn": "django.template.loader_tags.BlockNode",
+      "api_type": "class",
+      "similarity": 0.46184738955823296,
+      "evolution_path": [
+        "django.template.loader_tags.BlockNode"
+      ],
+      "local_scores": [
+        0.46184738955823296
+      ]
+    },
+    {
+      "fqn": "django.forms.fields.RegexField",
+      "api_type": "class",
+      "similarity": 0.4605263157894737,
+      "evolution_path": [
+        "django.forms.fields.RegexField"
+      ],
+      "local_scores": [
+        0.4605263157894737
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.reverse_related.ManyToOneRel",
+      "api_type": "class",
+      "similarity": 0.4597156398104265,
+      "evolution_path": [
+        "django.db.models.fields.reverse_related.ManyToOneRel"
+      ],
+      "local_scores": [
+        0.4597156398104265
+      ]
+    },
+    {
+      "fqn": "django.db.models.query_utils.DeferredAttribute",
+      "api_type": "class",
+      "similarity": 0.45901639344262296,
+      "evolution_path": [
+        "django.db.models.query_utils.DeferredAttribute"
+      ],
+      "local_scores": [
+        0.45901639344262296
+      ]
+    },
+    {
+      "fqn": "django.templatetags.i18n.TranslateNode",
+      "api_type": "class",
+      "similarity": 0.4523809523809524,
+      "evolution_path": [
+        "django.templatetags.i18n.TranslateNode"
+      ],
+      "local_scores": [
+        0.4523809523809524
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.validators.KeysValidator",
+      "api_type": "class",
+      "similarity": 0.45188284518828453,
+      "evolution_path": [
+        "django.contrib.postgres.validators.KeysValidator"
+      ],
+      "local_scores": [
+        0.45188284518828453
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.operations.models.AlterModelTable",
+      "api_type": "class",
+      "similarity": 0.45104895104895104,
+      "evolution_path": [
+        "django.db.migrations.operations.models.AlterModelTable"
+      ],
+      "local_scores": [
+        0.45104895104895104
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.helpers.Fieldline",
+      "api_type": "class",
+      "similarity": 0.45,
+      "evolution_path": [
+        "django.contrib.admin.helpers.Fieldline"
+      ],
+      "local_scores": [
+        0.45
+      ]
+    },
+    {
+      "fqn": "django.contrib.staticfiles.finders.BaseStorageFinder",
+      "api_type": "class",
+      "similarity": 0.4479638009049774,
+      "evolution_path": [
+        "django.contrib.staticfiles.finders.BaseStorageFinder"
+      ],
+      "local_scores": [
+        0.4479638009049774
+      ]
+    },
+    {
+      "fqn": "django.test.utils.ignore_warnings",
+      "api_type": "class",
+      "similarity": 0.44711538461538464,
+      "evolution_path": [
+        "django.test.utils.ignore_warnings"
+      ],
+      "local_scores": [
+        0.44711538461538464
+      ]
+    },
+    {
+      "fqn": "django.contrib.sessions.middleware.SessionMiddleware",
+      "api_type": "class",
+      "similarity": 0.44664031620553357,
+      "evolution_path": [
+        "django.contrib.sessions.middleware.SessionMiddleware"
+      ],
+      "local_scores": [
+        0.44664031620553357
+      ]
+    },
+    {
+      "fqn": "django.contrib.sites.managers.CurrentSiteManager",
+      "api_type": "class",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "django.contrib.sites.managers.CurrentSiteManager"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "django.utils.archive.Archive",
+      "api_type": "class",
+      "similarity": 0.44214876033057854,
+      "evolution_path": [
+        "django.utils.archive.Archive"
+      ],
+      "local_scores": [
+        0.44214876033057854
+      ]
+    },
+    {
+      "fqn": "django.db.models.query_utils.FilteredRelation",
+      "api_type": "class",
+      "similarity": 0.27858248343188224,
+      "evolution_path": [
+        "django.db.models.sql.where.SubqueryConstraint",
+        "django.db.models.query_utils.FilteredRelation"
+      ],
+      "local_scores": [
+        0.484304932735426,
+        0.5752212389380531
+      ]
+    },
+    {
+      "fqn": "django.contrib.flatpages.templatetags.flatpages.FlatpageNode",
+      "api_type": "class",
+      "similarity": 0.2577752061333719,
+      "evolution_path": [
+        "django.db.models.sql.where.SubqueryConstraint",
+        "django.contrib.flatpages.templatetags.flatpages.FlatpageNode"
+      ],
+      "local_scores": [
+        0.484304932735426,
+        0.532258064516129
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.Col",
+      "api_type": "class",
+      "similarity": 0.25426008968609864,
+      "evolution_path": [
+        "django.db.models.sql.where.SubqueryConstraint",
+        "django.db.models.expressions.Col"
+      ],
+      "local_scores": [
+        0.484304932735426,
+        0.525
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.db.models.fields.related.ManyRelatedObjectsDescriptor",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "1.8.19",
+      "vpost": "1.9",
+      "resolved_fqn": "django.db.models.fields.related.ManyRelatedObjectsDescriptor",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.db.models.fields.files.FileDescriptor",
+          "similarity": 0.535398
+        },
+        {
+          "fqn": "django.contrib.contenttypes.forms.BaseGenericInlineFormSet",
+          "similarity": 0.528926
+        },
+        {
+          "fqn": "django.db.models.sql.where.SubqueryConstraint",
+          "similarity": 0.484305
+        },
+        {
+          "fqn": "django.utils.timezone.ReferenceLocalTimezone",
+          "similarity": 0.477477
+        },
+        {
+          "fqn": "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
+          "similarity": 0.47027
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.proxy.SpatialProxy",
+          "similarity": 0.461847
+        },
+        {
+          "fqn": "django.template.loader_tags.BlockNode",
+          "similarity": 0.461847
+        },
+        {
+          "fqn": "django.forms.fields.RegexField",
+          "similarity": 0.460526
+        },
+        {
+          "fqn": "django.db.models.fields.reverse_related.ManyToOneRel",
+          "similarity": 0.459716
+        },
+        {
+          "fqn": "django.db.models.query_utils.DeferredAttribute",
+          "similarity": 0.459016
+        },
+        {
+          "fqn": "django.templatetags.i18n.TranslateNode",
+          "similarity": 0.452381
+        },
+        {
+          "fqn": "django.contrib.postgres.validators.KeysValidator",
+          "similarity": 0.451883
+        },
+        {
+          "fqn": "django.db.migrations.operations.models.AlterModelTable",
+          "similarity": 0.451049
+        },
+        {
+          "fqn": "django.contrib.admin.helpers.Fieldline",
+          "similarity": 0.45
+        },
+        {
+          "fqn": "django.contrib.staticfiles.finders.BaseStorageFinder",
+          "similarity": 0.447964
+        },
+        {
+          "fqn": "django.test.utils.ignore_warnings",
+          "similarity": 0.447115
+        },
+        {
+          "fqn": "django.contrib.sessions.middleware.SessionMiddleware",
+          "similarity": 0.44664
+        },
+        {
+          "fqn": "django.contrib.gis.maps.google.overlays.GMarker",
+          "similarity": 0.444898
+        },
+        {
+          "fqn": "django.contrib.sites.managers.CurrentSiteManager",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "django.utils.archive.Archive",
+          "similarity": 0.442149
+        }
+      ],
+      "entered_final": [
+        "django.db.models.fields.files.FileDescriptor",
+        "django.contrib.contenttypes.forms.BaseGenericInlineFormSet",
+        "django.db.models.fields.related_descriptors.ReverseManyToOneDescriptor",
+        "django.contrib.gis.db.models.proxy.SpatialProxy",
+        "django.template.loader_tags.BlockNode",
+        "django.forms.fields.RegexField",
+        "django.db.models.fields.reverse_related.ManyToOneRel",
+        "django.db.models.query_utils.DeferredAttribute",
+        "django.templatetags.i18n.TranslateNode",
+        "django.contrib.postgres.validators.KeysValidator",
+        "django.db.migrations.operations.models.AlterModelTable",
+        "django.contrib.admin.helpers.Fieldline",
+        "django.contrib.staticfiles.finders.BaseStorageFinder",
+        "django.test.utils.ignore_warnings",
+        "django.contrib.sessions.middleware.SessionMiddleware",
+        "django.contrib.sites.managers.CurrentSiteManager",
+        "django.utils.archive.Archive"
+      ],
+      "entered_iter": [
+        "django.db.models.sql.where.SubqueryConstraint",
+        "django.utils.timezone.ReferenceLocalTimezone",
+        "django.contrib.gis.maps.google.overlays.GMarker"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.db.models.sql.where.SubqueryConstraint",
+      "path_score": 0.484305,
+      "boundary": "DEPRECATED",
+      "vpre": "5.1.15",
+      "vpost": "5.2",
+      "resolved_fqn": "django.db.models.sql.where.SubqueryConstraint",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.db.models.query_utils.FilteredRelation",
+          "similarity": 0.575221
+        },
+        {
+          "fqn": "django.templatetags.i18n.TranslateNode",
+          "similarity": 0.556757
+        },
+        {
+          "fqn": "django.contrib.flatpages.templatetags.flatpages.FlatpageNode",
+          "similarity": 0.532258
+        },
+        {
+          "fqn": "django.contrib.admin.helpers.Fieldline",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "django.db.models.expressions.Col",
+          "similarity": 0.525
+        },
+        {
+          "fqn": "django.template.defaulttags.URLNode",
+          "similarity": 0.521951
+        },
+        {
+          "fqn": "django.db.backends.ddl_references.Expressions",
+          "similarity": 0.518349
+        },
+        {
+          "fqn": "django.contrib.postgres.search.SearchQuery",
+          "similarity": 0.517699
+        },
+        {
+          "fqn": "django.db.models.sql.query.JoinPromoter",
+          "similarity": 0.514563
+        },
+        {
+          "fqn": "django.template.loader_tags.BlockNode",
+          "similarity": 0.50885
+        },
+        {
+          "fqn": "django.template.library.InclusionNode",
+          "similarity": 0.504762
+        },
+        {
+          "fqn": "django.core.validators.BaseValidator",
+          "similarity": 0.502564
+        },
+        {
+          "fqn": "django.template.context.Context",
+          "similarity": 0.502513
+        },
+        {
+          "fqn": "django.core.validators.RegexValidator",
+          "similarity": 0.497738
+        },
+        {
+          "fqn": "django.contrib.contenttypes.management.__init__.RenameContentType",
+          "similarity": 0.497608
+        },
+        {
+          "fqn": "django.template.context.RequestContext",
+          "similarity": 0.49537
+        },
+        {
+          "fqn": "django.contrib.staticfiles.finders.BaseStorageFinder",
+          "similarity": 0.495098
+        },
+        {
+          "fqn": "django.urls.resolvers.RegexPattern",
+          "similarity": 0.493506
+        },
+        {
+          "fqn": "django.contrib.postgres.validators.KeysValidator",
+          "similarity": 0.492537
+        },
+        {
+          "fqn": "django.db.models.query_utils.DeferredAttribute",
+          "similarity": 0.489583
+        }
+      ],
+      "entered_final": [
+        "django.db.models.query_utils.FilteredRelation",
+        "django.templatetags.i18n.TranslateNode",
+        "django.contrib.flatpages.templatetags.flatpages.FlatpageNode",
+        "django.contrib.admin.helpers.Fieldline",
+        "django.db.models.expressions.Col",
+        "django.template.defaulttags.URLNode",
+        "django.db.backends.ddl_references.Expressions",
+        "django.contrib.postgres.search.SearchQuery",
+        "django.db.models.sql.query.JoinPromoter",
+        "django.template.loader_tags.BlockNode",
+        "django.template.library.InclusionNode",
+        "django.core.validators.BaseValidator",
+        "django.template.context.Context",
+        "django.core.validators.RegexValidator",
+        "django.contrib.contenttypes.management.__init__.RenameContentType",
+        "django.template.context.RequestContext",
+        "django.contrib.staticfiles.finders.BaseStorageFinder",
+        "django.urls.resolvers.RegexPattern",
+        "django.contrib.postgres.validators.KeysValidator",
+        "django.db.models.query_utils.DeferredAttribute"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.257775,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.utils.timezone.ReferenceLocalTimezone",
+      "path_score": 0.477477,
+      "boundary": "DEPRECATED",
+      "vpre": "1.10.8",
+      "vpost": "1.11",
+      "resolved_fqn": "django.utils.timezone.ReferenceLocalTimezone",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.admin.helpers.Fieldline",
+          "similarity": 0.494898
+        },
+        {
+          "fqn": "django.utils.functional.SimpleLazyObject",
+          "similarity": 0.494737
+        },
+        {
+          "fqn": "django.templatetags.i18n.TranslateNode",
+          "similarity": 0.491979
+        },
+        {
+          "fqn": "django.db.migrations.operations.models.AddIndex",
+          "similarity": 0.488789
+        },
+        {
+          "fqn": "django.contrib.contenttypes.management.__init__.RenameContentType",
+          "similarity": 0.488038
+        },
+        {
+          "fqn": "django.db.backends.mysql.base.CursorWrapper",
+          "similarity": 0.484444
+        },
+        {
+          "fqn": "django.db.models.expressions.Value",
+          "similarity": 0.479638
+        },
+        {
+          "fqn": "django.db.models.query_utils.DeferredAttribute",
+          "similarity": 0.476923
+        },
+        {
+          "fqn": "django.template.loader_tags.BlockNode",
+          "similarity": 0.475983
+        },
+        {
+          "fqn": "django.contrib.admin.helpers.AdminField",
+          "similarity": 0.471204
+        },
+        {
+          "fqn": "django.contrib.flatpages.templatetags.flatpages.FlatpageNode",
+          "similarity": 0.46875
+        },
+        {
+          "fqn": "django.contrib.messages.storage.base.Message",
+          "similarity": 0.463415
+        },
+        {
+          "fqn": "django.contrib.staticfiles.finders.BaseStorageFinder",
+          "similarity": 0.462687
+        },
+        {
+          "fqn": "django.contrib.messages.storage.session.SessionStorage",
+          "similarity": 0.461905
+        },
+        {
+          "fqn": "django.template.library.InclusionNode",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "django.template.context.Context",
+          "similarity": 0.456311
+        },
+        {
+          "fqn": "django.core.mail.backends.console.EmailBackend",
+          "similarity": 0.456221
+        },
+        {
+          "fqn": "django.contrib.postgres.validators.KeysValidator",
+          "similarity": 0.452489
+        },
+        {
+          "fqn": "django.contrib.sites.managers.CurrentSiteManager",
+          "similarity": 0.452282
+        },
+        {
+          "fqn": "django.db.migrations.operations.models.RemoveIndex",
+          "similarity": 0.452282
+        }
+      ],
+      "entered_final": [
+        "django.contrib.admin.helpers.Fieldline",
+        "django.utils.functional.SimpleLazyObject",
+        "django.templatetags.i18n.TranslateNode",
+        "django.db.migrations.operations.models.AddIndex",
+        "django.contrib.contenttypes.management.__init__.RenameContentType",
+        "django.db.backends.mysql.base.CursorWrapper",
+        "django.db.models.expressions.Value",
+        "django.db.models.query_utils.DeferredAttribute",
+        "django.template.loader_tags.BlockNode",
+        "django.contrib.admin.helpers.AdminField",
+        "django.contrib.flatpages.templatetags.flatpages.FlatpageNode",
+        "django.contrib.messages.storage.base.Message",
+        "django.contrib.staticfiles.finders.BaseStorageFinder",
+        "django.contrib.messages.storage.session.SessionStorage",
+        "django.template.library.InclusionNode",
+        "django.template.context.Context",
+        "django.core.mail.backends.console.EmailBackend",
+        "django.contrib.postgres.validators.KeysValidator",
+        "django.contrib.sites.managers.CurrentSiteManager",
+        "django.db.migrations.operations.models.RemoveIndex"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.257775,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.gis.maps.google.overlays.GMarker",
+      "path_score": 0.444898,
+      "boundary": "DEPRECATED",
+      "vpre": "1.10.8",
+      "vpost": "1.11",
+      "resolved_fqn": "django.contrib.gis.maps.google.overlays.GMarker",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.core.signing.Signer",
+          "similarity": 0.563636
+        },
+        {
+          "fqn": "django.contrib.postgres.validators.KeysValidator",
+          "similarity": 0.549107
+        },
+        {
+          "fqn": "django.contrib.postgres.indexes.BrinIndex",
+          "similarity": 0.543478
+        },
+        {
+          "fqn": "django.forms.fields.CharField",
+          "similarity": 0.537445
+        },
+        {
+          "fqn": "django.template.loader_tags.BlockNode",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "django.contrib.gis.sitemaps.kml.KMLSitemap",
+          "similarity": 0.518367
+        },
+        {
+          "fqn": "django.template.library.InclusionNode",
+          "similarity": 0.515556
+        },
+        {
+          "fqn": "django.forms.fields.TypedMultipleChoiceField",
+          "similarity": 0.511312
+        },
+        {
+          "fqn": "django.contrib.staticfiles.finders.BaseStorageFinder",
+          "similarity": 0.509434
+        },
+        {
+          "fqn": "django.template.context.Context",
+          "similarity": 0.509259
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.Area",
+          "similarity": 0.506849
+        },
+        {
+          "fqn": "django.template.base.Token",
+          "similarity": 0.504808
+        },
+        {
+          "fqn": "django.contrib.admin.helpers.Fieldline",
+          "similarity": 0.504717
+        },
+        {
+          "fqn": "django.contrib.auth.forms.SetPasswordForm",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.forms.models.InlineForeignKeyField",
+          "similarity": 0.497758
+        },
+        {
+          "fqn": "django.forms.fields.IntegerField",
+          "similarity": 0.496241
+        },
+        {
+          "fqn": "django.contrib.admin.filters.SimpleListFilter",
+          "similarity": 0.496032
+        },
+        {
+          "fqn": "django.templatetags.i18n.TranslateNode",
+          "similarity": 0.495098
+        },
+        {
+          "fqn": "django.contrib.admin.filters.ChoicesFieldListFilter",
+          "similarity": 0.49345
+        },
+        {
+          "fqn": "django.contrib.postgres.fields.jsonb.KeyTransform",
+          "similarity": 0.490291
+        }
+      ],
+      "entered_final": [
+        "django.core.signing.Signer",
+        "django.contrib.postgres.validators.KeysValidator",
+        "django.contrib.postgres.indexes.BrinIndex",
+        "django.forms.fields.CharField",
+        "django.template.loader_tags.BlockNode",
+        "django.contrib.gis.sitemaps.kml.KMLSitemap",
+        "django.template.library.InclusionNode",
+        "django.forms.fields.TypedMultipleChoiceField",
+        "django.contrib.staticfiles.finders.BaseStorageFinder",
+        "django.template.context.Context",
+        "django.contrib.gis.db.models.functions.Area",
+        "django.template.base.Token",
+        "django.contrib.admin.helpers.Fieldline",
+        "django.contrib.auth.forms.SetPasswordForm",
+        "django.forms.models.InlineForeignKeyField",
+        "django.forms.fields.IntegerField",
+        "django.contrib.admin.filters.SimpleListFilter",
+        "django.templatetags.i18n.TranslateNode",
+        "django.contrib.admin.filters.ChoicesFieldListFilter"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "django.contrib.postgres.fields.jsonb.KeyTransform"
+      ],
+      "prune_bound": 0.257775,
+      "dead_reason": null
+    }
+  ]
+}

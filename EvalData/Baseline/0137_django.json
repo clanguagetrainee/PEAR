@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.postgres.forms.jsonb.InvalidJSONInput",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.forms.fields.InvalidJSONInput",
+      "api_type": "class",
+      "similarity": 1.0,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.utils.layermapping.InvalidDecimal",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.utils.layermapping.InvalidInteger",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.utils.layermapping.InvalidString",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.paginator.InvalidPage",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.tasks.exceptions.InvalidTask",
+      "api_type": "class",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.crypto.InvalidAlgorithm",
+      "api_type": "class",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.cache.backends.base.InvalidCacheBackendError",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.cache.backends.base.InvalidCacheKey",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.handler.InvalidStorageError",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.exceptions.InvalidMigrationPlan",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.library.InvalidTemplateLibrary",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.utils.InvalidTemplateEngineError",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.sessions.exceptions.InvalidSessionKey",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.exceptions.InvalidBasesError",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.JSONString",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.tasks.exceptions.InvalidTaskBackend",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.color.Style",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.Empty",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.manager.Manager",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.colorbar.Colorbar.on_mappable_changed",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.widgets.RangeSlider.on_changed",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [
+        "matplotlib.widgets.RangeSlider.on_changed"
+      ],
+      "local_scores": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.Slider.on_changed",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [
+        "matplotlib.widgets.Slider.on_changed"
+      ],
+      "local_scores": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.Button.on_clicked",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.widgets.Button.on_clicked"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.CheckButtons.on_clicked",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.widgets.CheckButtons.on_clicked"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox.on_submit",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.widgets.TextBox.on_submit"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.RadioButtons.on_clicked",
+      "api_type": "method",
+      "similarity": 0.4642857142857143,
+      "evolution_path": [
+        "matplotlib.widgets.RadioButtons.on_clicked"
+      ],
+      "local_scores": [
+        0.4642857142857143
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.MultiNorm._changed",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [
+        "matplotlib.colors.Normalize._changed",
+        "matplotlib.colors.MultiNorm._changed"
+      ],
+      "local_scores": [
+        0.4583333333333333,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.Norm._changed",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [
+        "matplotlib.colors.Normalize._changed",
+        "matplotlib.colors.Norm._changed"
+      ],
+      "local_scores": [
+        0.4583333333333333,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox.on_text_change",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.widgets.TextBox.on_text_change"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx._HelpDialog._on_close",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [
+        "matplotlib.backends.backend_wx._HelpDialog.OnClose",
+        "matplotlib.backends.backend_wx._HelpDialog._on_close"
+      ],
+      "local_scores": [
+        0.45161290322580644,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.SubplotTool._on_slider_changed",
+      "api_type": "method",
+      "similarity": 0.425,
+      "evolution_path": [
+        "matplotlib.widgets.SubplotTool._on_slider_changed"
+      ],
+      "local_scores": [
+        0.425
+      ]
+    },
+    {
+      "fqn": "matplotlib.text.Text.set_clip_on",
+      "api_type": "method",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [
+        "matplotlib.text.Text.set_clip_on"
+      ],
+      "local_scores": [
+        0.42424242424242425
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget.on_scroll",
+      "api_type": "method",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [
+        "matplotlib.widgets._SelectorWidget.on_scroll"
+      ],
+      "local_scores": [
+        0.41935483870967744
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolZoom._switch_on_zoom_mode",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [
+        "matplotlib.backend_tools.ToolZoom._switch_on_zoom_mode"
+      ],
+      "local_scores": [
+        0.40625
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorizer._ScalarMappable.changed",
+      "api_type": "method",
+      "similarity": 0.39285714285714285,
+      "evolution_path": [
+        "matplotlib.cm.ScalarMappable.changed",
+        "matplotlib.colorizer._ScalarMappable.changed"
+      ],
+      "local_scores": [
+        0.39285714285714285,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_nbagg.CommSocket.on_close",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.backends.backend_nbagg.CommSocket.on_close"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.add_axobserver",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.figure.Figure.add_axobserver"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure.FigureBase.sca",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.figure.FigureBase.sca"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.Duration.Duration._cmp",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.testing.jpl_units.Duration.Duration._cmp"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.UnitDbl.UnitDbl._cmp",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.testing.jpl_units.UnitDbl.UnitDbl._cmp"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.colorbar.Colorbar.on_mappable_changed",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.colorbar.Colorbar.on_mappable_changed",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.widgets.RangeSlider.on_changed",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "matplotlib.widgets.Slider.on_changed",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "matplotlib.widgets.Button.on_clicked",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.widgets.CheckButtons.on_clicked",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.widgets.TextBox.on_submit",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.widgets.RadioButtons.on_clicked",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib.colors.Normalize._changed",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.widgets.TextBox.on_text_change",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._HelpDialog.OnClose",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.widgets.SubplotTool._on_slider_changed",
+          "similarity": 0.425
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_clip_on",
+          "similarity": 0.424242
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._onLeave",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget.on_scroll",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolZoom._switch_on_zoom_mode",
+          "similarity": 0.40625
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.changed",
+          "similarity": 0.392857
+        },
+        {
+          "fqn": "matplotlib.backends.backend_nbagg.CommSocket.on_close",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.add_axobserver",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.figure.FigureBase.sca",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.Duration.Duration._cmp",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.UnitDbl.UnitDbl._cmp",
+          "similarity": 0.375
+        }
+      ],
+      "entered_final": [
+        "matplotlib.widgets.RangeSlider.on_changed",
+        "matplotlib.widgets.Slider.on_changed",
+        "matplotlib.widgets.Button.on_clicked",
+        "matplotlib.widgets.CheckButtons.on_clicked",
+        "matplotlib.widgets.TextBox.on_submit",
+        "matplotlib.widgets.RadioButtons.on_clicked",
+        "matplotlib.widgets.TextBox.on_text_change",
+        "matplotlib.widgets.SubplotTool._on_slider_changed",
+        "matplotlib.text.Text.set_clip_on",
+        "matplotlib.widgets._SelectorWidget.on_scroll",
+        "matplotlib.backend_tools.ToolZoom._switch_on_zoom_mode",
+        "matplotlib.backends.backend_nbagg.CommSocket.on_close",
+        "matplotlib.figure.Figure.add_axobserver",
+        "matplotlib.figure.FigureBase.sca",
+        "matplotlib.testing.jpl_units.Duration.Duration._cmp",
+        "matplotlib.testing.jpl_units.UnitDbl.UnitDbl._cmp"
+      ],
+      "entered_iter": [
+        "matplotlib.colors.Normalize._changed",
+        "matplotlib.backends.backend_wx._HelpDialog.OnClose",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._onLeave",
+        "matplotlib.cm.ScalarMappable.changed"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.colors.Normalize._changed",
+      "path_score": 0.458333,
+      "boundary": "DEPRECATED",
+      "vpre": "3.10.9",
+      "vpost": "3.11.0",
+      "resolved_fqn": "matplotlib.colors.Normalize._changed",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.colors.MultiNorm._changed",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.colors.Norm._changed",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.colorizer.Colorizer.changed",
+          "similarity": 0.8
+        },
+        {
+          "fqn": "matplotlib.colorizer._ScalarMappable.changed",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.pchanged",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "matplotlib.image._ImageBase.changed",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "matplotlib.widgets.RangeSlider.on_changed",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.widgets.Slider.on_changed",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.dviread.DviFont.fname",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.backends.backend_agg.RendererAgg.clear",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo.GraphicsContextCairo.restore",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.tri._trifinder.TrapezoidMapTriFinder._initialize",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Name.__str__",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.__str__",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureManagerBase.destroy",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfPages.infodict",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.ColorLayout.text",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "matplotlib.colorizer._ColorizerInterface.autoscale",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "matplotlib.font_manager.FontPath.__repr__",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformWrapper.frozen",
+          "similarity": 0.411765
+        }
+      ],
+      "entered_final": [
+        "matplotlib.colors.MultiNorm._changed",
+        "matplotlib.colors.Norm._changed",
+        "matplotlib.colorizer.Colorizer.changed",
+        "matplotlib.colorizer._ScalarMappable.changed",
+        "matplotlib.artist.Artist.pchanged",
+        "matplotlib.image._ImageBase.changed",
+        "matplotlib.widgets.RangeSlider.on_changed",
+        "matplotlib.widgets.Slider.on_changed",
+        "matplotlib.dviread.DviFont.fname",
+        "matplotlib.backends.backend_agg.RendererAgg.clear",
+        "matplotlib.backends.backend_cairo.GraphicsContextCairo.restore",
+        "matplotlib.tri._trifinder.TrapezoidMapTriFinder._initialize",
+        "matplotlib.backends.backend_pdf.Name.__str__",
+        "matplotlib.figure.Figure.__str__",
+        "matplotlib.backend_bases.FigureManagerBase.destroy",
+        "matplotlib.backends.backend_pdf.PdfPages.infodict",
+        "matplotlib.backends.qt_editor._formlayout.ColorLayout.text",
+        "matplotlib.colorizer._ColorizerInterface.autoscale",
+        "matplotlib.font_manager.FontPath.__repr__",
+        "matplotlib.transforms.TransformWrapper.frozen"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.34375,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx._HelpDialog.OnClose",
+      "path_score": 0.451613,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.backends.backend_wx._HelpDialog.OnClose",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_wx._HelpDialog._on_close",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.WebSocket.on_close",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "matplotlib.backends.backend_nbagg.CommSocket.on_close",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.MainWindow.closeEvent",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "matplotlib.backends.backend_svg.XMLWriter.close",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.lines._AxLine.draw",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_enter",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_leave",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_motion",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_autoscale_on",
+          "similarity": 0.46875
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolZoom._switch_on_zoom_mode",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.widgets.Button.on_clicked",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.widgets.CheckButtons.on_clicked",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.widgets.RangeSlider.on_changed",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.widgets.Slider.on_changed",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.widgets.TextBox.on_submit",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_clip_on",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget.on_scroll",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.axes._base._process_plot_var_args.__setstate__",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.widgets.RadioButtons.on_clicked",
+          "similarity": 0.428571
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_wx._HelpDialog._on_close",
+        "matplotlib.backends.backend_webagg.WebAggApplication.WebSocket.on_close",
+        "matplotlib.backends.backend_nbagg.CommSocket.on_close",
+        "matplotlib.backends.backend_qt.MainWindow.closeEvent",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_enter",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_leave",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_motion",
+        "matplotlib.axes._base._AxesBase.set_autoscale_on",
+        "matplotlib.backend_tools.ToolZoom._switch_on_zoom_mode",
+        "matplotlib.widgets.Button.on_clicked",
+        "matplotlib.widgets.CheckButtons.on_clicked",
+        "matplotlib.widgets.RangeSlider.on_changed",
+        "matplotlib.widgets.Slider.on_changed",
+        "matplotlib.widgets.TextBox.on_submit",
+        "matplotlib.text.Text.set_clip_on",
+        "matplotlib.widgets._SelectorWidget.on_scroll",
+        "matplotlib.widgets.RadioButtons.on_clicked"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.backends.backend_svg.XMLWriter.close",
+        "matplotlib.lines._AxLine.draw",
+        "matplotlib.axes._base._process_plot_var_args.__setstate__"
+      ],
+      "prune_bound": 0.366667,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._onLeave",
+      "path_score": 0.419355,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._onLeave",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_leave",
+          "similarity": 0.689655
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._HelpDialog._on_close",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_enter",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_motion",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.FigureCanvasQT.leaveEvent",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_autoscale_on",
+          "similarity": 0.483871
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.FigureCanvasTk.leave_notify_event",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.FigureCanvasGTK3.leave_notify_event",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "matplotlib.widgets.Button.on_clicked",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.widgets.CheckButtons.on_clicked",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.widgets.RangeSlider.on_changed",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.widgets.Slider.on_changed",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.widgets.TextBox.on_submit",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_key_down",
+          "similarity": 0.425
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_key_up",
+          "similarity": 0.425
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfFile.writeObject",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.__init__.RcParams.__iter__",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_clip_on",
+          "similarity": 0.40625
+        },
+        {
+          "fqn": "matplotlib.colors._ColorMapping.__setitem__",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.figure.FigureBase.sca",
+          "similarity": 0.4
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_leave",
+        "matplotlib.backends.backend_wx._HelpDialog._on_close",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_enter",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_motion",
+        "matplotlib.backends.backend_qt.FigureCanvasQT.leaveEvent",
+        "matplotlib.axes._base._AxesBase.set_autoscale_on",
+        "matplotlib.backends._backend_tk.FigureCanvasTk.leave_notify_event",
+        "matplotlib.backends.backend_gtk3.FigureCanvasGTK3.leave_notify_event",
+        "matplotlib.widgets.Button.on_clicked",
+        "matplotlib.widgets.CheckButtons.on_clicked",
+        "matplotlib.widgets.RangeSlider.on_changed",
+        "matplotlib.widgets.Slider.on_changed",
+        "matplotlib.widgets.TextBox.on_submit",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_key_down",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._on_key_up",
+        "matplotlib.backends.backend_pdf.PdfFile.writeObject",
+        "matplotlib.__init__.RcParams.__iter__",
+        "matplotlib.text.Text.set_clip_on",
+        "matplotlib.colors._ColorMapping.__setitem__",
+        "matplotlib.figure.FigureBase.sca"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.366667,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cm.ScalarMappable.changed",
+      "path_score": 0.392857,
+      "boundary": "DEPRECATED",
+      "vpre": "3.9.4",
+      "vpost": "3.10.0",
+      "resolved_fqn": "matplotlib.cm.ScalarMappable.changed",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.colorizer._ScalarMappable.changed",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.colorizer.Colorizer.changed",
+          "similarity": 0.9375
+        },
+        {
+          "fqn": "matplotlib.colors.Normalize._changed",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "matplotlib.image._ImageBase.changed",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "matplotlib.backend_bases.Event._process",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.pchanged",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.blit",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetImage.draw",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backends.backend_nbagg.FigureManagerNbAgg.reshow",
+          "similarity": 0.45
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.GraphicsContextWx.select",
+          "similarity": 0.44
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.GraphicsContextWx.unselect",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.figure.FigureBase.sca",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolCopyToClipboardBase.trigger",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.widgets.RangeSlider.on_changed",
+          "similarity": 0.407407
+        },
+        {
+          "fqn": "matplotlib.widgets.Slider.on_changed",
+          "similarity": 0.407407
+        },
+        {
+          "fqn": "matplotlib.animation.FileMovieWriter.__del__",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase.draw_idle",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.colorizer._ColorizerInterface.autoscale",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.figure.FigureBase.set_frameon",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.offsetbox.TextArea.set_text",
+          "similarity": 0.4
+        }
+      ],
+      "entered_final": [
+        "matplotlib.colorizer._ScalarMappable.changed",
+        "matplotlib.colorizer.Colorizer.changed",
+        "matplotlib.image._ImageBase.changed",
+        "matplotlib.backend_bases.Event._process",
+        "matplotlib.artist.Artist.pchanged",
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.blit",
+        "matplotlib.offsetbox.OffsetImage.draw",
+        "matplotlib.backends.backend_nbagg.FigureManagerNbAgg.reshow",
+        "matplotlib.backends.backend_wx.GraphicsContextWx.select",
+        "matplotlib.backends.backend_wx.GraphicsContextWx.unselect",
+        "matplotlib.figure.FigureBase.sca",
+        "matplotlib.backend_tools.ToolCopyToClipboardBase.trigger",
+        "matplotlib.widgets.RangeSlider.on_changed",
+        "matplotlib.widgets.Slider.on_changed",
+        "matplotlib.animation.FileMovieWriter.__del__",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase.draw_idle",
+        "matplotlib.colorizer._ColorizerInterface.autoscale",
+        "matplotlib.figure.FigureBase.set_frameon",
+        "matplotlib.offsetbox.TextArea.set_text"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.colors.Normalize._changed"
+      ],
+      "prune_bound": 0.375,
+      "dead_reason": null
+    }
+  ]
+}

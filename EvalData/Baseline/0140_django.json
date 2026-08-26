@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.postgres.forms.jsonb.JSONString",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.forms.fields.JSONString",
+      "api_type": "class",
+      "similarity": 1.0,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.color.Style",
+      "api_type": "class",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.Empty",
+      "api_type": "class",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.manager.Manager",
+      "api_type": "class",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.sql.datastructures.Empty",
+      "api_type": "class",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.InvalidJSONInput",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.error.GDALException",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.error.SRSException",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.field.OFTBinary",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.field.OFTString",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.utils.Error",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.http.response.Http404",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.tz.datetimeobject",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.urls.exceptions.Resolver404",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.functional.Promise",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.error.GEOSException",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.json.JSONIContains",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.forms.Form",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.regex_helper.Choice",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.regex_helper.Group",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "4.1.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.test.testcases.SimpleTestCase.assertFormsetError",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.test.testcases.SimpleTestCase.assertFormSetError",
+      "api_type": "method",
+      "similarity": 1.0,
+      "evolution_path": [
+        "django.test.testcases.SimpleTestCase.assertFormSetError"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "django.test.testcases.SimpleTestCase._assert_form_error",
+      "api_type": "method",
+      "similarity": 0.5939849624060151,
+      "evolution_path": [
+        "django.test.testcases.SimpleTestCase._assert_form_error"
+      ],
+      "local_scores": [
+        0.5939849624060151
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.forms.PasswordResetForm.save",
+      "api_type": "method",
+      "similarity": 0.5761589403973509,
+      "evolution_path": [
+        "django.contrib.auth.forms.PasswordResetForm.save"
+      ],
+      "local_scores": [
+        0.5761589403973509
+      ]
+    },
+    {
+      "fqn": "django.db.models.functions.datetime.Extract.resolve_expression",
+      "api_type": "method",
+      "similarity": 0.54375,
+      "evolution_path": [
+        "django.db.models.functions.datetime.Extract.resolve_expression"
+      ],
+      "local_scores": [
+        0.54375
+      ]
+    },
+    {
+      "fqn": "django.test.testcases.SimpleTestCase.assertInHTML",
+      "api_type": "method",
+      "similarity": 0.5416666666666666,
+      "evolution_path": [
+        "django.test.testcases.SimpleTestCase.assertInHTML"
+      ],
+      "local_scores": [
+        0.5416666666666666
+      ]
+    },
+    {
+      "fqn": "django.forms.boundfield.BoundField.label_tag",
+      "api_type": "method",
+      "similarity": 0.5393258426966292,
+      "evolution_path": [
+        "django.forms.boundfield.BoundField.label_tag"
+      ],
+      "local_scores": [
+        0.5393258426966292
+      ]
+    },
+    {
+      "fqn": "django.db.models.sql.query.Query.build_lookup",
+      "api_type": "method",
+      "similarity": 0.5370370370370371,
+      "evolution_path": [
+        "django.db.models.sql.query.Query.build_lookup"
+      ],
+      "local_scores": [
+        0.5370370370370371
+      ]
+    },
+    {
+      "fqn": "django.test.client.RequestFactory.generic",
+      "api_type": "method",
+      "similarity": 0.5325443786982249,
+      "evolution_path": [
+        "django.test.client.RequestFactory.generic"
+      ],
+      "local_scores": [
+        0.5325443786982249
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.AllValuesFieldListFilter.choices",
+      "api_type": "method",
+      "similarity": 0.5294117647058824,
+      "evolution_path": [
+        "django.contrib.admin.filters.AllValuesFieldListFilter.choices"
+      ],
+      "local_scores": [
+        0.5294117647058824
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.ChoicesFieldListFilter.choices",
+      "api_type": "method",
+      "similarity": 0.5283018867924528,
+      "evolution_path": [
+        "django.contrib.admin.filters.ChoicesFieldListFilter.choices"
+      ],
+      "local_scores": [
+        0.5283018867924528
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.sites.AdminSite.register",
+      "api_type": "method",
+      "similarity": 0.5217391304347826,
+      "evolution_path": [
+        "django.contrib.admin.sites.AdminSite.register"
+      ],
+      "local_scores": [
+        0.5217391304347826
+      ]
+    },
+    {
+      "fqn": "django.template.library.Library.filter",
+      "api_type": "method",
+      "similarity": 0.5189873417721519,
+      "evolution_path": [
+        "django.template.library.Library.filter"
+      ],
+      "local_scores": [
+        0.5189873417721519
+      ]
+    },
+    {
+      "fqn": "django.contrib.admindocs.views.ViewDetailView.get_context_data",
+      "api_type": "method",
+      "similarity": 0.5159235668789809,
+      "evolution_path": [
+        "django.contrib.admindocs.views.ViewDetailView.get_context_data"
+      ],
+      "local_scores": [
+        0.5159235668789809
+      ]
+    },
+    {
+      "fqn": "django.core.management.commands.inspectdb.Command.get_meta",
+      "api_type": "method",
+      "similarity": 0.5146198830409356,
+      "evolution_path": [
+        "django.core.management.commands.inspectdb.Command.get_meta"
+      ],
+      "local_scores": [
+        0.5146198830409356
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.BooleanFieldListFilter.choices",
+      "api_type": "method",
+      "similarity": 0.5139664804469274,
+      "evolution_path": [
+        "django.contrib.admin.filters.BooleanFieldListFilter.choices"
+      ],
+      "local_scores": [
+        0.5139664804469274
+      ]
+    },
+    {
+      "fqn": "django.core.mail.message.EmailMessage.attach",
+      "api_type": "method",
+      "similarity": 0.5135135135135135,
+      "evolution_path": [
+        "django.core.mail.message.EmailMessage.attach"
+      ],
+      "local_scores": [
+        0.5135135135135135
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.RelatedFieldListFilter.choices",
+      "api_type": "method",
+      "similarity": 0.509090909090909,
+      "evolution_path": [
+        "django.contrib.admin.filters.RelatedFieldListFilter.choices"
+      ],
+      "local_scores": [
+        0.509090909090909
+      ]
+    },
+    {
+      "fqn": "django.test.testcases.TransactionTestCase.assertQuerySetEqual",
+      "api_type": "method",
+      "similarity": 0.5070422535211268,
+      "evolution_path": [
+        "django.test.testcases.TransactionTestCase.assertQuerySetEqual"
+      ],
+      "local_scores": [
+        0.5070422535211268
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.forms.array.SplitArrayWidget.get_context",
+      "api_type": "method",
+      "similarity": 0.503030303030303,
+      "evolution_path": [
+        "django.contrib.postgres.forms.array.SplitArrayWidget.get_context"
+      ],
+      "local_scores": [
+        0.503030303030303
+      ]
+    },
+    {
+      "fqn": "django.contrib.contenttypes.admin.GenericInlineModelAdmin.get_formset",
+      "api_type": "method",
+      "similarity": 0.5027322404371585,
+      "evolution_path": [
+        "django.contrib.contenttypes.admin.GenericInlineModelAdmin.get_formset"
+      ],
+      "local_scores": [
+        0.5027322404371585
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.test.testcases.SimpleTestCase.assertFormsetError",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "5.0.14",
+      "vpost": "5.1",
+      "resolved_fqn": "django.test.testcases.SimpleTestCase.assertFormSetError",
+      "resolved_kind": "forward",
+      "candidates": [
+        {
+          "fqn": "django.test.testcases.SimpleTestCase.assertFormSetError",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.test.testcases.SimpleTestCase._assert_form_error",
+          "similarity": 0.593985
+        },
+        {
+          "fqn": "django.contrib.auth.forms.PasswordResetForm.save",
+          "similarity": 0.576159
+        },
+        {
+          "fqn": "django.db.models.functions.datetime.Extract.resolve_expression",
+          "similarity": 0.54375
+        },
+        {
+          "fqn": "django.test.testcases.SimpleTestCase.assertInHTML",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.forms.boundfield.BoundField.label_tag",
+          "similarity": 0.539326
+        },
+        {
+          "fqn": "django.db.models.sql.query.Query.build_lookup",
+          "similarity": 0.537037
+        },
+        {
+          "fqn": "django.test.client.RequestFactory.generic",
+          "similarity": 0.532544
+        },
+        {
+          "fqn": "django.contrib.admin.filters.AllValuesFieldListFilter.choices",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "django.contrib.admin.filters.ChoicesFieldListFilter.choices",
+          "similarity": 0.528302
+        },
+        {
+          "fqn": "django.contrib.admin.sites.AdminSite.register",
+          "similarity": 0.521739
+        },
+        {
+          "fqn": "django.template.library.Library.filter",
+          "similarity": 0.518987
+        },
+        {
+          "fqn": "django.contrib.admindocs.views.ViewDetailView.get_context_data",
+          "similarity": 0.515924
+        },
+        {
+          "fqn": "django.core.management.commands.inspectdb.Command.get_meta",
+          "similarity": 0.51462
+        },
+        {
+          "fqn": "django.contrib.admin.filters.BooleanFieldListFilter.choices",
+          "similarity": 0.513966
+        },
+        {
+          "fqn": "django.core.mail.message.EmailMessage.attach",
+          "similarity": 0.513514
+        },
+        {
+          "fqn": "django.contrib.admin.filters.RelatedFieldListFilter.choices",
+          "similarity": 0.509091
+        },
+        {
+          "fqn": "django.test.testcases.TransactionTestCase.assertQuerySetEqual",
+          "similarity": 0.507042
+        },
+        {
+          "fqn": "django.contrib.postgres.forms.array.SplitArrayWidget.get_context",
+          "similarity": 0.50303
+        },
+        {
+          "fqn": "django.contrib.contenttypes.admin.GenericInlineModelAdmin.get_formset",
+          "similarity": 0.502732
+        }
+      ],
+      "entered_final": [
+        "django.test.testcases.SimpleTestCase.assertFormSetError",
+        "django.test.testcases.SimpleTestCase._assert_form_error",
+        "django.contrib.auth.forms.PasswordResetForm.save",
+        "django.db.models.functions.datetime.Extract.resolve_expression",
+        "django.test.testcases.SimpleTestCase.assertInHTML",
+        "django.forms.boundfield.BoundField.label_tag",
+        "django.db.models.sql.query.Query.build_lookup",
+        "django.test.client.RequestFactory.generic",
+        "django.contrib.admin.filters.AllValuesFieldListFilter.choices",
+        "django.contrib.admin.filters.ChoicesFieldListFilter.choices",
+        "django.contrib.admin.sites.AdminSite.register",
+        "django.template.library.Library.filter",
+        "django.contrib.admindocs.views.ViewDetailView.get_context_data",
+        "django.core.management.commands.inspectdb.Command.get_meta",
+        "django.contrib.admin.filters.BooleanFieldListFilter.choices",
+        "django.core.mail.message.EmailMessage.attach",
+        "django.contrib.admin.filters.RelatedFieldListFilter.choices",
+        "django.test.testcases.TransactionTestCase.assertQuerySetEqual",
+        "django.contrib.postgres.forms.array.SplitArrayWidget.get_context",
+        "django.contrib.contenttypes.admin.GenericInlineModelAdmin.get_formset"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.502732,
+      "dead_reason": null
+    }
+  ]
+}

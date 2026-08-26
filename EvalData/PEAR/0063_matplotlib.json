@@ -1,0 +1,1074 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.1.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.ticker.Locator.autoscale",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.ticker.Locator.view_limits",
+      "api_type": "method",
+      "similarity": 1.0,
+      "evolution_path": [
+        "matplotlib.ticker.Locator.view_limits"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.Locator.nonsingular",
+      "api_type": "method",
+      "similarity": 0.5652173913043478,
+      "evolution_path": [
+        "matplotlib.ticker.Locator.nonsingular"
+      ],
+      "local_scores": [
+        0.5652173913043478
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.polar.ThetaLocator.view_limits",
+      "api_type": "method",
+      "similarity": 0.5142857142857142,
+      "evolution_path": [
+        "matplotlib.projections.polar.ThetaLocator.view_limits"
+      ],
+      "local_scores": [
+        0.5142857142857142
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._axes.Axes.clabel",
+      "api_type": "method",
+      "similarity": 0.48,
+      "evolution_path": [
+        "matplotlib.axes._axes.Axes.clabel"
+      ],
+      "local_scores": [
+        0.48
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.polar.RadialLocator.view_limits",
+      "api_type": "method",
+      "similarity": 0.475,
+      "evolution_path": [
+        "matplotlib.projections.polar.RadialLocator.view_limits"
+      ],
+      "local_scores": [
+        0.475
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.polar._AxisWrapper.set_view_interval",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [
+        "matplotlib.projections.polar._AxisWrapper.set_view_interval"
+      ],
+      "local_scores": [
+        0.45161290322580644
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.IdentityTransform.transform",
+      "api_type": "method",
+      "similarity": 0.43478260869565216,
+      "evolution_path": [
+        "matplotlib.transforms.IdentityTransform.transform"
+      ],
+      "local_scores": [
+        0.43478260869565216
+      ]
+    },
+    {
+      "fqn": "matplotlib.path.Path.intersects_path",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.path.Path.intersects_path"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.Duration.Duration._cmp",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.testing.jpl_units.Duration.Duration._cmp"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.UnitDbl.UnitDbl._cmp",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.testing.jpl_units.UnitDbl.UnitDbl._cmp"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker._DummyAxis.set_view_interval",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.ticker._DummyAxis.set_view_interval"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.gridspec.SubplotSpec.subgridspec",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "matplotlib.gridspec.SubplotSpec.subgridspec"
+      ],
+      "local_scores": [
+        0.4230769230769231
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.EpochConverter.EpochConverter.epoch2float",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "matplotlib.testing.jpl_units.EpochConverter.EpochConverter.epoch2float"
+      ],
+      "local_scores": [
+        0.4230769230769231
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.BboxBase.translated",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "matplotlib.transforms.BboxBase.translated"
+      ],
+      "local_scores": [
+        0.4230769230769231
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.TransformWrapper.__eq__",
+      "api_type": "method",
+      "similarity": 0.3385416666666667,
+      "evolution_path": [
+        "matplotlib.testing.jpl_units.Duration.Duration.__eq__",
+        "matplotlib.transforms.TransformWrapper.__eq__"
+      ],
+      "local_scores": [
+        0.4166666666666667,
+        0.8125
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.set_view_interval",
+      "api_type": "method",
+      "similarity": 0.3148148148148148,
+      "evolution_path": [
+        "matplotlib.ticker.TickHelper.set_view_interval",
+        "matplotlib.axis.Axis.set_view_interval"
+      ],
+      "local_scores": [
+        0.48148148148148145,
+        0.6538461538461539
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker._DummyAxis.set_data_interval",
+      "api_type": "method",
+      "similarity": 0.2962962962962963,
+      "evolution_path": [
+        "matplotlib.ticker.TickHelper.set_view_interval",
+        "matplotlib.ticker._DummyAxis.set_data_interval"
+      ],
+      "local_scores": [
+        0.48148148148148145,
+        0.6153846153846154
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.Name.__eq__",
+      "api_type": "method",
+      "similarity": 0.2916666666666667,
+      "evolution_path": [
+        "matplotlib.testing.jpl_units.Duration.Duration.__eq__",
+        "matplotlib.backends.backend_pdf.Name.__eq__"
+      ],
+      "local_scores": [
+        0.4166666666666667,
+        0.7
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.polar._AxisWrapper.set_data_interval",
+      "api_type": "method",
+      "similarity": 0.2728395061728395,
+      "evolution_path": [
+        "matplotlib.ticker.TickHelper.set_view_interval",
+        "matplotlib.projections.polar._AxisWrapper.set_data_interval"
+      ],
+      "local_scores": [
+        0.48148148148148145,
+        0.5666666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorbar.Colorbar._set_view",
+      "api_type": "method",
+      "similarity": 0.26962962962962966,
+      "evolution_path": [
+        "matplotlib.ticker.TickHelper.set_view_interval",
+        "matplotlib.colorbar.Colorbar._set_view"
+      ],
+      "local_scores": [
+        0.48148148148148145,
+        0.56
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.ticker.Locator.autoscale",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.4",
+      "vpost": "3.4.0",
+      "resolved_fqn": "matplotlib.ticker.Locator.view_limits",
+      "resolved_kind": "forward",
+      "candidates": [
+        {
+          "fqn": "matplotlib.ticker.Locator.view_limits",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.ticker.Locator.nonsingular",
+          "similarity": 0.565217
+        },
+        {
+          "fqn": "matplotlib.ticker.OldAutoLocator.view_limits",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.projections.polar.ThetaLocator.view_limits",
+          "similarity": 0.514286
+        },
+        {
+          "fqn": "matplotlib.ticker.TickHelper.set_view_interval",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.axes._axes.Axes.clabel",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "matplotlib.projections.polar.RadialLocator.view_limits",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "matplotlib.projections.polar._AxisWrapper.set_view_interval",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.dates.MicrosecondLocator.set_view_interval",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "matplotlib.transforms.IdentityTransform.transform",
+          "similarity": 0.434783
+        },
+        {
+          "fqn": "matplotlib.path.Path.intersects_path",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.Duration.Duration._cmp",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.UnitDbl.UnitDbl._cmp",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.ticker._DummyAxis.set_view_interval",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.gridspec.SubplotSpec.subgridspec",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.EpochConverter.EpochConverter.epoch2float",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.transforms.BboxBase.translated",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.Duration.Duration.__eq__",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.Duration.Duration.__ge__",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.Duration.Duration.__gt__",
+          "similarity": 0.416667
+        }
+      ],
+      "entered_final": [
+        "matplotlib.ticker.Locator.view_limits",
+        "matplotlib.ticker.Locator.nonsingular",
+        "matplotlib.projections.polar.ThetaLocator.view_limits",
+        "matplotlib.axes._axes.Axes.clabel",
+        "matplotlib.projections.polar.RadialLocator.view_limits",
+        "matplotlib.projections.polar._AxisWrapper.set_view_interval",
+        "matplotlib.transforms.IdentityTransform.transform",
+        "matplotlib.path.Path.intersects_path",
+        "matplotlib.testing.jpl_units.Duration.Duration._cmp",
+        "matplotlib.testing.jpl_units.UnitDbl.UnitDbl._cmp",
+        "matplotlib.ticker._DummyAxis.set_view_interval",
+        "matplotlib.gridspec.SubplotSpec.subgridspec",
+        "matplotlib.testing.jpl_units.EpochConverter.EpochConverter.epoch2float",
+        "matplotlib.transforms.BboxBase.translated"
+      ],
+      "entered_iter": [
+        "matplotlib.ticker.OldAutoLocator.view_limits",
+        "matplotlib.ticker.TickHelper.set_view_interval",
+        "matplotlib.dates.MicrosecondLocator.set_view_interval",
+        "matplotlib.testing.jpl_units.Duration.Duration.__eq__",
+        "matplotlib.testing.jpl_units.Duration.Duration.__ge__",
+        "matplotlib.testing.jpl_units.Duration.Duration.__gt__"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.ticker.OldAutoLocator.view_limits",
+      "path_score": 0.529412,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.ticker.OldAutoLocator.view_limits",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.projections.polar.ThetaLocator.view_limits",
+          "similarity": 0.717949
+        },
+        {
+          "fqn": "matplotlib.projections.polar.RadialLocator.view_limits",
+          "similarity": 0.697674
+        },
+        {
+          "fqn": "matplotlib.ticker.Locator.view_limits",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase._get_view",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase._set_view",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.EpochConverter.EpochConverter.axisinfo",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib._mathtext.Parser.function",
+          "similarity": 0.487179
+        },
+        {
+          "fqn": "matplotlib.path.Path.clip_to_bbox",
+          "similarity": 0.479167
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase._update_image_limits",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformNode.__deepcopy__",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.axes._axes.Axes.quiverkey",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "matplotlib.textpath.TextToPath._get_font",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "matplotlib.figure.FigureBase.add_gridspec",
+          "similarity": 0.469388
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureCanvasBase.inaxes",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureCanvasBase.pick_event",
+          "similarity": 0.456522
+        },
+        {
+          "fqn": "matplotlib.legend_handler.HandlerRegularPolyCollection.create_collection",
+          "similarity": 0.456522
+        },
+        {
+          "fqn": "matplotlib.dates.MicrosecondLocator.set_view_interval",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.ticker.MaxNLocator.view_limits",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.Epoch.Epoch.secondsPast",
+          "similarity": 0.44898
+        },
+        {
+          "fqn": "matplotlib.category.StrCategoryConverter.axisinfo",
+          "similarity": 0.446809
+        }
+      ],
+      "entered_final": [
+        "matplotlib.projections.polar.ThetaLocator.view_limits",
+        "matplotlib.projections.polar.RadialLocator.view_limits",
+        "matplotlib.ticker.Locator.view_limits",
+        "matplotlib.axes._base._AxesBase._get_view",
+        "matplotlib.axes._base._AxesBase._set_view",
+        "matplotlib.testing.jpl_units.EpochConverter.EpochConverter.axisinfo",
+        "matplotlib._mathtext.Parser.function",
+        "matplotlib.path.Path.clip_to_bbox",
+        "matplotlib.axes._base._AxesBase._update_image_limits",
+        "matplotlib.axes._axes.Axes.quiverkey",
+        "matplotlib.textpath.TextToPath._get_font",
+        "matplotlib.figure.FigureBase.add_gridspec",
+        "matplotlib.backend_bases.FigureCanvasBase.inaxes",
+        "matplotlib.legend_handler.HandlerRegularPolyCollection.create_collection",
+        "matplotlib.ticker.MaxNLocator.view_limits",
+        "matplotlib.testing.jpl_units.Epoch.Epoch.secondsPast",
+        "matplotlib.category.StrCategoryConverter.axisinfo"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.transforms.TransformNode.__deepcopy__",
+        "matplotlib.backend_bases.FigureCanvasBase.pick_event",
+        "matplotlib.dates.MicrosecondLocator.set_view_interval"
+      ],
+      "prune_bound": 0.264706,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.ticker.TickHelper.set_view_interval",
+      "path_score": 0.481481,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.ticker.TickHelper.set_view_interval",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.ticker._DummyAxis.set_view_interval",
+          "similarity": 0.826087
+        },
+        {
+          "fqn": "matplotlib.projections.polar._AxisWrapper.set_view_interval",
+          "similarity": 0.807692
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.set_view_interval",
+          "similarity": 0.653846
+        },
+        {
+          "fqn": "matplotlib.ticker._DummyAxis.set_data_interval",
+          "similarity": 0.615385
+        },
+        {
+          "fqn": "matplotlib.projections.polar._AxisWrapper.set_data_interval",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar._set_view",
+          "similarity": 0.56
+        },
+        {
+          "fqn": "matplotlib.__init__.RcParams._set",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolXScale.set_scale",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolYScale.set_scale",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.TimerQT._timer_set_interval",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.set_data_interval",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "matplotlib.projections.polar._AxisWrapper.get_view_interval",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.set_cursor",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.projections.polar.PolarAxes.set_thetamax",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.projections.polar.PolarAxes.set_thetamin",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.tests.test_skew.SkewXTick.get_view_interval",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.ticker.Locator.view_limits",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.widgets.ToolLineHandles.set_animated",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.widgets.ToolLineHandles.set_visible",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_message",
+          "similarity": 0.48
+        }
+      ],
+      "entered_final": [
+        "matplotlib.ticker._DummyAxis.set_view_interval",
+        "matplotlib.projections.polar._AxisWrapper.set_view_interval",
+        "matplotlib.axis.Axis.set_view_interval",
+        "matplotlib.ticker._DummyAxis.set_data_interval",
+        "matplotlib.projections.polar._AxisWrapper.set_data_interval",
+        "matplotlib.colorbar.Colorbar._set_view",
+        "matplotlib.__init__.RcParams._set",
+        "matplotlib.backend_tools.ToolXScale.set_scale",
+        "matplotlib.backend_tools.ToolYScale.set_scale",
+        "matplotlib.backends.backend_qt.TimerQT._timer_set_interval",
+        "matplotlib.axis.Axis.set_data_interval",
+        "matplotlib.projections.polar._AxisWrapper.get_view_interval",
+        "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.set_cursor",
+        "matplotlib.projections.polar.PolarAxes.set_thetamax",
+        "matplotlib.projections.polar.PolarAxes.set_thetamin",
+        "matplotlib.tests.test_skew.SkewXTick.get_view_interval",
+        "matplotlib.ticker.Locator.view_limits",
+        "matplotlib.widgets.ToolLineHandles.set_animated",
+        "matplotlib.widgets.ToolLineHandles.set_visible",
+        "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_message"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.296296,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.dates.MicrosecondLocator.set_view_interval",
+      "path_score": 0.441176,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.dates.MicrosecondLocator.set_view_interval",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.projections.polar._AxisWrapper.set_view_interval",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "matplotlib.ticker._DummyAxis.set_view_interval",
+          "similarity": 0.59375
+        },
+        {
+          "fqn": "matplotlib.projections.polar._AxisWrapper.set_data_interval",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "matplotlib.dates.MicrosecondLocator.set_axis",
+          "similarity": 0.542857
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_figure",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.quiver.QuiverKey.set_figure",
+          "similarity": 0.514286
+        },
+        {
+          "fqn": "matplotlib.table.Cell.set_figure",
+          "similarity": 0.514286
+        },
+        {
+          "fqn": "matplotlib.transforms.Affine2D.set",
+          "similarity": 0.514286
+        },
+        {
+          "fqn": "matplotlib.axis.Tick.set_clip_path",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.projections.polar.ThetaLocator.view_limits",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.set_view_interval",
+          "similarity": 0.485714
+        },
+        {
+          "fqn": "matplotlib.projections.polar._AxisWrapper.get_view_interval",
+          "similarity": 0.485714
+        },
+        {
+          "fqn": "matplotlib.collections.PatchCollection.set_paths",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "matplotlib.projections.polar.RadialAxis._set_scale",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase._set_view",
+          "similarity": 0.463415
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_clip_path",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget.set_active",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "matplotlib.colors._ColorMapping.__setitem__",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "matplotlib.ticker._DummyAxis.set_data_interval",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar._set_view",
+          "similarity": 0.454545
+        }
+      ],
+      "entered_final": [
+        "matplotlib.projections.polar._AxisWrapper.set_view_interval",
+        "matplotlib.ticker._DummyAxis.set_view_interval",
+        "matplotlib.projections.polar._AxisWrapper.set_data_interval",
+        "matplotlib.dates.MicrosecondLocator.set_axis",
+        "matplotlib.offsetbox.OffsetBox.set_figure",
+        "matplotlib.quiver.QuiverKey.set_figure",
+        "matplotlib.table.Cell.set_figure",
+        "matplotlib.transforms.Affine2D.set",
+        "matplotlib.axis.Tick.set_clip_path",
+        "matplotlib.projections.polar.ThetaLocator.view_limits",
+        "matplotlib.axis.Axis.set_view_interval",
+        "matplotlib.projections.polar._AxisWrapper.get_view_interval",
+        "matplotlib.collections.PatchCollection.set_paths",
+        "matplotlib.axes._base._AxesBase._set_view",
+        "matplotlib.text.Text.set_clip_path",
+        "matplotlib.widgets._SelectorWidget.set_active",
+        "matplotlib.colors._ColorMapping.__setitem__",
+        "matplotlib.ticker._DummyAxis.set_data_interval",
+        "matplotlib.colorbar.Colorbar._set_view"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.projections.polar.RadialAxis._set_scale"
+      ],
+      "prune_bound": 0.314815,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.Duration.Duration.__eq__",
+      "path_score": 0.416667,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.testing.jpl_units.Duration.Duration.__eq__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.transforms.TransformWrapper.__eq__",
+          "similarity": 0.8125
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Name.__eq__",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._StrongRef.__eq__",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.font_manager.FontProperties.__eq__",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__.Grouper.__contains__",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.tests.test_units.Quantity.__getattr__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.transforms.IdentityTransform.transform",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.ArtistList.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.dviread.DviFont.__eq__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureCanvasBase.mpl_connect",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolManager.toolmanager_connect",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Name.__lt__",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.figure._AxesStack.bubble",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.path.Path.transformed",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle.__bool__",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.backends.backend_svg.XMLWriter.data",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.dates.rrulewrapper.__setstate__",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+          "similarity": 0.473684
+        }
+      ],
+      "entered_final": [
+        "matplotlib.transforms.TransformWrapper.__eq__",
+        "matplotlib.backends.backend_pdf.Name.__eq__",
+        "matplotlib.font_manager.FontProperties.__eq__",
+        "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+        "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+        "matplotlib.tests.test_units.Quantity.__getattr__",
+        "matplotlib.transforms.IdentityTransform.transform",
+        "matplotlib.axes._base._AxesBase.ArtistList.__getitem__",
+        "matplotlib.dviread.DviFont.__eq__",
+        "matplotlib.backend_bases.FigureCanvasBase.mpl_connect",
+        "matplotlib.backend_managers.ToolManager.toolmanager_connect",
+        "matplotlib.backends.backend_pdf.Name.__lt__",
+        "matplotlib.figure._AxesStack.bubble",
+        "matplotlib.path.Path.transformed",
+        "matplotlib.markers.MarkerStyle.__bool__",
+        "matplotlib.dates.rrulewrapper.__setstate__",
+        "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cbook.__init__._StrongRef.__eq__",
+        "matplotlib.cbook.__init__.Grouper.__contains__",
+        "matplotlib.backends.backend_svg.XMLWriter.data"
+      ],
+      "prune_bound": 0.330882,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.Duration.Duration.__ge__",
+      "path_score": 0.416667,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.testing.jpl_units.Duration.Duration.__ge__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.cbook.__init__.Grouper.__contains__",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.tests.test_units.Quantity.__getattr__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.transforms.IdentityTransform.transform",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformWrapper.__eq__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.ArtistList.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureCanvasBase.mpl_connect",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolManager.toolmanager_connect",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Name.__eq__",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Name.__lt__",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._StrongRef.__eq__",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.figure._AxesStack.bubble",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.path.Path.transformed",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle.__bool__",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.backends.backend_svg.XMLWriter.data",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.dates.rrulewrapper.__setstate__",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted",
+          "similarity": 0.473684
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+        "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+        "matplotlib.tests.test_units.Quantity.__getattr__",
+        "matplotlib.transforms.IdentityTransform.transform",
+        "matplotlib.transforms.TransformWrapper.__eq__",
+        "matplotlib.axes._base._AxesBase.ArtistList.__getitem__",
+        "matplotlib.backend_bases.FigureCanvasBase.mpl_connect",
+        "matplotlib.backend_managers.ToolManager.toolmanager_connect",
+        "matplotlib.backends.backend_pdf.Name.__eq__",
+        "matplotlib.backends.backend_pdf.Name.__lt__",
+        "matplotlib.figure._AxesStack.bubble",
+        "matplotlib.path.Path.transformed",
+        "matplotlib.markers.MarkerStyle.__bool__",
+        "matplotlib.dates.rrulewrapper.__setstate__",
+        "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+        "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cbook.__init__.Grouper.__contains__",
+        "matplotlib.cbook.__init__._StrongRef.__eq__",
+        "matplotlib.backends.backend_svg.XMLWriter.data"
+      ],
+      "prune_bound": 0.330882,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.Duration.Duration.__gt__",
+      "path_score": 0.416667,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.testing.jpl_units.Duration.Duration.__gt__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.cbook.__init__.Grouper.__contains__",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.tests.test_units.Quantity.__getattr__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.transforms.IdentityTransform.transform",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformWrapper.__eq__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.ArtistList.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureCanvasBase.mpl_connect",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolManager.toolmanager_connect",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Name.__eq__",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Name.__lt__",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._StrongRef.__eq__",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.figure._AxesStack.bubble",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.path.Path.transformed",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle.__bool__",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.backends.backend_svg.XMLWriter.data",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.dates.rrulewrapper.__setstate__",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted",
+          "similarity": 0.473684
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+        "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+        "matplotlib.tests.test_units.Quantity.__getattr__",
+        "matplotlib.transforms.IdentityTransform.transform",
+        "matplotlib.transforms.TransformWrapper.__eq__",
+        "matplotlib.axes._base._AxesBase.ArtistList.__getitem__",
+        "matplotlib.backend_bases.FigureCanvasBase.mpl_connect",
+        "matplotlib.backend_managers.ToolManager.toolmanager_connect",
+        "matplotlib.backends.backend_pdf.Name.__eq__",
+        "matplotlib.backends.backend_pdf.Name.__lt__",
+        "matplotlib.figure._AxesStack.bubble",
+        "matplotlib.path.Path.transformed",
+        "matplotlib.markers.MarkerStyle.__bool__",
+        "matplotlib.dates.rrulewrapper.__setstate__",
+        "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+        "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cbook.__init__.Grouper.__contains__",
+        "matplotlib.cbook.__init__._StrongRef.__eq__",
+        "matplotlib.backends.backend_svg.XMLWriter.data"
+      ],
+      "prune_bound": 0.330882,
+      "dead_reason": null
+    }
+  ]
+}

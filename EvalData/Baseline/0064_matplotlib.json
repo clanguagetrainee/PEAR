@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.1.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.colors.DivergingNorm",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.colors.TwoSlopeNorm",
+      "api_type": "class",
+      "similarity": 0.5749128919860628,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.LocationEvent",
+      "api_type": "class",
+      "similarity": 0.5047169811320755,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.gridspec.GridSpecFromSubplotSpec",
+      "api_type": "class",
+      "similarity": 0.5045454545454545,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.FixedLocator",
+      "api_type": "class",
+      "similarity": 0.497737556561086,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.MouseEvent",
+      "api_type": "class",
+      "similarity": 0.488,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.BlendedAffine2D",
+      "api_type": "class",
+      "similarity": 0.48095238095238096,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.SymmetricalLogTransform",
+      "api_type": "class",
+      "similarity": 0.4789915966386555,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker._Edge_integer",
+      "api_type": "class",
+      "similarity": 0.4748858447488584,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.VertexSelector",
+      "api_type": "class",
+      "similarity": 0.470873786407767,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.TimedAnimation",
+      "api_type": "class",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.layout_engine.TightLayoutEngine",
+      "api_type": "class",
+      "similarity": 0.4690265486725664,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patheffects.SimplePatchShadow",
+      "api_type": "class",
+      "similarity": 0.4658119658119658,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.CompositeAffine2D",
+      "api_type": "class",
+      "similarity": 0.4658119658119658,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.streamplot.StreamMask",
+      "api_type": "class",
+      "similarity": 0.4641350210970464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.gridspec.SubplotParams",
+      "api_type": "class",
+      "similarity": 0.46153846153846156,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.Lasso",
+      "api_type": "class",
+      "similarity": 0.4612546125461255,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.layout_engine.ConstrainedLayoutEngine",
+      "api_type": "class",
+      "similarity": 0.4595744680851064,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.InvertedSymmetricalLogTransform",
+      "api_type": "class",
+      "similarity": 0.4588235294117647,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.MultipleLocator",
+      "api_type": "class",
+      "similarity": 0.45652173913043476,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.LassoSelector",
+      "api_type": "class",
+      "similarity": 0.45652173913043476,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

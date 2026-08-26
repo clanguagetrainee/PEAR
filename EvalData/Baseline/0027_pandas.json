@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.25.3",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.tseries.converter.register",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.plotting._misc.register",
+      "api_type": "function",
+      "similarity": 0.6363636363636364,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.util.test_assert_produces_warning.f",
+      "api_type": "function",
+      "similarity": 0.48,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.test_datetime.data",
+      "api_type": "function",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.test_extension.data",
+      "api_type": "function",
+      "similarity": 0.46153846153846156,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.arrays.test_datetimelike.datetime_index",
+      "api_type": "function",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.test_sparse.data",
+      "api_type": "function",
+      "similarity": 0.4482758620689655,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.plotting._misc.deregister",
+      "api_type": "function",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.multi.test_missing.test_nulls",
+      "api_type": "function",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.multi.test_copy.test_copy",
+      "api_type": "function",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.multi.test_copy.test_view",
+      "api_type": "function",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tseries.holiday.register",
+      "api_type": "function",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.test_col.test_round",
+      "api_type": "function",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.util.test_assert_almost_equal.test_assert_almost_equal_value_mismatch",
+      "api_type": "function",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.util.test_assert_index_equal.test_assert_index_equal_mixed_dtype",
+      "api_type": "function",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.util.test_assert_numpy_array_equal.test_assert_numpy_array_equal_bad_type",
+      "api_type": "function",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.arrays.numpy_.test_numpy.test_repr",
+      "api_type": "function",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.plotting.test_series.series",
+      "api_type": "function",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.base.test_transpose.test_transpose",
+      "api_type": "function",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.interval.test_interval_tree.tree",
+      "api_type": "function",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.test_any_index.test_ravel",
+      "api_type": "function",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

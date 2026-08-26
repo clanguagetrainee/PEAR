@@ -1,0 +1,1372 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "1.4.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.GraphicsContextBase.set_graylevel",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.patches.Rectangle.set_xy",
+      "api_type": "method",
+      "similarity": 0.6,
+      "evolution_path": [
+        "matplotlib.patches.Rectangle.set_xy"
+      ],
+      "local_scores": [
+        0.6
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_picker",
+      "api_type": "method",
+      "similarity": 0.5862068965517241,
+      "evolution_path": [
+        "matplotlib.lines.Line2D.set_picker"
+      ],
+      "local_scores": [
+        0.5862068965517241
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_antialiased",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [
+        "matplotlib.lines.Line2D.set_antialiased"
+      ],
+      "local_scores": [
+        0.5555555555555556
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_markevery",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [
+        "matplotlib.lines.Line2D.set_markevery"
+      ],
+      "local_scores": [
+        0.5555555555555556
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_markersize",
+      "api_type": "method",
+      "similarity": 0.5483870967741935,
+      "evolution_path": [
+        "matplotlib.lines.Line2D.set_markersize"
+      ],
+      "local_scores": [
+        0.5483870967741935
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget.set_visible",
+      "api_type": "method",
+      "similarity": 0.5357142857142857,
+      "evolution_path": [
+        "matplotlib.widgets._SelectorWidget.set_visible"
+      ],
+      "local_scores": [
+        0.5357142857142857
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.AnchoredOffsetbox.set_child",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [
+        "matplotlib.offsetbox.AnchoredOffsetbox.set_child"
+      ],
+      "local_scores": [
+        0.5333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_snap",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [
+        "matplotlib.artist.Artist.set_snap"
+      ],
+      "local_scores": [
+        0.52
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.Collection.set_hatch",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [
+        "matplotlib.collections.Collection.set_hatch"
+      ],
+      "local_scores": [
+        0.52
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.PathCollection.set_paths",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [
+        "matplotlib.collections.PathCollection.set_paths"
+      ],
+      "local_scores": [
+        0.52
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.set_dpi",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [
+        "matplotlib.figure.Figure.set_dpi"
+      ],
+      "local_scores": [
+        0.52
+      ]
+    },
+    {
+      "fqn": "matplotlib.legend.Legend._set_loc",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [
+        "matplotlib.legend.Legend._set_loc"
+      ],
+      "local_scores": [
+        0.52
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_color",
+      "api_type": "method",
+      "similarity": 0.52,
+      "evolution_path": [
+        "matplotlib.lines.Line2D.set_color"
+      ],
+      "local_scores": [
+        0.52
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.TimerBase.interval",
+      "api_type": "method",
+      "similarity": 0.47619047619047616,
+      "evolution_path": [
+        "matplotlib.backend_bases.TimerBase._set_interval",
+        "matplotlib.backend_bases.TimerBase.interval"
+      ],
+      "local_scores": [
+        0.5714285714285714,
+        0.8333333333333334
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorizer.Colorizer._set_cmap",
+      "api_type": "method",
+      "similarity": 0.419047619047619,
+      "evolution_path": [
+        "matplotlib.cm.ScalarMappable.set_cmap",
+        "matplotlib.colorizer.Colorizer._set_cmap"
+      ],
+      "local_scores": [
+        0.5714285714285714,
+        0.7333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure.FigureBase.set_frameon",
+      "api_type": "method",
+      "similarity": 0.41600000000000004,
+      "evolution_path": [
+        "matplotlib.figure.Figure.set_frameon",
+        "matplotlib.figure.FigureBase.set_frameon"
+      ],
+      "local_scores": [
+        0.52,
+        0.8
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.Widget.set_active",
+      "api_type": "method",
+      "similarity": 0.37037037037037035,
+      "evolution_path": [
+        "matplotlib.backends.backend_tkagg.NavigationToolbar2TkAgg.set_active",
+        "matplotlib.widgets.Widget.set_active"
+      ],
+      "local_scores": [
+        0.5555555555555556,
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetBox.set_height",
+      "api_type": "method",
+      "similarity": 0.364,
+      "evolution_path": [
+        "matplotlib.figure.Figure.set_frameon",
+        "matplotlib.offsetbox.OffsetBox.set_height"
+      ],
+      "local_scores": [
+        0.52,
+        0.7
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetBox.set_offset",
+      "api_type": "method",
+      "similarity": 0.364,
+      "evolution_path": [
+        "matplotlib.figure.Figure.set_frameon",
+        "matplotlib.offsetbox.OffsetBox.set_offset"
+      ],
+      "local_scores": [
+        0.52,
+        0.7
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetBox.set_width",
+      "api_type": "method",
+      "similarity": 0.364,
+      "evolution_path": [
+        "matplotlib.figure.Figure.set_frameon",
+        "matplotlib.offsetbox.OffsetBox.set_width"
+      ],
+      "local_scores": [
+        0.52,
+        0.7
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_graylevel",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "2.0.2",
+      "vpost": "2.1.0",
+      "resolved_fqn": "matplotlib.backend_bases.GraphicsContextBase.set_graylevel",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.patches.Rectangle.set_xy",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_picker",
+          "similarity": 0.586207
+        },
+        {
+          "fqn": "matplotlib.backend_bases.TimerBase._set_interval",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.set_cmap",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.backends.backend_tkagg.NavigationToolbar2TkAgg.set_active",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_antialiased",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_markevery",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "matplotlib.colorbar.ColorbarBase.set_label",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "matplotlib.mathtext.Parser.State._set_font",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_markersize",
+          "similarity": 0.548387
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget.set_visible",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.mathtext.MathtextBackend.set_canvas_size",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "matplotlib.offsetbox.AnchoredOffsetbox.set_child",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_snap",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_hatch",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.collections.PathCollection.set_paths",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.set_dpi",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.set_frameon",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.legend.Legend._set_loc",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_color",
+          "similarity": 0.52
+        }
+      ],
+      "entered_final": [
+        "matplotlib.patches.Rectangle.set_xy",
+        "matplotlib.lines.Line2D.set_picker",
+        "matplotlib.lines.Line2D.set_antialiased",
+        "matplotlib.lines.Line2D.set_markevery",
+        "matplotlib.lines.Line2D.set_markersize",
+        "matplotlib.widgets._SelectorWidget.set_visible",
+        "matplotlib.offsetbox.AnchoredOffsetbox.set_child",
+        "matplotlib.artist.Artist.set_snap",
+        "matplotlib.collections.Collection.set_hatch",
+        "matplotlib.collections.PathCollection.set_paths",
+        "matplotlib.figure.Figure.set_dpi",
+        "matplotlib.legend.Legend._set_loc",
+        "matplotlib.lines.Line2D.set_color"
+      ],
+      "entered_iter": [
+        "matplotlib.backend_bases.TimerBase._set_interval",
+        "matplotlib.cm.ScalarMappable.set_cmap",
+        "matplotlib.backends.backend_tkagg.NavigationToolbar2TkAgg.set_active",
+        "matplotlib.colorbar.ColorbarBase.set_label",
+        "matplotlib.mathtext.Parser.State._set_font",
+        "matplotlib.mathtext.MathtextBackend.set_canvas_size",
+        "matplotlib.figure.Figure.set_frameon"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backend_bases.TimerBase._set_interval",
+      "path_score": 0.571429,
+      "boundary": "DEPRECATED",
+      "vpre": "3.0.3",
+      "vpost": "3.1.0",
+      "resolved_fqn": "matplotlib.backend_bases.TimerBase._set_interval",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backend_bases.TimerBase.interval",
+          "similarity": 0.833333
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.set_cmap",
+          "similarity": 0.642857
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_antialiased",
+          "similarity": 0.592593
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle._set_vertices",
+          "similarity": 0.586207
+        },
+        {
+          "fqn": "matplotlib.colorbar.ColorbarBase.set_label",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.set_norm",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "matplotlib.ticker.TickHelper.set_bounds",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget.set_visible",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_picker",
+          "similarity": 0.548387
+        },
+        {
+          "fqn": "matplotlib.image._ImageBase.set_filternorm",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.text.TextWithDash.set_x",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.text.TextWithDash.set_y",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_xticks",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "matplotlib.projections.polar._AxisWrapper.set_data_interval",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "matplotlib.projections.polar._AxisWrapper.set_view_interval",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "matplotlib.dates.MicrosecondLocator.set_data_interval",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.dates.MicrosecondLocator.set_view_interval",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_edgecolor",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_facecolor",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_edgecolor",
+          "similarity": 0.518519
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backend_bases.TimerBase.interval",
+        "matplotlib.backend_bases.GraphicsContextBase.set_antialiased",
+        "matplotlib.markers.MarkerStyle._set_vertices",
+        "matplotlib.widgets._SelectorWidget.set_visible",
+        "matplotlib.lines.Line2D.set_picker",
+        "matplotlib.image._ImageBase.set_filternorm",
+        "matplotlib.axes._base._AxesBase.set_xticks",
+        "matplotlib.projections.polar._AxisWrapper.set_data_interval",
+        "matplotlib.projections.polar._AxisWrapper.set_view_interval",
+        "matplotlib.collections.Collection.set_edgecolor",
+        "matplotlib.collections.Collection.set_facecolor",
+        "matplotlib.patches.Patch.set_edgecolor"
+      ],
+      "entered_iter": [
+        "matplotlib.cm.ScalarMappable.set_cmap",
+        "matplotlib.colorbar.ColorbarBase.set_label",
+        "matplotlib.cm.ScalarMappable.set_norm",
+        "matplotlib.ticker.TickHelper.set_bounds",
+        "matplotlib.text.TextWithDash.set_x",
+        "matplotlib.text.TextWithDash.set_y"
+      ],
+      "pruned": [
+        "matplotlib.dates.MicrosecondLocator.set_data_interval",
+        "matplotlib.dates.MicrosecondLocator.set_view_interval"
+      ],
+      "prune_bound": 0.303571,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cm.ScalarMappable.set_cmap",
+      "path_score": 0.571429,
+      "boundary": "DEPRECATED",
+      "vpre": "3.9.4",
+      "vpost": "3.10.0",
+      "resolved_fqn": "matplotlib.cm.ScalarMappable.set_cmap",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.colorizer.Colorizer._set_cmap",
+          "similarity": 0.733333
+        },
+        {
+          "fqn": "matplotlib.colorizer._ColorizerInterface.set_cmap",
+          "similarity": 0.608696
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_linespacing",
+          "similarity": 0.586207
+        },
+        {
+          "fqn": "matplotlib.transforms.Affine2D.set",
+          "similarity": 0.586207
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_picker",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_capstyle",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_joinstyle",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_hatch",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_color",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_hatch",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget.set_visible",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "matplotlib.image._ImageBase.set_resample",
+          "similarity": 0.548387
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_antialiased",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.image._ImageBase.set_filternorm",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_gapcolor",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "matplotlib.collections.LineCollection.set_gapcolor",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_edgecolor",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_facecolor",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar.set_alpha",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo.GraphicsContextCairo.set_capstyle",
+          "similarity": 0.516129
+        }
+      ],
+      "entered_final": [
+        "matplotlib.colorizer.Colorizer._set_cmap",
+        "matplotlib.colorizer._ColorizerInterface.set_cmap",
+        "matplotlib.text.Text.set_linespacing",
+        "matplotlib.transforms.Affine2D.set",
+        "matplotlib.lines.Line2D.set_picker",
+        "matplotlib.patches.Patch.set_capstyle",
+        "matplotlib.patches.Patch.set_joinstyle",
+        "matplotlib.collections.Collection.set_hatch",
+        "matplotlib.lines.Line2D.set_color",
+        "matplotlib.patches.Patch.set_hatch",
+        "matplotlib.widgets._SelectorWidget.set_visible",
+        "matplotlib.image._ImageBase.set_resample",
+        "matplotlib.backend_bases.GraphicsContextBase.set_antialiased",
+        "matplotlib.image._ImageBase.set_filternorm",
+        "matplotlib.lines.Line2D.set_gapcolor",
+        "matplotlib.collections.LineCollection.set_gapcolor",
+        "matplotlib.patches.Patch.set_edgecolor",
+        "matplotlib.patches.Patch.set_facecolor",
+        "matplotlib.colorbar.Colorbar.set_alpha",
+        "matplotlib.backends.backend_cairo.GraphicsContextCairo.set_capstyle"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.334975,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkagg.NavigationToolbar2TkAgg.set_active",
+      "path_score": 0.555556,
+      "boundary": "DEPRECATED",
+      "vpre": "2.1.2",
+      "vpost": "2.2.0",
+      "resolved_fqn": "matplotlib.backends.backend_tkagg.NavigationToolbar2TkAgg.set_active",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_active",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.widgets.Widget.set_active",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_antialiased",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_markevery",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.set_array",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "matplotlib.legend.Legend._set_loc",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_snap",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_hatch",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.collections.PathCollection.set_paths",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.set_dpi",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.set_frameon",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_color",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_height",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_offset",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_width",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetImage.set_zoom",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.TextArea.set_minimumdescent",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.TextArea.set_multilinebaseline",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.patches.FancyBboxPatch.set_height",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.patches.FancyBboxPatch.set_width",
+          "similarity": 0.52
+        }
+      ],
+      "entered_final": [
+        "matplotlib.widgets.Widget.set_active",
+        "matplotlib.lines.Line2D.set_antialiased",
+        "matplotlib.lines.Line2D.set_markevery",
+        "matplotlib.legend.Legend._set_loc",
+        "matplotlib.artist.Artist.set_snap",
+        "matplotlib.collections.Collection.set_hatch",
+        "matplotlib.collections.PathCollection.set_paths",
+        "matplotlib.figure.Figure.set_dpi",
+        "matplotlib.lines.Line2D.set_color",
+        "matplotlib.offsetbox.OffsetBox.set_height",
+        "matplotlib.offsetbox.OffsetBox.set_offset",
+        "matplotlib.offsetbox.OffsetBox.set_width",
+        "matplotlib.offsetbox.OffsetImage.set_zoom",
+        "matplotlib.offsetbox.TextArea.set_multilinebaseline",
+        "matplotlib.patches.FancyBboxPatch.set_height",
+        "matplotlib.patches.FancyBboxPatch.set_width"
+      ],
+      "entered_iter": [
+        "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_active"
+      ],
+      "pruned": [
+        "matplotlib.cm.ScalarMappable.set_array",
+        "matplotlib.figure.Figure.set_frameon",
+        "matplotlib.offsetbox.TextArea.set_minimumdescent"
+      ],
+      "prune_bound": 0.334975,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_active",
+      "path_score": 0.555556,
+      "boundary": "DEPRECATED",
+      "vpre": "3.2.2",
+      "vpost": "3.3.0",
+      "resolved_fqn": "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_active",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.widgets.Widget.set_active",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_antialiased",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.set_array",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_snap",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_hatch",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.collections.PathCollection.set_paths",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.set_dpi",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_color",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_markevery",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_height",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_offset",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_width",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetImage.set_zoom",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.TextArea.set_minimumdescent",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.offsetbox.TextArea.set_multilinebaseline",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.patches.Ellipse.set_angle",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.patches.Ellipse.set_center",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.patches.Ellipse.set_height",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.patches.Ellipse.set_width",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.patches.FancyBboxPatch.set_height",
+          "similarity": 0.52
+        }
+      ],
+      "entered_final": [
+        "matplotlib.widgets.Widget.set_active",
+        "matplotlib.lines.Line2D.set_antialiased",
+        "matplotlib.artist.Artist.set_snap",
+        "matplotlib.collections.Collection.set_hatch",
+        "matplotlib.collections.PathCollection.set_paths",
+        "matplotlib.figure.Figure.set_dpi",
+        "matplotlib.lines.Line2D.set_color",
+        "matplotlib.lines.Line2D.set_markevery",
+        "matplotlib.offsetbox.OffsetBox.set_height",
+        "matplotlib.offsetbox.OffsetBox.set_offset",
+        "matplotlib.offsetbox.OffsetBox.set_width",
+        "matplotlib.offsetbox.OffsetImage.set_zoom",
+        "matplotlib.offsetbox.TextArea.set_multilinebaseline",
+        "matplotlib.patches.Ellipse.set_angle",
+        "matplotlib.patches.Ellipse.set_center",
+        "matplotlib.patches.Ellipse.set_height",
+        "matplotlib.patches.Ellipse.set_width",
+        "matplotlib.patches.FancyBboxPatch.set_height"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cm.ScalarMappable.set_array",
+        "matplotlib.offsetbox.TextArea.set_minimumdescent"
+      ],
+      "prune_bound": 0.334975,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.colorbar.ColorbarBase.set_label",
+      "path_score": 0.551724,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.colorbar.ColorbarBase.set_label",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.artist.Artist.set_label",
+          "similarity": 0.542857
+        },
+        {
+          "fqn": "matplotlib.patches.Rectangle.set_xy",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "matplotlib.axis.XAxis.set_label_position",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_visible",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "matplotlib.image._ImageBase.set_filternorm",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_facecolor",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "matplotlib.patches.Annulus.set_semimajor",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "matplotlib.patches.Annulus.set_semiminor",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar.set_label",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_animated",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.set_message",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_antialiased",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_edgecolor",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_facecolor",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.colorbar._ColorbarSpine.set_xy",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_marker",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_picker",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "matplotlib.axes._subplots.SubplotBase.set_subplotspec",
+          "similarity": 0.483871
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_hatch",
+          "similarity": 0.483871
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_color",
+          "similarity": 0.483871
+        }
+      ],
+      "entered_final": [
+        "matplotlib.artist.Artist.set_label",
+        "matplotlib.patches.Rectangle.set_xy",
+        "matplotlib.axis.XAxis.set_label_position",
+        "matplotlib.artist.Artist.set_visible",
+        "matplotlib.image._ImageBase.set_filternorm",
+        "matplotlib.axes._base._AxesBase.set_facecolor",
+        "matplotlib.patches.Annulus.set_semimajor",
+        "matplotlib.patches.Annulus.set_semiminor",
+        "matplotlib.colorbar.Colorbar.set_label",
+        "matplotlib.artist.Artist.set_animated",
+        "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.set_message",
+        "matplotlib.lines.Line2D.set_antialiased",
+        "matplotlib.patches.Patch.set_edgecolor",
+        "matplotlib.patches.Patch.set_facecolor",
+        "matplotlib.colorbar._ColorbarSpine.set_xy",
+        "matplotlib.lines.Line2D.set_marker",
+        "matplotlib.lines.Line2D.set_picker",
+        "matplotlib.collections.Collection.set_hatch",
+        "matplotlib.lines.Line2D.set_color"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.axes._subplots.SubplotBase.set_subplotspec"
+      ],
+      "prune_bound": 0.334975,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.mathtext.Parser.State._set_font",
+      "path_score": 0.551724,
+      "boundary": "DEPRECATED",
+      "vpre": "3.0.3",
+      "vpost": "3.1.0",
+      "resolved_fqn": "matplotlib.mathtext.Parser.State._set_font",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_capstyle",
+          "similarity": 0.575758
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_joinstyle",
+          "similarity": 0.575758
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_capstyle",
+          "similarity": 0.575758
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_joinstyle",
+          "similarity": 0.575758
+        },
+        {
+          "fqn": "matplotlib.mathtext.Parser.State.font",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "matplotlib.ticker.EngFormatter.set_usetex",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_horizontalalignment",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_multialignment",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "matplotlib.spines.Spine.set_bounds",
+          "similarity": 0.558824
+        },
+        {
+          "fqn": "matplotlib.table.Table.auto_set_font_size",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_verticalalignment",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_xmargin",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_ymargin",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib.image._ImageBase.set_resample",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib.ticker.EngFormatter.set_useMathText",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib.ticker.ScalarFormatter.set_useLocale",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib.ticker.ScalarFormatter.set_useMathText",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo.GraphicsContextCairo.set_capstyle",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo.GraphicsContextCairo.set_joinstyle",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.set_cursor",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_capstyle",
+        "matplotlib.backend_bases.GraphicsContextBase.set_joinstyle",
+        "matplotlib.collections.Collection.set_capstyle",
+        "matplotlib.collections.Collection.set_joinstyle",
+        "matplotlib.text.Text.set_horizontalalignment",
+        "matplotlib.text.Text.set_multialignment",
+        "matplotlib.spines.Spine.set_bounds",
+        "matplotlib.table.Table.auto_set_font_size",
+        "matplotlib.text.Text.set_verticalalignment",
+        "matplotlib.axes._base._AxesBase.set_xmargin",
+        "matplotlib.axes._base._AxesBase.set_ymargin",
+        "matplotlib.image._ImageBase.set_resample",
+        "matplotlib.ticker.ScalarFormatter.set_useLocale",
+        "matplotlib.ticker.ScalarFormatter.set_useMathText",
+        "matplotlib.backends.backend_cairo.GraphicsContextCairo.set_capstyle",
+        "matplotlib.backends.backend_cairo.GraphicsContextCairo.set_joinstyle"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.mathtext.Parser.State.font",
+        "matplotlib.ticker.EngFormatter.set_usetex",
+        "matplotlib.ticker.EngFormatter.set_useMathText",
+        "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.set_cursor"
+      ],
+      "prune_bound": 0.334975,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.mathtext.MathtextBackend.set_canvas_size",
+      "path_score": 0.533333,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.mathtext.MathtextBackend.set_canvas_size",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.textpath.TextPath.set_size",
+          "similarity": 0.615385
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.set_canvas",
+          "similarity": 0.56
+        },
+        {
+          "fqn": "matplotlib.colorbar._ColorbarSpine.set_xy",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib.offsetbox.AnchoredOffsetbox.set_child",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib.patches.Annulus.set_angle",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Annulus.set_center",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Annulus.set_semimajor",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Annulus.set_semiminor",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Wedge.set_center",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Wedge.set_radius",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Wedge.set_theta1",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Wedge.set_theta2",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.Wedge.set_width",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_markersize",
+          "similarity": 0.485714
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_capstyle",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_joinstyle",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_antialiased",
+          "similarity": 0.483871
+        },
+        {
+          "fqn": "matplotlib.image._ImageBase.set_resample",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_hatch",
+          "similarity": 0.46875
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_color",
+          "similarity": 0.46875
+        }
+      ],
+      "entered_final": [
+        "matplotlib.textpath.TextPath.set_size",
+        "matplotlib.figure.Figure.set_canvas",
+        "matplotlib.colorbar._ColorbarSpine.set_xy",
+        "matplotlib.offsetbox.AnchoredOffsetbox.set_child",
+        "matplotlib.patches.Annulus.set_angle",
+        "matplotlib.patches.Annulus.set_center",
+        "matplotlib.patches.Annulus.set_semimajor",
+        "matplotlib.patches.Annulus.set_semiminor",
+        "matplotlib.patches.Wedge.set_center",
+        "matplotlib.patches.Wedge.set_radius",
+        "matplotlib.patches.Wedge.set_theta1",
+        "matplotlib.patches.Wedge.set_theta2",
+        "matplotlib.patches.Wedge.set_width",
+        "matplotlib.lines.Line2D.set_markersize",
+        "matplotlib.patches.Patch.set_capstyle",
+        "matplotlib.patches.Patch.set_joinstyle",
+        "matplotlib.lines.Line2D.set_antialiased",
+        "matplotlib.image._ImageBase.set_resample",
+        "matplotlib.collections.Collection.set_hatch",
+        "matplotlib.lines.Line2D.set_color"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.334975,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.set_frameon",
+      "path_score": 0.52,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.4",
+      "vpost": "3.4.0",
+      "resolved_fqn": "matplotlib.figure.Figure.set_frameon",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.figure.FigureBase.set_frameon",
+          "similarity": 0.8
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_snap",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.collections.PathCollection.set_paths",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.set_dpi",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_markevery",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_height",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_offset",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.set_width",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetImage.set_zoom",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.offsetbox.TextArea.set_multilinebaseline",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.Ellipse.set_angle",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.Ellipse.set_center",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.Ellipse.set_height",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.Ellipse.set_width",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.FancyBboxPatch.set_height",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.FancyBboxPatch.set_width",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.FancyBboxPatch.set_x",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.FancyBboxPatch.set_y",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.Rectangle.set_height",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "matplotlib.patches.Rectangle.set_width",
+          "similarity": 0.7
+        }
+      ],
+      "entered_final": [
+        "matplotlib.figure.FigureBase.set_frameon",
+        "matplotlib.artist.Artist.set_snap",
+        "matplotlib.collections.PathCollection.set_paths",
+        "matplotlib.figure.Figure.set_dpi",
+        "matplotlib.lines.Line2D.set_markevery",
+        "matplotlib.offsetbox.OffsetBox.set_height",
+        "matplotlib.offsetbox.OffsetBox.set_offset",
+        "matplotlib.offsetbox.OffsetBox.set_width",
+        "matplotlib.offsetbox.OffsetImage.set_zoom",
+        "matplotlib.offsetbox.TextArea.set_multilinebaseline",
+        "matplotlib.patches.Ellipse.set_angle",
+        "matplotlib.patches.Ellipse.set_center",
+        "matplotlib.patches.Ellipse.set_height",
+        "matplotlib.patches.Ellipse.set_width",
+        "matplotlib.patches.FancyBboxPatch.set_height",
+        "matplotlib.patches.FancyBboxPatch.set_width",
+        "matplotlib.patches.FancyBboxPatch.set_x",
+        "matplotlib.patches.FancyBboxPatch.set_y",
+        "matplotlib.patches.Rectangle.set_height",
+        "matplotlib.patches.Rectangle.set_width"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.364,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cm.ScalarMappable.set_norm",
+      "path_score": 0.321429,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.364,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "matplotlib.ticker.TickHelper.set_bounds",
+      "path_score": 0.315271,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.364,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "matplotlib.text.TextWithDash.set_x",
+      "path_score": 0.306122,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.364,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "matplotlib.text.TextWithDash.set_y",
+      "path_score": 0.306122,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.364,
+      "dead_reason": "pruned_at_pop"
+    }
+  ]
+}

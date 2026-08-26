@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.8.19",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.fields.related.ManyRelatedObjectsDescriptor",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.contenttypes.forms.BaseGenericInlineFormSet",
+      "api_type": "class",
+      "similarity": 0.4925373134328358,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.helpers.InlineAdminForm",
+      "api_type": "class",
+      "similarity": 0.4904214559386973,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.reverse_related.ManyToOneRel",
+      "api_type": "class",
+      "similarity": 0.4681818181818182,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.reverse_related.ManyToManyRel",
+      "api_type": "class",
+      "similarity": 0.4646017699115044,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.files.FileDescriptor",
+      "api_type": "class",
+      "similarity": 0.464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.ddl_references.Expressions",
+      "api_type": "class",
+      "similarity": 0.4628099173553719,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.loader_tags.BlockNode",
+      "api_type": "class",
+      "similarity": 0.46184738955823296,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.contenttypes.management.__init__.RenameContentType",
+      "api_type": "class",
+      "similarity": 0.4608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.serializers.base.DeserializedObject",
+      "api_type": "class",
+      "similarity": 0.4606741573033708,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.RawSQL",
+      "api_type": "class",
+      "similarity": 0.4595744680851064,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.operations.models.AlterModelTable",
+      "api_type": "class",
+      "similarity": 0.45955882352941174,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.TranslateNode",
+      "api_type": "class",
+      "similarity": 0.4532710280373832,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.base.PartialTemplate",
+      "api_type": "class",
+      "similarity": 0.4521072796934866,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.helpers.AdminField",
+      "api_type": "class",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.proxy.SpatialProxy",
+      "api_type": "class",
+      "similarity": 0.44881889763779526,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardOneToOneDescriptor",
+      "api_type": "class",
+      "similarity": 0.44871794871794873,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.operations.RemoveIndexConcurrently",
+      "api_type": "class",
+      "similarity": 0.44493392070484583,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.staticfiles.finders.BaseStorageFinder",
+      "api_type": "class",
+      "similarity": 0.44493392070484583,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaulttags.URLNode",
+      "api_type": "class",
+      "similarity": 0.44396551724137934,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.composite.CompositeAttribute",
+      "api_type": "class",
+      "similarity": 0.4439252336448598,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "2.1.15",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.staticfiles.storage.CachedStaticFilesStorage",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+      "api_type": "class",
+      "similarity": 0.6190476190476191,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.exceptions.TooManyFilesSent",
+      "api_type": "class",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.staticfiles.testing.StaticLiveServerTestCase",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.functional.Promise",
+      "api_type": "class",
+      "similarity": 0.3,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.error.GEOSException",
+      "api_type": "class",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.forms.Form",
+      "api_type": "class",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.regex_helper.Choice",
+      "api_type": "class",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.regex_helper.Group",
+      "api_type": "class",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.User.Meta",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.operations.SDODWithin",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.operations.SDOOperator",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.sitemaps.kml.KMZSitemap",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.aggregates.statistics.Corr",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.sessions.models.Session.Meta",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.text.RPad",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.window.Lag",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.window.Lead",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.exceptions.AlreadyRegistered",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.exceptions.NotRegistered",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.BaseAdminDateWidget.Media",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

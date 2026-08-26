@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.views.debug.ExceptionReporterFilter",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.db.models.query_utils.class_or_instance_method",
+      "api_type": "class",
+      "similarity": 0.367816091954023,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.edit.BaseCreateView",
+      "api_type": "class",
+      "similarity": 0.358695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.filters.FacetsMixin",
+      "api_type": "class",
+      "similarity": 0.3473684210526316,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.base.ModelStateFieldsCacheDescriptor",
+      "api_type": "class",
+      "similarity": 0.33783783783783783,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.base._UninitializedOperatorsDescriptor",
+      "api_type": "class",
+      "similarity": 0.3375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.edit.BaseUpdateView",
+      "api_type": "class",
+      "similarity": 0.32989690721649484,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.signing.JSONSerializer",
+      "api_type": "class",
+      "similarity": 0.3253012048192771,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.fields.ExtentField",
+      "api_type": "class",
+      "similarity": 0.3225806451612903,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.renderers.EngineMixin",
+      "api_type": "class",
+      "similarity": 0.32222222222222224,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.lookups.YearExact",
+      "api_type": "class",
+      "similarity": 0.32142857142857145,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.password_validation.NumericPasswordValidator",
+      "api_type": "class",
+      "similarity": 0.32038834951456313,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.decorators.classonlymethod",
+      "api_type": "class",
+      "similarity": 0.32,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaulttags.FilterNode",
+      "api_type": "class",
+      "similarity": 0.3181818181818182,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.edit.DeletionMixin",
+      "api_type": "class",
+      "similarity": 0.3157894736842105,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.forms.ranges.RangeWidget",
+      "api_type": "class",
+      "similarity": 0.3146067415730337,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.RowRange",
+      "api_type": "class",
+      "similarity": 0.3116883116883117,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.ValueRange",
+      "api_type": "class",
+      "similarity": 0.3116883116883117,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.testcases._MediaFilesHandler",
+      "api_type": "class",
+      "similarity": 0.30952380952380953,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.testcases._StaticFilesHandler",
+      "api_type": "class",
+      "similarity": 0.30952380952380953,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.urls.converters.UUIDConverter",
+      "api_type": "class",
+      "similarity": 0.30864197530864196,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

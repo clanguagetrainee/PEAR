@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.2.25",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.admin.options.GeoModelAdmin",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.admin.widgets.AutocompleteMixin",
+      "api_type": "class",
+      "similarity": 0.5116279069767442,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.handlers.asgi.ASGIRequest",
+      "api_type": "class",
+      "similarity": 0.48411214953271026,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.features.DatabaseFeatures",
+      "api_type": "class",
+      "similarity": 0.482897384305835,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.filters.AllValuesFieldListFilter",
+      "api_type": "class",
+      "similarity": 0.4786516853932584,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaulttags.ForNode",
+      "api_type": "class",
+      "similarity": 0.46956521739130436,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.filters.BooleanFieldListFilter",
+      "api_type": "class",
+      "similarity": 0.4678492239467849,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper",
+      "api_type": "class",
+      "similarity": 0.4677716390423573,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.commands.runserver.Command",
+      "api_type": "class",
+      "similarity": 0.4519230769230769,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.runner.ParallelTestSuite",
+      "api_type": "class",
+      "similarity": 0.44948453608247424,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.BlockTranslateNode",
+      "api_type": "class",
+      "similarity": 0.44639376218323584,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.base.Template",
+      "api_type": "class",
+      "similarity": 0.444234404536862,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.filters.RelatedFieldListFilter",
+      "api_type": "class",
+      "similarity": 0.44360902255639095,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.client.AsyncRequestFactory",
+      "api_type": "class",
+      "similarity": 0.44251626898047725,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.filters.DateFieldListFilter",
+      "api_type": "class",
+      "similarity": 0.44140625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.contenttypes.admin.GenericInlineModelAdmin",
+      "api_type": "class",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.management.commands.ogrinspect.Command",
+      "api_type": "class",
+      "similarity": 0.4385150812064965,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.postgresql.features.DatabaseFeatures",
+      "api_type": "class",
+      "similarity": 0.43795620437956206,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.http.response.FileResponse",
+      "api_type": "class",
+      "similarity": 0.4378818737270876,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.OrderBy",
+      "api_type": "class",
+      "similarity": 0.4358047016274864,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.models.LogEntry",
+      "api_type": "class",
+      "similarity": 0.43305785123966944,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

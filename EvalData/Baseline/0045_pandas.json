@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "2.0.3",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.frame.DataFrame.applymap",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.core.frame.DataFrame.map",
+      "api_type": "method",
+      "similarity": 0.5982142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.dtypes.CategoricalDtype.update_dtype",
+      "api_type": "method",
+      "similarity": 0.4782608695652174,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.frame.DataFrame.reorder_levels",
+      "api_type": "method",
+      "similarity": 0.4701492537313433,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.timedeltas.TimedeltaArray._accumulate",
+      "api_type": "method",
+      "similarity": 0.4608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.timedeltas.TimedeltaArray.astype",
+      "api_type": "method",
+      "similarity": 0.45528455284552843,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.window.rolling.BaseWindow._apply_series",
+      "api_type": "method",
+      "similarity": 0.44360902255639095,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.sparse.array.SparseArray.take",
+      "api_type": "method",
+      "similarity": 0.4435483870967742,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.accessors.ArrowTemporalProperties._delegate_method",
+      "api_type": "method",
+      "similarity": 0.44166666666666665,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.categorical.Categorical.__array_ufunc__",
+      "api_type": "method",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.accessors.ArrowTemporalProperties._delegate_property_get",
+      "api_type": "method",
+      "similarity": 0.432,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.date.array.DateArray._from_sequence",
+      "api_type": "method",
+      "similarity": 0.43089430894308944,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas._config.config.DictWrapper.__getattr__",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.strings.accessor.StringMethods.split",
+      "api_type": "method",
+      "similarity": 0.427536231884058,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.frame.DataFrame.itertuples",
+      "api_type": "method",
+      "similarity": 0.4264705882352941,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.accessors.Properties._delegate_property_get",
+      "api_type": "method",
+      "similarity": 0.4263565891472868,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.strings.accessor.StringMethods.get_dummies",
+      "api_type": "method",
+      "similarity": 0.4263565891472868,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.string_.BaseStringArray._logical_method",
+      "api_type": "method",
+      "similarity": 0.4260869565217391,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.timedeltas.TimedeltaArray.components",
+      "api_type": "method",
+      "similarity": 0.423728813559322,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.sql.SQLTable._index_name",
+      "api_type": "method",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.test_string.TestStringArray._cast_pointwise_result",
+      "api_type": "method",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

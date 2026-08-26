@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.20.3",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.frame.DataFrame.reindex_axis",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.tests.apply.conftest.MockExecutionEngine.map",
+      "api_type": "method",
+      "similarity": 0.46938775510204084,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexing.multiindex.test_setitem.TestMultiIndexSetItem.check",
+      "api_type": "method",
+      "similarity": 0.43636363636363634,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.plotting.frame.test_hist_box_by.TestBoxWithBy.test_box_plot_layout_with_by",
+      "api_type": "method",
+      "similarity": 0.43636363636363634,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.internals.managers.BaseBlockManager.reindex_axis",
+      "api_type": "method",
+      "similarity": 0.43283582089552236,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.take",
+      "api_type": "method",
+      "similarity": 0.43103448275862066,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.strings.accessor.StringMethods.rsplit",
+      "api_type": "method",
+      "similarity": 0.423728813559322,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.decimal.array.DecimalArray.take",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.TestCoercionFloat32.test_slice_key",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.methods.test_rename_axis.TestSeriesRenameAxis.test_rename_axis_inplace",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.decimal.array.DecimalArray.to_numpy",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.window.test_numba.PrescribedWindowIndexer.get_window_bounds",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.window.test_rolling.PrescribedWindowIndexer.get_window_bounds",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.strings.accessor.StringMethods.slice",
+      "api_type": "method",
+      "similarity": 0.40816326530612246,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.frame.methods.test_quantile.TestQuantileExtensionDtype.compute_quantile",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.base.methods.BaseMethodsTests.test_repeat_raises",
+      "api_type": "method",
+      "similarity": 0.4067796610169492,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.generic.SeriesGroupBy.describe",
+      "api_type": "method",
+      "similarity": 0.40425531914893614,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.CoercionTest.expected",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.reshape.test_melt.TestMelt.test_single_vars_work_with_multiindex",
+      "api_type": "method",
+      "similarity": 0.39655172413793105,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.TestSetitemNADatetimeLikeDtype.expected",
+      "api_type": "method",
+      "similarity": 0.39622641509433965,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.plotting.frame.test_hist_box_by.TestHistWithBy.test_hist_plot_layout_with_by",
+      "api_type": "method",
+      "similarity": 0.39344262295081966,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

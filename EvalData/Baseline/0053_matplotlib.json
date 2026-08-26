@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "2.2.5",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.legend.Legend.draggable",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.text._AnnotationBase.draggable",
+      "api_type": "method",
+      "similarity": 0.9074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.legend.Legend.set_draggable",
+      "api_type": "method",
+      "similarity": 0.6964285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.Colormap._set_extremes",
+      "api_type": "method",
+      "similarity": 0.5522388059701493,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.StepPatch.set_data",
+      "api_type": "method",
+      "similarity": 0.5308641975308642,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer.Colorizer.norm",
+      "api_type": "method",
+      "similarity": 0.5285714285714286,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.LogLocator.set_params",
+      "api_type": "method",
+      "similarity": 0.5161290322580645,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.AsinhLocator.set_params",
+      "api_type": "method",
+      "similarity": 0.5142857142857142,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.update_units",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.figure.FigureBase.get_figure",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.AbstractMovieWriter.setup",
+      "api_type": "method",
+      "similarity": 0.4918032786885246,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.Affine2DBase.inverted",
+      "api_type": "method",
+      "similarity": 0.47692307692307695,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_figure",
+      "api_type": "method",
+      "similarity": 0.47619047619047616,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_foreground",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text._AnnotationBase._check_xy",
+      "api_type": "method",
+      "similarity": 0.4657534246575342,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.spines.Spine.set_bounds",
+      "api_type": "method",
+      "similarity": 0.4634146341463415,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triangulation.Triangulation.set_mask",
+      "api_type": "method",
+      "similarity": 0.4634146341463415,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolToggleBase.set_figure",
+      "api_type": "method",
+      "similarity": 0.4626865671641791,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget.release",
+      "api_type": "method",
+      "similarity": 0.4626865671641791,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_managers.ToolManager._handle_toggle",
+      "api_type": "method",
+      "similarity": 0.46236559139784944,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer.Colorizer.set_clim",
+      "api_type": "method",
+      "similarity": 0.4606741573033708,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

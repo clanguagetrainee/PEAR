@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.6.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backends.backend_svg.RendererSVG.draw_gouraud_triangle",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends.backend_svg.RendererSVG._draw_gouraud_triangle",
+      "api_type": "method",
+      "similarity": 0.8173076923076923,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._type1font.Type1Font._parse",
+      "api_type": "method",
+      "similarity": 0.5286259541984732,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.RendererSVG.draw_image",
+      "api_type": "method",
+      "similarity": 0.5234215885947047,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps.RendererPS.draw_text",
+      "api_type": "method",
+      "similarity": 0.5122950819672131,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.RendererSVG._draw_text_as_path",
+      "api_type": "method",
+      "similarity": 0.5031446540880503,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.RendererSVG._write_metadata",
+      "api_type": "method",
+      "similarity": 0.4925124792013311,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.RendererSVG.draw_path_collection",
+      "api_type": "method",
+      "similarity": 0.4904051172707889,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.ConnectionPatch._get_xy",
+      "api_type": "method",
+      "similarity": 0.4883720930232558,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.quiver.Barbs._make_barbs",
+      "api_type": "method",
+      "similarity": 0.48697394789579157,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._Buttons._init_layout",
+      "api_type": "method",
+      "similarity": 0.4860557768924303,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.print_figure",
+      "api_type": "method",
+      "similarity": 0.4839319470699433,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._axes.Axes.grouped_bar",
+      "api_type": "method",
+      "similarity": 0.4725274725274725,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.legend_handler.HandlerErrorbar.create_artists",
+      "api_type": "method",
+      "similarity": 0.47113594040968343,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._process_plot_var_args._plot_args",
+      "api_type": "method",
+      "similarity": 0.4704861111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.polar.RadialTick.update_position",
+      "api_type": "method",
+      "similarity": 0.46880570409982175,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.Animation.save",
+      "api_type": "method",
+      "similarity": 0.46593001841620624,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.RendererPgf._print_pgf_path",
+      "api_type": "method",
+      "similarity": 0.4647887323943662,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_agg.RendererAgg._draw_text_glyphs_and_boxes",
+      "api_type": "method",
+      "similarity": 0.4642857142857143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps.FigureCanvasPS._print_figure_tex",
+      "api_type": "method",
+      "similarity": 0.4606986899563319,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfFile._writeImg",
+      "api_type": "method",
+      "similarity": 0.4577603143418468,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

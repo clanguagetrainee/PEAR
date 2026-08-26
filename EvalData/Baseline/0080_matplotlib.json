@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.spines.Spine.cla",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.cla",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfFile.endStream",
+      "api_type": "method",
+      "similarity": 0.56,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.TimerAsyncio._timer_stop",
+      "api_type": "method",
+      "similarity": 0.56,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_gtk.TimerGTK._timer_stop",
+      "api_type": "method",
+      "similarity": 0.5384615384615384,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.TimerTk._timer_stop",
+      "api_type": "method",
+      "similarity": 0.5384615384615384,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfPages.close",
+      "api_type": "method",
+      "similarity": 0.5384615384615384,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.PolygonSelector._remove_box",
+      "api_type": "method",
+      "similarity": 0.5384615384615384,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.spines.Spine.clear",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.Stream._flush",
+      "api_type": "method",
+      "similarity": 0.4827586206896552,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.Event._process",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorbar.Colorbar._cbar_cla",
+      "api_type": "method",
+      "similarity": 0.4482758620689655,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.clear",
+      "api_type": "method",
+      "similarity": 0.43478260869565216,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf.pop",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triangulation.Triangulation.edges",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triangulation.Triangulation.neighbors",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Patch.set_edgegapcolor",
+      "api_type": "method",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cbook._OrderedSet.add",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.blit",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.GraphicsContextWx.select",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.RendererBase.get_texmanager",
+      "api_type": "method",
+      "similarity": 0.39285714285714285,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

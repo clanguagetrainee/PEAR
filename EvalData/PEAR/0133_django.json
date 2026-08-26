@@ -1,0 +1,367 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "2.1.15",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.staticfiles.storage.CachedStaticFilesStorage",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+      "api_type": "class",
+      "similarity": 0.6190476190476191,
+      "evolution_path": [
+        "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
+      ],
+      "local_scores": [
+        0.6190476190476191
+      ]
+    },
+    {
+      "fqn": "django.contrib.staticfiles.testing.StaticLiveServerTestCase",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [
+        "django.contrib.staticfiles.testing.StaticLiveServerTestCase"
+      ],
+      "local_scores": [
+        0.3333333333333333
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.error.GEOSException",
+      "api_type": "class",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [
+        "django.contrib.gis.geos.error.GEOSException"
+      ],
+      "local_scores": [
+        0.2857142857142857
+      ]
+    },
+    {
+      "fqn": "django.forms.forms.Form",
+      "api_type": "class",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [
+        "django.forms.forms.Form"
+      ],
+      "local_scores": [
+        0.2857142857142857
+      ]
+    },
+    {
+      "fqn": "django.utils.regex_helper.Choice",
+      "api_type": "class",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [
+        "django.utils.regex_helper.Choice"
+      ],
+      "local_scores": [
+        0.2857142857142857
+      ]
+    },
+    {
+      "fqn": "django.utils.regex_helper.Group",
+      "api_type": "class",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [
+        "django.utils.regex_helper.Group"
+      ],
+      "local_scores": [
+        0.2857142857142857
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.Expression",
+      "api_type": "class",
+      "similarity": 0.2727272727272727,
+      "evolution_path": [
+        "django.db.models.expressions.Expression"
+      ],
+      "local_scores": [
+        0.2727272727272727
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.models.User.Meta",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "django.contrib.auth.models.User.Meta"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.operations.SDODWithin",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.oracle.operations.SDODWithin"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.operations.SDOOperator",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.oracle.operations.SDOOperator"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.sitemaps.kml.KMZSitemap",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "django.contrib.gis.sitemaps.kml.KMZSitemap"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.aggregates.statistics.Corr",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "django.contrib.postgres.aggregates.statistics.Corr"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "django.contrib.sessions.models.Session.Meta",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "django.contrib.sessions.models.Session.Meta"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "django.db.models.functions.text.RPad",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "django.db.models.functions.text.RPad"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "django.db.models.functions.window.Lag",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "django.db.models.functions.window.Lag"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "django.db.models.functions.window.Lead",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "django.db.models.functions.window.Lead"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "django.contrib.sessions.backends.base.CreateError",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [
+        "django.contrib.sessions.backends.base.CreateError"
+      ],
+      "local_scores": [
+        0.25
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.contrib.staticfiles.storage.CachedStaticFilesStorage",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.0.14",
+      "vpost": "3.1",
+      "resolved_fqn": "django.contrib.staticfiles.storage.CachedStaticFilesStorage",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+          "similarity": 0.619048
+        },
+        {
+          "fqn": "django.contrib.staticfiles.testing.StaticLiveServerTestCase",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "django.utils.functional.Promise",
+          "similarity": 0.3
+        },
+        {
+          "fqn": "django.contrib.gis.geos.error.GEOSException",
+          "similarity": 0.285714
+        },
+        {
+          "fqn": "django.forms.forms.Form",
+          "similarity": 0.285714
+        },
+        {
+          "fqn": "django.utils.regex_helper.Choice",
+          "similarity": 0.285714
+        },
+        {
+          "fqn": "django.utils.regex_helper.Group",
+          "similarity": 0.285714
+        },
+        {
+          "fqn": "django.db.models.expressions.Expression",
+          "similarity": 0.272727
+        },
+        {
+          "fqn": "django.contrib.auth.models.User.Meta",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.oracle.operations.SDODWithin",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.oracle.operations.SDOOperator",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "django.contrib.gis.sitemaps.kml.KMZSitemap",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "django.contrib.postgres.aggregates.statistics.Corr",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "django.contrib.sessions.models.Session.Meta",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "django.db.models.functions.text.RPad",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "django.db.models.functions.window.Lag",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "django.db.models.functions.window.Lead",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "django.contrib.admin.widgets.AdminDateWidget.Media",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "django.contrib.admin.widgets.AdminTimeWidget.Media",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "django.contrib.sessions.backends.base.CreateError",
+          "similarity": 0.25
+        }
+      ],
+      "entered_final": [
+        "django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+        "django.contrib.staticfiles.testing.StaticLiveServerTestCase",
+        "django.contrib.gis.geos.error.GEOSException",
+        "django.forms.forms.Form",
+        "django.utils.regex_helper.Choice",
+        "django.utils.regex_helper.Group",
+        "django.db.models.expressions.Expression",
+        "django.contrib.auth.models.User.Meta",
+        "django.contrib.gis.db.backends.oracle.operations.SDODWithin",
+        "django.contrib.gis.db.backends.oracle.operations.SDOOperator",
+        "django.contrib.gis.sitemaps.kml.KMZSitemap",
+        "django.contrib.postgres.aggregates.statistics.Corr",
+        "django.contrib.sessions.models.Session.Meta",
+        "django.db.models.functions.text.RPad",
+        "django.db.models.functions.window.Lag",
+        "django.db.models.functions.window.Lead",
+        "django.contrib.sessions.backends.base.CreateError"
+      ],
+      "entered_iter": [
+        "django.utils.functional.Promise",
+        "django.contrib.admin.widgets.AdminDateWidget.Media",
+        "django.contrib.admin.widgets.AdminTimeWidget.Media"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.utils.functional.Promise",
+      "path_score": 0.3,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.AdminDateWidget.Media",
+      "path_score": 0.25,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.AdminTimeWidget.Media",
+      "path_score": 0.25,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.5.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.ticker.LogLocator.subs",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.ticker.LogLocator._set_subs",
+      "api_type": "method",
+      "similarity": 0.8472222222222222,
+      "evolution_path": [
+        "matplotlib.ticker.LogLocator._set_subs"
+      ],
+      "local_scores": [
+        0.8472222222222222
+      ]
+    },
+    {
+      "fqn": "matplotlib.cm.ColormapRegistry.register",
+      "api_type": "method",
+      "similarity": 0.5416666666666666,
+      "evolution_path": [
+        "matplotlib.cm.ColormapRegistry.register"
+      ],
+      "local_scores": [
+        0.5416666666666666
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.SliderBase._stepped_value",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [
+        "matplotlib.widgets.SliderBase._stepped_value"
+      ],
+      "local_scores": [
+        0.5333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.ScalarFormatter.set_useMathText",
+      "api_type": "method",
+      "similarity": 0.5168539325842697,
+      "evolution_path": [
+        "matplotlib.ticker.ScalarFormatter.set_useMathText"
+      ],
+      "local_scores": [
+        0.5168539325842697
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfPages.savefig",
+      "api_type": "method",
+      "similarity": 0.5113636363636364,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.PdfPages.savefig"
+      ],
+      "local_scores": [
+        0.5113636363636364
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.convert_units",
+      "api_type": "method",
+      "similarity": 0.5060240963855421,
+      "evolution_path": [
+        "matplotlib.axis.Axis.convert_units"
+      ],
+      "local_scores": [
+        0.5060240963855421
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_dashes",
+      "api_type": "method",
+      "similarity": 0.5060240963855421,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_dashes"
+      ],
+      "local_scores": [
+        0.5060240963855421
+      ]
+    },
+    {
+      "fqn": "matplotlib.text.Text.set_rotation",
+      "api_type": "method",
+      "similarity": 0.5060240963855421,
+      "evolution_path": [
+        "matplotlib.text.Text.set_rotation"
+      ],
+      "local_scores": [
+        0.5060240963855421
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.set_adjustable",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.set_adjustable"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.PdfPages.savefig",
+      "api_type": "method",
+      "similarity": 0.4954954954954955,
+      "evolution_path": [
+        "matplotlib.backends.backend_pgf.PdfPages.savefig"
+      ],
+      "local_scores": [
+        0.4954954954954955
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist._set_alpha_for_array",
+      "api_type": "method",
+      "similarity": 0.49504950495049505,
+      "evolution_path": [
+        "matplotlib.artist.Artist._set_alpha_for_array"
+      ],
+      "local_scores": [
+        0.49504950495049505
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.ToolContainerBase.add_tool",
+      "api_type": "method",
+      "similarity": 0.4945054945054945,
+      "evolution_path": [
+        "matplotlib.backend_bases.ToolContainerBase.add_tool"
+      ],
+      "local_scores": [
+        0.4945054945054945
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase._set_position",
+      "api_type": "method",
+      "similarity": 0.4942528735632184,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase._set_position"
+      ],
+      "local_scores": [
+        0.4942528735632184
+      ]
+    },
+    {
+      "fqn": "matplotlib.cbook.CallbackRegistry.process",
+      "api_type": "method",
+      "similarity": 0.49411764705882355,
+      "evolution_path": [
+        "matplotlib.cbook.CallbackRegistry.process"
+      ],
+      "local_scores": [
+        0.49411764705882355
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorbar.Colorbar._get_extension_lengths",
+      "api_type": "method",
+      "similarity": 0.49,
+      "evolution_path": [
+        "matplotlib.colorbar.Colorbar._get_extension_lengths"
+      ],
+      "local_scores": [
+        0.49
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.FigureCanvasQT.mouseEventCoords",
+      "api_type": "method",
+      "similarity": 0.4897959183673469,
+      "evolution_path": [
+        "matplotlib.backends.backend_qt.FigureCanvasQT.mouseEventCoords"
+      ],
+      "local_scores": [
+        0.4897959183673469
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.Transform.transform",
+      "api_type": "method",
+      "similarity": 0.4897959183673469,
+      "evolution_path": [
+        "matplotlib.transforms.Transform.transform"
+      ],
+      "local_scores": [
+        0.4897959183673469
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.LatexManager._expect",
+      "api_type": "method",
+      "similarity": 0.4888888888888889,
+      "evolution_path": [
+        "matplotlib.backends.backend_pgf.LatexManager._expect"
+      ],
+      "local_scores": [
+        0.4888888888888889
+      ]
+    },
+    {
+      "fqn": "matplotlib.table.Table.__setitem__",
+      "api_type": "method",
+      "similarity": 0.4883720930232558,
+      "evolution_path": [
+        "matplotlib.table.Table.__setitem__"
+      ],
+      "local_scores": [
+        0.4883720930232558
+      ]
+    },
+    {
+      "fqn": "matplotlib.dviread.PsfontsMap.__getitem__",
+      "api_type": "method",
+      "similarity": 0.48717948717948717,
+      "evolution_path": [
+        "matplotlib.dviread.PsfontsMap.__getitem__"
+      ],
+      "local_scores": [
+        0.48717948717948717
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.ticker.LogLocator.subs",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.ticker.LogLocator.subs",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.ticker.LogLocator._set_subs",
+          "similarity": 0.847222
+        },
+        {
+          "fqn": "matplotlib.cm.ColormapRegistry.register",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "matplotlib.widgets.SliderBase._stepped_value",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "matplotlib.ticker.ScalarFormatter.set_useMathText",
+          "similarity": 0.516854
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfPages.savefig",
+          "similarity": 0.511364
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.convert_units",
+          "similarity": 0.506024
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_dashes",
+          "similarity": 0.506024
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_rotation",
+          "similarity": 0.506024
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_adjustable",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.PdfPages.savefig",
+          "similarity": 0.495495
+        },
+        {
+          "fqn": "matplotlib.artist.Artist._set_alpha_for_array",
+          "similarity": 0.49505
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ToolContainerBase.add_tool",
+          "similarity": 0.494505
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase._set_position",
+          "similarity": 0.494253
+        },
+        {
+          "fqn": "matplotlib.cbook.CallbackRegistry.process",
+          "similarity": 0.494118
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar._get_extension_lengths",
+          "similarity": 0.49
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.FigureCanvasQT.mouseEventCoords",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "matplotlib.transforms.Transform.transform",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.LatexManager._expect",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "matplotlib.table.Table.__setitem__",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "matplotlib.dviread.PsfontsMap.__getitem__",
+          "similarity": 0.487179
+        }
+      ],
+      "entered_final": [
+        "matplotlib.ticker.LogLocator._set_subs",
+        "matplotlib.cm.ColormapRegistry.register",
+        "matplotlib.widgets.SliderBase._stepped_value",
+        "matplotlib.ticker.ScalarFormatter.set_useMathText",
+        "matplotlib.backends.backend_pdf.PdfPages.savefig",
+        "matplotlib.axis.Axis.convert_units",
+        "matplotlib.backend_bases.GraphicsContextBase.set_dashes",
+        "matplotlib.text.Text.set_rotation",
+        "matplotlib.axes._base._AxesBase.set_adjustable",
+        "matplotlib.backends.backend_pgf.PdfPages.savefig",
+        "matplotlib.artist.Artist._set_alpha_for_array",
+        "matplotlib.backend_bases.ToolContainerBase.add_tool",
+        "matplotlib.axes._base._AxesBase._set_position",
+        "matplotlib.cbook.CallbackRegistry.process",
+        "matplotlib.colorbar.Colorbar._get_extension_lengths",
+        "matplotlib.backends.backend_qt.FigureCanvasQT.mouseEventCoords",
+        "matplotlib.transforms.Transform.transform",
+        "matplotlib.backends.backend_pgf.LatexManager._expect",
+        "matplotlib.table.Table.__setitem__",
+        "matplotlib.dviread.PsfontsMap.__getitem__"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.487179,
+      "dead_reason": null
+    }
+  ]
+}

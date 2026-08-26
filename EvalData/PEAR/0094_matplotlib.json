@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.5.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.FigureCanvasBase.pick",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.figure.Figure.pick",
+      "api_type": "method",
+      "similarity": 0.782608695652174,
+      "evolution_path": [
+        "matplotlib.figure.Figure.pick"
+      ],
+      "local_scores": [
+        0.782608695652174
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.LockDraw.available",
+      "api_type": "method",
+      "similarity": 0.48,
+      "evolution_path": [
+        "matplotlib.widgets.LockDraw.available"
+      ],
+      "local_scores": [
+        0.48
+      ]
+    },
+    {
+      "fqn": "matplotlib.dviread.Dvi.close",
+      "api_type": "method",
+      "similarity": 0.4782608695652174,
+      "evolution_path": [
+        "matplotlib.dviread.Dvi.close"
+      ],
+      "local_scores": [
+        0.4782608695652174
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfFile.write",
+      "api_type": "method",
+      "similarity": 0.4642857142857143,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.PdfFile.write"
+      ],
+      "local_scores": [
+        0.4642857142857143
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.TimerQT.__del__",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [
+        "matplotlib.backends.backend_qt.TimerQT.__del__"
+      ],
+      "local_scores": [
+        0.4583333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.NavigationToolbar2QT.set_message",
+      "api_type": "method",
+      "similarity": 0.4482758620689655,
+      "evolution_path": [
+        "matplotlib.backends.backend_qt.NavigationToolbar2QT.set_message"
+      ],
+      "local_scores": [
+        0.4482758620689655
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_tools.AxisScaleBase.disable",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "matplotlib.backend_tools.AxisScaleBase.disable"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_tools.AxisScaleBase.enable",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "matplotlib.backend_tools.AxisScaleBase.enable"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "matplotlib.animation.Animation.pause",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.animation.Animation.pause"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.animation.Animation.resume",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.animation.Animation.resume"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure.FigureBase.sca",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.figure.FigureBase.sca"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget.on_scroll",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.widgets._SelectorWidget.on_scroll"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.NavigationToolbar2Wx.set_message",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "matplotlib.backends.backend_wx.NavigationToolbar2Wx.set_message"
+      ],
+      "local_scores": [
+        0.4230769230769231
+      ]
+    },
+    {
+      "fqn": "matplotlib.sphinxext.plot_directive.ImageFile.filename",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "matplotlib.sphinxext.plot_directive.ImageFile.filename"
+      ],
+      "local_scores": [
+        0.4230769230769231
+      ]
+    },
+    {
+      "fqn": "matplotlib.animation.Animation._post_draw",
+      "api_type": "method",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [
+        "matplotlib.animation.Animation._post_draw"
+      ],
+      "local_scores": [
+        0.41935483870967744
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.RendererPdf.finalize",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.RendererPdf.finalize"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections._CollectionWithSizes.draw",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [
+        "matplotlib.collections._CollectionWithSizes.draw"
+      ],
+      "local_scores": [
+        0.41379310344827586
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.LockDraw.release",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [
+        "matplotlib.widgets.LockDraw.release"
+      ],
+      "local_scores": [
+        0.41379310344827586
+      ]
+    },
+    {
+      "fqn": "matplotlib.animation.FileMovieWriter.__del__",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [
+        "matplotlib.animation.FileMovieWriter.__del__"
+      ],
+      "local_scores": [
+        0.4074074074074074
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.invert_xaxis",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.invert_xaxis"
+      ],
+      "local_scores": [
+        0.4074074074074074
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.pick",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.backend_bases.FigureCanvasBase.pick",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.figure.Figure.pick",
+          "similarity": 0.782609
+        },
+        {
+          "fqn": "matplotlib.widgets.LockDraw.available",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "matplotlib.dviread.Dvi.close",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfFile.write",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.TimerQT.__del__",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.NavigationToolbar2QT.set_message",
+          "similarity": 0.448276
+        },
+        {
+          "fqn": "matplotlib.backend_tools.AxisScaleBase.disable",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.backend_tools.AxisScaleBase.enable",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.animation.Animation.pause",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.animation.Animation.resume",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.figure.FigureBase.sca",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget.on_scroll",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.NavigationToolbar2Wx.set_message",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.sphinxext.plot_directive.ImageFile.filename",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.animation.Animation._post_draw",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.RendererPdf.finalize",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.collections._CollectionWithSizes.draw",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "matplotlib.widgets.LockDraw.release",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "matplotlib.animation.FileMovieWriter.__del__",
+          "similarity": 0.407407
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.invert_xaxis",
+          "similarity": 0.407407
+        }
+      ],
+      "entered_final": [
+        "matplotlib.figure.Figure.pick",
+        "matplotlib.widgets.LockDraw.available",
+        "matplotlib.dviread.Dvi.close",
+        "matplotlib.backends.backend_pdf.PdfFile.write",
+        "matplotlib.backends.backend_qt.TimerQT.__del__",
+        "matplotlib.backends.backend_qt.NavigationToolbar2QT.set_message",
+        "matplotlib.backend_tools.AxisScaleBase.disable",
+        "matplotlib.backend_tools.AxisScaleBase.enable",
+        "matplotlib.animation.Animation.pause",
+        "matplotlib.animation.Animation.resume",
+        "matplotlib.figure.FigureBase.sca",
+        "matplotlib.widgets._SelectorWidget.on_scroll",
+        "matplotlib.backends.backend_wx.NavigationToolbar2Wx.set_message",
+        "matplotlib.sphinxext.plot_directive.ImageFile.filename",
+        "matplotlib.animation.Animation._post_draw",
+        "matplotlib.backends.backend_pdf.RendererPdf.finalize",
+        "matplotlib.collections._CollectionWithSizes.draw",
+        "matplotlib.widgets.LockDraw.release",
+        "matplotlib.animation.FileMovieWriter.__del__",
+        "matplotlib.axes._base._AxesBase.invert_xaxis"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.407407,
+      "dead_reason": null
+    }
+  ]
+}

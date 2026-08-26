@@ -1,0 +1,474 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.9.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.fields.files.FileField.get_directory_name",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.gdal.field.Field.name",
+      "api_type": "method",
+      "similarity": 0.46153846153846156,
+      "evolution_path": [
+        "django.contrib.gis.gdal.field.Field.name"
+      ],
+      "local_scores": [
+        0.46153846153846156
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.layer.Layer.name",
+      "api_type": "method",
+      "similarity": 0.46153846153846156,
+      "evolution_path": [
+        "django.contrib.gis.gdal.layer.Layer.name"
+      ],
+      "local_scores": [
+        0.46153846153846156
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.datasource.DataSource.name",
+      "api_type": "method",
+      "similarity": 0.4358974358974359,
+      "evolution_path": [
+        "django.contrib.gis.gdal.datasource.DataSource.name"
+      ],
+      "local_scores": [
+        0.4358974358974359
+      ]
+    },
+    {
+      "fqn": "django.contrib.admindocs.views.BaseAdminDocsView.get_context_data",
+      "api_type": "method",
+      "similarity": 0.4339622641509434,
+      "evolution_path": [
+        "django.contrib.admindocs.views.BaseAdminDocsView.get_context_data"
+      ],
+      "local_scores": [
+        0.4339622641509434
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.AutocompleteMixin.get_url",
+      "api_type": "method",
+      "similarity": 0.4318181818181818,
+      "evolution_path": [
+        "django.contrib.admin.widgets.AutocompleteMixin.get_url"
+      ],
+      "local_scores": [
+        0.4318181818181818
+      ]
+    },
+    {
+      "fqn": "django.core.mail.backends.filebased.EmailBackend._get_filename",
+      "api_type": "method",
+      "similarity": 0.43103448275862066,
+      "evolution_path": [
+        "django.core.mail.backends.filebased.EmailBackend._get_filename"
+      ],
+      "local_scores": [
+        0.43103448275862066
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.feature.Feature.layer_name",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "django.contrib.gis.gdal.feature.Feature.layer_name"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset",
+      "api_type": "method",
+      "similarity": 0.425,
+      "evolution_path": [
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset"
+      ],
+      "local_scores": [
+        0.425
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object",
+      "api_type": "method",
+      "similarity": 0.4186046511627907,
+      "evolution_path": [
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object"
+      ],
+      "local_scores": [
+        0.4186046511627907
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.driver.Driver.name",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "django.contrib.gis.gdal.driver.Driver.name"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.raster.source.GDALRaster.name",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "django.contrib.gis.gdal.raster.source.GDALRaster.name"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.related.ForeignKey.get_default",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "django.db.models.fields.related.ForeignKey.get_default"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_x",
+      "api_type": "method",
+      "similarity": 0.4146341463414634,
+      "evolution_path": [
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_x"
+      ],
+      "local_scores": [
+        0.4146341463414634
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_y",
+      "api_type": "method",
+      "similarity": 0.4146341463414634,
+      "evolution_path": [
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_y"
+      ],
+      "local_scores": [
+        0.4146341463414634
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_z",
+      "api_type": "method",
+      "similarity": 0.4146341463414634,
+      "evolution_path": [
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_z"
+      ],
+      "local_scores": [
+        0.4146341463414634
+      ]
+    },
+    {
+      "fqn": "django.contrib.sites.managers.CurrentSiteManager.get_queryset",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "django.contrib.sites.managers.CurrentSiteManager.get_queryset"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "django.db.models.lookups.Lookup.get_group_by_cols",
+      "api_type": "method",
+      "similarity": 0.40816326530612246,
+      "evolution_path": [
+        "django.db.models.lookups.Lookup.get_group_by_cols"
+      ],
+      "local_scores": [
+        0.40816326530612246
+      ]
+    },
+    {
+      "fqn": "django.contrib.contenttypes.models.ContentType.name",
+      "api_type": "method",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [
+        "django.contrib.contenttypes.models.ContentType.name"
+      ],
+      "local_scores": [
+        0.40476190476190477
+      ]
+    },
+    {
+      "fqn": "django.views.generic.edit.BaseUpdateView.get",
+      "api_type": "method",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [
+        "django.views.generic.edit.BaseUpdateView.get"
+      ],
+      "local_scores": [
+        0.40476190476190477
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.views.RedirectURLMixin.get_redirect_url",
+      "api_type": "method",
+      "similarity": 0.38392857142857145,
+      "evolution_path": [
+        "django.contrib.auth.views.LoginView.get_redirect_url",
+        "django.contrib.auth.views.RedirectURLMixin.get_redirect_url"
+      ],
+      "local_scores": [
+        0.4107142857142857,
+        0.9347826086956522
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.db.models.fields.files.FileField.get_directory_name",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "1.11.29",
+      "vpost": "2.0",
+      "resolved_fqn": "django.db.models.fields.files.FileField.get_directory_name",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.gis.gdal.field.Field.name",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.layer.Layer.name",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.datasource.DataSource.name",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "django.contrib.admindocs.views.BaseAdminDocsView.get_context_data",
+          "similarity": 0.433962
+        },
+        {
+          "fqn": "django.contrib.admin.widgets.AutocompleteMixin.get_url",
+          "similarity": 0.431818
+        },
+        {
+          "fqn": "django.core.mail.backends.filebased.EmailBackend._get_filename",
+          "similarity": 0.431034
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.feature.Feature.layer_name",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset",
+          "similarity": 0.425
+        },
+        {
+          "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object",
+          "similarity": 0.418605
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.driver.Driver.name",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.raster.source.GDALRaster.name",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.db.models.fields.related.ForeignKey.get_default",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_x",
+          "similarity": 0.414634
+        },
+        {
+          "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_y",
+          "similarity": 0.414634
+        },
+        {
+          "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_z",
+          "similarity": 0.414634
+        },
+        {
+          "fqn": "django.contrib.auth.views.LoginView.get_redirect_url",
+          "similarity": 0.410714
+        },
+        {
+          "fqn": "django.contrib.sites.managers.CurrentSiteManager.get_queryset",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "django.db.models.lookups.Lookup.get_group_by_cols",
+          "similarity": 0.408163
+        },
+        {
+          "fqn": "django.contrib.contenttypes.models.ContentType.name",
+          "similarity": 0.404762
+        },
+        {
+          "fqn": "django.views.generic.edit.BaseUpdateView.get",
+          "similarity": 0.404762
+        }
+      ],
+      "entered_final": [
+        "django.contrib.gis.gdal.field.Field.name",
+        "django.contrib.gis.gdal.layer.Layer.name",
+        "django.contrib.gis.gdal.datasource.DataSource.name",
+        "django.contrib.admindocs.views.BaseAdminDocsView.get_context_data",
+        "django.contrib.admin.widgets.AutocompleteMixin.get_url",
+        "django.core.mail.backends.filebased.EmailBackend._get_filename",
+        "django.contrib.gis.gdal.feature.Feature.layer_name",
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset",
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object",
+        "django.contrib.gis.gdal.driver.Driver.name",
+        "django.contrib.gis.gdal.raster.source.GDALRaster.name",
+        "django.db.models.fields.related.ForeignKey.get_default",
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_x",
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_y",
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_z",
+        "django.contrib.sites.managers.CurrentSiteManager.get_queryset",
+        "django.db.models.lookups.Lookup.get_group_by_cols",
+        "django.contrib.contenttypes.models.ContentType.name",
+        "django.views.generic.edit.BaseUpdateView.get"
+      ],
+      "entered_iter": [
+        "django.contrib.auth.views.LoginView.get_redirect_url"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.auth.views.LoginView.get_redirect_url",
+      "path_score": 0.410714,
+      "boundary": "DEPRECATED",
+      "vpre": "4.0.10",
+      "vpost": "4.1",
+      "resolved_fqn": "django.contrib.auth.views.LoginView.get_redirect_url",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.auth.views.RedirectURLMixin.get_redirect_url",
+          "similarity": 0.934783
+        },
+        {
+          "fqn": "django.contrib.admin.views.autocomplete.AutocompleteJsonView.get_queryset",
+          "similarity": 0.52459
+        },
+        {
+          "fqn": "django.views.generic.base.RedirectView.get_redirect_url",
+          "similarity": 0.507463
+        },
+        {
+          "fqn": "django.views.generic.edit.ModelFormMixin.get_success_url",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.auth.mixins.AccessMixin.get_login_url",
+          "similarity": 0.491228
+        },
+        {
+          "fqn": "django.core.mail.backends.filebased.EmailBackend._get_filename",
+          "similarity": 0.46875
+        },
+        {
+          "fqn": "django.db.migrations.state.ProjectState.clone",
+          "similarity": 0.465517
+        },
+        {
+          "fqn": "django.forms.models.BaseModelFormSet.get_queryset",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "django.contrib.gis.utils.layermapping.LayerMapping.coord_transform",
+          "similarity": 0.459016
+        },
+        {
+          "fqn": "django.db.models.expressions.ExpressionWrapper.get_group_by_cols",
+          "similarity": 0.459016
+        },
+        {
+          "fqn": "django.core.cache.backends.redis.RedisCacheClient.get",
+          "similarity": 0.45283
+        },
+        {
+          "fqn": "django.forms.boundfield.BoundField.subwidgets",
+          "similarity": 0.447761
+        },
+        {
+          "fqn": "django.core.cache.backends.locmem.LocMemCache.get",
+          "similarity": 0.446154
+        },
+        {
+          "fqn": "django.contrib.contenttypes.models.ContentTypeManager.get_for_model",
+          "similarity": 0.445946
+        },
+        {
+          "fqn": "django.contrib.admin.views.main.ChangeList.url_for_result",
+          "similarity": 0.440678
+        },
+        {
+          "fqn": "django.contrib.staticfiles.storage.ManifestFilesMixin.save_manifest",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "django.db.models.lookups.FieldGetDbPrepValueIterableMixin.get_prep_lookup",
+          "similarity": 0.43662
+        },
+        {
+          "fqn": "django.db.models.fields.related.ForeignKey.get_default",
+          "similarity": 0.436364
+        },
+        {
+          "fqn": "django.contrib.auth.hashers.Argon2PasswordHasher.params",
+          "similarity": 0.433962
+        },
+        {
+          "fqn": "django.core.serializers.xml_serializer.DefusedExpatParser.reset",
+          "similarity": 0.433962
+        }
+      ],
+      "entered_final": [
+        "django.contrib.auth.views.RedirectURLMixin.get_redirect_url",
+        "django.contrib.admin.views.autocomplete.AutocompleteJsonView.get_queryset",
+        "django.views.generic.base.RedirectView.get_redirect_url",
+        "django.views.generic.edit.ModelFormMixin.get_success_url",
+        "django.contrib.auth.mixins.AccessMixin.get_login_url",
+        "django.core.mail.backends.filebased.EmailBackend._get_filename",
+        "django.db.migrations.state.ProjectState.clone",
+        "django.forms.models.BaseModelFormSet.get_queryset",
+        "django.contrib.gis.utils.layermapping.LayerMapping.coord_transform",
+        "django.db.models.expressions.ExpressionWrapper.get_group_by_cols",
+        "django.core.cache.backends.redis.RedisCacheClient.get",
+        "django.forms.boundfield.BoundField.subwidgets",
+        "django.core.cache.backends.locmem.LocMemCache.get",
+        "django.contrib.contenttypes.models.ContentTypeManager.get_for_model",
+        "django.contrib.admin.views.main.ChangeList.url_for_result",
+        "django.contrib.staticfiles.storage.ManifestFilesMixin.save_manifest",
+        "django.db.models.lookups.FieldGetDbPrepValueIterableMixin.get_prep_lookup",
+        "django.db.models.fields.related.ForeignKey.get_default",
+        "django.contrib.auth.hashers.Argon2PasswordHasher.params",
+        "django.core.serializers.xml_serializer.DefusedExpatParser.reset"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.383929,
+      "dead_reason": null
+    }
+  ]
+}

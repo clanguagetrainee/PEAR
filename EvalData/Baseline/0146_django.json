@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.2.25",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.admin.utils.lookup_needs_distinct",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.admin.utils.lookup_spawns_duplicates",
+      "api_type": "function",
+      "similarity": 0.8227848101265823,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaulttags.ifchanged",
+      "api_type": "function",
+      "similarity": 0.5376344086021505,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.color.make_style",
+      "api_type": "function",
+      "similarity": 0.5340909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.http.cookie.parse_cookie",
+      "api_type": "function",
+      "similarity": 0.5268817204301075,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils._os.symlinks_supported",
+      "api_type": "function",
+      "similarity": 0.5116279069767442,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.module_loading.autodiscover_modules",
+      "api_type": "function",
+      "similarity": 0.5111111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.humanize.templatetags.humanize.naturalday",
+      "api_type": "function",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.utils.make_model_tuple",
+      "api_type": "function",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.http.content_disposition_header",
+      "api_type": "function",
+      "similarity": 0.49523809523809526,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.prototypes.generation.string_output",
+      "api_type": "function",
+      "similarity": 0.4943820224719101,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.utils.normalize_path_patterns",
+      "api_type": "function",
+      "similarity": 0.4891304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.flatpages.views.flatpage",
+      "api_type": "function",
+      "similarity": 0.48484848484848486,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.models.model_to_dict",
+      "api_type": "function",
+      "similarity": 0.4845360824742268,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.text.wrap",
+      "api_type": "function",
+      "similarity": 0.4838709677419355,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.utils.format_number",
+      "api_type": "function",
+      "similarity": 0.48,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaulttags.load_from_library",
+      "api_type": "function",
+      "similarity": 0.48,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.utils.prepare_lookup_value",
+      "api_type": "function",
+      "similarity": 0.4782608695652174,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.__init__.get_commands",
+      "api_type": "function",
+      "similarity": 0.4777777777777778,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.prototypes.errcheck.check_string",
+      "api_type": "function",
+      "similarity": 0.4772727272727273,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.staticfiles.views.serve",
+      "api_type": "function",
+      "similarity": 0.47619047619047616,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

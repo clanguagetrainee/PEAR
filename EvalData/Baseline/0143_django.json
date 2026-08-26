@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.1.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj4_version",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.geos_version",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.lwgeom_version",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj_version",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.rttopo_version",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatialite_version",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_version",
+      "api_type": "method",
+      "similarity": 0.5789473684210527,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.srs.SpatialReference.proj4",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_full_version",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_geos_version",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_lib_version",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_proj_version",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.base.BaseCommand.get_version",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.mysql.base.DatabaseWrapper.get_database_version",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.base.DatabaseWrapper.get_database_version",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.postgresql.base.DatabaseWrapper.get_database_version",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.postgresql.base.DatabaseWrapper.pg_version",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.base.DatabaseWrapper.get_database_version",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.graph.MigrationGraph.__str__",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.writer.OperationWriter.render",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.base.DatabaseWrapper.oracledb_version",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,1207 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.9.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.forms.widgets.DateTimeBaseInput._format_value",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.forms.widgets.DateTimeBaseInput.format_value",
+      "api_type": "method",
+      "similarity": 1.0,
+      "evolution_path": [
+        "django.forms.widgets.DateTimeBaseInput.format_value"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "django.forms.widgets.ClearableFileInput.format_value",
+      "api_type": "method",
+      "similarity": 0.5243506493506493,
+      "evolution_path": [
+        "django.forms.widgets.Input.format_value",
+        "django.forms.widgets.ClearableFileInput.format_value"
+      ],
+      "local_scores": [
+        0.6785714285714286,
+        0.7727272727272727
+      ]
+    },
+    {
+      "fqn": "django.db.backends.mysql.schema.DatabaseSchemaEditor.quote_value",
+      "api_type": "method",
+      "similarity": 0.4838709677419355,
+      "evolution_path": [
+        "django.db.backends.mysql.schema.DatabaseSchemaEditor.quote_value"
+      ],
+      "local_scores": [
+        0.4838709677419355
+      ]
+    },
+    {
+      "fqn": "django.db.backends.postgresql.schema.DatabaseSchemaEditor.quote_value",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [
+        "django.db.backends.postgresql.schema.DatabaseSchemaEditor.quote_value"
+      ],
+      "local_scores": [
+        0.4666666666666667
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.feature.Feature.__eq__",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [
+        "django.contrib.gis.gdal.feature.Feature.__eq__"
+      ],
+      "local_scores": [
+        0.45161290322580644
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.difference",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [
+        "django.contrib.gis.geos.geometry.GEOSGeometry.difference",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.difference"
+      ],
+      "local_scores": [
+        0.45161290322580644,
+        1.0
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersection",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [
+        "django.contrib.gis.geos.geometry.GEOSGeometry.intersection",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersection"
+      ],
+      "local_scores": [
+        0.45161290322580644,
+        1.0
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.union",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [
+        "django.contrib.gis.geos.geometry.GEOSGeometry.union",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.union"
+      ],
+      "local_scores": [
+        0.45161290322580644,
+        1.0
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.SimpleListFilter.value",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "django.contrib.admin.filters.SimpleListFilter.value"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.aggregates.Extent.convert_value",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "django.contrib.gis.db.models.aggregates.Extent.convert_value"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.aggregates.Extent3D.convert_value",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "django.contrib.gis.db.models.aggregates.Extent3D.convert_value"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetLanguageInfoNode.render",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "django.templatetags.i18n.GetLanguageInfoNode.render"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.HStoreField.value_to_string",
+      "api_type": "method",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [
+        "django.contrib.postgres.fields.hstore.HStoreField.value_to_string"
+      ],
+      "local_scores": [
+        0.4411764705882353
+      ]
+    },
+    {
+      "fqn": "django.forms.fields.UUIDField.prepare_value",
+      "api_type": "method",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [
+        "django.forms.fields.UUIDField.prepare_value"
+      ],
+      "local_scores": [
+        0.4411764705882353
+      ]
+    },
+    {
+      "fqn": "django.forms.models.ModelChoiceIterator.choice",
+      "api_type": "method",
+      "similarity": 0.4375,
+      "evolution_path": [
+        "django.forms.models.ModelChoiceIterator.choice"
+      ],
+      "local_scores": [
+        0.4375
+      ]
+    },
+    {
+      "fqn": "django.templatetags.static.StaticNode.url",
+      "api_type": "method",
+      "similarity": 0.4375,
+      "evolution_path": [
+        "django.templatetags.static.StaticNode.url"
+      ],
+      "local_scores": [
+        0.4375
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.options.BaseModelAdmin.get_empty_value_display",
+      "api_type": "method",
+      "similarity": 0.43243243243243246,
+      "evolution_path": [
+        "django.contrib.admin.options.BaseModelAdmin.get_empty_value_display"
+      ],
+      "local_scores": [
+        0.43243243243243246
+      ]
+    },
+    {
+      "fqn": "django.forms.widgets.Widget.format_value",
+      "api_type": "method",
+      "similarity": 0.41911764705882354,
+      "evolution_path": [
+        "django.forms.widgets.Input.format_value",
+        "django.forms.widgets.Widget.format_value"
+      ],
+      "local_scores": [
+        0.6785714285714286,
+        0.6176470588235294
+      ]
+    },
+    {
+      "fqn": "django.forms.widgets.MultipleHiddenInput.format_value",
+      "api_type": "method",
+      "similarity": 0.39583333333333337,
+      "evolution_path": [
+        "django.forms.widgets.Input.format_value",
+        "django.forms.widgets.MultipleHiddenInput.format_value"
+      ],
+      "local_scores": [
+        0.6785714285714286,
+        0.5833333333333334
+      ]
+    },
+    {
+      "fqn": "django.forms.widgets.FileInput.format_value",
+      "api_type": "method",
+      "similarity": 0.3877551020408163,
+      "evolution_path": [
+        "django.forms.widgets.Input.format_value",
+        "django.forms.widgets.FileInput.format_value"
+      ],
+      "local_scores": [
+        0.6785714285714286,
+        0.5714285714285714
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.forms.widgets.DateTimeBaseInput._format_value",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "1.9.13",
+      "vpost": "1.10",
+      "resolved_fqn": "django.forms.widgets.DateTimeBaseInput._format_value",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.forms.widgets.DateTimeBaseInput.format_value",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.forms.widgets.Input.format_value",
+          "similarity": 0.678571
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.DecimalField._format",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.DecimalField.format_number",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.db.backends.mysql.schema.DatabaseSchemaEditor.quote_value",
+          "similarity": 0.483871
+        },
+        {
+          "fqn": "django.db.backends.postgresql.schema.DatabaseSchemaEditor.quote_value",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.aggregates.GeoAggregate.convert_value",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.feature.Feature.__eq__",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometry.difference",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometry.intersection",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometry.union",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "django.contrib.admin.filters.SimpleListFilter.value",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.aggregates.Extent.convert_value",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.aggregates.Extent3D.convert_value",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "django.templatetags.i18n.GetLanguageInfoNode.render",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "django.contrib.postgres.fields.hstore.HStoreField.value_to_string",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "django.forms.fields.UUIDField.prepare_value",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "django.forms.models.ModelChoiceIterator.choice",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "django.templatetags.static.StaticNode.url",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "django.contrib.admin.options.BaseModelAdmin.get_empty_value_display",
+          "similarity": 0.432432
+        }
+      ],
+      "entered_final": [
+        "django.forms.widgets.DateTimeBaseInput.format_value",
+        "django.db.backends.mysql.schema.DatabaseSchemaEditor.quote_value",
+        "django.db.backends.postgresql.schema.DatabaseSchemaEditor.quote_value",
+        "django.contrib.gis.gdal.feature.Feature.__eq__",
+        "django.contrib.admin.filters.SimpleListFilter.value",
+        "django.contrib.gis.db.models.aggregates.Extent.convert_value",
+        "django.contrib.gis.db.models.aggregates.Extent3D.convert_value",
+        "django.templatetags.i18n.GetLanguageInfoNode.render",
+        "django.contrib.postgres.fields.hstore.HStoreField.value_to_string",
+        "django.forms.fields.UUIDField.prepare_value",
+        "django.forms.models.ModelChoiceIterator.choice",
+        "django.templatetags.static.StaticNode.url",
+        "django.contrib.admin.options.BaseModelAdmin.get_empty_value_display"
+      ],
+      "entered_iter": [
+        "django.forms.widgets.Input.format_value",
+        "django.db.models.fields.__init__.DecimalField._format",
+        "django.db.models.fields.__init__.DecimalField.format_number",
+        "django.contrib.gis.db.models.aggregates.GeoAggregate.convert_value",
+        "django.contrib.gis.geos.geometry.GEOSGeometry.difference",
+        "django.contrib.gis.geos.geometry.GEOSGeometry.intersection",
+        "django.contrib.gis.geos.geometry.GEOSGeometry.union"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.forms.widgets.Input.format_value",
+      "path_score": 0.678571,
+      "boundary": "DEPRECATED",
+      "vpre": "1.10.8",
+      "vpost": "1.11",
+      "resolved_fqn": "django.forms.widgets.Input.format_value",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.forms.widgets.ClearableFileInput.format_value",
+          "similarity": 0.772727
+        },
+        {
+          "fqn": "django.forms.widgets.DateTimeBaseInput.format_value",
+          "similarity": 0.678571
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.DecimalField._format",
+          "similarity": 0.653846
+        },
+        {
+          "fqn": "django.forms.widgets.Widget.format_value",
+          "similarity": 0.617647
+        },
+        {
+          "fqn": "django.forms.widgets.MultipleHiddenInput.format_value",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "django.forms.fields.UUIDField.prepare_value",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "django.forms.widgets.FileInput.format_value",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.DecimalField.format_number",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "django.contrib.postgres.forms.hstore.HStoreField.prepare_value",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "django.contrib.postgres.forms.jsonb.JSONField.prepare_value",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "django.forms.fields.DurationField.prepare_value",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "django.forms.widgets.CheckboxInput.format_value",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "django.db.backends.mysql.schema.DatabaseSchemaEditor.quote_value",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "django.db.backends.postgresql.operations.DatabaseOperations.adapt_ipaddressfield_value",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "django.contrib.postgres.fields.jsonb.JSONField.get_prep_value",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "django.db.backends.base.operations.BaseDatabaseOperations.adapt_datefield_value",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "django.db.backends.base.operations.BaseDatabaseOperations.adapt_datetimefield_value",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "django.contrib.gis.measure.MeasureBase.__eq__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.measure.MeasureBase.__lt__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.db.backends.postgresql.schema.DatabaseSchemaEditor.quote_value",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "django.forms.widgets.ClearableFileInput.format_value",
+        "django.forms.widgets.DateTimeBaseInput.format_value",
+        "django.forms.widgets.Widget.format_value",
+        "django.forms.widgets.MultipleHiddenInput.format_value",
+        "django.forms.fields.UUIDField.prepare_value",
+        "django.forms.widgets.FileInput.format_value",
+        "django.contrib.postgres.forms.hstore.HStoreField.prepare_value",
+        "django.forms.fields.DurationField.prepare_value",
+        "django.forms.widgets.CheckboxInput.format_value",
+        "django.db.backends.mysql.schema.DatabaseSchemaEditor.quote_value",
+        "django.db.backends.postgresql.operations.DatabaseOperations.adapt_ipaddressfield_value",
+        "django.db.backends.base.operations.BaseDatabaseOperations.adapt_datefield_value",
+        "django.db.backends.base.operations.BaseDatabaseOperations.adapt_datetimefield_value",
+        "django.contrib.gis.measure.MeasureBase.__eq__",
+        "django.contrib.gis.measure.MeasureBase.__lt__",
+        "django.db.backends.postgresql.schema.DatabaseSchemaEditor.quote_value"
+      ],
+      "entered_iter": [
+        "django.db.models.fields.__init__.DecimalField._format",
+        "django.db.models.fields.__init__.DecimalField.format_number",
+        "django.contrib.postgres.forms.jsonb.JSONField.prepare_value"
+      ],
+      "pruned": [
+        "django.contrib.postgres.fields.jsonb.JSONField.get_prep_value"
+      ],
+      "prune_bound": 0.361905,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.DecimalField._format",
+      "path_score": 0.5,
+      "boundary": "DEPRECATED",
+      "vpre": "1.11.29",
+      "vpost": "2.0",
+      "resolved_fqn": "django.db.models.fields.__init__.DecimalField._format",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.db.models.fields.__init__.Field.__eq__",
+          "similarity": 0.653846
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Field.__lt__",
+          "similarity": 0.653846
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.__eq__",
+          "similarity": 0.592593
+        },
+        {
+          "fqn": "django.contrib.gis.measure.MeasureBase.__eq__",
+          "similarity": 0.592593
+        },
+        {
+          "fqn": "django.contrib.gis.measure.MeasureBase.__lt__",
+          "similarity": 0.592593
+        },
+        {
+          "fqn": "django.db.models.query.Prefetch.__eq__",
+          "similarity": 0.592593
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.srs.SpatialReference.__getitem__",
+          "similarity": 0.586207
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.DecimalField.format_number",
+          "similarity": 0.576923
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter.__eq__",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "django.contrib.postgres.forms.hstore.HStoreField.prepare_value",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "django.contrib.postgres.forms.jsonb.JSONField.prepare_value",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "django.forms.fields.DurationField.prepare_value",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "django.template.context.BaseContext.__eq__",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "django.forms.widgets.Widget.format_value",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "django.forms.fields.UUIDField.prepare_value",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "django.forms.widgets.ClearableFileInput.format_value",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "django.contrib.admin.widgets.ManyToManyRawIdWidget.format_value",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "django.contrib.gis.geoip2.base.GeoIP2.geos",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.base.adapter.WKTAdapter.__eq__",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "django.contrib.gis.geos.polygon.Polygon._clone",
+          "similarity": 0.53125
+        }
+      ],
+      "entered_final": [
+        "django.db.models.fields.__init__.Field.__eq__",
+        "django.db.models.fields.__init__.Field.__lt__",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.__eq__",
+        "django.contrib.gis.measure.MeasureBase.__eq__",
+        "django.contrib.gis.measure.MeasureBase.__lt__",
+        "django.db.models.query.Prefetch.__eq__",
+        "django.contrib.gis.gdal.srs.SpatialReference.__getitem__",
+        "django.contrib.gis.db.backends.postgis.adapter.PostGISAdapter.__eq__",
+        "django.contrib.postgres.forms.hstore.HStoreField.prepare_value",
+        "django.forms.fields.DurationField.prepare_value",
+        "django.template.context.BaseContext.__eq__",
+        "django.forms.widgets.Widget.format_value",
+        "django.forms.fields.UUIDField.prepare_value",
+        "django.forms.widgets.ClearableFileInput.format_value",
+        "django.contrib.admin.widgets.ManyToManyRawIdWidget.format_value",
+        "django.contrib.gis.db.backends.base.adapter.WKTAdapter.__eq__",
+        "django.contrib.gis.geos.polygon.Polygon._clone"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "django.db.models.fields.__init__.DecimalField.format_number",
+        "django.contrib.postgres.forms.jsonb.JSONField.prepare_value",
+        "django.contrib.gis.geoip2.base.GeoIP2.geos"
+      ],
+      "prune_bound": 0.361905,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.DecimalField.format_number",
+      "path_score": 0.5,
+      "boundary": "DEPRECATED",
+      "vpre": "2.0.13",
+      "vpost": "2.1",
+      "resolved_fqn": "django.db.models.fields.__init__.DecimalField.format_number",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.forms.widgets.ClearableFileInput.format_value",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.forms.widgets.DateTimeBaseInput.format_value",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "django.db.models.query.QuerySet.explain",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.fields.BaseSpatialField.geodetic",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.fields.BaseSpatialField.spheroid",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.fields.BaseSpatialField.units",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.contains",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.crosses",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.difference",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.disjoint",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.equals",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.intersection",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.intersects",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.overlaps",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.touches",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.union",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.within",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.io.WKTWriter.write",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "django.db.models.sql.query.RawQuery.clone",
+          "similarity": 0.478261
+        }
+      ],
+      "entered_final": [
+        "django.forms.widgets.ClearableFileInput.format_value",
+        "django.forms.widgets.DateTimeBaseInput.format_value",
+        "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate",
+        "django.db.models.query.QuerySet.explain",
+        "django.contrib.gis.db.models.fields.BaseSpatialField.geodetic",
+        "django.contrib.gis.db.models.fields.BaseSpatialField.spheroid",
+        "django.contrib.gis.db.models.fields.BaseSpatialField.units",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.contains",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.crosses",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.difference",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.disjoint",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.equals",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.intersection",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.intersects",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.overlaps",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.touches",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.union",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.within",
+        "django.contrib.gis.geos.prototypes.io.WKTWriter.write",
+        "django.db.models.sql.query.RawQuery.clone"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.361905,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.aggregates.GeoAggregate.convert_value",
+      "path_score": 0.454545,
+      "boundary": "DEPRECATED",
+      "vpre": "1.10.8",
+      "vpost": "1.11",
+      "resolved_fqn": "django.contrib.gis.db.models.aggregates.GeoAggregate.convert_value",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.gis.db.models.aggregates.Extent.convert_value",
+          "similarity": 0.714286
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.aggregates.Extent3D.convert_value",
+          "similarity": 0.714286
+        },
+        {
+          "fqn": "django.contrib.postgres.aggregates.general.ArrayAgg.convert_value",
+          "similarity": 0.653846
+        },
+        {
+          "fqn": "django.contrib.postgres.aggregates.general.JSONBAgg.convert_value",
+          "similarity": 0.653846
+        },
+        {
+          "fqn": "django.contrib.postgres.aggregates.general.StringAgg.convert_value",
+          "similarity": 0.653846
+        },
+        {
+          "fqn": "django.contrib.postgres.aggregates.statistics.RegrCount.convert_value",
+          "similarity": 0.62069
+        },
+        {
+          "fqn": "django.db.models.aggregates.Count.convert_value",
+          "similarity": 0.62069
+        },
+        {
+          "fqn": "django.db.models.aggregates.StdDev.convert_value",
+          "similarity": 0.62069
+        },
+        {
+          "fqn": "django.db.models.aggregates.Variance.convert_value",
+          "similarity": 0.62069
+        },
+        {
+          "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_datefield_value",
+          "similarity": 0.588235
+        },
+        {
+          "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_timefield_value",
+          "similarity": 0.588235
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.fields.RasterField.from_db_value",
+          "similarity": 0.586207
+        },
+        {
+          "fqn": "django.db.backends.mysql.operations.DatabaseOperations.convert_datetimefield_value",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_datetimefield_value",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "django.db.backends.mysql.operations.DatabaseOperations.convert_uuidfield_value",
+          "similarity": 0.575758
+        },
+        {
+          "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_uuidfield_value",
+          "similarity": 0.575758
+        },
+        {
+          "fqn": "django.db.backends.sqlite3.operations.DatabaseOperations.convert_uuidfield_value",
+          "similarity": 0.575758
+        },
+        {
+          "fqn": "django.db.backends.sqlite3.operations.DatabaseOperations.convert_booleanfield_value",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.db.backends.mysql.operations.DatabaseOperations.convert_textfield_value",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_binaryfield_value",
+          "similarity": 0.540541
+        }
+      ],
+      "entered_final": [
+        "django.contrib.gis.db.models.aggregates.Extent.convert_value",
+        "django.contrib.gis.db.models.aggregates.Extent3D.convert_value",
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_datefield_value",
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_timefield_value",
+        "django.contrib.gis.db.models.fields.RasterField.from_db_value",
+        "django.db.backends.mysql.operations.DatabaseOperations.convert_datetimefield_value",
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_datetimefield_value",
+        "django.db.backends.mysql.operations.DatabaseOperations.convert_uuidfield_value",
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_uuidfield_value",
+        "django.db.backends.sqlite3.operations.DatabaseOperations.convert_uuidfield_value",
+        "django.db.backends.sqlite3.operations.DatabaseOperations.convert_booleanfield_value",
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_binaryfield_value"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "django.contrib.postgres.aggregates.general.ArrayAgg.convert_value",
+        "django.contrib.postgres.aggregates.general.JSONBAgg.convert_value",
+        "django.contrib.postgres.aggregates.general.StringAgg.convert_value",
+        "django.contrib.postgres.aggregates.statistics.RegrCount.convert_value",
+        "django.db.models.aggregates.Count.convert_value",
+        "django.db.models.aggregates.StdDev.convert_value",
+        "django.db.models.aggregates.Variance.convert_value",
+        "django.db.backends.mysql.operations.DatabaseOperations.convert_textfield_value"
+      ],
+      "prune_bound": 0.361905,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometry.difference",
+      "path_score": 0.451613,
+      "boundary": "DEPRECATED",
+      "vpre": "1.11.29",
+      "vpost": "2.0",
+      "resolved_fqn": "django.contrib.gis.geos.geometry.GEOSGeometry.difference",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.difference",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.sym_difference",
+          "similarity": 0.782609
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.difference",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersection",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.union",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.sym_difference",
+          "similarity": 0.608696
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate",
+          "similarity": 0.608696
+        },
+        {
+          "fqn": "django.forms.models.ModelChoiceIterator.choice",
+          "similarity": 0.56
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.contains",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.crosses",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.disjoint",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.equals",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.intersects",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.overlaps",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.touches",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.within",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.sessions.backends.file.SessionStore.exists",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage.exists",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage.size",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.buffer",
+          "similarity": 0.538462
+        }
+      ],
+      "entered_final": [
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.difference",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.sym_difference",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.difference",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersection",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.union",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.sym_difference",
+        "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate",
+        "django.forms.models.ModelChoiceIterator.choice",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.contains",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.crosses",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.disjoint",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.equals",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.intersects",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.overlaps",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.touches",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.within",
+        "django.contrib.sessions.backends.file.SessionStore.exists",
+        "django.core.files.storage.FileSystemStorage.exists",
+        "django.core.files.storage.FileSystemStorage.size",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.buffer"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.387755,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometry.intersection",
+      "path_score": 0.451613,
+      "boundary": "DEPRECATED",
+      "vpre": "1.11.29",
+      "vpost": "2.0",
+      "resolved_fqn": "django.contrib.gis.geos.geometry.GEOSGeometry.intersection",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersection",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.intersection",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.difference",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.union",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate",
+          "similarity": 0.608696
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.sym_difference",
+          "similarity": 0.576923
+        },
+        {
+          "fqn": "django.forms.models.ModelChoiceIterator.choice",
+          "similarity": 0.56
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.contains",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.crosses",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.disjoint",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.equals",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.intersects",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.overlaps",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.touches",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.within",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.sessions.backends.file.SessionStore.exists",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage.exists",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage.size",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.buffer",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate_normalized",
+          "similarity": 0.538462
+        }
+      ],
+      "entered_final": [
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersection",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.intersection",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.difference",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.union",
+        "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.sym_difference",
+        "django.forms.models.ModelChoiceIterator.choice",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.contains",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.crosses",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.disjoint",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.equals",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.intersects",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.overlaps",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.touches",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.within",
+        "django.contrib.sessions.backends.file.SessionStore.exists",
+        "django.core.files.storage.FileSystemStorage.exists",
+        "django.core.files.storage.FileSystemStorage.size",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.buffer",
+        "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate_normalized"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.387755,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometry.union",
+      "path_score": 0.451613,
+      "boundary": "DEPRECATED",
+      "vpre": "1.11.29",
+      "vpost": "2.0",
+      "resolved_fqn": "django.contrib.gis.geos.geometry.GEOSGeometry.union",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.union",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.union",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.difference",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersection",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.unary_union",
+          "similarity": 0.625
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate",
+          "similarity": 0.608696
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.sym_difference",
+          "similarity": 0.576923
+        },
+        {
+          "fqn": "django.forms.models.ModelChoiceIterator.choice",
+          "similarity": 0.56
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.contains",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.crosses",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.disjoint",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.equals",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.intersects",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.overlaps",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.touches",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.within",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "django.contrib.sessions.backends.file.SessionStore.exists",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage.exists",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage.size",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.buffer",
+          "similarity": 0.538462
+        }
+      ],
+      "entered_final": [
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.union",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.union",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.difference",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.intersection",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.unary_union",
+        "django.contrib.gis.geos.geometry.LinearGeometryMixin.interpolate",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.sym_difference",
+        "django.forms.models.ModelChoiceIterator.choice",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.contains",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.crosses",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.disjoint",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.equals",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.intersects",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.overlaps",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.touches",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.within",
+        "django.contrib.sessions.backends.file.SessionStore.exists",
+        "django.core.files.storage.FileSystemStorage.exists",
+        "django.core.files.storage.FileSystemStorage.size",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.buffer"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.395833,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.postgres.forms.jsonb.JSONField.prepare_value",
+      "path_score": 0.361905,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.395833,
+      "dead_reason": "pruned_at_pop"
+    }
+  ]
+}

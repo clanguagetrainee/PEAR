@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.cbook.deprecation.deprecated",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib._api.deprecation.deprecated",
+      "api_type": "function",
+      "similarity": 0.8381877022653722,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._api.deprecation.delete_parameter",
+      "api_type": "function",
+      "similarity": 0.6186186186186187,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._tight_layout.get_tight_layout_figure",
+      "api_type": "function",
+      "similarity": 0.5924855491329479,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.__init__._preprocess_data",
+      "api_type": "function",
+      "similarity": 0.5584415584415584,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.testing.decorators._pytest_image_comparison",
+      "api_type": "function",
+      "similarity": 0.5446685878962536,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.bezier.split_path_inout",
+      "api_type": "function",
+      "similarity": 0.5300546448087432,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.stackplot.stackplot",
+      "api_type": "function",
+      "similarity": 0.5283505154639175,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._tight_bbox.adjust_bbox",
+      "api_type": "function",
+      "similarity": 0.5247813411078717,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._tripcolor.tripcolor",
+      "api_type": "function",
+      "similarity": 0.5203836930455635,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._process_plot_format",
+      "api_type": "function",
+      "similarity": 0.5201149425287356,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.switch_backend",
+      "api_type": "function",
+      "similarity": 0.5192307692307693,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.scroll_handler",
+      "api_type": "function",
+      "similarity": 0.5154320987654321,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.streamplot._get_integrator",
+      "api_type": "function",
+      "similarity": 0.5135135135135135,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.rcsetup._eval_cycler_expr",
+      "api_type": "function",
+      "similarity": 0.5093167701863354,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_offsetbox.test_packers",
+      "api_type": "function",
+      "similarity": 0.5086206896551724,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image.imsave",
+      "api_type": "function",
+      "similarity": 0.5081967213114754,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.__init__._rc_params_in_file",
+      "api_type": "function",
+      "similarity": 0.5076923076923077,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.testing.decorators.check_figures_equal",
+      "api_type": "function",
+      "similarity": 0.504424778761062,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cbook.delete_masked_points",
+      "api_type": "function",
+      "similarity": 0.504297994269341,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cbook.violin_stats",
+      "api_type": "function",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

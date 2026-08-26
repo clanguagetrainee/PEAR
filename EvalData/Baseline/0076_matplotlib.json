@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.colorbar.Colorbar.update_bruteforce",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.colorbar.Colorbar.update_normal",
+      "api_type": "method",
+      "similarity": 0.5517241379310345,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.FileMovieWriter.setup",
+      "api_type": "method",
+      "similarity": 0.5434782608695652,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.markers.MarkerStyle._recache",
+      "api_type": "method",
+      "similarity": 0.5068493150684932,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.figure.FigureBase.clear",
+      "api_type": "method",
+      "similarity": 0.5052631578947369,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.SpanSelector._set_active_handle",
+      "api_type": "method",
+      "similarity": 0.4883720930232558,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._mathtext.Char._update_metrics",
+      "api_type": "method",
+      "similarity": 0.4794520547945205,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Patch.update_from",
+      "api_type": "method",
+      "similarity": 0.4787234042553192,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.update_units",
+      "api_type": "method",
+      "similarity": 0.4777777777777778,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.SpanSelector._press",
+      "api_type": "method",
+      "similarity": 0.4777777777777778,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Arc._update_path",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Arrow.set_data",
+      "api_type": "method",
+      "similarity": 0.46601941747572817,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer.Colorizer.norm",
+      "api_type": "method",
+      "similarity": 0.4625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triangulation.Triangulation.set_mask",
+      "api_type": "method",
+      "similarity": 0.4606741573033708,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.Text.update_from",
+      "api_type": "method",
+      "similarity": 0.45555555555555555,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text._AnnotationBase.draggable",
+      "api_type": "method",
+      "similarity": 0.44871794871794873,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.SpanSelector._release",
+      "api_type": "method",
+      "similarity": 0.44680851063829785,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.TimedAnimation._step",
+      "api_type": "method",
+      "similarity": 0.4431818181818182,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget.update",
+      "api_type": "method",
+      "similarity": 0.4387755102040816,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase._set_lim_and_transforms",
+      "api_type": "method",
+      "similarity": 0.43820224719101125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.update_from",
+      "api_type": "method",
+      "similarity": 0.4368932038834951,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.0.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.scale.LogTransformBase",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.scale.LogitTransform",
+      "api_type": "class",
+      "similarity": 0.7132867132867133,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.InvertedLogTransform",
+      "api_type": "class",
+      "similarity": 0.6428571428571429,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.LogTransform",
+      "api_type": "class",
+      "similarity": 0.630057803468208,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo._GeoTransform",
+      "api_type": "class",
+      "similarity": 0.5634920634920635,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.LogisticTransform",
+      "api_type": "class",
+      "similarity": 0.5151515151515151,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.polar.InvertedPolarTransform",
+      "api_type": "class",
+      "similarity": 0.5120481927710844,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.FuncTransform",
+      "api_type": "class",
+      "similarity": 0.5112781954887218,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.AsinhTransform",
+      "api_type": "class",
+      "similarity": 0.5038167938931297,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_transforms.NonAffineForTest",
+      "api_type": "class",
+      "similarity": 0.463768115942029,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.SymmetricalLogTransform",
+      "api_type": "class",
+      "similarity": 0.46078431372549017,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.InvertedAsinhTransform",
+      "api_type": "class",
+      "similarity": 0.45384615384615384,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.hatch.Stars",
+      "api_type": "class",
+      "similarity": 0.45185185185185184,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.sphinxext.mathmpl.MathDirective",
+      "api_type": "class",
+      "similarity": 0.4420289855072464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_backends_interactive._WaitForStringPopen",
+      "api_type": "class",
+      "similarity": 0.4391891891891892,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.RegularPolygon",
+      "api_type": "class",
+      "similarity": 0.43452380952380953,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorbar._ColorbarSpine",
+      "api_type": "class",
+      "similarity": 0.4303030303030303,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Circle",
+      "api_type": "class",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.AffineDeltaTransform",
+      "api_type": "class",
+      "similarity": 0.4264705882352941,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.FuncScaleLog",
+      "api_type": "class",
+      "similarity": 0.4253731343283582,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.polar.PolarAffine",
+      "api_type": "class",
+      "similarity": 0.42038216560509556,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

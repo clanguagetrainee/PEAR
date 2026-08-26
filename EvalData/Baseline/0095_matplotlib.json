@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.5.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.FigureCanvasBase.resize",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.backend_bases.FigureManagerBase.resize",
+      "api_type": "method",
+      "similarity": 1.0,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox._resize",
+      "api_type": "method",
+      "similarity": 0.6153846153846154,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.FigureCanvasTk.resize",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolBase.trigger",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget._onmove",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget._press",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget._release",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.DraggableBase.update_offset",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.sphinxext.plot_directive._FilenameCollector.process_doc",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.blit",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolToggleBase.disable",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolToggleBase.enable",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.Norm.autoscale",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dviread.Dvi._nop",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.layout_engine.PlaceHolderLayoutEngine.execute",
+      "api_type": "method",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.RendererBase.open_group",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfPages.__exit__",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.PdfPages.__exit__",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dviread.Dvi.__exit__",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.VertexSelector.process_selected",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

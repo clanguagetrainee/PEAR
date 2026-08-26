@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.9.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.fields.files.FileField.get_filename",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.core.files.storage.Storage.generate_filename",
+      "api_type": "method",
+      "similarity": 0.5609756097560976,
+      "evolution_path": [
+        "django.core.files.storage.Storage.generate_filename"
+      ],
+      "local_scores": [
+        0.5609756097560976
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset",
+      "api_type": "method",
+      "similarity": 0.5151515151515151,
+      "evolution_path": [
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset"
+      ],
+      "local_scores": [
+        0.5151515151515151
+      ]
+    },
+    {
+      "fqn": "django.contrib.contenttypes.fields.GenericForeignKey.get_forward_related_filter",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.contenttypes.fields.GenericForeignKey.get_forward_related_filter"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_x",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_x"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_y",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_y"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_z",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_z"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.views.generic.edit.BaseUpdateView.get",
+      "api_type": "method",
+      "similarity": 0.4857142857142857,
+      "evolution_path": [
+        "django.views.generic.edit.BaseUpdateView.get"
+      ],
+      "local_scores": [
+        0.4857142857142857
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_queryset",
+      "api_type": "method",
+      "similarity": 0.48484848484848486,
+      "evolution_path": [
+        "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_queryset"
+      ],
+      "local_scores": [
+        0.48484848484848486
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.models.PermissionManager.get_by_natural_key",
+      "api_type": "method",
+      "similarity": 0.475,
+      "evolution_path": [
+        "django.contrib.auth.models.PermissionManager.get_by_natural_key"
+      ],
+      "local_scores": [
+        0.475
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.AutocompleteMixin.get_url",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [
+        "django.contrib.admin.widgets.AutocompleteMixin.get_url"
+      ],
+      "local_scores": [
+        0.47368421052631576
+      ]
+    },
+    {
+      "fqn": "django.views.generic.edit.BaseCreateView.get",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "django.views.generic.edit.BaseCreateView.get"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "django.contrib.sessions.backends.base.SessionBase.get",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [
+        "django.contrib.sessions.backends.base.SessionBase.get"
+      ],
+      "local_scores": [
+        0.4666666666666667
+      ]
+    },
+    {
+      "fqn": "django.template.loaders.filesystem.Loader.get_contents",
+      "api_type": "method",
+      "similarity": 0.4634146341463415,
+      "evolution_path": [
+        "django.template.loaders.filesystem.Loader.get_contents"
+      ],
+      "local_scores": [
+        0.4634146341463415
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.collections.GeometryCollection._get_single_external",
+      "api_type": "method",
+      "similarity": 0.4594594594594595,
+      "evolution_path": [
+        "django.contrib.gis.geos.collections.GeometryCollection._get_single_external"
+      ],
+      "local_scores": [
+        0.4594594594594595
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.polygon.Polygon._get_single_external",
+      "api_type": "method",
+      "similarity": 0.4594594594594595,
+      "evolution_path": [
+        "django.contrib.gis.geos.polygon.Polygon._get_single_external"
+      ],
+      "local_scores": [
+        0.4594594594594595
+      ]
+    },
+    {
+      "fqn": "django.core.files.storage.FileSystemStorage.get_accessed_time",
+      "api_type": "method",
+      "similarity": 0.4594594594594595,
+      "evolution_path": [
+        "django.core.files.storage.FileSystemStorage.get_accessed_time"
+      ],
+      "local_scores": [
+        0.4594594594594595
+      ]
+    },
+    {
+      "fqn": "django.core.files.storage.FileSystemStorage.get_created_time",
+      "api_type": "method",
+      "similarity": 0.4594594594594595,
+      "evolution_path": [
+        "django.core.files.storage.FileSystemStorage.get_created_time"
+      ],
+      "local_scores": [
+        0.4594594594594595
+      ]
+    },
+    {
+      "fqn": "django.core.files.storage.FileSystemStorage.get_modified_time",
+      "api_type": "method",
+      "similarity": 0.4594594594594595,
+      "evolution_path": [
+        "django.core.files.storage.FileSystemStorage.get_modified_time"
+      ],
+      "local_scores": [
+        0.4594594594594595
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.related.ForeignKey.get_col",
+      "api_type": "method",
+      "similarity": 0.45714285714285713,
+      "evolution_path": [
+        "django.db.models.fields.related.ForeignKey.get_col"
+      ],
+      "local_scores": [
+        0.45714285714285713
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.db.models.fields.files.FileField.get_filename",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "1.11.29",
+      "vpost": "2.0",
+      "resolved_fqn": "django.db.models.fields.files.FileField.get_filename",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.core.files.storage.Storage.generate_filename",
+          "similarity": 0.560976
+        },
+        {
+          "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "django.contrib.contenttypes.fields.GenericForeignKey.get_forward_related_filter",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_x",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_y",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_z",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.views.generic.edit.BaseUpdateView.get",
+          "similarity": 0.485714
+        },
+        {
+          "fqn": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_queryset",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "django.contrib.auth.models.PermissionManager.get_by_natural_key",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "django.contrib.admin.widgets.AutocompleteMixin.get_url",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "django.views.generic.edit.BaseCreateView.get",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "django.contrib.sessions.backends.base.SessionBase.get",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "django.template.loaders.filesystem.Loader.get_contents",
+          "similarity": 0.463415
+        },
+        {
+          "fqn": "django.contrib.gis.geos.collections.GeometryCollection._get_single_external",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "django.contrib.gis.geos.polygon.Polygon._get_single_external",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage.get_accessed_time",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage.get_created_time",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage.get_modified_time",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "django.db.models.fields.related.ForeignKey.get_col",
+          "similarity": 0.457143
+        }
+      ],
+      "entered_final": [
+        "django.core.files.storage.Storage.generate_filename",
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset",
+        "django.contrib.contenttypes.fields.GenericForeignKey.get_forward_related_filter",
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_x",
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_y",
+        "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_z",
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object",
+        "django.views.generic.edit.BaseUpdateView.get",
+        "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_queryset",
+        "django.contrib.auth.models.PermissionManager.get_by_natural_key",
+        "django.contrib.admin.widgets.AutocompleteMixin.get_url",
+        "django.views.generic.edit.BaseCreateView.get",
+        "django.contrib.sessions.backends.base.SessionBase.get",
+        "django.template.loaders.filesystem.Loader.get_contents",
+        "django.contrib.gis.geos.collections.GeometryCollection._get_single_external",
+        "django.contrib.gis.geos.polygon.Polygon._get_single_external",
+        "django.core.files.storage.FileSystemStorage.get_accessed_time",
+        "django.core.files.storage.FileSystemStorage.get_created_time",
+        "django.core.files.storage.FileSystemStorage.get_modified_time",
+        "django.db.models.fields.related.ForeignKey.get_col"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.457143,
+      "dead_reason": null
+    }
+  ]
+}

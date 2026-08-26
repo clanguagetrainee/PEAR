@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "4.1.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.test.testcases.TransactionTestCase.assertQuerysetEqual",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.test.testcases.TransactionTestCase.assertQuerySetEqual",
+      "api_type": "method",
+      "similarity": 1.0,
+      "evolution_path": [
+        "django.test.testcases.TransactionTestCase.assertQuerySetEqual"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.models.UserManager.with_perm",
+      "api_type": "method",
+      "similarity": 0.5663716814159292,
+      "evolution_path": [
+        "django.contrib.auth.models.UserManager.with_perm"
+      ],
+      "local_scores": [
+        0.5663716814159292
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.layer.Layer._set_spatial_filter",
+      "api_type": "method",
+      "similarity": 0.5267857142857143,
+      "evolution_path": [
+        "django.contrib.gis.gdal.layer.Layer._set_spatial_filter"
+      ],
+      "local_scores": [
+        0.5267857142857143
+      ]
+    },
+    {
+      "fqn": "django.db.models.sql.query.Query.resolve_lookup_value",
+      "api_type": "method",
+      "similarity": 0.5137614678899083,
+      "evolution_path": [
+        "django.db.models.sql.query.Query.resolve_lookup_value"
+      ],
+      "local_scores": [
+        0.5137614678899083
+      ]
+    },
+    {
+      "fqn": "django.apps.config.AppConfig._path_from_module",
+      "api_type": "method",
+      "similarity": 0.5126050420168067,
+      "evolution_path": [
+        "django.apps.config.AppConfig._path_from_module"
+      ],
+      "local_scores": [
+        0.5126050420168067
+      ]
+    },
+    {
+      "fqn": "django.db.backends.base.operations.BaseDatabaseOperations.window_frame_rows_start_end",
+      "api_type": "method",
+      "similarity": 0.5083333333333333,
+      "evolution_path": [
+        "django.db.backends.base.operations.BaseDatabaseOperations.window_frame_rows_start_end"
+      ],
+      "local_scores": [
+        0.5083333333333333
+      ]
+    },
+    {
+      "fqn": "django.db.models.lookups.In.process_rhs",
+      "api_type": "method",
+      "similarity": 0.5081967213114754,
+      "evolution_path": [
+        "django.db.models.lookups.In.process_rhs"
+      ],
+      "local_scores": [
+        0.5081967213114754
+      ]
+    },
+    {
+      "fqn": "django.test.testcases.SimpleTestCase.assertFormSetError",
+      "api_type": "method",
+      "similarity": 0.5070422535211268,
+      "evolution_path": [
+        "django.test.testcases.SimpleTestCase.assertFormSetError"
+      ],
+      "local_scores": [
+        0.5070422535211268
+      ]
+    },
+    {
+      "fqn": "django.core.files.storage.base.Storage.save",
+      "api_type": "method",
+      "similarity": 0.504950495049505,
+      "evolution_path": [
+        "django.core.files.storage.base.Storage.save"
+      ],
+      "local_scores": [
+        0.504950495049505
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.io._WKBReader.read",
+      "api_type": "method",
+      "similarity": 0.5047619047619047,
+      "evolution_path": [
+        "django.contrib.gis.geos.prototypes.io._WKBReader.read"
+      ],
+      "local_scores": [
+        0.5047619047619047
+      ]
+    },
+    {
+      "fqn": "django.db.models.functions.datetime.TruncBase.convert_value",
+      "api_type": "method",
+      "similarity": 0.5042735042735043,
+      "evolution_path": [
+        "django.db.models.functions.datetime.TruncBase.convert_value"
+      ],
+      "local_scores": [
+        0.5042735042735043
+      ]
+    },
+    {
+      "fqn": "django.test.testcases.SimpleTestCase._assert_form_error",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.test.testcases.SimpleTestCase._assert_form_error"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geoip2.GeoIP2._query",
+      "api_type": "method",
+      "similarity": 0.4954954954954955,
+      "evolution_path": [
+        "django.contrib.gis.geoip2.GeoIP2._query"
+      ],
+      "local_scores": [
+        0.4954954954954955
+      ]
+    },
+    {
+      "fqn": "django.core.signing.TimestampSigner.unsign",
+      "api_type": "method",
+      "similarity": 0.4954128440366973,
+      "evolution_path": [
+        "django.core.signing.TimestampSigner.unsign"
+      ],
+      "local_scores": [
+        0.4954128440366973
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.graph.MigrationGraph.make_state",
+      "api_type": "method",
+      "similarity": 0.4909090909090909,
+      "evolution_path": [
+        "django.db.migrations.graph.MigrationGraph.make_state"
+      ],
+      "local_scores": [
+        0.4909090909090909
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.sites.AdminSite.admin_view",
+      "api_type": "method",
+      "similarity": 0.48739495798319327,
+      "evolution_path": [
+        "django.contrib.admin.sites.AdminSite.admin_view"
+      ],
+      "local_scores": [
+        0.48739495798319327
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.backends.ModelBackend._get_permissions",
+      "api_type": "method",
+      "similarity": 0.48739495798319327,
+      "evolution_path": [
+        "django.contrib.auth.backends.ModelBackend._get_permissions"
+      ],
+      "local_scores": [
+        0.48739495798319327
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.Field.get_choices",
+      "api_type": "method",
+      "similarity": 0.48360655737704916,
+      "evolution_path": [
+        "django.db.models.fields.__init__.Field.get_choices"
+      ],
+      "local_scores": [
+        0.48360655737704916
+      ]
+    },
+    {
+      "fqn": "django.core.cache.backends.filebased.FileBasedCache.set",
+      "api_type": "method",
+      "similarity": 0.4811320754716981,
+      "evolution_path": [
+        "django.core.cache.backends.filebased.FileBasedCache.set"
+      ],
+      "local_scores": [
+        0.4811320754716981
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.from_ewkt",
+      "api_type": "method",
+      "similarity": 0.47863247863247865,
+      "evolution_path": [
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.from_ewkt"
+      ],
+      "local_scores": [
+        0.47863247863247865
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.test.testcases.TransactionTestCase.assertQuerysetEqual",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "5.0.14",
+      "vpost": "5.1",
+      "resolved_fqn": "django.test.testcases.TransactionTestCase.assertQuerySetEqual",
+      "resolved_kind": "forward",
+      "candidates": [
+        {
+          "fqn": "django.test.testcases.TransactionTestCase.assertQuerySetEqual",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.contrib.auth.models.UserManager.with_perm",
+          "similarity": 0.566372
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.layer.Layer._set_spatial_filter",
+          "similarity": 0.526786
+        },
+        {
+          "fqn": "django.db.models.sql.query.Query.resolve_lookup_value",
+          "similarity": 0.513761
+        },
+        {
+          "fqn": "django.apps.config.AppConfig._path_from_module",
+          "similarity": 0.512605
+        },
+        {
+          "fqn": "django.db.backends.base.operations.BaseDatabaseOperations.window_frame_rows_start_end",
+          "similarity": 0.508333
+        },
+        {
+          "fqn": "django.db.models.lookups.In.process_rhs",
+          "similarity": 0.508197
+        },
+        {
+          "fqn": "django.test.testcases.SimpleTestCase.assertFormSetError",
+          "similarity": 0.507042
+        },
+        {
+          "fqn": "django.core.files.storage.base.Storage.save",
+          "similarity": 0.50495
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.io._WKBReader.read",
+          "similarity": 0.504762
+        },
+        {
+          "fqn": "django.db.models.functions.datetime.TruncBase.convert_value",
+          "similarity": 0.504274
+        },
+        {
+          "fqn": "django.test.testcases.SimpleTestCase._assert_form_error",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.geoip2.GeoIP2._query",
+          "similarity": 0.495495
+        },
+        {
+          "fqn": "django.core.signing.TimestampSigner.unsign",
+          "similarity": 0.495413
+        },
+        {
+          "fqn": "django.db.migrations.graph.MigrationGraph.make_state",
+          "similarity": 0.490909
+        },
+        {
+          "fqn": "django.contrib.admin.sites.AdminSite.admin_view",
+          "similarity": 0.487395
+        },
+        {
+          "fqn": "django.contrib.auth.backends.ModelBackend._get_permissions",
+          "similarity": 0.487395
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Field.get_choices",
+          "similarity": 0.483607
+        },
+        {
+          "fqn": "django.core.cache.backends.filebased.FileBasedCache.set",
+          "similarity": 0.481132
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.from_ewkt",
+          "similarity": 0.478632
+        }
+      ],
+      "entered_final": [
+        "django.test.testcases.TransactionTestCase.assertQuerySetEqual",
+        "django.contrib.auth.models.UserManager.with_perm",
+        "django.contrib.gis.gdal.layer.Layer._set_spatial_filter",
+        "django.db.models.sql.query.Query.resolve_lookup_value",
+        "django.apps.config.AppConfig._path_from_module",
+        "django.db.backends.base.operations.BaseDatabaseOperations.window_frame_rows_start_end",
+        "django.db.models.lookups.In.process_rhs",
+        "django.test.testcases.SimpleTestCase.assertFormSetError",
+        "django.core.files.storage.base.Storage.save",
+        "django.contrib.gis.geos.prototypes.io._WKBReader.read",
+        "django.db.models.functions.datetime.TruncBase.convert_value",
+        "django.test.testcases.SimpleTestCase._assert_form_error",
+        "django.contrib.gis.geoip2.GeoIP2._query",
+        "django.core.signing.TimestampSigner.unsign",
+        "django.db.migrations.graph.MigrationGraph.make_state",
+        "django.contrib.admin.sites.AdminSite.admin_view",
+        "django.contrib.auth.backends.ModelBackend._get_permissions",
+        "django.db.models.fields.__init__.Field.get_choices",
+        "django.core.cache.backends.filebased.FileBasedCache.set",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.from_ewkt"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.478632,
+      "dead_reason": null
+    }
+  ]
+}

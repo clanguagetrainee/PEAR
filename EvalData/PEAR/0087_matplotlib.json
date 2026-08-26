@@ -1,0 +1,31 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.cbook.warn_deprecated",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "NO_CANDIDATE",
+  "error": null,
+  "candidates": [],
+  "trace": [
+    {
+      "fqn": "matplotlib.cbook.warn_deprecated",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.4",
+      "vpost": "3.4.0",
+      "resolved_fqn": "matplotlib.cbook.warn_deprecated",
+      "resolved_kind": "unknown",
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "empty_recommend"
+    }
+  ]
+}

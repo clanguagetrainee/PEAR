@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.2.25",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.admin.options.OSMGeoAdmin",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.postgres.fields.ranges.RangeOperators",
+      "api_type": "class",
+      "similarity": 0.49019607843137253,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.csp.CSP",
+      "api_type": "class",
+      "similarity": 0.4716981132075472,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.operations.base.OperationCategory",
+      "api_type": "class",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.redirects.models.Redirect.Meta",
+      "api_type": "class",
+      "similarity": 0.44680851063829785,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.models.LogEntry.Meta",
+      "api_type": "class",
+      "similarity": 0.4418604651162791,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.flatpages.models.FlatPage.Meta",
+      "api_type": "class",
+      "similarity": 0.4418604651162791,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.sites.models.Site.Meta",
+      "api_type": "class",
+      "similarity": 0.4418604651162791,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.autodetector.OperationDependency.Type",
+      "api_type": "class",
+      "similarity": 0.4418604651162791,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.contenttypes.models.ContentType.Meta",
+      "api_type": "class",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.redirects.admin.RedirectAdmin",
+      "api_type": "class",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.mysql.base.DatabaseWrapper",
+      "api_type": "class",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.base.DatabaseWrapper",
+      "api_type": "class",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.dummy.base.DatabaseIntrospection",
+      "api_type": "class",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.fields.PointField",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.fields.PolygonField",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.Permission.Meta",
+      "api_type": "class",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.apps.SimpleAdminConfig",
+      "api_type": "class",
+      "similarity": 0.390625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.checks.registry.Tags",
+      "api_type": "class",
+      "similarity": 0.390625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.forms.UserChangeForm.Meta",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.coordseq.CsInt",
+      "api_type": "class",
+      "similarity": 0.3829787234042553,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

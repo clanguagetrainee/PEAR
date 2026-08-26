@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.7.5",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_rgb",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_argb",
+      "api_type": "method",
+      "similarity": 0.5789473684210527,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.get_rgb",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_cairo.GraphicsContextCairo.get_rgb",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfPages.infodict",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.qt_editor._formlayout.ColorLayout.text",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.TransformWrapper.frozen",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.axes",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.MollweideAxes.MollweideTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_units.Quantity.__array__",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox.text",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.ToolHandles.x",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.ToolHandles.y",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.contains",
+      "api_type": "method",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.qt_editor._formlayout.FormComboWidget.get",
+      "api_type": "method",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.qt_editor._formlayout.FormTabWidget.get",
+      "api_type": "method",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

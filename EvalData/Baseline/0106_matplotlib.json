@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.7.5",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backends.backend_agg.RendererAgg.tostring_rgb",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends.backend_agg.RendererAgg.tostring_argb",
+      "api_type": "method",
+      "similarity": 0.7741935483870968,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_cairo.GraphicsContextCairo.get_rgb",
+      "api_type": "method",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.blit",
+      "api_type": "method",
+      "similarity": 0.3783783783783784,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.Affine2DBase.to_values",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.__str__",
+      "api_type": "method",
+      "similarity": 0.3684210526315789,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.FigureCanvasPdf.draw",
+      "api_type": "method",
+      "similarity": 0.36363636363636365,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.FigureCanvasPgf.draw",
+      "api_type": "method",
+      "similarity": 0.36363636363636365,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps.FigureCanvasPS.draw",
+      "api_type": "method",
+      "similarity": 0.36363636363636365,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.FigureCanvasSVG.draw",
+      "api_type": "method",
+      "similarity": 0.36363636363636365,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections._MeshData.get_edgecolor",
+      "api_type": "method",
+      "similarity": 0.3611111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections._MeshData.get_facecolor",
+      "api_type": "method",
+      "similarity": 0.3611111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.__repr__",
+      "api_type": "method",
+      "similarity": 0.358974358974359,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_argb",
+      "api_type": "method",
+      "similarity": 0.3548387096774194,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.__str__",
+      "api_type": "method",
+      "similarity": 0.35294117647058826,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.BlendedGenericTransform.frozen",
+      "api_type": "method",
+      "similarity": 0.35294117647058826,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.BlendedGenericTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.35294117647058826,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.CompositeGenericTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.35294117647058826,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.pan",
+      "api_type": "method",
+      "similarity": 0.34285714285714286,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.zoom",
+      "api_type": "method",
+      "similarity": 0.34285714285714286,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.HelpWx.trigger",
+      "api_type": "method",
+      "similarity": 0.34285714285714286,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

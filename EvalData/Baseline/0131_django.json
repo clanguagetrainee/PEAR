@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "2.0.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.db.models.functions.ForceRHR",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.db.models.functions.ForcePolygonCW",
+      "api_type": "class",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Envelope",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Centroid",
+      "api_type": "class",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Reverse",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Difference",
+      "api_type": "class",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Intersection",
+      "api_type": "class",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Union",
+      "api_type": "class",
+      "similarity": 0.375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.base_user.AbstractBaseUser.Meta",
+      "api_type": "class",
+      "similarity": 0.3684210526315789,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.PermissionsMixin.Meta",
+      "api_type": "class",
+      "similarity": 0.3684210526315789,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.PointOnSurface",
+      "api_type": "class",
+      "similarity": 0.36,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.User.Meta",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.operations.SDODWithin",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.operations.SDOOperator",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.base.GDALBase",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.field.OFTInteger64",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.base.GEOSBase",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSContext",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.sitemaps.kml.KMZSitemap",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.aggregates.statistics.Corr",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.sessions.models.Session.Meta",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

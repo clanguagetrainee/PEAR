@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.20.0",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.frame.DataFrame.sortlevel",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.tests.apply.conftest.MockExecutionEngine.map",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.strings.accessor.StringMethods.fullmatch",
+      "api_type": "method",
+      "similarity": 0.4423076923076923,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.test_parquet.Base.check_error_on_write",
+      "api_type": "method",
+      "similarity": 0.41304347826086957,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.tools.test_to_datetime.TestDaysInMonth.test_day_not_in_month_raise_value",
+      "api_type": "method",
+      "similarity": 0.41304347826086957,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.test_nanops.TestnanopsDataFrame.test_nansem",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.json.test_pandas.TestPandasContainer.test_path",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.CoercionTest.expected",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexing._iAtIndexer.__setitem__",
+      "api_type": "method",
+      "similarity": 0.40816326530612246,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series._set_name",
+      "api_type": "method",
+      "similarity": 0.40384615384615385,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.add",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.ge",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.le",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.mod",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.truediv",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.arrays.test_datetimelike.TestDatetimeArray.arr1d",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.test_sparse.TestSparseArray.test_equals",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexCaptionLabel.test_to_latex_longtable_caption_shortcaption_and_label",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.prod",
+      "api_type": "method",
+      "similarity": 0.39655172413793105,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.sum",
+      "api_type": "method",
+      "similarity": 0.39655172413793105,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexCaptionLabel.test_to_latex_longtable_caption_and_label",
+      "api_type": "method",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

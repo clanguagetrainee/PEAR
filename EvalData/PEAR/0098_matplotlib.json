@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.6.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.contour.ClabelText",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+      "api_type": "class",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg.WebAggApplication.MplJs"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.FavIcon",
+      "api_type": "class",
+      "similarity": 0.4067796610169492,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg.WebAggApplication.FavIcon"
+      ],
+      "local_scores": [
+        0.4067796610169492
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.ResizeEvent",
+      "api_type": "class",
+      "similarity": 0.36065573770491804,
+      "evolution_path": [
+        "matplotlib.backend_bases.ResizeEvent"
+      ],
+      "local_scores": [
+        0.36065573770491804
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.AffineDeltaTransform",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [
+        "matplotlib.transforms.AffineDeltaTransform"
+      ],
+      "local_scores": [
+        0.3333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.HelpTk",
+      "api_type": "class",
+      "similarity": 0.3283582089552239,
+      "evolution_path": [
+        "matplotlib.backends._backend_tk.HelpTk"
+      ],
+      "local_scores": [
+        0.3283582089552239
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.MainWindow",
+      "api_type": "class",
+      "similarity": 0.328125,
+      "evolution_path": [
+        "matplotlib.backends.backend_qt.MainWindow"
+      ],
+      "local_scores": [
+        0.328125
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.Download",
+      "api_type": "class",
+      "similarity": 0.32098765432098764,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg.WebAggApplication.Download"
+      ],
+      "local_scores": [
+        0.32098765432098764
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.CircleCollection",
+      "api_type": "class",
+      "similarity": 0.3116883116883117,
+      "evolution_path": [
+        "matplotlib.collections.CircleCollection"
+      ],
+      "local_scores": [
+        0.3116883116883117
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.compare._SVGWithMatplotlibFontsConverter",
+      "api_type": "class",
+      "similarity": 0.30864197530864196,
+      "evolution_path": [
+        "matplotlib.testing.compare._SVGWithMatplotlibFontsConverter"
+      ],
+      "local_scores": [
+        0.30864197530864196
+      ]
+    },
+    {
+      "fqn": "matplotlib.hatch.Circles",
+      "api_type": "class",
+      "similarity": 0.3076923076923077,
+      "evolution_path": [
+        "matplotlib.hatch.Circles"
+      ],
+      "local_scores": [
+        0.3076923076923077
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.AllFiguresPage",
+      "api_type": "class",
+      "similarity": 0.3068181818181818,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg.WebAggApplication.AllFiguresPage"
+      ],
+      "local_scores": [
+        0.3068181818181818
+      ]
+    },
+    {
+      "fqn": "matplotlib.hatch.LargeCircles",
+      "api_type": "class",
+      "similarity": 0.30303030303030304,
+      "evolution_path": [
+        "matplotlib.hatch.LargeCircles"
+      ],
+      "local_scores": [
+        0.30303030303030304
+      ]
+    },
+    {
+      "fqn": "matplotlib.hatch.SmallCircles",
+      "api_type": "class",
+      "similarity": 0.30303030303030304,
+      "evolution_path": [
+        "matplotlib.hatch.SmallCircles"
+      ],
+      "local_scores": [
+        0.30303030303030304
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker._UnicodeMinusFormat",
+      "api_type": "class",
+      "similarity": 0.30303030303030304,
+      "evolution_path": [
+        "matplotlib.ticker._UnicodeMinusFormat"
+      ],
+      "local_scores": [
+        0.30303030303030304
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_user",
+      "api_type": "class",
+      "similarity": 0.2972972972972973,
+      "evolution_path": [
+        "matplotlib.tri._triinterpolate._DOF_estimator_user"
+      ],
+      "local_scores": [
+        0.2972972972972973
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.DrawEvent",
+      "api_type": "class",
+      "similarity": 0.29508196721311475,
+      "evolution_path": [
+        "matplotlib.backend_bases.DrawEvent"
+      ],
+      "local_scores": [
+        0.29508196721311475
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg",
+      "api_type": "class",
+      "similarity": 0.2948717948717949,
+      "evolution_path": [
+        "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg"
+      ],
+      "local_scores": [
+        0.2948717948717949
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.ToolCopyToClipboardQT",
+      "api_type": "class",
+      "similarity": 0.29411764705882354,
+      "evolution_path": [
+        "matplotlib.backends.backend_qt.ToolCopyToClipboardQT"
+      ],
+      "local_scores": [
+        0.29411764705882354
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.LatexError",
+      "api_type": "class",
+      "similarity": 0.29333333333333333,
+      "evolution_path": [
+        "matplotlib.backends.backend_pgf.LatexError"
+      ],
+      "local_scores": [
+        0.29333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.layout_engine.PlaceHolderLayoutEngine",
+      "api_type": "class",
+      "similarity": 0.2916666666666667,
+      "evolution_path": [
+        "matplotlib.layout_engine.PlaceHolderLayoutEngine"
+      ],
+      "local_scores": [
+        0.2916666666666667
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.contour.ClabelText",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.8.4",
+      "vpost": "3.9.0",
+      "resolved_fqn": "matplotlib.contour.ClabelText",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.FavIcon",
+          "similarity": 0.40678
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ResizeEvent",
+          "similarity": 0.360656
+        },
+        {
+          "fqn": "matplotlib.transforms.AffineDeltaTransform",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.HelpTk",
+          "similarity": 0.328358
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.MainWindow",
+          "similarity": 0.328125
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.Download",
+          "similarity": 0.320988
+        },
+        {
+          "fqn": "matplotlib.collections.CircleCollection",
+          "similarity": 0.311688
+        },
+        {
+          "fqn": "matplotlib.testing.compare._SVGWithMatplotlibFontsConverter",
+          "similarity": 0.308642
+        },
+        {
+          "fqn": "matplotlib.hatch.Circles",
+          "similarity": 0.307692
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.AllFiguresPage",
+          "similarity": 0.306818
+        },
+        {
+          "fqn": "matplotlib.hatch.LargeCircles",
+          "similarity": 0.30303
+        },
+        {
+          "fqn": "matplotlib.hatch.SmallCircles",
+          "similarity": 0.30303
+        },
+        {
+          "fqn": "matplotlib.ticker._UnicodeMinusFormat",
+          "similarity": 0.30303
+        },
+        {
+          "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_user",
+          "similarity": 0.297297
+        },
+        {
+          "fqn": "matplotlib.backend_bases.DrawEvent",
+          "similarity": 0.295082
+        },
+        {
+          "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg",
+          "similarity": 0.294872
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.ToolCopyToClipboardQT",
+          "similarity": 0.294118
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.LatexError",
+          "similarity": 0.293333
+        },
+        {
+          "fqn": "matplotlib.layout_engine.PlaceHolderLayoutEngine",
+          "similarity": 0.291667
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+        "matplotlib.backends.backend_webagg.WebAggApplication.FavIcon",
+        "matplotlib.backend_bases.ResizeEvent",
+        "matplotlib.transforms.AffineDeltaTransform",
+        "matplotlib.backends._backend_tk.HelpTk",
+        "matplotlib.backends.backend_qt.MainWindow",
+        "matplotlib.backends.backend_webagg.WebAggApplication.Download",
+        "matplotlib.collections.CircleCollection",
+        "matplotlib.testing.compare._SVGWithMatplotlibFontsConverter",
+        "matplotlib.hatch.Circles",
+        "matplotlib.backends.backend_webagg.WebAggApplication.AllFiguresPage",
+        "matplotlib.hatch.LargeCircles",
+        "matplotlib.hatch.SmallCircles",
+        "matplotlib.ticker._UnicodeMinusFormat",
+        "matplotlib.tri._triinterpolate._DOF_estimator_user",
+        "matplotlib.backend_bases.DrawEvent",
+        "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg",
+        "matplotlib.backends.backend_qt.ToolCopyToClipboardQT",
+        "matplotlib.backends.backend_pgf.LatexError",
+        "matplotlib.layout_engine.PlaceHolderLayoutEngine"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.291667,
+      "dead_reason": null
+    }
+  ]
+}

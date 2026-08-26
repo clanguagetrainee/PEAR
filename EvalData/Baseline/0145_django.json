@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.2.25",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.http.request.HttpRequest.get_raw_uri",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.views.debug.ExceptionReporter._get_raw_insecure_uri",
+      "api_type": "method",
+      "similarity": 0.7096774193548387,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.edit.DeletionMixin.get_success_url",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.messages.storage.session.SessionStorage._get",
+      "api_type": "method",
+      "similarity": 0.4375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.CombinedExpression.__str__",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.array.ArrayField.get_placeholder",
+      "api_type": "method",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.ranges.RangeField.get_placeholder",
+      "api_type": "method",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.handlers.wsgi.WSGIRequest._get_scheme",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.OrderBy.__repr__",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.RawSQL.__repr__",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.Ref.__repr__",
+      "api_type": "method",
+      "similarity": 0.41379310344827586,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.sessions.base_session.AbstractBaseSession.get_decoded",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.handlers.asgi.ASGIRequest._get_scheme",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.dates.BaseDateListView.get_ordering",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.manager.BaseManager.get_queryset",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.loaders.filesystem.Loader.get_dirs",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.edit.ProcessFormView.get",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.admin.UserAdmin.get_urls",
+      "api_type": "method",
+      "similarity": 0.39473684210526316,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.mail.utils.CachedDnsName.get_fqdn",
+      "api_type": "method",
+      "similarity": 0.39473684210526316,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.apps.registry.Apps.get_app_configs",
+      "api_type": "method",
+      "similarity": 0.3939393939393939,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.files.FieldFile._get_file",
+      "api_type": "method",
+      "similarity": 0.3902439024390244,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

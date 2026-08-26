@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.text.TextWithDash",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.offsetbox.AnnotationBbox",
+      "api_type": "class",
+      "similarity": 0.5808031341821743,
+      "evolution_path": [
+        "matplotlib.offsetbox.AnnotationBbox"
+      ],
+      "local_scores": [
+        0.5808031341821743
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.AnchoredOffsetbox",
+      "api_type": "class",
+      "similarity": 0.5363457760314342,
+      "evolution_path": [
+        "matplotlib.offsetbox.AnchoredOffsetbox"
+      ],
+      "local_scores": [
+        0.5363457760314342
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.ConnectionPatch",
+      "api_type": "class",
+      "similarity": 0.521025641025641,
+      "evolution_path": [
+        "matplotlib.patches.ConnectionPatch"
+      ],
+      "local_scores": [
+        0.521025641025641
+      ]
+    },
+    {
+      "fqn": "matplotlib.text.Annotation",
+      "api_type": "class",
+      "similarity": 0.5150709219858156,
+      "evolution_path": [
+        "matplotlib.text.Annotation"
+      ],
+      "local_scores": [
+        0.5150709219858156
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.FancyArrowPatch",
+      "api_type": "class",
+      "similarity": 0.5072604065827686,
+      "evolution_path": [
+        "matplotlib.patches.FancyArrowPatch"
+      ],
+      "local_scores": [
+        0.5072604065827686
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.YAxis",
+      "api_type": "class",
+      "similarity": 0.4911742133537989,
+      "evolution_path": [
+        "matplotlib.axis.YAxis"
+      ],
+      "local_scores": [
+        0.4911742133537989
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore",
+      "api_type": "class",
+      "similarity": 0.48873483535528595,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore"
+      ],
+      "local_scores": [
+        0.48873483535528595
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.Tick",
+      "api_type": "class",
+      "similarity": 0.4883227176220807,
+      "evolution_path": [
+        "matplotlib.axis.Tick"
+      ],
+      "local_scores": [
+        0.4883227176220807
+      ]
+    },
+    {
+      "fqn": "matplotlib.font_manager.FontProperties",
+      "api_type": "class",
+      "similarity": 0.4727767695099819,
+      "evolution_path": [
+        "matplotlib.font_manager.FontProperties"
+      ],
+      "local_scores": [
+        0.4727767695099819
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.XAxis",
+      "api_type": "class",
+      "similarity": 0.4719940253920836,
+      "evolution_path": [
+        "matplotlib.axis.XAxis"
+      ],
+      "local_scores": [
+        0.4719940253920836
+      ]
+    },
+    {
+      "fqn": "matplotlib.gridspec.SubplotSpec",
+      "api_type": "class",
+      "similarity": 0.4703703703703704,
+      "evolution_path": [
+        "matplotlib.gridspec.SubplotSpec"
+      ],
+      "local_scores": [
+        0.4703703703703704
+      ]
+    },
+    {
+      "fqn": "matplotlib.table.Table",
+      "api_type": "class",
+      "similarity": 0.47017543859649125,
+      "evolution_path": [
+        "matplotlib.table.Table"
+      ],
+      "local_scores": [
+        0.47017543859649125
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_managers.ToolManager",
+      "api_type": "class",
+      "similarity": 0.46557377049180326,
+      "evolution_path": [
+        "matplotlib.backend_managers.ToolManager"
+      ],
+      "local_scores": [
+        0.46557377049180326
+      ]
+    },
+    {
+      "fqn": "matplotlib.table.Cell",
+      "api_type": "class",
+      "similarity": 0.4624871531346352,
+      "evolution_path": [
+        "matplotlib.table.Cell"
+      ],
+      "local_scores": [
+        0.4624871531346352
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf",
+      "api_type": "class",
+      "similarity": 0.4619377162629758,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.GraphicsContextPdf"
+      ],
+      "local_scores": [
+        0.4619377162629758
+      ]
+    },
+    {
+      "fqn": "matplotlib.text._AnnotationBase",
+      "api_type": "class",
+      "similarity": 0.4596211365902293,
+      "evolution_path": [
+        "matplotlib.text._AnnotationBase"
+      ],
+      "local_scores": [
+        0.4596211365902293
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.Slider",
+      "api_type": "class",
+      "similarity": 0.4556267154620311,
+      "evolution_path": [
+        "matplotlib.widgets.Slider"
+      ],
+      "local_scores": [
+        0.4556267154620311
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.QuadMesh",
+      "api_type": "class",
+      "similarity": 0.45410628019323673,
+      "evolution_path": [
+        "matplotlib.collections.QuadMesh"
+      ],
+      "local_scores": [
+        0.45410628019323673
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.EventCollection",
+      "api_type": "class",
+      "similarity": 0.4523107177974435,
+      "evolution_path": [
+        "matplotlib.collections.EventCollection"
+      ],
+      "local_scores": [
+        0.4523107177974435
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.LogFormatter",
+      "api_type": "class",
+      "similarity": 0.4520547945205479,
+      "evolution_path": [
+        "matplotlib.ticker.LogFormatter"
+      ],
+      "local_scores": [
+        0.4520547945205479
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.text.TextWithDash",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.2.2",
+      "vpost": "3.3.0",
+      "resolved_fqn": "matplotlib.text.TextWithDash",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.offsetbox.AnnotationBbox",
+          "similarity": 0.580803
+        },
+        {
+          "fqn": "matplotlib.offsetbox.AnchoredOffsetbox",
+          "similarity": 0.536346
+        },
+        {
+          "fqn": "matplotlib.patches.ConnectionPatch",
+          "similarity": 0.521026
+        },
+        {
+          "fqn": "matplotlib.text.Annotation",
+          "similarity": 0.515071
+        },
+        {
+          "fqn": "matplotlib.patches.FancyArrowPatch",
+          "similarity": 0.50726
+        },
+        {
+          "fqn": "matplotlib.axis.YAxis",
+          "similarity": 0.491174
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore",
+          "similarity": 0.488735
+        },
+        {
+          "fqn": "matplotlib.axis.Tick",
+          "similarity": 0.488323
+        },
+        {
+          "fqn": "matplotlib.font_manager.FontProperties",
+          "similarity": 0.472777
+        },
+        {
+          "fqn": "matplotlib.axis.XAxis",
+          "similarity": 0.471994
+        },
+        {
+          "fqn": "matplotlib.gridspec.SubplotSpec",
+          "similarity": 0.47037
+        },
+        {
+          "fqn": "matplotlib.table.Table",
+          "similarity": 0.470175
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolManager",
+          "similarity": 0.465574
+        },
+        {
+          "fqn": "matplotlib.table.Cell",
+          "similarity": 0.462487
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf",
+          "similarity": 0.461938
+        },
+        {
+          "fqn": "matplotlib.text._AnnotationBase",
+          "similarity": 0.459621
+        },
+        {
+          "fqn": "matplotlib.widgets.Slider",
+          "similarity": 0.455627
+        },
+        {
+          "fqn": "matplotlib.collections.QuadMesh",
+          "similarity": 0.454106
+        },
+        {
+          "fqn": "matplotlib.collections.EventCollection",
+          "similarity": 0.452311
+        },
+        {
+          "fqn": "matplotlib.ticker.LogFormatter",
+          "similarity": 0.452055
+        }
+      ],
+      "entered_final": [
+        "matplotlib.offsetbox.AnnotationBbox",
+        "matplotlib.offsetbox.AnchoredOffsetbox",
+        "matplotlib.patches.ConnectionPatch",
+        "matplotlib.text.Annotation",
+        "matplotlib.patches.FancyArrowPatch",
+        "matplotlib.axis.YAxis",
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore",
+        "matplotlib.axis.Tick",
+        "matplotlib.font_manager.FontProperties",
+        "matplotlib.axis.XAxis",
+        "matplotlib.gridspec.SubplotSpec",
+        "matplotlib.table.Table",
+        "matplotlib.backend_managers.ToolManager",
+        "matplotlib.table.Cell",
+        "matplotlib.backends.backend_pdf.GraphicsContextPdf",
+        "matplotlib.text._AnnotationBase",
+        "matplotlib.widgets.Slider",
+        "matplotlib.collections.QuadMesh",
+        "matplotlib.collections.EventCollection",
+        "matplotlib.ticker.LogFormatter"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.452055,
+      "dead_reason": null
+    }
+  ]
+}

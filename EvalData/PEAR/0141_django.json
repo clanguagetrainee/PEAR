@@ -1,0 +1,399 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.postgres.fields.jsonb.KeyTextTransform",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.db.models.fields.json.KeyTextTransform",
+      "api_type": "class",
+      "similarity": 0.8076923076923077,
+      "evolution_path": [
+        "django.db.models.fields.json.KeyTextTransform"
+      ],
+      "local_scores": [
+        0.8076923076923077
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.KeysTransform",
+      "api_type": "class",
+      "similarity": 0.5588235294117647,
+      "evolution_path": [
+        "django.contrib.postgres.fields.hstore.KeysTransform"
+      ],
+      "local_scores": [
+        0.5588235294117647
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.ValuesTransform",
+      "api_type": "class",
+      "similarity": 0.5588235294117647,
+      "evolution_path": [
+        "django.contrib.postgres.fields.hstore.ValuesTransform"
+      ],
+      "local_scores": [
+        0.5588235294117647
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.lookups.HasKey",
+      "api_type": "class",
+      "similarity": 0.5161290322580645,
+      "evolution_path": [
+        "django.contrib.postgres.lookups.HasKey"
+      ],
+      "local_scores": [
+        0.5161290322580645
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.json.HasKey",
+      "api_type": "class",
+      "similarity": 0.5161290322580645,
+      "evolution_path": [
+        "django.db.models.fields.json.HasKey"
+      ],
+      "local_scores": [
+        0.5161290322580645
+      ]
+    },
+    {
+      "fqn": "django.forms.widgets.TextInput",
+      "api_type": "class",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [
+        "django.forms.widgets.TextInput"
+      ],
+      "local_scores": [
+        0.4666666666666667
+      ]
+    },
+    {
+      "fqn": "django.db.models.functions.window.Rank",
+      "api_type": "class",
+      "similarity": 0.4375,
+      "evolution_path": [
+        "django.db.models.functions.window.Rank"
+      ],
+      "local_scores": [
+        0.4375
+      ]
+    },
+    {
+      "fqn": "django.contrib.redirects.apps.RedirectsConfig",
+      "api_type": "class",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "django.contrib.redirects.apps.RedirectsConfig"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.lookups.Unaccent",
+      "api_type": "class",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [
+        "django.contrib.postgres.lookups.Unaccent"
+      ],
+      "local_scores": [
+        0.41935483870967744
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.contrib.postgres.fields.jsonb.KeyTextTransform",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.2.25",
+      "vpost": "4.0",
+      "resolved_fqn": "django.contrib.postgres.fields.jsonb.KeyTextTransform",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.db.models.fields.json.KeyTextTransform",
+          "similarity": 0.807692
+        },
+        {
+          "fqn": "django.contrib.postgres.fields.hstore.KeysTransform",
+          "similarity": 0.558824
+        },
+        {
+          "fqn": "django.contrib.postgres.fields.hstore.ValuesTransform",
+          "similarity": 0.558824
+        },
+        {
+          "fqn": "django.contrib.postgres.lookups.HasKey",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "django.db.models.fields.json.HasKey",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "django.forms.widgets.TextInput",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "django.contrib.auth.forms.UserChangeForm.Meta",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "django.contrib.auth.models.AbstractUser.Meta",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "django.contrib.sessions.base_session.AbstractBaseSession.Meta",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "django.contrib.auth.forms.UserCreationForm.Meta",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "django.contrib.auth.models.Group.Meta",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "django.db.models.functions.window.Rank",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.oracle.models.OracleGeometryColumns.Meta",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.oracle.models.OracleSpatialRefSys.Meta",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.Meta",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.postgis.models.PostGISSpatialRefSys.Meta",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.spatialite.models.SpatialiteGeometryColumns.Meta",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.spatialite.models.SpatialiteSpatialRefSys.Meta",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "django.contrib.redirects.apps.RedirectsConfig",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "django.contrib.postgres.lookups.Unaccent",
+          "similarity": 0.419355
+        }
+      ],
+      "entered_final": [
+        "django.db.models.fields.json.KeyTextTransform",
+        "django.contrib.postgres.fields.hstore.KeysTransform",
+        "django.contrib.postgres.fields.hstore.ValuesTransform",
+        "django.contrib.postgres.lookups.HasKey",
+        "django.db.models.fields.json.HasKey",
+        "django.forms.widgets.TextInput",
+        "django.db.models.functions.window.Rank",
+        "django.contrib.redirects.apps.RedirectsConfig",
+        "django.contrib.postgres.lookups.Unaccent"
+      ],
+      "entered_iter": [
+        "django.contrib.auth.forms.UserChangeForm.Meta",
+        "django.contrib.auth.models.AbstractUser.Meta",
+        "django.contrib.sessions.base_session.AbstractBaseSession.Meta",
+        "django.contrib.auth.forms.UserCreationForm.Meta",
+        "django.contrib.auth.models.Group.Meta",
+        "django.contrib.gis.db.backends.oracle.models.OracleGeometryColumns.Meta",
+        "django.contrib.gis.db.backends.oracle.models.OracleSpatialRefSys.Meta",
+        "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.Meta",
+        "django.contrib.gis.db.backends.postgis.models.PostGISSpatialRefSys.Meta",
+        "django.contrib.gis.db.backends.spatialite.models.SpatialiteGeometryColumns.Meta",
+        "django.contrib.gis.db.backends.spatialite.models.SpatialiteSpatialRefSys.Meta"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.auth.forms.UserChangeForm.Meta",
+      "path_score": 0.451613,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.auth.models.AbstractUser.Meta",
+      "path_score": 0.441176,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.sessions.base_session.AbstractBaseSession.Meta",
+      "path_score": 0.441176,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.auth.forms.UserCreationForm.Meta",
+      "path_score": 0.4375,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.auth.models.Group.Meta",
+      "path_score": 0.4375,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.models.OracleGeometryColumns.Meta",
+      "path_score": 0.433333,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.models.OracleSpatialRefSys.Meta",
+      "path_score": 0.433333,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.Meta",
+      "path_score": 0.433333,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.models.PostGISSpatialRefSys.Meta",
+      "path_score": 0.433333,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.models.SpatialiteGeometryColumns.Meta",
+      "path_score": 0.433333,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.models.SpatialiteSpatialRefSys.Meta",
+      "path_score": 0.433333,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    }
+  ]
+}

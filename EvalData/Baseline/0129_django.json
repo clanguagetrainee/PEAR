@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.11.29",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.shortcuts.render_to_response",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.shortcuts.render",
+      "api_type": "function",
+      "similarity": 0.7948717948717948,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.log.log_response",
+      "api_type": "function",
+      "similarity": 0.5576923076923077,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.loader.render_to_string",
+      "api_type": "function",
+      "similarity": 0.5454545454545454,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.signing.loads",
+      "api_type": "function",
+      "similarity": 0.5227272727272727,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.signing.dumps",
+      "api_type": "function",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.decorators.login_required",
+      "api_type": "function",
+      "similarity": 0.4489795918367347,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.shortcuts.render_to_kmz",
+      "api_type": "function",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.prototypes.errcheck.check_const_string",
+      "api_type": "function",
+      "similarity": 0.4423076923076923,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.tasks.base.task",
+      "api_type": "function",
+      "similarity": 0.4423076923076923,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.shortcuts.render_to_kml",
+      "api_type": "function",
+      "similarity": 0.4418604651162791,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.sitemaps.views.kmz",
+      "api_type": "function",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__._to_naive",
+      "api_type": "function",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.decorators.action",
+      "api_type": "function",
+      "similarity": 0.41818181818181815,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.libgdal.function",
+      "api_type": "function",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.shortcuts.redirect",
+      "api_type": "function",
+      "similarity": 0.40425531914893614,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.hashers.check_password",
+      "api_type": "function",
+      "similarity": 0.40384615384615385,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.mail.__init__.send_mass_mail",
+      "api_type": "function",
+      "similarity": 0.4032258064516129,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.password_validation.password_changed",
+      "api_type": "function",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.translation.trans_real.catalog",
+      "api_type": "function",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.crypto.pbkdf2",
+      "api_type": "function",
+      "similarity": 0.3968253968253968,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

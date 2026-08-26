@@ -1,0 +1,5819 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.12.0",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.panel.Panel.__setstate__",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "pandas.core.indexing._ScalarAccessIndexer.__getitem__"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexing._ScalarAccessIndexer.__setitem__",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "pandas.core.indexing._ScalarAccessIndexer.__setitem__"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "pandas.core.series.Series.reorder_levels",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "pandas.core.series.Series.reorder_levels"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "pandas.plotting._misc._Options.__delitem__",
+      "api_type": "method",
+      "similarity": 0.4300111982082866,
+      "evolution_path": [
+        "pandas.tools.plotting._Options.__delitem__",
+        "pandas.plotting._style._Options.__delitem__",
+        "pandas.plotting._misc._Options.__delitem__"
+      ],
+      "local_scores": [
+        0.5106382978723404,
+        1.0,
+        0.8421052631578947
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.datetimes.DatetimeIndex.to_period",
+      "api_type": "method",
+      "similarity": 0.39709090909090905,
+      "evolution_path": [
+        "pandas.tseries.index.DatetimeIndex.to_period",
+        "pandas.core.indexes.datetimes.DatetimeIndex.to_period"
+      ],
+      "local_scores": [
+        0.4727272727272727,
+        0.84
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index.drop",
+      "api_type": "method",
+      "similarity": 0.37987012987012986,
+      "evolution_path": [
+        "pandas.core.index.Index.drop",
+        "pandas.indexes.base.Index.drop",
+        "pandas.core.indexes.base.Index.drop"
+      ],
+      "local_scores": [
+        0.4727272727272727,
+        0.8035714285714286,
+        1.0
+      ]
+    },
+    {
+      "fqn": "pandas.plotting._misc._Options.__getitem__",
+      "api_type": "method",
+      "similarity": 0.3641036184210526,
+      "evolution_path": [
+        "pandas.tools.plotting._Options.__getitem__",
+        "pandas.plotting._style._Options.__getitem__",
+        "pandas.plotting._misc._Options.__getitem__"
+      ],
+      "local_scores": [
+        0.4791666666666667,
+        0.9210526315789473,
+        0.825
+      ]
+    },
+    {
+      "fqn": "pandas.plotting._matplotlib.core.MPLPlot._get_colors",
+      "api_type": "method",
+      "similarity": 0.31486880466472306,
+      "evolution_path": [
+        "pandas.tools.plotting.MPLPlot._get_colors",
+        "pandas.plotting._core.MPLPlot._get_colors",
+        "pandas.plotting._matplotlib.core.MPLPlot._get_colors"
+      ],
+      "local_scores": [
+        0.4897959183673469,
+        0.6428571428571429,
+        1.0
+      ]
+    },
+    {
+      "fqn": "pandas.core.series.Series.cov",
+      "api_type": "method",
+      "similarity": 0.3077551020408163,
+      "evolution_path": [
+        "pandas.core.index.Index.__setstate__",
+        "pandas.core.series.Series.cov"
+      ],
+      "local_scores": [
+        0.5306122448979592,
+        0.58
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.frozen.FrozenList.__getitem__",
+      "api_type": "method",
+      "similarity": 0.30492424242424243,
+      "evolution_path": [
+        "pandas.tools.plotting._Options.__getitem__",
+        "pandas.core.indexes.frozen.FrozenList.__getitem__"
+      ],
+      "local_scores": [
+        0.4791666666666667,
+        0.6363636363636364
+      ]
+    },
+    {
+      "fqn": "pandas.tests.extension.json.array.JSONArray.astype",
+      "api_type": "method",
+      "similarity": 0.3041509433962264,
+      "evolution_path": [
+        "pandas.tseries.offsets.DateOffset.__sub__",
+        "pandas.tests.extension.json.array.JSONArray.astype"
+      ],
+      "local_scores": [
+        0.52,
+        0.5849056603773585
+      ]
+    },
+    {
+      "fqn": "pandas.core.internals.blocks.Block.apply",
+      "api_type": "method",
+      "similarity": 0.29333333333333333,
+      "evolution_path": [
+        "pandas.core.panel.Panel.apply",
+        "pandas.core.internals.blocks.Block.apply"
+      ],
+      "local_scores": [
+        0.4888888888888889,
+        0.6
+      ]
+    },
+    {
+      "fqn": "pandas.tests.extension.decimal.array.DecimalArray.astype",
+      "api_type": "method",
+      "similarity": 0.2925,
+      "evolution_path": [
+        "pandas.tseries.offsets.DateOffset.__sub__",
+        "pandas.tests.extension.decimal.array.DecimalArray.astype"
+      ],
+      "local_scores": [
+        0.52,
+        0.5625
+      ]
+    },
+    {
+      "fqn": "pandas.core.series.Series.corr",
+      "api_type": "method",
+      "similarity": 0.29033500192529843,
+      "evolution_path": [
+        "pandas.core.index.Index.__setstate__",
+        "pandas.core.series.Series.corr"
+      ],
+      "local_scores": [
+        0.5306122448979592,
+        0.5471698113207547
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.dtypes.PeriodDtype.__eq__",
+      "api_type": "method",
+      "similarity": 0.2869897959183674,
+      "evolution_path": [
+        "pandas.tseries.index.DatetimeIndex.astype",
+        "pandas.core.dtypes.dtypes.PeriodDtype.__eq__"
+      ],
+      "local_scores": [
+        0.5102040816326531,
+        0.5625
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.dtypes.IntervalDtype.__eq__",
+      "api_type": "method",
+      "similarity": 0.2869897959183674,
+      "evolution_path": [
+        "pandas.tseries.index.DatetimeIndex.astype",
+        "pandas.core.dtypes.dtypes.IntervalDtype.__eq__"
+      ],
+      "local_scores": [
+        0.5102040816326531,
+        0.5625
+      ]
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.__neg__",
+      "api_type": "method",
+      "similarity": 0.286530612244898,
+      "evolution_path": [
+        "pandas.core.index.Index.__setstate__",
+        "pandas.core.generic.NDFrame.__neg__"
+      ],
+      "local_scores": [
+        0.5306122448979592,
+        0.54
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays.sparse.array.SparseArray._get_val_at",
+      "api_type": "method",
+      "similarity": 0.28299948638931693,
+      "evolution_path": [
+        "pandas.core.generic.NDFrame.last",
+        "pandas.core.arrays.sparse.array.SparseArray._get_val_at"
+      ],
+      "local_scores": [
+        0.4915254237288136,
+        0.5757575757575758
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.multi.MultiIndex.astype",
+      "api_type": "method",
+      "similarity": 0.2811328613077884,
+      "evolution_path": [
+        "pandas.tseries.index.DatetimeIndex.astype",
+        "pandas.core.indexes.multi.MultiIndex.astype"
+      ],
+      "local_scores": [
+        0.5102040816326531,
+        0.5510204081632653
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index.asof",
+      "api_type": "method",
+      "similarity": 0.2793103448275862,
+      "evolution_path": [
+        "pandas.tseries.period.PeriodIndex.__setstate__",
+        "pandas.core.indexes.base.Index.asof"
+      ],
+      "local_scores": [
+        0.4909090909090909,
+        0.5689655172413793
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "pandas.core.panel.Panel.__setstate__",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "0.12.0",
+      "vpost": "0.13.0",
+      "resolved_fqn": "pandas.core.panel.Panel.__setstate__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.index.Index.__setstate__",
+          "similarity": 0.530612
+        },
+        {
+          "fqn": "pandas.tseries.offsets.DateOffset.__sub__",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "pandas.tools.plotting._Options.__delitem__",
+          "similarity": 0.510638
+        },
+        {
+          "fqn": "pandas.tseries.index.DatetimeIndex.astype",
+          "similarity": 0.510204
+        },
+        {
+          "fqn": "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexing._ScalarAccessIndexer.__setitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.internals.Block.__setstate__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.series.Series.reorder_levels",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.last",
+          "similarity": 0.491525
+        },
+        {
+          "fqn": "pandas.tseries.period.PeriodIndex.__setstate__",
+          "similarity": 0.490909
+        },
+        {
+          "fqn": "pandas.tools.plotting.MPLPlot._get_colors",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.apply",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "pandas.core.internals.Block.set_ref_items",
+          "similarity": 0.482143
+        },
+        {
+          "fqn": "pandas.tseries.period.Period.__eq__",
+          "similarity": 0.482143
+        },
+        {
+          "fqn": "pandas.tools.plotting._Options.__getitem__",
+          "similarity": 0.479167
+        },
+        {
+          "fqn": "pandas.sparse.array.SparseArray.__setstate__",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.bool",
+          "similarity": 0.472727
+        },
+        {
+          "fqn": "pandas.core.index.Index.drop",
+          "similarity": 0.472727
+        },
+        {
+          "fqn": "pandas.tseries.index.DatetimeIndex.to_period",
+          "similarity": 0.472727
+        },
+        {
+          "fqn": "pandas.core.index.Index.to_datetime",
+          "similarity": 0.471698
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+        "pandas.core.indexing._ScalarAccessIndexer.__setitem__",
+        "pandas.core.series.Series.reorder_levels"
+      ],
+      "entered_iter": [
+        "pandas.core.index.Index.__setstate__",
+        "pandas.tseries.offsets.DateOffset.__sub__",
+        "pandas.tools.plotting._Options.__delitem__",
+        "pandas.tseries.index.DatetimeIndex.astype",
+        "pandas.core.internals.Block.__setstate__",
+        "pandas.core.generic.NDFrame.last",
+        "pandas.tseries.period.PeriodIndex.__setstate__",
+        "pandas.tools.plotting.MPLPlot._get_colors",
+        "pandas.core.panel.Panel.apply",
+        "pandas.core.internals.Block.set_ref_items",
+        "pandas.tseries.period.Period.__eq__",
+        "pandas.tools.plotting._Options.__getitem__",
+        "pandas.sparse.array.SparseArray.__setstate__",
+        "pandas.core.generic.NDFrame.bool",
+        "pandas.core.index.Index.drop",
+        "pandas.tseries.index.DatetimeIndex.to_period",
+        "pandas.core.index.Index.to_datetime"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.index.Index.__setstate__",
+      "path_score": 0.530612,
+      "boundary": "DEPRECATED",
+      "vpre": "0.17.1",
+      "vpost": "0.18.0",
+      "resolved_fqn": "pandas.core.index.Index.__setstate__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.sparse.array.SparseArray.__setstate__",
+          "similarity": 0.651163
+        },
+        {
+          "fqn": "pandas.core.series.Series.cov",
+          "similarity": 0.58
+        },
+        {
+          "fqn": "pandas.core.series.Series.corr",
+          "similarity": 0.54717
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.__neg__",
+          "similarity": 0.54
+        },
+        {
+          "fqn": "pandas.core.groupby.BaseGrouper.indices",
+          "similarity": 0.509434
+        },
+        {
+          "fqn": "pandas.core.groupby.BaseGrouper.groups",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.indexes.base.Index.insert",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.pytables.IndexCol.infer",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tseries.base.DatetimeIndexOpsMixin.map",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tseries.offsets.Tick.__eq__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tseries.resample.DatetimeIndexResampler._wrap_result",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.util.testing.SimpleMock.__getattribute__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.swaplevel",
+          "similarity": 0.490909
+        },
+        {
+          "fqn": "pandas.sparse.array.SparseArray.values",
+          "similarity": 0.490566
+        },
+        {
+          "fqn": "pandas.computation.pytables.BinOp.conform",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.dropna",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "pandas.tseries.tdi.TimedeltaIndex.__setstate__",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "pandas.tseries.offsets.WeekOfMonth.onOffset",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "pandas.tseries.tdi.TimedeltaIndex.searchsorted",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "pandas.tseries.tests.test_period.TestPeriodIndex.test_iteration",
+          "similarity": 0.481481
+        }
+      ],
+      "entered_final": [
+        "pandas.core.series.Series.cov",
+        "pandas.core.series.Series.corr",
+        "pandas.core.generic.NDFrame.__neg__"
+      ],
+      "entered_iter": [
+        "pandas.sparse.array.SparseArray.__setstate__",
+        "pandas.core.groupby.BaseGrouper.indices",
+        "pandas.core.groupby.BaseGrouper.groups",
+        "pandas.indexes.base.Index.insert",
+        "pandas.io.pytables.IndexCol.infer",
+        "pandas.tseries.base.DatetimeIndexOpsMixin.map",
+        "pandas.tseries.offsets.Tick.__eq__",
+        "pandas.tseries.resample.DatetimeIndexResampler._wrap_result",
+        "pandas.util.testing.SimpleMock.__getattribute__",
+        "pandas.core.generic.NDFrame.swaplevel",
+        "pandas.sparse.array.SparseArray.values",
+        "pandas.computation.pytables.BinOp.conform",
+        "pandas.core.categorical.Categorical.dropna",
+        "pandas.tseries.tdi.TimedeltaIndex.__setstate__",
+        "pandas.tseries.offsets.WeekOfMonth.onOffset",
+        "pandas.tseries.tdi.TimedeltaIndex.searchsorted",
+        "pandas.tseries.tests.test_period.TestPeriodIndex.test_iteration"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.offsets.DateOffset.__sub__",
+      "path_score": 0.52,
+      "boundary": "DEPRECATED",
+      "vpre": "0.23.4",
+      "vpost": "0.24.0",
+      "resolved_fqn": "pandas.tseries.offsets.DateOffset.__sub__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tests.extension.arrow.bool.ArrowBoolArray.astype",
+          "similarity": 0.607843
+        },
+        {
+          "fqn": "pandas.tests.extension.json.array.JSONArray.astype",
+          "similarity": 0.584906
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.last",
+          "similarity": 0.566667
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.astype",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__getitem__",
+          "similarity": 0.54
+        },
+        {
+          "fqn": "pandas.tests.extension.test_common.DummyArray.astype",
+          "similarity": 0.530612
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimes.DatetimeIndex.__getitem__",
+          "similarity": 0.527273
+        },
+        {
+          "fqn": "pandas.core.arrays.period.PeriodArray._time_shift",
+          "similarity": 0.52459
+        },
+        {
+          "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__",
+          "similarity": 0.521739
+        },
+        {
+          "fqn": "pandas.core.groupby.generic.PanelGroupBy.aggregate",
+          "similarity": 0.520833
+        },
+        {
+          "fqn": "pandas.core.base.IndexOpsMixin.duplicated",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby._GroupBy.__getattr__",
+          "similarity": 0.516667
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.PeriodDtype.__eq__",
+          "similarity": 0.509804
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__delitem__",
+          "similarity": 0.509804
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray._unbox_scalar",
+          "similarity": 0.509434
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__",
+          "similarity": 0.509434
+        },
+        {
+          "fqn": "pandas.core.window._Window.__getattr__",
+          "similarity": 0.509434
+        },
+        {
+          "fqn": "pandas.core.arrays.numpy_.PandasArray.__getitem__",
+          "similarity": 0.509091
+        },
+        {
+          "fqn": "pandas.core.arrays.integer.IntegerArray.astype",
+          "similarity": 0.508772
+        }
+      ],
+      "entered_final": [
+        "pandas.tests.extension.json.array.JSONArray.astype",
+        "pandas.tests.extension.decimal.array.DecimalArray.astype",
+        "pandas.core.indexes.frozen.FrozenList.__getitem__",
+        "pandas.tests.extension.test_common.DummyArray.astype",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.core.dtypes.dtypes.PeriodDtype.__eq__",
+        "pandas.core.arrays.datetimes.DatetimeArray._unbox_scalar",
+        "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__"
+      ],
+      "entered_iter": [
+        "pandas.tests.extension.arrow.bool.ArrowBoolArray.astype",
+        "pandas.core.generic.NDFrame.last",
+        "pandas.core.indexes.datetimes.DatetimeIndex.__getitem__",
+        "pandas.core.arrays.period.PeriodArray._time_shift",
+        "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__",
+        "pandas.core.groupby.generic.PanelGroupBy.aggregate",
+        "pandas.core.base.IndexOpsMixin.duplicated",
+        "pandas.core.groupby.groupby._GroupBy.__getattr__",
+        "pandas.plotting._style._Options.__delitem__",
+        "pandas.core.window._Window.__getattr__",
+        "pandas.core.arrays.numpy_.PandasArray.__getitem__",
+        "pandas.core.arrays.integer.IntegerArray.astype"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tools.plotting._Options.__delitem__",
+      "path_score": 0.510638,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.tools.plotting._Options.__delitem__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.plotting._style._Options.__delitem__",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__getitem__",
+          "similarity": 0.697674
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__setitem__",
+          "similarity": 0.560976
+        },
+        {
+          "fqn": "pandas.compat.chainmap.DeepChainMap.__delitem__",
+          "similarity": 0.552632
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__add__",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.__getitem__",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__setstate__",
+          "similarity": 0.536585
+        },
+        {
+          "fqn": "pandas.io.pytables.SparseFixed.validate_read",
+          "similarity": 0.531915
+        },
+        {
+          "fqn": "pandas.core.window._Window.__getattr__",
+          "similarity": 0.530612
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__eq__",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__contains__",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__radd__",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.io.json.json.JSONTableWriter.write",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.io.pytables.HDFStore.get",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.shift",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "pandas.core.series.Series.reorder_levels",
+          "similarity": 0.510204
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.clip_lower",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.clip_upper",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tseries.offsets.DateOffset.__sub__",
+          "similarity": 0.490196
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.repeat",
+          "similarity": 0.489796
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.frozen.FrozenList.__eq__",
+        "pandas.core.indexes.frozen.FrozenList.__radd__",
+        "pandas.io.pytables.HDFStore.get",
+        "pandas.core.series.Series.reorder_levels"
+      ],
+      "entered_iter": [
+        "pandas.plotting._style._Options.__delitem__",
+        "pandas.plotting._style._Options.__getitem__",
+        "pandas.plotting._style._Options.__setitem__",
+        "pandas.compat.chainmap.DeepChainMap.__delitem__",
+        "pandas.core.indexes.frozen.FrozenList.__add__",
+        "pandas.core.resample.Resampler.__getitem__",
+        "pandas.core.indexes.timedeltas.TimedeltaIndex.__setstate__",
+        "pandas.io.pytables.SparseFixed.validate_read",
+        "pandas.core.window._Window.__getattr__",
+        "pandas.plotting._style._Options.__contains__",
+        "pandas.io.json.json.JSONTableWriter.write",
+        "pandas.core.panel.Panel.shift",
+        "pandas.core.generic.NDFrame.clip_lower",
+        "pandas.core.generic.NDFrame.clip_upper",
+        "pandas.tseries.offsets.DateOffset.__sub__",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.repeat"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.plotting._style._Options.__delitem__",
+      "path_score": 0.510638,
+      "boundary": "DEPRECATED",
+      "vpre": "0.24.2",
+      "vpost": "0.25.0",
+      "resolved_fqn": "pandas.plotting._style._Options.__delitem__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.plotting._misc._Options.__delitem__",
+          "similarity": 0.842105
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__getitem__",
+          "similarity": 0.627907
+        },
+        {
+          "fqn": "pandas.compat.chainmap.DeepChainMap.__delitem__",
+          "similarity": 0.552632
+        },
+        {
+          "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__",
+          "similarity": 0.547619
+        },
+        {
+          "fqn": "pandas.core.indexes.period.PeriodIndex.memory_usage",
+          "similarity": 0.530612
+        },
+        {
+          "fqn": "pandas.core.window._Window.__getattr__",
+          "similarity": 0.530612
+        },
+        {
+          "fqn": "pandas.core.indexes.numeric.NumericIndex.insert",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.io.pytables.HDFStore.get",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.set_closed",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__eq__",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__radd__",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray.set_closed",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.union",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "pandas.core.series.Series.reorder_levels",
+          "similarity": 0.510204
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray._unbox_scalar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray.tz_convert",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays.period.PeriodArray._add_delta",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays.timedeltas.TimedeltaArray._unbox_scalar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.categories",
+          "similarity": 0.490196
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.transform",
+          "similarity": 0.490196
+        }
+      ],
+      "entered_final": [
+        "pandas.plotting._misc._Options.__delitem__",
+        "pandas.plotting._misc._Options.__getitem__",
+        "pandas.io.pytables.HDFStore.get",
+        "pandas.core.indexes.frozen.FrozenList.__eq__",
+        "pandas.core.indexes.frozen.FrozenList.__radd__",
+        "pandas.core.arrays.interval.IntervalArray.set_closed",
+        "pandas.core.indexes.frozen.FrozenList.union",
+        "pandas.core.series.Series.reorder_levels",
+        "pandas.core.arrays.datetimes.DatetimeArray._unbox_scalar",
+        "pandas.core.arrays.datetimes.DatetimeArray.tz_convert",
+        "pandas.core.arrays.timedeltas.TimedeltaArray._unbox_scalar",
+        "pandas.core.arrays.categorical.Categorical.categories"
+      ],
+      "entered_iter": [
+        "pandas.compat.chainmap.DeepChainMap.__delitem__",
+        "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__",
+        "pandas.core.indexes.period.PeriodIndex.memory_usage",
+        "pandas.core.window._Window.__getattr__",
+        "pandas.core.indexes.numeric.NumericIndex.insert",
+        "pandas.core.indexes.interval.IntervalIndex.set_closed"
+      ],
+      "pruned": [
+        "pandas.core.arrays.period.PeriodArray._add_delta",
+        "pandas.core.generic.NDFrame.transform"
+      ],
+      "prune_bound": 0.261257,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.index.DatetimeIndex.astype",
+      "path_score": 0.510204,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.tseries.index.DatetimeIndex.astype",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.dtypes.dtypes.IntervalDtype.__eq__",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.PeriodDtype.__eq__",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__delitem__",
+          "similarity": 0.553191
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.astype",
+          "similarity": 0.55102
+        },
+        {
+          "fqn": "pandas.core.sparse.list.SparseList.consolidate",
+          "similarity": 0.55102
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.__array__",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "pandas.core.series.Series.reorder_levels",
+          "similarity": 0.54
+        },
+        {
+          "fqn": "pandas.tseries.offsets.Tick.__eq__",
+          "similarity": 0.54
+        },
+        {
+          "fqn": "pandas.core.internals.CategoricalBlock._astype",
+          "similarity": 0.534483
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.astype",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "pandas.io.common.MMapWrapper.__next__",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.series.Series.cov",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.window._Window.__getattr__",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.tests.series.test_dtypes.TestSeriesDtypes.test_astype",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame._validate_dtype",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__getitem__",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "pandas.tseries.offsets.DateOffset.__sub__",
+          "similarity": 0.519231
+        },
+        {
+          "fqn": "pandas.tseries.offsets.WeekOfMonth.onOffset",
+          "similarity": 0.519231
+        }
+      ],
+      "entered_final": [
+        "pandas.core.dtypes.dtypes.IntervalDtype.__eq__",
+        "pandas.core.dtypes.dtypes.PeriodDtype.__eq__",
+        "pandas.core.indexes.multi.MultiIndex.astype",
+        "pandas.core.series.Series.reorder_levels",
+        "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__",
+        "pandas.core.series.Series.cov",
+        "pandas.core.generic.NDFrame._validate_dtype"
+      ],
+      "entered_iter": [
+        "pandas.plotting._style._Options.__delitem__",
+        "pandas.core.sparse.list.SparseList.consolidate",
+        "pandas.core.categorical.Categorical.__array__",
+        "pandas.tseries.offsets.Tick.__eq__",
+        "pandas.core.internals.CategoricalBlock._astype",
+        "pandas.core.indexes.interval.IntervalIndex.astype",
+        "pandas.io.common.MMapWrapper.__next__",
+        "pandas.core.window._Window.__getattr__",
+        "pandas.tests.series.test_dtypes.TestSeriesDtypes.test_astype"
+      ],
+      "pruned": [
+        "pandas.core.strings.StringMethods.__getitem__",
+        "pandas.plotting._style._Options.__getitem__",
+        "pandas.tseries.offsets.DateOffset.__sub__",
+        "pandas.tseries.offsets.WeekOfMonth.onOffset"
+      ],
+      "prune_bound": 0.266925,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.internals.Block.__setstate__",
+      "path_score": 0.5,
+      "boundary": "DEPRECATED",
+      "vpre": "1.2.5",
+      "vpost": "1.3.0",
+      "resolved_fqn": "pandas.core.internals.Block.__setstate__",
+      "resolved_kind": "unknown",
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "empty_recommend"
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.last",
+      "path_score": 0.491525,
+      "boundary": "DEPRECATED",
+      "vpre": "2.3.3",
+      "vpost": "3.0.0",
+      "resolved_fqn": "pandas.core.generic.NDFrame.last",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray._get_val_at",
+          "similarity": 0.575758
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.567164
+        },
+        {
+          "fqn": "pandas.tests.indexing.test_coercion.TestReplaceSeriesCoercion.replacer",
+          "similarity": 0.553846
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.TimelikeOps.freq",
+          "similarity": 0.550725
+        },
+        {
+          "fqn": "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+          "similarity": 0.532258
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex._convert_can_do_setop",
+          "similarity": 0.531646
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray.tz_convert",
+          "similarity": 0.528571
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray.__setitem__",
+          "similarity": 0.52459
+        },
+        {
+          "fqn": "pandas.tests.extension.date.array.DateArray.astype",
+          "similarity": 0.52459
+        },
+        {
+          "fqn": "pandas.core.arrays.masked.BaseMaskedArray.__iter__",
+          "similarity": 0.522388
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.count",
+          "similarity": 0.514706
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.size",
+          "similarity": 0.513514
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.TimelikeOps._with_freq",
+          "similarity": 0.5125
+        },
+        {
+          "fqn": "pandas.core.groupby.ops.DataSplitter.__iter__",
+          "similarity": 0.507692
+        },
+        {
+          "fqn": "pandas.io.pytables.Fixed.__repr__",
+          "similarity": 0.507246
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.__repr__",
+          "similarity": 0.507042
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_removesuffix",
+          "similarity": 0.506849
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeTimedeltaMixin._union",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.asof",
+          "similarity": 0.494118
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays.sparse.array.SparseArray._get_val_at",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.tests.indexing.test_coercion.TestReplaceSeriesCoercion.replacer",
+        "pandas.core.arrays.datetimelike.TimelikeOps.freq",
+        "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+        "pandas.core.indexes.multi.MultiIndex._convert_can_do_setop",
+        "pandas.core.arrays.datetimes.DatetimeArray.tz_convert",
+        "pandas.core.arrays.interval.IntervalArray.__setitem__",
+        "pandas.tests.extension.date.array.DateArray.astype",
+        "pandas.core.arrays.masked.BaseMaskedArray.__iter__",
+        "pandas.core.resample.Resampler.count",
+        "pandas.core.resample.Resampler.size",
+        "pandas.core.arrays.datetimelike.TimelikeOps._with_freq",
+        "pandas.core.groupby.ops.DataSplitter.__iter__",
+        "pandas.io.pytables.Fixed.__repr__",
+        "pandas.core.internals.blocks.Block.__repr__",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_removesuffix",
+        "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__",
+        "pandas.core.indexes.datetimelike.DatetimeTimedeltaMixin._union",
+        "pandas.core.indexes.base.Index.asof"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.270695,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.period.PeriodIndex.__setstate__",
+      "path_score": 0.490909,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.tseries.period.PeriodIndex.__setstate__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.sparse.array.SparseArray.__setstate__",
+          "similarity": 0.645833
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.asof",
+          "similarity": 0.568966
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.insert",
+          "similarity": 0.54386
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.swaplevel",
+          "similarity": 0.542373
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.__neg__",
+          "similarity": 0.527273
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.swaplevel",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.insert",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.argmax",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler._apply_loffset",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "pandas.core.sparse.frame.SparseDataFrame.xs",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "pandas.core.sparse.array.SparseArray.__reduce__",
+          "similarity": 0.509091
+        },
+        {
+          "fqn": "pandas.core.series.Series.cov",
+          "similarity": 0.508772
+        },
+        {
+          "fqn": "pandas.core.series.Series.corr",
+          "similarity": 0.508475
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.argsort",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.groupby.BaseGrouper.indices",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.series.Series.idxmax",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.series.Series.idxmin",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.panel.Panel._box_item_values",
+          "similarity": 0.492537
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.max",
+          "similarity": 0.492063
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.min",
+          "similarity": 0.492063
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.base.Index.asof",
+        "pandas.core.indexes.base.Index.insert",
+        "pandas.core.generic.NDFrame.__neg__",
+        "pandas.core.frame.DataFrame.swaplevel",
+        "pandas.core.series.Series.cov",
+        "pandas.core.series.Series.corr",
+        "pandas.core.series.Series.idxmax",
+        "pandas.core.series.Series.idxmin"
+      ],
+      "entered_iter": [
+        "pandas.core.sparse.array.SparseArray.__setstate__"
+      ],
+      "pruned": [
+        "pandas.core.generic.NDFrame.swaplevel",
+        "pandas.core.indexes.category.CategoricalIndex.insert",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.argmax",
+        "pandas.core.resample.Resampler._apply_loffset",
+        "pandas.core.sparse.frame.SparseDataFrame.xs",
+        "pandas.core.sparse.array.SparseArray.__reduce__",
+        "pandas.core.categorical.Categorical.argsort",
+        "pandas.core.groupby.BaseGrouper.indices",
+        "pandas.core.panel.Panel._box_item_values",
+        "pandas.core.categorical.Categorical.max",
+        "pandas.core.categorical.Categorical.min"
+      ],
+      "prune_bound": 0.272229,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tools.plotting.MPLPlot._get_colors",
+      "path_score": 0.489796,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.tools.plotting.MPLPlot._get_colors",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.plotting._core.MPLPlot._get_colors",
+          "similarity": 0.642857
+        },
+        {
+          "fqn": "pandas.core.groupby.GroupBy.size",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "pandas.core.groupby.BaseGrouper.groups",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Term.update",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame._protect_consolidate",
+          "similarity": 0.520833
+        },
+        {
+          "fqn": "pandas.core.groupby.NDFrameSplitter._get_sorted_data",
+          "similarity": 0.510204
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimes.DatetimeIndex._get_time_micros",
+          "similarity": 0.509804
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex._get_loc_only_exact_matches",
+          "similarity": 0.509804
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.get_dummies",
+          "similarity": 0.509804
+        },
+        {
+          "fqn": "pandas.core.groupby.BaseGrouper._get_group_keys",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.groupby.BaseGrouper.indices",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.get_loc",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.repeat",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.internals.DatetimeTZBlock.get_values",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.pytables.HDFStore.get_storer",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.plotting.common.TestPlotBase._get_colors_mapped",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.test_multilevel.TestMultiLevel.test_get_loc_single_level",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tseries.offsets.DateOffset.rollback",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tseries.offsets.DateOffset.rollforward",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "pandas.core.groupby.GroupBy.size",
+        "pandas.core.computation.ops.Term.update",
+        "pandas.core.indexes.datetimes.DatetimeIndex._get_time_micros",
+        "pandas.io.pytables.HDFStore.get_storer"
+      ],
+      "entered_iter": [
+        "pandas.plotting._core.MPLPlot._get_colors"
+      ],
+      "pruned": [
+        "pandas.core.groupby.BaseGrouper.groups",
+        "pandas.core.generic.NDFrame._protect_consolidate",
+        "pandas.core.groupby.NDFrameSplitter._get_sorted_data",
+        "pandas.core.indexes.interval.IntervalIndex._get_loc_only_exact_matches",
+        "pandas.core.strings.StringMethods.get_dummies",
+        "pandas.core.groupby.BaseGrouper._get_group_keys",
+        "pandas.core.groupby.BaseGrouper.indices",
+        "pandas.core.indexes.category.CategoricalIndex.get_loc",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.repeat",
+        "pandas.core.internals.DatetimeTZBlock.get_values",
+        "pandas.core.strings.StringMethods.__getitem__",
+        "pandas.tests.plotting.common.TestPlotBase._get_colors_mapped",
+        "pandas.tests.test_multilevel.TestMultiLevel.test_get_loc_single_level",
+        "pandas.tseries.offsets.DateOffset.rollback",
+        "pandas.tseries.offsets.DateOffset.rollforward"
+      ],
+      "prune_bound": 0.272229,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.panel.Panel.apply",
+      "path_score": 0.488889,
+      "boundary": "DEPRECATED",
+      "vpre": "0.24.2",
+      "vpost": "0.25.0",
+      "resolved_fqn": "pandas.core.panel.Panel.apply",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tseries.offsets.MonthOffset.apply",
+          "similarity": 0.702703
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.partition",
+          "similarity": 0.609756
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.rpartition",
+          "similarity": 0.609756
+        },
+        {
+          "fqn": "pandas.tseries.offsets.YearOffset.apply",
+          "similarity": 0.609756
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.normalize",
+          "similarity": 0.605263
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.apply",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "pandas.tseries.offsets.QuarterOffset.apply_index",
+          "similarity": 0.595238
+        },
+        {
+          "fqn": "pandas.tseries.offsets.SemiMonthEnd._apply",
+          "similarity": 0.594595
+        },
+        {
+          "fqn": "pandas.tseries.offsets.YearOffset.apply_index",
+          "similarity": 0.581395
+        },
+        {
+          "fqn": "pandas.core.indexes.period.PeriodIndex._apply_meta",
+          "similarity": 0.578947
+        },
+        {
+          "fqn": "pandas.tseries.offsets.MonthOffset.apply_index",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.diff",
+          "similarity": 0.564103
+        },
+        {
+          "fqn": "pandas.core.groupby.ops.FrameSplitter.fast_apply",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.droplevel",
+          "similarity": 0.560976
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.delete",
+          "similarity": 0.552632
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.insert",
+          "similarity": 0.536585
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.where",
+          "similarity": 0.536585
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.duplicated",
+          "similarity": 0.536585
+        },
+        {
+          "fqn": "pandas.core.sparse.series.SparseSeries._ixs",
+          "similarity": 0.536585
+        },
+        {
+          "fqn": "pandas.tseries.offsets.SemiMonthBegin._apply",
+          "similarity": 0.536585
+        }
+      ],
+      "entered_final": [
+        "pandas.core.internals.blocks.Block.apply",
+        "pandas.core.frame.DataFrame.diff",
+        "pandas.core.generic.NDFrame.droplevel",
+        "pandas.core.frame.DataFrame.insert",
+        "pandas.core.indexes.multi.MultiIndex.duplicated"
+      ],
+      "entered_iter": [
+        "pandas.tseries.offsets.MonthOffset.apply",
+        "pandas.core.strings.StringMethods.partition",
+        "pandas.core.strings.StringMethods.rpartition",
+        "pandas.tseries.offsets.YearOffset.apply",
+        "pandas.core.strings.StringMethods.normalize",
+        "pandas.tseries.offsets.QuarterOffset.apply_index",
+        "pandas.tseries.offsets.SemiMonthEnd._apply",
+        "pandas.tseries.offsets.YearOffset.apply_index",
+        "pandas.core.indexes.period.PeriodIndex._apply_meta",
+        "pandas.tseries.offsets.MonthOffset.apply_index"
+      ],
+      "pruned": [
+        "pandas.core.groupby.ops.FrameSplitter.fast_apply",
+        "pandas.core.indexes.interval.IntervalIndex.delete",
+        "pandas.core.indexes.interval.IntervalIndex.where",
+        "pandas.core.sparse.series.SparseSeries._ixs",
+        "pandas.tseries.offsets.SemiMonthBegin._apply"
+      ],
+      "prune_bound": 0.275783,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.internals.Block.set_ref_items",
+      "path_score": 0.482143,
+      "boundary": "DEPRECATED",
+      "vpre": "0.13.1",
+      "vpost": "0.14.0",
+      "resolved_fqn": "pandas.core.internals.Block.set_ref_items",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.series.Series._set_values",
+          "similarity": 0.509434
+        },
+        {
+          "fqn": "pandas.core.index.Index.set_names",
+          "similarity": 0.508197
+        },
+        {
+          "fqn": "pandas.sparse.panel.SparsePanel._set_items",
+          "similarity": 0.492308
+        },
+        {
+          "fqn": "pandas.stats.ols.MovingOLS._set_window",
+          "similarity": 0.486111
+        },
+        {
+          "fqn": "pandas.io.pytables.DataCol.set_atom_datetime64",
+          "similarity": 0.483333
+        },
+        {
+          "fqn": "pandas.io.pytables.DataCol.set_atom_timedelta64",
+          "similarity": 0.483333
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame._set_item",
+          "similarity": 0.474576
+        },
+        {
+          "fqn": "pandas.core.index.MultiIndex.take",
+          "similarity": 0.472727
+        },
+        {
+          "fqn": "pandas.tseries.offsets.CustomBusinessDay._set_busdaycalendar",
+          "similarity": 0.469697
+        },
+        {
+          "fqn": "pandas.core.index.MultiIndex._set_labels",
+          "similarity": 0.464789
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical._set_levels",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.tools.plotting.MPLPlot._get_colors",
+          "similarity": 0.460317
+        },
+        {
+          "fqn": "pandas.io.pytables.DataCol.set_data",
+          "similarity": 0.459016
+        },
+        {
+          "fqn": "pandas.io.pytables.IndexCol.maybe_set_size",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.last",
+          "similarity": 0.455882
+        },
+        {
+          "fqn": "pandas.sparse.list.SparseList.append",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame._setitem_frame",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "pandas.computation.ops.Term.update",
+          "similarity": 0.45098
+        },
+        {
+          "fqn": "pandas.core.series.Series.sortlevel",
+          "similarity": 0.449275
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame._set_is_copy",
+          "similarity": 0.448276
+        }
+      ],
+      "entered_final": [
+        "pandas.core.series.Series._set_values",
+        "pandas.core.frame.DataFrame._set_item",
+        "pandas.io.pytables.DataCol.set_data",
+        "pandas.io.pytables.IndexCol.maybe_set_size",
+        "pandas.core.frame.DataFrame._setitem_frame"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.index.Index.set_names",
+        "pandas.sparse.panel.SparsePanel._set_items",
+        "pandas.stats.ols.MovingOLS._set_window",
+        "pandas.io.pytables.DataCol.set_atom_datetime64",
+        "pandas.io.pytables.DataCol.set_atom_timedelta64",
+        "pandas.core.index.MultiIndex.take",
+        "pandas.tseries.offsets.CustomBusinessDay._set_busdaycalendar",
+        "pandas.core.index.MultiIndex._set_labels",
+        "pandas.core.categorical.Categorical._set_levels",
+        "pandas.tools.plotting.MPLPlot._get_colors",
+        "pandas.core.generic.NDFrame.last",
+        "pandas.sparse.list.SparseList.append",
+        "pandas.computation.ops.Term.update",
+        "pandas.core.series.Series.sortlevel",
+        "pandas.core.generic.NDFrame._set_is_copy"
+      ],
+      "prune_bound": 0.275783,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.period.Period.__eq__",
+      "path_score": 0.482143,
+      "boundary": "DEPRECATED",
+      "vpre": "0.15.2",
+      "vpost": "0.16.0",
+      "resolved_fqn": "pandas.tseries.period.Period.__eq__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tseries.offsets.Tick.__eq__",
+          "similarity": 0.622642
+        },
+        {
+          "fqn": "pandas.tseries.offsets.DateOffset.__eq__",
+          "similarity": 0.586207
+        },
+        {
+          "fqn": "pandas.compat.__init__._OrderedDict.__eq__",
+          "similarity": 0.576271
+        },
+        {
+          "fqn": "pandas.tseries.index.DatetimeIndex.astype",
+          "similarity": 0.574074
+        },
+        {
+          "fqn": "pandas.tseries.offsets.DateOffset.__sub__",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "pandas.core.internals.NonConsolidatableMixIn.iget",
+          "similarity": 0.569231
+        },
+        {
+          "fqn": "pandas.tseries.offsets.Tick.__ne__",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.bool",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "pandas.tseries.period.PeriodIndex.astype",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+          "similarity": 0.52459
+        },
+        {
+          "fqn": "pandas.tseries.period.PeriodIndex.searchsorted",
+          "similarity": 0.522388
+        },
+        {
+          "fqn": "pandas.sparse.series.SparseSeries.sparse_reindex",
+          "similarity": 0.515625
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame._get_axis_name",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame._get_axis_number",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "pandas.core.series.Series.sortlevel",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "pandas.core.indexing._NDFrameIndexer._get_label",
+          "similarity": 0.514706
+        },
+        {
+          "fqn": "pandas.core.indexing._ScalarAccessIndexer.__setitem__",
+          "similarity": 0.514706
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.equals",
+          "similarity": 0.509091
+        },
+        {
+          "fqn": "pandas.tseries.index.DatetimeIndex.searchsorted",
+          "similarity": 0.508475
+        },
+        {
+          "fqn": "pandas.core.index.Index.drop",
+          "similarity": 0.508197
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+        "pandas.core.generic.NDFrame._get_axis_name",
+        "pandas.core.generic.NDFrame._get_axis_number",
+        "pandas.core.indexing._ScalarAccessIndexer.__setitem__"
+      ],
+      "entered_iter": [
+        "pandas.tseries.offsets.Tick.__eq__",
+        "pandas.tseries.offsets.DateOffset.__eq__",
+        "pandas.compat.__init__._OrderedDict.__eq__",
+        "pandas.tseries.index.DatetimeIndex.astype"
+      ],
+      "pruned": [
+        "pandas.tseries.offsets.DateOffset.__sub__",
+        "pandas.core.internals.NonConsolidatableMixIn.iget",
+        "pandas.tseries.offsets.Tick.__ne__",
+        "pandas.core.generic.NDFrame.bool",
+        "pandas.tseries.period.PeriodIndex.astype",
+        "pandas.tseries.period.PeriodIndex.searchsorted",
+        "pandas.sparse.series.SparseSeries.sparse_reindex",
+        "pandas.core.series.Series.sortlevel",
+        "pandas.core.indexing._NDFrameIndexer._get_label",
+        "pandas.core.categorical.Categorical.equals",
+        "pandas.tseries.index.DatetimeIndex.searchsorted",
+        "pandas.core.index.Index.drop"
+      ],
+      "prune_bound": 0.275783,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tools.plotting._Options.__getitem__",
+      "path_score": 0.479167,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.tools.plotting._Options.__getitem__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.plotting._style._Options.__getitem__",
+          "similarity": 0.921053
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__delitem__",
+          "similarity": 0.707317
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.__getitem__",
+          "similarity": 0.644444
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__getitem__",
+          "similarity": 0.636364
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__add__",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__setstate__",
+          "similarity": 0.536585
+        },
+        {
+          "fqn": "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+          "similarity": 0.528302
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__setitem__",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame._getitem_frame",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__eq__",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__contains__",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__radd__",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.io.json.json.JSONTableWriter.write",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.shift",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "pandas.core.window._Window.__getattr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.pytables.SparseFixed.validate_read",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.__getitem__",
+          "similarity": 0.491525
+        },
+        {
+          "fqn": "pandas.core.series.Series.reorder_levels",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "pandas.core.indexing._iAtIndexer._convert_key",
+          "similarity": 0.479167
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.frozen.FrozenList.__getitem__",
+        "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+        "pandas.core.indexes.frozen.FrozenList.__eq__",
+        "pandas.core.indexes.frozen.FrozenList.__radd__",
+        "pandas.core.series.Series.reorder_levels",
+        "pandas.core.indexing._iAtIndexer._convert_key"
+      ],
+      "entered_iter": [
+        "pandas.plotting._style._Options.__getitem__",
+        "pandas.plotting._style._Options.__delitem__",
+        "pandas.core.resample.Resampler.__getitem__"
+      ],
+      "pruned": [
+        "pandas.core.indexes.frozen.FrozenList.__add__",
+        "pandas.core.indexes.timedeltas.TimedeltaIndex.__setstate__",
+        "pandas.core.strings.StringMethods.__getitem__",
+        "pandas.plotting._style._Options.__setitem__",
+        "pandas.core.frame.DataFrame._getitem_frame",
+        "pandas.plotting._style._Options.__contains__",
+        "pandas.io.json.json.JSONTableWriter.write",
+        "pandas.core.panel.Panel.shift",
+        "pandas.core.window._Window.__getattr__",
+        "pandas.io.pytables.SparseFixed.validate_read",
+        "pandas.core.panel.Panel.__getitem__"
+      ],
+      "prune_bound": 0.275918,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.sparse.array.SparseArray.__setstate__",
+      "path_score": 0.478261,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.sparse.array.SparseArray.__setstate__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.sparse.array.SparseArray.__setstate__",
+          "similarity": 0.969697
+        },
+        {
+          "fqn": "pandas.core.sparse.array.SparseArray.__reduce__",
+          "similarity": 0.568182
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.iterrows",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.insert",
+          "similarity": 0.510204
+        },
+        {
+          "fqn": "pandas.core.groupby.BinGrouper.groups",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.internals.Block.__setstate__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.frame.test_api.TestDataFrameMisc.test_deepcopy",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame._series",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "pandas.tests.series.test_period.TestSeriesPeriod.test_between",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.count",
+          "similarity": 0.479167
+        },
+        {
+          "fqn": "pandas.tests.indexes.test_base.TestIndex.test_getitem",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "pandas.tests.reshape.test_merge_asof.TestAsOfMerge.test_basic",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "pandas.core.sparse.frame.SparseDataFrame.copy",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "pandas.io.formats.style.Styler._compute",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.set_ordered",
+          "similarity": 0.469388
+        },
+        {
+          "fqn": "pandas.core.groupby.BaseGrouper.size",
+          "similarity": 0.469388
+        },
+        {
+          "fqn": "pandas.io.html._HtmlFrameParser._build_table",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__setstate__",
+          "similarity": 0.463415
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex._get_level_values",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.tests.sparse.test_series.TestSparseSeriesAnalytics.setup_method",
+          "similarity": 0.461538
+        }
+      ],
+      "entered_final": [
+        "pandas.core.frame.DataFrame.iterrows",
+        "pandas.core.indexes.base.Index.insert",
+        "pandas.tests.frame.test_api.TestDataFrameMisc.test_deepcopy",
+        "pandas.core.frame.DataFrame._series",
+        "pandas.core.indexes.multi.MultiIndex._get_level_values"
+      ],
+      "entered_iter": [
+        "pandas.core.sparse.array.SparseArray.__setstate__"
+      ],
+      "pruned": [
+        "pandas.core.sparse.array.SparseArray.__reduce__",
+        "pandas.core.groupby.BinGrouper.groups",
+        "pandas.core.internals.Block.__setstate__",
+        "pandas.tests.series.test_period.TestSeriesPeriod.test_between",
+        "pandas.core.panel.Panel.count",
+        "pandas.tests.indexes.test_base.TestIndex.test_getitem",
+        "pandas.tests.reshape.test_merge_asof.TestAsOfMerge.test_basic",
+        "pandas.core.sparse.frame.SparseDataFrame.copy",
+        "pandas.io.formats.style.Styler._compute",
+        "pandas.core.categorical.Categorical.set_ordered",
+        "pandas.core.groupby.BaseGrouper.size",
+        "pandas.io.html._HtmlFrameParser._build_table",
+        "pandas.core.indexes.timedeltas.TimedeltaIndex.__setstate__",
+        "pandas.tests.sparse.test_series.TestSparseSeriesAnalytics.setup_method"
+      ],
+      "prune_bound": 0.275918,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.bool",
+      "path_score": 0.472727,
+      "boundary": "DEPRECATED",
+      "vpre": "2.3.3",
+      "vpost": "3.0.0",
+      "resolved_fqn": "pandas.core.generic.NDFrame.bool",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.accessors.ArrowAccessor._validate",
+          "similarity": 0.559322
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.all",
+          "similarity": 0.525424
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.any",
+          "similarity": 0.525424
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray._validate_scalar",
+          "similarity": 0.515625
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray._unbox_scalar",
+          "similarity": 0.507692
+        },
+        {
+          "fqn": "pandas.core.arrays.timedeltas.TimedeltaArray._unbox_scalar",
+          "similarity": 0.507692
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.fillna",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexing._AtIndexer.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index._get_join_target",
+          "similarity": 0.492958
+        },
+        {
+          "fqn": "pandas.core.series.Series.diff",
+          "similarity": 0.492958
+        },
+        {
+          "fqn": "pandas.core.internals.managers.BaseBlockManager.get_bool_data",
+          "similarity": 0.492063
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.__rmatmul__",
+          "similarity": 0.484375
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+          "similarity": 0.483333
+        },
+        {
+          "fqn": "pandas.io.pytables.AppendableMultiSeriesTable.write",
+          "similarity": 0.477612
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.count",
+          "similarity": 0.476923
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.zfill",
+          "similarity": 0.47541
+        },
+        {
+          "fqn": "pandas.util._doctools.TablePlotter._conv",
+          "similarity": 0.474576
+        },
+        {
+          "fqn": "pandas.io.formats.style_render.StylerRenderer._compute",
+          "similarity": 0.473684
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+        "pandas.core.arrays.arrow.accessors.ArrowAccessor._validate",
+        "pandas.core.indexes.base.Index.all",
+        "pandas.core.indexes.base.Index.any",
+        "pandas.core.arrays.interval.IntervalArray._validate_scalar",
+        "pandas.core.arrays.datetimes.DatetimeArray._unbox_scalar",
+        "pandas.core.arrays.timedeltas.TimedeltaArray._unbox_scalar",
+        "pandas.core.indexes.base.Index.fillna",
+        "pandas.core.indexing._AtIndexer.__getitem__",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.__getitem__",
+        "pandas.core.indexes.base.Index._get_join_target",
+        "pandas.core.series.Series.diff",
+        "pandas.core.internals.managers.BaseBlockManager.get_bool_data",
+        "pandas.core.frame.DataFrame.__rmatmul__",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+        "pandas.io.pytables.AppendableMultiSeriesTable.write",
+        "pandas.core.resample.Resampler.count",
+        "pandas.core.strings.accessor.StringMethods.zfill",
+        "pandas.util._doctools.TablePlotter._conv",
+        "pandas.io.formats.style_render.StylerRenderer._compute"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.275918,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.index.Index.drop",
+      "path_score": 0.472727,
+      "boundary": "DEPRECATED",
+      "vpre": "0.17.1",
+      "vpost": "0.18.0",
+      "resolved_fqn": "pandas.core.index.Index.drop",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.indexes.base.Index.drop",
+          "similarity": 0.803571
+        },
+        {
+          "fqn": "pandas.indexes.category.CategoricalIndex.insert",
+          "similarity": 0.631579
+        },
+        {
+          "fqn": "pandas.io.sas.sas7bdat.SAS7BDATReader._decompress",
+          "similarity": 0.578947
+        },
+        {
+          "fqn": "pandas.core.series.Series._set_labels",
+          "similarity": 0.573529
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.drop_duplicates",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "pandas.indexes.multi.MultiIndex._drop_from_level",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+          "similarity": 0.542373
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.last",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "pandas.core.groupby.BaseGrouper.size",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "pandas.computation.pytables.ExprVisitor.visit_Subscript",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.count",
+          "similarity": 0.527273
+        },
+        {
+          "fqn": "pandas.indexes.base.Index.insert",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.tseries.index.DatetimeIndex.searchsorted",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.indexes.base.Index.asof",
+          "similarity": 0.525424
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.unique",
+          "similarity": 0.52459
+        },
+        {
+          "fqn": "pandas.tseries.period.PeriodIndex.astype",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.indexes.category.CategoricalIndex.append",
+          "similarity": 0.517857
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.swaplevel",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.clip_lower",
+          "similarity": 0.516667
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.clip_upper",
+          "similarity": 0.516667
+        }
+      ],
+      "entered_final": [
+        "pandas.core.series.Series._set_labels",
+        "pandas.core.frame.DataFrame.drop_duplicates",
+        "pandas.core.indexing._ScalarAccessIndexer.__getitem__"
+      ],
+      "entered_iter": [
+        "pandas.indexes.base.Index.drop",
+        "pandas.indexes.category.CategoricalIndex.insert"
+      ],
+      "pruned": [
+        "pandas.io.sas.sas7bdat.SAS7BDATReader._decompress",
+        "pandas.indexes.multi.MultiIndex._drop_from_level",
+        "pandas.core.generic.NDFrame.last",
+        "pandas.core.groupby.BaseGrouper.size",
+        "pandas.computation.pytables.ExprVisitor.visit_Subscript",
+        "pandas.core.panel.Panel.count",
+        "pandas.indexes.base.Index.insert",
+        "pandas.tseries.index.DatetimeIndex.searchsorted",
+        "pandas.indexes.base.Index.asof",
+        "pandas.core.categorical.Categorical.unique",
+        "pandas.tseries.period.PeriodIndex.astype",
+        "pandas.indexes.category.CategoricalIndex.append",
+        "pandas.core.generic.NDFrame.swaplevel",
+        "pandas.core.generic.NDFrame.clip_lower",
+        "pandas.core.generic.NDFrame.clip_upper"
+      ],
+      "prune_bound": 0.275918,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.index.DatetimeIndex.to_period",
+      "path_score": 0.472727,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.tseries.index.DatetimeIndex.to_period",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexes.datetimes.DatetimeIndex.to_period",
+          "similarity": 0.84
+        },
+        {
+          "fqn": "pandas.core.series.Series.to_period",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.internals.Block.make_block",
+          "similarity": 0.509091
+        },
+        {
+          "fqn": "pandas.core.indexes.period.PeriodIndex._shallow_copy",
+          "similarity": 0.508772
+        },
+        {
+          "fqn": "pandas.io.pytables.IndexCol.validate_metadata",
+          "similarity": 0.508475
+        },
+        {
+          "fqn": "pandas.core.internals.SparseBlock.fillna",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.sparse.series.SparseSeries.as_sparse_array",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.pytables.IndexCol.validate_col",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index._coerce_scalar_to_index",
+          "similarity": 0.490909
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.where",
+          "similarity": 0.484375
+        },
+        {
+          "fqn": "pandas.core.internals.CategoricalBlock.fillna",
+          "similarity": 0.484375
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical._set_categories",
+          "similarity": 0.483333
+        },
+        {
+          "fqn": "pandas.core.groupby.DataFrameGroupBy._gotitem",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "pandas.core.groupby._GroupBy.get_group",
+          "similarity": 0.47541
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex._shallow_copy",
+          "similarity": 0.47541
+        },
+        {
+          "fqn": "pandas.core.series.Series.to_timestamp",
+          "similarity": 0.47541
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler._gotitem",
+          "similarity": 0.474576
+        },
+        {
+          "fqn": "pandas.io.pytables.DataCol.validate_attr",
+          "similarity": 0.471429
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.where",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "pandas.io.parsers.TextFileReader.get_chunk",
+          "similarity": 0.466667
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.datetimes.DatetimeIndex.to_period",
+        "pandas.core.series.Series.to_period",
+        "pandas.core.internals.Block.make_block",
+        "pandas.io.pytables.IndexCol.validate_metadata",
+        "pandas.io.pytables.IndexCol.validate_col",
+        "pandas.core.indexes.base.Index.where",
+        "pandas.core.groupby.DataFrameGroupBy._gotitem",
+        "pandas.core.series.Series.to_timestamp",
+        "pandas.core.resample.Resampler._gotitem",
+        "pandas.io.pytables.DataCol.validate_attr",
+        "pandas.io.parsers.TextFileReader.get_chunk"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.indexes.period.PeriodIndex._shallow_copy",
+        "pandas.core.internals.SparseBlock.fillna",
+        "pandas.core.sparse.series.SparseSeries.as_sparse_array",
+        "pandas.core.indexes.base.Index._coerce_scalar_to_index",
+        "pandas.core.internals.CategoricalBlock.fillna",
+        "pandas.core.categorical.Categorical._set_categories",
+        "pandas.core.groupby._GroupBy.get_group",
+        "pandas.core.indexes.category.CategoricalIndex._shallow_copy",
+        "pandas.core.indexes.category.CategoricalIndex.where"
+      ],
+      "prune_bound": 0.278776,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.index.Index.to_datetime",
+      "path_score": 0.471698,
+      "boundary": "DEPRECATED",
+      "vpre": "0.17.1",
+      "vpost": "0.18.0",
+      "resolved_fqn": "pandas.core.index.Index.to_datetime",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.indexes.base.Index.to_datetime",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "pandas.tseries.tests.test_timezones.TestTimeZoneSupportPytz.test_to_datetime_utc",
+          "similarity": 0.588235
+        },
+        {
+          "fqn": "pandas.core.series.Series.to_timestamp",
+          "similarity": 0.553571
+        },
+        {
+          "fqn": "pandas.core.window._Rolling_and_Expanding.quantile",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.tseries.tests.test_timeseries.TimeConversionFormats.test_to_datetime_format_microsecond",
+          "similarity": 0.528302
+        },
+        {
+          "fqn": "pandas.core.series.Series.to_period",
+          "similarity": 0.527273
+        },
+        {
+          "fqn": "pandas.tseries.tests.test_timeseries.TestTimeSeries.test_to_datetime_list_of_integers",
+          "similarity": 0.525424
+        },
+        {
+          "fqn": "pandas.tseries.tests.test_timeseries.TestTimeSeries.test_to_datetime_freq",
+          "similarity": 0.509091
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.count",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.normalize",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.partition",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.rpartition",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.indexes.base.Index.append",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.sas.sas7bdat.SAS7BDATReader._decompress",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.sparse.frame.SparseDataFrame.xs",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.sparse.series.SparseSeries.to_dense",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tseries.index.DatetimeIndex.searchsorted",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.dtypes.DatetimeTZDtype.__eq__",
+          "similarity": 0.490909
+        },
+        {
+          "fqn": "pandas.core.series.Series.cov",
+          "similarity": 0.490909
+        },
+        {
+          "fqn": "pandas.sparse.array.SparseArray.to_dense",
+          "similarity": 0.490909
+        }
+      ],
+      "entered_final": [
+        "pandas.core.series.Series.to_timestamp",
+        "pandas.core.series.Series.to_period",
+        "pandas.core.series.Series.cov"
+      ],
+      "entered_iter": [
+        "pandas.indexes.base.Index.to_datetime"
+      ],
+      "pruned": [
+        "pandas.tseries.tests.test_timezones.TestTimeZoneSupportPytz.test_to_datetime_utc",
+        "pandas.core.window._Rolling_and_Expanding.quantile",
+        "pandas.tseries.tests.test_timeseries.TimeConversionFormats.test_to_datetime_format_microsecond",
+        "pandas.tseries.tests.test_timeseries.TestTimeSeries.test_to_datetime_list_of_integers",
+        "pandas.tseries.tests.test_timeseries.TestTimeSeries.test_to_datetime_freq",
+        "pandas.core.panel.Panel.count",
+        "pandas.core.strings.StringMethods.normalize",
+        "pandas.core.strings.StringMethods.partition",
+        "pandas.core.strings.StringMethods.rpartition",
+        "pandas.indexes.base.Index.append",
+        "pandas.io.sas.sas7bdat.SAS7BDATReader._decompress",
+        "pandas.sparse.frame.SparseDataFrame.xs",
+        "pandas.sparse.series.SparseSeries.to_dense",
+        "pandas.tseries.index.DatetimeIndex.searchsorted",
+        "pandas.core.dtypes.DatetimeTZDtype.__eq__",
+        "pandas.sparse.array.SparseArray.to_dense"
+      ],
+      "prune_bound": 0.278776,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.indexes.base.Index.to_datetime",
+      "path_score": 0.471698,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.indexes.base.Index.to_datetime",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexes.base.Index.to_datetime",
+          "similarity": 0.857143
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.to_frame",
+          "similarity": 0.553571
+        },
+        {
+          "fqn": "pandas.core.series.Series.to_timestamp",
+          "similarity": 0.553571
+        },
+        {
+          "fqn": "pandas.tests.tseries.test_timezones.TestTimeZoneSupportPytz.test_to_datetime_utc",
+          "similarity": 0.54902
+        },
+        {
+          "fqn": "pandas.tests.scalar.test_timestamp.TestTimestamp.to_datetime_depr",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.core.series.Series.to_period",
+          "similarity": 0.527273
+        },
+        {
+          "fqn": "pandas.core.series.Series.quantile",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimes.test_tools.ToDatetimeMisc.test_to_datetime_list_of_integers",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "pandas.core.sparse.series.SparseSeries.to_dense",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "pandas.core.sparse.list.SparseList.consolidate",
+          "similarity": 0.509434
+        },
+        {
+          "fqn": "pandas.core.groupby.GroupBy.var",
+          "similarity": 0.508475
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.count",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.sparse.frame.SparseDataFrame.xs",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.normalize",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.partition",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.rpartition",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.indexes.period.test_tools.TestPeriodIndex.test_to_datetime_depr",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame._consolidate",
+          "similarity": 0.491228
+        },
+        {
+          "fqn": "pandas.core.internals.Block.apply",
+          "similarity": 0.491228
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.set_ordered",
+          "similarity": 0.490909
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.multi.MultiIndex.to_frame",
+        "pandas.core.series.Series.to_timestamp",
+        "pandas.core.series.Series.to_period",
+        "pandas.core.series.Series.quantile",
+        "pandas.core.groupby.GroupBy.var",
+        "pandas.core.generic.NDFrame._consolidate",
+        "pandas.core.internals.Block.apply"
+      ],
+      "entered_iter": [
+        "pandas.core.indexes.base.Index.to_datetime"
+      ],
+      "pruned": [
+        "pandas.tests.tseries.test_timezones.TestTimeZoneSupportPytz.test_to_datetime_utc",
+        "pandas.tests.scalar.test_timestamp.TestTimestamp.to_datetime_depr",
+        "pandas.tests.indexes.datetimes.test_tools.ToDatetimeMisc.test_to_datetime_list_of_integers",
+        "pandas.core.sparse.series.SparseSeries.to_dense",
+        "pandas.core.sparse.list.SparseList.consolidate",
+        "pandas.core.panel.Panel.count",
+        "pandas.core.sparse.frame.SparseDataFrame.xs",
+        "pandas.core.strings.StringMethods.normalize",
+        "pandas.core.strings.StringMethods.partition",
+        "pandas.core.strings.StringMethods.rpartition",
+        "pandas.tests.indexes.period.test_tools.TestPeriodIndex.test_to_datetime_depr",
+        "pandas.core.categorical.Categorical.set_ordered"
+      ],
+      "prune_bound": 0.278776,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.sparse.array.SparseArray.__setstate__",
+      "path_score": 0.463768,
+      "boundary": "DEPRECATED",
+      "vpre": "0.23.4",
+      "vpost": "0.24.0",
+      "resolved_fqn": "pandas.core.sparse.array.SparseArray.__setstate__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays.sparse.SparseArray.factorize",
+          "similarity": 0.55814
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.SparseArray.__setstate__",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.insert",
+          "similarity": 0.530612
+        },
+        {
+          "fqn": "pandas.core.arrays.base.ExtensionArray.factorize",
+          "similarity": 0.521739
+        },
+        {
+          "fqn": "pandas.core.groupby.ops.BaseGrouper.label_info",
+          "similarity": 0.521739
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.__setstate__",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.iterrows",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.ExtensionBlock.setitem",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.count",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.sparse.frame.SparseDataFrame.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.indexes.test_common.TestCommon.test_pickle",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.io.test_stata.TestStata.test_date_parsing_ignores_format_details",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.series.test_period.TestSeriesPeriod.test_between",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.formats.format.DataFrameFormatter._format_col",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler._get_binner",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "pandas.core.arrays.period.PeriodArray._sub_period",
+          "similarity": 0.480769
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby.GroupBy.ngroup",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "pandas.core.indexes.period.PeriodIndex.freq",
+          "similarity": 0.479167
+        },
+        {
+          "fqn": "pandas.tests.extension.base.missing.BaseMissingTests.test_fillna_scalar",
+          "similarity": 0.479167
+        },
+        {
+          "fqn": "pandas.tests.test_panel.CheckIndexing.test_getitem_fancy_ints",
+          "similarity": 0.479167
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.base.Index.insert",
+        "pandas.core.arrays.base.ExtensionArray.factorize",
+        "pandas.core.frame.DataFrame.iterrows",
+        "pandas.tests.io.test_stata.TestStata.test_date_parsing_ignores_format_details",
+        "pandas.core.resample.Resampler._get_binner",
+        "pandas.core.groupby.groupby.GroupBy.ngroup",
+        "pandas.tests.extension.base.missing.BaseMissingTests.test_fillna_scalar"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.arrays.sparse.SparseArray.factorize",
+        "pandas.core.arrays.sparse.SparseArray.__setstate__",
+        "pandas.core.groupby.ops.BaseGrouper.label_info",
+        "pandas.core.internals.blocks.Block.__setstate__",
+        "pandas.core.internals.blocks.ExtensionBlock.setitem",
+        "pandas.core.panel.Panel.count",
+        "pandas.core.sparse.frame.SparseDataFrame.copy",
+        "pandas.tests.indexes.test_common.TestCommon.test_pickle",
+        "pandas.tests.series.test_period.TestSeriesPeriod.test_between",
+        "pandas.io.formats.format.DataFrameFormatter._format_col",
+        "pandas.core.arrays.period.PeriodArray._sub_period",
+        "pandas.core.indexes.period.PeriodIndex.freq",
+        "pandas.tests.test_panel.CheckIndexing.test_getitem_fancy_ints"
+      ],
+      "prune_bound": 0.278776,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.plotting._style._Options.__getitem__",
+      "path_score": 0.441338,
+      "boundary": "DEPRECATED",
+      "vpre": "0.24.2",
+      "vpost": "0.25.0",
+      "resolved_fqn": "pandas.plotting._style._Options.__getitem__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.plotting._misc._Options.__getitem__",
+          "similarity": 0.825
+        },
+        {
+          "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__",
+          "similarity": 0.658537
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__delitem__",
+          "similarity": 0.622222
+        },
+        {
+          "fqn": "pandas.core.sparse.series.SparseSeries.__getitem__",
+          "similarity": 0.619048
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__getitem__",
+          "similarity": 0.577778
+        },
+        {
+          "fqn": "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimes.DatetimeIndex.__getitem__",
+          "similarity": 0.54717
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.534884
+        },
+        {
+          "fqn": "pandas.core.arrays.period.PeriodArray._add_delta",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.tests.extension.arrow.bool.ArrowBoolArray.__getitem__",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.arrays.numpy_.PandasArray.__getitem__",
+          "similarity": 0.528302
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.__getitem__",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.set_closed",
+          "similarity": 0.519231
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray.set_closed",
+          "similarity": 0.510638
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.union",
+          "similarity": 0.510638
+        },
+        {
+          "fqn": "pandas.core.window._Window.__getattr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.transform",
+          "similarity": 0.490566
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame._set_item",
+          "similarity": 0.490196
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.repeat",
+          "similarity": 0.489796
+        }
+      ],
+      "entered_final": [
+        "pandas.plotting._misc._Options.__getitem__",
+        "pandas.plotting._misc._Options.__delitem__",
+        "pandas.core.indexes.frozen.FrozenList.__getitem__",
+        "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.core.arrays.interval.IntervalArray.set_closed",
+        "pandas.core.indexes.frozen.FrozenList.union",
+        "pandas.core.frame.DataFrame._set_item"
+      ],
+      "entered_iter": [
+        "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__"
+      ],
+      "pruned": [
+        "pandas.core.sparse.series.SparseSeries.__getitem__",
+        "pandas.core.indexes.datetimes.DatetimeIndex.__getitem__",
+        "pandas.core.arrays.period.PeriodArray._add_delta",
+        "pandas.tests.extension.arrow.bool.ArrowBoolArray.__getitem__",
+        "pandas.core.arrays.numpy_.PandasArray.__getitem__",
+        "pandas.core.indexes.interval.IntervalIndex.__getitem__",
+        "pandas.core.strings.StringMethods.__getitem__",
+        "pandas.core.indexes.interval.IntervalIndex.set_closed",
+        "pandas.core.window._Window.__getattr__",
+        "pandas.core.generic.NDFrame.transform",
+        "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.repeat"
+      ],
+      "prune_bound": 0.27931,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index.to_datetime",
+      "path_score": 0.404313,
+      "boundary": "DEPRECATED",
+      "vpre": "0.22.0",
+      "vpost": "0.23.0",
+      "resolved_fqn": "pandas.core.indexes.base.Index.to_datetime",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tests.indexes.datetimes.test_tools.TestToDatetimeMisc.test_to_datetime_list_of_integers",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "pandas.core.sparse.series.SparseSeries.to_dense",
+          "similarity": 0.553846
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.to_tuples",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.to_frame",
+          "similarity": 0.540984
+        },
+        {
+          "fqn": "pandas.core.internals.BlockManager.copy",
+          "similarity": 0.537313
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimes.test_tools.TestToDatetime.test_to_datetime_utc_true_with_series_datetime_ns",
+          "similarity": 0.530303
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimes.test_tools.TestToDatetimeInferFormat.test_to_datetime_infer_datetime_format_series_with_nans",
+          "similarity": 0.523077
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimes.test_tools.TestToDatetimeMisc.test_to_datetime_other_datetime64_units",
+          "similarity": 0.521739
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.count",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "pandas.core.series.Series.to_timestamp",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimes.test_tools.TestToDatetime.test_to_datetime_utc_true_with_series_single_value",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimes.test_tools.TestToDatetimeInferFormat.test_to_datetime_infer_datetime_format_series_start_with_nans",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimes.test_tools.TestTimeConversionFormats.test_to_datetime_with_non_exact",
+          "similarity": 0.514706
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimes.test_tools.TestToDatetime.test_to_datetime_cache_scalar",
+          "similarity": 0.509091
+        },
+        {
+          "fqn": "pandas.util.testing._AssertRaisesContextmanager.__exit__",
+          "similarity": 0.508197
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby.GroupBy.var",
+          "similarity": 0.507692
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical._slice",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.to_hierarchical",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.drop_duplicates",
+          "similarity": 0.492754
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.last",
+          "similarity": 0.492754
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.multi.MultiIndex.to_frame",
+        "pandas.core.series.Series.to_timestamp",
+        "pandas.core.groupby.groupby.GroupBy.var",
+        "pandas.core.frame.DataFrame.drop_duplicates"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.tests.indexes.datetimes.test_tools.TestToDatetimeMisc.test_to_datetime_list_of_integers",
+        "pandas.core.sparse.series.SparseSeries.to_dense",
+        "pandas.core.indexes.interval.IntervalIndex.to_tuples",
+        "pandas.core.internals.BlockManager.copy",
+        "pandas.tests.indexes.datetimes.test_tools.TestToDatetime.test_to_datetime_utc_true_with_series_datetime_ns",
+        "pandas.tests.indexes.datetimes.test_tools.TestToDatetimeInferFormat.test_to_datetime_infer_datetime_format_series_with_nans",
+        "pandas.tests.indexes.datetimes.test_tools.TestToDatetimeMisc.test_to_datetime_other_datetime64_units",
+        "pandas.core.panel.Panel.count",
+        "pandas.tests.indexes.datetimes.test_tools.TestToDatetime.test_to_datetime_utc_true_with_series_single_value",
+        "pandas.tests.indexes.datetimes.test_tools.TestToDatetimeInferFormat.test_to_datetime_infer_datetime_format_series_start_with_nans",
+        "pandas.tests.indexes.datetimes.test_tools.TestTimeConversionFormats.test_to_datetime_with_non_exact",
+        "pandas.tests.indexes.datetimes.test_tools.TestToDatetime.test_to_datetime_cache_scalar",
+        "pandas.util.testing._AssertRaisesContextmanager.__exit__",
+        "pandas.core.arrays.categorical.Categorical._slice",
+        "pandas.core.indexes.multi.MultiIndex.to_hierarchical",
+        "pandas.core.generic.NDFrame.last"
+      ],
+      "prune_bound": 0.27931,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.indexes.base.Index.drop",
+      "path_score": 0.37987,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.indexes.base.Index.drop",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexes.base.Index.drop",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "pandas.core.series.Series._set_labels",
+          "similarity": 0.638889
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.dropna",
+          "similarity": 0.630137
+        },
+        {
+          "fqn": "pandas.core.internals.BlockManager.set_axis",
+          "similarity": 0.606061
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.insert",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex._drop_from_level",
+          "similarity": 0.594203
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.drop_duplicates",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "pandas.core.internals.Block.getitem_block",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.io.html._LxmlFrameParser._parse_tables",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.shift",
+          "similarity": 0.551282
+        },
+        {
+          "fqn": "pandas.core.resample.TimeGrouper._adjust_bin_edges",
+          "similarity": 0.542169
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.last",
+          "similarity": 0.541667
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.insert",
+          "similarity": 0.534247
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimes.DatetimeIndex._sub_datelike_dti",
+          "similarity": 0.531646
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.groupby",
+          "similarity": 0.530303
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical.unique",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.config.DictWrapper.__getattr__",
+          "similarity": 0.528571
+        },
+        {
+          "fqn": "pandas.core.internals.BlockManager.copy",
+          "similarity": 0.527778
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.xs",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin._append_same_dtype",
+          "similarity": 0.52439
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.base.Index.drop",
+        "pandas.core.series.Series._set_labels",
+        "pandas.core.indexes.multi.MultiIndex.dropna",
+        "pandas.core.indexes.multi.MultiIndex._drop_from_level",
+        "pandas.core.frame.DataFrame.drop_duplicates",
+        "pandas.io.html._LxmlFrameParser._parse_tables",
+        "pandas.core.resample.TimeGrouper._adjust_bin_edges",
+        "pandas.core.indexes.base.Index.groupby"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.internals.BlockManager.set_axis",
+        "pandas.core.indexes.category.CategoricalIndex.insert",
+        "pandas.core.internals.Block.getitem_block",
+        "pandas.core.categorical.Categorical.shift",
+        "pandas.core.generic.NDFrame.last",
+        "pandas.core.indexes.interval.IntervalIndex.insert",
+        "pandas.core.indexes.datetimes.DatetimeIndex._sub_datelike_dti",
+        "pandas.core.categorical.Categorical.unique",
+        "pandas.core.config.DictWrapper.__getattr__",
+        "pandas.core.internals.BlockManager.copy",
+        "pandas.core.panel.Panel.xs",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin._append_same_dtype"
+      ],
+      "prune_bound": 0.2808,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.offsets.MonthOffset.apply",
+      "path_score": 0.343544,
+      "boundary": "DEPRECATED",
+      "vpre": "1.0.5",
+      "vpost": "1.1.0",
+      "resolved_fqn": "pandas.tseries.offsets.MonthOffset.apply",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.computation.engines.NumExprEngine._evaluate",
+          "similarity": 0.575
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.normalize",
+          "similarity": 0.575
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex._concat",
+          "similarity": 0.55814
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.delete",
+          "similarity": 0.55814
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.levels",
+          "similarity": 0.547619
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray.factorize",
+          "similarity": 0.534884
+        },
+        {
+          "fqn": "pandas.plotting._matplotlib.converter.MilliSecondLocator.autoscale",
+          "similarity": 0.534884
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.duplicated",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.partition",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.rpartition",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.where",
+          "similarity": 0.521739
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray.to_tuples",
+          "similarity": 0.520833
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler._apply_loffset",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Term.update",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.computation.pytables.BinOp.conform",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray.__repr__",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame._protect_consolidate",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.shift",
+          "similarity": 0.510638
+        },
+        {
+          "fqn": "pandas.tests.computation.test_eval.TestEvalNumexprPandas.test_frame_pos",
+          "similarity": 0.510638
+        }
+      ],
+      "entered_final": [
+        "pandas.core.computation.engines.NumExprEngine._evaluate",
+        "pandas.core.indexes.multi.MultiIndex.levels",
+        "pandas.core.arrays.sparse.array.SparseArray.factorize",
+        "pandas.plotting._matplotlib.converter.MilliSecondLocator.autoscale",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift",
+        "pandas.core.indexes.multi.MultiIndex.duplicated",
+        "pandas.core.arrays.interval.IntervalArray.to_tuples",
+        "pandas.core.computation.ops.Term.update",
+        "pandas.core.computation.pytables.BinOp.conform",
+        "pandas.core.arrays.sparse.array.SparseArray.__repr__"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.strings.StringMethods.normalize",
+        "pandas.core.indexes.category.CategoricalIndex._concat",
+        "pandas.core.indexes.interval.IntervalIndex.delete",
+        "pandas.core.strings.StringMethods.partition",
+        "pandas.core.strings.StringMethods.rpartition",
+        "pandas.core.indexes.interval.IntervalIndex.where",
+        "pandas.core.resample.Resampler._apply_loffset",
+        "pandas.core.generic.NDFrame._protect_consolidate",
+        "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.shift",
+        "pandas.tests.computation.test_eval.TestEvalNumexprPandas.test_frame_pos"
+      ],
+      "prune_bound": 0.2808,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tests.extension.arrow.bool.ArrowBoolArray.astype",
+      "path_score": 0.316078,
+      "boundary": "DEPRECATED",
+      "vpre": "0.25.3",
+      "vpost": "1.0.0",
+      "resolved_fqn": "pandas.tests.extension.arrow.bool.ArrowBoolArray.astype",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.astype",
+          "similarity": 0.952381
+        },
+        {
+          "fqn": "pandas.tests.extension.json.array.JSONArray.astype",
+          "similarity": 0.869565
+        },
+        {
+          "fqn": "pandas.core.arrays.string_.StringArray.astype",
+          "similarity": 0.8
+        },
+        {
+          "fqn": "pandas.tests.extension.test_common.DummyArray.astype",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.astype",
+          "similarity": 0.711111
+        },
+        {
+          "fqn": "pandas.core.arrays.period.PeriodArray.astype",
+          "similarity": 0.659574
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.astype",
+          "similarity": 0.644068
+        },
+        {
+          "fqn": "pandas.core.indexes.extension.ExtensionIndex.astype",
+          "similarity": 0.64
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.astype",
+          "similarity": 0.586207
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index._maybe_promote",
+          "similarity": 0.564516
+        },
+        {
+          "fqn": "pandas.core.indexes.extension.ExtensionIndex.__getitem__",
+          "similarity": 0.56
+        },
+        {
+          "fqn": "pandas.tests.extension.list.array.ListArray.astype",
+          "similarity": 0.549296
+        },
+        {
+          "fqn": "pandas.core.arrays.masked.BaseMaskedArray.__getitem__",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "pandas.core.arrays.period.PeriodArray._add_delta",
+          "similarity": 0.537037
+        },
+        {
+          "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.astype",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.DatetimeTZBlock.fillna",
+          "similarity": 0.527273
+        },
+        {
+          "fqn": "pandas.core.base.IndexOpsMixin.duplicated",
+          "similarity": 0.525424
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.take",
+          "similarity": 0.519231
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray.astype",
+          "similarity": 0.516667
+        }
+      ],
+      "entered_final": [
+        "pandas.tests.extension.json.array.JSONArray.astype",
+        "pandas.core.arrays.string_.StringArray.astype",
+        "pandas.tests.extension.test_common.DummyArray.astype",
+        "pandas.tests.extension.decimal.array.DecimalArray.astype",
+        "pandas.core.arrays.period.PeriodArray.astype",
+        "pandas.tests.extension.list.array.ListArray.astype",
+        "pandas.core.arrays.masked.BaseMaskedArray.__getitem__",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.core.arrays.sparse.array.SparseArray.astype"
+      ],
+      "entered_iter": [
+        "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.astype"
+      ],
+      "pruned": [
+        "pandas.core.indexes.category.CategoricalIndex.astype",
+        "pandas.core.indexes.extension.ExtensionIndex.astype",
+        "pandas.core.indexes.interval.IntervalIndex.astype",
+        "pandas.core.indexes.base.Index._maybe_promote",
+        "pandas.core.indexes.extension.ExtensionIndex.__getitem__",
+        "pandas.core.arrays.period.PeriodArray._add_delta",
+        "pandas.core.indexes.timedeltas.TimedeltaIndex.astype",
+        "pandas.core.internals.blocks.DatetimeTZBlock.fillna",
+        "pandas.core.base.IndexOpsMixin.duplicated",
+        "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.take"
+      ],
+      "prune_bound": 0.2808,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.plotting._core.MPLPlot._get_colors",
+      "path_score": 0.314869,
+      "boundary": "DEPRECATED",
+      "vpre": "0.24.2",
+      "vpost": "0.25.0",
+      "resolved_fqn": "pandas.plotting._core.MPLPlot._get_colors",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.plotting._matplotlib.core.MPLPlot._get_colors",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "pandas.core.sparse.series.SparseSeries.get",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "pandas.core.accessor.CachedAccessor.__get__",
+          "similarity": 0.631579
+        },
+        {
+          "fqn": "pandas.io.pytables.HDFStore.get",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby.GroupBy._fill",
+          "similarity": 0.564103
+        },
+        {
+          "fqn": "pandas.core.sparse.series.SparseSeries._get_value",
+          "similarity": 0.564103
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.where",
+          "similarity": 0.560976
+        },
+        {
+          "fqn": "pandas.io.parsers.PythonParser.get_chunk",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "pandas.io.sas.sas_xport.XportReader.get_chunk",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "pandas.io.stata.StataReader.get_chunk",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray.__array__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.series.Series._get_value",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.io.excel._base.ExcelWriter._get_sheet_name",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby._GroupBy.get_group",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.get",
+          "similarity": 0.514286
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.make_block",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.get_value",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.unique",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.get_values",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.sparse.frame.SparseDataFrame._get_value",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "pandas.plotting._matplotlib.core.MPLPlot._get_colors",
+        "pandas.io.pytables.HDFStore.get",
+        "pandas.core.groupby.groupby.GroupBy._fill",
+        "pandas.io.sas.sas_xport.XportReader.get_chunk",
+        "pandas.io.stata.StataReader.get_chunk",
+        "pandas.core.arrays.datetimes.DatetimeArray.__array__",
+        "pandas.core.series.Series._get_value",
+        "pandas.io.excel._base.ExcelWriter._get_sheet_name",
+        "pandas.core.internals.blocks.Block.make_block",
+        "pandas.core.internals.blocks.Block.get_values"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.sparse.series.SparseSeries.get",
+        "pandas.core.accessor.CachedAccessor.__get__",
+        "pandas.core.sparse.series.SparseSeries._get_value",
+        "pandas.core.indexes.interval.IntervalIndex.where",
+        "pandas.io.parsers.PythonParser.get_chunk",
+        "pandas.core.groupby.groupby._GroupBy.get_group",
+        "pandas.core.strings.StringMethods.get",
+        "pandas.core.frame.DataFrame.get_value",
+        "pandas.core.indexes.category.CategoricalIndex.unique",
+        "pandas.core.sparse.frame.SparseDataFrame._get_value"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.resample.Resampler.__getitem__",
+      "path_score": 0.308796,
+      "boundary": "DEPRECATED",
+      "vpre": "0.22.0",
+      "vpost": "0.23.0",
+      "resolved_fqn": "pandas.core.resample.Resampler.__getitem__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.658537
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__getitem__",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__getitem__",
+          "similarity": 0.645833
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.634146
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.asof",
+          "similarity": 0.557692
+        },
+        {
+          "fqn": "pandas.plotting._style._Options.__delitem__",
+          "similarity": 0.55102
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame._getitem_column",
+          "similarity": 0.54902
+        },
+        {
+          "fqn": "pandas.core.window._Window.__getattr__",
+          "similarity": 0.54902
+        },
+        {
+          "fqn": "pandas.core.sparse.frame.SparseDataFrame.__getitem__",
+          "similarity": 0.537037
+        },
+        {
+          "fqn": "pandas.core.internals.DatetimeTZBlock._slice",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.__getitem__",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.__invert__",
+          "similarity": 0.530612
+        },
+        {
+          "fqn": "pandas.core.series.Series.reorder_levels",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__setstate__",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.io.stata.StataStrLWriter._encode",
+          "similarity": 0.521739
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.__getitem__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.isin",
+          "similarity": 0.517857
+        },
+        {
+          "fqn": "pandas.compat.chainmap_impl.ChainMap.__getitem__",
+          "similarity": 0.512195
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame._getitem_frame",
+          "similarity": 0.510638
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__eq__",
+          "similarity": 0.510638
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.frozen.FrozenList.__getitem__",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.core.indexes.base.Index.asof",
+        "pandas.core.generic.NDFrame.__invert__",
+        "pandas.core.series.Series.reorder_levels",
+        "pandas.core.indexes.frozen.FrozenList.__eq__"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.strings.StringMethods.__getitem__",
+        "pandas.plotting._style._Options.__getitem__",
+        "pandas.plotting._style._Options.__delitem__",
+        "pandas.core.frame.DataFrame._getitem_column",
+        "pandas.core.window._Window.__getattr__",
+        "pandas.core.sparse.frame.SparseDataFrame.__getitem__",
+        "pandas.core.internals.DatetimeTZBlock._slice",
+        "pandas.core.panel.Panel.__getitem__",
+        "pandas.core.indexes.timedeltas.TimedeltaIndex.__setstate__",
+        "pandas.io.stata.StataStrLWriter._encode",
+        "pandas.core.arrays.categorical.Categorical.__getitem__",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.isin",
+        "pandas.compat.chainmap_impl.ChainMap.__getitem__",
+        "pandas.core.frame.DataFrame._getitem_frame"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.astype",
+      "path_score": 0.301027,
+      "boundary": "DEPRECATED",
+      "vpre": "1.5.3",
+      "vpost": "2.0.0",
+      "resolved_fqn": "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.astype",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tests.extension.test_common.DummyArray.astype",
+          "similarity": 0.744186
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.astype",
+          "similarity": 0.637931
+        },
+        {
+          "fqn": "pandas.core.arrays.numpy_.PandasArray.astype",
+          "similarity": 0.615385
+        },
+        {
+          "fqn": "pandas.tests.extension.list.array.ListArray.astype",
+          "similarity": 0.59375
+        },
+        {
+          "fqn": "pandas.tests.extension.date.array.DateArray.astype",
+          "similarity": 0.588235
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.extension_types.ArrowPeriodType.__eq__",
+          "similarity": 0.565217
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex._cmp_method",
+          "similarity": 0.557692
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.extension_types.ArrowIntervalType.__eq__",
+          "similarity": 0.55102
+        },
+        {
+          "fqn": "pandas.core.arrays._mixins.NDArrayBackedExtensionArray.equals",
+          "similarity": 0.54717
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray.equals",
+          "similarity": 0.537037
+        },
+        {
+          "fqn": "pandas.tests.extension.json.array.JSONArray.astype",
+          "similarity": 0.534247
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__getitem__",
+          "similarity": 0.530612
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.__getitem__",
+          "similarity": 0.519231
+        },
+        {
+          "fqn": "pandas.tests.extension.list.array.ListArray.__getitem__",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.equals",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index._arith_method",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeTimedeltaMixin._union",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays.base.ExtensionArray.__contains__",
+          "similarity": 0.492063
+        },
+        {
+          "fqn": "pandas.core.indexing._AtIndexer.__getitem__",
+          "similarity": 0.491803
+        }
+      ],
+      "entered_final": [
+        "pandas.tests.extension.test_common.DummyArray.astype",
+        "pandas.tests.extension.decimal.array.DecimalArray.astype",
+        "pandas.tests.extension.list.array.ListArray.astype",
+        "pandas.tests.extension.date.array.DateArray.astype",
+        "pandas.core.arrays.arrow.extension_types.ArrowPeriodType.__eq__",
+        "pandas.core.indexes.range.RangeIndex._cmp_method",
+        "pandas.core.arrays.arrow.extension_types.ArrowIntervalType.__eq__",
+        "pandas.core.arrays._mixins.NDArrayBackedExtensionArray.equals",
+        "pandas.core.arrays.interval.IntervalArray.equals",
+        "pandas.tests.extension.json.array.JSONArray.astype",
+        "pandas.core.indexes.frozen.FrozenList.__getitem__",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.__getitem__",
+        "pandas.tests.extension.list.array.ListArray.__getitem__",
+        "pandas.core.arrays.categorical.Categorical.equals",
+        "pandas.core.indexes.base.Index._arith_method",
+        "pandas.core.indexes.datetimelike.DatetimeTimedeltaMixin._union",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.core.arrays.base.ExtensionArray.__contains__",
+        "pandas.core.indexing._AtIndexer.__getitem__"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.arrays.numpy_.PandasArray.astype"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.offsets.Tick.__eq__",
+      "path_score": 0.300202,
+      "boundary": "DEPRECATED",
+      "vpre": "1.0.5",
+      "vpost": "1.1.0",
+      "resolved_fqn": "pandas.tseries.offsets.Tick.__eq__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexes.extension.ExtensionIndex.__getitem__",
+          "similarity": 0.615385
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__",
+          "similarity": 0.590164
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.searchsorted",
+          "similarity": 0.563636
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__eq__",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.PeriodDtype.__eq__",
+          "similarity": 0.557692
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.TimelikeOps._with_freq",
+          "similarity": 0.553571
+        },
+        {
+          "fqn": "pandas.core.arrays.base.ExtensionArray.astype",
+          "similarity": 0.54902
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.astype",
+          "similarity": 0.54717
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray._has_same_tz",
+          "similarity": 0.54386
+        },
+        {
+          "fqn": "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__eq__",
+          "similarity": 0.534884
+        },
+        {
+          "fqn": "pandas.core.computation.pytables.BinOp.conform",
+          "similarity": 0.531915
+        },
+        {
+          "fqn": "pandas.core.dtypes.base.ExtensionDtype.__eq__",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "pandas.util._doctools.TablePlotter._conv",
+          "similarity": 0.528302
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.DatetimeBlock._maybe_coerce_values",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index._concat",
+          "similarity": 0.520833
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.equals",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex._needs_i8_conversion",
+          "similarity": 0.517857
+        },
+        {
+          "fqn": "pandas.tests.indexing.test_coercion.CoercionBase._assert",
+          "similarity": 0.517857
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.511111
+        }
+      ],
+      "entered_final": [
+        "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.core.indexes.frozen.FrozenList.__eq__",
+        "pandas.core.dtypes.dtypes.PeriodDtype.__eq__",
+        "pandas.core.arrays.datetimelike.TimelikeOps._with_freq",
+        "pandas.core.arrays.base.ExtensionArray.astype",
+        "pandas.tests.extension.decimal.array.DecimalArray.astype",
+        "pandas.core.computation.pytables.BinOp.conform",
+        "pandas.core.dtypes.base.ExtensionDtype.__eq__",
+        "pandas.util._doctools.TablePlotter._conv",
+        "pandas.core.indexes.base.Index._concat",
+        "pandas.core.arrays.categorical.Categorical.equals",
+        "pandas.core.indexes.interval.IntervalIndex._needs_i8_conversion"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.indexes.extension.ExtensionIndex.__getitem__",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.searchsorted",
+        "pandas.core.arrays.datetimes.DatetimeArray._has_same_tz",
+        "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__eq__",
+        "pandas.core.internals.blocks.DatetimeBlock._maybe_coerce_values",
+        "pandas.tests.indexing.test_coercion.CoercionBase._assert",
+        "pandas.core.strings.StringMethods.__getitem__"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.indexes.category.CategoricalIndex.insert",
+      "path_score": 0.298565,
+      "boundary": "DEPRECATED",
+      "vpre": "0.19.2",
+      "vpost": "0.20.0",
+      "resolved_fqn": "pandas.indexes.category.CategoricalIndex.insert",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.insert",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.insert",
+          "similarity": 0.698113
+        },
+        {
+          "fqn": "pandas.core.indexes.period.PeriodIndex.insert",
+          "similarity": 0.609375
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.drop",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.insert",
+          "similarity": 0.575758
+        },
+        {
+          "fqn": "pandas.core.sparse.frame.SparseDataFrame.xs",
+          "similarity": 0.57377
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.last",
+          "similarity": 0.560606
+        },
+        {
+          "fqn": "pandas.io.stata.StataReader._insert_strls",
+          "similarity": 0.550725
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.drop_duplicates",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.core.groupby.BaseGrouper.size",
+          "similarity": 0.54386
+        },
+        {
+          "fqn": "pandas.io.formats.style.Styler._applymap",
+          "similarity": 0.539683
+        },
+        {
+          "fqn": "pandas.core.categorical.Categorical._slice",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimes.DatetimeIndex.searchsorted",
+          "similarity": 0.532258
+        },
+        {
+          "fqn": "pandas.plotting._converter.TimeSeries_DateLocator.autoscale",
+          "similarity": 0.532258
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.swaplevel",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.to_hierarchical",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "pandas.core.internals.BlockManager.set_axis",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.map",
+          "similarity": 0.530303
+        },
+        {
+          "fqn": "pandas.core.indexing._NDFrameIndexer._get_label",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.count",
+          "similarity": 0.526316
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.base.Index.insert",
+        "pandas.core.indexes.base.Index.drop",
+        "pandas.io.stata.StataReader._insert_strls",
+        "pandas.core.frame.DataFrame.drop_duplicates",
+        "pandas.core.frame.DataFrame.swaplevel",
+        "pandas.core.indexes.base.Index.map"
+      ],
+      "entered_iter": [
+        "pandas.core.indexes.category.CategoricalIndex.insert"
+      ],
+      "pruned": [
+        "pandas.core.indexes.period.PeriodIndex.insert",
+        "pandas.core.indexes.interval.IntervalIndex.insert",
+        "pandas.core.sparse.frame.SparseDataFrame.xs",
+        "pandas.core.generic.NDFrame.last",
+        "pandas.core.groupby.BaseGrouper.size",
+        "pandas.io.formats.style.Styler._applymap",
+        "pandas.core.categorical.Categorical._slice",
+        "pandas.core.indexes.datetimes.DatetimeIndex.searchsorted",
+        "pandas.plotting._converter.TimeSeries_DateLocator.autoscale",
+        "pandas.core.indexes.multi.MultiIndex.to_hierarchical",
+        "pandas.core.internals.BlockManager.set_axis",
+        "pandas.core.indexing._NDFrameIndexer._get_label",
+        "pandas.core.panel.Panel.count"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.indexes.category.CategoricalIndex.insert",
+      "path_score": 0.298565,
+      "boundary": "DEPRECATED",
+      "vpre": "1.1.5",
+      "vpost": "1.2.0",
+      "resolved_fqn": "pandas.core.indexes.category.CategoricalIndex.insert",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexes.base.Index.insert",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "pandas.core.indexes.extension.NDArrayBackedExtensionIndex.insert",
+          "similarity": 0.590909
+        },
+        {
+          "fqn": "pandas.core.series.Series._set_labels",
+          "similarity": 0.590164
+        },
+        {
+          "fqn": "pandas.core.indexes.extension.ExtensionIndex.__getitem__",
+          "similarity": 0.576271
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.insert",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex._union",
+          "similarity": 0.546875
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.mode",
+          "similarity": 0.542373
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.insert",
+          "similarity": 0.542373
+        },
+        {
+          "fqn": "pandas.core.groupby.ops.BaseGrouper.size",
+          "similarity": 0.540984
+        },
+        {
+          "fqn": "pandas.core.reshape.reshape._Unstacker.get_result",
+          "similarity": 0.540541
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.find",
+          "similarity": 0.539683
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.index",
+          "similarity": 0.539683
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.rfind",
+          "similarity": 0.539683
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.rindex",
+          "similarity": 0.539683
+        },
+        {
+          "fqn": "pandas.plotting._matplotlib.converter.TimeSeries_DateLocator.autoscale",
+          "similarity": 0.532258
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex.copy",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray.fillna",
+          "similarity": 0.528571
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.dropna",
+          "similarity": 0.528571
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.stack",
+          "similarity": 0.525424
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray._validate_scalar",
+          "similarity": 0.523077
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.base.Index.insert",
+        "pandas.core.series.Series._set_labels",
+        "pandas.core.indexes.multi.MultiIndex._union",
+        "pandas.core.frame.DataFrame.insert",
+        "pandas.core.groupby.ops.BaseGrouper.size",
+        "pandas.core.reshape.reshape._Unstacker.get_result",
+        "pandas.core.strings.accessor.StringMethods.find",
+        "pandas.core.strings.accessor.StringMethods.index",
+        "pandas.core.strings.accessor.StringMethods.rfind",
+        "pandas.core.strings.accessor.StringMethods.rindex",
+        "pandas.plotting._matplotlib.converter.TimeSeries_DateLocator.autoscale",
+        "pandas.core.indexes.range.RangeIndex.copy",
+        "pandas.core.arrays.interval.IntervalArray.fillna",
+        "pandas.core.indexes.multi.MultiIndex.dropna",
+        "pandas.core.frame.DataFrame.stack",
+        "pandas.core.arrays.interval.IntervalArray._validate_scalar"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.indexes.extension.NDArrayBackedExtensionIndex.insert",
+        "pandas.core.indexes.extension.ExtensionIndex.__getitem__",
+        "pandas.core.indexes.interval.IntervalIndex.insert",
+        "pandas.core.arrays.categorical.Categorical.mode"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.strings.StringMethods.partition",
+      "path_score": 0.298103,
+      "boundary": "DEPRECATED",
+      "vpre": "1.5.3",
+      "vpost": "2.0.0",
+      "resolved_fqn": "pandas.core.strings.StringMethods.partition",
+      "resolved_kind": "unknown",
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "empty_recommend"
+    },
+    {
+      "fqn": "pandas.core.strings.StringMethods.rpartition",
+      "path_score": 0.298103,
+      "boundary": "DEPRECATED",
+      "vpre": "1.5.3",
+      "vpost": "2.0.0",
+      "resolved_fqn": "pandas.core.strings.StringMethods.rpartition",
+      "resolved_kind": "unknown",
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "empty_recommend"
+    },
+    {
+      "fqn": "pandas.tseries.offsets.YearOffset.apply",
+      "path_score": 0.298103,
+      "boundary": "DEPRECATED",
+      "vpre": "1.0.5",
+      "vpost": "1.1.0",
+      "resolved_fqn": "pandas.tseries.offsets.YearOffset.apply",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestBusinessHour.test_sub",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.arrays.period.PeriodArray._sub_period",
+          "similarity": 0.519231
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Term.update",
+          "similarity": 0.512195
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.normalize",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.delete",
+          "similarity": 0.489362
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.get_dummies",
+          "similarity": 0.480769
+        },
+        {
+          "fqn": "pandas.core.computation.scope.Scope.add_tmp",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.apply",
+          "similarity": 0.468085
+        },
+        {
+          "fqn": "pandas.core.computation.engines.NumExprEngine._evaluate",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestBusinessDay.test_apply",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestBusinessHour.test_apply",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessDay.test_apply",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessHour.test_apply",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessMonthBegin.test_apply",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessMonthEnd.test_apply",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler._apply_loffset",
+          "similarity": 0.465517
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.where",
+          "similarity": 0.46
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.ExtensionBlock.fillna",
+          "similarity": 0.46
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex._concat",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.partition",
+          "similarity": 0.458333
+        }
+      ],
+      "entered_final": [
+        "pandas.core.computation.ops.Term.update",
+        "pandas.core.computation.scope.Scope.add_tmp",
+        "pandas.core.frame.DataFrame.apply",
+        "pandas.core.computation.engines.NumExprEngine._evaluate",
+        "pandas.core.internals.blocks.ExtensionBlock.fillna"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.tests.tseries.offsets.test_offsets.TestBusinessHour.test_sub",
+        "pandas.core.arrays.period.PeriodArray._sub_period",
+        "pandas.core.strings.StringMethods.normalize",
+        "pandas.core.indexes.interval.IntervalIndex.delete",
+        "pandas.core.strings.StringMethods.get_dummies",
+        "pandas.tests.tseries.offsets.test_offsets.TestBusinessDay.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestBusinessHour.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessDay.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessHour.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessMonthBegin.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessMonthEnd.test_apply",
+        "pandas.core.resample.Resampler._apply_loffset",
+        "pandas.core.indexes.interval.IntervalIndex.where",
+        "pandas.core.indexes.category.CategoricalIndex._concat",
+        "pandas.core.strings.StringMethods.partition"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.strings.StringMethods.normalize",
+      "path_score": 0.295906,
+      "boundary": "DEPRECATED",
+      "vpre": "1.5.3",
+      "vpost": "2.0.0",
+      "resolved_fqn": "pandas.core.strings.StringMethods.normalize",
+      "resolved_kind": "unknown",
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "empty_recommend"
+    },
+    {
+      "fqn": "pandas.tseries.offsets.QuarterOffset.apply_index",
+      "path_score": 0.291005,
+      "boundary": "DEPRECATED",
+      "vpre": "1.0.5",
+      "vpost": "1.1.0",
+      "resolved_fqn": "pandas.tseries.offsets.QuarterOffset.apply_index",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.computation.engines.NumExprEngine._evaluate",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift",
+          "similarity": 0.520833
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.delete",
+          "similarity": 0.510638
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.510204
+        },
+        {
+          "fqn": "pandas.tests.io.pytables.test_store.TestHDFStore.test_float_index",
+          "similarity": 0.509804
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler._apply_loffset",
+          "similarity": 0.508772
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.equals",
+          "similarity": 0.490566
+        },
+        {
+          "fqn": "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__getitem__",
+          "similarity": 0.490196
+        },
+        {
+          "fqn": "pandas.io.pytables.SeriesFixed.write",
+          "similarity": 0.489362
+        },
+        {
+          "fqn": "pandas.tests.extension.base.methods.BaseMethodsTests.test_apply_simple_series",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray.isna",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "pandas.tests.io.test_sql.TestSQLApi._get_index_columns",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "pandas.tests.io.test_sql._TestSQLAlchemy._get_index_columns",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray.copy",
+          "similarity": 0.479167
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex._concat",
+          "similarity": 0.479167
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.accessor.SparseFrameAccessor.to_dense",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "pandas.tests.frame.apply.test_frame_apply.TestDataFrameApply.test_apply_axis1",
+          "similarity": 0.471698
+        },
+        {
+          "fqn": "pandas.core.apply.FrameApply.apply_raw",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.shift",
+          "similarity": 0.470588
+        }
+      ],
+      "entered_final": [
+        "pandas.core.computation.engines.NumExprEngine._evaluate",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.core.arrays.categorical.Categorical.equals",
+        "pandas.io.pytables.SeriesFixed.write",
+        "pandas.tests.extension.base.methods.BaseMethodsTests.test_apply_simple_series",
+        "pandas.core.arrays.sparse.array.SparseArray.isna",
+        "pandas.core.arrays.interval.IntervalArray.copy",
+        "pandas.core.arrays.sparse.accessor.SparseFrameAccessor.to_dense",
+        "pandas.core.apply.FrameApply.apply_raw"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.indexes.interval.IntervalIndex.delete",
+        "pandas.tests.io.pytables.test_store.TestHDFStore.test_float_index",
+        "pandas.core.resample.Resampler._apply_loffset",
+        "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__getitem__",
+        "pandas.tests.io.test_sql.TestSQLApi._get_index_columns",
+        "pandas.tests.io.test_sql._TestSQLAlchemy._get_index_columns",
+        "pandas.core.indexes.category.CategoricalIndex._concat",
+        "pandas.core.strings.StringMethods.__getitem__",
+        "pandas.tests.frame.apply.test_frame_apply.TestDataFrameApply.test_apply_axis1",
+        "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.shift"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.offsets.SemiMonthEnd._apply",
+      "path_score": 0.290691,
+      "boundary": "DEPRECATED",
+      "vpre": "1.0.5",
+      "vpost": "1.1.0",
+      "resolved_fqn": "pandas.tseries.offsets.SemiMonthEnd._apply",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.frame.DataFrame.apply",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "pandas.tests.arrays.test_datetimelike.TestDatetimeArray.arr1d",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.ExtensionBlock.setitem",
+          "similarity": 0.452381
+        },
+        {
+          "fqn": "pandas.io.formats.style.Styler._compute",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "pandas.tests.plotting.common.TestPlotBase._flatten_visible",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "pandas.tseries.holiday.AbstractHolidayCalendar.merge",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.DatetimeLikeBlockMixin.shift",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.normalize",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestBusinessDay.test_apply",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestBusinessHour.test_apply",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessDay.test_apply",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessHour.test_apply",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessMonthBegin.test_apply",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessMonthEnd.test_apply",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "pandas.tests.scalar.interval.test_interval.TestInterval.test_length",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex._concat",
+          "similarity": 0.431818
+        },
+        {
+          "fqn": "pandas.core.series.Series._set_name",
+          "similarity": 0.431818
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.partition",
+          "similarity": 0.431818
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.rpartition",
+          "similarity": 0.431818
+        },
+        {
+          "fqn": "pandas.tests.io.formats.test_style.TestStyler.test_apply_bad_return",
+          "similarity": 0.431373
+        }
+      ],
+      "entered_final": [
+        "pandas.core.frame.DataFrame.apply",
+        "pandas.tests.arrays.test_datetimelike.TestDatetimeArray.arr1d",
+        "pandas.tseries.holiday.AbstractHolidayCalendar.merge",
+        "pandas.tests.scalar.interval.test_interval.TestInterval.test_length",
+        "pandas.core.series.Series._set_name"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.internals.blocks.ExtensionBlock.setitem",
+        "pandas.io.formats.style.Styler._compute",
+        "pandas.tests.plotting.common.TestPlotBase._flatten_visible",
+        "pandas.core.internals.blocks.DatetimeLikeBlockMixin.shift",
+        "pandas.core.strings.StringMethods.normalize",
+        "pandas.tests.tseries.offsets.test_offsets.TestBusinessDay.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestBusinessHour.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessDay.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessHour.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessMonthBegin.test_apply",
+        "pandas.tests.tseries.offsets.test_offsets.TestCustomBusinessMonthEnd.test_apply",
+        "pandas.core.indexes.category.CategoricalIndex._concat",
+        "pandas.core.strings.StringMethods.partition",
+        "pandas.core.strings.StringMethods.rpartition",
+        "pandas.tests.io.formats.test_style.TestStyler.test_apply_bad_return"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__",
+      "path_score": 0.290637,
+      "boundary": "DEPRECATED",
+      "vpre": "0.25.3",
+      "vpost": "1.0.0",
+      "resolved_fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tests.extension.list.array.ListArray.__getitem__",
+          "similarity": 0.757576
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__getitem__",
+          "similarity": 0.722222
+        },
+        {
+          "fqn": "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__getitem__",
+          "similarity": 0.707317
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.7
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.__getitem__",
+          "similarity": 0.69697
+        },
+        {
+          "fqn": "pandas.core.indexes.extension.ExtensionIndex.__getitem__",
+          "similarity": 0.692308
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.685714
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__getitem__",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "pandas.core.arrays.masked.BaseMaskedArray.__getitem__",
+          "similarity": 0.622222
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.astype",
+          "similarity": 0.585366
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray.isna",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.__contains__",
+          "similarity": 0.560976
+        },
+        {
+          "fqn": "pandas.tseries.offsets.DateOffset.rollback",
+          "similarity": 0.560976
+        },
+        {
+          "fqn": "pandas.tseries.offsets.DateOffset.rollforward",
+          "similarity": 0.560976
+        },
+        {
+          "fqn": "pandas.core.indexes.numeric.NumericIndex.insert",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "pandas.core.internals.managers.BlockManager.consolidate",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__delitem__",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.repeat",
+          "similarity": 0.547619
+        },
+        {
+          "fqn": "pandas.tests.extension.test_common.DummyArray.astype",
+          "similarity": 0.547619
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift",
+          "similarity": 0.540541
+        }
+      ],
+      "entered_final": [
+        "pandas.tests.extension.list.array.ListArray.__getitem__",
+        "pandas.plotting._misc._Options.__getitem__",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.core.indexes.frozen.FrozenList.__getitem__",
+        "pandas.core.arrays.masked.BaseMaskedArray.__getitem__",
+        "pandas.tests.extension.decimal.array.DecimalArray.astype",
+        "pandas.core.arrays.sparse.array.SparseArray.isna",
+        "pandas.core.arrays.categorical.Categorical.__contains__",
+        "pandas.plotting._misc._Options.__delitem__",
+        "pandas.tests.extension.test_common.DummyArray.astype",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__getitem__",
+        "pandas.core.indexes.interval.IntervalIndex.__getitem__",
+        "pandas.core.indexes.extension.ExtensionIndex.__getitem__",
+        "pandas.core.strings.StringMethods.__getitem__",
+        "pandas.tseries.offsets.DateOffset.rollback",
+        "pandas.tseries.offsets.DateOffset.rollforward",
+        "pandas.core.indexes.numeric.NumericIndex.insert",
+        "pandas.core.internals.managers.BlockManager.consolidate",
+        "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.repeat"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.plotting._style._Options.__setitem__",
+      "path_score": 0.286456,
+      "boundary": "DEPRECATED",
+      "vpre": "0.24.2",
+      "vpost": "0.25.0",
+      "resolved_fqn": "pandas.plotting._style._Options.__setitem__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.plotting._misc._Options.__setitem__",
+          "similarity": 0.827586
+        },
+        {
+          "fqn": "pandas.core.series.Series.map",
+          "similarity": 0.594595
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__",
+          "similarity": 0.552632
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.ExtensionBlock.setitem",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__contains__",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.DatetimeTZBlock.setitem",
+          "similarity": 0.543478
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.SparseArray.isna",
+          "similarity": 0.540541
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical._set_dtype",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.indexes.numeric.NumericIndex.insert",
+          "similarity": 0.525
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__delitem__",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__getitem__",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.diff",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.sparse.series.SparseSeries.__getitem__",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray._add_delta",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays.numpy_.PandasArray.take",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby.GroupBy.cumcount",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby.GroupByPlot.__getattr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.unique",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.delete",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "pandas.plotting._misc._Options.__setitem__",
+        "pandas.core.series.Series.map",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift",
+        "pandas.plotting._misc._Options.__contains__",
+        "pandas.core.arrays.categorical.Categorical._set_dtype",
+        "pandas.plotting._misc._Options.__delitem__",
+        "pandas.plotting._misc._Options.__getitem__",
+        "pandas.core.frame.DataFrame.diff",
+        "pandas.core.groupby.groupby.GroupBy.cumcount",
+        "pandas.core.groupby.groupby.GroupByPlot.__getattr__",
+        "pandas.core.indexes.base.Index.unique"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.indexes.timedeltas.TimedeltaIndex.__getitem__",
+        "pandas.core.internals.blocks.ExtensionBlock.setitem",
+        "pandas.core.internals.blocks.DatetimeTZBlock.setitem",
+        "pandas.core.arrays.sparse.SparseArray.isna",
+        "pandas.core.indexes.numeric.NumericIndex.insert",
+        "pandas.core.sparse.series.SparseSeries.__getitem__",
+        "pandas.core.arrays.datetimes.DatetimeArray._add_delta",
+        "pandas.core.arrays.numpy_.PandasArray.take",
+        "pandas.core.indexes.interval.IntervalIndex.delete"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.offsets.YearOffset.apply_index",
+      "path_score": 0.284238,
+      "boundary": "DEPRECATED",
+      "vpre": "1.0.5",
+      "vpost": "1.1.0",
+      "resolved_fqn": "pandas.tseries.offsets.YearOffset.apply_index",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tests.io.pytables.test_store.TestHDFStore.test_float_index",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.computation.engines.NumExprEngine._evaluate",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift",
+          "similarity": 0.510204
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.delete",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler._apply_loffset",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.apply.FrameApply.apply_raw",
+          "similarity": 0.490196
+        },
+        {
+          "fqn": "pandas.tests.series.test_alter_axes.TestSeriesAlterAxes.test_set_index_makes_timeseries",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.equals",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "pandas.tests.series.apply.test_series_apply.TestSeriesApply.test_apply_dont_convert_dtype",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__getitem__",
+          "similarity": 0.480769
+        },
+        {
+          "fqn": "pandas.io.pytables.SeriesFixed.write",
+          "similarity": 0.479167
+        },
+        {
+          "fqn": "pandas.tests.extension.base.methods.BaseMethodsTests.test_apply_simple_series",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray.isna",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "pandas.tests.io.test_sql.TestSQLApi._get_index_columns",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.tests.io.test_sql._TestSQLAlchemy._get_index_columns",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray.copy",
+          "similarity": 0.469388
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex._concat",
+          "similarity": 0.469388
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.accessor.SparseFrameAccessor.to_dense",
+          "similarity": 0.468085
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.466667
+        }
+      ],
+      "entered_final": [
+        "pandas.core.computation.engines.NumExprEngine._evaluate",
+        "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.shift",
+        "pandas.tests.extension.decimal.array.DecimalArray.__getitem__",
+        "pandas.core.apply.FrameApply.apply_raw",
+        "pandas.core.arrays.categorical.Categorical.equals",
+        "pandas.io.pytables.SeriesFixed.write",
+        "pandas.tests.extension.base.methods.BaseMethodsTests.test_apply_simple_series",
+        "pandas.core.arrays.sparse.array.SparseArray.isna",
+        "pandas.core.arrays.interval.IntervalArray.copy",
+        "pandas.core.arrays.sparse.accessor.SparseFrameAccessor.to_dense"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.tests.io.pytables.test_store.TestHDFStore.test_float_index",
+        "pandas.core.indexes.interval.IntervalIndex.delete",
+        "pandas.core.resample.Resampler._apply_loffset",
+        "pandas.tests.series.test_alter_axes.TestSeriesAlterAxes.test_set_index_makes_timeseries",
+        "pandas.tests.series.apply.test_series_apply.TestSeriesApply.test_apply_dont_convert_dtype",
+        "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__getitem__",
+        "pandas.tests.io.test_sql.TestSQLApi._get_index_columns",
+        "pandas.tests.io.test_sql._TestSQLAlchemy._get_index_columns",
+        "pandas.core.indexes.category.CategoricalIndex._concat",
+        "pandas.core.strings.StringMethods.__getitem__"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.indexes.period.PeriodIndex._apply_meta",
+      "path_score": 0.283041,
+      "boundary": "DEPRECATED",
+      "vpre": "1.0.5",
+      "vpost": "1.1.0",
+      "resolved_fqn": "pandas.core.indexes.period.PeriodIndex._apply_meta",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.computation.ops.Term.update",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.accessor.SparseFrameAccessor._validate",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.strings.StringMethods.__getitem__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.accessor.CachedAccessor.__get__",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.mgr_locs",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.arrays.timedeltas.TimedeltaArray._unbox_scalar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.apply",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.base.methods.BaseMethodsTests.test_apply_simple_series",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.list.array.ListArray.__getitem__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__delitem__",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.delete",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "pandas.core.apply.FrameApply.apply_standard",
+          "similarity": 0.485714
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.DatetimeTZBlock._maybe_coerce_values",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "pandas.core.computation.pytables.BinOp.conform",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.ExtensionBlock.setitem",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "pandas.core.arrays.integer.IntegerArray.sum",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__eq__",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "pandas.tests.extension.list.array.ListArray.isna",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "pandas.tests.frame.apply.test_frame_apply.TestDataFrameApply.test_apply_yield_list",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.accessor.SparseAccessor._validate",
+          "similarity": 0.470588
+        }
+      ],
+      "entered_final": [
+        "pandas.core.computation.ops.Term.update",
+        "pandas.core.arrays.sparse.accessor.SparseFrameAccessor._validate",
+        "pandas.core.internals.blocks.Block.mgr_locs",
+        "pandas.core.arrays.timedeltas.TimedeltaArray._unbox_scalar",
+        "pandas.core.internals.blocks.Block.apply",
+        "pandas.tests.extension.base.methods.BaseMethodsTests.test_apply_simple_series",
+        "pandas.tests.extension.list.array.ListArray.__getitem__",
+        "pandas.plotting._misc._Options.__delitem__",
+        "pandas.core.indexes.multi.MultiIndex.delete",
+        "pandas.core.apply.FrameApply.apply_standard",
+        "pandas.core.computation.pytables.BinOp.conform",
+        "pandas.tests.extension.list.array.ListArray.isna",
+        "pandas.core.arrays.sparse.accessor.SparseAccessor._validate"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.strings.StringMethods.__getitem__",
+        "pandas.core.accessor.CachedAccessor.__get__",
+        "pandas.core.internals.blocks.DatetimeTZBlock._maybe_coerce_values",
+        "pandas.core.internals.blocks.ExtensionBlock.setitem",
+        "pandas.core.arrays.integer.IntegerArray.sum",
+        "pandas.tests.extension.arrow.arrays.ArrowExtensionArray.__eq__",
+        "pandas.tests.frame.apply.test_frame_apply.TestDataFrameApply.test_apply_yield_list"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.offsets.DateOffset.__eq__",
+      "path_score": 0.282635,
+      "boundary": "DEPRECATED",
+      "vpre": "0.23.4",
+      "vpost": "0.24.0",
+      "resolved_fqn": "pandas.tseries.offsets.DateOffset.__eq__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.tseries.offsets.Tick.__eq__",
+          "similarity": 0.787234
+        },
+        {
+          "fqn": "pandas.tseries.offsets.Tick.__ne__",
+          "similarity": 0.647059
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.IntervalDtype.__eq__",
+          "similarity": 0.615385
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__",
+          "similarity": 0.603774
+        },
+        {
+          "fqn": "pandas.core.dtypes.base._DtypeOpsMixin.__eq__",
+          "similarity": 0.596774
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.equals",
+          "similarity": 0.553846
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.PeriodDtype.__eq__",
+          "similarity": 0.54717
+        },
+        {
+          "fqn": "pandas.core.arrays.integer.IntegerArray.astype",
+          "similarity": 0.542373
+        },
+        {
+          "fqn": "pandas.core.arrays.period.PeriodArray._unbox_scalar",
+          "similarity": 0.542373
+        },
+        {
+          "fqn": "pandas.core.indexes.frozen.FrozenList.__eq__",
+          "similarity": 0.54
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimes.DatetimeIndex.__getitem__",
+          "similarity": 0.534483
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.Registry.find",
+          "similarity": 0.530303
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.equals",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.io.pytables.Table.validate_min_itemsize",
+          "similarity": 0.522388
+        },
+        {
+          "fqn": "pandas.core.arrays.numpy_.PandasArray.__getitem__",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "pandas.core.arrays.period.PeriodArray.astype",
+          "similarity": 0.509091
+        },
+        {
+          "fqn": "pandas.tests.extension.json.array.JSONArray.astype",
+          "similarity": 0.508475
+        },
+        {
+          "fqn": "pandas.core.panel.Panel.__getitem__",
+          "similarity": 0.507692
+        },
+        {
+          "fqn": "pandas.core.indexing._NDFrameIndexer._get_label",
+          "similarity": 0.507246
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.__array__",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "pandas.core.dtypes.dtypes.IntervalDtype.__eq__",
+        "pandas.core.dtypes.dtypes.DatetimeTZDtype.__eq__",
+        "pandas.core.indexes.category.CategoricalIndex.equals",
+        "pandas.core.dtypes.dtypes.PeriodDtype.__eq__",
+        "pandas.core.arrays.period.PeriodArray._unbox_scalar",
+        "pandas.core.indexes.frozen.FrozenList.__eq__",
+        "pandas.io.pytables.Table.validate_min_itemsize",
+        "pandas.core.arrays.period.PeriodArray.astype",
+        "pandas.tests.extension.json.array.JSONArray.astype",
+        "pandas.core.arrays.categorical.Categorical.__array__"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.tseries.offsets.Tick.__eq__",
+        "pandas.tseries.offsets.Tick.__ne__",
+        "pandas.core.dtypes.base._DtypeOpsMixin.__eq__",
+        "pandas.core.arrays.integer.IntegerArray.astype",
+        "pandas.core.indexes.datetimes.DatetimeIndex.__getitem__",
+        "pandas.core.dtypes.dtypes.Registry.find",
+        "pandas.core.indexes.interval.IntervalIndex.equals",
+        "pandas.core.arrays.numpy_.PandasArray.__getitem__",
+        "pandas.core.panel.Panel.__getitem__",
+        "pandas.core.indexing._NDFrameIndexer._get_label"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.compat.chainmap.DeepChainMap.__delitem__",
+      "path_score": 0.282195,
+      "boundary": "DEPRECATED",
+      "vpre": "1.5.3",
+      "vpost": "2.0.0",
+      "resolved_fqn": "pandas.compat.chainmap.DeepChainMap.__delitem__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.computation.scope.DeepChainMap.__delitem__",
+          "similarity": 0.857143
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__delitem__",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "pandas.core.flags.Flags.__getitem__",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "pandas.core.indexing._iAtIndexer._convert_key",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "pandas.tests.extension.list.array.ListArray.__getitem__",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "pandas.tests.indexing.test_loc.TestLocWithEllipsis.obj",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__getitem__",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.accessor.SparseFrameAccessor._validate",
+          "similarity": 0.432432
+        },
+        {
+          "fqn": "pandas.core.arrays.timedeltas.TimedeltaArray.__mod__",
+          "similarity": 0.432432
+        },
+        {
+          "fqn": "pandas.core.arrays.timedeltas.TimedeltaArray.__rmod__",
+          "similarity": 0.432432
+        },
+        {
+          "fqn": "pandas.core.accessor.CachedAccessor.__get__",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "pandas.core.computation.expr.BaseExprVisitor.visit_Module",
+          "similarity": 0.418605
+        },
+        {
+          "fqn": "pandas.core.computation.scope.DeepChainMap.__setitem__",
+          "similarity": 0.418605
+        },
+        {
+          "fqn": "pandas.plotting._matplotlib.core.MPLPlot.on_right",
+          "similarity": 0.418605
+        },
+        {
+          "fqn": "pandas.core.arrays._mixins.NDArrayBackedExtensionArray.__setitem__",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Term.update",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "pandas.core.flags.Flags.__setitem__",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "pandas.tests.series.indexing.test_setitem.TestSetitemDT64IntoInt.val",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "pandas.tests.series.test_iteration.TestIteration.test_iter_datetimes",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "pandas.tests.series.test_iteration.TestIteration.test_iter_strings",
+          "similarity": 0.416667
+        }
+      ],
+      "entered_final": [
+        "pandas.core.computation.scope.DeepChainMap.__delitem__",
+        "pandas.plotting._misc._Options.__delitem__",
+        "pandas.core.flags.Flags.__getitem__",
+        "pandas.core.indexing._iAtIndexer._convert_key",
+        "pandas.tests.extension.list.array.ListArray.__getitem__",
+        "pandas.tests.indexing.test_loc.TestLocWithEllipsis.obj",
+        "pandas.plotting._misc._Options.__getitem__",
+        "pandas.core.arrays.sparse.accessor.SparseFrameAccessor._validate",
+        "pandas.core.arrays.timedeltas.TimedeltaArray.__mod__",
+        "pandas.core.arrays.timedeltas.TimedeltaArray.__rmod__",
+        "pandas.core.computation.expr.BaseExprVisitor.visit_Module",
+        "pandas.core.computation.scope.DeepChainMap.__setitem__",
+        "pandas.plotting._matplotlib.core.MPLPlot.on_right",
+        "pandas.core.arrays._mixins.NDArrayBackedExtensionArray.__setitem__",
+        "pandas.core.computation.ops.Term.update",
+        "pandas.core.flags.Flags.__setitem__",
+        "pandas.tests.series.indexing.test_setitem.TestSetitemDT64IntoInt.val",
+        "pandas.tests.series.test_iteration.TestIteration.test_iter_datetimes",
+        "pandas.tests.series.test_iteration.TestIteration.test_iter_strings"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.accessor.CachedAccessor.__get__"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.sparse.list.SparseList.consolidate",
+      "path_score": 0.281133,
+      "boundary": "DEPRECATED",
+      "vpre": "0.22.0",
+      "vpost": "0.23.0",
+      "resolved_fqn": "pandas.core.sparse.list.SparseList.consolidate",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.generic.NDFrame._consolidate",
+          "similarity": 0.653061
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.set_ordered",
+          "similarity": 0.62
+        },
+        {
+          "fqn": "pandas.tseries.offsets.Tick.__eq__",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "pandas.tseries.offsets.Tick.__ne__",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "pandas.core.internals.BlockManager.consolidate",
+          "similarity": 0.581395
+        },
+        {
+          "fqn": "pandas.core.computation.pytables.BinOp.conform",
+          "similarity": 0.577778
+        },
+        {
+          "fqn": "pandas.core.series.Series._set_name",
+          "similarity": 0.577778
+        },
+        {
+          "fqn": "pandas.core.base.PandasObject.__sizeof__",
+          "similarity": 0.566038
+        },
+        {
+          "fqn": "pandas.core.sparse.array.SparseArray.memory_usage",
+          "similarity": 0.55102
+        },
+        {
+          "fqn": "pandas.core.base.IndexOpsMixin.unique",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.core.sparse.frame.SparseDataFrame.copy",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "pandas.core.series.Series.to_timestamp",
+          "similarity": 0.537037
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.astype",
+          "similarity": 0.535714
+        },
+        {
+          "fqn": "pandas.core.series.Series.cov",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.equals",
+          "similarity": 0.528302
+        },
+        {
+          "fqn": "pandas.core.arrays.base.ExtensionArray.argsort",
+          "similarity": 0.527273
+        },
+        {
+          "fqn": "pandas.core.base.IndexOpsMixin.memory_usage",
+          "similarity": 0.527273
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby.GroupBy.ngroup",
+          "similarity": 0.519231
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.sort_values",
+          "similarity": 0.519231
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.to_tuples",
+          "similarity": 0.519231
+        }
+      ],
+      "entered_final": [
+        "pandas.core.generic.NDFrame._consolidate",
+        "pandas.core.arrays.categorical.Categorical.set_ordered",
+        "pandas.core.computation.pytables.BinOp.conform",
+        "pandas.core.series.Series._set_name",
+        "pandas.core.base.PandasObject.__sizeof__",
+        "pandas.core.base.IndexOpsMixin.unique",
+        "pandas.core.series.Series.to_timestamp",
+        "pandas.core.arrays.categorical.Categorical.astype",
+        "pandas.core.series.Series.cov",
+        "pandas.core.arrays.categorical.Categorical.equals",
+        "pandas.core.arrays.base.ExtensionArray.argsort",
+        "pandas.core.groupby.groupby.GroupBy.ngroup",
+        "pandas.core.indexes.base.Index.sort_values"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.tseries.offsets.Tick.__eq__",
+        "pandas.tseries.offsets.Tick.__ne__",
+        "pandas.core.internals.BlockManager.consolidate",
+        "pandas.core.sparse.array.SparseArray.memory_usage",
+        "pandas.core.sparse.frame.SparseDataFrame.copy",
+        "pandas.core.base.IndexOpsMixin.memory_usage",
+        "pandas.core.indexes.interval.IntervalIndex.to_tuples"
+      ],
+      "prune_bound": 0.281133,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tseries.offsets.MonthOffset.apply_index",
+      "path_score": 0.279365,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.indexes.frozen.FrozenList.__add__",
+      "path_score": 0.27853,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.compat.__init__._OrderedDict.__eq__",
+      "path_score": 0.277845,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.categorical.Categorical.__array__",
+      "path_score": 0.276361,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.indexes.datetimes.DatetimeIndex.__getitem__",
+      "path_score": 0.274182,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.indexes.timedeltas.TimedeltaIndex.__setstate__",
+      "path_score": 0.274001,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.arrays.period.PeriodArray._time_shift",
+      "path_score": 0.272787,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.internals.CategoricalBlock._astype",
+      "path_score": 0.272695,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.indexes.interval.IntervalIndex.astype",
+      "path_score": 0.272109,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.io.common.MMapWrapper.__next__",
+      "path_score": 0.272109,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.io.pytables.SparseFixed.validate_read",
+      "path_score": 0.271616,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.window._Window.__getattr__",
+      "path_score": 0.270951,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.indexes.period.PeriodIndex.memory_usage",
+      "path_score": 0.270951,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.groupby.generic.PanelGroupBy.aggregate",
+      "path_score": 0.270833,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.groupby.BaseGrouper.indices",
+      "path_score": 0.270312,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.tests.series.test_dtypes.TestSeriesDtypes.test_astype",
+      "path_score": 0.270108,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.base.IndexOpsMixin.duplicated",
+      "path_score": 0.268966,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.groupby.groupby._GroupBy.__getattr__",
+      "path_score": 0.268667,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.indexes.numeric.NumericIndex.insert",
+      "path_score": 0.266925,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.indexes.interval.IntervalIndex.set_closed",
+      "path_score": 0.265532,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.groupby.BaseGrouper.groups",
+      "path_score": 0.265306,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.indexes.base.Index.insert",
+      "path_score": 0.265306,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.io.pytables.IndexCol.infer",
+      "path_score": 0.265306,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.tseries.base.DatetimeIndexOpsMixin.map",
+      "path_score": 0.265306,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.tseries.resample.DatetimeIndexResampler._wrap_result",
+      "path_score": 0.265306,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.util.testing.SimpleMock.__getattribute__",
+      "path_score": 0.265306,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.arrays.numpy_.PandasArray.__getitem__",
+      "path_score": 0.264727,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.arrays.integer.IntegerArray.astype",
+      "path_score": 0.264561,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.plotting._style._Options.__contains__",
+      "path_score": 0.261866,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.io.json.json.JSONTableWriter.write",
+      "path_score": 0.261257,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.panel.Panel.shift",
+      "path_score": 0.260993,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.swaplevel",
+      "path_score": 0.260482,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.sparse.array.SparseArray.values",
+      "path_score": 0.2603,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.computation.pytables.BinOp.conform",
+      "path_score": 0.259892,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.categorical.Categorical.dropna",
+      "path_score": 0.259892,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.tseries.tdi.TimedeltaIndex.__setstate__",
+      "path_score": 0.25941,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.tseries.offsets.WeekOfMonth.onOffset",
+      "path_score": 0.25548,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.tseries.tdi.TimedeltaIndex.searchsorted",
+      "path_score": 0.25548,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.tseries.tests.test_period.TestPeriodIndex.test_iteration",
+      "path_score": 0.25548,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.clip_lower",
+      "path_score": 0.255319,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.clip_upper",
+      "path_score": 0.255319,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.repeat",
+      "path_score": 0.250109,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.281133,
+      "dead_reason": "pruned_at_pop"
+    }
+  ]
+}

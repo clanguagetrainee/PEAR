@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.23.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.indexes.multi.MultiIndex.set_labels",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.core.indexes.base.Index._validate_names",
+      "api_type": "method",
+      "similarity": 0.5637583892617449,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.multi.MultiIndex._set_names",
+      "api_type": "method",
+      "similarity": 0.535483870967742,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.string_arrow.ArrowStringArray._maybe_convert_setitem_value",
+      "api_type": "method",
+      "similarity": 0.5068493150684932,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.Table.validate_data_columns",
+      "api_type": "method",
+      "similarity": 0.5068493150684932,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.string_.StringArray._maybe_convert_setitem_value",
+      "api_type": "method",
+      "similarity": 0.5067567567567568,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.multi.MultiIndex.to_frame",
+      "api_type": "method",
+      "similarity": 0.5064935064935064,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.multi.MultiIndex._raise_if_missing",
+      "api_type": "method",
+      "similarity": 0.4896551724137931,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.html._BeautifulSoupHtml5LibFrameParser._parse_tables",
+      "api_type": "method",
+      "similarity": 0.48344370860927155,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.frame.DataFrame.isetitem",
+      "api_type": "method",
+      "similarity": 0.48201438848920863,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.interval.IntervalArray._validate",
+      "api_type": "method",
+      "similarity": 0.4791666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.plotting._matplotlib.core.MPLPlot._validate_color_args",
+      "api_type": "method",
+      "similarity": 0.4759036144578313,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.groupby.GroupBy._transform",
+      "api_type": "method",
+      "similarity": 0.474025974025974,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.string_.StringArray.__setitem__",
+      "api_type": "method",
+      "similarity": 0.47297297297297297,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.sparse.accessor.SparseFrameAccessor._prep_index",
+      "api_type": "method",
+      "similarity": 0.47101449275362317,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.groupby.GroupBy.apply",
+      "api_type": "method",
+      "similarity": 0.47019867549668876,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.json.array.JSONArray.__setitem__",
+      "api_type": "method",
+      "similarity": 0.47019867549668876,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexing._iLocIndexer._has_valid_setitem_indexer",
+      "api_type": "method",
+      "similarity": 0.46938775510204084,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.multi.MultiIndex.set_levels",
+      "api_type": "method",
+      "similarity": 0.46564885496183206,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index.take",
+      "api_type": "method",
+      "similarity": 0.46405228758169936,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.groupby.GroupBy.describe",
+      "api_type": "method",
+      "similarity": 0.46357615894039733,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

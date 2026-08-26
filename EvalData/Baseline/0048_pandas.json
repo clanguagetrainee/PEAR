@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "2.1.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.tests.extension.base.reduce.BaseNoReduceTests",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.errors.__init__.NoBufferPresent",
+      "api_type": "class",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.base.base.BaseExtensionTests",
+      "api_type": "class",
+      "similarity": 0.36363636363636365,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas._libs.lib._NoDefault",
+      "api_type": "class",
+      "similarity": 0.34782608695652173,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.CSSWarning",
+      "api_type": "class",
+      "similarity": 0.3,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas._version.VersioneerConfig",
+      "api_type": "class",
+      "similarity": 0.2727272727272727,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.dtypes.test_inference.TestTypeInference.Dummy",
+      "api_type": "class",
+      "similarity": 0.2631578947368421,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.DataError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.DatabaseError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.DtypeWarning",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.IncompatibilityWarning",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.IndexingError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.InvalidComparison",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.MergeError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.ParserError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.ParserWarning",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.PerformanceWarning",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.PyperclipException",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.SpecificationError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.frame.methods.test_astype.IntegerArrayNoCopy",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.accessors.PeriodProperties",
+      "api_type": "class",
+      "similarity": 0.24,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

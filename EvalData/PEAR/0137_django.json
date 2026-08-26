@@ -1,0 +1,526 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.postgres.forms.jsonb.InvalidJSONInput",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.forms.fields.InvalidJSONInput",
+      "api_type": "class",
+      "similarity": 1.0,
+      "evolution_path": [
+        "django.forms.fields.InvalidJSONInput"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.utils.layermapping.InvalidDecimal",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.utils.layermapping.InvalidDecimal"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.utils.layermapping.InvalidInteger",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.utils.layermapping.InvalidInteger"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.utils.layermapping.InvalidString",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.utils.layermapping.InvalidString"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.core.paginator.InvalidPage",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.core.paginator.InvalidPage"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.utils.crypto.InvalidAlgorithm",
+      "api_type": "class",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "django.utils.crypto.InvalidAlgorithm"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "django.core.cache.backends.base.InvalidCacheBackendError",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "django.core.cache.backends.base.InvalidCacheBackendError"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "django.core.cache.backends.base.InvalidCacheKey",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "django.core.cache.backends.base.InvalidCacheKey"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.exceptions.InvalidMigrationPlan",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "django.db.migrations.exceptions.InvalidMigrationPlan"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "django.template.library.InvalidTemplateLibrary",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "django.template.library.InvalidTemplateLibrary"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "django.template.utils.InvalidTemplateEngineError",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "django.template.utils.InvalidTemplateEngineError"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "django.contrib.sessions.exceptions.InvalidSessionKey",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.contrib.sessions.exceptions.InvalidSessionKey"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.exceptions.InvalidBasesError",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.db.migrations.exceptions.InvalidBasesError"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.forms.fields.JSONString",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.forms.fields.JSONString"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.db.models.manager.Manager",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [
+        "django.db.models.manager.Manager"
+      ],
+      "local_scores": [
+        0.3333333333333333
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.error.GDALException",
+      "api_type": "class",
+      "similarity": 0.3125,
+      "evolution_path": [
+        "django.contrib.gis.gdal.error.GDALException"
+      ],
+      "local_scores": [
+        0.3125
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.error.SRSException",
+      "api_type": "class",
+      "similarity": 0.2,
+      "evolution_path": [
+        "django.db.models.query_utils.InvalidQuery",
+        "django.contrib.gis.gdal.error.SRSException"
+      ],
+      "local_scores": [
+        0.5,
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.db.utils.Error",
+      "api_type": "class",
+      "similarity": 0.2,
+      "evolution_path": [
+        "django.db.models.query_utils.InvalidQuery",
+        "django.db.utils.Error"
+      ],
+      "local_scores": [
+        0.5,
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.http.response.Http404",
+      "api_type": "class",
+      "similarity": 0.2,
+      "evolution_path": [
+        "django.db.models.query_utils.InvalidQuery",
+        "django.http.response.Http404"
+      ],
+      "local_scores": [
+        0.5,
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.error.GEOSException",
+      "api_type": "class",
+      "similarity": 0.1875,
+      "evolution_path": [
+        "django.db.models.query_utils.InvalidQuery",
+        "django.contrib.gis.geos.error.GEOSException"
+      ],
+      "local_scores": [
+        0.5,
+        0.375
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.contrib.postgres.forms.jsonb.InvalidJSONInput",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.0.14",
+      "vpost": "3.1",
+      "resolved_fqn": "django.contrib.postgres.forms.jsonb.InvalidJSONInput",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.forms.fields.InvalidJSONInput",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.contrib.gis.utils.layermapping.InvalidDecimal",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.utils.layermapping.InvalidInteger",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.utils.layermapping.InvalidString",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.core.paginator.InvalidPage",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.db.models.query_utils.InvalidQuery",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.utils.crypto.InvalidAlgorithm",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "django.core.cache.backends.base.InvalidCacheBackendError",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.core.cache.backends.base.InvalidCacheKey",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.db.migrations.exceptions.InvalidMigrationPlan",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.template.library.InvalidTemplateLibrary",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.template.utils.InvalidTemplateEngineError",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.contrib.sessions.exceptions.InvalidSessionKey",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.db.migrations.exceptions.InvalidBasesError",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.forms.fields.JSONString",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.core.management.color.Style",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Empty",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "django.db.models.manager.Manager",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "django.db.models.sql.datastructures.Empty",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.error.GDALException",
+          "similarity": 0.3125
+        }
+      ],
+      "entered_final": [
+        "django.forms.fields.InvalidJSONInput",
+        "django.contrib.gis.utils.layermapping.InvalidDecimal",
+        "django.contrib.gis.utils.layermapping.InvalidInteger",
+        "django.contrib.gis.utils.layermapping.InvalidString",
+        "django.core.paginator.InvalidPage",
+        "django.utils.crypto.InvalidAlgorithm",
+        "django.core.cache.backends.base.InvalidCacheBackendError",
+        "django.core.cache.backends.base.InvalidCacheKey",
+        "django.db.migrations.exceptions.InvalidMigrationPlan",
+        "django.template.library.InvalidTemplateLibrary",
+        "django.template.utils.InvalidTemplateEngineError",
+        "django.contrib.sessions.exceptions.InvalidSessionKey",
+        "django.db.migrations.exceptions.InvalidBasesError",
+        "django.forms.fields.JSONString",
+        "django.db.models.manager.Manager",
+        "django.contrib.gis.gdal.error.GDALException"
+      ],
+      "entered_iter": [
+        "django.db.models.query_utils.InvalidQuery",
+        "django.core.management.color.Style",
+        "django.db.models.fields.__init__.Empty",
+        "django.db.models.sql.datastructures.Empty"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.db.models.query_utils.InvalidQuery",
+      "path_score": 0.5,
+      "boundary": "DEPRECATED",
+      "vpre": "3.2.25",
+      "vpost": "4.0",
+      "resolved_fqn": "django.db.models.query_utils.InvalidQuery",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.core.paginator.InvalidPage",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "django.contrib.gis.utils.layermapping.InvalidDecimal",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.utils.layermapping.InvalidInteger",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.utils.layermapping.InvalidString",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.forms.fields.InvalidJSONInput",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.template.library.InvalidTemplateLibrary",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.utils.crypto.InvalidAlgorithm",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "django.core.cache.backends.base.InvalidCacheBackendError",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.core.cache.backends.base.InvalidCacheKey",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.db.migrations.exceptions.InvalidMigrationPlan",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.template.utils.InvalidTemplateEngineError",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.error.GDALException",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.error.SRSException",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.contrib.sessions.exceptions.InvalidSessionKey",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.db.migrations.exceptions.InvalidBasesError",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.db.utils.Error",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.http.response.Http404",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.contrib.gis.geos.error.GEOSException",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "django.contrib.admin.sites.AlreadyRegistered",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "django.contrib.admin.sites.NotRegistered",
+          "similarity": 0.333333
+        }
+      ],
+      "entered_final": [
+        "django.core.paginator.InvalidPage",
+        "django.contrib.gis.utils.layermapping.InvalidDecimal",
+        "django.contrib.gis.utils.layermapping.InvalidInteger",
+        "django.contrib.gis.utils.layermapping.InvalidString",
+        "django.forms.fields.InvalidJSONInput",
+        "django.template.library.InvalidTemplateLibrary",
+        "django.utils.crypto.InvalidAlgorithm",
+        "django.core.cache.backends.base.InvalidCacheBackendError",
+        "django.core.cache.backends.base.InvalidCacheKey",
+        "django.db.migrations.exceptions.InvalidMigrationPlan",
+        "django.template.utils.InvalidTemplateEngineError",
+        "django.contrib.gis.gdal.error.GDALException",
+        "django.contrib.gis.gdal.error.SRSException",
+        "django.contrib.sessions.exceptions.InvalidSessionKey",
+        "django.db.migrations.exceptions.InvalidBasesError",
+        "django.db.utils.Error",
+        "django.http.response.Http404",
+        "django.contrib.gis.geos.error.GEOSException"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "django.contrib.admin.sites.AlreadyRegistered",
+        "django.contrib.admin.sites.NotRegistered"
+      ],
+      "prune_bound": 0.25,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.core.management.color.Style",
+      "path_score": 0.333333,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.Empty",
+      "path_score": 0.333333,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.db.models.sql.datastructures.Empty",
+      "path_score": 0.333333,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    }
+  ]
+}

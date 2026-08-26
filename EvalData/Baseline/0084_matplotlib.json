@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backends.backend_ps.GraphicsContextPS",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.tests.test_skew.SkewXAxis",
+      "api_type": "class",
+      "similarity": 0.3488372093023256,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.CirclePolygon",
+      "api_type": "class",
+      "similarity": 0.28125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.__init__.ProjectionRegistry",
+      "api_type": "class",
+      "similarity": 0.2782608695652174,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._type1font._DelimiterToken",
+      "api_type": "class",
+      "similarity": 0.2696629213483146,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_template.FigureCanvasTemplate",
+      "api_type": "class",
+      "similarity": 0.26605504587155965,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cbook.silent_list",
+      "api_type": "class",
+      "similarity": 0.2636363636363636,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.FavIcon",
+      "api_type": "class",
+      "similarity": 0.2625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+      "api_type": "class",
+      "similarity": 0.2564102564102564,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._type1font._NameToken",
+      "api_type": "class",
+      "similarity": 0.2558139534883721,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.FuncScaleLog",
+      "api_type": "class",
+      "similarity": 0.2545454545454545,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.PathPatch",
+      "api_type": "class",
+      "similarity": 0.24793388429752067,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.AffineDeltaTransform",
+      "api_type": "class",
+      "similarity": 0.24778761061946902,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Circle",
+      "api_type": "class",
+      "similarity": 0.2462686567164179,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.LogisticTransform",
+      "api_type": "class",
+      "similarity": 0.2457627118644068,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.RegularPolygon",
+      "api_type": "class",
+      "similarity": 0.24503311258278146,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dates._SwitchableDateConverter",
+      "api_type": "class",
+      "similarity": 0.24444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg",
+      "api_type": "class",
+      "similarity": 0.23958333333333334,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.LogitTransform",
+      "api_type": "class",
+      "similarity": 0.23870967741935484,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._PropCycle",
+      "api_type": "class",
+      "similarity": 0.23809523809523808,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolCopyToClipboardBase",
+      "api_type": "class",
+      "similarity": 0.23595505617977527,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

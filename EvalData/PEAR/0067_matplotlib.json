@@ -1,0 +1,1596 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.mlab.demean",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.mlab.detrend_mean",
+      "api_type": "function",
+      "similarity": 1.0,
+      "evolution_path": [
+        "matplotlib.mlab.detrend_mean"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.font_manager.get_font",
+      "api_type": "function",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [
+        "matplotlib.font_manager.get_font"
+      ],
+      "local_scores": [
+        0.4666666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.draw_bbox",
+      "api_type": "function",
+      "similarity": 0.4603174603174603,
+      "evolution_path": [
+        "matplotlib.patches.draw_bbox"
+      ],
+      "local_scores": [
+        0.4603174603174603
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.getp",
+      "api_type": "function",
+      "similarity": 0.45901639344262296,
+      "evolution_path": [
+        "matplotlib.artist.getp"
+      ],
+      "local_scores": [
+        0.45901639344262296
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.contour",
+      "api_type": "function",
+      "similarity": 0.4406779661016949,
+      "evolution_path": [
+        "matplotlib.pyplot.contour"
+      ],
+      "local_scores": [
+        0.4406779661016949
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.contourf",
+      "api_type": "function",
+      "similarity": 0.4406779661016949,
+      "evolution_path": [
+        "matplotlib.pyplot.contourf"
+      ],
+      "local_scores": [
+        0.4406779661016949
+      ]
+    },
+    {
+      "fqn": "matplotlib.__init__.rc_context",
+      "api_type": "function",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [
+        "matplotlib.__init__.rc_context"
+      ],
+      "local_scores": [
+        0.43333333333333335
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.set_cmap",
+      "api_type": "function",
+      "similarity": 0.43103448275862066,
+      "evolution_path": [
+        "matplotlib.pyplot.set_cmap"
+      ],
+      "local_scores": [
+        0.43103448275862066
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.xcorr",
+      "api_type": "function",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [
+        "matplotlib.pyplot.xcorr"
+      ],
+      "local_scores": [
+        0.41935483870967744
+      ]
+    },
+    {
+      "fqn": "matplotlib.rcsetup.validate_bbox",
+      "api_type": "function",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [
+        "matplotlib.rcsetup.validate_bbox"
+      ],
+      "local_scores": [
+        0.4117647058823529
+      ]
+    },
+    {
+      "fqn": "matplotlib.font_manager.list_fonts",
+      "api_type": "function",
+      "similarity": 0.4107142857142857,
+      "evolution_path": [
+        "matplotlib.font_manager.list_fonts"
+      ],
+      "local_scores": [
+        0.4107142857142857
+      ]
+    },
+    {
+      "fqn": "matplotlib.path.get_path_collection_extents",
+      "api_type": "function",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.path.get_path_collection_extents"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.spy",
+      "api_type": "function",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.pyplot.spy"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf._metadata_to_str",
+      "api_type": "function",
+      "similarity": 0.22537878787878787,
+      "evolution_path": [
+        "matplotlib.dates._to_ordinalf",
+        "matplotlib.backends.backend_pgf._metadata_to_str"
+      ],
+      "local_scores": [
+        0.42424242424242425,
+        0.53125
+      ]
+    },
+    {
+      "fqn": "matplotlib.tests.test_style.test_alias",
+      "api_type": "function",
+      "similarity": 0.21727810650887577,
+      "evolution_path": [
+        "matplotlib._layoutbox.hpack",
+        "matplotlib.tests.test_style.test_alias"
+      ],
+      "local_scores": [
+        0.4153846153846154,
+        0.5230769230769231
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+      "api_type": "function",
+      "similarity": 0.21212121212121213,
+      "evolution_path": [
+        "matplotlib.dates._to_ordinalf",
+        "matplotlib.backends.qt_editor._formlayout.to_qcolor"
+      ],
+      "local_scores": [
+        0.42424242424242425,
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.cbook._to_unmasked_float_array",
+      "api_type": "function",
+      "similarity": 0.20833333333333334,
+      "evolution_path": [
+        "matplotlib.tight_layout.get_renderer",
+        "matplotlib.cbook.__init__._to_unmasked_float_array",
+        "matplotlib.cbook._to_unmasked_float_array"
+      ],
+      "local_scores": [
+        0.4166666666666667,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.__init__.rc_params_from_file",
+      "api_type": "function",
+      "similarity": 0.20629159104658198,
+      "evolution_path": [
+        "matplotlib._version.versions_from_parentdir",
+        "matplotlib.__init__.rc_params_from_file"
+      ],
+      "local_scores": [
+        0.40789473684210525,
+        0.5057471264367817
+      ]
+    },
+    {
+      "fqn": "matplotlib.__init__._logged_cached",
+      "api_type": "function",
+      "similarity": 0.20606060606060606,
+      "evolution_path": [
+        "matplotlib.dates._to_ordinalf",
+        "matplotlib.__init__._logged_cached"
+      ],
+      "local_scores": [
+        0.42424242424242425,
+        0.4857142857142857
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.colorbar",
+      "api_type": "function",
+      "similarity": 0.2028985507246377,
+      "evolution_path": [
+        "matplotlib.dates._to_ordinalf",
+        "matplotlib.pyplot.colorbar"
+      ],
+      "local_scores": [
+        0.42424242424242425,
+        0.4782608695652174
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.mlab.demean",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.2.2",
+      "vpost": "3.3.0",
+      "resolved_fqn": "matplotlib.mlab.detrend_mean",
+      "resolved_kind": "forward",
+      "candidates": [
+        {
+          "fqn": "matplotlib.mlab.detrend_mean",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.font_manager.get_font",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.patches.draw_bbox",
+          "similarity": 0.460317
+        },
+        {
+          "fqn": "matplotlib.artist.getp",
+          "similarity": 0.459016
+        },
+        {
+          "fqn": "matplotlib.pyplot.contour",
+          "similarity": 0.440678
+        },
+        {
+          "fqn": "matplotlib.pyplot.contourf",
+          "similarity": 0.440678
+        },
+        {
+          "fqn": "matplotlib.__init__.rc_context",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.pyplot.set_cmap",
+          "similarity": 0.431034
+        },
+        {
+          "fqn": "matplotlib.bezier._comb",
+          "similarity": 0.426471
+        },
+        {
+          "fqn": "matplotlib.dates._to_ordinalf",
+          "similarity": 0.424242
+        },
+        {
+          "fqn": "matplotlib.pyplot.xcorr",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.tight_layout.get_renderer",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib._layoutbox.hpack",
+          "similarity": 0.415385
+        },
+        {
+          "fqn": "matplotlib._layoutbox.hstack",
+          "similarity": 0.415385
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._get_papertype",
+          "similarity": 0.412698
+        },
+        {
+          "fqn": "matplotlib.rcsetup.validate_bbox",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "matplotlib.font_manager.list_fonts",
+          "similarity": 0.410714
+        },
+        {
+          "fqn": "matplotlib.path.get_path_collection_extents",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.pyplot.spy",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib._version.versions_from_parentdir",
+          "similarity": 0.407895
+        }
+      ],
+      "entered_final": [
+        "matplotlib.mlab.detrend_mean",
+        "matplotlib.font_manager.get_font",
+        "matplotlib.patches.draw_bbox",
+        "matplotlib.artist.getp",
+        "matplotlib.pyplot.contour",
+        "matplotlib.pyplot.contourf",
+        "matplotlib.__init__.rc_context",
+        "matplotlib.pyplot.set_cmap",
+        "matplotlib.pyplot.xcorr",
+        "matplotlib.rcsetup.validate_bbox",
+        "matplotlib.font_manager.list_fonts",
+        "matplotlib.path.get_path_collection_extents",
+        "matplotlib.pyplot.spy"
+      ],
+      "entered_iter": [
+        "matplotlib.bezier._comb",
+        "matplotlib.dates._to_ordinalf",
+        "matplotlib.tight_layout.get_renderer",
+        "matplotlib._layoutbox.hpack",
+        "matplotlib._layoutbox.hstack",
+        "matplotlib.backends.backend_ps._get_papertype",
+        "matplotlib._version.versions_from_parentdir"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.bezier._comb",
+      "path_score": 0.426471,
+      "boundary": "DEPRECATED",
+      "vpre": "3.10.9",
+      "vpost": "3.11.0",
+      "resolved_fqn": "matplotlib.bezier._comb",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.bezier.check_if_parallel",
+          "similarity": 0.467532
+        },
+        {
+          "fqn": "matplotlib.artist._finalize_rasterization",
+          "similarity": 0.459016
+        },
+        {
+          "fqn": "matplotlib.cbook._resize_sequence",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.text._rotate_point",
+          "similarity": 0.453333
+        },
+        {
+          "fqn": "matplotlib.tests.test_colors._sph2cart",
+          "similarity": 0.447761
+        },
+        {
+          "fqn": "matplotlib.bezier._get_coeff_matrix",
+          "similarity": 0.44186
+        },
+        {
+          "fqn": "matplotlib.artist._prevent_rasterization",
+          "similarity": 0.439394
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core._handle_key",
+          "similarity": 0.43038
+        },
+        {
+          "fqn": "matplotlib.tests.test_scale.test_function_scale",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.__init__._logged_cached",
+          "similarity": 0.426667
+        },
+        {
+          "fqn": "matplotlib.mlab.detrend_mean",
+          "similarity": 0.426471
+        },
+        {
+          "fqn": "matplotlib.tests.test_style.test_alias",
+          "similarity": 0.424658
+        },
+        {
+          "fqn": "matplotlib.artist.getp",
+          "similarity": 0.424242
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk._blit",
+          "similarity": 0.42029
+        },
+        {
+          "fqn": "matplotlib.tests.test_cbook.test_flatiter",
+          "similarity": 0.418919
+        },
+        {
+          "fqn": "matplotlib.tests.test_contour.test_single_color_and_extend",
+          "similarity": 0.417722
+        },
+        {
+          "fqn": "matplotlib.ticker.scale_range",
+          "similarity": 0.417582
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+          "similarity": 0.415385
+        },
+        {
+          "fqn": "matplotlib.colors.same_color",
+          "similarity": 0.414634
+        },
+        {
+          "fqn": "matplotlib.tests.test_animation.test_draw_frame",
+          "similarity": 0.4125
+        }
+      ],
+      "entered_final": [
+        "matplotlib.bezier.check_if_parallel",
+        "matplotlib.artist._finalize_rasterization",
+        "matplotlib.cbook._resize_sequence",
+        "matplotlib.text._rotate_point",
+        "matplotlib.tests.test_colors._sph2cart",
+        "matplotlib.bezier._get_coeff_matrix",
+        "matplotlib.artist._prevent_rasterization",
+        "matplotlib.backends.backend_webagg_core._handle_key",
+        "matplotlib.tests.test_scale.test_function_scale",
+        "matplotlib.__init__._logged_cached",
+        "matplotlib.mlab.detrend_mean",
+        "matplotlib.tests.test_style.test_alias",
+        "matplotlib.artist.getp",
+        "matplotlib.backends._backend_tk._blit",
+        "matplotlib.tests.test_cbook.test_flatiter",
+        "matplotlib.tests.test_contour.test_single_color_and_extend",
+        "matplotlib.ticker.scale_range",
+        "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+        "matplotlib.colors.same_color",
+        "matplotlib.tests.test_animation.test_draw_frame"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.187389,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.dates._to_ordinalf",
+      "path_score": 0.424242,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.2",
+      "vpost": "3.3.3",
+      "resolved_fqn": "matplotlib.dates._to_ordinalf",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_pgf._metadata_to_str",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._num_to_str",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.artist.getp",
+          "similarity": 0.491803
+        },
+        {
+          "fqn": "matplotlib.__init__._logged_cached",
+          "similarity": 0.485714
+        },
+        {
+          "fqn": "matplotlib._layoutbox.get_renderer",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.pyplot.colorbar",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.fedit",
+          "similarity": 0.477612
+        },
+        {
+          "fqn": "matplotlib.dates.julian2num",
+          "similarity": 0.477612
+        },
+        {
+          "fqn": "matplotlib.dates.num2julian",
+          "similarity": 0.477612
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._move_path_to_path_or_stream",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.tests.test_colors._sph2cart",
+          "similarity": 0.46875
+        },
+        {
+          "fqn": "matplotlib.pyplot.set_cmap",
+          "similarity": 0.465517
+        },
+        {
+          "fqn": "matplotlib.pyplot.spy",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.pyplot.pause",
+          "similarity": 0.460317
+        },
+        {
+          "fqn": "matplotlib.__init__.use",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.legend._get_legend_handles_labels",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._local_over_kwdict",
+          "similarity": 0.455882
+        },
+        {
+          "fqn": "matplotlib.font_manager.get_font",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.pyplot.contour",
+          "similarity": 0.45
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_pgf._metadata_to_str",
+        "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+        "matplotlib.artist.getp",
+        "matplotlib.__init__._logged_cached",
+        "matplotlib.pyplot.colorbar",
+        "matplotlib.backends.qt_editor._formlayout.fedit",
+        "matplotlib.backends.backend_ps._move_path_to_path_or_stream",
+        "matplotlib.tests.test_colors._sph2cart",
+        "matplotlib.pyplot.set_cmap",
+        "matplotlib.pyplot.spy",
+        "matplotlib.pyplot.pause",
+        "matplotlib.__init__.use",
+        "matplotlib.legend._get_legend_handles_labels",
+        "matplotlib.font_manager.get_font",
+        "matplotlib.pyplot.contour"
+      ],
+      "entered_iter": [
+        "matplotlib.backends.backend_ps._num_to_str",
+        "matplotlib._layoutbox.get_renderer",
+        "matplotlib.dates.julian2num",
+        "matplotlib.dates.num2julian"
+      ],
+      "pruned": [
+        "matplotlib.cbook.__init__._local_over_kwdict"
+      ],
+      "prune_bound": 0.199643,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tight_layout.get_renderer",
+      "path_score": 0.416667,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.tight_layout.get_renderer",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib._mathtext._get_font_constant_set",
+          "similarity": 0.576923
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._get_papertype",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._to_unmasked_float_array",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.cm._get_cmap",
+          "similarity": 0.476923
+        },
+        {
+          "fqn": "matplotlib.__init__._get_version",
+          "similarity": 0.46875
+        },
+        {
+          "fqn": "matplotlib.cm._ensure_cmap",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib.pyplot.xlim",
+          "similarity": 0.46
+        },
+        {
+          "fqn": "matplotlib.pyplot.ylim",
+          "similarity": 0.46
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._unpack_to_numpy",
+          "similarity": 0.453125
+        },
+        {
+          "fqn": "matplotlib.pyplot.subplot_tool",
+          "similarity": 0.453125
+        },
+        {
+          "fqn": "matplotlib.text.get_rotation",
+          "similarity": 0.453125
+        },
+        {
+          "fqn": "matplotlib.artist._finalize_rasterization",
+          "similarity": 0.45283
+        },
+        {
+          "fqn": "matplotlib.pyplot.axes",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.pyplot.get_figlabels",
+          "similarity": 0.44898
+        },
+        {
+          "fqn": "matplotlib.backend_bases.get_registered_canvas_class",
+          "similarity": 0.448276
+        },
+        {
+          "fqn": "matplotlib._mathtext.get_unicode_index",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.style.core.iter_user_libraries",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.font_manager._get_font",
+          "similarity": 0.442308
+        },
+        {
+          "fqn": "matplotlib.pyplot._get_required_interactive_framework",
+          "similarity": 0.44
+        }
+      ],
+      "entered_final": [
+        "matplotlib.__init__._get_version",
+        "matplotlib.pyplot.xlim",
+        "matplotlib.pyplot.ylim",
+        "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+        "matplotlib.pyplot.subplot_tool",
+        "matplotlib.artist._finalize_rasterization",
+        "matplotlib.pyplot.axes",
+        "matplotlib.pyplot.get_figlabels",
+        "matplotlib.backend_bases.get_registered_canvas_class",
+        "matplotlib._mathtext.get_unicode_index",
+        "matplotlib.font_manager._get_font"
+      ],
+      "entered_iter": [
+        "matplotlib._mathtext._get_font_constant_set",
+        "matplotlib.backends.backend_ps._get_papertype",
+        "matplotlib.cbook.__init__._to_unmasked_float_array"
+      ],
+      "pruned": [
+        "matplotlib.cm._get_cmap",
+        "matplotlib.cm._ensure_cmap",
+        "matplotlib.cbook.__init__._unpack_to_numpy",
+        "matplotlib.text.get_rotation",
+        "matplotlib.style.core.iter_user_libraries",
+        "matplotlib.pyplot._get_required_interactive_framework"
+      ],
+      "prune_bound": 0.199643,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib._layoutbox.hpack",
+      "path_score": 0.415385,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.4",
+      "vpost": "3.4.0",
+      "resolved_fqn": "matplotlib._layoutbox.hpack",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tests.test_style.test_alias",
+          "similarity": 0.523077
+        },
+        {
+          "fqn": "matplotlib.bezier._comb",
+          "similarity": 0.469697
+        },
+        {
+          "fqn": "matplotlib.colors._vector_magnitude",
+          "similarity": 0.465517
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._unfold",
+          "similarity": 0.464789
+        },
+        {
+          "fqn": "matplotlib.tests.test_axes.test_hist_with_empty_input",
+          "similarity": 0.460317
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core._handle_key",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "matplotlib.path.get_path_collection_extents",
+          "similarity": 0.455882
+        },
+        {
+          "fqn": "matplotlib.tests.test_api.test_check_shape",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.testing.widgets.do_event",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.tests.test_style.test_context_with_dict",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.tests.test_determinism.test_determinism_check",
+          "similarity": 0.45122
+        },
+        {
+          "fqn": "matplotlib.tests.test_colors.test_grey_gray",
+          "similarity": 0.449275
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.__init__.register",
+          "similarity": 0.448276
+        },
+        {
+          "fqn": "matplotlib.tests.test_style.test_single_path",
+          "similarity": 0.442857
+        },
+        {
+          "fqn": "matplotlib.tests.test_offsetbox.test_get_packed_offsets_equal",
+          "similarity": 0.442623
+        },
+        {
+          "fqn": "matplotlib.tests.test_offsetbox.test_get_packed_offsets_expand",
+          "similarity": 0.442623
+        },
+        {
+          "fqn": "matplotlib.tests.test_offsetbox.test_get_packed_offsets_fixed",
+          "similarity": 0.442623
+        },
+        {
+          "fqn": "matplotlib.colors.same_color",
+          "similarity": 0.441558
+        },
+        {
+          "fqn": "matplotlib.sphinxext.mathmpl.math_role",
+          "similarity": 0.438356
+        },
+        {
+          "fqn": "matplotlib.tests.test_widgets.check_polygon_selector",
+          "similarity": 0.438356
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tests.test_style.test_alias",
+        "matplotlib.colors._vector_magnitude",
+        "matplotlib.tests.test_axes.test_hist_with_empty_input",
+        "matplotlib.backends.backend_webagg_core._handle_key",
+        "matplotlib.path.get_path_collection_extents",
+        "matplotlib.tests.test_api.test_check_shape",
+        "matplotlib.testing.widgets.do_event",
+        "matplotlib.tests.test_style.test_context_with_dict",
+        "matplotlib.tests.test_determinism.test_determinism_check",
+        "matplotlib.tests.test_colors.test_grey_gray",
+        "matplotlib.testing.jpl_units.__init__.register",
+        "matplotlib.tests.test_style.test_single_path",
+        "matplotlib.tests.test_offsetbox.test_get_packed_offsets_equal",
+        "matplotlib.tests.test_offsetbox.test_get_packed_offsets_expand",
+        "matplotlib.tests.test_offsetbox.test_get_packed_offsets_fixed",
+        "matplotlib.colors.same_color",
+        "matplotlib.sphinxext.mathmpl.math_role",
+        "matplotlib.tests.test_widgets.check_polygon_selector"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.bezier._comb",
+        "matplotlib.cbook.__init__._unfold"
+      ],
+      "prune_bound": 0.202623,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib._layoutbox.hstack",
+      "path_score": 0.415385,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.4",
+      "vpost": "3.4.0",
+      "resolved_fqn": "matplotlib._layoutbox.hstack",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tests.test_style.test_alias",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.bezier._comb",
+          "similarity": 0.469697
+        },
+        {
+          "fqn": "matplotlib.colors._vector_magnitude",
+          "similarity": 0.465517
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._unfold",
+          "similarity": 0.464789
+        },
+        {
+          "fqn": "matplotlib.tests.test_api.test_check_shape",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.testing.widgets.do_event",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.__init__.register",
+          "similarity": 0.448276
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core._handle_key",
+          "similarity": 0.44
+        },
+        {
+          "fqn": "matplotlib.sphinxext.mathmpl.math_role",
+          "similarity": 0.438356
+        },
+        {
+          "fqn": "matplotlib.tests.test_axes.test_hist_with_empty_input",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.tests.test_streamplot.test_colormap",
+          "similarity": 0.435484
+        },
+        {
+          "fqn": "matplotlib.path.get_path_collection_extents",
+          "similarity": 0.434783
+        },
+        {
+          "fqn": "matplotlib.tests.test_determinism.test_determinism_check",
+          "similarity": 0.433735
+        },
+        {
+          "fqn": "matplotlib.pyplot.spy",
+          "similarity": 0.430769
+        },
+        {
+          "fqn": "matplotlib.sphinxext.mathmpl.latex2png",
+          "similarity": 0.430769
+        },
+        {
+          "fqn": "matplotlib.cm.get_cmap",
+          "similarity": 0.430556
+        },
+        {
+          "fqn": "matplotlib.testing.decorators._raise_on_image_difference",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.tests.test_colors.test_grey_gray",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.tests.test_style.test_context_with_dict",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.dates.julian2num",
+          "similarity": 0.426471
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tests.test_style.test_alias",
+        "matplotlib.colors._vector_magnitude",
+        "matplotlib.tests.test_api.test_check_shape",
+        "matplotlib.testing.widgets.do_event",
+        "matplotlib.testing.jpl_units.__init__.register",
+        "matplotlib.backends.backend_webagg_core._handle_key",
+        "matplotlib.sphinxext.mathmpl.math_role",
+        "matplotlib.tests.test_axes.test_hist_with_empty_input",
+        "matplotlib.tests.test_streamplot.test_colormap",
+        "matplotlib.path.get_path_collection_extents",
+        "matplotlib.tests.test_determinism.test_determinism_check",
+        "matplotlib.pyplot.spy",
+        "matplotlib.sphinxext.mathmpl.latex2png",
+        "matplotlib.testing.decorators._raise_on_image_difference",
+        "matplotlib.tests.test_colors.test_grey_gray",
+        "matplotlib.tests.test_style.test_context_with_dict"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.bezier._comb",
+        "matplotlib.cbook.__init__._unfold",
+        "matplotlib.cm.get_cmap",
+        "matplotlib.dates.julian2num"
+      ],
+      "prune_bound": 0.202899,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps._get_papertype",
+      "path_score": 0.412698,
+      "boundary": "DEPRECATED",
+      "vpre": "3.9.4",
+      "vpost": "3.10.0",
+      "resolved_fqn": "matplotlib.backends.backend_ps._get_papertype",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.font_manager._get_font",
+          "similarity": 0.462963
+        },
+        {
+          "fqn": "matplotlib.__init__.get_backend",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.legend._get_legend_handles_labels",
+          "similarity": 0.449275
+        },
+        {
+          "fqn": "matplotlib.sphinxext.roles.setup",
+          "similarity": 0.440678
+        },
+        {
+          "fqn": "matplotlib.artist.getp",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.cm.get_cmap",
+          "similarity": 0.422535
+        },
+        {
+          "fqn": "matplotlib.artist._finalize_rasterization",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.backend_bases.get_registered_canvas_class",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.cbook._check_1d",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.backend_tools._find_tool_class",
+          "similarity": 0.418182
+        },
+        {
+          "fqn": "matplotlib.sphinxext.plot_directive.contains_doctest",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.font_manager.get_font",
+          "similarity": 0.413333
+        },
+        {
+          "fqn": "matplotlib.mlab.detrend_mean",
+          "similarity": 0.412698
+        },
+        {
+          "fqn": "matplotlib.rcsetup.validate_backend",
+          "similarity": 0.410714
+        },
+        {
+          "fqn": "matplotlib.rcsetup._validate_minor_tick_ndivs",
+          "similarity": 0.40678
+        },
+        {
+          "fqn": "matplotlib.cm._ensure_cmap",
+          "similarity": 0.40625
+        },
+        {
+          "fqn": "matplotlib.rcsetup._validate_pathlike",
+          "similarity": 0.403846
+        },
+        {
+          "fqn": "matplotlib.ticker._decade_greater",
+          "similarity": 0.403509
+        },
+        {
+          "fqn": "matplotlib.ticker._decade_less",
+          "similarity": 0.403509
+        },
+        {
+          "fqn": "matplotlib.artist._prevent_rasterization",
+          "similarity": 0.403226
+        }
+      ],
+      "entered_final": [
+        "matplotlib.font_manager._get_font",
+        "matplotlib.__init__.get_backend",
+        "matplotlib.legend._get_legend_handles_labels",
+        "matplotlib.sphinxext.roles.setup",
+        "matplotlib.artist.getp",
+        "matplotlib.artist._finalize_rasterization",
+        "matplotlib.backend_bases.get_registered_canvas_class",
+        "matplotlib.cbook._check_1d",
+        "matplotlib.backend_tools._find_tool_class",
+        "matplotlib.sphinxext.plot_directive.contains_doctest",
+        "matplotlib.font_manager.get_font",
+        "matplotlib.mlab.detrend_mean",
+        "matplotlib.rcsetup.validate_backend",
+        "matplotlib.rcsetup._validate_minor_tick_ndivs",
+        "matplotlib.rcsetup._validate_pathlike",
+        "matplotlib.ticker._decade_greater",
+        "matplotlib.ticker._decade_less",
+        "matplotlib.artist._prevent_rasterization"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cm.get_cmap",
+        "matplotlib.cm._ensure_cmap"
+      ],
+      "prune_bound": 0.202899,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib._version.versions_from_parentdir",
+      "path_score": 0.407895,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib._version.versions_from_parentdir",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.__init__.rc_params_from_file",
+          "similarity": 0.505747
+        },
+        {
+          "fqn": "matplotlib.rcsetup._validate_mathtext_fallback",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib.__init__.use",
+          "similarity": 0.45679
+        },
+        {
+          "fqn": "matplotlib.rcsetup.validate_fontsize",
+          "similarity": 0.452381
+        },
+        {
+          "fqn": "matplotlib.path.get_path_collection_extents",
+          "similarity": 0.443038
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf._metadata_to_str",
+          "similarity": 0.441558
+        },
+        {
+          "fqn": "matplotlib.sphinxext.mathmpl.latex2png",
+          "similarity": 0.441558
+        },
+        {
+          "fqn": "matplotlib.rcsetup.validate_hatch",
+          "similarity": 0.440476
+        },
+        {
+          "fqn": "matplotlib.pyplot.spy",
+          "similarity": 0.44
+        },
+        {
+          "fqn": "matplotlib.testing.decorators._raise_on_image_difference",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.__init__._check_versions",
+          "similarity": 0.433735
+        },
+        {
+          "fqn": "matplotlib.tests.test_backend_pdf.test_missing_psfont",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.artist.getp",
+          "similarity": 0.424658
+        },
+        {
+          "fqn": "matplotlib.legend._get_legend_handles_labels",
+          "similarity": 0.421687
+        },
+        {
+          "fqn": "matplotlib._api.__init__.warn_external",
+          "similarity": 0.419753
+        },
+        {
+          "fqn": "matplotlib._api.__init__.check_getitem",
+          "similarity": 0.418605
+        },
+        {
+          "fqn": "matplotlib.pyplot.subplot_tool",
+          "similarity": 0.418605
+        },
+        {
+          "fqn": "matplotlib.pyplot.axes",
+          "similarity": 0.417722
+        },
+        {
+          "fqn": "matplotlib.transforms.offset_copy",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib._api.__init__.check_in_list",
+          "similarity": 0.414634
+        }
+      ],
+      "entered_final": [
+        "matplotlib.__init__.rc_params_from_file",
+        "matplotlib.rcsetup._validate_mathtext_fallback",
+        "matplotlib.__init__.use",
+        "matplotlib.rcsetup.validate_fontsize",
+        "matplotlib.path.get_path_collection_extents",
+        "matplotlib.backends.backend_pgf._metadata_to_str",
+        "matplotlib.sphinxext.mathmpl.latex2png",
+        "matplotlib.rcsetup.validate_hatch",
+        "matplotlib.pyplot.spy",
+        "matplotlib.testing.decorators._raise_on_image_difference",
+        "matplotlib.__init__._check_versions",
+        "matplotlib.artist.getp",
+        "matplotlib.legend._get_legend_handles_labels",
+        "matplotlib._api.__init__.warn_external",
+        "matplotlib.pyplot.subplot_tool",
+        "matplotlib.pyplot.axes",
+        "matplotlib.transforms.offset_copy",
+        "matplotlib._api.__init__.check_in_list"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.tests.test_backend_pdf.test_missing_psfont",
+        "matplotlib._api.__init__.check_getitem"
+      ],
+      "prune_bound": 0.206061,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib._mathtext._get_font_constant_set",
+      "path_score": 0.240385,
+      "boundary": "DEPRECATED",
+      "vpre": "3.10.9",
+      "vpost": "3.11.0",
+      "resolved_fqn": "matplotlib._mathtext._get_font_constant_set",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.artist._prevent_rasterization",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.artist._finalize_rasterization",
+          "similarity": 0.472727
+        },
+        {
+          "fqn": "matplotlib.backend_bases.get_registered_canvas_class",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk._blit",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+          "similarity": 0.448276
+        },
+        {
+          "fqn": "matplotlib.cbook._is_jax_array",
+          "similarity": 0.438596
+        },
+        {
+          "fqn": "matplotlib.cbook._is_mlx_array",
+          "similarity": 0.438596
+        },
+        {
+          "fqn": "matplotlib.cbook._is_pandas_dataframe",
+          "similarity": 0.438596
+        },
+        {
+          "fqn": "matplotlib.cbook._is_torch_array",
+          "similarity": 0.438596
+        },
+        {
+          "fqn": "matplotlib.__init__._get_version",
+          "similarity": 0.43662
+        },
+        {
+          "fqn": "matplotlib.rcsetup._convert_validator_spec",
+          "similarity": 0.436364
+        },
+        {
+          "fqn": "matplotlib.legend._get_legend_handles_labels",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.text._get_text_metrics_function",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.font_manager.win32FontDirectory",
+          "similarity": 0.42623
+        },
+        {
+          "fqn": "matplotlib.scale.register_scale",
+          "similarity": 0.42623
+        },
+        {
+          "fqn": "matplotlib.tests.test_ft2font.test_ft2font_get_sfnt_table",
+          "similarity": 0.423729
+        },
+        {
+          "fqn": "matplotlib.pyplot.pause",
+          "similarity": 0.421875
+        },
+        {
+          "fqn": "matplotlib.transforms.blended_transform_factory",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._bounds",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.scale.scale_factory",
+          "similarity": 0.418182
+        }
+      ],
+      "entered_final": [
+        "matplotlib.artist._prevent_rasterization",
+        "matplotlib.artist._finalize_rasterization",
+        "matplotlib.backend_bases.get_registered_canvas_class",
+        "matplotlib.backends._backend_tk._blit",
+        "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+        "matplotlib.cbook._is_jax_array",
+        "matplotlib.cbook._is_mlx_array",
+        "matplotlib.cbook._is_pandas_dataframe",
+        "matplotlib.cbook._is_torch_array",
+        "matplotlib.__init__._get_version",
+        "matplotlib.rcsetup._convert_validator_spec",
+        "matplotlib.legend._get_legend_handles_labels",
+        "matplotlib.text._get_text_metrics_function",
+        "matplotlib.font_manager.win32FontDirectory",
+        "matplotlib.scale.register_scale",
+        "matplotlib.tests.test_ft2font.test_ft2font_get_sfnt_table",
+        "matplotlib.pyplot.pause",
+        "matplotlib.transforms.blended_transform_factory",
+        "matplotlib.backends.backend_ps._bounds",
+        "matplotlib.scale.scale_factory"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.206061,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps._num_to_str",
+      "path_score": 0.212121,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.backends.backend_ps._num_to_str",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_pgf._metadata_to_str",
+          "similarity": 0.646154
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._move_path_to_path_or_stream",
+          "similarity": 0.493151
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core._handle_key",
+          "similarity": 0.4875
+        },
+        {
+          "fqn": "matplotlib.__init__._logged_cached",
+          "similarity": 0.486842
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.common_texification",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib.__init__.use",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.rcsetup.validate_fontsize",
+          "similarity": 0.45679
+        },
+        {
+          "fqn": "matplotlib.dates.datestr2num",
+          "similarity": 0.452381
+        },
+        {
+          "fqn": "matplotlib.font_manager._load_fontmanager",
+          "similarity": 0.449438
+        },
+        {
+          "fqn": "matplotlib.units._is_natively_supported",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "matplotlib.cm.get_cmap",
+          "similarity": 0.443038
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "matplotlib.pyplot.axes",
+          "similarity": 0.44
+        },
+        {
+          "fqn": "matplotlib.pyplot.matshow",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "matplotlib.backend_bases.get_registered_canvas_class",
+          "similarity": 0.43662
+        },
+        {
+          "fqn": "matplotlib._api.__init__.check_in_list",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "matplotlib.tests.test_rcparams.test_validator_valid",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "matplotlib.tests.test_style.test_single_path",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "matplotlib.colors.same_color",
+          "similarity": 0.435294
+        },
+        {
+          "fqn": "matplotlib.bezier.check_if_parallel",
+          "similarity": 0.433735
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_pgf._metadata_to_str",
+        "matplotlib.backends.backend_ps._move_path_to_path_or_stream",
+        "matplotlib.backends.backend_webagg_core._handle_key",
+        "matplotlib.__init__._logged_cached",
+        "matplotlib.__init__.use",
+        "matplotlib.rcsetup.validate_fontsize",
+        "matplotlib.dates.datestr2num",
+        "matplotlib.font_manager._load_fontmanager",
+        "matplotlib.units._is_natively_supported",
+        "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+        "matplotlib.pyplot.axes",
+        "matplotlib.pyplot.matshow",
+        "matplotlib.backend_bases.get_registered_canvas_class",
+        "matplotlib._api.__init__.check_in_list",
+        "matplotlib.tests.test_rcparams.test_validator_valid",
+        "matplotlib.tests.test_style.test_single_path",
+        "matplotlib.colors.same_color",
+        "matplotlib.bezier.check_if_parallel"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.backends.backend_pgf.common_texification",
+        "matplotlib.cm.get_cmap"
+      ],
+      "prune_bound": 0.206061,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cbook.__init__._to_unmasked_float_array",
+      "path_score": 0.208333,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.cbook.__init__._to_unmasked_float_array",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.cbook._to_unmasked_float_array",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib._afm._to_float",
+          "similarity": 0.565217
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+          "similarity": 0.509434
+        },
+        {
+          "fqn": "matplotlib.cbook._unpack_to_numpy",
+          "similarity": 0.453125
+        },
+        {
+          "fqn": "matplotlib.testing.compare._load_image",
+          "similarity": 0.440678
+        },
+        {
+          "fqn": "matplotlib.testing.compare.calculate_rms",
+          "similarity": 0.431034
+        },
+        {
+          "fqn": "matplotlib.backends._backend_gtk.mpl_to_gtk_cursor_name",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.cbook._pformat_subprocess",
+          "similarity": 0.42
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wxagg._rgba_to_wx_bitmap",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf._metadata_to_str",
+          "similarity": 0.412698
+        },
+        {
+          "fqn": "matplotlib.__init__._ensure_handler",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk._blit",
+          "similarity": 0.409836
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3._mpl_to_gtk_cursor",
+          "similarity": 0.408163
+        },
+        {
+          "fqn": "matplotlib.rcsetup._validate_pathlike",
+          "similarity": 0.408163
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._log_if_debug_on",
+          "similarity": 0.407407
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.qfont_to_tuple",
+          "similarity": 0.407407
+        },
+        {
+          "fqn": "matplotlib.artist._prevent_rasterization",
+          "similarity": 0.40678
+        },
+        {
+          "fqn": "matplotlib.artist._finalize_rasterization",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.cbook._check_1d",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.colors.to_hex",
+          "similarity": 0.4
+        }
+      ],
+      "entered_final": [
+        "matplotlib.cbook._to_unmasked_float_array",
+        "matplotlib._afm._to_float",
+        "matplotlib.backends.qt_editor._formlayout.to_qcolor",
+        "matplotlib.cbook._unpack_to_numpy",
+        "matplotlib.testing.compare._load_image",
+        "matplotlib.testing.compare.calculate_rms",
+        "matplotlib.backends._backend_gtk.mpl_to_gtk_cursor_name",
+        "matplotlib.cbook._pformat_subprocess",
+        "matplotlib.backends.backend_pgf._metadata_to_str",
+        "matplotlib.__init__._ensure_handler",
+        "matplotlib.backends._backend_tk._blit",
+        "matplotlib.backends.backend_gtk3._mpl_to_gtk_cursor",
+        "matplotlib.rcsetup._validate_pathlike",
+        "matplotlib.backends.backend_ps._log_if_debug_on",
+        "matplotlib.backends.qt_editor._formlayout.qfont_to_tuple",
+        "matplotlib.artist._prevent_rasterization",
+        "matplotlib.artist._finalize_rasterization",
+        "matplotlib.cbook._check_1d",
+        "matplotlib.colors.to_hex"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.backends.backend_wxagg._rgba_to_wx_bitmap"
+      ],
+      "prune_bound": 0.206292,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib._layoutbox.get_renderer",
+      "path_score": 0.202899,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.206292,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "matplotlib.dates.julian2num",
+      "path_score": 0.202623,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.206292,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "matplotlib.dates.num2julian",
+      "path_score": 0.202623,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.206292,
+      "dead_reason": "pruned_at_pop"
+    }
+  ]
+}

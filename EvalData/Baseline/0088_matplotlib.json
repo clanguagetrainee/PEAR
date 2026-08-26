@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.4.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.axis.Tick.apply_tickdir",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.axis.Tick._apply_tickdir",
+      "api_type": "method",
+      "similarity": 0.6888888888888889,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Patch.set_linestyle",
+      "api_type": "method",
+      "similarity": 0.576271186440678,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Patch._set_edgecolor",
+      "api_type": "method",
+      "similarity": 0.543859649122807,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_drawstyle",
+      "api_type": "method",
+      "similarity": 0.5283018867924528,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.Collection._set_hatchcolor",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image._ImageBase.set_interpolation_stage",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Patch._set_hatchcolor",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.RendererSVG.open_group",
+      "api_type": "method",
+      "similarity": 0.4915254237288136,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.AbstractMovieWriter.setup",
+      "api_type": "method",
+      "similarity": 0.4909090909090909,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.CenteredNorm.halfrange",
+      "api_type": "method",
+      "similarity": 0.49056603773584906,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.Collection._set_edgecolor",
+      "api_type": "method",
+      "similarity": 0.4788732394366197,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image._ImageBase.set_data",
+      "api_type": "method",
+      "similarity": 0.4727272727272727,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.Text.set_rotation_mode",
+      "api_type": "method",
+      "similarity": 0.4727272727272727,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer.Colorizer._set_cmap",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.font_manager.FontProperties.set_style",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.locator_params",
+      "api_type": "method",
+      "similarity": 0.4696969696969697,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_foreground",
+      "api_type": "method",
+      "similarity": 0.46774193548387094,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.FileMovieWriter.frame_format",
+      "api_type": "method",
+      "similarity": 0.46551724137931033,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.AxesWidget._save_blit_background",
+      "api_type": "method",
+      "similarity": 0.46551724137931033,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.Collection.set_antialiased",
+      "api_type": "method",
+      "similarity": 0.46296296296296297,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

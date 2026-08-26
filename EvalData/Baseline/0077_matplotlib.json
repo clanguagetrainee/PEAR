@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.axis.Axis.cla",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.axis.Axis.clear",
+      "api_type": "method",
+      "similarity": 0.5603448275862069,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.sphinxext.figmpl_directive.FigureMpl.run",
+      "api_type": "method",
+      "similarity": 0.4628099173553719,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._type1font._CharstringSimulator.run",
+      "api_type": "method",
+      "similarity": 0.46226415094339623,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.XAxis._init",
+      "api_type": "method",
+      "similarity": 0.45,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.sphinxext.mathmpl.MathDirective.run",
+      "api_type": "method",
+      "similarity": 0.4470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.YAxis._init",
+      "api_type": "method",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_history_buttons",
+      "api_type": "method",
+      "similarity": 0.4270833333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.ImageMagickBase._args",
+      "api_type": "method",
+      "similarity": 0.4235294117647059,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.Collection._set_edgecolor",
+      "api_type": "method",
+      "similarity": 0.4148936170212766,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.__getstate__",
+      "api_type": "method",
+      "similarity": 0.4111111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._secondary_axes.SecondaryAxis.set_alignment",
+      "api_type": "method",
+      "similarity": 0.4065934065934066,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.LinearSegmentedColormap._init",
+      "api_type": "method",
+      "similarity": 0.40350877192982454,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.spines.Spine._recompute_transform",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.RangeSlider._format",
+      "api_type": "method",
+      "similarity": 0.39814814814814814,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._secondary_axes.SecondaryAxis._set_scale",
+      "api_type": "method",
+      "similarity": 0.39805825242718446,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D._transform_path",
+      "api_type": "method",
+      "similarity": 0.3979591836734694,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.SpanSelector._set_active_handle",
+      "api_type": "method",
+      "similarity": 0.3979591836734694,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.table.Cell.visible_edges",
+      "api_type": "method",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.grid",
+      "api_type": "method",
+      "similarity": 0.390625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triangulation.Triangulation.set_mask",
+      "api_type": "method",
+      "similarity": 0.39,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.8.19",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.fields.related.ReverseSingleRelatedObjectDescriptor",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
+      "api_type": "class",
+      "similarity": 0.7846385542168675,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
+      "api_type": "class",
+      "similarity": 0.6883720930232559,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.models.BaseModelForm",
+      "api_type": "class",
+      "similarity": 0.5824468085106383,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.aggregates.Aggregate",
+      "api_type": "class",
+      "similarity": 0.5725094577553594,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.migration.Migration",
+      "api_type": "class",
+      "similarity": 0.5667574931880109,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.contenttypes.fields.GenericForeignKey",
+      "api_type": "class",
+      "similarity": 0.5629139072847682,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.generated.GeneratedField",
+      "api_type": "class",
+      "similarity": 0.5596221959858324,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.models.BaseInlineFormSet",
+      "api_type": "class",
+      "similarity": 0.550354609929078,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.apps.config.AppConfig",
+      "api_type": "class",
+      "similarity": 0.5390334572490706,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.mail.backends.smtp.EmailBackend",
+      "api_type": "class",
+      "similarity": 0.5328185328185329,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.sql.compiler.SQLUpdateCompiler",
+      "api_type": "class",
+      "similarity": 0.5291375291375291,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.serializers.xml_serializer.Deserializer",
+      "api_type": "class",
+      "similarity": 0.5234192037470726,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.linestring.LineString",
+      "api_type": "class",
+      "similarity": 0.5183727034120735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.commands.compilemessages.Command",
+      "api_type": "class",
+      "similarity": 0.5134048257372654,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.options.InlineModelAdmin",
+      "api_type": "class",
+      "similarity": 0.5064794816414687,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.commands.showmigrations.Command",
+      "api_type": "class",
+      "similarity": 0.5059760956175299,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.base.Parser",
+      "api_type": "class",
+      "similarity": 0.5043370508054523,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.contenttypes.fields.GenericRelation",
+      "api_type": "class",
+      "similarity": 0.49503858875413453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.debug.SafeExceptionReporterFilter",
+      "api_type": "class",
+      "similarity": 0.4932844932844933,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.sql.compiler.SQLInsertCompiler",
+      "api_type": "class",
+      "similarity": 0.4927385892116183,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

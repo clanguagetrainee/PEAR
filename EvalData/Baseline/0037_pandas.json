@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "1.3.5",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.indexes.numeric.Float64Index",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.tests.arrays.categorical.test_repr.TestCategoricalReprWithFactor",
+      "api_type": "class",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.interchange.utils.ArrowCTypes",
+      "api_type": "class",
+      "similarity": 0.38372093023255816,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.period.test_tools.TestPeriodIndexConversion",
+      "api_type": "class",
+      "similarity": 0.3670886075949367,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.datetimes.test_ops.TestDatetimeIndexOps",
+      "api_type": "class",
+      "similarity": 0.36363636363636365,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core._numba.extensions.IndexModel",
+      "api_type": "class",
+      "similarity": 0.36,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.timedeltas.test_ops.TestTimedeltaIndexOps",
+      "api_type": "class",
+      "similarity": 0.35064935064935066,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.AbstractMethodError",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.floating.Float64Dtype",
+      "api_type": "class",
+      "similarity": 0.3448275862068966,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.base.test_constructors.TestNoNewAttributesMixin",
+      "api_type": "class",
+      "similarity": 0.34375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.AppendableMultiSeriesTable",
+      "api_type": "class",
+      "similarity": 0.3404255319148936,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.interchange.utils.Endianness",
+      "api_type": "class",
+      "similarity": 0.33962264150943394,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.period.methods.test_insert.TestInsert",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.scalar.period.test_period.TestPeriodComparisons",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.arrays.timedeltas.test_cumulative.TestAccumulator",
+      "api_type": "class",
+      "similarity": 0.3302752293577982,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexBold",
+      "api_type": "class",
+      "similarity": 0.3274336283185841,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.test_subclass.CustomIndex",
+      "api_type": "class",
+      "similarity": 0.3181818181818182,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexing.test_partial.TestStringSlicing",
+      "api_type": "class",
+      "similarity": 0.3177570093457944,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.timedeltas.test_pickle.TestPickle",
+      "api_type": "class",
+      "similarity": 0.31645569620253167,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.datetimes.methods.test_to_series.TestToSeries",
+      "api_type": "class",
+      "similarity": 0.3163265306122449,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_getitem.TestGetitemCallable",
+      "api_type": "class",
+      "similarity": 0.3153153153153153,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

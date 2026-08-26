@@ -1,0 +1,359 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.0.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.scale.InvertedLogTransformBase",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.scale.InvertedLogTransform",
+      "api_type": "class",
+      "similarity": 0.6593406593406593,
+      "evolution_path": [
+        "matplotlib.scale.InvertedLogTransform"
+      ],
+      "local_scores": [
+        0.6593406593406593
+      ]
+    },
+    {
+      "fqn": "matplotlib.scale.LogisticTransform",
+      "api_type": "class",
+      "similarity": 0.6063829787234043,
+      "evolution_path": [
+        "matplotlib.scale.LogisticTransform"
+      ],
+      "local_scores": [
+        0.6063829787234043
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo._GeoTransform",
+      "api_type": "class",
+      "similarity": 0.5154639175257731,
+      "evolution_path": [
+        "matplotlib.projections.geo._GeoTransform"
+      ],
+      "local_scores": [
+        0.5154639175257731
+      ]
+    },
+    {
+      "fqn": "matplotlib.scale.FuncTransform",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.scale.FuncTransform"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.tests.test_transforms.NonAffineForTest",
+      "api_type": "class",
+      "similarity": 0.49504950495049505,
+      "evolution_path": [
+        "matplotlib.tests.test_transforms.NonAffineForTest"
+      ],
+      "local_scores": [
+        0.49504950495049505
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform",
+      "api_type": "class",
+      "similarity": 0.4931506849315068,
+      "evolution_path": [
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform"
+      ],
+      "local_scores": [
+        0.4931506849315068
+      ]
+    },
+    {
+      "fqn": "matplotlib.scale.LogitTransform",
+      "api_type": "class",
+      "similarity": 0.45185185185185184,
+      "evolution_path": [
+        "matplotlib.scale.LogitTransform"
+      ],
+      "local_scores": [
+        0.45185185185185184
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform",
+      "api_type": "class",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.scale.FuncScaleLog",
+      "api_type": "class",
+      "similarity": 0.40404040404040403,
+      "evolution_path": [
+        "matplotlib.scale.FuncScaleLog"
+      ],
+      "local_scores": [
+        0.40404040404040403
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform",
+      "api_type": "class",
+      "similarity": 0.392,
+      "evolution_path": [
+        "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform"
+      ],
+      "local_scores": [
+        0.392
+      ]
+    },
+    {
+      "fqn": "matplotlib.scale.LogTransform",
+      "api_type": "class",
+      "similarity": 0.3878787878787879,
+      "evolution_path": [
+        "matplotlib.scale.LogTransform"
+      ],
+      "local_scores": [
+        0.3878787878787879
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.AffineDeltaTransform",
+      "api_type": "class",
+      "similarity": 0.3877551020408163,
+      "evolution_path": [
+        "matplotlib.transforms.AffineDeltaTransform"
+      ],
+      "local_scores": [
+        0.3877551020408163
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform",
+      "api_type": "class",
+      "similarity": 0.3875968992248062,
+      "evolution_path": [
+        "matplotlib.projections.geo.HammerAxes.HammerTransform"
+      ],
+      "local_scores": [
+        0.3875968992248062
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "matplotlib.projections.geo.AitoffAxes.AitoffTransform"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.PathPatch",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [
+        "matplotlib.patches.PathPatch"
+      ],
+      "local_scores": [
+        0.35714285714285715
+      ]
+    },
+    {
+      "fqn": "matplotlib.scale.InvertedSymmetricalLogTransform",
+      "api_type": "class",
+      "similarity": 0.3548387096774194,
+      "evolution_path": [
+        "matplotlib.scale.InvertedSymmetricalLogTransform"
+      ],
+      "local_scores": [
+        0.3548387096774194
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis._LazyTickList",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [
+        "matplotlib.axis._LazyTickList"
+      ],
+      "local_scores": [
+        0.3333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.hatch.Circles",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [
+        "matplotlib.hatch.Circles"
+      ],
+      "local_scores": [
+        0.3333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.CirclePolygon",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [
+        "matplotlib.patches.CirclePolygon"
+      ],
+      "local_scores": [
+        0.3333333333333333
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.scale.InvertedLogTransformBase",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.2.2",
+      "vpost": "3.3.0",
+      "resolved_fqn": "matplotlib.scale.InvertedLogTransformBase",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.scale.InvertedLogTransform",
+          "similarity": 0.659341
+        },
+        {
+          "fqn": "matplotlib.scale.LogisticTransform",
+          "similarity": 0.606383
+        },
+        {
+          "fqn": "matplotlib.projections.geo._GeoTransform",
+          "similarity": 0.515464
+        },
+        {
+          "fqn": "matplotlib.scale.FuncTransform",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.tests.test_transforms.NonAffineForTest",
+          "similarity": 0.49505
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform",
+          "similarity": 0.493151
+        },
+        {
+          "fqn": "matplotlib.scale.LogitTransform",
+          "similarity": 0.451852
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.scale.FuncScaleLog",
+          "similarity": 0.40404
+        },
+        {
+          "fqn": "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform",
+          "similarity": 0.392
+        },
+        {
+          "fqn": "matplotlib.scale.LogTransform",
+          "similarity": 0.387879
+        },
+        {
+          "fqn": "matplotlib.transforms.AffineDeltaTransform",
+          "similarity": 0.387755
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform",
+          "similarity": 0.387597
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "matplotlib.patches.PathPatch",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "matplotlib.scale.InvertedSymmetricalLogTransform",
+          "similarity": 0.354839
+        },
+        {
+          "fqn": "matplotlib.widgets.Widget",
+          "similarity": 0.347368
+        },
+        {
+          "fqn": "matplotlib.axis._LazyTickList",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "matplotlib.hatch.Circles",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "matplotlib.patches.CirclePolygon",
+          "similarity": 0.333333
+        }
+      ],
+      "entered_final": [
+        "matplotlib.scale.InvertedLogTransform",
+        "matplotlib.scale.LogisticTransform",
+        "matplotlib.projections.geo._GeoTransform",
+        "matplotlib.scale.FuncTransform",
+        "matplotlib.tests.test_transforms.NonAffineForTest",
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform",
+        "matplotlib.scale.LogitTransform",
+        "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform",
+        "matplotlib.scale.FuncScaleLog",
+        "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform",
+        "matplotlib.scale.LogTransform",
+        "matplotlib.transforms.AffineDeltaTransform",
+        "matplotlib.projections.geo.HammerAxes.HammerTransform",
+        "matplotlib.projections.geo.AitoffAxes.AitoffTransform",
+        "matplotlib.patches.PathPatch",
+        "matplotlib.scale.InvertedSymmetricalLogTransform",
+        "matplotlib.axis._LazyTickList",
+        "matplotlib.hatch.Circles",
+        "matplotlib.patches.CirclePolygon"
+      ],
+      "entered_iter": [
+        "matplotlib.widgets.Widget"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.widgets.Widget",
+      "path_score": 0.347368,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    }
+  ]
+}

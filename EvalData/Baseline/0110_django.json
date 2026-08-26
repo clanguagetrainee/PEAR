@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.8",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.test.utils.TestTemplateLoader",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.core.checks.messages.Critical",
+      "api_type": "class",
+      "similarity": 0.5111111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.checks.messages.Debug",
+      "api_type": "class",
+      "similarity": 0.5111111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.checks.messages.Error",
+      "api_type": "class",
+      "similarity": 0.5111111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.checks.messages.Info",
+      "api_type": "class",
+      "similarity": 0.5111111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.checks.messages.Warning",
+      "api_type": "class",
+      "similarity": 0.5111111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.EmailField",
+      "api_type": "class",
+      "similarity": 0.509090909090909,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.text.Replace",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.widgets.Script",
+      "api_type": "class",
+      "similarity": 0.48936170212765956,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.aggregates.mixins._DeprecatedOrdering",
+      "api_type": "class",
+      "similarity": 0.47619047619047616,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.forms.ReadOnlyPasswordHashField",
+      "api_type": "class",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.base.CommandError",
+      "api_type": "class",
+      "similarity": 0.46153846153846156,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.views.main.ChangeListSearchForm",
+      "api_type": "class",
+      "similarity": 0.45614035087719296,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.widgets.Textarea",
+      "api_type": "class",
+      "similarity": 0.45614035087719296,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.datetime.Trunc",
+      "api_type": "class",
+      "similarity": 0.4528301886792453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.proxy.OrderWrt",
+      "api_type": "class",
+      "similarity": 0.44642857142857145,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaulttags.TemplateIfParser",
+      "api_type": "class",
+      "similarity": 0.44285714285714284,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.indexes.OpClass",
+      "api_type": "class",
+      "similarity": 0.4339622641509434,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.aggregates.mixins.OrderableAggMixin",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.functions.IntervalToSeconds",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.functions.SecondsToInterval",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

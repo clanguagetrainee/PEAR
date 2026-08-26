@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.FigureCanvasBase.set_window_title",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends._backend_gtk._FigureManagerGTK.set_window_title",
+      "api_type": "method",
+      "similarity": 0.75,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.FigureManagerTk.set_window_title",
+      "api_type": "method",
+      "similarity": 0.75,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.FigureManagerQT.set_window_title",
+      "api_type": "method",
+      "similarity": 0.75,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.FigureManagerWx.set_window_title",
+      "api_type": "method",
+      "similarity": 0.75,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.FigureManagerBase.set_window_title",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureManagerWebAgg.set_window_title",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.NavigationToolbar2QT.set_message",
+      "api_type": "method",
+      "similarity": 0.5185185185185185,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.NavigationToolbar2Wx.set_message",
+      "api_type": "method",
+      "similarity": 0.5185185185185185,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.LineCollection.set_alpha",
+      "api_type": "method",
+      "similarity": 0.48484848484848486,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.set_gapcolor",
+      "api_type": "method",
+      "similarity": 0.48484848484848486,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.Annotation.set_figure",
+      "api_type": "method",
+      "similarity": 0.48484848484848486,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_gtk._FigureManagerGTK.get_window_title",
+      "api_type": "method",
+      "similarity": 0.4642857142857143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.FigureManagerTk.get_window_title",
+      "api_type": "method",
+      "similarity": 0.4642857142857143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.FigureManagerQT.get_window_title",
+      "api_type": "method",
+      "similarity": 0.4642857142857143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.FigureManagerWx.get_window_title",
+      "api_type": "method",
+      "similarity": 0.4642857142857143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.AnchoredOffsetbox.set_child",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.font_manager.FontProperties.set_file",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.ToolbarQt.set_message",
+      "api_type": "method",
+      "similarity": 0.4482758620689655,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.figure.FigureBase.set_frameon",
+      "api_type": "method",
+      "similarity": 0.4482758620689655,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.TextArea.set_text",
+      "api_type": "method",
+      "similarity": 0.4482758620689655,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

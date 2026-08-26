@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.text.TextWithDash",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.patches.ConnectionPatch",
+      "api_type": "class",
+      "similarity": 0.5269872423945045,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.Annotation",
+      "api_type": "class",
+      "similarity": 0.5209260908281389,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Rectangle",
+      "api_type": "class",
+      "similarity": 0.5133470225872689,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.Colormap",
+      "api_type": "class",
+      "similarity": 0.5119617224880383,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Arc",
+      "api_type": "class",
+      "similarity": 0.4927395934172314,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.font_manager.FontProperties",
+      "api_type": "class",
+      "similarity": 0.48813868613138683,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.inset.InsetIndicator",
+      "api_type": "class",
+      "similarity": 0.48717948717948717,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore",
+      "api_type": "class",
+      "similarity": 0.4832379394930499,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.AnnotationBbox",
+      "api_type": "class",
+      "similarity": 0.48112294288480156,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.FancyArrowPatch",
+      "api_type": "class",
+      "similarity": 0.4808259587020649,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.Tick",
+      "api_type": "class",
+      "similarity": 0.4801498127340824,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.SpanSelector",
+      "api_type": "class",
+      "similarity": 0.4728682170542636,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_managers.ToolManager",
+      "api_type": "class",
+      "similarity": 0.47282608695652173,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._secondary_axes.SecondaryAxis",
+      "api_type": "class",
+      "similarity": 0.46380697050938335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf",
+      "api_type": "class",
+      "similarity": 0.4616048317515099,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase",
+      "api_type": "class",
+      "similarity": 0.45726495726495725,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.table.Cell",
+      "api_type": "class",
+      "similarity": 0.4564102564102564,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.table.Table",
+      "api_type": "class",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.Bbox",
+      "api_type": "class",
+      "similarity": 0.45098039215686275,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.XAxis",
+      "api_type": "class",
+      "similarity": 0.45072836332476435,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

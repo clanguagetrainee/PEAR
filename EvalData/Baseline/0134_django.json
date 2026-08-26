@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "2.2.28",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.utils.http.is_safe_url",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.utils.http.url_has_allowed_host_and_scheme",
+      "api_type": "function",
+      "similarity": 0.7922077922077922,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.context.make_context",
+      "api_type": "function",
+      "similarity": 0.5529411764705883,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.translation.trans_real.do_ntranslate",
+      "api_type": "function",
+      "similarity": 0.5432098765432098,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.hashers.make_password",
+      "api_type": "function",
+      "similarity": 0.5340909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.prototypes.errcheck.check_string",
+      "api_type": "function",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaultfilters.stringfilter",
+      "api_type": "function",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.formats.number_format",
+      "api_type": "function",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.decorators.permission_required",
+      "api_type": "function",
+      "similarity": 0.4946236559139785,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.encoding.force_str",
+      "api_type": "function",
+      "similarity": 0.4945054945054945,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.servers.basehttp.run",
+      "api_type": "function",
+      "similarity": 0.4895833333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.cache.get_cache_key",
+      "api_type": "function",
+      "similarity": 0.4888888888888889,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.staticfiles.finders.find",
+      "api_type": "function",
+      "similarity": 0.4842105263157895,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.utils.model_ngettext",
+      "api_type": "function",
+      "similarity": 0.4827586206896552,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.html.json_script",
+      "api_type": "function",
+      "similarity": 0.4823529411764706,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaultfilters.linebreaksbr",
+      "api_type": "function",
+      "similarity": 0.4805194805194805,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.html.normalize_attributes",
+      "api_type": "function",
+      "similarity": 0.4787234042553192,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.encoding.force_bytes",
+      "api_type": "function",
+      "similarity": 0.4787234042553192,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.checks.urls.check_url_namespaces_unique",
+      "api_type": "function",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.models.model_to_dict",
+      "api_type": "function",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.serializers.__init__.register_serializer",
+      "api_type": "function",
+      "similarity": 0.4725274725274725,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

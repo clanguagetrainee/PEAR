@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "4.0.10",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.backends.mysql.operations.DatabaseOperations._convert_field_to_tz",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.db.backends.mysql.operations.DatabaseOperations._convert_sql_to_tz",
+      "api_type": "method",
+      "similarity": 0.7021276595744681,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.postgresql.operations.DatabaseOperations._convert_sql_to_tz",
+      "api_type": "method",
+      "similarity": 0.6170212765957447,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.GenericIPAddressField.to_python",
+      "api_type": "method",
+      "similarity": 0.49019607843137253,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.serializers.geojson.Serializer.handle_field",
+      "api_type": "method",
+      "similarity": 0.48936170212765956,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations._convert_sql_to_tz",
+      "api_type": "method",
+      "similarity": 0.4861111111111111,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.validation.DatabaseValidation.check_field_type",
+      "api_type": "method",
+      "similarity": 0.48214285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.forms.UsernameField.to_python",
+      "api_type": "method",
+      "similarity": 0.4716981132075472,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.generated.GeneratedField.get_col",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.forms.widgets.OpenLayersWidget.deserialize",
+      "api_type": "method",
+      "similarity": 0.46938775510204084,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.operations.DatabaseOperations._convert_tznames_to_sql",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.FileField._clean_bound_field",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.ewkt",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.json.KeyTransformIsNull.as_sqlite",
+      "api_type": "method",
+      "similarity": 0.46,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.reverse_related.ManyToOneRel.get_related_field",
+      "api_type": "method",
+      "similarity": 0.46,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_rename",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.base.schema.BaseDatabaseSchemaEditor._field_db_check",
+      "api_type": "method",
+      "similarity": 0.45614035087719296,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.HStoreField.to_python",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.BaseTemporalField.to_python",
+      "api_type": "method",
+      "similarity": 0.4528301886792453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.utils.SpatialOperator.as_sql",
+      "api_type": "method",
+      "similarity": 0.45098039215686275,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.ranges.ContinuousRangeField.deconstruct",
+      "api_type": "method",
+      "similarity": 0.45098039215686275,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

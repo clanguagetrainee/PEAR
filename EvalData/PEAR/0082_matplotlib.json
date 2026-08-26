@@ -1,0 +1,954 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.cbook.deprecation.deprecated",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib._api.deprecation.deprecated",
+      "api_type": "function",
+      "similarity": 0.9087719298245615,
+      "evolution_path": [
+        "matplotlib._api.deprecation.deprecated"
+      ],
+      "local_scores": [
+        0.9087719298245615
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.figure",
+      "api_type": "function",
+      "similarity": 0.5766666666666667,
+      "evolution_path": [
+        "matplotlib.pyplot.figure"
+      ],
+      "local_scores": [
+        0.5766666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.__init__._preprocess_data",
+      "api_type": "function",
+      "similarity": 0.5608465608465608,
+      "evolution_path": [
+        "matplotlib.__init__._preprocess_data"
+      ],
+      "local_scores": [
+        0.5608465608465608
+      ]
+    },
+    {
+      "fqn": "matplotlib.stackplot.stackplot",
+      "api_type": "function",
+      "similarity": 0.5528455284552846,
+      "evolution_path": [
+        "matplotlib.stackplot.stackplot"
+      ],
+      "local_scores": [
+        0.5528455284552846
+      ]
+    },
+    {
+      "fqn": "matplotlib.image.imsave",
+      "api_type": "function",
+      "similarity": 0.5524296675191815,
+      "evolution_path": [
+        "matplotlib.image.imsave"
+      ],
+      "local_scores": [
+        0.5524296675191815
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.decorators._pytest_image_comparison",
+      "api_type": "function",
+      "similarity": 0.5481927710843374,
+      "evolution_path": [
+        "matplotlib.testing.decorators._pytest_image_comparison"
+      ],
+      "local_scores": [
+        0.5481927710843374
+      ]
+    },
+    {
+      "fqn": "matplotlib._api.deprecation.delete_parameter",
+      "api_type": "function",
+      "similarity": 0.5443037974683544,
+      "evolution_path": [
+        "matplotlib._api.deprecation.delete_parameter"
+      ],
+      "local_scores": [
+        0.5443037974683544
+      ]
+    },
+    {
+      "fqn": "matplotlib.bezier.split_path_inout",
+      "api_type": "function",
+      "similarity": 0.5300546448087432,
+      "evolution_path": [
+        "matplotlib.bezier.split_path_inout"
+      ],
+      "local_scores": [
+        0.5300546448087432
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.compare.compare_images",
+      "api_type": "function",
+      "similarity": 0.5225225225225225,
+      "evolution_path": [
+        "matplotlib.testing.compare.compare_images"
+      ],
+      "local_scores": [
+        0.5225225225225225
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorbar.make_axes",
+      "api_type": "function",
+      "similarity": 0.5216284987277354,
+      "evolution_path": [
+        "matplotlib.colorbar.make_axes"
+      ],
+      "local_scores": [
+        0.5216284987277354
+      ]
+    },
+    {
+      "fqn": "matplotlib.__init__._rc_params_in_file",
+      "api_type": "function",
+      "similarity": 0.5196374622356495,
+      "evolution_path": [
+        "matplotlib.__init__._rc_params_in_file"
+      ],
+      "local_scores": [
+        0.5196374622356495
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.decorators.check_figures_equal",
+      "api_type": "function",
+      "similarity": 0.515850144092219,
+      "evolution_path": [
+        "matplotlib.testing.decorators.check_figures_equal"
+      ],
+      "local_scores": [
+        0.515850144092219
+      ]
+    },
+    {
+      "fqn": "matplotlib.image.imread",
+      "api_type": "function",
+      "similarity": 0.5082508250825083,
+      "evolution_path": [
+        "matplotlib.image.imread"
+      ],
+      "local_scores": [
+        0.5082508250825083
+      ]
+    },
+    {
+      "fqn": "matplotlib.cbook.delete_masked_points",
+      "api_type": "function",
+      "similarity": 0.5028735632183908,
+      "evolution_path": [
+        "matplotlib.cbook.__init__.delete_masked_points",
+        "matplotlib.cbook.delete_masked_points"
+      ],
+      "local_scores": [
+        0.5028735632183908,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines._mark_every_path",
+      "api_type": "function",
+      "similarity": 0.5012165450121655,
+      "evolution_path": [
+        "matplotlib.lines._mark_every_path"
+      ],
+      "local_scores": [
+        0.5012165450121655
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors._make_norm_from_scale",
+      "api_type": "function",
+      "similarity": 0.48877805486284287,
+      "evolution_path": [
+        "matplotlib.colors._make_norm_from_scale"
+      ],
+      "local_scores": [
+        0.48877805486284287
+      ]
+    },
+    {
+      "fqn": "matplotlib._tight_bbox.adjust_bbox",
+      "api_type": "function",
+      "similarity": 0.46957922861979645,
+      "evolution_path": [
+        "matplotlib.tight_bbox.adjust_bbox",
+        "matplotlib._tight_bbox.adjust_bbox"
+      ],
+      "local_scores": [
+        0.5141242937853108,
+        0.9133574007220217
+      ]
+    },
+    {
+      "fqn": "matplotlib.streamplot._get_integrator",
+      "api_type": "function",
+      "similarity": 0.46870391127367117,
+      "evolution_path": [
+        "matplotlib.streamplot.get_integrator",
+        "matplotlib.streamplot._get_integrator"
+      ],
+      "local_scores": [
+        0.5223880597014925,
+        0.8972332015810277
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._tripcolor.tripcolor",
+      "api_type": "function",
+      "similarity": 0.4488294623854909,
+      "evolution_path": [
+        "matplotlib.tri.tripcolor.tripcolor",
+        "matplotlib.tri._tripcolor.tripcolor"
+      ],
+      "local_scores": [
+        0.5093457943925234,
+        0.8811881188118812
+      ]
+    },
+    {
+      "fqn": "matplotlib._tight_layout.get_tight_layout_figure",
+      "api_type": "function",
+      "similarity": 0.3554357592093441,
+      "evolution_path": [
+        "matplotlib.tight_layout.get_tight_layout_figure",
+        "matplotlib._tight_layout.get_tight_layout_figure"
+      ],
+      "local_scores": [
+        0.5111111111111111,
+        0.6954177897574124
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.cbook.deprecation.deprecated",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.4",
+      "vpost": "3.4.0",
+      "resolved_fqn": "matplotlib.cbook.deprecation.deprecated",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib._api.deprecation.deprecated",
+          "similarity": 0.908772
+        },
+        {
+          "fqn": "matplotlib.pyplot.figure",
+          "similarity": 0.576667
+        },
+        {
+          "fqn": "matplotlib.__init__._preprocess_data",
+          "similarity": 0.560847
+        },
+        {
+          "fqn": "matplotlib.stackplot.stackplot",
+          "similarity": 0.552846
+        },
+        {
+          "fqn": "matplotlib.image.imsave",
+          "similarity": 0.55243
+        },
+        {
+          "fqn": "matplotlib.testing.decorators._pytest_image_comparison",
+          "similarity": 0.548193
+        },
+        {
+          "fqn": "matplotlib._api.deprecation.delete_parameter",
+          "similarity": 0.544304
+        },
+        {
+          "fqn": "matplotlib.bezier.split_path_inout",
+          "similarity": 0.530055
+        },
+        {
+          "fqn": "matplotlib.testing.compare.compare_images",
+          "similarity": 0.522523
+        },
+        {
+          "fqn": "matplotlib.streamplot.get_integrator",
+          "similarity": 0.522388
+        },
+        {
+          "fqn": "matplotlib.colorbar.make_axes",
+          "similarity": 0.521628
+        },
+        {
+          "fqn": "matplotlib.__init__._rc_params_in_file",
+          "similarity": 0.519637
+        },
+        {
+          "fqn": "matplotlib.testing.decorators.check_figures_equal",
+          "similarity": 0.51585
+        },
+        {
+          "fqn": "matplotlib.tight_bbox.adjust_bbox",
+          "similarity": 0.514124
+        },
+        {
+          "fqn": "matplotlib.tight_layout.get_tight_layout_figure",
+          "similarity": 0.511111
+        },
+        {
+          "fqn": "matplotlib.tri.tripcolor.tripcolor",
+          "similarity": 0.509346
+        },
+        {
+          "fqn": "matplotlib.image.imread",
+          "similarity": 0.508251
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__.delete_masked_points",
+          "similarity": 0.502874
+        },
+        {
+          "fqn": "matplotlib.lines._mark_every_path",
+          "similarity": 0.501217
+        },
+        {
+          "fqn": "matplotlib.colors._make_norm_from_scale",
+          "similarity": 0.488778
+        }
+      ],
+      "entered_final": [
+        "matplotlib._api.deprecation.deprecated",
+        "matplotlib.pyplot.figure",
+        "matplotlib.__init__._preprocess_data",
+        "matplotlib.stackplot.stackplot",
+        "matplotlib.image.imsave",
+        "matplotlib.testing.decorators._pytest_image_comparison",
+        "matplotlib._api.deprecation.delete_parameter",
+        "matplotlib.bezier.split_path_inout",
+        "matplotlib.testing.compare.compare_images",
+        "matplotlib.colorbar.make_axes",
+        "matplotlib.__init__._rc_params_in_file",
+        "matplotlib.testing.decorators.check_figures_equal",
+        "matplotlib.image.imread",
+        "matplotlib.lines._mark_every_path",
+        "matplotlib.colors._make_norm_from_scale"
+      ],
+      "entered_iter": [
+        "matplotlib.streamplot.get_integrator",
+        "matplotlib.tight_bbox.adjust_bbox",
+        "matplotlib.tight_layout.get_tight_layout_figure",
+        "matplotlib.tri.tripcolor.tripcolor",
+        "matplotlib.cbook.__init__.delete_masked_points"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.streamplot.get_integrator",
+      "path_score": 0.522388,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.streamplot.get_integrator",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.streamplot._get_integrator",
+          "similarity": 0.897233
+        },
+        {
+          "fqn": "matplotlib.streamplot._integrate_rk12",
+          "similarity": 0.607509
+        },
+        {
+          "fqn": "matplotlib._tight_layout.get_tight_layout_figure",
+          "similarity": 0.595808
+        },
+        {
+          "fqn": "matplotlib.stackplot.stackplot",
+          "similarity": 0.563025
+        },
+        {
+          "fqn": "matplotlib.axes._base._process_plot_format",
+          "similarity": 0.562874
+        },
+        {
+          "fqn": "matplotlib.bezier.get_parallels",
+          "similarity": 0.558923
+        },
+        {
+          "fqn": "matplotlib.tests.test_offsetbox.test_packers",
+          "similarity": 0.555215
+        },
+        {
+          "fqn": "matplotlib.__init__._rc_params_in_file",
+          "similarity": 0.5375
+        },
+        {
+          "fqn": "matplotlib.bezier.split_path_inout",
+          "similarity": 0.535411
+        },
+        {
+          "fqn": "matplotlib.tri._triinterpolate._cg",
+          "similarity": 0.531469
+        },
+        {
+          "fqn": "matplotlib.streamplot.interpgrid",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.blit",
+          "similarity": 0.530686
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__.delete_masked_points",
+          "similarity": 0.52568
+        },
+        {
+          "fqn": "matplotlib.quiver._parse_args",
+          "similarity": 0.523649
+        },
+        {
+          "fqn": "matplotlib._api.deprecation.delete_parameter",
+          "similarity": 0.523529
+        },
+        {
+          "fqn": "matplotlib.bezier.make_wedged_bezier2",
+          "similarity": 0.519031
+        },
+        {
+          "fqn": "matplotlib.pyplot.figure",
+          "similarity": 0.512121
+        },
+        {
+          "fqn": "matplotlib.offsetbox._get_packed_offsets",
+          "similarity": 0.503497
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf._get_pdf_charprocs",
+          "similarity": 0.501529
+        },
+        {
+          "fqn": "matplotlib.style.core.use",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "matplotlib.streamplot._get_integrator",
+        "matplotlib.streamplot._integrate_rk12",
+        "matplotlib._tight_layout.get_tight_layout_figure",
+        "matplotlib.stackplot.stackplot",
+        "matplotlib.axes._base._process_plot_format",
+        "matplotlib.bezier.get_parallels",
+        "matplotlib.tests.test_offsetbox.test_packers",
+        "matplotlib.__init__._rc_params_in_file",
+        "matplotlib.bezier.split_path_inout",
+        "matplotlib.tri._triinterpolate._cg",
+        "matplotlib.streamplot.interpgrid",
+        "matplotlib.backends._backend_tk.blit",
+        "matplotlib.quiver._parse_args",
+        "matplotlib._api.deprecation.delete_parameter",
+        "matplotlib.bezier.make_wedged_bezier2",
+        "matplotlib.pyplot.figure",
+        "matplotlib.offsetbox._get_packed_offsets",
+        "matplotlib.backends.backend_pdf._get_pdf_charprocs",
+        "matplotlib.style.core.use"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cbook.__init__.delete_masked_points"
+      ],
+      "prune_bound": 0.294039,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tight_bbox.adjust_bbox",
+      "path_score": 0.514124,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.tight_bbox.adjust_bbox",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib._tight_bbox.adjust_bbox",
+          "similarity": 0.913357
+        },
+        {
+          "fqn": "matplotlib.tests.test_triangulation.test_tri_smooth_gradient",
+          "similarity": 0.558011
+        },
+        {
+          "fqn": "matplotlib._layoutgrid.plot_children",
+          "similarity": 0.556522
+        },
+        {
+          "fqn": "matplotlib._api.deprecation.delete_parameter",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "matplotlib.bezier.split_path_inout",
+          "similarity": 0.543478
+        },
+        {
+          "fqn": "matplotlib.__init__._preprocess_data",
+          "similarity": 0.541237
+        },
+        {
+          "fqn": "matplotlib._constrained_layout.make_margin_suptitles",
+          "similarity": 0.535088
+        },
+        {
+          "fqn": "matplotlib.stackplot.stackplot",
+          "similarity": 0.532982
+        },
+        {
+          "fqn": "matplotlib.tests.test_colorbar.test_negative_boundarynorm",
+          "similarity": 0.524496
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__.delete_masked_points",
+          "similarity": 0.52149
+        },
+        {
+          "fqn": "matplotlib.tests.test_backend_bases.test_interactive_zoom",
+          "similarity": 0.517751
+        },
+        {
+          "fqn": "matplotlib.tests.test_axes.test_spectrum",
+          "similarity": 0.509589
+        },
+        {
+          "fqn": "matplotlib._constrained_layout.reposition_colorbar",
+          "similarity": 0.507143
+        },
+        {
+          "fqn": "matplotlib._tight_layout.get_tight_layout_figure",
+          "similarity": 0.506812
+        },
+        {
+          "fqn": "matplotlib.tri.triinterpolate._cg",
+          "similarity": 0.506494
+        },
+        {
+          "fqn": "matplotlib.testing.decorators._pytest_image_comparison",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.colorbar.make_axes",
+          "similarity": 0.498801
+        },
+        {
+          "fqn": "matplotlib.__init__._rc_params_in_file",
+          "similarity": 0.49711
+        },
+        {
+          "fqn": "matplotlib.streamplot._integrate_rk12",
+          "similarity": 0.496988
+        },
+        {
+          "fqn": "matplotlib.image.imsave",
+          "similarity": 0.49635
+        }
+      ],
+      "entered_final": [
+        "matplotlib._tight_bbox.adjust_bbox",
+        "matplotlib.tests.test_triangulation.test_tri_smooth_gradient",
+        "matplotlib._layoutgrid.plot_children",
+        "matplotlib._api.deprecation.delete_parameter",
+        "matplotlib.bezier.split_path_inout",
+        "matplotlib.__init__._preprocess_data",
+        "matplotlib._constrained_layout.make_margin_suptitles",
+        "matplotlib.stackplot.stackplot",
+        "matplotlib.tests.test_colorbar.test_negative_boundarynorm",
+        "matplotlib.tests.test_backend_bases.test_interactive_zoom",
+        "matplotlib.tests.test_axes.test_spectrum",
+        "matplotlib._constrained_layout.reposition_colorbar",
+        "matplotlib._tight_layout.get_tight_layout_figure",
+        "matplotlib.testing.decorators._pytest_image_comparison",
+        "matplotlib.colorbar.make_axes",
+        "matplotlib.__init__._rc_params_in_file",
+        "matplotlib.streamplot._integrate_rk12",
+        "matplotlib.image.imsave"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cbook.__init__.delete_masked_points",
+        "matplotlib.tri.triinterpolate._cg"
+      ],
+      "prune_bound": 0.294118,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tight_layout.get_tight_layout_figure",
+      "path_score": 0.511111,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.tight_layout.get_tight_layout_figure",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib._tight_layout.get_tight_layout_figure",
+          "similarity": 0.695418
+        },
+        {
+          "fqn": "matplotlib.table.table",
+          "similarity": 0.603939
+        },
+        {
+          "fqn": "matplotlib.sphinxext.plot_directive.render_figures",
+          "similarity": 0.585683
+        },
+        {
+          "fqn": "matplotlib.lines._mark_every_path",
+          "similarity": 0.578261
+        },
+        {
+          "fqn": "matplotlib.stackplot.stackplot",
+          "similarity": 0.556872
+        },
+        {
+          "fqn": "matplotlib.__init__._preprocess_data",
+          "similarity": 0.556582
+        },
+        {
+          "fqn": "matplotlib._api.deprecation.deprecated",
+          "similarity": 0.541568
+        },
+        {
+          "fqn": "matplotlib.colorbar.make_axes",
+          "similarity": 0.540659
+        },
+        {
+          "fqn": "matplotlib.tri.tripcolor.tripcolor",
+          "similarity": 0.538136
+        },
+        {
+          "fqn": "matplotlib.image.imsave",
+          "similarity": 0.528761
+        },
+        {
+          "fqn": "matplotlib.axes._base._process_plot_format",
+          "similarity": 0.525672
+        },
+        {
+          "fqn": "matplotlib.colors._to_rgba_no_colorcycle",
+          "similarity": 0.515385
+        },
+        {
+          "fqn": "matplotlib._type1font._tokenize",
+          "similarity": 0.513402
+        },
+        {
+          "fqn": "matplotlib.bezier.split_path_inout",
+          "similarity": 0.511737
+        },
+        {
+          "fqn": "matplotlib.bezier.get_parallels",
+          "similarity": 0.510695
+        },
+        {
+          "fqn": "matplotlib.streamplot._get_integrator",
+          "similarity": 0.507772
+        },
+        {
+          "fqn": "matplotlib._constrained_layout.reposition_colorbar",
+          "similarity": 0.505308
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__.boxplot_stats",
+          "similarity": 0.499115
+        },
+        {
+          "fqn": "matplotlib.tests.test_backend_bases.test_uses_per_path",
+          "similarity": 0.48926
+        },
+        {
+          "fqn": "matplotlib.tests.test_colorbar.test_anchored_cbar_position_using_specgrid",
+          "similarity": 0.488189
+        }
+      ],
+      "entered_final": [
+        "matplotlib._tight_layout.get_tight_layout_figure",
+        "matplotlib.table.table",
+        "matplotlib.sphinxext.plot_directive.render_figures",
+        "matplotlib.lines._mark_every_path",
+        "matplotlib.stackplot.stackplot",
+        "matplotlib.__init__._preprocess_data",
+        "matplotlib._api.deprecation.deprecated",
+        "matplotlib.colorbar.make_axes",
+        "matplotlib.image.imsave",
+        "matplotlib.axes._base._process_plot_format",
+        "matplotlib.colors._to_rgba_no_colorcycle",
+        "matplotlib._type1font._tokenize",
+        "matplotlib.bezier.split_path_inout",
+        "matplotlib.bezier.get_parallels",
+        "matplotlib.streamplot._get_integrator",
+        "matplotlib._constrained_layout.reposition_colorbar",
+        "matplotlib.tests.test_backend_bases.test_uses_per_path",
+        "matplotlib.tests.test_colorbar.test_anchored_cbar_position_using_specgrid"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.tri.tripcolor.tripcolor",
+        "matplotlib.cbook.__init__.boxplot_stats"
+      ],
+      "prune_bound": 0.311243,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tri.tripcolor.tripcolor",
+      "path_score": 0.509346,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.tri.tripcolor.tripcolor",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tri._tripcolor.tripcolor",
+          "similarity": 0.881188
+        },
+        {
+          "fqn": "matplotlib.image.imsave",
+          "similarity": 0.66895
+        },
+        {
+          "fqn": "matplotlib.colorbar.make_axes",
+          "similarity": 0.615721
+        },
+        {
+          "fqn": "matplotlib.__init__._preprocess_data",
+          "similarity": 0.609091
+        },
+        {
+          "fqn": "matplotlib.pyplot.switch_backend",
+          "similarity": 0.59081
+        },
+        {
+          "fqn": "matplotlib.colors.to_rgba_array",
+          "similarity": 0.581781
+        },
+        {
+          "fqn": "matplotlib._api.deprecation.deprecated",
+          "similarity": 0.570115
+        },
+        {
+          "fqn": "matplotlib.table.table",
+          "similarity": 0.562118
+        },
+        {
+          "fqn": "matplotlib._type1font._tokenize",
+          "similarity": 0.554656
+        },
+        {
+          "fqn": "matplotlib.lines._mark_every_path",
+          "similarity": 0.554192
+        },
+        {
+          "fqn": "matplotlib.bezier.split_path_inout",
+          "similarity": 0.547945
+        },
+        {
+          "fqn": "matplotlib._api.deprecation.delete_parameter",
+          "similarity": 0.546099
+        },
+        {
+          "fqn": "matplotlib.colors._make_norm_from_scale",
+          "similarity": 0.539197
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__.boxplot_stats",
+          "similarity": 0.534843
+        },
+        {
+          "fqn": "matplotlib.pyplot.figure",
+          "similarity": 0.533816
+        },
+        {
+          "fqn": "matplotlib._constrained_layout.reposition_colorbar",
+          "similarity": 0.528807
+        },
+        {
+          "fqn": "matplotlib.testing.decorators._pytest_image_comparison",
+          "similarity": 0.525701
+        },
+        {
+          "fqn": "matplotlib.sphinxext.plot_directive.render_figures",
+          "similarity": 0.525591
+        },
+        {
+          "fqn": "matplotlib.stackplot.stackplot",
+          "similarity": 0.525275
+        },
+        {
+          "fqn": "matplotlib._tight_layout.get_tight_layout_figure",
+          "similarity": 0.523918
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tri._tripcolor.tripcolor",
+        "matplotlib.image.imsave",
+        "matplotlib.colorbar.make_axes",
+        "matplotlib.__init__._preprocess_data",
+        "matplotlib.pyplot.switch_backend",
+        "matplotlib.colors.to_rgba_array",
+        "matplotlib._api.deprecation.deprecated",
+        "matplotlib.table.table",
+        "matplotlib._type1font._tokenize",
+        "matplotlib.lines._mark_every_path",
+        "matplotlib.bezier.split_path_inout",
+        "matplotlib._api.deprecation.delete_parameter",
+        "matplotlib.colors._make_norm_from_scale",
+        "matplotlib.pyplot.figure",
+        "matplotlib._constrained_layout.reposition_colorbar",
+        "matplotlib.testing.decorators._pytest_image_comparison",
+        "matplotlib.sphinxext.plot_directive.render_figures",
+        "matplotlib.stackplot.stackplot",
+        "matplotlib._tight_layout.get_tight_layout_figure"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cbook.__init__.boxplot_stats"
+      ],
+      "prune_bound": 0.340727,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cbook.__init__.delete_masked_points",
+      "path_score": 0.502874,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.cbook.__init__.delete_masked_points",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.cbook.delete_masked_points",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.cbook._combine_masks",
+          "similarity": 0.652015
+        },
+        {
+          "fqn": "matplotlib.__init__._rc_params_in_file",
+          "similarity": 0.568323
+        },
+        {
+          "fqn": "matplotlib.bezier.split_path_inout",
+          "similarity": 0.558989
+        },
+        {
+          "fqn": "matplotlib._tight_layout.get_tight_layout_figure",
+          "similarity": 0.538028
+        },
+        {
+          "fqn": "matplotlib.quiver._parse_args",
+          "similarity": 0.536424
+        },
+        {
+          "fqn": "matplotlib.streamplot._get_integrator",
+          "similarity": 0.531056
+        },
+        {
+          "fqn": "matplotlib.testing.decorators._pytest_image_comparison",
+          "similarity": 0.528902
+        },
+        {
+          "fqn": "matplotlib.stackplot.stackplot",
+          "similarity": 0.526738
+        },
+        {
+          "fqn": "matplotlib._api.deprecation.delete_parameter",
+          "similarity": 0.525862
+        },
+        {
+          "fqn": "matplotlib.axes._base._process_plot_format",
+          "similarity": 0.524355
+        },
+        {
+          "fqn": "matplotlib.lines._mark_every_path",
+          "similarity": 0.524272
+        },
+        {
+          "fqn": "matplotlib.tri._tripcolor.tripcolor",
+          "similarity": 0.521845
+        },
+        {
+          "fqn": "matplotlib._tight_bbox.adjust_bbox",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "matplotlib.testing.compare.compare_images",
+          "similarity": 0.507788
+        },
+        {
+          "fqn": "matplotlib.cbook.print_cycles",
+          "similarity": 0.504823
+        },
+        {
+          "fqn": "matplotlib.image.imsave",
+          "similarity": 0.504808
+        },
+        {
+          "fqn": "matplotlib.colors.to_rgba_array",
+          "similarity": 0.502222
+        },
+        {
+          "fqn": "matplotlib.__init__._preprocess_data",
+          "similarity": 0.497423
+        },
+        {
+          "fqn": "matplotlib.tests.test_widgets.test_span_selector_animated_artists_callback",
+          "similarity": 0.495627
+        }
+      ],
+      "entered_final": [
+        "matplotlib.cbook.delete_masked_points",
+        "matplotlib.cbook._combine_masks",
+        "matplotlib.__init__._rc_params_in_file",
+        "matplotlib.bezier.split_path_inout",
+        "matplotlib._tight_layout.get_tight_layout_figure",
+        "matplotlib.quiver._parse_args",
+        "matplotlib.streamplot._get_integrator",
+        "matplotlib.testing.decorators._pytest_image_comparison",
+        "matplotlib.stackplot.stackplot",
+        "matplotlib._api.deprecation.delete_parameter",
+        "matplotlib.axes._base._process_plot_format",
+        "matplotlib.lines._mark_every_path",
+        "matplotlib.tri._tripcolor.tripcolor",
+        "matplotlib._tight_bbox.adjust_bbox",
+        "matplotlib.testing.compare.compare_images",
+        "matplotlib.cbook.print_cycles",
+        "matplotlib.image.imsave",
+        "matplotlib.colors.to_rgba_array",
+        "matplotlib.__init__._preprocess_data",
+        "matplotlib.tests.test_widgets.test_span_selector_animated_artists_callback"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.355436,
+      "dead_reason": null
+    }
+  ]
+}

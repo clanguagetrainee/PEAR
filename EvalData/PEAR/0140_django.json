@@ -1,0 +1,517 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.postgres.forms.jsonb.JSONString",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.forms.fields.JSONString",
+      "api_type": "class",
+      "similarity": 1.0,
+      "evolution_path": [
+        "django.forms.fields.JSONString"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "django.db.models.manager.Manager",
+      "api_type": "class",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "django.db.models.manager.Manager"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "django.forms.fields.InvalidJSONInput",
+      "api_type": "class",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.forms.fields.InvalidJSONInput"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.error.GDALException",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "django.contrib.gis.gdal.error.GDALException"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.error.SRSException",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "django.contrib.gis.gdal.error.SRSException"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.field.OFTBinary",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "django.contrib.gis.gdal.field.OFTBinary"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.field.OFTString",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "django.contrib.gis.gdal.field.OFTString"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "django.db.utils.Error",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "django.db.utils.Error"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "django.http.response.Http404",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "django.http.response.Http404"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "django.templatetags.tz.datetimeobject",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "django.templatetags.tz.datetimeobject"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "django.urls.exceptions.Resolver404",
+      "api_type": "class",
+      "similarity": 0.38461538461538464,
+      "evolution_path": [
+        "django.urls.exceptions.Resolver404"
+      ],
+      "local_scores": [
+        0.38461538461538464
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.error.GEOSException",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [
+        "django.contrib.gis.geos.error.GEOSException"
+      ],
+      "local_scores": [
+        0.35714285714285715
+      ]
+    },
+    {
+      "fqn": "django.forms.forms.Form",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [
+        "django.forms.forms.Form"
+      ],
+      "local_scores": [
+        0.35714285714285715
+      ]
+    },
+    {
+      "fqn": "django.utils.regex_helper.Choice",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [
+        "django.utils.regex_helper.Choice"
+      ],
+      "local_scores": [
+        0.35714285714285715
+      ]
+    },
+    {
+      "fqn": "django.utils.regex_helper.Group",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [
+        "django.utils.regex_helper.Group"
+      ],
+      "local_scores": [
+        0.35714285714285715
+      ]
+    },
+    {
+      "fqn": "django.forms.widgets.TimeInput",
+      "api_type": "class",
+      "similarity": 0.16194331983805668,
+      "evolution_path": [
+        "django.utils.datetime_safe.time",
+        "django.forms.widgets.TimeInput"
+      ],
+      "local_scores": [
+        0.38461538461538464,
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "django.forms.widgets.DateTimeInput",
+      "api_type": "class",
+      "similarity": 0.13986013986013987,
+      "evolution_path": [
+        "django.utils.datetime_safe.time",
+        "django.forms.widgets.DateTimeInput"
+      ],
+      "local_scores": [
+        0.38461538461538464,
+        0.36363636363636365
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.json.JSONIContains",
+      "api_type": "class",
+      "similarity": 0.13736263736263737,
+      "evolution_path": [
+        "django.utils.datetime_safe.time",
+        "django.db.models.fields.json.JSONIContains"
+      ],
+      "local_scores": [
+        0.38461538461538464,
+        0.35714285714285715
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.contrib.postgres.forms.jsonb.JSONString",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.0.14",
+      "vpost": "3.1",
+      "resolved_fqn": "django.contrib.postgres.forms.jsonb.JSONString",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.forms.fields.JSONString",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "django.core.management.color.Style",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Empty",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.db.models.manager.Manager",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.db.models.sql.datastructures.Empty",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.forms.fields.InvalidJSONInput",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.error.GDALException",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.error.SRSException",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.field.OFTBinary",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.field.OFTString",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.db.utils.Error",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.http.response.Http404",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.templatetags.tz.datetimeobject",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.urls.exceptions.Resolver404",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.utils.datetime_safe.time",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.utils.functional.Promise",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.contrib.gis.geos.error.GEOSException",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "django.forms.forms.Form",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "django.utils.regex_helper.Choice",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "django.utils.regex_helper.Group",
+          "similarity": 0.357143
+        }
+      ],
+      "entered_final": [
+        "django.forms.fields.JSONString",
+        "django.db.models.manager.Manager",
+        "django.forms.fields.InvalidJSONInput",
+        "django.contrib.gis.gdal.error.GDALException",
+        "django.contrib.gis.gdal.error.SRSException",
+        "django.contrib.gis.gdal.field.OFTBinary",
+        "django.contrib.gis.gdal.field.OFTString",
+        "django.db.utils.Error",
+        "django.http.response.Http404",
+        "django.templatetags.tz.datetimeobject",
+        "django.urls.exceptions.Resolver404",
+        "django.contrib.gis.geos.error.GEOSException",
+        "django.forms.forms.Form",
+        "django.utils.regex_helper.Choice",
+        "django.utils.regex_helper.Group"
+      ],
+      "entered_iter": [
+        "django.core.management.color.Style",
+        "django.db.models.fields.__init__.Empty",
+        "django.db.models.sql.datastructures.Empty",
+        "django.utils.datetime_safe.time",
+        "django.utils.functional.Promise"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.core.management.color.Style",
+      "path_score": 0.416667,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.Empty",
+      "path_score": 0.416667,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.db.models.sql.datastructures.Empty",
+      "path_score": 0.416667,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.utils.datetime_safe.time",
+      "path_score": 0.384615,
+      "boundary": "DEPRECATED",
+      "vpre": "3.2.25",
+      "vpost": "4.0",
+      "resolved_fqn": "django.utils.datetime_safe.time",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.forms.widgets.TimeInput",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.core.management.color.Style",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Empty",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.db.models.manager.Manager",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.db.models.sql.datastructures.Empty",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.error.GDALException",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.error.SRSException",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.field.OFTBinary",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.field.OFTString",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.db.utils.Error",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.forms.fields.JSONString",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.http.response.Http404",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.templatetags.tz.datetimeobject",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.urls.exceptions.Resolver404",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.utils.functional.Promise",
+          "similarity": 0.384615
+        },
+        {
+          "fqn": "django.forms.widgets.DateTimeInput",
+          "similarity": 0.363636
+        },
+        {
+          "fqn": "django.contrib.gis.geos.error.GEOSException",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "django.db.models.fields.json.JSONIContains",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "django.forms.forms.Form",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "django.utils.regex_helper.Choice",
+          "similarity": 0.357143
+        }
+      ],
+      "entered_final": [
+        "django.forms.widgets.TimeInput",
+        "django.db.models.manager.Manager",
+        "django.contrib.gis.gdal.error.GDALException",
+        "django.contrib.gis.gdal.error.SRSException",
+        "django.contrib.gis.gdal.field.OFTBinary",
+        "django.contrib.gis.gdal.field.OFTString",
+        "django.db.utils.Error",
+        "django.forms.fields.JSONString",
+        "django.http.response.Http404",
+        "django.templatetags.tz.datetimeobject",
+        "django.urls.exceptions.Resolver404",
+        "django.forms.widgets.DateTimeInput",
+        "django.contrib.gis.geos.error.GEOSException",
+        "django.db.models.fields.json.JSONIContains",
+        "django.forms.forms.Form",
+        "django.utils.regex_helper.Choice"
+      ],
+      "entered_iter": [
+        "django.core.management.color.Style",
+        "django.db.models.fields.__init__.Empty",
+        "django.db.models.sql.datastructures.Empty",
+        "django.utils.functional.Promise"
+      ],
+      "pruned": [],
+      "prune_bound": 0.147929,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.utils.functional.Promise",
+      "path_score": 0.384615,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    }
+  ]
+}

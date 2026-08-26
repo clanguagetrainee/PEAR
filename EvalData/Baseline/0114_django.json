@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.8.19",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.fields.related.SingleRelatedObjectDescriptor",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
+      "api_type": "class",
+      "similarity": 0.7744227353463587,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
+      "api_type": "class",
+      "similarity": 0.7604501607717041,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.migration.Migration",
+      "api_type": "class",
+      "similarity": 0.5542521994134897,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.serializers.python.Deserializer",
+      "api_type": "class",
+      "similarity": 0.5533980582524272,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.models.BaseModelForm",
+      "api_type": "class",
+      "similarity": 0.5514809590973202,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.models.BaseInlineFormSet",
+      "api_type": "class",
+      "similarity": 0.5478395061728395,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.datetime.TruncBase",
+      "api_type": "class",
+      "similarity": 0.5402298850574713,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.aggregates.Aggregate",
+      "api_type": "class",
+      "similarity": 0.5324503311258278,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.helpers.AdminReadonlyField",
+      "api_type": "class",
+      "similarity": 0.5315161839863713,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geoip2.GeoIP2",
+      "api_type": "class",
+      "similarity": 0.5242165242165242,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.base.Template",
+      "api_type": "class",
+      "similarity": 0.5222405271828665,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.mail.backends.smtp.EmailBackend",
+      "api_type": "class",
+      "similarity": 0.5207182320441989,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.BlockTranslateNode",
+      "api_type": "class",
+      "similarity": 0.5134228187919463,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.middleware.RemoteUserMiddleware",
+      "api_type": "class",
+      "similarity": 0.5094043887147336,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.contenttypes.fields.GenericForeignKey",
+      "api_type": "class",
+      "similarity": 0.5085324232081911,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.apps.config.AppConfig",
+      "api_type": "class",
+      "similarity": 0.5019556714471969,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.DateTimeField",
+      "api_type": "class",
+      "similarity": 0.4992343032159265,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.list.MultipleObjectMixin",
+      "api_type": "class",
+      "similarity": 0.49606299212598426,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.sitemaps.__init__.Sitemap",
+      "api_type": "class",
+      "similarity": 0.4957983193277311,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.linestring.LineString",
+      "api_type": "class",
+      "similarity": 0.4943977591036415,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

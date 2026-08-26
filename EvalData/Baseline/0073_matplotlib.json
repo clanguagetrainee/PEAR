@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.offsetbox.DraggableBase.on_motion_blit",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.offsetbox.DraggableBase.on_motion",
+      "api_type": "method",
+      "similarity": 0.78125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.DraggableBase.on_release",
+      "api_type": "method",
+      "similarity": 0.5538461538461539,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.Button._motion",
+      "api_type": "method",
+      "similarity": 0.5394736842105263,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox._motion",
+      "api_type": "method",
+      "similarity": 0.5362318840579711,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.DraggableBase.on_pick",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4cairo.FigureCanvasGTK4Cairo.on_draw_event",
+      "api_type": "method",
+      "similarity": 0.49382716049382713,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.TimerTornado._timer_start",
+      "api_type": "method",
+      "similarity": 0.4788732394366197,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.Tick.draw",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._mathtext.Char._update_metrics",
+      "api_type": "method",
+      "similarity": 0.4626865671641791,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._mathtext.Accent._update_metrics",
+      "api_type": "method",
+      "similarity": 0.4603174603174603,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.Stream.end",
+      "api_type": "method",
+      "similarity": 0.45569620253164556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.SpanSelector.direction",
+      "api_type": "method",
+      "similarity": 0.4520547945205479,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.Animation._on_resize",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wxcairo.FigureCanvasWxCairo.draw",
+      "api_type": "method",
+      "similarity": 0.44871794871794873,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer.Colorizer.norm",
+      "api_type": "method",
+      "similarity": 0.44594594594594594,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.NavigationToolbar2.release_pan",
+      "api_type": "method",
+      "similarity": 0.44285714285714284,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.XTick.update_position",
+      "api_type": "method",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.YTick.update_position",
+      "api_type": "method",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.quiver.QuiverKey.draw",
+      "api_type": "method",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.RectangleSelector.extents",
+      "api_type": "method",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.7.5",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.colorbar.Colorbar.draw_all",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends.backend_gtk3.FigureCanvasGTK3.draw",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk3.FigureCanvasGTK3.draw"
+      ],
+      "local_scores": [
+        0.47368421052631576
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.draw",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.draw"
+      ],
+      "local_scores": [
+        0.47368421052631576
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.draw_idle",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.draw_idle"
+      ],
+      "local_scores": [
+        0.47368421052631576
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.handle_draw",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.handle_draw"
+      ],
+      "local_scores": [
+        0.47368421052631576
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.draw",
+      "api_type": "method",
+      "similarity": 0.4375,
+      "evolution_path": [
+        "matplotlib.backend_bases.FigureCanvasBase.draw"
+      ],
+      "local_scores": [
+        0.4375
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.draw",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.draw"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetImage.draw",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.offsetbox.OffsetImage.draw"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.PolygonSelector._draw_polygon",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.widgets.PolygonSelector._draw_polygon"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.animation.Animation._init_draw",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "matplotlib.animation.Animation._init_draw"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.draw",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.artist.Artist.draw"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk3.FigureCanvasGTK3._draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk3.FigureCanvasGTK3._draw_rubberband"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4._draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk4.FigureCanvasGTK4._draw_rubberband"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.animation.Animation._pre_draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [
+        "matplotlib.animation.Animation._pre_draw"
+      ],
+      "local_scores": [
+        0.391304347826087
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.FigureCanvasPdf.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.FigureCanvasPdf.draw"
+      ],
+      "local_scores": [
+        0.391304347826087
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.FigureCanvasPgf.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [
+        "matplotlib.backends.backend_pgf.FigureCanvasPgf.draw"
+      ],
+      "local_scores": [
+        0.391304347826087
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps.FigureCanvasPS.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [
+        "matplotlib.backends.backend_ps.FigureCanvasPS.draw"
+      ],
+      "local_scores": [
+        0.391304347826087
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.FigureCanvasSVG.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [
+        "matplotlib.backends.backend_svg.FigureCanvasSVG.draw"
+      ],
+      "local_scores": [
+        0.391304347826087
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines.AxLine.draw",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [
+        "matplotlib.lines.AxLine.draw"
+      ],
+      "local_scores": [
+        0.391304347826087
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_template.FigureCanvasTemplate.draw",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.backends.backend_template.FigureCanvasTemplate.draw"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.EllipseCollection.draw",
+      "api_type": "method",
+      "similarity": 0.375,
+      "evolution_path": [
+        "matplotlib.collections.EllipseCollection.draw"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.colorbar.Colorbar.draw_all",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.colorbar.Colorbar.draw_all",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.FigureCanvasGTK3.draw",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.draw",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.draw_idle",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.handle_draw",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureCanvasBase.draw",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.draw",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetImage.draw",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.widgets.PolygonSelector._draw_polygon",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.animation.Animation._init_draw",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.draw",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.FigureCanvasGTK3._draw_rubberband",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4._draw_rubberband",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.animation.Animation._pre_draw",
+          "similarity": 0.391304
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.FigureCanvasPdf.draw",
+          "similarity": 0.391304
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.FigureCanvasPgf.draw",
+          "similarity": 0.391304
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps.FigureCanvasPS.draw",
+          "similarity": 0.391304
+        },
+        {
+          "fqn": "matplotlib.backends.backend_svg.FigureCanvasSVG.draw",
+          "similarity": 0.391304
+        },
+        {
+          "fqn": "matplotlib.lines.AxLine.draw",
+          "similarity": 0.391304
+        },
+        {
+          "fqn": "matplotlib.backends.backend_template.FigureCanvasTemplate.draw",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "matplotlib.collections.EllipseCollection.draw",
+          "similarity": 0.375
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_gtk3.FigureCanvasGTK3.draw",
+        "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.draw",
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.draw_idle",
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.handle_draw",
+        "matplotlib.backend_bases.FigureCanvasBase.draw",
+        "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.draw",
+        "matplotlib.offsetbox.OffsetImage.draw",
+        "matplotlib.widgets.PolygonSelector._draw_polygon",
+        "matplotlib.animation.Animation._init_draw",
+        "matplotlib.artist.Artist.draw",
+        "matplotlib.backends.backend_gtk3.FigureCanvasGTK3._draw_rubberband",
+        "matplotlib.backends.backend_gtk4.FigureCanvasGTK4._draw_rubberband",
+        "matplotlib.animation.Animation._pre_draw",
+        "matplotlib.backends.backend_pdf.FigureCanvasPdf.draw",
+        "matplotlib.backends.backend_pgf.FigureCanvasPgf.draw",
+        "matplotlib.backends.backend_ps.FigureCanvasPS.draw",
+        "matplotlib.backends.backend_svg.FigureCanvasSVG.draw",
+        "matplotlib.lines.AxLine.draw",
+        "matplotlib.backends.backend_template.FigureCanvasTemplate.draw",
+        "matplotlib.collections.EllipseCollection.draw"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.375,
+      "dead_reason": null
+    }
+  ]
+}

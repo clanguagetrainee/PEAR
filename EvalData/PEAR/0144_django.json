@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.2.25",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.admin.options.GeoModelAdmin",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.contrib.admin.widgets.AutocompleteMixin",
+      "api_type": "class",
+      "similarity": 0.5084033613445378,
+      "evolution_path": [
+        "django.contrib.admin.widgets.AutocompleteMixin"
+      ],
+      "local_scores": [
+        0.5084033613445378
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.forms.widgets.BaseGeometryWidget",
+      "api_type": "class",
+      "similarity": 0.48448687350835323,
+      "evolution_path": [
+        "django.contrib.gis.forms.widgets.BaseGeometryWidget"
+      ],
+      "local_scores": [
+        0.48448687350835323
+      ]
+    },
+    {
+      "fqn": "django.core.management.commands.runserver.Command",
+      "api_type": "class",
+      "similarity": 0.4842105263157895,
+      "evolution_path": [
+        "django.core.management.commands.runserver.Command"
+      ],
+      "local_scores": [
+        0.4842105263157895
+      ]
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.features.DatabaseFeatures",
+      "api_type": "class",
+      "similarity": 0.48326359832635984,
+      "evolution_path": [
+        "django.db.backends.sqlite3.features.DatabaseFeatures"
+      ],
+      "local_scores": [
+        0.48326359832635984
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.AllValuesFieldListFilter",
+      "api_type": "class",
+      "similarity": 0.4786516853932584,
+      "evolution_path": [
+        "django.contrib.admin.filters.AllValuesFieldListFilter"
+      ],
+      "local_scores": [
+        0.4786516853932584
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper",
+      "api_type": "class",
+      "similarity": 0.47338403041825095,
+      "evolution_path": [
+        "django.contrib.admin.widgets.RelatedFieldWidgetWrapper"
+      ],
+      "local_scores": [
+        0.47338403041825095
+      ]
+    },
+    {
+      "fqn": "django.core.handlers.asgi.ASGIRequest",
+      "api_type": "class",
+      "similarity": 0.4713740458015267,
+      "evolution_path": [
+        "django.core.handlers.asgi.ASGIRequest"
+      ],
+      "local_scores": [
+        0.4713740458015267
+      ]
+    },
+    {
+      "fqn": "django.template.defaulttags.ForNode",
+      "api_type": "class",
+      "similarity": 0.4684095860566449,
+      "evolution_path": [
+        "django.template.defaulttags.ForNode"
+      ],
+      "local_scores": [
+        0.4684095860566449
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.BooleanFieldListFilter",
+      "api_type": "class",
+      "similarity": 0.4678492239467849,
+      "evolution_path": [
+        "django.contrib.admin.filters.BooleanFieldListFilter"
+      ],
+      "local_scores": [
+        0.4678492239467849
+      ]
+    },
+    {
+      "fqn": "django.db.backends.oracle.features.DatabaseFeatures",
+      "api_type": "class",
+      "similarity": 0.45168067226890757,
+      "evolution_path": [
+        "django.db.backends.oracle.features.DatabaseFeatures"
+      ],
+      "local_scores": [
+        0.45168067226890757
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations",
+      "api_type": "class",
+      "similarity": 0.450199203187251,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.mysql.operations.MySQLOperations"
+      ],
+      "local_scores": [
+        0.450199203187251
+      ]
+    },
+    {
+      "fqn": "django.templatetags.i18n.BlockTranslateNode",
+      "api_type": "class",
+      "similarity": 0.44639376218323584,
+      "evolution_path": [
+        "django.templatetags.i18n.BlockTranslateNode"
+      ],
+      "local_scores": [
+        0.44639376218323584
+      ]
+    },
+    {
+      "fqn": "django.test.runner.ParallelTestSuite",
+      "api_type": "class",
+      "similarity": 0.4462616822429907,
+      "evolution_path": [
+        "django.test.runner.ParallelTestSuite"
+      ],
+      "local_scores": [
+        0.4462616822429907
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.RelatedFieldListFilter",
+      "api_type": "class",
+      "similarity": 0.44360902255639095,
+      "evolution_path": [
+        "django.contrib.admin.filters.RelatedFieldListFilter"
+      ],
+      "local_scores": [
+        0.44360902255639095
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.DateFieldListFilter",
+      "api_type": "class",
+      "similarity": 0.44140625,
+      "evolution_path": [
+        "django.contrib.admin.filters.DateFieldListFilter"
+      ],
+      "local_scores": [
+        0.44140625
+      ]
+    },
+    {
+      "fqn": "django.template.base.Template",
+      "api_type": "class",
+      "similarity": 0.4400785854616896,
+      "evolution_path": [
+        "django.template.base.Template"
+      ],
+      "local_scores": [
+        0.4400785854616896
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.management.commands.ogrinspect.Command",
+      "api_type": "class",
+      "similarity": 0.4385150812064965,
+      "evolution_path": [
+        "django.contrib.gis.management.commands.ogrinspect.Command"
+      ],
+      "local_scores": [
+        0.4385150812064965
+      ]
+    },
+    {
+      "fqn": "django.http.response.FileResponse",
+      "api_type": "class",
+      "similarity": 0.4378818737270876,
+      "evolution_path": [
+        "django.http.response.FileResponse"
+      ],
+      "local_scores": [
+        0.4378818737270876
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.models.LogEntry",
+      "api_type": "class",
+      "similarity": 0.43305785123966944,
+      "evolution_path": [
+        "django.contrib.admin.models.LogEntry"
+      ],
+      "local_scores": [
+        0.43305785123966944
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.base.DatabaseWrapper",
+      "api_type": "class",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.postgis.base.DatabaseWrapper"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.contrib.gis.admin.options.GeoModelAdmin",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "4.2.30",
+      "vpost": "5.0",
+      "resolved_fqn": "django.contrib.gis.admin.options.GeoModelAdmin",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.admin.widgets.AutocompleteMixin",
+          "similarity": 0.508403
+        },
+        {
+          "fqn": "django.contrib.gis.forms.widgets.BaseGeometryWidget",
+          "similarity": 0.484487
+        },
+        {
+          "fqn": "django.core.management.commands.runserver.Command",
+          "similarity": 0.484211
+        },
+        {
+          "fqn": "django.db.backends.sqlite3.features.DatabaseFeatures",
+          "similarity": 0.483264
+        },
+        {
+          "fqn": "django.contrib.admin.filters.AllValuesFieldListFilter",
+          "similarity": 0.478652
+        },
+        {
+          "fqn": "django.contrib.admin.widgets.RelatedFieldWidgetWrapper",
+          "similarity": 0.473384
+        },
+        {
+          "fqn": "django.core.handlers.asgi.ASGIRequest",
+          "similarity": 0.471374
+        },
+        {
+          "fqn": "django.template.defaulttags.ForNode",
+          "similarity": 0.46841
+        },
+        {
+          "fqn": "django.contrib.admin.filters.BooleanFieldListFilter",
+          "similarity": 0.467849
+        },
+        {
+          "fqn": "django.db.backends.oracle.features.DatabaseFeatures",
+          "similarity": 0.451681
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.mysql.operations.MySQLOperations",
+          "similarity": 0.450199
+        },
+        {
+          "fqn": "django.templatetags.i18n.BlockTranslateNode",
+          "similarity": 0.446394
+        },
+        {
+          "fqn": "django.test.runner.ParallelTestSuite",
+          "similarity": 0.446262
+        },
+        {
+          "fqn": "django.contrib.admin.filters.RelatedFieldListFilter",
+          "similarity": 0.443609
+        },
+        {
+          "fqn": "django.contrib.admin.filters.DateFieldListFilter",
+          "similarity": 0.441406
+        },
+        {
+          "fqn": "django.template.base.Template",
+          "similarity": 0.440079
+        },
+        {
+          "fqn": "django.contrib.gis.management.commands.ogrinspect.Command",
+          "similarity": 0.438515
+        },
+        {
+          "fqn": "django.http.response.FileResponse",
+          "similarity": 0.437882
+        },
+        {
+          "fqn": "django.contrib.admin.models.LogEntry",
+          "similarity": 0.433058
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.postgis.base.DatabaseWrapper",
+          "similarity": 0.428571
+        }
+      ],
+      "entered_final": [
+        "django.contrib.admin.widgets.AutocompleteMixin",
+        "django.contrib.gis.forms.widgets.BaseGeometryWidget",
+        "django.core.management.commands.runserver.Command",
+        "django.db.backends.sqlite3.features.DatabaseFeatures",
+        "django.contrib.admin.filters.AllValuesFieldListFilter",
+        "django.contrib.admin.widgets.RelatedFieldWidgetWrapper",
+        "django.core.handlers.asgi.ASGIRequest",
+        "django.template.defaulttags.ForNode",
+        "django.contrib.admin.filters.BooleanFieldListFilter",
+        "django.db.backends.oracle.features.DatabaseFeatures",
+        "django.contrib.gis.db.backends.mysql.operations.MySQLOperations",
+        "django.templatetags.i18n.BlockTranslateNode",
+        "django.test.runner.ParallelTestSuite",
+        "django.contrib.admin.filters.RelatedFieldListFilter",
+        "django.contrib.admin.filters.DateFieldListFilter",
+        "django.template.base.Template",
+        "django.contrib.gis.management.commands.ogrinspect.Command",
+        "django.http.response.FileResponse",
+        "django.contrib.admin.models.LogEntry",
+        "django.contrib.gis.db.backends.postgis.base.DatabaseWrapper"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.428571,
+      "dead_reason": null
+    }
+  ]
+}

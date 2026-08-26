@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "4.1.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.test.testcases.SimpleTestCase.assertFormsetError",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.test.testcases.SimpleTestCase.assertFormSetError",
+      "api_type": "method",
+      "similarity": 0.8120805369127517,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.forms.PasswordResetForm.save",
+      "api_type": "method",
+      "similarity": 0.572289156626506,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.testcases.SimpleTestCase.assertInHTML",
+      "api_type": "method",
+      "similarity": 0.5652173913043478,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.testcases.SimpleTestCase._assert_form_error",
+      "api_type": "method",
+      "similarity": 0.5636363636363636,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.testcases.SimpleTestCase._assert_contains",
+      "api_type": "method",
+      "similarity": 0.5433526011560693,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.boundfield.BoundField.label_tag",
+      "api_type": "method",
+      "similarity": 0.5372340425531915,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.mail.message.EmailMessage.attach",
+      "api_type": "method",
+      "similarity": 0.5337078651685393,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.commands.inspectdb.Command.get_meta",
+      "api_type": "method",
+      "similarity": 0.532967032967033,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.sql.query.Query.build_lookup",
+      "api_type": "method",
+      "similarity": 0.5317919075144508,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.filters.AllValuesFieldListFilter.choices",
+      "api_type": "method",
+      "similarity": 0.5277777777777778,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.filters.BooleanFieldListFilter.choices",
+      "api_type": "method",
+      "similarity": 0.5212765957446809,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.sites.AdminSite.register",
+      "api_type": "method",
+      "similarity": 0.5195530726256983,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.datetime.Extract.resolve_expression",
+      "api_type": "method",
+      "similarity": 0.5144508670520231,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.raster.source.GDALRaster.transform",
+      "api_type": "method",
+      "similarity": 0.5103092783505154,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.DateTimeField.to_python",
+      "api_type": "method",
+      "similarity": 0.51,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.library.Library.filter",
+      "api_type": "method",
+      "similarity": 0.5088757396449705,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.filters.ChoicesFieldListFilter.choices",
+      "api_type": "method",
+      "similarity": 0.5087719298245614,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.runner.QueryFormatter.format",
+      "api_type": "method",
+      "similarity": 0.5085714285714286,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.test.client.RequestFactory.generic",
+      "api_type": "method",
+      "similarity": 0.5083798882681564,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.forms.array.SplitArrayField.clean",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

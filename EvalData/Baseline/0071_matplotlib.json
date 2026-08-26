@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.ticker.OldScalarFormatter",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.colors.BoundaryNorm",
+      "api_type": "class",
+      "similarity": 0.4760705289672544,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.streamplot.Grid",
+      "api_type": "class",
+      "similarity": 0.4648241206030151,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.StrConverter.StrConverter",
+      "api_type": "class",
+      "similarity": 0.46467391304347827,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.MollweideAxes.MollweideTransform",
+      "api_type": "class",
+      "similarity": 0.4645669291338583,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.PowerNorm",
+      "api_type": "class",
+      "similarity": 0.46335078534031415,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dviread.Tfm",
+      "api_type": "class",
+      "similarity": 0.45663265306122447,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_image.QuantityND",
+      "api_type": "class",
+      "similarity": 0.45305164319248825,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.LogFormatterMathtext",
+      "api_type": "class",
+      "similarity": 0.44868035190615835,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._type1font._CharstringSimulator",
+      "api_type": "class",
+      "similarity": 0.44713656387665196,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.AsinhLocator",
+      "api_type": "class",
+      "similarity": 0.4326086956521739,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triinterpolate.TriInterpolator",
+      "api_type": "class",
+      "similarity": 0.43243243243243246,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.EngFormatter",
+      "api_type": "class",
+      "similarity": 0.4307116104868914,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_min_E",
+      "api_type": "class",
+      "similarity": 0.4273255813953488,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches._Style",
+      "api_type": "class",
+      "similarity": 0.4258373205741627,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dates.ConciseDateFormatter",
+      "api_type": "class",
+      "similarity": 0.425569176882662,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._mathtext.Vlist",
+      "api_type": "class",
+      "similarity": 0.4218009478672986,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._tricontour.TriContourSet",
+      "api_type": "class",
+      "similarity": 0.41927710843373495,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.SegmentedBivarColormap",
+      "api_type": "class",
+      "similarity": 0.4192708333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.HTMLWriter",
+      "api_type": "class",
+      "similarity": 0.41596638655462187,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.testing.decorators._ImageComparisonBase",
+      "api_type": "class",
+      "similarity": 0.41237113402061853,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

@@ -1,0 +1,1671 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.25.3",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.io.stata.StataReader.data",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "pandas.core.window.rolling.Rolling.count",
+      "api_type": "method",
+      "similarity": 0.4878048780487805,
+      "evolution_path": [
+        "pandas.core.window.rolling.Rolling.count"
+      ],
+      "local_scores": [
+        0.4878048780487805
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.range.RangeIndex._data",
+      "api_type": "method",
+      "similarity": 0.4864864864864865,
+      "evolution_path": [
+        "pandas.core.indexes.range.RangeIndex._data"
+      ],
+      "local_scores": [
+        0.4864864864864865
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.range.RangeIndex._format_attrs",
+      "api_type": "method",
+      "similarity": 0.4418604651162791,
+      "evolution_path": [
+        "pandas.core.indexes.range.RangeIndex._format_attrs"
+      ],
+      "local_scores": [
+        0.4418604651162791
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.range.RangeIndex.copy",
+      "api_type": "method",
+      "similarity": 0.4418604651162791,
+      "evolution_path": [
+        "pandas.core.indexes.range.RangeIndex.copy"
+      ],
+      "local_scores": [
+        0.4418604651162791
+      ]
+    },
+    {
+      "fqn": "pandas.io.excel._base.ExcelFile.close",
+      "api_type": "method",
+      "similarity": 0.43902439024390244,
+      "evolution_path": [
+        "pandas.io.excel._base.ExcelFile.close"
+      ],
+      "local_scores": [
+        0.43902439024390244
+      ]
+    },
+    {
+      "fqn": "pandas.core.window.rolling.Window.mean",
+      "api_type": "method",
+      "similarity": 0.4375,
+      "evolution_path": [
+        "pandas.core.window.rolling.Window.mean"
+      ],
+      "local_scores": [
+        0.4375
+      ]
+    },
+    {
+      "fqn": "pandas.core.window.rolling.Window.sum",
+      "api_type": "method",
+      "similarity": 0.4375,
+      "evolution_path": [
+        "pandas.core.window.rolling.Window.sum"
+      ],
+      "local_scores": [
+        0.4375
+      ]
+    },
+    {
+      "fqn": "pandas.core.internals.blocks.Block.copy",
+      "api_type": "method",
+      "similarity": 0.4358974358974359,
+      "evolution_path": [
+        "pandas.core.internals.blocks.Block.copy"
+      ],
+      "local_scores": [
+        0.4358974358974359
+      ]
+    },
+    {
+      "fqn": "pandas.io.sas.sas7bdat.SAS7BDATReader.__next__",
+      "api_type": "method",
+      "similarity": 0.43243243243243246,
+      "evolution_path": [
+        "pandas.io.sas.sas7bdat.SAS7BDATReader.__next__"
+      ],
+      "local_scores": [
+        0.43243243243243246
+      ]
+    },
+    {
+      "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+      "api_type": "method",
+      "similarity": 0.41856805664830843,
+      "evolution_path": [
+        "pandas.core.window.rolling._Rolling_and_Expanding.max",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.max"
+      ],
+      "local_scores": [
+        0.4634146341463415,
+        0.9032258064516129
+      ]
+    },
+    {
+      "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+      "api_type": "method",
+      "similarity": 0.41856805664830843,
+      "evolution_path": [
+        "pandas.core.window.rolling._Rolling_and_Expanding.mean",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.mean"
+      ],
+      "local_scores": [
+        0.4634146341463415,
+        0.9032258064516129
+      ]
+    },
+    {
+      "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+      "api_type": "method",
+      "similarity": 0.41856805664830843,
+      "evolution_path": [
+        "pandas.core.window.rolling._Rolling_and_Expanding.min",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.min"
+      ],
+      "local_scores": [
+        0.4634146341463415,
+        0.9032258064516129
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index.unique",
+      "api_type": "method",
+      "similarity": 0.39193548387096777,
+      "evolution_path": [
+        "pandas.core.indexes.extension.ExtensionIndex.unique",
+        "pandas.core.indexes.base.Index.unique"
+      ],
+      "local_scores": [
+        0.45,
+        0.8709677419354839
+      ]
+    },
+    {
+      "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+      "api_type": "method",
+      "similarity": 0.34188034188034183,
+      "evolution_path": [
+        "pandas.core.window.rolling._Rolling_and_Expanding.kurt",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.kurt"
+      ],
+      "local_scores": [
+        0.5128205128205128,
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+      "api_type": "method",
+      "similarity": 0.34188034188034183,
+      "evolution_path": [
+        "pandas.core.window.rolling._Rolling_and_Expanding.skew",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.skew"
+      ],
+      "local_scores": [
+        0.5128205128205128,
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+      "api_type": "method",
+      "similarity": 0.3407460545193688,
+      "evolution_path": [
+        "pandas.core.window.rolling._Rolling_and_Expanding.max",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.sum"
+      ],
+      "local_scores": [
+        0.4634146341463415,
+        0.7352941176470589
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays.base.ExtensionArray.unique",
+      "api_type": "method",
+      "similarity": 0.3,
+      "evolution_path": [
+        "pandas.core.indexes.extension.ExtensionIndex.unique",
+        "pandas.core.arrays.base.ExtensionArray.unique"
+      ],
+      "local_scores": [
+        0.45,
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.multi.MultiIndex.unique",
+      "api_type": "method",
+      "similarity": 0.2918918918918919,
+      "evolution_path": [
+        "pandas.core.indexes.extension.ExtensionIndex.unique",
+        "pandas.core.indexes.multi.MultiIndex.unique"
+      ],
+      "local_scores": [
+        0.45,
+        0.6486486486486487
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.AbstractMethodError.__str__",
+      "api_type": "method",
+      "similarity": 0.2706766917293233,
+      "evolution_path": [
+        "pandas.core.internals.blocks.Block.ftype",
+        "pandas.errors.__init__.AbstractMethodError.__str__"
+      ],
+      "local_scores": [
+        0.47368421052631576,
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "pandas.core.window.expanding.Expanding.mean",
+      "api_type": "method",
+      "similarity": 0.2703252032520326,
+      "evolution_path": [
+        "pandas.core.window.rolling._Rolling_and_Expanding.mean",
+        "pandas.core.window.expanding.Expanding.mean"
+      ],
+      "local_scores": [
+        0.4634146341463415,
+        0.5833333333333334
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "pandas.io.stata.StataReader.data",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "0.25.3",
+      "vpost": "1.0.0",
+      "resolved_fqn": "pandas.io.stata.StataReader.data",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.kurt",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.skew",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Rolling.count",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex._data",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.ftype",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.max",
+          "similarity": 0.463415
+        },
+        {
+          "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.mean",
+          "similarity": 0.463415
+        },
+        {
+          "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.min",
+          "similarity": 0.463415
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.unique",
+          "similarity": 0.452381
+        },
+        {
+          "fqn": "pandas.core.indexes.extension.ExtensionIndex.unique",
+          "similarity": 0.45
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.view",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.fillna",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex._format_attrs",
+          "similarity": 0.44186
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex.copy",
+          "similarity": 0.44186
+        },
+        {
+          "fqn": "pandas.io.excel._base.ExcelFile.close",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.mean",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.sum",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.copy",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.duplicated",
+          "similarity": 0.432432
+        },
+        {
+          "fqn": "pandas.io.sas.sas7bdat.SAS7BDATReader.__next__",
+          "similarity": 0.432432
+        }
+      ],
+      "entered_final": [
+        "pandas.core.window.rolling.Rolling.count",
+        "pandas.core.indexes.range.RangeIndex._data",
+        "pandas.core.indexes.range.RangeIndex._format_attrs",
+        "pandas.core.indexes.range.RangeIndex.copy",
+        "pandas.io.excel._base.ExcelFile.close",
+        "pandas.core.window.rolling.Window.mean",
+        "pandas.core.window.rolling.Window.sum",
+        "pandas.core.internals.blocks.Block.copy",
+        "pandas.io.sas.sas7bdat.SAS7BDATReader.__next__"
+      ],
+      "entered_iter": [
+        "pandas.core.window.rolling._Rolling_and_Expanding.kurt",
+        "pandas.core.window.rolling._Rolling_and_Expanding.skew",
+        "pandas.core.internals.blocks.Block.ftype",
+        "pandas.core.window.rolling._Rolling_and_Expanding.max",
+        "pandas.core.window.rolling._Rolling_and_Expanding.mean",
+        "pandas.core.window.rolling._Rolling_and_Expanding.min",
+        "pandas.core.indexes.category.CategoricalIndex.unique",
+        "pandas.core.indexes.extension.ExtensionIndex.unique",
+        "pandas.core.arrays.categorical.Categorical.view",
+        "pandas.core.indexes.category.CategoricalIndex.fillna",
+        "pandas.core.indexes.category.CategoricalIndex.duplicated"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.kurt",
+      "path_score": 0.512821,
+      "boundary": "DEPRECATED",
+      "vpre": "1.1.5",
+      "vpost": "1.2.0",
+      "resolved_fqn": "pandas.core.window.rolling._Rolling_and_Expanding.kurt",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.mean",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.sum",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "pandas.core.computation.ops.MathCall.__repr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.__reduce__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Op.__repr__",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.kurt",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.ravel",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.tseries.frequencies._FrequencyInferer.mdiffs",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.core.computation.pytables.BinOp.generate",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "pandas.core.arrays.base.ExtensionArray.unique",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.__reduce__",
+          "similarity": 0.456522
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.count",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex._format_attrs",
+          "similarity": 0.452381
+        }
+      ],
+      "entered_final": [
+        "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+        "pandas.core.window.rolling.Window.mean",
+        "pandas.core.window.rolling.Window.sum",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+        "pandas.core.computation.ops.MathCall.__repr__",
+        "pandas.core.indexes.interval.IntervalIndex.__reduce__",
+        "pandas.core.computation.ops.Op.__repr__",
+        "pandas.core.generic.NDFrame.kurt",
+        "pandas.core.indexes.base.Index.ravel",
+        "pandas.tseries.frequencies._FrequencyInferer.mdiffs",
+        "pandas.core.computation.pytables.BinOp.generate",
+        "pandas.core.arrays.base.ExtensionArray.unique",
+        "pandas.core.indexes.multi.MultiIndex.__reduce__",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.count",
+        "pandas.core.indexes.range.RangeIndex._format_attrs"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.25641,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.skew",
+      "path_score": 0.512821,
+      "boundary": "DEPRECATED",
+      "vpre": "1.1.5",
+      "vpost": "1.2.0",
+      "resolved_fqn": "pandas.core.window.rolling._Rolling_and_Expanding.skew",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.mean",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.sum",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "pandas.core.computation.ops.MathCall.__repr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.__reduce__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Op.__repr__",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.skew",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.ravel",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.tseries.frequencies._FrequencyInferer.mdiffs",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.core.computation.pytables.BinOp.generate",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "pandas.core.arrays.base.ExtensionArray.unique",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.__reduce__",
+          "similarity": 0.456522
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.count",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex._format_attrs",
+          "similarity": 0.452381
+        }
+      ],
+      "entered_final": [
+        "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+        "pandas.core.window.rolling.Window.mean",
+        "pandas.core.window.rolling.Window.sum",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+        "pandas.core.computation.ops.MathCall.__repr__",
+        "pandas.core.indexes.interval.IntervalIndex.__reduce__",
+        "pandas.core.computation.ops.Op.__repr__",
+        "pandas.core.generic.NDFrame.skew",
+        "pandas.core.indexes.base.Index.ravel",
+        "pandas.tseries.frequencies._FrequencyInferer.mdiffs",
+        "pandas.core.computation.pytables.BinOp.generate",
+        "pandas.core.arrays.base.ExtensionArray.unique",
+        "pandas.core.indexes.multi.MultiIndex.__reduce__",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.count",
+        "pandas.core.indexes.range.RangeIndex._format_attrs"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.276134,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.internals.blocks.Block.ftype",
+      "path_score": 0.473684,
+      "boundary": "DEPRECATED",
+      "vpre": "1.0.5",
+      "vpost": "1.1.0",
+      "resolved_fqn": "pandas.core.internals.blocks.Block.ftype",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.errors.__init__.AbstractMethodError.__str__",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray.date",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray.time",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Rolling._validate_monotonic",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.Block.copy",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Term.update",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "pandas.tseries.holiday.AbstractHolidayCalendar.merge",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "pandas.core.computation.pytables.BinOp.generate",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex._data",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.dtypes",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.median",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.dtypes.dtypes.CategoricalDtype.__repr__",
+          "similarity": 0.452381
+        },
+        {
+          "fqn": "pandas.core.window.rolling._Window.__repr__",
+          "similarity": 0.45
+        },
+        {
+          "fqn": "pandas.tests.reshape.merge.test_merge_asof.TestAsOfMerge.test_allow_exact_matches",
+          "similarity": 0.45
+        },
+        {
+          "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.kurt",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.skew",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame._series",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "pandas.core.indexes.datetimes.DatetimeIndex._formatter_func",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.delete",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "pandas.io.common._BytesZipFile.write",
+          "similarity": 0.444444
+        }
+      ],
+      "entered_final": [
+        "pandas.errors.__init__.AbstractMethodError.__str__",
+        "pandas.core.arrays.datetimes.DatetimeArray.date",
+        "pandas.core.arrays.datetimes.DatetimeArray.time",
+        "pandas.core.internals.blocks.Block.copy",
+        "pandas.core.computation.ops.Term.update",
+        "pandas.tseries.holiday.AbstractHolidayCalendar.merge",
+        "pandas.core.computation.pytables.BinOp.generate",
+        "pandas.core.indexes.range.RangeIndex._data",
+        "pandas.core.generic.NDFrame.dtypes",
+        "pandas.core.dtypes.dtypes.CategoricalDtype.__repr__",
+        "pandas.tests.reshape.merge.test_merge_asof.TestAsOfMerge.test_allow_exact_matches",
+        "pandas.core.frame.DataFrame._series",
+        "pandas.core.indexes.datetimes.DatetimeIndex._formatter_func",
+        "pandas.core.indexes.multi.MultiIndex.delete"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.window.rolling.Rolling._validate_monotonic",
+        "pandas.core.window.rolling._Rolling_and_Expanding.median",
+        "pandas.core.window.rolling._Window.__repr__",
+        "pandas.core.window.rolling._Rolling_and_Expanding.kurt",
+        "pandas.core.window.rolling._Rolling_and_Expanding.skew",
+        "pandas.io.common._BytesZipFile.write"
+      ],
+      "prune_bound": 0.276134,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.max",
+      "path_score": 0.463415,
+      "boundary": "DEPRECATED",
+      "vpre": "1.1.5",
+      "vpost": "1.2.0",
+      "resolved_fqn": "pandas.core.window.rolling._Rolling_and_Expanding.max",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+          "similarity": 0.903226
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+          "similarity": 0.735294
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+          "similarity": 0.735294
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+          "similarity": 0.735294
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.mean",
+          "similarity": 0.694444
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.sum",
+          "similarity": 0.694444
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.var",
+          "similarity": 0.568182
+        },
+        {
+          "fqn": "pandas.core.window.expanding.Expanding.max",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Rolling.max",
+          "similarity": 0.567568
+        },
+        {
+          "fqn": "pandas.core.computation.ops.MathCall.__repr__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex.max",
+          "similarity": 0.525
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Op.__repr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.__str__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.pytables.SeriesFixed.write",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.std",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.__reduce__",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray.isna",
+          "similarity": 0.487179
+        }
+      ],
+      "entered_final": [
+        "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+        "pandas.core.window.rolling.Window.mean",
+        "pandas.core.window.rolling.Window.sum",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.var",
+        "pandas.core.window.expanding.Expanding.max",
+        "pandas.core.window.rolling.Rolling.max",
+        "pandas.core.computation.ops.MathCall.__repr__",
+        "pandas.core.indexes.range.RangeIndex.max",
+        "pandas.core.computation.ops.Op.__repr__",
+        "pandas.core.resample.Resampler.__str__",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+        "pandas.io.pytables.SeriesFixed.write",
+        "pandas.core.window.rolling.Window.std",
+        "pandas.core.indexes.interval.IntervalIndex.__reduce__",
+        "pandas.core.arrays.sparse.array.SparseArray.isna"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.29106,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.mean",
+      "path_score": 0.463415,
+      "boundary": "DEPRECATED",
+      "vpre": "1.1.5",
+      "vpost": "1.2.0",
+      "resolved_fqn": "pandas.core.window.rolling._Rolling_and_Expanding.mean",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+          "similarity": 0.903226
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.mean",
+          "similarity": 0.848485
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+          "similarity": 0.735294
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+          "similarity": 0.735294
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+          "similarity": 0.735294
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.sum",
+          "similarity": 0.694444
+        },
+        {
+          "fqn": "pandas.core.window.expanding.Expanding.mean",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Rolling.mean",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.var",
+          "similarity": 0.568182
+        },
+        {
+          "fqn": "pandas.core.computation.ops.MathCall.__repr__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.window.ewm.ExponentialMovingWindow.mean",
+          "similarity": 0.508772
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Op.__repr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.__str__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.pytables.SeriesFixed.write",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.reductions.test_stat_reductions.TestSeriesStatReductions.test_mean",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.std",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.__reduce__",
+          "similarity": 0.487805
+        }
+      ],
+      "entered_final": [
+        "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+        "pandas.core.window.rolling.Window.mean",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+        "pandas.core.window.rolling.Window.sum",
+        "pandas.core.window.expanding.Expanding.mean",
+        "pandas.core.window.rolling.Rolling.mean",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.var",
+        "pandas.core.computation.ops.MathCall.__repr__",
+        "pandas.core.window.ewm.ExponentialMovingWindow.mean",
+        "pandas.core.computation.ops.Op.__repr__",
+        "pandas.core.resample.Resampler.__str__",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+        "pandas.io.pytables.SeriesFixed.write",
+        "pandas.tests.reductions.test_stat_reductions.TestSeriesStatReductions.test_mean",
+        "pandas.core.window.rolling.Window.std",
+        "pandas.core.indexes.interval.IntervalIndex.__reduce__"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.340746,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.window.rolling._Rolling_and_Expanding.min",
+      "path_score": 0.463415,
+      "boundary": "DEPRECATED",
+      "vpre": "1.1.5",
+      "vpost": "1.2.0",
+      "resolved_fqn": "pandas.core.window.rolling._Rolling_and_Expanding.min",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+          "similarity": 0.903226
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+          "similarity": 0.735294
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+          "similarity": 0.735294
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+          "similarity": 0.735294
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.mean",
+          "similarity": 0.694444
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.sum",
+          "similarity": 0.694444
+        },
+        {
+          "fqn": "pandas.core.window.expanding.Expanding.min",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Rolling.min",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.var",
+          "similarity": 0.568182
+        },
+        {
+          "fqn": "pandas.core.computation.ops.MathCall.__repr__",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex.min",
+          "similarity": 0.525
+        },
+        {
+          "fqn": "pandas.core.computation.ops.Op.__repr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.__str__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.pytables.SeriesFixed.write",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.window.rolling.Window.std",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.__reduce__",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray.isna",
+          "similarity": 0.487179
+        }
+      ],
+      "entered_final": [
+        "pandas.core.window.rolling.RollingAndExpandingMixin.min",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.max",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.mean",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.sum",
+        "pandas.core.window.rolling.Window.mean",
+        "pandas.core.window.rolling.Window.sum",
+        "pandas.core.window.expanding.Expanding.min",
+        "pandas.core.window.rolling.Rolling.min",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.var",
+        "pandas.core.computation.ops.MathCall.__repr__",
+        "pandas.core.indexes.range.RangeIndex.min",
+        "pandas.core.computation.ops.Op.__repr__",
+        "pandas.core.resample.Resampler.__str__",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.kurt",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.median",
+        "pandas.core.window.rolling.RollingAndExpandingMixin.skew",
+        "pandas.io.pytables.SeriesFixed.write",
+        "pandas.core.window.rolling.Window.std",
+        "pandas.core.indexes.interval.IntervalIndex.__reduce__",
+        "pandas.core.arrays.sparse.array.SparseArray.isna"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.340746,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.indexes.category.CategoricalIndex.unique",
+      "path_score": 0.452381,
+      "boundary": "DEPRECATED",
+      "vpre": "1.2.5",
+      "vpost": "1.3.0",
+      "resolved_fqn": "pandas.core.indexes.category.CategoricalIndex.unique",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.unique",
+          "similarity": 0.641026
+        },
+        {
+          "fqn": "pandas.core.window.rolling.BaseWindowGroupby._gotitem",
+          "similarity": 0.575
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.isin",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.indexes.extension.ExtensionIndex._get_unique_index",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.slice",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.arrays.interval.IntervalArray.unique",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.groupby.grouper.Grouping.indices",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.unique",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex._format_attrs",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.plotting._matplotlib.core.MPLPlot._get_colors",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.json.array.JSONArray.__array__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.array.SparseArray.unique",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "pandas.core.accessor.CachedAccessor.__get__",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "pandas.io.common._BytesZipFile.write",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "pandas.io.pytables.IndexCol.set_info",
+          "similarity": 0.487179
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.lstrip",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.rstrip",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.strip",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.unique",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.rsplit",
+          "similarity": 0.47619
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.multi.MultiIndex.unique",
+        "pandas.core.window.rolling.BaseWindowGroupby._gotitem",
+        "pandas.core.indexes.base.Index.isin",
+        "pandas.core.strings.accessor.StringMethods.slice",
+        "pandas.core.arrays.interval.IntervalArray.unique",
+        "pandas.core.groupby.grouper.Grouping.indices",
+        "pandas.core.indexes.base.Index.unique",
+        "pandas.core.indexes.range.RangeIndex._format_attrs",
+        "pandas.plotting._matplotlib.core.MPLPlot._get_colors",
+        "pandas.tests.extension.json.array.JSONArray.__array__",
+        "pandas.core.arrays.sparse.array.SparseArray.unique",
+        "pandas.io.pytables.IndexCol.set_info",
+        "pandas.core.strings.accessor.StringMethods.lstrip",
+        "pandas.core.strings.accessor.StringMethods.rstrip",
+        "pandas.core.strings.accessor.StringMethods.strip",
+        "pandas.core.arrays.categorical.Categorical.unique",
+        "pandas.core.strings.accessor.StringMethods.rsplit"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.indexes.extension.ExtensionIndex._get_unique_index",
+        "pandas.core.accessor.CachedAccessor.__get__",
+        "pandas.io.common._BytesZipFile.write"
+      ],
+      "prune_bound": 0.340746,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.indexes.extension.ExtensionIndex.unique",
+      "path_score": 0.45,
+      "boundary": "DEPRECATED",
+      "vpre": "1.0.5",
+      "vpost": "1.1.0",
+      "resolved_fqn": "pandas.core.indexes.extension.ExtensionIndex.unique",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexes.base.Index.unique",
+          "similarity": 0.870968
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.unique",
+          "similarity": 0.771429
+        },
+        {
+          "fqn": "pandas.core.arrays.base.ExtensionArray.unique",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.unique",
+          "similarity": 0.648649
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.isin",
+          "similarity": 0.558824
+        },
+        {
+          "fqn": "pandas.core.series.Series.unique",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "pandas.io.common._BytesZipFile.write",
+          "similarity": 0.542857
+        },
+        {
+          "fqn": "pandas.core.indexes.numeric.Float64Index.isin",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "pandas.core.arrays.categorical.Categorical.view",
+          "similarity": 0.514286
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.view",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "pandas.core.window.rolling.RollingGroupby._gotitem",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "pandas.core.indexes.interval.IntervalIndex.where",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.range.RangeIndex._format_attrs",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.plotting._matplotlib.core.MPLPlot._get_colors",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.json.array.JSONArray.__array__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.extension.ExtensionIndex._get_unique_index",
+          "similarity": 0.489796
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray.date",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray.time",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "pandas.core.accessor.CachedAccessor.__get__",
+          "similarity": 0.487179
+        },
+        {
+          "fqn": "pandas.io.pytables.IndexCol.set_info",
+          "similarity": 0.486486
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.base.Index.unique",
+        "pandas.core.arrays.base.ExtensionArray.unique",
+        "pandas.core.indexes.multi.MultiIndex.unique",
+        "pandas.core.indexes.base.Index.isin",
+        "pandas.core.series.Series.unique",
+        "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.view",
+        "pandas.core.indexes.range.RangeIndex._format_attrs",
+        "pandas.plotting._matplotlib.core.MPLPlot._get_colors",
+        "pandas.tests.extension.json.array.JSONArray.__array__",
+        "pandas.core.arrays.datetimes.DatetimeArray.date",
+        "pandas.core.arrays.datetimes.DatetimeArray.time",
+        "pandas.io.pytables.IndexCol.set_info"
+      ],
+      "entered_iter": [
+        "pandas.core.indexes.category.CategoricalIndex.unique"
+      ],
+      "pruned": [
+        "pandas.io.common._BytesZipFile.write",
+        "pandas.core.indexes.numeric.Float64Index.isin",
+        "pandas.core.arrays.categorical.Categorical.view",
+        "pandas.core.window.rolling.RollingGroupby._gotitem",
+        "pandas.core.indexes.interval.IntervalIndex.where",
+        "pandas.core.indexes.extension.ExtensionIndex._get_unique_index",
+        "pandas.core.accessor.CachedAccessor.__get__"
+      ],
+      "prune_bound": 0.340746,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.categorical.Categorical.view",
+      "path_score": 0.447368,
+      "boundary": "DEPRECATED",
+      "vpre": "1.4.4",
+      "vpost": "1.5.0",
+      "resolved_fqn": "pandas.core.arrays.categorical.Categorical.view",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.view",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays.base.ExtensionArray.view",
+          "similarity": 0.487179
+        },
+        {
+          "fqn": "pandas.core.window.rolling.BaseWindowGroupby._gotitem",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.isin",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "pandas.core.computation.pytables.PyTablesExpr.__repr__",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.io.pytables.HDFStore.groups",
+          "similarity": 0.432432
+        },
+        {
+          "fqn": "pandas.plotting._matplotlib.core.MPLPlot._get_colors",
+          "similarity": 0.425
+        },
+        {
+          "fqn": "pandas.core.interchange.buffer.PandasBuffer.__dlpack__",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.unique",
+          "similarity": 0.414634
+        },
+        {
+          "fqn": "pandas.core.series.Series.view",
+          "similarity": 0.413043
+        },
+        {
+          "fqn": "pandas.core.flags.Flags.__getitem__",
+          "similarity": 0.411765
+        },
+        {
+          "fqn": "pandas.core.accessor.CachedAccessor.__get__",
+          "similarity": 0.410256
+        },
+        {
+          "fqn": "pandas.io.pytables.IndexCol.set_info",
+          "similarity": 0.405405
+        },
+        {
+          "fqn": "pandas.core.flags.Flags.__eq__",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.lstrip",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.rstrip",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.strip",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "pandas.tseries.holiday.AbstractHolidayCalendar.merge",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimes.DatetimeArray.__array__",
+          "similarity": 0.394737
+        }
+      ],
+      "entered_final": [
+        "pandas.core.indexes.multi.MultiIndex.view",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.arrays.base.ExtensionArray.view",
+        "pandas.core.window.rolling.BaseWindowGroupby._gotitem",
+        "pandas.core.indexes.base.Index.isin",
+        "pandas.core.computation.pytables.PyTablesExpr.__repr__",
+        "pandas.io.pytables.HDFStore.groups",
+        "pandas.plotting._matplotlib.core.MPLPlot._get_colors",
+        "pandas.core.interchange.buffer.PandasBuffer.__dlpack__",
+        "pandas.core.indexes.multi.MultiIndex.unique",
+        "pandas.core.flags.Flags.__getitem__",
+        "pandas.io.pytables.IndexCol.set_info",
+        "pandas.core.flags.Flags.__eq__",
+        "pandas.core.strings.accessor.StringMethods.lstrip",
+        "pandas.core.strings.accessor.StringMethods.rstrip",
+        "pandas.core.strings.accessor.StringMethods.strip",
+        "pandas.tseries.holiday.AbstractHolidayCalendar.merge",
+        "pandas.core.arrays.datetimes.DatetimeArray.__array__"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.series.Series.view",
+        "pandas.core.accessor.CachedAccessor.__get__"
+      ],
+      "prune_bound": 0.340746,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.indexes.category.CategoricalIndex.fillna",
+      "path_score": 0.447368,
+      "boundary": "DEPRECATED",
+      "vpre": "1.3.5",
+      "vpost": "1.4.0",
+      "resolved_fqn": "pandas.core.indexes.category.CategoricalIndex.fillna",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.resample.Resampler.fillna",
+          "similarity": 0.576923
+        },
+        {
+          "fqn": "pandas.core.internals.blocks.ExtensionBlock.fillna",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "pandas.core.series.Series.map",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.lstrip",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.rstrip",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.strip",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "pandas.core.window.rolling.BaseWindowGroupby._gotitem",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.endswith",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.startswith",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "pandas.io.pytables.HDFStore.groups",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby.GroupBy.backfill",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.groupby.groupby.GroupBy.pad",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.backfill",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.pad",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.removeprefix",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.removesuffix",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.isin",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "pandas.plotting._misc._Options.__setitem__",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.map",
+          "similarity": 0.4375
+        }
+      ],
+      "entered_final": [
+        "pandas.core.internals.blocks.ExtensionBlock.fillna",
+        "pandas.core.series.Series.map",
+        "pandas.core.strings.accessor.StringMethods.lstrip",
+        "pandas.core.strings.accessor.StringMethods.rstrip",
+        "pandas.core.strings.accessor.StringMethods.strip",
+        "pandas.core.window.rolling.BaseWindowGroupby._gotitem",
+        "pandas.core.strings.accessor.StringMethods.endswith",
+        "pandas.core.strings.accessor.StringMethods.startswith",
+        "pandas.io.pytables.HDFStore.groups",
+        "pandas.core.strings.accessor.StringMethods.removeprefix",
+        "pandas.core.strings.accessor.StringMethods.removesuffix",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.indexes.base.Index.isin",
+        "pandas.plotting._misc._Options.__setitem__",
+        "pandas.core.indexes.category.CategoricalIndex.map"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.resample.Resampler.fillna",
+        "pandas.core.groupby.groupby.GroupBy.backfill",
+        "pandas.core.groupby.groupby.GroupBy.pad",
+        "pandas.core.resample.Resampler.backfill",
+        "pandas.core.resample.Resampler.pad"
+      ],
+      "prune_bound": 0.340746,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.indexes.category.CategoricalIndex.duplicated",
+      "path_score": 0.432432,
+      "boundary": "DEPRECATED",
+      "vpre": "1.1.5",
+      "vpost": "1.2.0",
+      "resolved_fqn": "pandas.core.indexes.category.CategoricalIndex.duplicated",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.base.IndexOpsMixin.duplicated",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.TimelikeOps.ceil",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.TimelikeOps.floor",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.TimelikeOps.round",
+          "similarity": 0.551724
+        },
+        {
+          "fqn": "pandas.core.series.Series.duplicated",
+          "similarity": 0.540541
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.DatelikeOps.strftime",
+          "similarity": 0.533333
+        },
+        {
+          "fqn": "pandas.core.arrays.base.ExtensionArray.searchsorted",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.duplicated",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "pandas.core.indexes.multi.MultiIndex.duplicated",
+          "similarity": 0.527778
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.map",
+          "similarity": 0.517241
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.std",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "pandas.core.resample.Resampler.var",
+          "similarity": 0.516129
+        },
+        {
+          "fqn": "pandas.core.indexes.base.Index.ravel",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.indexes.category.CategoricalIndex.astype",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.encode",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.partition",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.rpartition",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.accessor.StringMethods.zfill",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.io.common._BytesZipFile.write",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.io.parser.conftest.BaseParser.update_kwargs",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays.datetimelike.TimelikeOps.ceil",
+        "pandas.core.arrays.datetimelike.TimelikeOps.floor",
+        "pandas.core.arrays.datetimelike.TimelikeOps.round",
+        "pandas.core.series.Series.duplicated",
+        "pandas.core.arrays.datetimelike.DatelikeOps.strftime",
+        "pandas.core.arrays.base.ExtensionArray.searchsorted",
+        "pandas.core.indexes.base.Index.duplicated",
+        "pandas.core.indexes.multi.MultiIndex.duplicated",
+        "pandas.core.indexes.category.CategoricalIndex.map",
+        "pandas.core.resample.Resampler.std",
+        "pandas.core.resample.Resampler.var",
+        "pandas.core.indexes.base.Index.ravel",
+        "pandas.core.strings.accessor.StringMethods.encode",
+        "pandas.core.strings.accessor.StringMethods.partition",
+        "pandas.core.strings.accessor.StringMethods.rpartition",
+        "pandas.core.strings.accessor.StringMethods.zfill",
+        "pandas.tests.io.parser.conftest.BaseParser.update_kwargs"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "pandas.core.base.IndexOpsMixin.duplicated",
+        "pandas.core.indexes.category.CategoricalIndex.astype",
+        "pandas.io.common._BytesZipFile.write"
+      ],
+      "prune_bound": 0.340746,
+      "dead_reason": null
+    }
+  ]
+}

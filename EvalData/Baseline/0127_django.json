@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.10.8",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_indexes",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.introspection.PostGISIntrospection.get_geometry_type",
+      "api_type": "method",
+      "similarity": 0.5785714285714286,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.widgets.MultipleHiddenInput.get_context",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.introspection.DatabaseIntrospection._get_column_collations",
+      "api_type": "method",
+      "similarity": 0.5608108108108109,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.utils.EngineHandler.templates",
+      "api_type": "method",
+      "similarity": 0.56,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_prefetch_querysets",
+      "api_type": "method",
+      "similarity": 0.5533333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.forms.widgets.BaseGeometryWidget.get_context",
+      "api_type": "method",
+      "similarity": 0.547945205479452,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.middleware.common.BrokenLinkEmailsMiddleware.process_response",
+      "api_type": "method",
+      "similarity": 0.5434782608695652,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.forms.array.SplitArrayWidget.get_context",
+      "api_type": "method",
+      "similarity": 0.5414012738853503,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.cache.backends.db.DatabaseCache._cull",
+      "api_type": "method",
+      "similarity": 0.5369127516778524,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.widgets.ForeignKeyRawIdWidget.get_context",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.introspection.DatabaseIntrospection.get_table_description",
+      "api_type": "method",
+      "similarity": 0.5310734463276836,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.bulk_insert_sql",
+      "api_type": "method",
+      "similarity": 0.5310344827586206,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.hashers.Argon2PasswordHasher.decode",
+      "api_type": "method",
+      "similarity": 0.5289855072463768,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.introspection.OracleIntrospection.get_geometry_type",
+      "api_type": "method",
+      "similarity": 0.5285714285714286,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.management.commands.diffsettings.Command.output_unified",
+      "api_type": "method",
+      "similarity": 0.5211267605633803,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.base.Model.__getstate__",
+      "api_type": "method",
+      "similarity": 0.518796992481203,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.utils.CursorDebugWrapper.debug_sql",
+      "api_type": "method",
+      "similarity": 0.5136986301369864,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.base.Model.unique_error_message",
+      "api_type": "method",
+      "similarity": 0.5135135135135135,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.base.Model._get_next_or_previous_by_FIELD",
+      "api_type": "method",
+      "similarity": 0.5125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.sequence_reset_sql",
+      "api_type": "method",
+      "similarity": 0.5109489051094891,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

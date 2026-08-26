@@ -1,0 +1,474 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "4.0.10",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.backends.postgresql.operations.DatabaseOperations._convert_field_to_tz",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.db.backends.postgresql.operations.DatabaseOperations._convert_sql_to_tz",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [
+        "django.db.backends.postgresql.operations.DatabaseOperations._convert_sql_to_tz"
+      ],
+      "local_scores": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "django.db.backends.mysql.operations.DatabaseOperations._convert_sql_to_tz",
+      "api_type": "method",
+      "similarity": 0.574468085106383,
+      "evolution_path": [
+        "django.db.backends.mysql.operations.DatabaseOperations._convert_sql_to_tz"
+      ],
+      "local_scores": [
+        0.574468085106383
+      ]
+    },
+    {
+      "fqn": "django.contrib.admin.filters.RelatedFieldListFilter.field_choices",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.admin.filters.RelatedFieldListFilter.field_choices"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.operations.DatabaseOperations._convert_tznames_to_sql",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.db.backends.sqlite3.operations.DatabaseOperations._convert_tznames_to_sql"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.HStoreField.to_python",
+      "api_type": "method",
+      "similarity": 0.48717948717948717,
+      "evolution_path": [
+        "django.contrib.postgres.fields.hstore.HStoreField.to_python"
+      ],
+      "local_scores": [
+        0.48717948717948717
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.search.SearchConfig.as_sql",
+      "api_type": "method",
+      "similarity": 0.475,
+      "evolution_path": [
+        "django.contrib.postgres.search.SearchConfig.as_sql"
+      ],
+      "local_scores": [
+        0.475
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.state.ModelState.get_field",
+      "api_type": "method",
+      "similarity": 0.475,
+      "evolution_path": [
+        "django.db.migrations.state.ModelState.get_field"
+      ],
+      "local_scores": [
+        0.475
+      ]
+    },
+    {
+      "fqn": "django.db.models.deletion.Collector.add_field_update",
+      "api_type": "method",
+      "similarity": 0.46808510638297873,
+      "evolution_path": [
+        "django.db.models.deletion.Collector.add_field_update"
+      ],
+      "local_scores": [
+        0.46808510638297873
+      ]
+    },
+    {
+      "fqn": "django.forms.fields.GenericIPAddressField.to_python",
+      "api_type": "method",
+      "similarity": 0.46808510638297873,
+      "evolution_path": [
+        "django.forms.fields.GenericIPAddressField.to_python"
+      ],
+      "local_scores": [
+        0.46808510638297873
+      ]
+    },
+    {
+      "fqn": "django.db.backends.mysql.operations.DatabaseOperations.convert_datetimefield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [
+        "django.db.backends.mysql.operations.DatabaseOperations.convert_datetimefield_value"
+      ],
+      "local_scores": [
+        0.46511627906976744
+      ]
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_datefield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_datefield_value"
+      ],
+      "local_scores": [
+        0.46511627906976744
+      ]
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_datetimefield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_datetimefield_value"
+      ],
+      "local_scores": [
+        0.46511627906976744
+      ]
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_textfield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_textfield_value"
+      ],
+      "local_scores": [
+        0.46511627906976744
+      ]
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_timefield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_timefield_value"
+      ],
+      "local_scores": [
+        0.46511627906976744
+      ]
+    },
+    {
+      "fqn": "django.forms.models.ModelChoiceIteratorValue.__eq__",
+      "api_type": "method",
+      "similarity": 0.4594594594594595,
+      "evolution_path": [
+        "django.forms.models.ModelChoiceIteratorValue.__eq__"
+      ],
+      "local_scores": [
+        0.4594594594594595
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.serializers.geojson.Serializer.handle_field",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "django.contrib.gis.serializers.geojson.Serializer.handle_field"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_rename",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_rename"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "django.db.backends.oracle.validation.DatabaseValidation.check_field_type",
+      "api_type": "method",
+      "similarity": 0.4528301886792453,
+      "evolution_path": [
+        "django.db.backends.oracle.validation.DatabaseValidation.check_field_type"
+      ],
+      "local_scores": [
+        0.4528301886792453
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.array.ArrayLenTransform.as_sql",
+      "api_type": "method",
+      "similarity": 0.4523809523809524,
+      "evolution_path": [
+        "django.contrib.postgres.fields.array.ArrayLenTransform.as_sql"
+      ],
+      "local_scores": [
+        0.4523809523809524
+      ]
+    },
+    {
+      "fqn": "django.db.backends.utils.CursorDebugWrapper.executemany",
+      "api_type": "method",
+      "similarity": 0.23166023166023167,
+      "evolution_path": [
+        "django.db.backends.postgresql.base.CursorDebugWrapper.copy_to",
+        "django.db.backends.utils.CursorDebugWrapper.executemany"
+      ],
+      "local_scores": [
+        0.47619047619047616,
+        0.4864864864864865
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.db.backends.postgresql.operations.DatabaseOperations._convert_field_to_tz",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "4.0.10",
+      "vpost": "4.1",
+      "resolved_fqn": "django.db.backends.postgresql.operations.DatabaseOperations._convert_field_to_tz",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.db.backends.postgresql.operations.DatabaseOperations._convert_sql_to_tz",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "django.db.backends.mysql.operations.DatabaseOperations._convert_sql_to_tz",
+          "similarity": 0.574468
+        },
+        {
+          "fqn": "django.contrib.admin.filters.RelatedFieldListFilter.field_choices",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.db.backends.sqlite3.operations.DatabaseOperations._convert_tznames_to_sql",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.postgres.fields.hstore.HStoreField.to_python",
+          "similarity": 0.487179
+        },
+        {
+          "fqn": "django.db.backends.postgresql.base.CursorDebugWrapper.copy_to",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "django.contrib.postgres.search.SearchConfig.as_sql",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "django.db.migrations.state.ModelState.get_field",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "django.db.models.deletion.Collector.add_field_update",
+          "similarity": 0.468085
+        },
+        {
+          "fqn": "django.forms.fields.GenericIPAddressField.to_python",
+          "similarity": 0.468085
+        },
+        {
+          "fqn": "django.db.backends.mysql.operations.DatabaseOperations.convert_datetimefield_value",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_datefield_value",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_datetimefield_value",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_textfield_value",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_timefield_value",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "django.forms.models.ModelChoiceIteratorValue.__eq__",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "django.contrib.gis.serializers.geojson.Serializer.handle_field",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_rename",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "django.db.backends.oracle.validation.DatabaseValidation.check_field_type",
+          "similarity": 0.45283
+        },
+        {
+          "fqn": "django.contrib.postgres.fields.array.ArrayLenTransform.as_sql",
+          "similarity": 0.452381
+        }
+      ],
+      "entered_final": [
+        "django.db.backends.postgresql.operations.DatabaseOperations._convert_sql_to_tz",
+        "django.db.backends.mysql.operations.DatabaseOperations._convert_sql_to_tz",
+        "django.contrib.admin.filters.RelatedFieldListFilter.field_choices",
+        "django.db.backends.sqlite3.operations.DatabaseOperations._convert_tznames_to_sql",
+        "django.contrib.postgres.fields.hstore.HStoreField.to_python",
+        "django.contrib.postgres.search.SearchConfig.as_sql",
+        "django.db.migrations.state.ModelState.get_field",
+        "django.db.models.deletion.Collector.add_field_update",
+        "django.forms.fields.GenericIPAddressField.to_python",
+        "django.db.backends.mysql.operations.DatabaseOperations.convert_datetimefield_value",
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_datefield_value",
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_datetimefield_value",
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_textfield_value",
+        "django.db.backends.oracle.operations.DatabaseOperations.convert_timefield_value",
+        "django.forms.models.ModelChoiceIteratorValue.__eq__",
+        "django.contrib.gis.serializers.geojson.Serializer.handle_field",
+        "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_rename",
+        "django.db.backends.oracle.validation.DatabaseValidation.check_field_type",
+        "django.contrib.postgres.fields.array.ArrayLenTransform.as_sql"
+      ],
+      "entered_iter": [
+        "django.db.backends.postgresql.base.CursorDebugWrapper.copy_to"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.db.backends.postgresql.base.CursorDebugWrapper.copy_to",
+      "path_score": 0.47619,
+      "boundary": "DEPRECATED",
+      "vpre": "4.1.13",
+      "vpost": "4.2",
+      "resolved_fqn": "django.db.backends.postgresql.base.CursorDebugWrapper.copy_to",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.db.backends.utils.CursorDebugWrapper.executemany",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Field.__copy__",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "django.template.context.BaseContext.__copy__",
+          "similarity": 0.485714
+        },
+        {
+          "fqn": "django.db.backends.utils.CursorDebugWrapper.execute",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "django.db.models.functions.math.Degrees.as_oracle",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "django.db.models.functions.math.Radians.as_oracle",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "django.template.context.Context.__copy__",
+          "similarity": 0.459459
+        },
+        {
+          "fqn": "django.forms.utils.ErrorList.copy",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "django.db.backends.base.base.BaseDatabaseWrapper.copy",
+          "similarity": 0.452381
+        },
+        {
+          "fqn": "django.contrib.postgres.forms.array.SplitArrayField.to_python",
+          "similarity": 0.45
+        },
+        {
+          "fqn": "django.db.models.functions.text.MySQLSHA2Mixin.as_mysql",
+          "similarity": 0.45
+        },
+        {
+          "fqn": "django.utils.log.AdminEmailHandler.send_mail",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "django.views.generic.edit.BaseUpdateView.get",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "django.views.generic.edit.BaseUpdateView.post",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "django.utils.functional.SimpleLazyObject.__copy__",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "django.views.generic.base.TemplateResponseMixin.render_to_response",
+          "similarity": 0.44186
+        },
+        {
+          "fqn": "django.db.models.expressions.Func.copy",
+          "similarity": 0.439024
+        },
+        {
+          "fqn": "django.contrib.postgres.fields.hstore.HStoreField.to_python",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "django.core.cache.backends.memcached.BaseMemcachedCache.delete",
+          "similarity": 0.435897
+        },
+        {
+          "fqn": "django.core.cache.backends.memcached.BaseMemcachedCache.get",
+          "similarity": 0.435897
+        }
+      ],
+      "entered_final": [
+        "django.db.backends.utils.CursorDebugWrapper.executemany",
+        "django.db.models.fields.__init__.Field.__copy__",
+        "django.template.context.BaseContext.__copy__",
+        "django.db.backends.utils.CursorDebugWrapper.execute",
+        "django.db.models.functions.math.Degrees.as_oracle",
+        "django.db.models.functions.math.Radians.as_oracle",
+        "django.template.context.Context.__copy__",
+        "django.forms.utils.ErrorList.copy",
+        "django.db.backends.base.base.BaseDatabaseWrapper.copy",
+        "django.contrib.postgres.forms.array.SplitArrayField.to_python",
+        "django.db.models.functions.text.MySQLSHA2Mixin.as_mysql",
+        "django.utils.log.AdminEmailHandler.send_mail",
+        "django.views.generic.edit.BaseUpdateView.get",
+        "django.views.generic.edit.BaseUpdateView.post",
+        "django.utils.functional.SimpleLazyObject.__copy__",
+        "django.views.generic.base.TemplateResponseMixin.render_to_response",
+        "django.db.models.expressions.Func.copy",
+        "django.contrib.postgres.fields.hstore.HStoreField.to_python",
+        "django.core.cache.backends.memcached.BaseMemcachedCache.delete",
+        "django.core.cache.backends.memcached.BaseMemcachedCache.get"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.23166,
+      "dead_reason": null
+    }
+  ]
+}

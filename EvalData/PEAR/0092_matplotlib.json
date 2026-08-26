@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.5.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.ticker.LogLocator.base",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.ticker.LogFormatter.set_base",
+      "api_type": "method",
+      "similarity": 0.8235294117647058,
+      "evolution_path": [
+        "matplotlib.ticker.LogFormatter.set_base"
+      ],
+      "local_scores": [
+        0.8235294117647058
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_linewidth",
+      "api_type": "method",
+      "similarity": 0.55,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_linewidth"
+      ],
+      "local_scores": [
+        0.55
+      ]
+    },
+    {
+      "fqn": "matplotlib.dates.DateFormatter.set_tzinfo",
+      "api_type": "method",
+      "similarity": 0.47619047619047616,
+      "evolution_path": [
+        "matplotlib.dates.DateFormatter.set_tzinfo"
+      ],
+      "local_scores": [
+        0.47619047619047616
+      ]
+    },
+    {
+      "fqn": "matplotlib.dates.DateLocator.set_tzinfo",
+      "api_type": "method",
+      "similarity": 0.47619047619047616,
+      "evolution_path": [
+        "matplotlib.dates.DateLocator.set_tzinfo"
+      ],
+      "local_scores": [
+        0.47619047619047616
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.ScalarFormatter.set_scientific",
+      "api_type": "method",
+      "similarity": 0.47619047619047616,
+      "evolution_path": [
+        "matplotlib.ticker.ScalarFormatter.set_scientific"
+      ],
+      "local_scores": [
+        0.47619047619047616
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [
+        "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__"
+      ],
+      "local_scores": [
+        0.47368421052631576
+      ]
+    },
+    {
+      "fqn": "matplotlib.spines.Spines.__setitem__",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [
+        "matplotlib.spines.Spines.__setitem__"
+      ],
+      "local_scores": [
+        0.47368421052631576
+      ]
+    },
+    {
+      "fqn": "matplotlib.tests.test_units.Quantity.__getattr__",
+      "api_type": "method",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [
+        "matplotlib.tests.test_units.Quantity.__getattr__"
+      ],
+      "local_scores": [
+        0.47368421052631576
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.Bbox.ignore",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.transforms.Bbox.ignore"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_capstyle",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_capstyle"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_joinstyle",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_joinstyle"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.Collection.set_capstyle",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.collections.Collection.set_capstyle"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.Collection.set_joinstyle",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.collections.Collection.set_joinstyle"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.LineCollection.set_gapcolor",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.collections.LineCollection.set_gapcolor"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines.AxLine.draw",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.lines.AxLine.draw"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.Patch.set_edgecolor",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.patches.Patch.set_edgecolor"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.Patch.set_facecolor",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.patches.Patch.set_facecolor"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.gridspec.SubplotSpec.num2",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "matplotlib.gridspec.SubplotSpec.num2"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "matplotlib.scale.FuncScaleLog.base",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "matplotlib.scale.FuncScaleLog.base"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    },
+    {
+      "fqn": "matplotlib.spines.Spines.__setstate__",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [
+        "matplotlib.spines.Spines.__setstate__"
+      ],
+      "local_scores": [
+        0.4444444444444444
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.ticker.LogLocator.base",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.ticker.LogLocator.base",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.ticker.LogFormatter.set_base",
+          "similarity": 0.823529
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_linewidth",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.dates.DateFormatter.set_tzinfo",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.dates.DateLocator.set_tzinfo",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.ticker.ScalarFormatter.set_scientific",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.spines.Spines.__setitem__",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.tests.test_units.Quantity.__getattr__",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib.transforms.Bbox.ignore",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_capstyle",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_joinstyle",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_capstyle",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_joinstyle",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.collections.LineCollection.set_gapcolor",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.lines.AxLine.draw",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_edgecolor",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_facecolor",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.gridspec.SubplotSpec.num2",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.scale.FuncScaleLog.base",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.spines.Spines.__setstate__",
+          "similarity": 0.444444
+        }
+      ],
+      "entered_final": [
+        "matplotlib.ticker.LogFormatter.set_base",
+        "matplotlib.backend_bases.GraphicsContextBase.set_linewidth",
+        "matplotlib.dates.DateFormatter.set_tzinfo",
+        "matplotlib.dates.DateLocator.set_tzinfo",
+        "matplotlib.ticker.ScalarFormatter.set_scientific",
+        "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+        "matplotlib.spines.Spines.__setitem__",
+        "matplotlib.tests.test_units.Quantity.__getattr__",
+        "matplotlib.transforms.Bbox.ignore",
+        "matplotlib.backend_bases.GraphicsContextBase.set_capstyle",
+        "matplotlib.backend_bases.GraphicsContextBase.set_joinstyle",
+        "matplotlib.collections.Collection.set_capstyle",
+        "matplotlib.collections.Collection.set_joinstyle",
+        "matplotlib.collections.LineCollection.set_gapcolor",
+        "matplotlib.lines.AxLine.draw",
+        "matplotlib.patches.Patch.set_edgecolor",
+        "matplotlib.patches.Patch.set_facecolor",
+        "matplotlib.gridspec.SubplotSpec.num2",
+        "matplotlib.scale.FuncScaleLog.base",
+        "matplotlib.spines.Spines.__setstate__"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.444444,
+      "dead_reason": null
+    }
+  ]
+}

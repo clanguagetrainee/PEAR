@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.6.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.offsetbox.bbox_artist",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.offsetbox._bbox_artist",
+      "api_type": "function",
+      "similarity": 1.0,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.get",
+      "api_type": "function",
+      "similarity": 0.37037037037037035,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.getp",
+      "api_type": "function",
+      "similarity": 0.37037037037037035,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.setp",
+      "api_type": "function",
+      "similarity": 0.37037037037037035,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.show",
+      "api_type": "function",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_constrainedlayout.test_bbox",
+      "api_type": "function",
+      "similarity": 0.3548387096774194,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_transforms.assert_bbox_eq",
+      "api_type": "function",
+      "similarity": 0.3448275862068966,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.triplot",
+      "api_type": "function",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._tricontour.tricontour",
+      "api_type": "function",
+      "similarity": 0.3225806451612903,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._tricontour.tricontourf",
+      "api_type": "function",
+      "similarity": 0.3225806451612903,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.figlegend",
+      "api_type": "function",
+      "similarity": 0.32142857142857145,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_bbox_tight.test_bbox_inches_tight_suptitle_non_default",
+      "api_type": "function",
+      "similarity": 0.3142857142857143,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.legend",
+      "api_type": "function",
+      "similarity": 0.3103448275862069,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cbook._topmost_artist",
+      "api_type": "function",
+      "similarity": 0.3055555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_bbox_tight.test_bbox_inches_tight_raster",
+      "api_type": "function",
+      "similarity": 0.3055555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.tricontour",
+      "api_type": "function",
+      "similarity": 0.2972972972972973,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.tricontourf",
+      "api_type": "function",
+      "similarity": 0.2972972972972973,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_bbox_tight.test_bbox_inches_tight_layout_notconstrained",
+      "api_type": "function",
+      "similarity": 0.2972972972972973,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.pyplot.new_figure_manager",
+      "api_type": "function",
+      "similarity": 0.29411764705882354,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt5.__getattr__",
+      "api_type": "function",
+      "similarity": 0.2903225806451613,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

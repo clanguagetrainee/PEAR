@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.postgres.fields.jsonb.KeyTransform",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.db.models.sql.compiler.SQLAggregateCompiler",
+      "api_type": "class",
+      "similarity": 0.5816993464052288,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.search.CombinedLexeme",
+      "api_type": "class",
+      "similarity": 0.5751633986928104,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.search.SearchVectorExact",
+      "api_type": "class",
+      "similarity": 0.5548387096774193,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.json.KeyTextTransform",
+      "api_type": "class",
+      "similarity": 0.5529411764705883,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.json.KeyTransformIsNull",
+      "api_type": "class",
+      "similarity": 0.5483870967741935,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.array.SliceTransform",
+      "api_type": "class",
+      "similarity": 0.5447761194029851,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.AsGML",
+      "api_type": "class",
+      "similarity": 0.5341614906832298,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.json.JSONExact",
+      "api_type": "class",
+      "similarity": 0.5269461077844312,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.base.Token",
+      "api_type": "class",
+      "similarity": 0.5263157894736842,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.lookups.BuiltinLookup",
+      "api_type": "class",
+      "similarity": 0.5260115606936416,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.backends.jinja2.Template",
+      "api_type": "class",
+      "similarity": 0.5157232704402516,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.handlers.wsgi.WSGIHandler",
+      "api_type": "class",
+      "similarity": 0.5142857142857142,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.mysql.compiler.SQLUpdateCompiler",
+      "api_type": "class",
+      "similarity": 0.512987012987013,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.KeyTransform",
+      "api_type": "class",
+      "similarity": 0.5116279069767442,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.array.IndexTransform",
+      "api_type": "class",
+      "similarity": 0.5103448275862069,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.mysql.compiler.SQLDeleteCompiler",
+      "api_type": "class",
+      "similarity": 0.5096774193548387,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.messages.storage.fallback.FallbackStorage",
+      "api_type": "class",
+      "similarity": 0.5085714285714286,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.templatetags.base.InclusionAdminNode",
+      "api_type": "class",
+      "similarity": 0.5082872928176796,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.FromWKB",
+      "api_type": "class",
+      "similarity": 0.506578947368421,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.Exists",
+      "api_type": "class",
+      "similarity": 0.5060240963855421,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

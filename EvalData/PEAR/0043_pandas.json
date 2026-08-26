@@ -1,0 +1,1517 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "1.4.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.series.Series.iteritems",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "pandas.core.series.Series.items",
+      "api_type": "method",
+      "similarity": 1.0,
+      "evolution_path": [
+        "pandas.core.series.Series.items"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.items",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "pandas.core.generic.NDFrame.items"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+      "api_type": "method",
+      "similarity": 0.38235294117647056,
+      "evolution_path": [
+        "pandas.tests.frame.test_arithmetic.DummyElement.view"
+      ],
+      "local_scores": [
+        0.38235294117647056
+      ]
+    },
+    {
+      "fqn": "pandas.core.frame.DataFrame.items",
+      "api_type": "method",
+      "similarity": 0.38181818181818183,
+      "evolution_path": [
+        "pandas.core.frame.DataFrame.items"
+      ],
+      "local_scores": [
+        0.38181818181818183
+      ]
+    },
+    {
+      "fqn": "pandas.io.pytables.HDFStore.items",
+      "api_type": "method",
+      "similarity": 0.3783783783783784,
+      "evolution_path": [
+        "pandas.io.pytables.HDFStore.items"
+      ],
+      "local_scores": [
+        0.3783783783783784
+      ]
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.shape",
+      "api_type": "method",
+      "similarity": 0.3684210526315789,
+      "evolution_path": [
+        "pandas.core.generic.NDFrame.shape"
+      ],
+      "local_scores": [
+        0.3684210526315789
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.extension_types.ArrowIntervalType.__hash__",
+      "api_type": "method",
+      "similarity": 0.35135135135135137,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.extension_types.ArrowIntervalType.__hash__"
+      ],
+      "local_scores": [
+        0.35135135135135137
+      ]
+    },
+    {
+      "fqn": "pandas.core.dtypes.base.ExtensionDtype.__hash__",
+      "api_type": "method",
+      "similarity": 0.35135135135135137,
+      "evolution_path": [
+        "pandas.core.dtypes.base.ExtensionDtype.__hash__"
+      ],
+      "local_scores": [
+        0.35135135135135137
+      ]
+    },
+    {
+      "fqn": "pandas.core.groupby.ops.BaseGrouper.__iter__",
+      "api_type": "method",
+      "similarity": 0.34375,
+      "evolution_path": [
+        "pandas.core.groupby.ops.BaseGrouper.__iter__"
+      ],
+      "local_scores": [
+        0.34375
+      ]
+    },
+    {
+      "fqn": "pandas.tests.dtypes.test_inference.MockNumpyLikeArray.__iter__",
+      "api_type": "method",
+      "similarity": 0.34285714285714286,
+      "evolution_path": [
+        "pandas.tests.dtypes.test_inference.MockNumpyLikeArray.__iter__"
+      ],
+      "local_scores": [
+        0.34285714285714286
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+      "api_type": "method",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar"
+      ],
+      "local_scores": [
+        0.3333333333333333
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+      "api_type": "method",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize"
+      ],
+      "local_scores": [
+        0.3333333333333333,
+        1.0
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+      "api_type": "method",
+      "similarity": 0.24,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum"
+      ],
+      "local_scores": [
+        0.3333333333333333,
+        0.72
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+      "api_type": "method",
+      "similarity": 0.24,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha"
+      ],
+      "local_scores": [
+        0.3333333333333333,
+        0.72
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+      "api_type": "method",
+      "similarity": 0.24,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal"
+      ],
+      "local_scores": [
+        0.3333333333333333,
+        0.72
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+      "api_type": "method",
+      "similarity": 0.24,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit"
+      ],
+      "local_scores": [
+        0.3333333333333333,
+        0.72
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+      "api_type": "method",
+      "similarity": 0.24,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower"
+      ],
+      "local_scores": [
+        0.3333333333333333,
+        0.72
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+      "api_type": "method",
+      "similarity": 0.24,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isnumeric",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric"
+      ],
+      "local_scores": [
+        0.3333333333333333,
+        0.72
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace",
+      "api_type": "method",
+      "similarity": 0.24,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isspace",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace"
+      ],
+      "local_scores": [
+        0.3333333333333333,
+        0.72
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_istitle",
+      "api_type": "method",
+      "similarity": 0.24,
+      "evolution_path": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_istitle",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_istitle"
+      ],
+      "local_scores": [
+        0.3333333333333333,
+        0.72
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "pandas.core.series.Series.iteritems",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "1.5.3",
+      "vpost": "2.0.0",
+      "resolved_fqn": "pandas.core.series.Series.items",
+      "resolved_kind": "forward",
+      "candidates": [
+        {
+          "fqn": "pandas.core.series.Series.items",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.items",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.382353
+        },
+        {
+          "fqn": "pandas.core.frame.DataFrame.items",
+          "similarity": 0.381818
+        },
+        {
+          "fqn": "pandas.io.pytables.HDFStore.items",
+          "similarity": 0.378378
+        },
+        {
+          "fqn": "pandas.core.generic.NDFrame.shape",
+          "similarity": 0.368421
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.extension_types.ArrowIntervalType.__hash__",
+          "similarity": 0.351351
+        },
+        {
+          "fqn": "pandas.core.dtypes.base.ExtensionDtype.__hash__",
+          "similarity": 0.351351
+        },
+        {
+          "fqn": "pandas.core.groupby.ops.BaseGrouper.__iter__",
+          "similarity": 0.34375
+        },
+        {
+          "fqn": "pandas.tests.dtypes.test_inference.MockNumpyLikeArray.__iter__",
+          "similarity": 0.342857
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_capitalize",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalnum",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalpha",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdecimal",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdigit",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_islower",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isnumeric",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isspace",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_istitle",
+          "similarity": 0.333333
+        }
+      ],
+      "entered_final": [
+        "pandas.core.series.Series.items",
+        "pandas.core.generic.NDFrame.items",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.frame.DataFrame.items",
+        "pandas.io.pytables.HDFStore.items",
+        "pandas.core.generic.NDFrame.shape",
+        "pandas.core.arrays.arrow.extension_types.ArrowIntervalType.__hash__",
+        "pandas.core.dtypes.base.ExtensionDtype.__hash__",
+        "pandas.core.groupby.ops.BaseGrouper.__iter__",
+        "pandas.tests.dtypes.test_inference.MockNumpyLikeArray.__iter__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar"
+      ],
+      "entered_iter": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_capitalize",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalnum",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalpha",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdecimal",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdigit",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_islower",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isnumeric",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isspace",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_istitle"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_capitalize",
+      "path_score": 0.333333,
+      "boundary": "DEPRECATED",
+      "vpre": "2.0.3",
+      "vpost": "2.1.0",
+      "resolved_fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_capitalize",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_capitalize",
+          "similarity": 0.681818
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalnum",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalpha",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdecimal",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdigit",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_islower",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isnumeric",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isspace",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_istitle",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isupper",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_len",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_lower",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_upper",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.string_arrow.ArrowStringArray._str_lower",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.string_arrow.ArrowStringArray._str_upper",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__neg__",
+          "similarity": 0.518519
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__neg__"
+      ],
+      "entered_iter": [
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalnum",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalpha",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdecimal",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdigit",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_islower",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isnumeric",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isspace",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_istitle",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isupper",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_len",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_lower",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_upper",
+        "pandas.core.arrays.string_arrow.ArrowStringArray._str_lower",
+        "pandas.core.arrays.string_arrow.ArrowStringArray._str_upper"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalnum",
+      "path_score": 0.333333,
+      "boundary": "DEPRECATED",
+      "vpre": "2.2.3",
+      "vpost": "2.3.0",
+      "resolved_fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalnum",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+          "similarity": 0.72
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isalnum",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace",
+          "similarity": 0.482759
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+        "pandas.tests.extension.decimal.array.DecimalArray.copy",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.209877,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalpha",
+      "path_score": 0.333333,
+      "boundary": "DEPRECATED",
+      "vpre": "2.2.3",
+      "vpost": "2.3.0",
+      "resolved_fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isalpha",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+          "similarity": 0.72
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isalpha",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace",
+          "similarity": 0.482759
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+        "pandas.tests.extension.decimal.array.DecimalArray.copy",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.226667,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdecimal",
+      "path_score": 0.333333,
+      "boundary": "DEPRECATED",
+      "vpre": "2.2.3",
+      "vpost": "2.3.0",
+      "resolved_fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdecimal",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+          "similarity": 0.72
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isdecimal",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace",
+          "similarity": 0.482759
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+        "pandas.tests.extension.decimal.array.DecimalArray.copy",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.226667,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdigit",
+      "path_score": 0.333333,
+      "boundary": "DEPRECATED",
+      "vpre": "2.2.3",
+      "vpost": "2.3.0",
+      "resolved_fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isdigit",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+          "similarity": 0.72
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isdigit",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace",
+          "similarity": 0.482759
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+        "pandas.tests.extension.decimal.array.DecimalArray.copy",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.226667,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_islower",
+      "path_score": 0.333333,
+      "boundary": "DEPRECATED",
+      "vpre": "2.2.3",
+      "vpost": "2.3.0",
+      "resolved_fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_islower",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+          "similarity": 0.72
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_islower",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace",
+          "similarity": 0.482759
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+        "pandas.tests.extension.decimal.array.DecimalArray.copy",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.226667,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isnumeric",
+      "path_score": 0.333333,
+      "boundary": "DEPRECATED",
+      "vpre": "2.2.3",
+      "vpost": "2.3.0",
+      "resolved_fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isnumeric",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+          "similarity": 0.72
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isnumeric",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace",
+          "similarity": 0.482759
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isnumeric",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+        "pandas.tests.extension.decimal.array.DecimalArray.copy",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.226667,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isspace",
+      "path_score": 0.333333,
+      "boundary": "DEPRECATED",
+      "vpre": "2.2.3",
+      "vpost": "2.3.0",
+      "resolved_fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isspace",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace",
+          "similarity": 0.72
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isspace",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+          "similarity": 0.482759
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isspace",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_isspace",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+        "pandas.tests.extension.decimal.array.DecimalArray.copy",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.227273,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_istitle",
+      "path_score": 0.333333,
+      "boundary": "DEPRECATED",
+      "vpre": "2.2.3",
+      "vpost": "2.3.0",
+      "resolved_fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_istitle",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_istitle",
+          "similarity": 0.72
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+          "similarity": 0.68
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_istitle",
+          "similarity": 0.652174
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+          "similarity": 0.62963
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.tests.frame.test_arithmetic.DummyElement.view",
+          "similarity": 0.518519
+        },
+        {
+          "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.tests.extension.decimal.array.DecimalArray.copy",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric",
+          "similarity": 0.482759
+        }
+      ],
+      "entered_final": [
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_istitle",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_swapcase",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_title",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_istitle",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_capitalize",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_lower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_upper",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.__abs__",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray.dropna",
+        "pandas.tests.frame.test_arithmetic.DummyElement.view",
+        "pandas.core.arrays.arrow.array.ArrowExtensionArray._dt_isocalendar",
+        "pandas.core.strings.object_array.ObjectStringArrayMixin._str_translate",
+        "pandas.tests.extension.array_with_attr.array.FloatAttrArray.copy",
+        "pandas.tests.extension.decimal.array.DecimalArray.copy",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalnum",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isalpha",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdecimal",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isdigit",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_islower",
+        "pandas.core.arrays._arrow_string_mixins.ArrowStringArrayMixin._str_isnumeric"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.24,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_isupper",
+      "path_score": 0.226667,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.24,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_len",
+      "path_score": 0.226667,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.24,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_lower",
+      "path_score": 0.226667,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.24,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._str_upper",
+      "path_score": 0.226667,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.24,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.arrays.string_arrow.ArrowStringArray._str_lower",
+      "path_score": 0.226667,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.24,
+      "dead_reason": "pruned_at_pop"
+    },
+    {
+      "fqn": "pandas.core.arrays.string_arrow.ArrowStringArray._str_upper",
+      "path_score": 0.226667,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.24,
+      "dead_reason": "pruned_at_pop"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "1.4.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.series.Series.iteritems",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.core.series.Series.items",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.interchange.buffer.PandasBuffer.__dlpack__",
+      "api_type": "method",
+      "similarity": 0.36,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.ops.BaseGrouper.__iter__",
+      "api_type": "method",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.frame.DataFrame.items",
+      "api_type": "method",
+      "similarity": 0.3157894736842105,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.base.ExtensionArray._values_for_factorize",
+      "api_type": "method",
+      "similarity": 0.3055555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.formats.info.DataFrameInfo.dtypes",
+      "api_type": "method",
+      "similarity": 0.2962962962962963,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.formats.info._TableBuilderAbstract.dtypes",
+      "api_type": "method",
+      "similarity": 0.2962962962962963,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.util.version.__init__.Version.release",
+      "api_type": "method",
+      "similarity": 0.2962962962962963,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.Table.index_cols",
+      "api_type": "method",
+      "similarity": 0.29411764705882354,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.engines.PythonEngine.evaluate",
+      "api_type": "method",
+      "similarity": 0.2916666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.common._BytesIOWrapper.__getattr__",
+      "api_type": "method",
+      "similarity": 0.2903225806451613,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.common._IOWrapper.__getattr__",
+      "api_type": "method",
+      "similarity": 0.2903225806451613,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.ops.BinGrouper.names",
+      "api_type": "method",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.formats.info.SeriesInfo.dtypes",
+      "api_type": "method",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray._values_for_factorize",
+      "api_type": "method",
+      "similarity": 0.28205128205128205,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.first_valid_index",
+      "api_type": "method",
+      "similarity": 0.28125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.last_valid_index",
+      "api_type": "method",
+      "similarity": 0.28125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.ops.BaseGrouper.names",
+      "api_type": "method",
+      "similarity": 0.27586206896551724,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.excel._base.ExcelWriter.supported_extensions",
+      "api_type": "method",
+      "similarity": 0.27586206896551724,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.formats.html.HTMLFormatter._get_columns_formatted_values",
+      "api_type": "method",
+      "similarity": 0.27586206896551724,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

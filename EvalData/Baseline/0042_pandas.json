@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "1.4.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.frame.DataFrame.iteritems",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.core.frame.DataFrame.items",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.items",
+      "api_type": "method",
+      "similarity": 0.34285714285714286,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.ops.BaseGrouper.__iter__",
+      "api_type": "method",
+      "similarity": 0.2962962962962963,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.categorical.CategoricalAccessor.codes",
+      "api_type": "method",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.generic.SeriesGroupBy.dtype",
+      "api_type": "method",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.generic.SeriesGroupBy.unique",
+      "api_type": "method",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.formats.info._SeriesTableBuilder.data",
+      "api_type": "method",
+      "similarity": 0.28,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.plotting._misc._Options.reset",
+      "api_type": "method",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.isna",
+      "api_type": "method",
+      "similarity": 0.25925925925925924,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.formats.info.DataFrameInfo.dtypes",
+      "api_type": "method",
+      "similarity": 0.25925925925925924,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.formats.info._TableBuilderAbstract.dtypes",
+      "api_type": "method",
+      "similarity": 0.25925925925925924,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.util.version.__init__.Version.release",
+      "api_type": "method",
+      "similarity": 0.25925925925925924,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.engines.PythonEngine.evaluate",
+      "api_type": "method",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.first_valid_index",
+      "api_type": "method",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.last_valid_index",
+      "api_type": "method",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.generic.SeriesGroupBy.idxmax",
+      "api_type": "method",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.generic.SeriesGroupBy.idxmin",
+      "api_type": "method",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.ops.BinGrouper.names",
+      "api_type": "method",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.notna",
+      "api_type": "method",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.window.ewm.OnlineExponentialMovingWindow.reset",
+      "api_type": "method",
+      "similarity": 0.25,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

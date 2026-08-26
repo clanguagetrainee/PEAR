@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.4.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.NavigationToolbar2.set_cursor",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.set_cursor",
+      "api_type": "method",
+      "similarity": 1.0,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.set_cursor",
+      "api_type": "method",
+      "similarity": 0.5789473684210527,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.NavigationToolbar2.set_message",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image.NonUniformImage.set_filternorm",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image.NonUniformImage.set_filterrad",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.AuxTransformBox.set_transform",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.DrawingArea.set_transform",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.offsetbox.TextArea.set_transform",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.Formatter._set_locator",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.FigureCanvasQT.set_cursor",
+      "api_type": "method",
+      "similarity": 0.55,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.AxesWidget._set_cursor",
+      "api_type": "method",
+      "similarity": 0.5238095238095238,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.ToolContainerBase.set_message",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.FigureCanvasTk.set_cursor",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.layout_engine.LayoutEngine.set",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_gid",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_picker",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_url",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.set_navigate",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_gid",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_hatch",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

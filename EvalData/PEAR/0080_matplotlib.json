@@ -1,0 +1,835 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.spines.Spine.cla",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.spines.Spine.clear",
+      "api_type": "method",
+      "similarity": 0.6363636363636364,
+      "evolution_path": [
+        "matplotlib.spines.Spine.clear"
+      ],
+      "local_scores": [
+        0.6363636363636364
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.cla",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.cla"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfFile.endStream",
+      "api_type": "method",
+      "similarity": 0.56,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.PdfFile.endStream"
+      ],
+      "local_scores": [
+        0.56
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.TimerAsyncio._timer_stop",
+      "api_type": "method",
+      "similarity": 0.56,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg_core.TimerAsyncio._timer_stop"
+      ],
+      "local_scores": [
+        0.56
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends._backend_gtk.TimerGTK._timer_stop",
+      "api_type": "method",
+      "similarity": 0.5384615384615384,
+      "evolution_path": [
+        "matplotlib.backends._backend_gtk.TimerGTK._timer_stop"
+      ],
+      "local_scores": [
+        0.5384615384615384
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.TimerTk._timer_stop",
+      "api_type": "method",
+      "similarity": 0.5384615384615384,
+      "evolution_path": [
+        "matplotlib.backends._backend_tk.TimerTk._timer_stop"
+      ],
+      "local_scores": [
+        0.5384615384615384
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.PolygonSelector._remove_box",
+      "api_type": "method",
+      "similarity": 0.5384615384615384,
+      "evolution_path": [
+        "matplotlib.widgets.PolygonSelector._remove_box"
+      ],
+      "local_scores": [
+        0.5384615384615384
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.Stream._flush",
+      "api_type": "method",
+      "similarity": 0.4827586206896552,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.Stream._flush"
+      ],
+      "local_scores": [
+        0.4827586206896552
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.TimerBase.start",
+      "api_type": "method",
+      "similarity": 0.48,
+      "evolution_path": [
+        "matplotlib.backend_bases.TimerBase.start"
+      ],
+      "local_scores": [
+        0.48
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorbar.Colorbar._cbar_cla",
+      "api_type": "method",
+      "similarity": 0.4482758620689655,
+      "evolution_path": [
+        "matplotlib.colorbar.Colorbar._cbar_cla"
+      ],
+      "local_scores": [
+        0.4482758620689655
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.clear",
+      "api_type": "method",
+      "similarity": 0.43478260869565216,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.clear"
+      ],
+      "local_scores": [
+        0.43478260869565216
+      ]
+    },
+    {
+      "fqn": "matplotlib.spines.Spine.register_axis",
+      "api_type": "method",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [
+        "matplotlib.spines.Spine.register_axis"
+      ],
+      "local_scores": [
+        0.43333333333333335
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf.pop",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.GraphicsContextPdf.pop"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._triangulation.Triangulation.edges",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.tri.triangulation.Triangulation.edges",
+        "matplotlib.tri._triangulation.Triangulation.edges"
+      ],
+      "local_scores": [
+        0.42857142857142855,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._triangulation.Triangulation.neighbors",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.tri.triangulation.Triangulation.neighbors",
+        "matplotlib.tri._triangulation.Triangulation.neighbors"
+      ],
+      "local_scores": [
+        0.42857142857142855,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.cbook._OrderedSet.add",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "matplotlib.cbook.__init__._OrderedSet.add",
+        "matplotlib.cbook._OrderedSet.add"
+      ],
+      "local_scores": [
+        0.4230769230769231,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.blit",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.blit"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.animation.FileMovieWriter.__del__",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.animation.FileMovieWriter.__del__"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.GraphicsContextWx.select",
+      "api_type": "method",
+      "similarity": 0.4074074074074074,
+      "evolution_path": [
+        "matplotlib.backends.backend_wx.GraphicsContextWx.select"
+      ],
+      "local_scores": [
+        0.4074074074074074
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure._AxesStack.add",
+      "api_type": "method",
+      "similarity": 0.2644230769230769,
+      "evolution_path": [
+        "matplotlib.cbook.__init__._OrderedSet.add",
+        "matplotlib.figure._AxesStack.add"
+      ],
+      "local_scores": [
+        0.4230769230769231,
+        0.625
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.spines.Spine.cla",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.spines.Spine.cla",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.spines.Spine.clear",
+          "similarity": 0.636364
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.cla",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfFile.endStream",
+          "similarity": 0.56
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.TimerAsyncio._timer_stop",
+          "similarity": 0.56
+        },
+        {
+          "fqn": "matplotlib.backends._backend_gtk.TimerGTK._timer_stop",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.TimerTk._timer_stop",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "matplotlib.widgets.PolygonSelector._remove_box",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Stream._flush",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "matplotlib.backend_bases.TimerBase.start",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar._cbar_cla",
+          "similarity": 0.448276
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.clear",
+          "similarity": 0.434783
+        },
+        {
+          "fqn": "matplotlib.spines.Spine.register_axis",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf.pop",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.tri.triangulation.Triangulation.edges",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.tri.triangulation.Triangulation.neighbors",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.ToolTip.hidetip",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._OrderedSet.add",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.blit",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.animation.FileMovieWriter.__del__",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.GraphicsContextWx.select",
+          "similarity": 0.407407
+        }
+      ],
+      "entered_final": [
+        "matplotlib.spines.Spine.clear",
+        "matplotlib.axes._base._AxesBase.cla",
+        "matplotlib.backends.backend_pdf.PdfFile.endStream",
+        "matplotlib.backends.backend_webagg_core.TimerAsyncio._timer_stop",
+        "matplotlib.backends._backend_gtk.TimerGTK._timer_stop",
+        "matplotlib.backends._backend_tk.TimerTk._timer_stop",
+        "matplotlib.widgets.PolygonSelector._remove_box",
+        "matplotlib.backends.backend_pdf.Stream._flush",
+        "matplotlib.backend_bases.TimerBase.start",
+        "matplotlib.colorbar.Colorbar._cbar_cla",
+        "matplotlib.axes._base._AxesBase.clear",
+        "matplotlib.spines.Spine.register_axis",
+        "matplotlib.backends.backend_pdf.GraphicsContextPdf.pop",
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.blit",
+        "matplotlib.animation.FileMovieWriter.__del__",
+        "matplotlib.backends.backend_wx.GraphicsContextWx.select"
+      ],
+      "entered_iter": [
+        "matplotlib.tri.triangulation.Triangulation.edges",
+        "matplotlib.tri.triangulation.Triangulation.neighbors",
+        "matplotlib.backends._backend_tk.ToolTip.hidetip",
+        "matplotlib.cbook.__init__._OrderedSet.add"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tri.triangulation.Triangulation.edges",
+      "path_score": 0.428571,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.tri.triangulation.Triangulation.edges",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tri._triangulation.Triangulation.edges",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.tri._triangulation.Triangulation.neighbors",
+          "similarity": 0.692308
+        },
+        {
+          "fqn": "matplotlib.backends._backend_gtk._FigureManagerGTK.destroy",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle.get_transform",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.FigureCanvasTk.draw_idle",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo.FigureCanvasCairo._renderer",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.backend_bases.RendererBase.get_texmanager",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.autoscale",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.spines.Spine.clear",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Stream._flush",
+          "similarity": 0.424242
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.TimerTk._timer_stop",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf.pop",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfFile.write",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.textpath.TextToPath.get_texmanager",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.tri._triangulation.Triangulation.get_trifinder",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Stream.write",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle.get_alt_transform",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.collections.QuadMesh.get_paths",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "matplotlib.collections.TriMesh.get_paths",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "matplotlib.patches.Annulus.get_path",
+          "similarity": 0.413793
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tri._triangulation.Triangulation.edges",
+        "matplotlib.tri._triangulation.Triangulation.neighbors",
+        "matplotlib.backends._backend_gtk._FigureManagerGTK.destroy",
+        "matplotlib.markers.MarkerStyle.get_transform",
+        "matplotlib.backends._backend_tk.FigureCanvasTk.draw_idle",
+        "matplotlib.backends.backend_cairo.FigureCanvasCairo._renderer",
+        "matplotlib.backend_bases.RendererBase.get_texmanager",
+        "matplotlib.spines.Spine.clear",
+        "matplotlib.backends.backend_pdf.Stream._flush",
+        "matplotlib.backends._backend_tk.TimerTk._timer_stop",
+        "matplotlib.backends.backend_pdf.GraphicsContextPdf.pop",
+        "matplotlib.backends.backend_pdf.PdfFile.write",
+        "matplotlib.tri._triangulation.Triangulation.get_trifinder",
+        "matplotlib.backends.backend_pdf.Stream.write",
+        "matplotlib.markers.MarkerStyle.get_alt_transform",
+        "matplotlib.collections.QuadMesh.get_paths",
+        "matplotlib.collections.TriMesh.get_paths",
+        "matplotlib.patches.Annulus.get_path"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cm.ScalarMappable.autoscale",
+        "matplotlib.textpath.TextToPath.get_texmanager"
+      ],
+      "prune_bound": 0.194805,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tri.triangulation.Triangulation.neighbors",
+      "path_score": 0.428571,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.tri.triangulation.Triangulation.neighbors",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tri._triangulation.Triangulation.neighbors",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.tri._triangulation.Triangulation.edges",
+          "similarity": 0.692308
+        },
+        {
+          "fqn": "matplotlib.backends._backend_gtk._FigureManagerGTK.destroy",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle.get_transform",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.FigureCanvasTk.draw_idle",
+          "similarity": 0.441176
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo.FigureCanvasCairo._renderer",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.backend_bases.RendererBase.get_texmanager",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.autoscale",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.spines.Spine.clear",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Stream._flush",
+          "similarity": 0.424242
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.TimerTk._timer_stop",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf.pop",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfFile.write",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.textpath.TextToPath.get_texmanager",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.tri._triangulation.Triangulation.get_trifinder",
+          "similarity": 0.419355
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Stream.write",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle.get_alt_transform",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.collections.QuadMesh.get_paths",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "matplotlib.collections.TriMesh.get_paths",
+          "similarity": 0.413793
+        },
+        {
+          "fqn": "matplotlib.patches.Annulus.get_path",
+          "similarity": 0.413793
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tri._triangulation.Triangulation.neighbors",
+        "matplotlib.tri._triangulation.Triangulation.edges",
+        "matplotlib.backends._backend_gtk._FigureManagerGTK.destroy",
+        "matplotlib.markers.MarkerStyle.get_transform",
+        "matplotlib.backends._backend_tk.FigureCanvasTk.draw_idle",
+        "matplotlib.backends.backend_cairo.FigureCanvasCairo._renderer",
+        "matplotlib.backend_bases.RendererBase.get_texmanager",
+        "matplotlib.spines.Spine.clear",
+        "matplotlib.backends.backend_pdf.Stream._flush",
+        "matplotlib.backends._backend_tk.TimerTk._timer_stop",
+        "matplotlib.backends.backend_pdf.GraphicsContextPdf.pop",
+        "matplotlib.backends.backend_pdf.PdfFile.write",
+        "matplotlib.tri._triangulation.Triangulation.get_trifinder",
+        "matplotlib.backends.backend_pdf.Stream.write",
+        "matplotlib.markers.MarkerStyle.get_alt_transform",
+        "matplotlib.collections.QuadMesh.get_paths",
+        "matplotlib.collections.TriMesh.get_paths",
+        "matplotlib.patches.Annulus.get_path"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cm.ScalarMappable.autoscale",
+        "matplotlib.textpath.TextToPath.get_texmanager"
+      ],
+      "prune_bound": 0.296703,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.ToolTip.hidetip",
+      "path_score": 0.423077,
+      "boundary": "DEPRECATED",
+      "vpre": "3.8.4",
+      "vpost": "3.9.0",
+      "resolved_fqn": "matplotlib.backends._backend_tk.ToolTip.hidetip",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.artist.Artist.__getstate__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.contour.ContourSet.__getstate__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_gapcolor",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.ticker.EngFormatter.set_usetex",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "matplotlib.figure.FigureBase.gca",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib._afm.AFM.get_fullname",
+          "similarity": 0.46875
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Stream._flush",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.offsetbox.AnchoredOffsetbox.set_child",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_hatch",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib.lines.Line2D.set_color",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib.patches.Patch.set_hatch",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib.backends.backend_template.FigureCanvasTemplate.draw",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.cbook._OrderedSet.add",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.animation.MovieWriterRegistry.__iter__",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.collections.LineCollection._set_gapcolor",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformedPatchPath._revalidate",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.GraphicsContextPdf.finalize",
+          "similarity": 0.448276
+        },
+        {
+          "fqn": "matplotlib.text.Text.set_linespacing",
+          "similarity": 0.448276
+        },
+        {
+          "fqn": "matplotlib._mathtext.Kern.shrink",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.ArtistList.__iter__",
+          "similarity": 0.444444
+        }
+      ],
+      "entered_final": [
+        "matplotlib.artist.Artist.__getstate__",
+        "matplotlib.contour.ContourSet.__getstate__",
+        "matplotlib.lines.Line2D.set_gapcolor",
+        "matplotlib.figure.FigureBase.gca",
+        "matplotlib._afm.AFM.get_fullname",
+        "matplotlib.backends.backend_pdf.Stream._flush",
+        "matplotlib.offsetbox.AnchoredOffsetbox.set_child",
+        "matplotlib.collections.Collection.set_hatch",
+        "matplotlib.lines.Line2D.set_color",
+        "matplotlib.patches.Patch.set_hatch",
+        "matplotlib.backends.backend_template.FigureCanvasTemplate.draw",
+        "matplotlib.cbook._OrderedSet.add",
+        "matplotlib.animation.MovieWriterRegistry.__iter__",
+        "matplotlib.collections.LineCollection._set_gapcolor",
+        "matplotlib.transforms.TransformedPatchPath._revalidate",
+        "matplotlib.backends.backend_pdf.GraphicsContextPdf.finalize",
+        "matplotlib.text.Text.set_linespacing",
+        "matplotlib._mathtext.Kern.shrink",
+        "matplotlib.axes._base._AxesBase.ArtistList.__iter__"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.ticker.EngFormatter.set_usetex"
+      ],
+      "prune_bound": 0.296703,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cbook.__init__._OrderedSet.add",
+      "path_score": 0.423077,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.cbook.__init__._OrderedSet.add",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.cbook._OrderedSet.add",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.figure._AxesStack.add",
+          "similarity": 0.625
+        },
+        {
+          "fqn": "matplotlib.widgets._SelectorWidget.add_state",
+          "similarity": 0.56
+        },
+        {
+          "fqn": "matplotlib.backend_bases.TimerBase.start",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolSetCursor._add_tool",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.cbook._OrderedSet.discard",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.offsetbox.AuxTransformBox.add_artist",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.add_axobserver",
+          "similarity": 0.481481
+        },
+        {
+          "fqn": "matplotlib.lines.AxLine.draw",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "matplotlib.dviread.Vf._finalize_packet",
+          "similarity": 0.46875
+        },
+        {
+          "fqn": "matplotlib.font_manager.FontProperties.set_file",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.ToolTip.hidetip",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar.formatter",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar.locator",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar.minorformatter",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar.minorlocator",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.blit",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetImage.draw",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.figure._AxesStack.remove",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backend_bases.TimerBase.add_callback",
+          "similarity": 0.448276
+        }
+      ],
+      "entered_final": [
+        "matplotlib.cbook._OrderedSet.add",
+        "matplotlib.figure._AxesStack.add",
+        "matplotlib.widgets._SelectorWidget.add_state",
+        "matplotlib.backend_bases.TimerBase.start",
+        "matplotlib.cbook._OrderedSet.discard",
+        "matplotlib.offsetbox.AuxTransformBox.add_artist",
+        "matplotlib.figure.Figure.add_axobserver",
+        "matplotlib.lines.AxLine.draw",
+        "matplotlib.dviread.Vf._finalize_packet",
+        "matplotlib.font_manager.FontProperties.set_file",
+        "matplotlib.colorbar.Colorbar.formatter",
+        "matplotlib.colorbar.Colorbar.locator",
+        "matplotlib.colorbar.Colorbar.minorformatter",
+        "matplotlib.colorbar.Colorbar.minorlocator",
+        "matplotlib.backends.backend_webagg_core.FigureCanvasWebAggCore.blit",
+        "matplotlib.offsetbox.OffsetImage.draw",
+        "matplotlib.figure._AxesStack.remove",
+        "matplotlib.backend_bases.TimerBase.add_callback"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.backend_tools.ToolSetCursor._add_tool",
+        "matplotlib.backends._backend_tk.ToolTip.hidetip"
+      ],
+      "prune_bound": 0.296703,
+      "dead_reason": null
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.23.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.dtypes.common.is_datetimetz",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.core.groupby.grouper._is_label_like",
+      "api_type": "function",
+      "similarity": 0.55,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_sparse",
+      "api_type": "function",
+      "similarity": 0.4883720930232558,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexers.utils.is_list_like_indexer",
+      "api_type": "function",
+      "similarity": 0.4883720930232558,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexing.is_label_like",
+      "api_type": "function",
+      "similarity": 0.4878048780487805,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.common.is_empty_slice",
+      "api_type": "function",
+      "similarity": 0.4772727272727273,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.strings.__init__.is_object_or_nan_string_dtype",
+      "api_type": "function",
+      "similarity": 0.4634146341463415,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_float_dtype",
+      "api_type": "function",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_integer_dtype",
+      "api_type": "function",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_signed_integer_dtype",
+      "api_type": "function",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_unsigned_integer_dtype",
+      "api_type": "function",
+      "similarity": 0.44,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.dtypes.test_common.get_is_dtype_funcs",
+      "api_type": "function",
+      "similarity": 0.4318181818181818,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.window.moments.conftest.is_constant",
+      "api_type": "function",
+      "similarity": 0.4318181818181818,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.interval._is_valid_endpoint",
+      "api_type": "function",
+      "similarity": 0.425531914893617,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas._testing.__init__.to_array",
+      "api_type": "function",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.common.is_null_slice",
+      "api_type": "function",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.pytables._validate_where",
+      "api_type": "function",
+      "similarity": 0.4186046511627907,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_datetime64_dtype",
+      "api_type": "function",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_timedelta64_dtype",
+      "api_type": "function",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_numeric_dtype",
+      "api_type": "function",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.dtypes.common.is_any_real_numeric_dtype",
+      "api_type": "function",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

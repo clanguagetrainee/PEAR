@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.ticker.IndexFormatter",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.projections.geo.GeoAxes.ThetaFormatter",
+      "api_type": "class",
+      "similarity": 0.5972222222222222,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.StrMethodFormatter",
+      "api_type": "class",
+      "similarity": 0.5352112676056338,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.FixedFormatter",
+      "api_type": "class",
+      "similarity": 0.5263157894736842,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._docstring.Substitution",
+      "api_type": "class",
+      "similarity": 0.4936708860759494,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.FormatStrFormatter",
+      "api_type": "class",
+      "similarity": 0.4927536231884058,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.LatexError",
+      "api_type": "class",
+      "similarity": 0.4805194805194805,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dates.DateFormatter",
+      "api_type": "class",
+      "similarity": 0.4752475247524752,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.FuncFormatter",
+      "api_type": "class",
+      "similarity": 0.4725274725274725,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._api.__init__.classproperty",
+      "api_type": "class",
+      "similarity": 0.45652173913043476,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cbook.silent_list",
+      "api_type": "class",
+      "similarity": 0.45263157894736844,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._TransformedBoundsLocator",
+      "api_type": "class",
+      "similarity": 0.4457831325301205,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.FuncScaleLog",
+      "api_type": "class",
+      "similarity": 0.4421052631578947,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._trifinder.TriFinder",
+      "api_type": "class",
+      "similarity": 0.43661971830985913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.CirclePolygon",
+      "api_type": "class",
+      "similarity": 0.43529411764705883,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.PickEvent",
+      "api_type": "class",
+      "similarity": 0.4268292682926829,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.polar.ThetaFormatter",
+      "api_type": "class",
+      "similarity": 0.42391304347826086,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.Event",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cbook._StrongRef",
+      "api_type": "class",
+      "similarity": 0.42045454545454547,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.IndexLocator",
+      "api_type": "class",
+      "similarity": 0.42016806722689076,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_axes._Translation",
+      "api_type": "class",
+      "similarity": 0.4177215189873418,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

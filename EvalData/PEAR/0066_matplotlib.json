@@ -1,0 +1,594 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.offsetbox.DraggableBase.artist_picker",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.axis.Tick._set_artist_props",
+      "api_type": "method",
+      "similarity": 0.48,
+      "evolution_path": [
+        "matplotlib.axis.Tick._set_artist_props"
+      ],
+      "local_scores": [
+        0.48
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.RectangleSelector._contains",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [
+        "matplotlib.widgets.RectangleSelector._contains"
+      ],
+      "local_scores": [
+        0.4583333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.SpanSelector._contains",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [
+        "matplotlib.widgets.SpanSelector._contains"
+      ],
+      "local_scores": [
+        0.4583333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib._api.__init__.classproperty.__get__",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib._api.__init__.classproperty.__get__"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_picker",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.artist.Artist.set_picker"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.tests.test_cbook.Test_callback_registry.disconnect"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.TransformWrapper.__eq__",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [
+        "matplotlib.transforms.TransformWrapper.__eq__"
+      ],
+      "local_scores": [
+        0.45454545454545453
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.Axis._set_artist_props",
+      "api_type": "method",
+      "similarity": 0.4482758620689655,
+      "evolution_path": [
+        "matplotlib.axis.Axis._set_artist_props"
+      ],
+      "local_scores": [
+        0.4482758620689655
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_picker",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "matplotlib.artist.Artist.get_picker"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.in_axes",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.in_axes"
+      ],
+      "local_scores": [
+        0.4230769230769231
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.mpl_connect",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "matplotlib.backend_bases.FigureCanvasBase.mpl_connect"
+      ],
+      "local_scores": [
+        0.4230769230769231
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_managers.ToolManager.toolmanager_connect",
+      "api_type": "method",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "matplotlib.backend_managers.ToolManager.toolmanager_connect"
+      ],
+      "local_scores": [
+        0.4230769230769231
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolQuit.trigger",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [
+        "matplotlib.backend_tools.ToolQuit.trigger"
+      ],
+      "local_scores": [
+        0.4166666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.dates.rrulewrapper.__setstate__",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.dates.rrulewrapper.__setstate__"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform.inverted"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg._XMLWriter.data",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.backends.backend_svg.XMLWriter.data",
+        "matplotlib.backends.backend_svg._XMLWriter.data"
+      ],
+      "local_scores": [
+        0.4090909090909091,
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.contains",
+      "api_type": "method",
+      "similarity": 0.31862745098039214,
+      "evolution_path": [
+        "matplotlib.cbook.__init__.Grouper.__contains__",
+        "matplotlib.axes._base._AxesBase.contains"
+      ],
+      "local_scores": [
+        0.4166666666666667,
+        0.7647058823529411
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.offsetbox.DraggableBase.artist_picker",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.offsetbox.DraggableBase.ref_artist.contains",
+      "resolved_kind": "unknown",
+      "candidates": [
+        {
+          "fqn": "matplotlib.axis.Tick._set_artist_props",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "matplotlib.widgets.RectangleSelector._contains",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.widgets.SpanSelector._contains",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib._api.__init__.classproperty.__get__",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_picker",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformWrapper.__eq__",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.axis.Axis._set_artist_props",
+          "similarity": 0.448276
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.get_picker",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.in_axes",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureCanvasBase.mpl_connect",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolManager.toolmanager_connect",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolQuit.trigger",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__.Grouper.__contains__",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.backends.backend_svg.XMLWriter.data",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.dates.rrulewrapper.__setstate__",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform.inverted",
+          "similarity": 0.409091
+        }
+      ],
+      "entered_final": [
+        "matplotlib.axis.Tick._set_artist_props",
+        "matplotlib.widgets.RectangleSelector._contains",
+        "matplotlib.widgets.SpanSelector._contains",
+        "matplotlib._api.__init__.classproperty.__get__",
+        "matplotlib.artist.Artist.set_picker",
+        "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+        "matplotlib.transforms.TransformWrapper.__eq__",
+        "matplotlib.axis.Axis._set_artist_props",
+        "matplotlib.artist.Artist.get_picker",
+        "matplotlib.axes._base._AxesBase.in_axes",
+        "matplotlib.backend_bases.FigureCanvasBase.mpl_connect",
+        "matplotlib.backend_managers.ToolManager.toolmanager_connect",
+        "matplotlib.backend_tools.ToolQuit.trigger",
+        "matplotlib.dates.rrulewrapper.__setstate__",
+        "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+        "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted",
+        "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform.inverted"
+      ],
+      "entered_iter": [
+        "matplotlib.cbook.__init__.Grouper.__contains__",
+        "matplotlib.backends.backend_svg.XMLWriter.data"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cbook.__init__.Grouper.__contains__",
+      "path_score": 0.416667,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.cbook.__init__.Grouper.__contains__",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.contains",
+          "similarity": 0.764706
+        },
+        {
+          "fqn": "matplotlib.cbook.Grouper.__contains__",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "matplotlib.cbook.GrouperView.__contains__",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "matplotlib.cbook._OrderedSet.__contains__",
+          "similarity": 0.75
+        },
+        {
+          "fqn": "matplotlib.legend.Legend.contains",
+          "similarity": 0.722222
+        },
+        {
+          "fqn": "matplotlib.widgets.RectangleSelector._contains",
+          "similarity": 0.65
+        },
+        {
+          "fqn": "matplotlib.widgets.SpanSelector._contains",
+          "similarity": 0.65
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.contains_point",
+          "similarity": 0.619048
+        },
+        {
+          "fqn": "matplotlib.transforms.BboxBase.contains",
+          "similarity": 0.590909
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformedBbox.contains",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "matplotlib.cbook.GrouperView.joined",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "matplotlib.transforms.BboxBase.fully_contains",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.tests.test_units.Quantity.__getattr__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformWrapper.__eq__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.transforms._BlendedMixin.contains_branch_seperately",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformedBbox.fully_contains",
+          "similarity": 0.482759
+        },
+        {
+          "fqn": "matplotlib.sphinxext.plot_directive.ImageFile.filename",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.__init__.RcParams._get",
+          "similarity": 0.47619
+        }
+      ],
+      "entered_final": [
+        "matplotlib.axes._base._AxesBase.contains",
+        "matplotlib.cbook.Grouper.__contains__",
+        "matplotlib.cbook.GrouperView.__contains__",
+        "matplotlib.cbook._OrderedSet.__contains__",
+        "matplotlib.legend.Legend.contains",
+        "matplotlib.widgets.RectangleSelector._contains",
+        "matplotlib.widgets.SpanSelector._contains",
+        "matplotlib.axes._base._AxesBase.contains_point",
+        "matplotlib.transforms.BboxBase.contains",
+        "matplotlib.transforms.TransformedBbox.contains",
+        "matplotlib.cbook.GrouperView.joined",
+        "matplotlib.transforms.BboxBase.fully_contains",
+        "matplotlib.backends.backend_mixed.MixedModeRenderer.__getattr__",
+        "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+        "matplotlib.tests.test_units.Quantity.__getattr__",
+        "matplotlib.transforms.TransformWrapper.__eq__",
+        "matplotlib.transforms.TransformedBbox.fully_contains",
+        "matplotlib.sphinxext.plot_directive.ImageFile.filename",
+        "matplotlib.__init__.RcParams._get"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.transforms._BlendedMixin.contains_branch_seperately"
+      ],
+      "prune_bound": 0.3125,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.XMLWriter.data",
+      "path_score": 0.409091,
+      "boundary": "DEPRECATED",
+      "vpre": "3.10.9",
+      "vpost": "3.11.0",
+      "resolved_fqn": "matplotlib.backends.backend_svg.XMLWriter.data",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_svg._XMLWriter.data",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.ticker.Formatter.format_data",
+          "similarity": 0.611111
+        },
+        {
+          "fqn": "matplotlib.image.FigureImage.set_data",
+          "similarity": 0.545455
+        },
+        {
+          "fqn": "matplotlib.dates.rrulewrapper.__setstate__",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.figure._AxesStack.remove",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.widgets.Button.disconnect",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.widgets.SliderBase.disconnect",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.widgets.TextBox.disconnect",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.widgets._Buttons.disconnect",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.container.PieContainer.add_texts",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "matplotlib.ticker.Formatter.format_data_short",
+          "similarity": 0.52381
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.contains",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.cbook._OrderedSet.discard",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.legend.Legend.contains",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.testing.jpl_units.UnitDblFormatter.UnitDblFormatter.format_data",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformWrapper.__eq__",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.dates.ConciseDateFormatter.format_data_short",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "matplotlib.ticker.LogFormatter.format_data_short",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.FigureCanvasTk.resize",
+          "similarity": 0.473684
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_svg._XMLWriter.data",
+        "matplotlib.ticker.Formatter.format_data",
+        "matplotlib.image.FigureImage.set_data",
+        "matplotlib.dates.rrulewrapper.__setstate__",
+        "matplotlib.figure._AxesStack.remove",
+        "matplotlib.widgets.Button.disconnect",
+        "matplotlib.widgets.SliderBase.disconnect",
+        "matplotlib.widgets.TextBox.disconnect",
+        "matplotlib.widgets._Buttons.disconnect",
+        "matplotlib.container.PieContainer.add_texts",
+        "matplotlib.ticker.Formatter.format_data_short",
+        "matplotlib.axes._base._AxesBase.contains",
+        "matplotlib.cbook._OrderedSet.discard",
+        "matplotlib.legend.Legend.contains",
+        "matplotlib.testing.jpl_units.UnitDblFormatter.UnitDblFormatter.format_data",
+        "matplotlib.tests.test_cbook.Test_callback_registry.disconnect",
+        "matplotlib.transforms.TransformWrapper.__eq__",
+        "matplotlib.dates.ConciseDateFormatter.format_data_short",
+        "matplotlib.ticker.LogFormatter.format_data_short",
+        "matplotlib.backends._backend_tk.FigureCanvasTk.resize"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.318627,
+      "dead_reason": null
+    }
+  ]
+}

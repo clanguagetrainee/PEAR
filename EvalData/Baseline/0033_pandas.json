@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "1.1.5",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.indexes.base.Index.to_native_types",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.tests.indexing.test_loc.TestLocWithEllipsis.obj",
+      "api_type": "method",
+      "similarity": 0.475,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.window.rolling.Window.aggregate",
+      "api_type": "method",
+      "similarity": 0.46808510638297873,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.test_common.TestCommon.test_to_flat_index",
+      "api_type": "method",
+      "similarity": 0.4318181818181818,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.TestSetitemDT64IntoInt.val",
+      "api_type": "method",
+      "similarity": 0.4186046511627907,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.resample.Resampler.aggregate",
+      "api_type": "method",
+      "similarity": 0.41509433962264153,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexCaptionLabel.test_to_latex_caption_only",
+      "api_type": "method",
+      "similarity": 0.41304347826086957,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexCaptionLabel.test_to_latex_label_only",
+      "api_type": "method",
+      "similarity": 0.41304347826086957,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.TestSetitemDT64IntoInt.scalar",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexCaptionLabel.test_to_latex_longtable_caption_only",
+      "api_type": "method",
+      "similarity": 0.40425531914893614,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexCaptionLabel.test_to_latex_longtable_label_only",
+      "api_type": "method",
+      "similarity": 0.40425531914893614,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.GenericFixed._alias_to_class",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexMultiindex.test_to_latex_multicolumn_default",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.HDFStore.__contains__",
+      "api_type": "method",
+      "similarity": 0.39622641509433965,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.__iadd__",
+      "api_type": "method",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.datetimelike.DatetimeLikeArrayMixin.__isub__",
+      "api_type": "method",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexCaptionLabel.test_to_latex_caption_and_label",
+      "api_type": "method",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.indexes.test_datetimelike.TestDatetimeLike.test_getitem_preserves_freq",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexCaptionLabel.test_to_latex_two_chars_caption",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexEscape.test_to_latex_escape_default",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.io.formats.test_to_latex.TestToLatexEscape.test_to_latex_escape_false",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

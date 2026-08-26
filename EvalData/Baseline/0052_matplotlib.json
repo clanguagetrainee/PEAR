@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "2.0.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.GraphicsContextBase.set_linestyle",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.inset.InsetIndicator.set_linestyle",
+      "api_type": "method",
+      "similarity": 0.7647058823529411,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_gid",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_picker",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_url",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.set_navigate",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_gid",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_hatch",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_snap",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_url",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_tools.ToolBase.set_figure",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer._ColorizerInterface.set_cmap",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer._ColorizerInterface.set_norm",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dates.AutoDateFormatter._set_locator",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.set_canvas",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.legend.Legend.set_ncols",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.PathPatch.set_path",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.Annotation.set_anncoords",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.Text.set_wrap",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.Formatter.set_locs",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.TickHelper.set_axis",
+      "api_type": "method",
+      "similarity": 0.6470588235294118,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

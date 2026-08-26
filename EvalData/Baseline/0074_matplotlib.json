@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.textpath.TextPath.text_get_vertices_codes",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.text.Text._get_rendered_text_width",
+      "api_type": "method",
+      "similarity": 0.5636363636363636,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.RendererPgf.get_text_width_height_descent",
+      "api_type": "method",
+      "similarity": 0.5614035087719298,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer._ScalarMappable._get_colorizer",
+      "api_type": "method",
+      "similarity": 0.54,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cbook.Grouper.get_siblings",
+      "api_type": "method",
+      "similarity": 0.5370370370370371,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image.AxesImage.get_window_extent",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.LineCollection.get_segments",
+      "api_type": "method",
+      "similarity": 0.4909090909090909,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.PolyQuadMesh.get_edgecolor",
+      "api_type": "method",
+      "similarity": 0.4827586206896552,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.PolyQuadMesh.get_facecolor",
+      "api_type": "method",
+      "similarity": 0.4827586206896552,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.streamplot.DomainMap.update_trajectory",
+      "api_type": "method",
+      "similarity": 0.48214285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.textpath.TextToPath._get_font",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_managers.ToolManager.get_tool",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._process_plot_var_args._make_line",
+      "api_type": "method",
+      "similarity": 0.46551724137931033,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.category.StrCategoryFormatter._text",
+      "api_type": "method",
+      "similarity": 0.46296296296296297,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.legend.Legend._get_anchored_bbox",
+      "api_type": "method",
+      "similarity": 0.46296296296296297,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.SingleFigurePage.get",
+      "api_type": "method",
+      "similarity": 0.45614035087719296,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg.get_renderer",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.polar.RadialLocator.view_limits",
+      "api_type": "method",
+      "similarity": 0.45,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.Affine2D.rotate_deg_around",
+      "api_type": "method",
+      "similarity": 0.45,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patheffects.AbstractPathEffect.draw_path",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets._SelectorWidget._get_data",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

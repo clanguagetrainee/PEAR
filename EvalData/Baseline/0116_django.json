@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.9.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.core.files.storage.FileSystemStorage.accessed_time",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.core.files.storage.filesystem.FileSystemStorage.get_accessed_time",
+      "api_type": "method",
+      "similarity": 0.7333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.memory.InMemoryStorage.get_accessed_time",
+      "api_type": "method",
+      "similarity": 0.6,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.filesystem.FileSystemStorage.get_created_time",
+      "api_type": "method",
+      "similarity": 0.5294117647058824,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.filesystem.FileSystemStorage.get_modified_time",
+      "api_type": "method",
+      "similarity": 0.5294117647058824,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.filesystem.FileSystemStorage.exists",
+      "api_type": "method",
+      "similarity": 0.4827586206896552,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.filesystem.FileSystemStorage.size",
+      "api_type": "method",
+      "similarity": 0.4827586206896552,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.sessions.base_session.BaseSessionManager.encode",
+      "api_type": "method",
+      "similarity": 0.46875,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.feature.Feature.__eq__",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.relate",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.memory.InMemoryStorage.get_created_time",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.memory.InMemoryStorage.get_modified_time",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.DateField.strptime",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.TimeField.strptime",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaulttags.SpacelessNode.render",
+      "api_type": "method",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.forms.array.SplitArrayWidget.__deepcopy__",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.widgets.MultiWidget.__deepcopy__",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.defaulttags.FilterNode.render",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.LanguageNode.render",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.tz.TimezoneNode.render",
+      "api_type": "method",
+      "similarity": 0.4444444444444444,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.staticfiles.storage.StaticFilesStorage.path",
+      "api_type": "method",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

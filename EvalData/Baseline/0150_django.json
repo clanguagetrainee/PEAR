@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "4.0.10",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.backends.postgresql.operations.DatabaseOperations._convert_field_to_tz",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.db.backends.postgresql.operations.DatabaseOperations._convert_sql_to_tz",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.mysql.operations.DatabaseOperations._convert_sql_to_tz",
+      "api_type": "method",
+      "similarity": 0.574468085106383,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.filters.RelatedFieldListFilter.field_choices",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.operations.DatabaseOperations._convert_tznames_to_sql",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.Field.get_bound_field",
+      "api_type": "method",
+      "similarity": 0.4878048780487805,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.HStoreField.to_python",
+      "api_type": "method",
+      "similarity": 0.48717948717948717,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.search.SearchConfig.as_sql",
+      "api_type": "method",
+      "similarity": 0.475,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.mysql.operations.DatabaseOperations.convert_datetimefield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_datefield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_datetimefield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_textfield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_timefield_value",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.models.ModelChoiceIteratorValue.__eq__",
+      "api_type": "method",
+      "similarity": 0.4594594594594595,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.GenericIPAddressField.to_python",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.serializers.geojson.Serializer.handle_field",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.questioner.InteractiveMigrationQuestioner.ask_rename",
+      "api_type": "method",
+      "similarity": 0.45454545454545453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.validation.DatabaseValidation.check_field_type",
+      "api_type": "method",
+      "similarity": 0.4528301886792453,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.KeyTransform.as_sql",
+      "api_type": "method",
+      "similarity": 0.4523809523809524,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.mysql.operations.DatabaseOperations.convert_uuidfield_value",
+      "api_type": "method",
+      "similarity": 0.4523809523809524,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.oracle.operations.DatabaseOperations.convert_uuidfield_value",
+      "api_type": "method",
+      "similarity": 0.4523809523809524,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

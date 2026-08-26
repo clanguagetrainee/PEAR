@@ -1,0 +1,475 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.4.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.ticker.OldAutoLocator",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.ticker.AutoMinorLocator",
+      "api_type": "class",
+      "similarity": 0.601593625498008,
+      "evolution_path": [
+        "matplotlib.ticker.AutoMinorLocator"
+      ],
+      "local_scores": [
+        0.601593625498008
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.MultipleLocator",
+      "api_type": "class",
+      "similarity": 0.5653846153846154,
+      "evolution_path": [
+        "matplotlib.ticker.MultipleLocator"
+      ],
+      "local_scores": [
+        0.5653846153846154
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.LinearLocator",
+      "api_type": "class",
+      "similarity": 0.5015197568389058,
+      "evolution_path": [
+        "matplotlib.ticker.LinearLocator"
+      ],
+      "local_scores": [
+        0.5015197568389058
+      ]
+    },
+    {
+      "fqn": "matplotlib.dates.MicrosecondLocator",
+      "api_type": "class",
+      "similarity": 0.4866666666666667,
+      "evolution_path": [
+        "matplotlib.dates.MicrosecondLocator"
+      ],
+      "local_scores": [
+        0.4866666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.text.OffsetFrom",
+      "api_type": "class",
+      "similarity": 0.4858156028368794,
+      "evolution_path": [
+        "matplotlib.text.OffsetFrom"
+      ],
+      "local_scores": [
+        0.4858156028368794
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.ConnectionStyle._Base",
+      "api_type": "class",
+      "similarity": 0.4763636363636364,
+      "evolution_path": [
+        "matplotlib.patches.ConnectionStyle._Base"
+      ],
+      "local_scores": [
+        0.4763636363636364
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.LogFormatterMathtext",
+      "api_type": "class",
+      "similarity": 0.4601449275362319,
+      "evolution_path": [
+        "matplotlib.ticker.LogFormatterMathtext"
+      ],
+      "local_scores": [
+        0.4601449275362319
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.PowerNorm",
+      "api_type": "class",
+      "similarity": 0.459546925566343,
+      "evolution_path": [
+        "matplotlib.colors.PowerNorm"
+      ],
+      "local_scores": [
+        0.459546925566343
+      ]
+    },
+    {
+      "fqn": "matplotlib._mathtext.DejaVuFonts",
+      "api_type": "class",
+      "similarity": 0.4552238805970149,
+      "evolution_path": [
+        "matplotlib._mathtext.DejaVuFonts"
+      ],
+      "local_scores": [
+        0.4552238805970149
+      ]
+    },
+    {
+      "fqn": "matplotlib.dates.AutoDateFormatter",
+      "api_type": "class",
+      "similarity": 0.4548736462093863,
+      "evolution_path": [
+        "matplotlib.dates.AutoDateFormatter"
+      ],
+      "local_scores": [
+        0.4548736462093863
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.ListedColormap",
+      "api_type": "class",
+      "similarity": 0.45394736842105265,
+      "evolution_path": [
+        "matplotlib.colors.ListedColormap"
+      ],
+      "local_scores": [
+        0.45394736842105265
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes",
+      "api_type": "class",
+      "similarity": 0.4520547945205479,
+      "evolution_path": [
+        "matplotlib.projections.geo.HammerAxes"
+      ],
+      "local_scores": [
+        0.4520547945205479
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.PercentFormatter",
+      "api_type": "class",
+      "similarity": 0.45182724252491696,
+      "evolution_path": [
+        "matplotlib.ticker.PercentFormatter"
+      ],
+      "local_scores": [
+        0.45182724252491696
+      ]
+    },
+    {
+      "fqn": "matplotlib.dates.RRuleLocator",
+      "api_type": "class",
+      "similarity": 0.45132743362831856,
+      "evolution_path": [
+        "matplotlib.dates.RRuleLocator"
+      ],
+      "local_scores": [
+        0.45132743362831856
+      ]
+    },
+    {
+      "fqn": "matplotlib.dates.DateLocator",
+      "api_type": "class",
+      "similarity": 0.44891640866873067,
+      "evolution_path": [
+        "matplotlib.dates.DateLocator"
+      ],
+      "local_scores": [
+        0.44891640866873067
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.LambertAxes.LambertTransform",
+      "api_type": "class",
+      "similarity": 0.44528301886792454,
+      "evolution_path": [
+        "matplotlib.projections.geo.LambertAxes.LambertTransform"
+      ],
+      "local_scores": [
+        0.44528301886792454
+      ]
+    },
+    {
+      "fqn": "matplotlib.legend_handler.HandlerTuple",
+      "api_type": "class",
+      "similarity": 0.4389312977099237,
+      "evolution_path": [
+        "matplotlib.legend_handler.HandlerTuple"
+      ],
+      "local_scores": [
+        0.4389312977099237
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorbar._ColorbarAxesLocator",
+      "api_type": "class",
+      "similarity": 0.43853820598006643,
+      "evolution_path": [
+        "matplotlib.colorbar._ColorbarAxesLocator"
+      ],
+      "local_scores": [
+        0.43853820598006643
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.LambertAxes.InvertedLambertTransform",
+      "api_type": "class",
+      "similarity": 0.42962962962962964,
+      "evolution_path": [
+        "matplotlib.projections.geo.LambertAxes.InvertedLambertTransform"
+      ],
+      "local_scores": [
+        0.42962962962962964
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.ArrowStyle._Base",
+      "api_type": "class",
+      "similarity": 0.2426033232280594,
+      "evolution_path": [
+        "matplotlib.patches.BoxStyle._Base",
+        "matplotlib.patches.ArrowStyle._Base"
+      ],
+      "local_scores": [
+        0.4308300395256917,
+        0.5631067961165048
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.ticker.OldAutoLocator",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.ticker.OldAutoLocator",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.ticker.AutoMinorLocator",
+          "similarity": 0.601594
+        },
+        {
+          "fqn": "matplotlib.ticker.MultipleLocator",
+          "similarity": 0.565385
+        },
+        {
+          "fqn": "matplotlib.ticker.LinearLocator",
+          "similarity": 0.50152
+        },
+        {
+          "fqn": "matplotlib.dates.MicrosecondLocator",
+          "similarity": 0.486667
+        },
+        {
+          "fqn": "matplotlib.text.OffsetFrom",
+          "similarity": 0.485816
+        },
+        {
+          "fqn": "matplotlib.patches.ConnectionStyle._Base",
+          "similarity": 0.476364
+        },
+        {
+          "fqn": "matplotlib.ticker.LogFormatterMathtext",
+          "similarity": 0.460145
+        },
+        {
+          "fqn": "matplotlib.colors.PowerNorm",
+          "similarity": 0.459547
+        },
+        {
+          "fqn": "matplotlib._mathtext.DejaVuFonts",
+          "similarity": 0.455224
+        },
+        {
+          "fqn": "matplotlib.dates.AutoDateFormatter",
+          "similarity": 0.454874
+        },
+        {
+          "fqn": "matplotlib.colors.ListedColormap",
+          "similarity": 0.453947
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes",
+          "similarity": 0.452055
+        },
+        {
+          "fqn": "matplotlib.ticker.PercentFormatter",
+          "similarity": 0.451827
+        },
+        {
+          "fqn": "matplotlib.dates.RRuleLocator",
+          "similarity": 0.451327
+        },
+        {
+          "fqn": "matplotlib.dates.DateLocator",
+          "similarity": 0.448916
+        },
+        {
+          "fqn": "matplotlib.projections.geo.LambertAxes.LambertTransform",
+          "similarity": 0.445283
+        },
+        {
+          "fqn": "matplotlib.legend_handler.HandlerTuple",
+          "similarity": 0.438931
+        },
+        {
+          "fqn": "matplotlib.colorbar._ColorbarAxesLocator",
+          "similarity": 0.438538
+        },
+        {
+          "fqn": "matplotlib.patches.BoxStyle._Base",
+          "similarity": 0.43083
+        },
+        {
+          "fqn": "matplotlib.projections.geo.LambertAxes.InvertedLambertTransform",
+          "similarity": 0.42963
+        }
+      ],
+      "entered_final": [
+        "matplotlib.ticker.AutoMinorLocator",
+        "matplotlib.ticker.MultipleLocator",
+        "matplotlib.ticker.LinearLocator",
+        "matplotlib.dates.MicrosecondLocator",
+        "matplotlib.text.OffsetFrom",
+        "matplotlib.patches.ConnectionStyle._Base",
+        "matplotlib.ticker.LogFormatterMathtext",
+        "matplotlib.colors.PowerNorm",
+        "matplotlib._mathtext.DejaVuFonts",
+        "matplotlib.dates.AutoDateFormatter",
+        "matplotlib.colors.ListedColormap",
+        "matplotlib.projections.geo.HammerAxes",
+        "matplotlib.ticker.PercentFormatter",
+        "matplotlib.dates.RRuleLocator",
+        "matplotlib.dates.DateLocator",
+        "matplotlib.projections.geo.LambertAxes.LambertTransform",
+        "matplotlib.legend_handler.HandlerTuple",
+        "matplotlib.colorbar._ColorbarAxesLocator",
+        "matplotlib.projections.geo.LambertAxes.InvertedLambertTransform"
+      ],
+      "entered_iter": [
+        "matplotlib.patches.BoxStyle._Base"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.patches.BoxStyle._Base",
+      "path_score": 0.43083,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.patches.BoxStyle._Base",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.patches.ArrowStyle._Base",
+          "similarity": 0.563107
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.Wedge",
+          "similarity": 0.520408
+        },
+        {
+          "fqn": "matplotlib.patches.ConnectionStyle.Angle3",
+          "similarity": 0.505208
+        },
+        {
+          "fqn": "matplotlib.ticker.AutoMinorLocator",
+          "similarity": 0.497872
+        },
+        {
+          "fqn": "matplotlib.patches.ConnectionStyle._Base",
+          "similarity": 0.48954
+        },
+        {
+          "fqn": "matplotlib.ticker.MultipleLocator",
+          "similarity": 0.481328
+        },
+        {
+          "fqn": "matplotlib.legend_handler.HandlerLine2DCompound",
+          "similarity": 0.46798
+        },
+        {
+          "fqn": "matplotlib.legend_handler.HandlerTuple",
+          "similarity": 0.466368
+        },
+        {
+          "fqn": "matplotlib.dates.AutoDateFormatter",
+          "similarity": 0.46473
+        },
+        {
+          "fqn": "matplotlib.text.OffsetFrom",
+          "similarity": 0.464286
+        },
+        {
+          "fqn": "matplotlib._mathtext.AutoHeightChar",
+          "similarity": 0.460784
+        },
+        {
+          "fqn": "matplotlib.dates.DateConverter",
+          "similarity": 0.458937
+        },
+        {
+          "fqn": "matplotlib.collections.BrokenBarHCollection",
+          "similarity": 0.457286
+        },
+        {
+          "fqn": "matplotlib.offsetbox.DraggableOffsetBox",
+          "similarity": 0.457014
+        },
+        {
+          "fqn": "matplotlib.patches.ConnectionStyle.Arc3",
+          "similarity": 0.454054
+        },
+        {
+          "fqn": "matplotlib.patheffects.AbstractPathEffect",
+          "similarity": 0.447489
+        },
+        {
+          "fqn": "matplotlib.layout_engine.TightLayoutEngine",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "matplotlib.legend_handler.HandlerLine2D",
+          "similarity": 0.446701
+        },
+        {
+          "fqn": "matplotlib.legend_handler.HandlerLineCollection",
+          "similarity": 0.446009
+        },
+        {
+          "fqn": "matplotlib.axes._base._axis_method_wrapper",
+          "similarity": 0.43913
+        }
+      ],
+      "entered_final": [
+        "matplotlib.patches.ArrowStyle._Base",
+        "matplotlib.patches.ArrowStyle.Wedge",
+        "matplotlib.patches.ConnectionStyle.Angle3",
+        "matplotlib.ticker.AutoMinorLocator",
+        "matplotlib.patches.ConnectionStyle._Base",
+        "matplotlib.ticker.MultipleLocator",
+        "matplotlib.legend_handler.HandlerLine2DCompound",
+        "matplotlib.legend_handler.HandlerTuple",
+        "matplotlib.dates.AutoDateFormatter",
+        "matplotlib.text.OffsetFrom",
+        "matplotlib._mathtext.AutoHeightChar",
+        "matplotlib.dates.DateConverter",
+        "matplotlib.offsetbox.DraggableOffsetBox",
+        "matplotlib.patches.ConnectionStyle.Arc3",
+        "matplotlib.patheffects.AbstractPathEffect",
+        "matplotlib.layout_engine.TightLayoutEngine",
+        "matplotlib.legend_handler.HandlerLine2D",
+        "matplotlib.legend_handler.HandlerLineCollection",
+        "matplotlib.axes._base._axis_method_wrapper"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.collections.BrokenBarHCollection"
+      ],
+      "prune_bound": 0.242603,
+      "dead_reason": null
+    }
+  ]
+}

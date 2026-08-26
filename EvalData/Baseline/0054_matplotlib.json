@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "2.2.5",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backends.backend_tkagg.FigureManagerTkAgg",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends.backend_template.FigureManagerTemplate",
+      "api_type": "class",
+      "similarity": 0.5238095238095238,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk3.FigureManagerGTK3",
+      "api_type": "class",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4.FigureManagerGTK4",
+      "api_type": "class",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_gtk._FigureCanvasGTK",
+      "api_type": "class",
+      "similarity": 0.3076923076923077,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+      "api_type": "class",
+      "similarity": 0.3076923076923077,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+      "api_type": "class",
+      "similarity": 0.3076923076923077,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.SaveFigureTk",
+      "api_type": "class",
+      "similarity": 0.3055555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkagg._BackendTkAgg",
+      "api_type": "class",
+      "similarity": 0.2962962962962963,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkcairo._BackendTkCairo",
+      "api_type": "class",
+      "similarity": 0.2962962962962963,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_svg.XMLWriter",
+      "api_type": "class",
+      "similarity": 0.2857142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patheffects.Normal",
+      "api_type": "class",
+      "similarity": 0.23809523809523808,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.rcsetup._ignorecase",
+      "api_type": "class",
+      "similarity": 0.23809523809523808,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.sphinxext.figmpl_directive.figmplnode",
+      "api_type": "class",
+      "similarity": 0.23809523809523808,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk._BackendTk",
+      "api_type": "class",
+      "similarity": 0.22857142857142856,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes.__init__.SubplotBase",
+      "api_type": "class",
+      "similarity": 0.22727272727272727,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._type1font._BalancedExpression",
+      "api_type": "class",
+      "similarity": 0.21739130434782608,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.sphinxext.plot_directive.PlotError",
+      "api_type": "class",
+      "similarity": 0.21739130434782608,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.streamplot.TerminateTrajectory",
+      "api_type": "class",
+      "similarity": 0.21739130434782608,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.testing.compare._ConverterError",
+      "api_type": "class",
+      "similarity": 0.21739130434782608,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.units.ConversionError",
+      "api_type": "class",
+      "similarity": 0.21739130434782608,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

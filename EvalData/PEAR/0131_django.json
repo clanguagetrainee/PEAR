@@ -1,0 +1,363 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "2.0.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.db.models.functions.ForceRHR",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.db.models.functions.ForcePolygonCW",
+      "api_type": "class",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.ForcePolygonCW"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Envelope",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.Envelope"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Centroid",
+      "api_type": "class",
+      "similarity": 0.47368421052631576,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.Centroid"
+      ],
+      "local_scores": [
+        0.47368421052631576
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Reverse",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.Reverse"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Difference",
+      "api_type": "class",
+      "similarity": 0.375,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.Difference"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Intersection",
+      "api_type": "class",
+      "similarity": 0.375,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.Intersection"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Union",
+      "api_type": "class",
+      "similarity": 0.375,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.Union"
+      ],
+      "local_scores": [
+        0.375
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.PointOnSurface",
+      "api_type": "class",
+      "similarity": 0.36,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.PointOnSurface"
+      ],
+      "local_scores": [
+        0.36
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.models.User.Meta",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.auth.models.User.Meta"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.operations.SDODWithin",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.oracle.operations.SDODWithin"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.operations.SDOOperator",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.oracle.operations.SDOOperator"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.base.GDALBase",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.gis.gdal.base.GDALBase"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.field.OFTInteger64",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.gis.gdal.field.OFTInteger64"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.base.GEOSBase",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.gis.geos.base.GEOSBase"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSContext",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSContext"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.sitemaps.kml.KMZSitemap",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.gis.sitemaps.kml.KMZSitemap"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.aggregates.statistics.Corr",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.postgres.aggregates.statistics.Corr"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    },
+    {
+      "fqn": "django.contrib.sessions.models.Session.Meta",
+      "api_type": "class",
+      "similarity": 0.35,
+      "evolution_path": [
+        "django.contrib.sessions.models.Session.Meta"
+      ],
+      "local_scores": [
+        0.35
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.contrib.gis.db.models.functions.ForceRHR",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "2.2.28",
+      "vpost": "3.0",
+      "resolved_fqn": "django.contrib.gis.db.models.functions.ForceRHR",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.gis.db.models.functions.ForcePolygonCW",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.Envelope",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.Centroid",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.Reverse",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.Difference",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.Intersection",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.Union",
+          "similarity": 0.375
+        },
+        {
+          "fqn": "django.contrib.auth.base_user.AbstractBaseUser.Meta",
+          "similarity": 0.368421
+        },
+        {
+          "fqn": "django.contrib.auth.models.PermissionsMixin.Meta",
+          "similarity": 0.368421
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.PointOnSurface",
+          "similarity": 0.36
+        },
+        {
+          "fqn": "django.contrib.auth.models.User.Meta",
+          "similarity": 0.35
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.oracle.operations.SDODWithin",
+          "similarity": 0.35
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.oracle.operations.SDOOperator",
+          "similarity": 0.35
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.base.GDALBase",
+          "similarity": 0.35
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.field.OFTInteger64",
+          "similarity": 0.35
+        },
+        {
+          "fqn": "django.contrib.gis.geos.base.GEOSBase",
+          "similarity": 0.35
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSContext",
+          "similarity": 0.35
+        },
+        {
+          "fqn": "django.contrib.gis.sitemaps.kml.KMZSitemap",
+          "similarity": 0.35
+        },
+        {
+          "fqn": "django.contrib.postgres.aggregates.statistics.Corr",
+          "similarity": 0.35
+        },
+        {
+          "fqn": "django.contrib.sessions.models.Session.Meta",
+          "similarity": 0.35
+        }
+      ],
+      "entered_final": [
+        "django.contrib.gis.db.models.functions.ForcePolygonCW",
+        "django.contrib.gis.db.models.functions.Envelope",
+        "django.contrib.gis.db.models.functions.Centroid",
+        "django.contrib.gis.db.models.functions.Reverse",
+        "django.contrib.gis.db.models.functions.Difference",
+        "django.contrib.gis.db.models.functions.Intersection",
+        "django.contrib.gis.db.models.functions.Union",
+        "django.contrib.gis.db.models.functions.PointOnSurface",
+        "django.contrib.auth.models.User.Meta",
+        "django.contrib.gis.db.backends.oracle.operations.SDODWithin",
+        "django.contrib.gis.db.backends.oracle.operations.SDOOperator",
+        "django.contrib.gis.gdal.base.GDALBase",
+        "django.contrib.gis.gdal.field.OFTInteger64",
+        "django.contrib.gis.geos.base.GEOSBase",
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSContext",
+        "django.contrib.gis.sitemaps.kml.KMZSitemap",
+        "django.contrib.postgres.aggregates.statistics.Corr",
+        "django.contrib.sessions.models.Session.Meta"
+      ],
+      "entered_iter": [
+        "django.contrib.auth.base_user.AbstractBaseUser.Meta",
+        "django.contrib.auth.models.PermissionsMixin.Meta"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.contrib.auth.base_user.AbstractBaseUser.Meta",
+      "path_score": 0.368421,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "django.contrib.auth.models.PermissionsMixin.Meta",
+      "path_score": 0.368421,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    }
+  ]
+}

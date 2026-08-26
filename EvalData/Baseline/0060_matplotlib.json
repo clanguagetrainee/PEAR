@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.0.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.scale.Log2Transform",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.tests.test_axes._Translation",
+      "api_type": "class",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_cbook.Unhashable",
+      "api_type": "class",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases._Mode",
+      "api_type": "class",
+      "similarity": 0.3170731707317073,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._api.__init__._Unset",
+      "api_type": "class",
+      "similarity": 0.30303030303030304,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._type1font._KeywordToken",
+      "api_type": "class",
+      "similarity": 0.3023255813953488,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._type1font._BinaryToken",
+      "api_type": "class",
+      "similarity": 0.3,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._type1font._BooleanToken",
+      "api_type": "class",
+      "similarity": 0.3,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.ShowBase",
+      "api_type": "class",
+      "similarity": 0.2926829268292683,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_cbook.Hashable",
+      "api_type": "class",
+      "similarity": 0.28125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._trirefine.TriRefiner",
+      "api_type": "class",
+      "similarity": 0.27906976744186046,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps._Orientation",
+      "api_type": "class",
+      "similarity": 0.27450980392156865,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+      "api_type": "class",
+      "similarity": 0.2708333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_cairo._CairoRegion",
+      "api_type": "class",
+      "similarity": 0.2682926829268293,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.ArrowStyle.Curve",
+      "api_type": "class",
+      "similarity": 0.2682926829268293,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.streamplot.StreamplotSet",
+      "api_type": "class",
+      "similarity": 0.2682926829268293,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._mathtext.Hbox",
+      "api_type": "class",
+      "similarity": 0.26666666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_category.FakeAxis",
+      "api_type": "class",
+      "similarity": 0.2631578947368421,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.Verbatim",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tests.test_marker.UnsnappedMarkerStyle",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

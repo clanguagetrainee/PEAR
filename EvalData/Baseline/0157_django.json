@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "4.0.10",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.auth.views.SuccessURLAllowedHostsMixin",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.views.generic.base.TemplateView",
+      "api_type": "class",
+      "similarity": 0.37037037037037035,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.text.Right",
+      "api_type": "class",
+      "similarity": 0.3389830508474576,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.base.ContextMixin",
+      "api_type": "class",
+      "similarity": 0.328125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.PermissionManager",
+      "api_type": "class",
+      "similarity": 0.3230769230769231,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.lookups.Overlap",
+      "api_type": "class",
+      "similarity": 0.3230769230769231,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.detail.BaseDetailView",
+      "api_type": "class",
+      "similarity": 0.3225806451612903,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.constraints.Deferrable",
+      "api_type": "class",
+      "similarity": 0.32,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.lookups.IntegerFieldFloatRounding",
+      "api_type": "class",
+      "similarity": 0.3181818181818182,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.messages.views.SuccessMessageMixin",
+      "api_type": "class",
+      "similarity": 0.3176470588235294,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetCurrentLanguageBidiNode",
+      "api_type": "class",
+      "similarity": 0.31746031746031744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetCurrentLanguageNode",
+      "api_type": "class",
+      "similarity": 0.31746031746031744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.datetime.TimezoneMixin",
+      "api_type": "class",
+      "similarity": 0.31343283582089554,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.loaders.app_directories.Loader",
+      "api_type": "class",
+      "similarity": 0.3125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.templatetags.tz.GetCurrentTimezoneNode",
+      "api_type": "class",
+      "similarity": 0.3125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.decorators.classonlymethod",
+      "api_type": "class",
+      "similarity": 0.3103448275862069,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.utils.text.StreamingBuffer",
+      "api_type": "class",
+      "similarity": 0.3090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.renderers.TemplatesSetting",
+      "api_type": "class",
+      "similarity": 0.3076923076923077,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.lookups.HasKeys",
+      "api_type": "class",
+      "similarity": 0.3050847457627119,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.serializer.PathSerializer",
+      "api_type": "class",
+      "similarity": 0.3050847457627119,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.dates.BaseTodayArchiveView",
+      "api_type": "class",
+      "similarity": 0.3050847457627119,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

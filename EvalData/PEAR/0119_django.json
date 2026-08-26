@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.9.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.expressions.Date",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.db.models.expressions.When",
+      "api_type": "class",
+      "similarity": 0.6151685393258427,
+      "evolution_path": [
+        "django.db.models.expressions.When"
+      ],
+      "local_scores": [
+        0.6151685393258427
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.CombinedExpression",
+      "api_type": "class",
+      "similarity": 0.6072423398328691,
+      "evolution_path": [
+        "django.db.models.expressions.CombinedExpression"
+      ],
+      "local_scores": [
+        0.6072423398328691
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.OrderBy",
+      "api_type": "class",
+      "similarity": 0.5533333333333333,
+      "evolution_path": [
+        "django.db.models.expressions.OrderBy"
+      ],
+      "local_scores": [
+        0.5533333333333333
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.Case",
+      "api_type": "class",
+      "similarity": 0.5485436893203883,
+      "evolution_path": [
+        "django.db.models.expressions.Case"
+      ],
+      "local_scores": [
+        0.5485436893203883
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.Value",
+      "api_type": "class",
+      "similarity": 0.5437262357414449,
+      "evolution_path": [
+        "django.db.models.expressions.Value"
+      ],
+      "local_scores": [
+        0.5437262357414449
+      ]
+    },
+    {
+      "fqn": "django.db.models.functions.datetime.TruncBase",
+      "api_type": "class",
+      "similarity": 0.5300859598853869,
+      "evolution_path": [
+        "django.db.models.functions.datetime.TruncBase"
+      ],
+      "local_scores": [
+        0.5300859598853869
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.operations.models.AlterModelTable",
+      "api_type": "class",
+      "similarity": 0.5246913580246914,
+      "evolution_path": [
+        "django.db.migrations.operations.models.AlterModelTable"
+      ],
+      "local_scores": [
+        0.5246913580246914
+      ]
+    },
+    {
+      "fqn": "django.db.models.functions.datetime.Extract",
+      "api_type": "class",
+      "similarity": 0.5233644859813084,
+      "evolution_path": [
+        "django.db.models.functions.datetime.Extract"
+      ],
+      "local_scores": [
+        0.5233644859813084
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.search.SearchQuery",
+      "api_type": "class",
+      "similarity": 0.5231607629427792,
+      "evolution_path": [
+        "django.contrib.postgres.search.SearchQuery"
+      ],
+      "local_scores": [
+        0.5231607629427792
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.operations.models.AlterOrderWithRespectTo",
+      "api_type": "class",
+      "similarity": 0.5201238390092879,
+      "evolution_path": [
+        "django.db.migrations.operations.models.AlterOrderWithRespectTo"
+      ],
+      "local_scores": [
+        0.5201238390092879
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.Func",
+      "api_type": "class",
+      "similarity": 0.5181818181818182,
+      "evolution_path": [
+        "django.db.models.expressions.Func"
+      ],
+      "local_scores": [
+        0.5181818181818182
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.aggregates.GeoAggregate",
+      "api_type": "class",
+      "similarity": 0.5126353790613718,
+      "evolution_path": [
+        "django.contrib.gis.db.models.aggregates.GeoAggregate"
+      ],
+      "local_scores": [
+        0.5126353790613718
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.operations.fields.AlterField",
+      "api_type": "class",
+      "similarity": 0.5041322314049587,
+      "evolution_path": [
+        "django.db.migrations.operations.fields.AlterField"
+      ],
+      "local_scores": [
+        0.5041322314049587
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.Length",
+      "api_type": "class",
+      "similarity": 0.5033333333333333,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.Length"
+      ],
+      "local_scores": [
+        0.5033333333333333
+      ]
+    },
+    {
+      "fqn": "django.db.models.query_utils.Q",
+      "api_type": "class",
+      "similarity": 0.5017301038062284,
+      "evolution_path": [
+        "django.db.models.query_utils.Q"
+      ],
+      "local_scores": [
+        0.5017301038062284
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.functions.GeoFunc",
+      "api_type": "class",
+      "similarity": 0.5015015015015015,
+      "evolution_path": [
+        "django.contrib.gis.db.models.functions.GeoFunc"
+      ],
+      "local_scores": [
+        0.5015015015015015
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.Ref",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.db.models.expressions.Ref"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.files.FileDescriptor",
+      "api_type": "class",
+      "similarity": 0.4966216216216216,
+      "evolution_path": [
+        "django.db.models.fields.files.FileDescriptor"
+      ],
+      "local_scores": [
+        0.4966216216216216
+      ]
+    },
+    {
+      "fqn": "django.template.loader_tags.BlockNode",
+      "api_type": "class",
+      "similarity": 0.496551724137931,
+      "evolution_path": [
+        "django.template.loader_tags.BlockNode"
+      ],
+      "local_scores": [
+        0.496551724137931
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.operations.models.AlterIndexTogether",
+      "api_type": "class",
+      "similarity": 0.4954128440366973,
+      "evolution_path": [
+        "django.db.migrations.operations.models.AlterIndexTogether"
+      ],
+      "local_scores": [
+        0.4954128440366973
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.db.models.expressions.Date",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "1.9.13",
+      "vpost": "1.10",
+      "resolved_fqn": "django.db.models.expressions.Date",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.db.models.expressions.When",
+          "similarity": 0.615169
+        },
+        {
+          "fqn": "django.db.models.expressions.CombinedExpression",
+          "similarity": 0.607242
+        },
+        {
+          "fqn": "django.db.models.expressions.OrderBy",
+          "similarity": 0.553333
+        },
+        {
+          "fqn": "django.db.models.expressions.Case",
+          "similarity": 0.548544
+        },
+        {
+          "fqn": "django.db.models.expressions.Value",
+          "similarity": 0.543726
+        },
+        {
+          "fqn": "django.db.models.functions.datetime.TruncBase",
+          "similarity": 0.530086
+        },
+        {
+          "fqn": "django.db.migrations.operations.models.AlterModelTable",
+          "similarity": 0.524691
+        },
+        {
+          "fqn": "django.db.models.functions.datetime.Extract",
+          "similarity": 0.523364
+        },
+        {
+          "fqn": "django.contrib.postgres.search.SearchQuery",
+          "similarity": 0.523161
+        },
+        {
+          "fqn": "django.db.migrations.operations.models.AlterOrderWithRespectTo",
+          "similarity": 0.520124
+        },
+        {
+          "fqn": "django.db.models.expressions.Func",
+          "similarity": 0.518182
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.aggregates.GeoAggregate",
+          "similarity": 0.512635
+        },
+        {
+          "fqn": "django.db.migrations.operations.fields.AlterField",
+          "similarity": 0.504132
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.Length",
+          "similarity": 0.503333
+        },
+        {
+          "fqn": "django.db.models.query_utils.Q",
+          "similarity": 0.50173
+        },
+        {
+          "fqn": "django.contrib.gis.db.models.functions.GeoFunc",
+          "similarity": 0.501502
+        },
+        {
+          "fqn": "django.db.models.expressions.Ref",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.db.models.fields.files.FileDescriptor",
+          "similarity": 0.496622
+        },
+        {
+          "fqn": "django.template.loader_tags.BlockNode",
+          "similarity": 0.496552
+        },
+        {
+          "fqn": "django.db.migrations.operations.models.AlterIndexTogether",
+          "similarity": 0.495413
+        }
+      ],
+      "entered_final": [
+        "django.db.models.expressions.When",
+        "django.db.models.expressions.CombinedExpression",
+        "django.db.models.expressions.OrderBy",
+        "django.db.models.expressions.Case",
+        "django.db.models.expressions.Value",
+        "django.db.models.functions.datetime.TruncBase",
+        "django.db.migrations.operations.models.AlterModelTable",
+        "django.db.models.functions.datetime.Extract",
+        "django.contrib.postgres.search.SearchQuery",
+        "django.db.migrations.operations.models.AlterOrderWithRespectTo",
+        "django.db.models.expressions.Func",
+        "django.contrib.gis.db.models.aggregates.GeoAggregate",
+        "django.db.migrations.operations.fields.AlterField",
+        "django.contrib.gis.db.models.functions.Length",
+        "django.db.models.query_utils.Q",
+        "django.contrib.gis.db.models.functions.GeoFunc",
+        "django.db.models.expressions.Ref",
+        "django.db.models.fields.files.FileDescriptor",
+        "django.template.loader_tags.BlockNode",
+        "django.db.migrations.operations.models.AlterIndexTogether"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.495413,
+      "dead_reason": null
+    }
+  ]
+}

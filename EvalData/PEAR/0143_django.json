@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.1.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj4_version",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.geos_version",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.geos_version"
+      ],
+      "local_scores": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.lwgeom_version",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.lwgeom_version"
+      ],
+      "local_scores": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj_version",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj_version"
+      ],
+      "local_scores": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatialite_version",
+      "api_type": "method",
+      "similarity": 0.6666666666666666,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatialite_version"
+      ],
+      "local_scores": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_version",
+      "api_type": "method",
+      "similarity": 0.5789473684210527,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_version"
+      ],
+      "local_scores": [
+        0.5789473684210527
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.srs.SpatialReference.proj4",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [
+        "django.contrib.gis.gdal.srs.SpatialReference.proj4"
+      ],
+      "local_scores": [
+        0.5625
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_full_version",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_full_version"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_geos_version",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_geos_version"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_lib_version",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_lib_version"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_proj_version",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_proj_version"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.db.backends.postgresql.base.DatabaseWrapper.pg_version",
+      "api_type": "method",
+      "similarity": 0.43478260869565216,
+      "evolution_path": [
+        "django.db.backends.postgresql.base.DatabaseWrapper.pg_version"
+      ],
+      "local_scores": [
+        0.43478260869565216
+      ]
+    },
+    {
+      "fqn": "django.core.management.base.BaseCommand.get_version",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "django.core.management.base.BaseCommand.get_version"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.graph.MigrationGraph.__str__",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.db.migrations.graph.MigrationGraph.__str__"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.writer.OperationWriter.render",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.db.migrations.writer.OperationWriter.render"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.utils.dateformat.TimeFormat.H",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.utils.dateformat.TimeFormat.H"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.utils.dateformat.TimeFormat.h",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "django.utils.dateformat.TimeFormat.h"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.operations.CreateCollation.describe",
+      "api_type": "method",
+      "similarity": 0.3888888888888889,
+      "evolution_path": [
+        "django.contrib.postgres.operations.CreateCollation.describe"
+      ],
+      "local_scores": [
+        0.3888888888888889
+      ]
+    },
+    {
+      "fqn": "django.contrib.postgres.operations.RemoveCollation.describe",
+      "api_type": "method",
+      "similarity": 0.3888888888888889,
+      "evolution_path": [
+        "django.contrib.postgres.operations.RemoveCollation.describe"
+      ],
+      "local_scores": [
+        0.3888888888888889
+      ]
+    },
+    {
+      "fqn": "django.core.cache.backends.base.BaseCache.decr_version",
+      "api_type": "method",
+      "similarity": 0.37037037037037035,
+      "evolution_path": [
+        "django.core.cache.backends.base.BaseCache.decr_version"
+      ],
+      "local_scores": [
+        0.37037037037037035
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.base_user.AbstractBaseUser.__str__",
+      "api_type": "method",
+      "similarity": 0.3684210526315789,
+      "evolution_path": [
+        "django.contrib.auth.base_user.AbstractBaseUser.__str__"
+      ],
+      "local_scores": [
+        0.3684210526315789
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj4_version",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.1.14",
+      "vpost": "3.2",
+      "resolved_fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj4_version",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.geos_version",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.lwgeom_version",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj_version",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatialite_version",
+          "similarity": 0.666667
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_version",
+          "similarity": 0.578947
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.srs.SpatialReference.proj4",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_full_version",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_geos_version",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_lib_version",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_proj_version",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.db.backends.postgresql.base.DatabaseWrapper.pg_version",
+          "similarity": 0.434783
+        },
+        {
+          "fqn": "django.core.management.base.BaseCommand.get_version",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "django.db.migrations.graph.MigrationGraph.__str__",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.db.migrations.writer.OperationWriter.render",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.utils.dateformat.TimeFormat.H",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.utils.dateformat.TimeFormat.h",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "django.contrib.postgres.operations.CreateCollation.describe",
+          "similarity": 0.388889
+        },
+        {
+          "fqn": "django.contrib.postgres.operations.RemoveCollation.describe",
+          "similarity": 0.388889
+        },
+        {
+          "fqn": "django.core.cache.backends.base.BaseCache.decr_version",
+          "similarity": 0.37037
+        },
+        {
+          "fqn": "django.contrib.auth.base_user.AbstractBaseUser.__str__",
+          "similarity": 0.368421
+        }
+      ],
+      "entered_final": [
+        "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.geos_version",
+        "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.lwgeom_version",
+        "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj_version",
+        "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.spatialite_version",
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_version",
+        "django.contrib.gis.gdal.srs.SpatialReference.proj4",
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_full_version",
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_geos_version",
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_lib_version",
+        "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.postgis_proj_version",
+        "django.db.backends.postgresql.base.DatabaseWrapper.pg_version",
+        "django.core.management.base.BaseCommand.get_version",
+        "django.db.migrations.graph.MigrationGraph.__str__",
+        "django.db.migrations.writer.OperationWriter.render",
+        "django.utils.dateformat.TimeFormat.H",
+        "django.utils.dateformat.TimeFormat.h",
+        "django.contrib.postgres.operations.CreateCollation.describe",
+        "django.contrib.postgres.operations.RemoveCollation.describe",
+        "django.core.cache.backends.base.BaseCache.decr_version",
+        "django.contrib.auth.base_user.AbstractBaseUser.__str__"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.368421,
+      "dead_reason": null
+    }
+  ]
+}

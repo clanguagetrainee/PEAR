@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.12.0",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.panel.Panel.__setstate__",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.core.arrays._mixins.NDArrayBackedExtensionArray.__setitem__",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexing._ScalarAccessIndexer.__getitem__",
+      "api_type": "method",
+      "similarity": 0.5490196078431373,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.plotting._misc._Options.__delitem__",
+      "api_type": "method",
+      "similarity": 0.5227272727272727,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.ops.Term.update",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.categorical.Categorical._validate_scalar",
+      "api_type": "method",
+      "similarity": 0.49019607843137253,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series._get_with",
+      "api_type": "method",
+      "similarity": 0.4897959183673469,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.interval.IntervalArray.__setitem__",
+      "api_type": "method",
+      "similarity": 0.4807692307692308,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__setstate__",
+      "api_type": "method",
+      "similarity": 0.48,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.plotting._misc._Options.__getitem__",
+      "api_type": "method",
+      "similarity": 0.4782608695652174,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.sparse.accessor.SparseFrameAccessor._validate",
+      "api_type": "method",
+      "similarity": 0.4772727272727273,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexing._AtIndexer.__getitem__",
+      "api_type": "method",
+      "similarity": 0.4745762711864407,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.datetimelike.TimelikeOps.freq",
+      "api_type": "method",
+      "similarity": 0.46774193548387094,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index.repeat",
+      "api_type": "method",
+      "similarity": 0.46153846153846156,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index.where",
+      "api_type": "method",
+      "similarity": 0.45098039215686275,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.pytables.IndexCol.maybe_set_size",
+      "api_type": "method",
+      "similarity": 0.45,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.interval.IntervalArray.contains",
+      "api_type": "method",
+      "similarity": 0.4489795918367347,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.period.PeriodIndex._convert_tolerance",
+      "api_type": "method",
+      "similarity": 0.4489795918367347,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.parsers.arrow_parser_wrapper.ArrowParserWrapper._parse_kwds",
+      "api_type": "method",
+      "similarity": 0.4482758620689655,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series._set_values",
+      "api_type": "method",
+      "similarity": 0.44680851063829785,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index.fillna",
+      "api_type": "method",
+      "similarity": 0.44642857142857145,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

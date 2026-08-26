@@ -1,0 +1,1329 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.0.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.scale.Log2Transform",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform",
+      "api_type": "class",
+      "similarity": 0.37254901960784315,
+      "evolution_path": [
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform"
+      ],
+      "local_scores": [
+        0.37254901960784315
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases._Mode",
+      "api_type": "class",
+      "similarity": 0.3170731707317073,
+      "evolution_path": [
+        "matplotlib.backend_bases._Mode"
+      ],
+      "local_scores": [
+        0.3170731707317073
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+      "api_type": "class",
+      "similarity": 0.3170731707317073,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg.FigureCanvasWebAgg"
+      ],
+      "local_scores": [
+        0.3170731707317073
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.ShowBase",
+      "api_type": "class",
+      "similarity": 0.2926829268292683,
+      "evolution_path": [
+        "matplotlib.backend_bases.ShowBase"
+      ],
+      "local_scores": [
+        0.2926829268292683
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+      "api_type": "class",
+      "similarity": 0.2916666666666667,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk3.SaveFigureGTK3"
+      ],
+      "local_scores": [
+        0.2916666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps._Orientation",
+      "api_type": "class",
+      "similarity": 0.27450980392156865,
+      "evolution_path": [
+        "matplotlib.backends.backend_ps._Orientation"
+      ],
+      "local_scores": [
+        0.27450980392156865
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+      "api_type": "class",
+      "similarity": 0.2708333333333333,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg.WebAggApplication.MplJs"
+      ],
+      "local_scores": [
+        0.2708333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_cairo._CairoRegion",
+      "api_type": "class",
+      "similarity": 0.2682926829268293,
+      "evolution_path": [
+        "matplotlib.backends.backend_cairo._CairoRegion"
+      ],
+      "local_scores": [
+        0.2682926829268293
+      ]
+    },
+    {
+      "fqn": "matplotlib._mathtext.Hbox",
+      "api_type": "class",
+      "similarity": 0.26785714285714285,
+      "evolution_path": [
+        "matplotlib.mathtext.Hbox",
+        "matplotlib._mathtext.Hbox"
+      ],
+      "local_scores": [
+        0.3,
+        0.8928571428571429
+      ]
+    },
+    {
+      "fqn": "matplotlib.tests.test_category.FakeAxis",
+      "api_type": "class",
+      "similarity": 0.2631578947368421,
+      "evolution_path": [
+        "matplotlib.tests.test_category.FakeAxis"
+      ],
+      "local_scores": [
+        0.2631578947368421
+      ]
+    },
+    {
+      "fqn": "matplotlib._mathtext.Vbox",
+      "api_type": "class",
+      "similarity": 0.2624053826745164,
+      "evolution_path": [
+        "matplotlib.mathtext.Vbox",
+        "matplotlib._mathtext.Vbox"
+      ],
+      "local_scores": [
+        0.2926829268292683,
+        0.896551724137931
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.Verbatim",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.Verbatim"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.LatexError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "matplotlib.backends.backend_pgf.LatexError"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "matplotlib.tests.test_marker.UnsnappedMarkerStyle",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "matplotlib.tests.test_marker.UnsnappedMarkerStyle"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._trifinder.TriFinder",
+      "api_type": "class",
+      "similarity": 0.26046511627906976,
+      "evolution_path": [
+        "matplotlib.tri.trifinder.TriFinder",
+        "matplotlib.tri._trifinder.TriFinder"
+      ],
+      "local_scores": [
+        0.27906976744186046,
+        0.9333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._trirefine.TriRefiner",
+      "api_type": "class",
+      "similarity": 0.26046511627906976,
+      "evolution_path": [
+        "matplotlib.tri.trirefine.TriRefiner",
+        "matplotlib.tri._trirefine.TriRefiner"
+      ],
+      "local_scores": [
+        0.27906976744186046,
+        0.9333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.FormatStrFormatter",
+      "api_type": "class",
+      "similarity": 0.1614906832298137,
+      "evolution_path": [
+        "matplotlib.cbook.__init__._classproperty",
+        "matplotlib.ticker.FormatStrFormatter"
+      ],
+      "local_scores": [
+        0.30434782608695654,
+        0.5306122448979592
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.StrMethodFormatter",
+      "api_type": "class",
+      "similarity": 0.16112531969309465,
+      "evolution_path": [
+        "matplotlib.cbook.__init__._classproperty",
+        "matplotlib.ticker.StrMethodFormatter"
+      ],
+      "local_scores": [
+        0.30434782608695654,
+        0.5294117647058824
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.ArrowStyle.CurveA",
+      "api_type": "class",
+      "similarity": 0.16097560975609757,
+      "evolution_path": [
+        "matplotlib.mathtext.Vbox",
+        "matplotlib.patches.ArrowStyle.CurveA"
+      ],
+      "local_scores": [
+        0.2926829268292683,
+        0.55
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.ArrowStyle.CurveAB",
+      "api_type": "class",
+      "similarity": 0.16097560975609757,
+      "evolution_path": [
+        "matplotlib.mathtext.Vbox",
+        "matplotlib.patches.ArrowStyle.CurveAB"
+      ],
+      "local_scores": [
+        0.2926829268292683,
+        0.55
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.scale.Log2Transform",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.2.2",
+      "vpost": "3.3.0",
+      "resolved_fqn": "matplotlib.scale.Log2Transform",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform",
+          "similarity": 0.372549
+        },
+        {
+          "fqn": "matplotlib.backend_bases._Mode",
+          "similarity": 0.317073
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+          "similarity": 0.317073
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__._classproperty",
+          "similarity": 0.304348
+        },
+        {
+          "fqn": "matplotlib.mathtext.Hbox",
+          "similarity": 0.3
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ShowBase",
+          "similarity": 0.292683
+        },
+        {
+          "fqn": "matplotlib.mathtext.Vbox",
+          "similarity": 0.292683
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+          "similarity": 0.291667
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wxagg.FigureFrameWxAgg",
+          "similarity": 0.282609
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wxcairo.FigureFrameWxCairo",
+          "similarity": 0.282609
+        },
+        {
+          "fqn": "matplotlib.tri.trifinder.TriFinder",
+          "similarity": 0.27907
+        },
+        {
+          "fqn": "matplotlib.tri.trirefine.TriRefiner",
+          "similarity": 0.27907
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3cairo.RendererGTK3Cairo",
+          "similarity": 0.276596
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._Orientation",
+          "similarity": 0.27451
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+          "similarity": 0.270833
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo._CairoRegion",
+          "similarity": 0.268293
+        },
+        {
+          "fqn": "matplotlib.tests.test_category.FakeAxis",
+          "similarity": 0.263158
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Verbatim",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.LatexError",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "matplotlib.tests.test_marker.UnsnappedMarkerStyle",
+          "similarity": 0.26087
+        }
+      ],
+      "entered_final": [
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform",
+        "matplotlib.backend_bases._Mode",
+        "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+        "matplotlib.backend_bases.ShowBase",
+        "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+        "matplotlib.backends.backend_ps._Orientation",
+        "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+        "matplotlib.backends.backend_cairo._CairoRegion",
+        "matplotlib.tests.test_category.FakeAxis",
+        "matplotlib.backends.backend_pdf.Verbatim",
+        "matplotlib.backends.backend_pgf.LatexError",
+        "matplotlib.tests.test_marker.UnsnappedMarkerStyle"
+      ],
+      "entered_iter": [
+        "matplotlib.cbook.__init__._classproperty",
+        "matplotlib.mathtext.Hbox",
+        "matplotlib.mathtext.Vbox",
+        "matplotlib.backends.backend_wxagg.FigureFrameWxAgg",
+        "matplotlib.backends.backend_wxcairo.FigureFrameWxCairo",
+        "matplotlib.tri.trifinder.TriFinder",
+        "matplotlib.tri.trirefine.TriRefiner",
+        "matplotlib.backends.backend_gtk3cairo.RendererGTK3Cairo"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cbook.__init__._classproperty",
+      "path_score": 0.304348,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.4",
+      "vpost": "3.4.0",
+      "resolved_fqn": "matplotlib.cbook.__init__._classproperty",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tests.test_ticker.FakeAxis",
+          "similarity": 0.538462
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Verbatim",
+          "similarity": 0.534884
+        },
+        {
+          "fqn": "matplotlib.ticker.FormatStrFormatter",
+          "similarity": 0.530612
+        },
+        {
+          "fqn": "matplotlib.ticker.StrMethodFormatter",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "matplotlib.backend_bases.Event",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib._api.__init__.classproperty",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo._CairoRegion",
+          "similarity": 0.463415
+        },
+        {
+          "fqn": "matplotlib.projections.geo.GeoAxes.ThetaFormatter",
+          "similarity": 0.45
+        },
+        {
+          "fqn": "matplotlib.backend_bases.DrawEvent",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolManagerMessageEvent",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.streamplot.StreamplotSet",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.axes._base._TransformedBoundsLocator",
+          "similarity": 0.435484
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.LatexError",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "matplotlib.tri.trifinder.TriFinder",
+          "similarity": 0.431818
+        },
+        {
+          "fqn": "matplotlib.tri.trirefine.TriRefiner",
+          "similarity": 0.431818
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolEvent",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.Operator",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.category.StrCategoryLocator",
+          "similarity": 0.415385
+        },
+        {
+          "fqn": "matplotlib.patches.ConnectionStyle._Base.SimpleEvent",
+          "similarity": 0.414634
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ResizeEvent",
+          "similarity": 0.411765
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_pdf.Verbatim",
+        "matplotlib.ticker.FormatStrFormatter",
+        "matplotlib.ticker.StrMethodFormatter",
+        "matplotlib.backend_bases.Event",
+        "matplotlib._api.__init__.classproperty",
+        "matplotlib.backends.backend_cairo._CairoRegion",
+        "matplotlib.projections.geo.GeoAxes.ThetaFormatter",
+        "matplotlib.backend_bases.DrawEvent",
+        "matplotlib.backend_managers.ToolManagerMessageEvent",
+        "matplotlib.streamplot.StreamplotSet",
+        "matplotlib.axes._base._TransformedBoundsLocator",
+        "matplotlib.backends.backend_pgf.LatexError",
+        "matplotlib.backend_managers.ToolEvent",
+        "matplotlib.category.StrCategoryLocator",
+        "matplotlib.backend_bases.ResizeEvent"
+      ],
+      "entered_iter": [
+        "matplotlib.tests.test_ticker.FakeAxis"
+      ],
+      "pruned": [
+        "matplotlib.tri.trifinder.TriFinder",
+        "matplotlib.tri.trirefine.TriRefiner",
+        "matplotlib.backends.backend_pdf.Operator",
+        "matplotlib.patches.ConnectionStyle._Base.SimpleEvent"
+      ],
+      "prune_bound": 0.135985,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.mathtext.Hbox",
+      "path_score": 0.3,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.4",
+      "vpost": "3.4.0",
+      "resolved_fqn": "matplotlib.mathtext.Hbox",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib._mathtext.Hbox",
+          "similarity": 0.892857
+        },
+        {
+          "fqn": "matplotlib._mathtext.Vbox",
+          "similarity": 0.636364
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveA",
+          "similarity": 0.525
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveAB",
+          "similarity": 0.525
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveB",
+          "similarity": 0.525
+        },
+        {
+          "fqn": "matplotlib._mathtext.Fil",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib._mathtext.Fill",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib._mathtext.Filll",
+          "similarity": 0.515152
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketA",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketB",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "matplotlib.tri.trifinder.TriFinder",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "matplotlib.tri.trirefine.TriRefiner",
+          "similarity": 0.486486
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.Curve",
+          "similarity": 0.485714
+        },
+        {
+          "fqn": "matplotlib._mathtext.NegFil",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib._mathtext.NegFill",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib._mathtext.NegFilll",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib._mathtext.SsGlue",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveFilledA",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveFilledAB",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveFilledB",
+          "similarity": 0.466667
+        }
+      ],
+      "entered_final": [
+        "matplotlib._mathtext.Hbox",
+        "matplotlib._mathtext.Vbox",
+        "matplotlib.patches.ArrowStyle.CurveA",
+        "matplotlib.patches.ArrowStyle.CurveAB",
+        "matplotlib.patches.ArrowStyle.CurveB",
+        "matplotlib.patches.ArrowStyle.BracketA",
+        "matplotlib.patches.ArrowStyle.BracketB",
+        "matplotlib.patches.ArrowStyle.Curve",
+        "matplotlib.patches.ArrowStyle.CurveFilledA",
+        "matplotlib.patches.ArrowStyle.CurveFilledAB",
+        "matplotlib.patches.ArrowStyle.CurveFilledB"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib._mathtext.Fil",
+        "matplotlib._mathtext.Fill",
+        "matplotlib._mathtext.Filll",
+        "matplotlib.tri.trifinder.TriFinder",
+        "matplotlib.tri.trirefine.TriRefiner",
+        "matplotlib._mathtext.NegFil",
+        "matplotlib._mathtext.NegFill",
+        "matplotlib._mathtext.NegFilll",
+        "matplotlib._mathtext.SsGlue"
+      ],
+      "prune_bound": 0.1575,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.mathtext.Vbox",
+      "path_score": 0.292683,
+      "boundary": "DEPRECATED",
+      "vpre": "3.3.4",
+      "vpost": "3.4.0",
+      "resolved_fqn": "matplotlib.mathtext.Vbox",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib._mathtext.Vbox",
+          "similarity": 0.896552
+        },
+        {
+          "fqn": "matplotlib._mathtext.Hbox",
+          "similarity": 0.636364
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveA",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveAB",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveB",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.backend_bases.DrawEvent",
+          "similarity": 0.525
+        },
+        {
+          "fqn": "matplotlib.tri.trifinder.TriFinder",
+          "similarity": 0.513514
+        },
+        {
+          "fqn": "matplotlib.tri.trirefine.TriRefiner",
+          "similarity": 0.513514
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketA",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketB",
+          "similarity": 0.511628
+        },
+        {
+          "fqn": "matplotlib._mathtext.Fil",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib._mathtext.Fill",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib._mathtext.Filll",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveFilledA",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveFilledAB",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveFilledB",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "matplotlib._mathtext.VCentered",
+          "similarity": 0.487805
+        },
+        {
+          "fqn": "matplotlib.hatch.LargeCircles",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.hatch.SmallCircles",
+          "similarity": 0.478261
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ResizeEvent",
+          "similarity": 0.477273
+        }
+      ],
+      "entered_final": [
+        "matplotlib._mathtext.Vbox",
+        "matplotlib._mathtext.Hbox",
+        "matplotlib.patches.ArrowStyle.CurveA",
+        "matplotlib.patches.ArrowStyle.CurveAB",
+        "matplotlib.patches.ArrowStyle.CurveB",
+        "matplotlib.backend_bases.DrawEvent",
+        "matplotlib.patches.ArrowStyle.BracketA",
+        "matplotlib.patches.ArrowStyle.BracketB",
+        "matplotlib.patches.ArrowStyle.CurveFilledA",
+        "matplotlib.patches.ArrowStyle.CurveFilledAB",
+        "matplotlib.patches.ArrowStyle.CurveFilledB",
+        "matplotlib._mathtext.VCentered",
+        "matplotlib.hatch.LargeCircles",
+        "matplotlib.hatch.SmallCircles",
+        "matplotlib.backend_bases.ResizeEvent"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.tri.trifinder.TriFinder",
+        "matplotlib.tri.trirefine.TriRefiner",
+        "matplotlib._mathtext.Fil",
+        "matplotlib._mathtext.Fill",
+        "matplotlib._mathtext.Filll"
+      ],
+      "prune_bound": 0.160976,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wxagg.FigureFrameWxAgg",
+      "path_score": 0.282609,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.backends.backend_wxagg.FigureFrameWxAgg",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_wx.SaveFigureWx",
+          "similarity": 0.361702
+        },
+        {
+          "fqn": "matplotlib.backends._backend_gtk._FigureCanvasGTK",
+          "similarity": 0.342105
+        },
+        {
+          "fqn": "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+          "similarity": 0.342105
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+          "similarity": 0.342105
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.ConfigureSubplotsWx",
+          "similarity": 0.319149
+        },
+        {
+          "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg",
+          "similarity": 0.308824
+        },
+        {
+          "fqn": "matplotlib.backends.backend_template.FigureCanvasTemplate",
+          "similarity": 0.285714
+        },
+        {
+          "fqn": "matplotlib.tests.test_skew.SkewXAxis",
+          "similarity": 0.283582
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+          "similarity": 0.283019
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.SaveFigureTk",
+          "similarity": 0.28
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.SaveFigureQt",
+          "similarity": 0.28
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ShowBase",
+          "similarity": 0.276596
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+          "similarity": 0.27451
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.SaveFigureGTK4",
+          "similarity": 0.27451
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.HelpWx",
+          "similarity": 0.269231
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.FavIcon",
+          "similarity": 0.267857
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._Orientation",
+          "similarity": 0.263158
+        },
+        {
+          "fqn": "matplotlib._type1font._BinaryToken",
+          "similarity": 0.255319
+        },
+        {
+          "fqn": "matplotlib.contour.ClabelText",
+          "similarity": 0.253968
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wxcairo.FigureCanvasWxCairo",
+          "similarity": 0.252874
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_wx.SaveFigureWx",
+        "matplotlib.backends._backend_gtk._FigureCanvasGTK",
+        "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+        "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+        "matplotlib.backends.backend_wx.ConfigureSubplotsWx",
+        "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg",
+        "matplotlib.backends.backend_template.FigureCanvasTemplate",
+        "matplotlib.tests.test_skew.SkewXAxis",
+        "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+        "matplotlib.backends._backend_tk.SaveFigureTk",
+        "matplotlib.backends.backend_qt.SaveFigureQt",
+        "matplotlib.backend_bases.ShowBase",
+        "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+        "matplotlib.backends.backend_gtk4.SaveFigureGTK4",
+        "matplotlib.backends.backend_wx.HelpWx",
+        "matplotlib.backends.backend_webagg.WebAggApplication.FavIcon",
+        "matplotlib.backends.backend_ps._Orientation",
+        "matplotlib._type1font._BinaryToken",
+        "matplotlib.backends.backend_wxcairo.FigureCanvasWxCairo"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.contour.ClabelText"
+      ],
+      "prune_bound": 0.160976,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wxcairo.FigureFrameWxCairo",
+      "path_score": 0.282609,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.backends.backend_wxcairo.FigureFrameWxCairo",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_wx.SaveFigureWx",
+          "similarity": 0.361702
+        },
+        {
+          "fqn": "matplotlib.backends._backend_gtk._FigureCanvasGTK",
+          "similarity": 0.342105
+        },
+        {
+          "fqn": "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+          "similarity": 0.342105
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+          "similarity": 0.342105
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.ConfigureSubplotsWx",
+          "similarity": 0.319149
+        },
+        {
+          "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg",
+          "similarity": 0.308824
+        },
+        {
+          "fqn": "matplotlib.backends.backend_template.FigureCanvasTemplate",
+          "similarity": 0.285714
+        },
+        {
+          "fqn": "matplotlib.tests.test_skew.SkewXAxis",
+          "similarity": 0.283582
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+          "similarity": 0.283019
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.SaveFigureTk",
+          "similarity": 0.28
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.SaveFigureQt",
+          "similarity": 0.28
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ShowBase",
+          "similarity": 0.276596
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+          "similarity": 0.27451
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.SaveFigureGTK4",
+          "similarity": 0.27451
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.HelpWx",
+          "similarity": 0.269231
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.FavIcon",
+          "similarity": 0.267857
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps._Orientation",
+          "similarity": 0.263158
+        },
+        {
+          "fqn": "matplotlib._type1font._BinaryToken",
+          "similarity": 0.255319
+        },
+        {
+          "fqn": "matplotlib.contour.ClabelText",
+          "similarity": 0.253968
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wxcairo.FigureCanvasWxCairo",
+          "similarity": 0.252874
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_wx.SaveFigureWx",
+        "matplotlib.backends._backend_gtk._FigureCanvasGTK",
+        "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+        "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+        "matplotlib.backends.backend_wx.ConfigureSubplotsWx",
+        "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg",
+        "matplotlib.backends.backend_template.FigureCanvasTemplate",
+        "matplotlib.tests.test_skew.SkewXAxis",
+        "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+        "matplotlib.backends._backend_tk.SaveFigureTk",
+        "matplotlib.backends.backend_qt.SaveFigureQt",
+        "matplotlib.backend_bases.ShowBase",
+        "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+        "matplotlib.backends.backend_gtk4.SaveFigureGTK4",
+        "matplotlib.backends.backend_wx.HelpWx",
+        "matplotlib.backends.backend_webagg.WebAggApplication.FavIcon",
+        "matplotlib.backends.backend_ps._Orientation",
+        "matplotlib._type1font._BinaryToken",
+        "matplotlib.backends.backend_wxcairo.FigureCanvasWxCairo"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.contour.ClabelText"
+      ],
+      "prune_bound": 0.160976,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tri.trifinder.TriFinder",
+      "path_score": 0.27907,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.tri.trifinder.TriFinder",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tri._trifinder.TriFinder",
+          "similarity": 0.933333
+        },
+        {
+          "fqn": "matplotlib.tri._trirefine.TriRefiner",
+          "similarity": 0.757576
+        },
+        {
+          "fqn": "matplotlib.backend_bases.DrawEvent",
+          "similarity": 0.536585
+        },
+        {
+          "fqn": "matplotlib._mathtext.Vbox",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ResizeEvent",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "matplotlib._mathtext.Vrule",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "matplotlib._mathtext.Hbox",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib._mathtext.VCentered",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "matplotlib.hatch.LargeCircles",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.hatch.SmallCircles",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.tests.test_category.FakeAxis",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "matplotlib._mathtext.HCentered",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo._CairoRegion",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "matplotlib.streamplot.StreamplotSet",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketA",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketB",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketCurve",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveBracket",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolEvent",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.backend_bases.KeyEvent",
+          "similarity": 0.44
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tri._trifinder.TriFinder",
+        "matplotlib.tri._trirefine.TriRefiner",
+        "matplotlib.backend_bases.DrawEvent",
+        "matplotlib._mathtext.Vbox",
+        "matplotlib.backend_bases.ResizeEvent",
+        "matplotlib._mathtext.Vrule",
+        "matplotlib._mathtext.Hbox",
+        "matplotlib._mathtext.VCentered",
+        "matplotlib.hatch.LargeCircles",
+        "matplotlib.hatch.SmallCircles",
+        "matplotlib.tests.test_category.FakeAxis",
+        "matplotlib._mathtext.HCentered",
+        "matplotlib.backends.backend_cairo._CairoRegion",
+        "matplotlib.streamplot.StreamplotSet",
+        "matplotlib.patches.ArrowStyle.BracketA",
+        "matplotlib.patches.ArrowStyle.BracketB",
+        "matplotlib.patches.ArrowStyle.BracketCurve",
+        "matplotlib.patches.ArrowStyle.CurveBracket",
+        "matplotlib.backend_managers.ToolEvent",
+        "matplotlib.backend_bases.KeyEvent"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.161491,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tri.trirefine.TriRefiner",
+      "path_score": 0.27907,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.tri.trirefine.TriRefiner",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tri._trirefine.TriRefiner",
+          "similarity": 0.933333
+        },
+        {
+          "fqn": "matplotlib.tri._trifinder.TriFinder",
+          "similarity": 0.757576
+        },
+        {
+          "fqn": "matplotlib.backend_bases.DrawEvent",
+          "similarity": 0.536585
+        },
+        {
+          "fqn": "matplotlib._mathtext.Vbox",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ResizeEvent",
+          "similarity": 0.488889
+        },
+        {
+          "fqn": "matplotlib._mathtext.Vrule",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "matplotlib._mathtext.Hbox",
+          "similarity": 0.473684
+        },
+        {
+          "fqn": "matplotlib._mathtext.VCentered",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "matplotlib.hatch.LargeCircles",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.hatch.SmallCircles",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.tests.test_category.FakeAxis",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "matplotlib._mathtext.HCentered",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo._CairoRegion",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "matplotlib.streamplot.StreamplotSet",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketA",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketB",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.BracketCurve",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.patches.ArrowStyle.CurveBracket",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolEvent",
+          "similarity": 0.444444
+        },
+        {
+          "fqn": "matplotlib.backend_bases.KeyEvent",
+          "similarity": 0.44
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tri._trirefine.TriRefiner",
+        "matplotlib.tri._trifinder.TriFinder",
+        "matplotlib.backend_bases.DrawEvent",
+        "matplotlib._mathtext.Vbox",
+        "matplotlib.backend_bases.ResizeEvent",
+        "matplotlib._mathtext.Vrule",
+        "matplotlib._mathtext.Hbox",
+        "matplotlib._mathtext.VCentered",
+        "matplotlib.hatch.LargeCircles",
+        "matplotlib.hatch.SmallCircles",
+        "matplotlib.tests.test_category.FakeAxis",
+        "matplotlib._mathtext.HCentered",
+        "matplotlib.backends.backend_cairo._CairoRegion",
+        "matplotlib.streamplot.StreamplotSet",
+        "matplotlib.patches.ArrowStyle.BracketA",
+        "matplotlib.patches.ArrowStyle.BracketB",
+        "matplotlib.patches.ArrowStyle.BracketCurve",
+        "matplotlib.patches.ArrowStyle.CurveBracket",
+        "matplotlib.backend_managers.ToolEvent",
+        "matplotlib.backend_bases.KeyEvent"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.186253,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk3cairo.RendererGTK3Cairo",
+      "path_score": 0.276596,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.backends.backend_gtk3cairo.RendererGTK3Cairo",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.SetCursorGTK3",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo._RendererGTKCairo",
+          "similarity": 0.380282
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo._CairoRegion",
+          "similarity": 0.363636
+        },
+        {
+          "fqn": "matplotlib.streamplot.StreamplotSet",
+          "similarity": 0.363636
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3agg._BackendGTK3Cairo",
+          "similarity": 0.358974
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3cairo._BackendGTK3Cairo",
+          "similarity": 0.358974
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.SetCursorTk",
+          "similarity": 0.352941
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.SetCursorQt",
+          "similarity": 0.352941
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.SetCursorWx",
+          "similarity": 0.352941
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolXScale",
+          "similarity": 0.327586
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolYScale",
+          "similarity": 0.327586
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+          "similarity": 0.32
+        },
+        {
+          "fqn": "matplotlib.tri.trifinder.TriFinder",
+          "similarity": 0.3125
+        },
+        {
+          "fqn": "matplotlib.tri.trirefine.TriRefiner",
+          "similarity": 0.3125
+        },
+        {
+          "fqn": "matplotlib.tests.test_ticker.TestNullLocator",
+          "similarity": 0.305085
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+          "similarity": 0.301887
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.MainWindow",
+          "similarity": 0.298246
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolQuit",
+          "similarity": 0.288136
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ResizeEvent",
+          "similarity": 0.285714
+        },
+        {
+          "fqn": "matplotlib.backend_bases.Event",
+          "similarity": 0.283333
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_cairo._CairoRegion",
+        "matplotlib.streamplot.StreamplotSet",
+        "matplotlib.backends.backend_gtk3cairo._BackendGTK3Cairo",
+        "matplotlib.backend_tools.ToolXScale",
+        "matplotlib.backend_tools.ToolYScale",
+        "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+        "matplotlib.backends.backend_webagg.WebAggApplication.MplJs",
+        "matplotlib.backends.backend_qt.MainWindow",
+        "matplotlib.backend_tools.ToolQuit",
+        "matplotlib.backend_bases.ResizeEvent",
+        "matplotlib.backend_bases.Event"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.backends.backend_gtk3.SetCursorGTK3",
+        "matplotlib.backends.backend_cairo._RendererGTKCairo",
+        "matplotlib.backends.backend_gtk3agg._BackendGTK3Cairo",
+        "matplotlib.backends._backend_tk.SetCursorTk",
+        "matplotlib.backends.backend_qt.SetCursorQt",
+        "matplotlib.backends.backend_wx.SetCursorWx",
+        "matplotlib.tri.trifinder.TriFinder",
+        "matplotlib.tri.trirefine.TriRefiner",
+        "matplotlib.tests.test_ticker.TestNullLocator"
+      ],
+      "prune_bound": 0.186253,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tests.test_ticker.FakeAxis",
+      "path_score": 0.16388,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.186253,
+      "dead_reason": "pruned_at_pop"
+    }
+  ]
+}

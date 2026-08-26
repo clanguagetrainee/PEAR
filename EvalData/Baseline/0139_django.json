@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.postgres.forms.jsonb.JSONField",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.forms.fields.JSONField",
+      "api_type": "class",
+      "similarity": 0.8475336322869955,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.forms.hstore.HStoreField",
+      "api_type": "class",
+      "similarity": 0.6588785046728972,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.DateTimeField",
+      "api_type": "class",
+      "similarity": 0.6238532110091743,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.ChoiceField",
+      "api_type": "class",
+      "similarity": 0.5416666666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.UUIDField",
+      "api_type": "class",
+      "similarity": 0.5263157894736842,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.FloatField",
+      "api_type": "class",
+      "similarity": 0.5236051502145923,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.DecimalField",
+      "api_type": "class",
+      "similarity": 0.5171102661596958,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.FileField",
+      "api_type": "class",
+      "similarity": 0.5130718954248366,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.MultipleChoiceField",
+      "api_type": "class",
+      "similarity": 0.5102880658436214,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.DurationField",
+      "api_type": "class",
+      "similarity": 0.5073529411764706,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.related.OneToOneField",
+      "api_type": "class",
+      "similarity": 0.4979757085020243,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.forms.ranges.BaseRangeField",
+      "api_type": "class",
+      "similarity": 0.48905109489051096,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.ImageField",
+      "api_type": "class",
+      "similarity": 0.4859437751004016,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.fields.DurationField",
+      "api_type": "class",
+      "similarity": 0.48095238095238096,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.sitemaps.kml.KMLSitemap",
+      "api_type": "class",
+      "similarity": 0.4807692307692308,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.models.proxy.SpatialProxy",
+      "api_type": "class",
+      "similarity": 0.47674418604651164,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.template.base.Lexer",
+      "api_type": "class",
+      "similarity": 0.4744525547445255,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.forms.widgets.BaseGeometryWidget",
+      "api_type": "class",
+      "similarity": 0.4742647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.backends.RemoteUserBackend",
+      "api_type": "class",
+      "similarity": 0.47388059701492535,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.serializers.json.DjangoJSONEncoder",
+      "api_type": "class",
+      "similarity": 0.4713656387665198,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

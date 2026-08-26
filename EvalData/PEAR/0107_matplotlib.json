@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.7.5",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_rgb",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_argb",
+      "api_type": "method",
+      "similarity": 0.5789473684210527,
+      "evolution_path": [
+        "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_argb"
+      ],
+      "local_scores": [
+        0.5789473684210527
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.get_rgb",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.get_rgb"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_cairo.GraphicsContextCairo.get_rgb",
+      "api_type": "method",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [
+        "matplotlib.backends.backend_cairo.GraphicsContextCairo.get_rgb"
+      ],
+      "local_scores": [
+        0.4583333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfPages.infodict",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "matplotlib.backends.backend_pdf.PdfPages.infodict"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.qt_editor._formlayout.ColorLayout.text",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "matplotlib.backends.qt_editor._formlayout.ColorLayout.text"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.TransformWrapper.frozen",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "matplotlib.transforms.TransformWrapper.frozen"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.axes",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.figure.Figure.axes"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform.inverted"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform.inverted"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.projections.geo.MollweideAxes.MollweideTransform.inverted",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.projections.geo.MollweideAxes.MollweideTransform.inverted"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.tests.test_units.Quantity.__array__",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.tests.test_units.Quantity.__array__"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.TextBox.text",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.widgets.TextBox.text"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.ToolHandles.x",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.widgets.ToolHandles.x"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.ToolHandles.y",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.widgets.ToolHandles.y"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.contains",
+      "api_type": "method",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.contains"
+      ],
+      "local_scores": [
+        0.38095238095238093
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.qt_editor._formlayout.FormComboWidget.get",
+      "api_type": "method",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [
+        "matplotlib.backends.qt_editor._formlayout.FormComboWidget.get"
+      ],
+      "local_scores": [
+        0.38095238095238093
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.qt_editor._formlayout.FormTabWidget.get",
+      "api_type": "method",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [
+        "matplotlib.backends.qt_editor._formlayout.FormTabWidget.get"
+      ],
+      "local_scores": [
+        0.38095238095238093
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_rgb",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.9.4",
+      "vpost": "3.10.0",
+      "resolved_fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg.renderer.tostring_rgb",
+      "resolved_kind": "unknown",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_argb",
+          "similarity": 0.578947
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.get_rgb",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backends.backend_cairo.GraphicsContextCairo.get_rgb",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfPages.infodict",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.ColorLayout.text",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.transforms.TransformWrapper.frozen",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.axes",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform.inverted",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform.inverted",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.projections.geo.MollweideAxes.MollweideTransform.inverted",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.tests.test_units.Quantity.__array__",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.widgets.TextBox.text",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.widgets.ToolHandles.x",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.widgets.ToolHandles.y",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.contains",
+          "similarity": 0.380952
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.FormComboWidget.get",
+          "similarity": 0.380952
+        },
+        {
+          "fqn": "matplotlib.backends.qt_editor._formlayout.FormTabWidget.get",
+          "similarity": 0.380952
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_argb",
+        "matplotlib.backend_bases.GraphicsContextBase.get_rgb",
+        "matplotlib.backends.backend_cairo.GraphicsContextCairo.get_rgb",
+        "matplotlib.backends.backend_pdf.PdfPages.infodict",
+        "matplotlib.backends.qt_editor._formlayout.ColorLayout.text",
+        "matplotlib.transforms.TransformWrapper.frozen",
+        "matplotlib.figure.Figure.axes",
+        "matplotlib.projections.geo.AitoffAxes.AitoffTransform.inverted",
+        "matplotlib.projections.geo.AitoffAxes.InvertedAitoffTransform.inverted",
+        "matplotlib.projections.geo.HammerAxes.HammerTransform.inverted",
+        "matplotlib.projections.geo.HammerAxes.InvertedHammerTransform.inverted",
+        "matplotlib.projections.geo.MollweideAxes.InvertedMollweideTransform.inverted",
+        "matplotlib.projections.geo.MollweideAxes.MollweideTransform.inverted",
+        "matplotlib.tests.test_units.Quantity.__array__",
+        "matplotlib.widgets.TextBox.text",
+        "matplotlib.widgets.ToolHandles.x",
+        "matplotlib.widgets.ToolHandles.y",
+        "matplotlib.axes._base._AxesBase.contains",
+        "matplotlib.backends.qt_editor._formlayout.FormComboWidget.get",
+        "matplotlib.backends.qt_editor._formlayout.FormTabWidget.get"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.380952,
+      "dead_reason": null
+    }
+  ]
+}

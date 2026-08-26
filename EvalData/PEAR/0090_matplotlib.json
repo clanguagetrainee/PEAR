@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.4.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.NavigationToolbar2.set_cursor",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.backend_bases.FigureCanvasBase.set_cursor",
+      "api_type": "method",
+      "similarity": 1.0,
+      "evolution_path": [
+        "matplotlib.backend_bases.FigureCanvasBase.set_cursor"
+      ],
+      "local_scores": [
+        1.0
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.set_cursor",
+      "api_type": "method",
+      "similarity": 0.5789473684210527,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.set_cursor"
+      ],
+      "local_scores": [
+        0.5789473684210527
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.NavigationToolbar2.set_message",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "matplotlib.backend_bases.NavigationToolbar2.set_message"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "matplotlib.image.NonUniformImage.set_filternorm",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "matplotlib.image.NonUniformImage.set_filternorm"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "matplotlib.image.NonUniformImage.set_filterrad",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "matplotlib.image.NonUniformImage.set_filterrad"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.AuxTransformBox.set_transform",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "matplotlib.offsetbox.AuxTransformBox.set_transform"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.DrawingArea.set_transform",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "matplotlib.offsetbox.DrawingArea.set_transform"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.TextArea.set_transform",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "matplotlib.offsetbox.TextArea.set_transform"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "matplotlib.ticker.Formatter._set_locator",
+      "api_type": "method",
+      "similarity": 0.5714285714285714,
+      "evolution_path": [
+        "matplotlib.ticker.Formatter._set_locator"
+      ],
+      "local_scores": [
+        0.5714285714285714
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.FigureCanvasQT.set_cursor",
+      "api_type": "method",
+      "similarity": 0.55,
+      "evolution_path": [
+        "matplotlib.backends.backend_qt.FigureCanvasQT.set_cursor"
+      ],
+      "local_scores": [
+        0.55
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.ToolContainerBase.set_message",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.backend_bases.ToolContainerBase.set_message"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.FigureCanvasTk.set_cursor",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.backends._backend_tk.FigureCanvasTk.set_cursor"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.Collection.set_paths",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.collections.Collection.set_paths"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.layout_engine.LayoutEngine.set",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.layout_engine.LayoutEngine.set"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_gid",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.artist.Artist.set_gid"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_picker",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.artist.Artist.set_picker"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.set_url",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.artist.Artist.set_url"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.set_navigate",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.set_navigate"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.FigureManagerBase.set_window_title",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.backend_bases.FigureManagerBase.set_window_title"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_gid",
+      "api_type": "method",
+      "similarity": 0.47058823529411764,
+      "evolution_path": [
+        "matplotlib.backend_bases.GraphicsContextBase.set_gid"
+      ],
+      "local_scores": [
+        0.47058823529411764
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.backend_bases.NavigationToolbar2.set_cursor",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.backend_bases.NavigationToolbar2.set_cursor",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backend_bases.FigureCanvasBase.set_cursor",
+          "similarity": 1.0
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.set_cursor",
+          "similarity": 0.578947
+        },
+        {
+          "fqn": "matplotlib.backend_bases.NavigationToolbar2.set_message",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.image.NonUniformImage.set_filternorm",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.image.NonUniformImage.set_filterrad",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.offsetbox.AuxTransformBox.set_transform",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.offsetbox.DrawingArea.set_transform",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.offsetbox.TextArea.set_transform",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.ticker.Formatter._set_locator",
+          "similarity": 0.571429
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.FigureCanvasQT.set_cursor",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ToolContainerBase.set_message",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.FigureCanvasTk.set_cursor",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_paths",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.layout_engine.LayoutEngine.set",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_gid",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_picker",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.set_url",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.set_navigate",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backend_bases.FigureManagerBase.set_window_title",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_gid",
+          "similarity": 0.470588
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backend_bases.FigureCanvasBase.set_cursor",
+        "matplotlib.backends.backend_gtk4.FigureCanvasGTK4.set_cursor",
+        "matplotlib.backend_bases.NavigationToolbar2.set_message",
+        "matplotlib.image.NonUniformImage.set_filternorm",
+        "matplotlib.image.NonUniformImage.set_filterrad",
+        "matplotlib.offsetbox.AuxTransformBox.set_transform",
+        "matplotlib.offsetbox.DrawingArea.set_transform",
+        "matplotlib.offsetbox.TextArea.set_transform",
+        "matplotlib.ticker.Formatter._set_locator",
+        "matplotlib.backends.backend_qt.FigureCanvasQT.set_cursor",
+        "matplotlib.backend_bases.ToolContainerBase.set_message",
+        "matplotlib.backends._backend_tk.FigureCanvasTk.set_cursor",
+        "matplotlib.collections.Collection.set_paths",
+        "matplotlib.layout_engine.LayoutEngine.set",
+        "matplotlib.artist.Artist.set_gid",
+        "matplotlib.artist.Artist.set_picker",
+        "matplotlib.artist.Artist.set_url",
+        "matplotlib.axes._base._AxesBase.set_navigate",
+        "matplotlib.backend_bases.FigureManagerBase.set_window_title",
+        "matplotlib.backend_bases.GraphicsContextBase.set_gid"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.470588,
+      "dead_reason": null
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.8.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.pyplot.plot_date",
+    "api_type": "function",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.pyplot.ecdf",
+      "api_type": "function",
+      "similarity": 0.5677966101694916,
+      "evolution_path": [
+        "matplotlib.pyplot.ecdf"
+      ],
+      "local_scores": [
+        0.5677966101694916
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.plot",
+      "api_type": "function",
+      "similarity": 0.5648148148148148,
+      "evolution_path": [
+        "matplotlib.pyplot.plot"
+      ],
+      "local_scores": [
+        0.5648148148148148
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.xcorr",
+      "api_type": "function",
+      "similarity": 0.45185185185185184,
+      "evolution_path": [
+        "matplotlib.pyplot.xcorr"
+      ],
+      "local_scores": [
+        0.45185185185185184
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.stairs",
+      "api_type": "function",
+      "similarity": 0.4172661870503597,
+      "evolution_path": [
+        "matplotlib.pyplot.stairs"
+      ],
+      "local_scores": [
+        0.4172661870503597
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.step",
+      "api_type": "function",
+      "similarity": 0.4146341463414634,
+      "evolution_path": [
+        "matplotlib.pyplot.step"
+      ],
+      "local_scores": [
+        0.4146341463414634
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.fill_between",
+      "api_type": "function",
+      "similarity": 0.3772455089820359,
+      "evolution_path": [
+        "matplotlib.pyplot.fill_between"
+      ],
+      "local_scores": [
+        0.3772455089820359
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.fill_betweenx",
+      "api_type": "function",
+      "similarity": 0.3772455089820359,
+      "evolution_path": [
+        "matplotlib.pyplot.fill_betweenx"
+      ],
+      "local_scores": [
+        0.3772455089820359
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.bar_label",
+      "api_type": "function",
+      "similarity": 0.36428571428571427,
+      "evolution_path": [
+        "matplotlib.pyplot.bar_label"
+      ],
+      "local_scores": [
+        0.36428571428571427
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.hlines",
+      "api_type": "function",
+      "similarity": 0.3532934131736527,
+      "evolution_path": [
+        "matplotlib.pyplot.hlines"
+      ],
+      "local_scores": [
+        0.3532934131736527
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.vlines",
+      "api_type": "function",
+      "similarity": 0.3532934131736527,
+      "evolution_path": [
+        "matplotlib.pyplot.vlines"
+      ],
+      "local_scores": [
+        0.3532934131736527
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.angle_spectrum",
+      "api_type": "function",
+      "similarity": 0.3515151515151515,
+      "evolution_path": [
+        "matplotlib.pyplot.angle_spectrum"
+      ],
+      "local_scores": [
+        0.3515151515151515
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.phase_spectrum",
+      "api_type": "function",
+      "similarity": 0.3515151515151515,
+      "evolution_path": [
+        "matplotlib.pyplot.phase_spectrum"
+      ],
+      "local_scores": [
+        0.3515151515151515
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.pie_label",
+      "api_type": "function",
+      "similarity": 0.3467741935483871,
+      "evolution_path": [
+        "matplotlib.pyplot.pie_label"
+      ],
+      "local_scores": [
+        0.3467741935483871
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.stem",
+      "api_type": "function",
+      "similarity": 0.33962264150943394,
+      "evolution_path": [
+        "matplotlib.pyplot.stem"
+      ],
+      "local_scores": [
+        0.33962264150943394
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.grouped_bar",
+      "api_type": "function",
+      "similarity": 0.3370165745856354,
+      "evolution_path": [
+        "matplotlib.pyplot.grouped_bar"
+      ],
+      "local_scores": [
+        0.3370165745856354
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.stackplot",
+      "api_type": "function",
+      "similarity": 0.3333333333333333,
+      "evolution_path": [
+        "matplotlib.pyplot.stackplot"
+      ],
+      "local_scores": [
+        0.3333333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.axis",
+      "api_type": "function",
+      "similarity": 0.32075471698113206,
+      "evolution_path": [
+        "matplotlib.pyplot.axis"
+      ],
+      "local_scores": [
+        0.32075471698113206
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.bar",
+      "api_type": "function",
+      "similarity": 0.31736526946107785,
+      "evolution_path": [
+        "matplotlib.pyplot.bar"
+      ],
+      "local_scores": [
+        0.31736526946107785
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.barh",
+      "api_type": "function",
+      "similarity": 0.31736526946107785,
+      "evolution_path": [
+        "matplotlib.pyplot.barh"
+      ],
+      "local_scores": [
+        0.31736526946107785
+      ]
+    },
+    {
+      "fqn": "matplotlib.pyplot.thetagrids",
+      "api_type": "function",
+      "similarity": 0.31736526946107785,
+      "evolution_path": [
+        "matplotlib.pyplot.thetagrids"
+      ],
+      "local_scores": [
+        0.31736526946107785
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.pyplot.plot_date",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.10.9",
+      "vpost": "3.11.0",
+      "resolved_fqn": "matplotlib.pyplot.plot_date",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.pyplot.ecdf",
+          "similarity": 0.567797
+        },
+        {
+          "fqn": "matplotlib.pyplot.plot",
+          "similarity": 0.564815
+        },
+        {
+          "fqn": "matplotlib.pyplot.xcorr",
+          "similarity": 0.451852
+        },
+        {
+          "fqn": "matplotlib.pyplot.stairs",
+          "similarity": 0.417266
+        },
+        {
+          "fqn": "matplotlib.pyplot.step",
+          "similarity": 0.414634
+        },
+        {
+          "fqn": "matplotlib.pyplot.fill_between",
+          "similarity": 0.377246
+        },
+        {
+          "fqn": "matplotlib.pyplot.fill_betweenx",
+          "similarity": 0.377246
+        },
+        {
+          "fqn": "matplotlib.pyplot.bar_label",
+          "similarity": 0.364286
+        },
+        {
+          "fqn": "matplotlib.pyplot.hlines",
+          "similarity": 0.353293
+        },
+        {
+          "fqn": "matplotlib.pyplot.vlines",
+          "similarity": 0.353293
+        },
+        {
+          "fqn": "matplotlib.pyplot.angle_spectrum",
+          "similarity": 0.351515
+        },
+        {
+          "fqn": "matplotlib.pyplot.phase_spectrum",
+          "similarity": 0.351515
+        },
+        {
+          "fqn": "matplotlib.pyplot.pie_label",
+          "similarity": 0.346774
+        },
+        {
+          "fqn": "matplotlib.pyplot.stem",
+          "similarity": 0.339623
+        },
+        {
+          "fqn": "matplotlib.pyplot.grouped_bar",
+          "similarity": 0.337017
+        },
+        {
+          "fqn": "matplotlib.pyplot.stackplot",
+          "similarity": 0.333333
+        },
+        {
+          "fqn": "matplotlib.pyplot.axis",
+          "similarity": 0.320755
+        },
+        {
+          "fqn": "matplotlib.pyplot.bar",
+          "similarity": 0.317365
+        },
+        {
+          "fqn": "matplotlib.pyplot.barh",
+          "similarity": 0.317365
+        },
+        {
+          "fqn": "matplotlib.pyplot.thetagrids",
+          "similarity": 0.317365
+        }
+      ],
+      "entered_final": [
+        "matplotlib.pyplot.ecdf",
+        "matplotlib.pyplot.plot",
+        "matplotlib.pyplot.xcorr",
+        "matplotlib.pyplot.stairs",
+        "matplotlib.pyplot.step",
+        "matplotlib.pyplot.fill_between",
+        "matplotlib.pyplot.fill_betweenx",
+        "matplotlib.pyplot.bar_label",
+        "matplotlib.pyplot.hlines",
+        "matplotlib.pyplot.vlines",
+        "matplotlib.pyplot.angle_spectrum",
+        "matplotlib.pyplot.phase_spectrum",
+        "matplotlib.pyplot.pie_label",
+        "matplotlib.pyplot.stem",
+        "matplotlib.pyplot.grouped_bar",
+        "matplotlib.pyplot.stackplot",
+        "matplotlib.pyplot.axis",
+        "matplotlib.pyplot.bar",
+        "matplotlib.pyplot.barh",
+        "matplotlib.pyplot.thetagrids"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.317365,
+      "dead_reason": null
+    }
+  ]
+}

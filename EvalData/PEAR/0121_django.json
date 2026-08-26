@@ -1,0 +1,474 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.9.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.gis.geos.point.Point.get_coords",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_argtypes",
+      "api_type": "method",
+      "similarity": 0.625,
+      "evolution_path": [
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_argtypes"
+      ],
+      "local_scores": [
+        0.625
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_errcheck",
+      "api_type": "method",
+      "similarity": 0.625,
+      "evolution_path": [
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_errcheck"
+      ],
+      "local_scores": [
+        0.625
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_restype",
+      "api_type": "method",
+      "similarity": 0.625,
+      "evolution_path": [
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_restype"
+      ],
+      "local_scores": [
+        0.625
+      ]
+    },
+    {
+      "fqn": "django.db.models.sql.query.Query.get_meta",
+      "api_type": "method",
+      "similarity": 0.625,
+      "evolution_path": [
+        "django.db.models.sql.query.Query.get_meta"
+      ],
+      "local_scores": [
+        0.625
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.forms.AuthenticationForm.get_user",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [
+        "django.contrib.auth.forms.AuthenticationForm.get_user"
+      ],
+      "local_scores": [
+        0.5625
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.models.AnonymousUser.get_username",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [
+        "django.contrib.auth.models.AnonymousUser.get_username"
+      ],
+      "local_scores": [
+        0.5625
+      ]
+    },
+    {
+      "fqn": "django.core.files.uploadedfile.UploadedFile._get_name",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [
+        "django.core.files.uploadedfile.UploadedFile._get_name"
+      ],
+      "local_scores": [
+        0.5625
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.Field.get_attname",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [
+        "django.db.models.fields.__init__.Field.get_attname"
+      ],
+      "local_scores": [
+        0.5625
+      ]
+    },
+    {
+      "fqn": "django.forms.fields.RegexField._get_regex",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [
+        "django.forms.fields.RegexField._get_regex"
+      ],
+      "local_scores": [
+        0.5625
+      ]
+    },
+    {
+      "fqn": "django.forms.models.ModelChoiceField._get_queryset",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [
+        "django.forms.models.ModelChoiceField._get_queryset"
+      ],
+      "local_scores": [
+        0.5625
+      ]
+    },
+    {
+      "fqn": "django.views.generic.edit.FormMixin.get_prefix",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [
+        "django.views.generic.edit.FormMixin.get_prefix"
+      ],
+      "local_scores": [
+        0.5625
+      ]
+    },
+    {
+      "fqn": "django.views.generic.list.MultipleObjectMixin.get_ordering",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [
+        "django.views.generic.list.MultipleObjectMixin.get_ordering"
+      ],
+      "local_scores": [
+        0.5625
+      ]
+    },
+    {
+      "fqn": "django.views.generic.edit.FormMixin.get_initial",
+      "api_type": "method",
+      "similarity": 0.5555555555555556,
+      "evolution_path": [
+        "django.views.generic.edit.FormMixin.get_initial"
+      ],
+      "local_scores": [
+        0.5555555555555556
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.num_coords",
+      "api_type": "method",
+      "similarity": 0.5294117647058824,
+      "evolution_path": [
+        "django.contrib.gis.gdal.geometries.OGRGeometry.num_coords"
+      ],
+      "local_scores": [
+        0.5294117647058824
+      ]
+    },
+    {
+      "fqn": "django.core.handlers.wsgi.WSGIRequest._get_scheme",
+      "api_type": "method",
+      "similarity": 0.5263157894736842,
+      "evolution_path": [
+        "django.core.handlers.wsgi.WSGIRequest._get_scheme"
+      ],
+      "local_scores": [
+        0.5263157894736842
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.Field.get_internal_type",
+      "api_type": "method",
+      "similarity": 0.5263157894736842,
+      "evolution_path": [
+        "django.db.models.fields.__init__.Field.get_internal_type"
+      ],
+      "local_scores": [
+        0.5263157894736842
+      ]
+    },
+    {
+      "fqn": "django.utils.html.MLStripper.get_data",
+      "api_type": "method",
+      "similarity": 0.5263157894736842,
+      "evolution_path": [
+        "django.utils.html.MLStripper.get_data"
+      ],
+      "local_scores": [
+        0.5263157894736842
+      ]
+    },
+    {
+      "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.num_coords",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.num_coords"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.contrib.sessions.backends.base.SessionBase.get",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.contrib.sessions.backends.base.SessionBase.get"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.db.models.expressions.Ref.get_refs",
+      "api_type": "method",
+      "similarity": 0.31640625,
+      "evolution_path": [
+        "django.forms.fields.ChoiceField._get_choices",
+        "django.db.models.expressions.Ref.get_refs"
+      ],
+      "local_scores": [
+        0.5625,
+        0.5625
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.contrib.gis.geos.point.Point.get_coords",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "1.11.29",
+      "vpost": "2.0",
+      "resolved_fqn": "django.contrib.gis.geos.point.Point.get_coords",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_argtypes",
+          "similarity": 0.625
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_errcheck",
+          "similarity": 0.625
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_restype",
+          "similarity": 0.625
+        },
+        {
+          "fqn": "django.db.models.sql.query.Query.get_meta",
+          "similarity": 0.625
+        },
+        {
+          "fqn": "django.contrib.auth.forms.AuthenticationForm.get_user",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.contrib.auth.models.AnonymousUser.get_username",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.core.files.uploadedfile.UploadedFile._get_name",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Field.get_attname",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.forms.fields.ChoiceField._get_choices",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.forms.fields.RegexField._get_regex",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.forms.models.ModelChoiceField._get_queryset",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.views.generic.edit.FormMixin.get_prefix",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.views.generic.list.MultipleObjectMixin.get_ordering",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.views.generic.edit.FormMixin.get_initial",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "django.contrib.gis.gdal.geometries.OGRGeometry.num_coords",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "django.core.handlers.wsgi.WSGIRequest._get_scheme",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Field.get_internal_type",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "django.utils.html.MLStripper.get_data",
+          "similarity": 0.526316
+        },
+        {
+          "fqn": "django.contrib.gis.geos.geometry.GEOSGeometryBase.num_coords",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.sessions.backends.base.SessionBase.get",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_argtypes",
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_errcheck",
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_restype",
+        "django.db.models.sql.query.Query.get_meta",
+        "django.contrib.auth.forms.AuthenticationForm.get_user",
+        "django.contrib.auth.models.AnonymousUser.get_username",
+        "django.core.files.uploadedfile.UploadedFile._get_name",
+        "django.db.models.fields.__init__.Field.get_attname",
+        "django.forms.fields.RegexField._get_regex",
+        "django.forms.models.ModelChoiceField._get_queryset",
+        "django.views.generic.edit.FormMixin.get_prefix",
+        "django.views.generic.list.MultipleObjectMixin.get_ordering",
+        "django.views.generic.edit.FormMixin.get_initial",
+        "django.contrib.gis.gdal.geometries.OGRGeometry.num_coords",
+        "django.core.handlers.wsgi.WSGIRequest._get_scheme",
+        "django.db.models.fields.__init__.Field.get_internal_type",
+        "django.utils.html.MLStripper.get_data",
+        "django.contrib.gis.geos.geometry.GEOSGeometryBase.num_coords",
+        "django.contrib.sessions.backends.base.SessionBase.get"
+      ],
+      "entered_iter": [
+        "django.forms.fields.ChoiceField._get_choices"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "django.forms.fields.ChoiceField._get_choices",
+      "path_score": 0.5625,
+      "boundary": "DEPRECATED",
+      "vpre": "4.2.30",
+      "vpost": "5.0",
+      "resolved_fqn": "django.forms.fields.ChoiceField._get_choices",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.contrib.auth.forms.AuthenticationForm.get_user",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "django.contrib.auth.models.AnonymousUser.get_username",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "django.core.files.uploadedfile.UploadedFile._get_name",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Field.get_attname",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "django.forms.fields.RegexField._get_regex",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "django.forms.models.ModelChoiceField._get_queryset",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "django.views.generic.edit.FormMixin.get_prefix",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "django.views.generic.list.MultipleObjectMixin.get_ordering",
+          "similarity": 0.6
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_argtypes",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_errcheck",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_restype",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.db.models.expressions.Ref.get_refs",
+          "similarity": 0.5625
+        },
+        {
+          "fqn": "django.contrib.admin.options.BaseModelAdmin.get_inlines",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.Field.get_default",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "django.db.models.fields.related.ForeignKey.get_attname",
+          "similarity": 0.529412
+        },
+        {
+          "fqn": "django.forms.models.ModelChoiceField._get_choices",
+          "similarity": 0.521739
+        },
+        {
+          "fqn": "django.contrib.admin.options.BaseModelAdmin.get_exclude",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.admin.options.BaseModelAdmin.get_ordering",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.admin.sites.AdminSite.get_action",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.contrib.auth.mixins.AccessMixin.get_permission_denied_message",
+          "similarity": 0.5
+        }
+      ],
+      "entered_final": [
+        "django.contrib.auth.forms.AuthenticationForm.get_user",
+        "django.contrib.auth.models.AnonymousUser.get_username",
+        "django.core.files.uploadedfile.UploadedFile._get_name",
+        "django.db.models.fields.__init__.Field.get_attname",
+        "django.forms.fields.RegexField._get_regex",
+        "django.forms.models.ModelChoiceField._get_queryset",
+        "django.views.generic.edit.FormMixin.get_prefix",
+        "django.views.generic.list.MultipleObjectMixin.get_ordering",
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_argtypes",
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_errcheck",
+        "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc._get_restype",
+        "django.db.models.expressions.Ref.get_refs",
+        "django.contrib.admin.options.BaseModelAdmin.get_inlines",
+        "django.db.models.fields.__init__.Field.get_default",
+        "django.db.models.fields.related.ForeignKey.get_attname",
+        "django.forms.models.ModelChoiceField._get_choices",
+        "django.contrib.admin.options.BaseModelAdmin.get_exclude",
+        "django.contrib.admin.options.BaseModelAdmin.get_ordering",
+        "django.contrib.admin.sites.AdminSite.get_action",
+        "django.contrib.auth.mixins.AccessMixin.get_permission_denied_message"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.3375,
+      "dead_reason": null
+    }
+  ]
+}

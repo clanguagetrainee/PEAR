@@ -1,0 +1,474 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.6.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.offsetbox.OffsetBox.get_extent",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.image.AxesImage.get_window_extent",
+      "api_type": "method",
+      "similarity": 0.6046511627906976,
+      "evolution_path": [
+        "matplotlib.image.AxesImage.get_window_extent"
+      ],
+      "local_scores": [
+        0.6046511627906976
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.get_xbound",
+      "api_type": "method",
+      "similarity": 0.5833333333333334,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.get_xbound"
+      ],
+      "local_scores": [
+        0.5833333333333334
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.get_ybound",
+      "api_type": "method",
+      "similarity": 0.5833333333333334,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.get_ybound"
+      ],
+      "local_scores": [
+        0.5833333333333334
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.BboxBase.bounds",
+      "api_type": "method",
+      "similarity": 0.5405405405405406,
+      "evolution_path": [
+        "matplotlib.transforms.BboxBase.bounds"
+      ],
+      "local_scores": [
+        0.5405405405405406
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetBox.get_bbox",
+      "api_type": "method",
+      "similarity": 0.53125,
+      "evolution_path": [
+        "matplotlib.offsetbox.OffsetBox.get_bbox"
+      ],
+      "local_scores": [
+        0.53125
+      ]
+    },
+    {
+      "fqn": "matplotlib.textpath.TextToPath._get_font",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [
+        "matplotlib.textpath.TextToPath._get_font"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._axes.Axes.get_legend_handles_labels",
+      "api_type": "method",
+      "similarity": 0.48717948717948717,
+      "evolution_path": [
+        "matplotlib.axes._axes.Axes.get_legend_handles_labels"
+      ],
+      "local_scores": [
+        0.48717948717948717
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.get_inverted",
+      "api_type": "method",
+      "similarity": 0.48484848484848486,
+      "evolution_path": [
+        "matplotlib.axis.Axis.get_inverted"
+      ],
+      "local_scores": [
+        0.48484848484848486
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.RendererPgf.get_text_width_height_descent",
+      "api_type": "method",
+      "similarity": 0.48,
+      "evolution_path": [
+        "matplotlib.backends.backend_pgf.RendererPgf.get_text_width_height_descent"
+      ],
+      "local_scores": [
+        0.48
+      ]
+    },
+    {
+      "fqn": "matplotlib.table.Table.add_cell",
+      "api_type": "method",
+      "similarity": 0.4772727272727273,
+      "evolution_path": [
+        "matplotlib.table.Table.add_cell"
+      ],
+      "local_scores": [
+        0.4772727272727273
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.get_majorticklabels",
+      "api_type": "method",
+      "similarity": 0.47619047619047616,
+      "evolution_path": [
+        "matplotlib.axis.Axis.get_majorticklabels"
+      ],
+      "local_scores": [
+        0.47619047619047616
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.get_minorticklabels",
+      "api_type": "method",
+      "similarity": 0.47619047619047616,
+      "evolution_path": [
+        "matplotlib.axis.Axis.get_minorticklabels"
+      ],
+      "local_scores": [
+        0.47619047619047616
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.ToolbarWx._get_tool_pos",
+      "api_type": "method",
+      "similarity": 0.4722222222222222,
+      "evolution_path": [
+        "matplotlib.backends.backend_wx.ToolbarWx._get_tool_pos"
+      ],
+      "local_scores": [
+        0.4722222222222222
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.BboxBase.containsx",
+      "api_type": "method",
+      "similarity": 0.4722222222222222,
+      "evolution_path": [
+        "matplotlib.transforms.BboxBase.containsx"
+      ],
+      "local_scores": [
+        0.4722222222222222
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.BboxBase.containsy",
+      "api_type": "method",
+      "similarity": 0.4722222222222222,
+      "evolution_path": [
+        "matplotlib.transforms.BboxBase.containsy"
+      ],
+      "local_scores": [
+        0.4722222222222222
+      ]
+    },
+    {
+      "fqn": "matplotlib.text.Text._get_rendered_text_width",
+      "api_type": "method",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [
+        "matplotlib.text.Text._get_rendered_text_width"
+      ],
+      "local_scores": [
+        0.4666666666666667
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.OffsetBox.get_window_extent",
+      "api_type": "method",
+      "similarity": 0.46551724137931033,
+      "evolution_path": [
+        "matplotlib.offsetbox.OffsetBox.get_window_extent"
+      ],
+      "local_scores": [
+        0.46551724137931033
+      ]
+    },
+    {
+      "fqn": "matplotlib.image.FigureImage.get_extent",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [
+        "matplotlib.image.FigureImage.get_extent"
+      ],
+      "local_scores": [
+        0.46511627906976744
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_user.compute_dz",
+      "api_type": "method",
+      "similarity": 0.46511627906976744,
+      "evolution_path": [
+        "matplotlib.tri._triinterpolate._DOF_estimator_user.compute_dz"
+      ],
+      "local_scores": [
+        0.46511627906976744
+      ]
+    },
+    {
+      "fqn": "matplotlib.gridspec.SubplotSpec.get_geometry",
+      "api_type": "method",
+      "similarity": 0.23809523809523808,
+      "evolution_path": [
+        "matplotlib._afm.AFM.get_kern_dist",
+        "matplotlib.gridspec.SubplotSpec.get_geometry"
+      ],
+      "local_scores": [
+        0.47619047619047616,
+        0.5
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.offsetbox.OffsetBox.get_extent",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.8.4",
+      "vpost": "3.9.0",
+      "resolved_fqn": "matplotlib.offsetbox.OffsetBox.get_extent",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.image.AxesImage.get_window_extent",
+          "similarity": 0.604651
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.get_xbound",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.get_ybound",
+          "similarity": 0.583333
+        },
+        {
+          "fqn": "matplotlib.transforms.BboxBase.bounds",
+          "similarity": 0.540541
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.get_bbox",
+          "similarity": 0.53125
+        },
+        {
+          "fqn": "matplotlib.textpath.TextToPath._get_font",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.axes._axes.Axes.get_legend_handles_labels",
+          "similarity": 0.487179
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.get_inverted",
+          "similarity": 0.484848
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.RendererPgf.get_text_width_height_descent",
+          "similarity": 0.48
+        },
+        {
+          "fqn": "matplotlib.table.Table.add_cell",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "matplotlib._afm.AFM.get_kern_dist",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.get_majorticklabels",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.get_minorticklabels",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.ToolbarWx._get_tool_pos",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib.transforms.BboxBase.containsx",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib.transforms.BboxBase.containsy",
+          "similarity": 0.472222
+        },
+        {
+          "fqn": "matplotlib.text.Text._get_rendered_text_width",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.get_window_extent",
+          "similarity": 0.465517
+        },
+        {
+          "fqn": "matplotlib.image.FigureImage.get_extent",
+          "similarity": 0.465116
+        },
+        {
+          "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_user.compute_dz",
+          "similarity": 0.465116
+        }
+      ],
+      "entered_final": [
+        "matplotlib.image.AxesImage.get_window_extent",
+        "matplotlib.axes._base._AxesBase.get_xbound",
+        "matplotlib.axes._base._AxesBase.get_ybound",
+        "matplotlib.transforms.BboxBase.bounds",
+        "matplotlib.offsetbox.OffsetBox.get_bbox",
+        "matplotlib.textpath.TextToPath._get_font",
+        "matplotlib.axes._axes.Axes.get_legend_handles_labels",
+        "matplotlib.axis.Axis.get_inverted",
+        "matplotlib.backends.backend_pgf.RendererPgf.get_text_width_height_descent",
+        "matplotlib.table.Table.add_cell",
+        "matplotlib.axis.Axis.get_majorticklabels",
+        "matplotlib.axis.Axis.get_minorticklabels",
+        "matplotlib.backends.backend_wx.ToolbarWx._get_tool_pos",
+        "matplotlib.transforms.BboxBase.containsx",
+        "matplotlib.transforms.BboxBase.containsy",
+        "matplotlib.text.Text._get_rendered_text_width",
+        "matplotlib.offsetbox.OffsetBox.get_window_extent",
+        "matplotlib.image.FigureImage.get_extent",
+        "matplotlib.tri._triinterpolate._DOF_estimator_user.compute_dz"
+      ],
+      "entered_iter": [
+        "matplotlib._afm.AFM.get_kern_dist"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib._afm.AFM.get_kern_dist",
+      "path_score": 0.47619,
+      "boundary": "DEPRECATED",
+      "vpre": "3.10.9",
+      "vpost": "3.11.0",
+      "resolved_fqn": "matplotlib._afm.AFM.get_kern_dist",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.gridspec.SubplotSpec.get_geometry",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.get_offset",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "matplotlib.text.Text.get_unitless_position",
+          "similarity": 0.468085
+        },
+        {
+          "fqn": "matplotlib.textpath.TextToPath._get_font",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.text.Text._get_xy_display",
+          "similarity": 0.454545
+        },
+        {
+          "fqn": "matplotlib.axes._axes.Axes.get_title",
+          "similarity": 0.44898
+        },
+        {
+          "fqn": "matplotlib.offsetbox.OffsetBox.get_bbox",
+          "similarity": 0.447368
+        },
+        {
+          "fqn": "matplotlib._afm.AFM.get_kern_dist_from_name",
+          "similarity": 0.446809
+        },
+        {
+          "fqn": "matplotlib.offsetbox.AnchoredOffsetbox.get_bbox",
+          "similarity": 0.44
+        },
+        {
+          "fqn": "matplotlib.offsetbox.DrawingArea.get_bbox",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.table.Cell.get_required_width",
+          "similarity": 0.434783
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.get_xbound",
+          "similarity": 0.431818
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.get_ybound",
+          "similarity": 0.431818
+        },
+        {
+          "fqn": "matplotlib.legend.Legend._get_anchored_bbox",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "matplotlib.text.Text._get_rendered_text_width",
+          "similarity": 0.425926
+        },
+        {
+          "fqn": "matplotlib.animation.AbstractMovieWriter.frame_size",
+          "similarity": 0.425532
+        },
+        {
+          "fqn": "matplotlib.cbook.Grouper.get_siblings",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "matplotlib.axes._axes.Axes.get_legend_handles_labels",
+          "similarity": 0.422222
+        },
+        {
+          "fqn": "matplotlib.projections.polar.ThetaLocator.view_limits",
+          "similarity": 0.416667
+        },
+        {
+          "fqn": "matplotlib.collections.FillBetweenPolyCollection.get_datalim",
+          "similarity": 0.415094
+        }
+      ],
+      "entered_final": [
+        "matplotlib.gridspec.SubplotSpec.get_geometry",
+        "matplotlib.offsetbox.OffsetBox.get_offset",
+        "matplotlib.text.Text.get_unitless_position",
+        "matplotlib.textpath.TextToPath._get_font",
+        "matplotlib.text.Text._get_xy_display",
+        "matplotlib.axes._axes.Axes.get_title",
+        "matplotlib.offsetbox.OffsetBox.get_bbox",
+        "matplotlib._afm.AFM.get_kern_dist_from_name",
+        "matplotlib.offsetbox.AnchoredOffsetbox.get_bbox",
+        "matplotlib.offsetbox.DrawingArea.get_bbox",
+        "matplotlib.table.Cell.get_required_width",
+        "matplotlib.axes._base._AxesBase.get_xbound",
+        "matplotlib.axes._base._AxesBase.get_ybound",
+        "matplotlib.legend.Legend._get_anchored_bbox",
+        "matplotlib.text.Text._get_rendered_text_width",
+        "matplotlib.animation.AbstractMovieWriter.frame_size",
+        "matplotlib.cbook.Grouper.get_siblings",
+        "matplotlib.axes._axes.Axes.get_legend_handles_labels",
+        "matplotlib.projections.polar.ThetaLocator.view_limits",
+        "matplotlib.collections.FillBetweenPolyCollection.get_datalim"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.238095,
+      "dead_reason": null
+    }
+  ]
+}

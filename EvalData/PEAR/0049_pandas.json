@@ -1,0 +1,363 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "2.1.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.tests.extension.base.reduce.BaseNumericReduceTests",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "pandas.errors.__init__.PyperclipWindowsException",
+      "api_type": "class",
+      "similarity": 0.2898550724637681,
+      "evolution_path": [
+        "pandas.errors.__init__.PyperclipWindowsException"
+      ],
+      "local_scores": [
+        0.2898550724637681
+      ]
+    },
+    {
+      "fqn": "pandas.core.accessor.Accessor",
+      "api_type": "class",
+      "similarity": 0.2876712328767123,
+      "evolution_path": [
+        "pandas.core.accessor.Accessor"
+      ],
+      "local_scores": [
+        0.2876712328767123
+      ]
+    },
+    {
+      "fqn": "pandas.plotting._matplotlib.converter.PandasAutoDateFormatter",
+      "api_type": "class",
+      "similarity": 0.2835820895522388,
+      "evolution_path": [
+        "pandas.plotting._matplotlib.converter.PandasAutoDateFormatter"
+      ],
+      "local_scores": [
+        0.2835820895522388
+      ]
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.TestCoercionString",
+      "api_type": "class",
+      "similarity": 0.2727272727272727,
+      "evolution_path": [
+        "pandas.tests.series.indexing.test_setitem.TestCoercionString"
+      ],
+      "local_scores": [
+        0.2727272727272727
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays.datetimelike.DatelikeOps",
+      "api_type": "class",
+      "similarity": 0.2682926829268293,
+      "evolution_path": [
+        "pandas.core.arrays.datetimelike.DatelikeOps"
+      ],
+      "local_scores": [
+        0.2682926829268293
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.UndefinedVariableError",
+      "api_type": "class",
+      "similarity": 0.26506024096385544,
+      "evolution_path": [
+        "pandas.errors.__init__.UndefinedVariableError"
+      ],
+      "local_scores": [
+        0.26506024096385544
+      ]
+    },
+    {
+      "fqn": "pandas.core.arrays.sparse.accessor.BaseAccessor",
+      "api_type": "class",
+      "similarity": 0.2647058823529412,
+      "evolution_path": [
+        "pandas.core.arrays.sparse.accessor.BaseAccessor"
+      ],
+      "local_scores": [
+        0.2647058823529412
+      ]
+    },
+    {
+      "fqn": "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesDatetimeIndex",
+      "api_type": "class",
+      "similarity": 0.25806451612903225,
+      "evolution_path": [
+        "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesDatetimeIndex"
+      ],
+      "local_scores": [
+        0.25806451612903225
+      ]
+    },
+    {
+      "fqn": "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesTimedeltaIndex",
+      "api_type": "class",
+      "similarity": 0.25806451612903225,
+      "evolution_path": [
+        "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesTimedeltaIndex"
+      ],
+      "local_scores": [
+        0.25806451612903225
+      ]
+    },
+    {
+      "fqn": "pandas.tseries.holiday.HolidayCalendarMetaClass",
+      "api_type": "class",
+      "similarity": 0.25675675675675674,
+      "evolution_path": [
+        "pandas.tseries.holiday.HolidayCalendarMetaClass"
+      ],
+      "local_scores": [
+        0.25675675675675674
+      ]
+    },
+    {
+      "fqn": "pandas.tests.api.test_api.TestErrors",
+      "api_type": "class",
+      "similarity": 0.2537313432835821,
+      "evolution_path": [
+        "pandas.tests.api.test_api.TestErrors"
+      ],
+      "local_scores": [
+        0.2537313432835821
+      ]
+    },
+    {
+      "fqn": "pandas.tests.extension.test_string.Test2DCompat",
+      "api_type": "class",
+      "similarity": 0.2537313432835821,
+      "evolution_path": [
+        "pandas.tests.extension.test_string.Test2DCompat"
+      ],
+      "local_scores": [
+        0.2537313432835821
+      ]
+    },
+    {
+      "fqn": "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesPeriodIndex",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [
+        "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesPeriodIndex"
+      ],
+      "local_scores": [
+        0.25
+      ]
+    },
+    {
+      "fqn": "pandas._libs.indexing.NDFrameIndexerBase",
+      "api_type": "class",
+      "similarity": 0.24691358024691357,
+      "evolution_path": [
+        "pandas._libs.indexing.NDFrameIndexerBase"
+      ],
+      "local_scores": [
+        0.24691358024691357
+      ]
+    },
+    {
+      "fqn": "pandas.tests.series.indexing.test_setitem.TestCoercionObject",
+      "api_type": "class",
+      "similarity": 0.2465753424657534,
+      "evolution_path": [
+        "pandas.tests.series.indexing.test_setitem.TestCoercionObject"
+      ],
+      "local_scores": [
+        0.2465753424657534
+      ]
+    },
+    {
+      "fqn": "pandas.tests.extension.test_common.CapturingStringArray",
+      "api_type": "class",
+      "similarity": 0.24615384615384617,
+      "evolution_path": [
+        "pandas.tests.extension.test_common.CapturingStringArray"
+      ],
+      "local_scores": [
+        0.24615384615384617
+      ]
+    },
+    {
+      "fqn": "pandas.core._numba.extensions.SeriesModel",
+      "api_type": "class",
+      "similarity": 0.24324324324324326,
+      "evolution_path": [
+        "pandas.core._numba.extensions.SeriesModel"
+      ],
+      "local_scores": [
+        0.24324324324324326
+      ]
+    },
+    {
+      "fqn": "pandas.core.computation.ops.FuncNode",
+      "api_type": "class",
+      "similarity": 0.2413793103448276,
+      "evolution_path": [
+        "pandas.core.computation.ops.FuncNode"
+      ],
+      "local_scores": [
+        0.2413793103448276
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "pandas.tests.extension.base.reduce.BaseNumericReduceTests",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "2.3.3",
+      "vpost": "3.0.0",
+      "resolved_fqn": "pandas.tests.extension.base.reduce.BaseNumericReduceTests",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.errors.__init__.PyperclipWindowsException",
+          "similarity": 0.289855
+        },
+        {
+          "fqn": "pandas.core.accessor.Accessor",
+          "similarity": 0.287671
+        },
+        {
+          "fqn": "pandas.plotting._matplotlib.converter.PandasAutoDateFormatter",
+          "similarity": 0.283582
+        },
+        {
+          "fqn": "pandas.tests.indexing.test_coercion.CoercionBase",
+          "similarity": 0.279412
+        },
+        {
+          "fqn": "pandas.tests.series.indexing.test_setitem.TestCoercionString",
+          "similarity": 0.272727
+        },
+        {
+          "fqn": "pandas.core.arrays.datetimelike.DatelikeOps",
+          "similarity": 0.268293
+        },
+        {
+          "fqn": "pandas.errors.__init__.UndefinedVariableError",
+          "similarity": 0.26506
+        },
+        {
+          "fqn": "pandas.core.arrays.sparse.accessor.BaseAccessor",
+          "similarity": 0.264706
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesDatetimeIndex",
+          "similarity": 0.258065
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesTimedeltaIndex",
+          "similarity": 0.258065
+        },
+        {
+          "fqn": "pandas.tseries.holiday.HolidayCalendarMetaClass",
+          "similarity": 0.256757
+        },
+        {
+          "fqn": "pandas.tests.api.test_api.TestErrors",
+          "similarity": 0.253731
+        },
+        {
+          "fqn": "pandas.tests.extension.test_string.Test2DCompat",
+          "similarity": 0.253731
+        },
+        {
+          "fqn": "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesPeriodIndex",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "pandas._libs.indexing.NDFrameIndexerBase",
+          "similarity": 0.246914
+        },
+        {
+          "fqn": "pandas.tests.series.indexing.test_setitem.TestCoercionObject",
+          "similarity": 0.246575
+        },
+        {
+          "fqn": "pandas.tests.extension.test_common.CapturingStringArray",
+          "similarity": 0.246154
+        },
+        {
+          "fqn": "pandas.core._numba.extensions.SeriesModel",
+          "similarity": 0.243243
+        },
+        {
+          "fqn": "pandas.core.computation.ops.FuncNode",
+          "similarity": 0.241379
+        },
+        {
+          "fqn": "pandas.tests.indexes.test_any_index.TestRendering",
+          "similarity": 0.239437
+        }
+      ],
+      "entered_final": [
+        "pandas.errors.__init__.PyperclipWindowsException",
+        "pandas.core.accessor.Accessor",
+        "pandas.plotting._matplotlib.converter.PandasAutoDateFormatter",
+        "pandas.tests.series.indexing.test_setitem.TestCoercionString",
+        "pandas.core.arrays.datetimelike.DatelikeOps",
+        "pandas.errors.__init__.UndefinedVariableError",
+        "pandas.core.arrays.sparse.accessor.BaseAccessor",
+        "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesDatetimeIndex",
+        "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesTimedeltaIndex",
+        "pandas.tseries.holiday.HolidayCalendarMetaClass",
+        "pandas.tests.api.test_api.TestErrors",
+        "pandas.tests.extension.test_string.Test2DCompat",
+        "pandas.tests.indexes.datetimelike_.test_drop_duplicates.TestDropDuplicatesPeriodIndex",
+        "pandas._libs.indexing.NDFrameIndexerBase",
+        "pandas.tests.series.indexing.test_setitem.TestCoercionObject",
+        "pandas.tests.extension.test_common.CapturingStringArray",
+        "pandas.core._numba.extensions.SeriesModel",
+        "pandas.core.computation.ops.FuncNode"
+      ],
+      "entered_iter": [
+        "pandas.tests.indexing.test_coercion.CoercionBase",
+        "pandas.tests.indexes.test_any_index.TestRendering"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tests.indexing.test_coercion.CoercionBase",
+      "path_score": 0.279412,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "pandas.tests.indexes.test_any_index.TestRendering",
+      "path_score": 0.239437,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    }
+  ]
+}

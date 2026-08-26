@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.colorbar.ColorbarPatch",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.colors.SegmentedBivarColormap",
+      "api_type": "class",
+      "similarity": 0.549520766773163,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.transforms.TransformedBbox",
+      "api_type": "class",
+      "similarity": 0.5472222222222223,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.polar._WedgeBbox",
+      "api_type": "class",
+      "similarity": 0.5357142857142857,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.BoundaryNorm",
+      "api_type": "class",
+      "similarity": 0.5114942528735632,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.hatch.Shapes",
+      "api_type": "class",
+      "similarity": 0.5104166666666666,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.streamplot.Grid",
+      "api_type": "class",
+      "similarity": 0.5072046109510087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorbar._ColorbarAxesLocator",
+      "api_type": "class",
+      "similarity": 0.504950495049505,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_min_E",
+      "api_type": "class",
+      "similarity": 0.5017421602787456,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.ListedColormap",
+      "api_type": "class",
+      "similarity": 0.5015105740181269,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.OffsetFrom",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triinterpolate._DOF_estimator",
+      "api_type": "class",
+      "similarity": 0.4897360703812317,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.StrConverter.StrConverter",
+      "api_type": "class",
+      "similarity": 0.48757763975155277,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.PowerNorm",
+      "api_type": "class",
+      "similarity": 0.4851190476190476,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.AutoMinorLocator",
+      "api_type": "class",
+      "similarity": 0.4769736842105263,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._axis_method_wrapper",
+      "api_type": "class",
+      "similarity": 0.4716312056737589,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.MultipleLocator",
+      "api_type": "class",
+      "similarity": 0.470404984423676,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.image.FigureImage",
+      "api_type": "class",
+      "similarity": 0.46984126984126984,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.collections.PolyCollection",
+      "api_type": "class",
+      "similarity": 0.4695121951219512,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.ToolLineHandles",
+      "api_type": "class",
+      "similarity": 0.4626038781163435,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._tricontour.TriContourSet",
+      "api_type": "class",
+      "similarity": 0.4573002754820937,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

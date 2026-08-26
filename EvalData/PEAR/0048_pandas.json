@@ -1,0 +1,367 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "2.1.4",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.tests.extension.base.reduce.BaseNoReduceTests",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "pandas.errors.__init__.NoBufferPresent",
+      "api_type": "class",
+      "similarity": 0.391304347826087,
+      "evolution_path": [
+        "pandas.errors.__init__.NoBufferPresent"
+      ],
+      "local_scores": [
+        0.391304347826087
+      ]
+    },
+    {
+      "fqn": "pandas._libs.lib._NoDefault",
+      "api_type": "class",
+      "similarity": 0.34782608695652173,
+      "evolution_path": [
+        "pandas._libs.lib._NoDefault"
+      ],
+      "local_scores": [
+        0.34782608695652173
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.CSSWarning",
+      "api_type": "class",
+      "similarity": 0.3,
+      "evolution_path": [
+        "pandas.errors.__init__.CSSWarning"
+      ],
+      "local_scores": [
+        0.3
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.DataError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.DataError"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.DatabaseError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.DatabaseError"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.DtypeWarning",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.DtypeWarning"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.IncompatibilityWarning",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.IncompatibilityWarning"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.IndexingError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.IndexingError"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.InvalidComparison",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.InvalidComparison"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.MergeError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.MergeError"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.ParserError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.ParserError"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.ParserWarning",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.ParserWarning"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.PerformanceWarning",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.PerformanceWarning"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.PyperclipException",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.PyperclipException"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.errors.__init__.SpecificationError",
+      "api_type": "class",
+      "similarity": 0.2608695652173913,
+      "evolution_path": [
+        "pandas.errors.__init__.SpecificationError"
+      ],
+      "local_scores": [
+        0.2608695652173913
+      ]
+    },
+    {
+      "fqn": "pandas.tests.frame.methods.test_astype.IntegerArrayNoCopy",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [
+        "pandas.tests.frame.methods.test_astype.IntegerArrayNoCopy"
+      ],
+      "local_scores": [
+        0.25
+      ]
+    },
+    {
+      "fqn": "pandas.core.indexes.accessors.PeriodProperties",
+      "api_type": "class",
+      "similarity": 0.24,
+      "evolution_path": [
+        "pandas.core.indexes.accessors.PeriodProperties"
+      ],
+      "local_scores": [
+        0.24
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "pandas.tests.extension.base.reduce.BaseNoReduceTests",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "2.3.3",
+      "vpost": "3.0.0",
+      "resolved_fqn": "pandas.tests.extension.base.reduce.BaseNoReduceTests",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "pandas.errors.__init__.NoBufferPresent",
+          "similarity": 0.391304
+        },
+        {
+          "fqn": "pandas.tests.extension.base.base.BaseExtensionTests",
+          "similarity": 0.363636
+        },
+        {
+          "fqn": "pandas._libs.lib._NoDefault",
+          "similarity": 0.347826
+        },
+        {
+          "fqn": "pandas.errors.__init__.CSSWarning",
+          "similarity": 0.3
+        },
+        {
+          "fqn": "pandas._version.VersioneerConfig",
+          "similarity": 0.272727
+        },
+        {
+          "fqn": "pandas.tests.dtypes.test_inference.TestTypeInference.Dummy",
+          "similarity": 0.263158
+        },
+        {
+          "fqn": "pandas.errors.__init__.DataError",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.DatabaseError",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.DtypeWarning",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.IncompatibilityWarning",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.IndexingError",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.InvalidComparison",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.MergeError",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.ParserError",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.ParserWarning",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.PerformanceWarning",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.PyperclipException",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.errors.__init__.SpecificationError",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "pandas.tests.frame.methods.test_astype.IntegerArrayNoCopy",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "pandas.core.indexes.accessors.PeriodProperties",
+          "similarity": 0.24
+        }
+      ],
+      "entered_final": [
+        "pandas.errors.__init__.NoBufferPresent",
+        "pandas._libs.lib._NoDefault",
+        "pandas.errors.__init__.CSSWarning",
+        "pandas.errors.__init__.DataError",
+        "pandas.errors.__init__.DatabaseError",
+        "pandas.errors.__init__.DtypeWarning",
+        "pandas.errors.__init__.IncompatibilityWarning",
+        "pandas.errors.__init__.IndexingError",
+        "pandas.errors.__init__.InvalidComparison",
+        "pandas.errors.__init__.MergeError",
+        "pandas.errors.__init__.ParserError",
+        "pandas.errors.__init__.ParserWarning",
+        "pandas.errors.__init__.PerformanceWarning",
+        "pandas.errors.__init__.PyperclipException",
+        "pandas.errors.__init__.SpecificationError",
+        "pandas.tests.frame.methods.test_astype.IntegerArrayNoCopy",
+        "pandas.core.indexes.accessors.PeriodProperties"
+      ],
+      "entered_iter": [
+        "pandas.tests.extension.base.base.BaseExtensionTests",
+        "pandas._version.VersioneerConfig",
+        "pandas.tests.dtypes.test_inference.TestTypeInference.Dummy"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "pandas.tests.extension.base.base.BaseExtensionTests",
+      "path_score": 0.363636,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "pandas._version.VersioneerConfig",
+      "path_score": 0.272727,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    },
+    {
+      "fqn": "pandas.tests.dtypes.test_inference.TestTypeInference.Dummy",
+      "path_score": 0.263158,
+      "boundary": "NOT_FOUND",
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": "not_found"
+    }
+  ]
+}

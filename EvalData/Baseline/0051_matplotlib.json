@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "2.0.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backend_bases.GraphicsContextBase.get_linestyle",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.collections.Collection.get_linestyle",
+      "api_type": "method",
+      "similarity": 0.9230769230769231,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D.get_linestyle",
+      "api_type": "method",
+      "similarity": 0.9230769230769231,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patches.Patch.get_linestyle",
+      "api_type": "method",
+      "similarity": 0.9230769230769231,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.qt_editor._formlayout.FormDialog.get",
+      "api_type": "method",
+      "similarity": 0.6923076923076923,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._api.__init__.classproperty.__get__",
+      "api_type": "method",
+      "similarity": 0.5882352941176471,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_alpha",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_animated",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_gid",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_label",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_mouseover",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_picker",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_rasterized",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_url",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_visible",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.get_zorder",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.get_adjustable",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.get_anchor",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.get_aspect",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.get_axisbelow",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.get_legend",
+      "api_type": "method",
+      "similarity": 0.5625,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

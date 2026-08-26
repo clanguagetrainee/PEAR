@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.20.3",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.core.series.Series.reindex_axis",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.core.arrays.sparse.array.SparseArray.__setitem__",
+      "api_type": "method",
+      "similarity": 0.4722222222222222,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.extension.test_sparse.TestSparseArray.test_reindex",
+      "api_type": "method",
+      "similarity": 0.43243243243243246,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.base.ExtensionArray.__setitem__",
+      "api_type": "method",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index._validate_can_reindex",
+      "api_type": "method",
+      "similarity": 0.4186046511627907,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.frame.DataFrame._get_agg_axis",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.plotting.test_converter.TestPeriodConverter.axis",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.expr.BaseExprVisitor.visit_Module",
+      "api_type": "method",
+      "similarity": 0.40425531914893614,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.groupby.GroupBy.resample",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexing._iAtIndexer._convert_key",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexing._iLocIndexer._get_list_axis",
+      "api_type": "method",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.flags.Flags.__setitem__",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.multi.MultiIndex.__array__",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.sparse.accessor.SparseAccessor._validate",
+      "api_type": "method",
+      "similarity": 0.3888888888888889,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.plotting._misc._Options.__getitem__",
+      "api_type": "method",
+      "similarity": 0.38636363636363635,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.base.Index._wrap_reindex_result",
+      "api_type": "method",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays._mixins.NDArrayBackedExtensionArray.__setitem__",
+      "api_type": "method",
+      "similarity": 0.3695652173913043,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.generic.DataFrameGroupBy.transform",
+      "api_type": "method",
+      "similarity": 0.3684210526315789,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.groupby.generic.SeriesGroupBy.transform",
+      "api_type": "method",
+      "similarity": 0.3684210526315789,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.flags.Flags.__getitem__",
+      "api_type": "method",
+      "similarity": 0.36585365853658536,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.window.rolling.Window.std",
+      "api_type": "method",
+      "similarity": 0.36363636363636365,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

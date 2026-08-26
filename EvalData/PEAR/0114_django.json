@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.8.19",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.fields.related.SingleRelatedObjectDescriptor",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
+      "api_type": "class",
+      "similarity": 0.9197761194029851,
+      "evolution_path": [
+        "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor"
+      ],
+      "local_scores": [
+        0.9197761194029851
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
+      "api_type": "class",
+      "similarity": 0.835016835016835,
+      "evolution_path": [
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor"
+      ],
+      "local_scores": [
+        0.835016835016835
+      ]
+    },
+    {
+      "fqn": "django.forms.models.BaseInlineFormSet",
+      "api_type": "class",
+      "similarity": 0.5921259842519685,
+      "evolution_path": [
+        "django.forms.models.BaseInlineFormSet"
+      ],
+      "local_scores": [
+        0.5921259842519685
+      ]
+    },
+    {
+      "fqn": "django.forms.models.BaseModelForm",
+      "api_type": "class",
+      "similarity": 0.5656565656565656,
+      "evolution_path": [
+        "django.forms.models.BaseModelForm"
+      ],
+      "local_scores": [
+        0.5656565656565656
+      ]
+    },
+    {
+      "fqn": "django.db.models.sql.compiler.SQLUpdateCompiler",
+      "api_type": "class",
+      "similarity": 0.5495356037151703,
+      "evolution_path": [
+        "django.db.models.sql.compiler.SQLUpdateCompiler"
+      ],
+      "local_scores": [
+        0.5495356037151703
+      ]
+    },
+    {
+      "fqn": "django.db.models.manager.BaseManager",
+      "api_type": "class",
+      "similarity": 0.5473251028806584,
+      "evolution_path": [
+        "django.db.models.manager.BaseManager"
+      ],
+      "local_scores": [
+        0.5473251028806584
+      ]
+    },
+    {
+      "fqn": "django.contrib.auth.management.commands.createsuperuser.Command",
+      "api_type": "class",
+      "similarity": 0.5392953929539296,
+      "evolution_path": [
+        "django.contrib.auth.management.commands.createsuperuser.Command"
+      ],
+      "local_scores": [
+        0.5392953929539296
+      ]
+    },
+    {
+      "fqn": "django.core.serializers.xml_serializer.Deserializer",
+      "api_type": "class",
+      "similarity": 0.5386779184247539,
+      "evolution_path": [
+        "django.core.serializers.xml_serializer.Deserializer"
+      ],
+      "local_scores": [
+        0.5386779184247539
+      ]
+    },
+    {
+      "fqn": "django.core.files.storage.FileSystemStorage",
+      "api_type": "class",
+      "similarity": 0.53737658674189,
+      "evolution_path": [
+        "django.core.files.storage.FileSystemStorage"
+      ],
+      "local_scores": [
+        0.53737658674189
+      ]
+    },
+    {
+      "fqn": "django.template.loaders.cached.Loader",
+      "api_type": "class",
+      "similarity": 0.5367762128325508,
+      "evolution_path": [
+        "django.template.loaders.cached.Loader"
+      ],
+      "local_scores": [
+        0.5367762128325508
+      ]
+    },
+    {
+      "fqn": "django.db.models.sql.compiler.SQLInsertCompiler",
+      "api_type": "class",
+      "similarity": 0.5305555555555556,
+      "evolution_path": [
+        "django.db.models.sql.compiler.SQLInsertCompiler"
+      ],
+      "local_scores": [
+        0.5305555555555556
+      ]
+    },
+    {
+      "fqn": "django.db.models.query.RawQuerySet",
+      "api_type": "class",
+      "similarity": 0.5274725274725275,
+      "evolution_path": [
+        "django.db.models.query.RawQuerySet"
+      ],
+      "local_scores": [
+        0.5274725274725275
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.migration.Migration",
+      "api_type": "class",
+      "similarity": 0.5251215559157212,
+      "evolution_path": [
+        "django.db.migrations.migration.Migration"
+      ],
+      "local_scores": [
+        0.5251215559157212
+      ]
+    },
+    {
+      "fqn": "django.template.base.Variable",
+      "api_type": "class",
+      "similarity": 0.5243506493506493,
+      "evolution_path": [
+        "django.template.base.Variable"
+      ],
+      "local_scores": [
+        0.5243506493506493
+      ]
+    },
+    {
+      "fqn": "django.contrib.sessions.backends.file.SessionStore",
+      "api_type": "class",
+      "similarity": 0.5207182320441989,
+      "evolution_path": [
+        "django.contrib.sessions.backends.file.SessionStore"
+      ],
+      "local_scores": [
+        0.5207182320441989
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.operations.models.RenameModel",
+      "api_type": "class",
+      "similarity": 0.5125553914327917,
+      "evolution_path": [
+        "django.db.migrations.operations.models.RenameModel"
+      ],
+      "local_scores": [
+        0.5125553914327917
+      ]
+    },
+    {
+      "fqn": "django.contrib.contenttypes.fields.GenericForeignKey",
+      "api_type": "class",
+      "similarity": 0.5106382978723404,
+      "evolution_path": [
+        "django.contrib.contenttypes.fields.GenericForeignKey"
+      ],
+      "local_scores": [
+        0.5106382978723404
+      ]
+    },
+    {
+      "fqn": "django.template.base.Parser",
+      "api_type": "class",
+      "similarity": 0.5076708507670851,
+      "evolution_path": [
+        "django.template.base.Parser"
+      ],
+      "local_scores": [
+        0.5076708507670851
+      ]
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.DateTimeField",
+      "api_type": "class",
+      "similarity": 0.5068119891008175,
+      "evolution_path": [
+        "django.db.models.fields.__init__.DateTimeField"
+      ],
+      "local_scores": [
+        0.5068119891008175
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.state.ProjectState",
+      "api_type": "class",
+      "similarity": 0.5061349693251533,
+      "evolution_path": [
+        "django.db.migrations.state.ProjectState"
+      ],
+      "local_scores": [
+        0.5061349693251533
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.db.models.fields.related.SingleRelatedObjectDescriptor",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "1.8.19",
+      "vpost": "1.9",
+      "resolved_fqn": "django.db.models.fields.related.SingleRelatedObjectDescriptor",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
+          "similarity": 0.919776
+        },
+        {
+          "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
+          "similarity": 0.835017
+        },
+        {
+          "fqn": "django.forms.models.BaseInlineFormSet",
+          "similarity": 0.592126
+        },
+        {
+          "fqn": "django.forms.models.BaseModelForm",
+          "similarity": 0.565657
+        },
+        {
+          "fqn": "django.db.models.sql.compiler.SQLUpdateCompiler",
+          "similarity": 0.549536
+        },
+        {
+          "fqn": "django.db.models.manager.BaseManager",
+          "similarity": 0.547325
+        },
+        {
+          "fqn": "django.contrib.auth.management.commands.createsuperuser.Command",
+          "similarity": 0.539295
+        },
+        {
+          "fqn": "django.core.serializers.xml_serializer.Deserializer",
+          "similarity": 0.538678
+        },
+        {
+          "fqn": "django.core.files.storage.FileSystemStorage",
+          "similarity": 0.537377
+        },
+        {
+          "fqn": "django.template.loaders.cached.Loader",
+          "similarity": 0.536776
+        },
+        {
+          "fqn": "django.db.models.sql.compiler.SQLInsertCompiler",
+          "similarity": 0.530556
+        },
+        {
+          "fqn": "django.db.models.query.RawQuerySet",
+          "similarity": 0.527473
+        },
+        {
+          "fqn": "django.db.migrations.migration.Migration",
+          "similarity": 0.525122
+        },
+        {
+          "fqn": "django.template.base.Variable",
+          "similarity": 0.524351
+        },
+        {
+          "fqn": "django.contrib.sessions.backends.file.SessionStore",
+          "similarity": 0.520718
+        },
+        {
+          "fqn": "django.db.migrations.operations.models.RenameModel",
+          "similarity": 0.512555
+        },
+        {
+          "fqn": "django.contrib.contenttypes.fields.GenericForeignKey",
+          "similarity": 0.510638
+        },
+        {
+          "fqn": "django.template.base.Parser",
+          "similarity": 0.507671
+        },
+        {
+          "fqn": "django.db.models.fields.__init__.DateTimeField",
+          "similarity": 0.506812
+        },
+        {
+          "fqn": "django.db.migrations.state.ProjectState",
+          "similarity": 0.506135
+        }
+      ],
+      "entered_final": [
+        "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor",
+        "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor",
+        "django.forms.models.BaseInlineFormSet",
+        "django.forms.models.BaseModelForm",
+        "django.db.models.sql.compiler.SQLUpdateCompiler",
+        "django.db.models.manager.BaseManager",
+        "django.contrib.auth.management.commands.createsuperuser.Command",
+        "django.core.serializers.xml_serializer.Deserializer",
+        "django.core.files.storage.FileSystemStorage",
+        "django.template.loaders.cached.Loader",
+        "django.db.models.sql.compiler.SQLInsertCompiler",
+        "django.db.models.query.RawQuerySet",
+        "django.db.migrations.migration.Migration",
+        "django.template.base.Variable",
+        "django.contrib.sessions.backends.file.SessionStore",
+        "django.db.migrations.operations.models.RenameModel",
+        "django.contrib.contenttypes.fields.GenericForeignKey",
+        "django.template.base.Parser",
+        "django.db.models.fields.__init__.DateTimeField",
+        "django.db.migrations.state.ProjectState"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.506135,
+      "dead_reason": null
+    }
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.2.2",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backends.backend_pgf.GraphicsContextPgf",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends.backend_template.GraphicsContextTemplate",
+      "api_type": "class",
+      "similarity": 0.631578947368421,
+      "evolution_path": [
+        "matplotlib.backends.backend_template.GraphicsContextTemplate"
+      ],
+      "local_scores": [
+        0.631578947368421
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf._BackendPgf",
+      "api_type": "class",
+      "similarity": 0.34782608695652173,
+      "evolution_path": [
+        "matplotlib.backends.backend_pgf._BackendPgf"
+      ],
+      "local_scores": [
+        0.34782608695652173
+      ]
+    },
+    {
+      "fqn": "matplotlib.patheffects.Normal",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [
+        "matplotlib.patheffects.Normal"
+      ],
+      "local_scores": [
+        0.25
+      ]
+    },
+    {
+      "fqn": "matplotlib.rcsetup._ignorecase",
+      "api_type": "class",
+      "similarity": 0.25,
+      "evolution_path": [
+        "matplotlib.rcsetup._ignorecase"
+      ],
+      "local_scores": [
+        0.25
+      ]
+    },
+    {
+      "fqn": "matplotlib.sphinxext.plot_directive.PlotError",
+      "api_type": "class",
+      "similarity": 0.22727272727272727,
+      "evolution_path": [
+        "matplotlib.sphinxext.plot_directive.PlotError"
+      ],
+      "local_scores": [
+        0.22727272727272727
+      ]
+    },
+    {
+      "fqn": "matplotlib.streamplot.TerminateTrajectory",
+      "api_type": "class",
+      "similarity": 0.22727272727272727,
+      "evolution_path": [
+        "matplotlib.streamplot.TerminateTrajectory"
+      ],
+      "local_scores": [
+        0.22727272727272727
+      ]
+    },
+    {
+      "fqn": "matplotlib.testing.compare._ConverterError",
+      "api_type": "class",
+      "similarity": 0.22727272727272727,
+      "evolution_path": [
+        "matplotlib.testing.compare._ConverterError"
+      ],
+      "local_scores": [
+        0.22727272727272727
+      ]
+    },
+    {
+      "fqn": "matplotlib.units.ConversionError",
+      "api_type": "class",
+      "similarity": 0.22727272727272727,
+      "evolution_path": [
+        "matplotlib.units.ConversionError"
+      ],
+      "local_scores": [
+        0.22727272727272727
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.CloseEvent",
+      "api_type": "class",
+      "similarity": 0.21739130434782608,
+      "evolution_path": [
+        "matplotlib.backend_bases.CloseEvent"
+      ],
+      "local_scores": [
+        0.21739130434782608
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt5._BackendQT5",
+      "api_type": "class",
+      "similarity": 0.21739130434782608,
+      "evolution_path": [
+        "matplotlib.backends.backend_qt5._BackendQT5"
+      ],
+      "local_scores": [
+        0.21739130434782608
+      ]
+    },
+    {
+      "fqn": "matplotlib.sphinxext.mathmpl.latex_math",
+      "api_type": "class",
+      "similarity": 0.21739130434782608,
+      "evolution_path": [
+        "matplotlib.sphinxext.mathmpl.latex_math"
+      ],
+      "local_scores": [
+        0.21739130434782608
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_macosx.TimerMac",
+      "api_type": "class",
+      "similarity": 0.20833333333333334,
+      "evolution_path": [
+        "matplotlib.backends.backend_macosx.TimerMac"
+      ],
+      "local_scores": [
+        0.20833333333333334
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.FuncNorm",
+      "api_type": "class",
+      "similarity": 0.20833333333333334,
+      "evolution_path": [
+        "matplotlib.colors.FuncNorm"
+      ],
+      "local_scores": [
+        0.20833333333333334
+      ]
+    },
+    {
+      "fqn": "matplotlib._mathtext.DejaVuSansFontConstants",
+      "api_type": "class",
+      "similarity": 0.2,
+      "evolution_path": [
+        "matplotlib._mathtext.DejaVuSansFontConstants"
+      ],
+      "local_scores": [
+        0.2
+      ]
+    },
+    {
+      "fqn": "matplotlib._mathtext.DejaVuSerifFontConstants",
+      "api_type": "class",
+      "similarity": 0.2,
+      "evolution_path": [
+        "matplotlib._mathtext.DejaVuSerifFontConstants"
+      ],
+      "local_scores": [
+        0.2
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+      "api_type": "class",
+      "similarity": 0.2,
+      "evolution_path": [
+        "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg"
+      ],
+      "local_scores": [
+        0.2
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+      "api_type": "class",
+      "similarity": 0.2,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg.FigureCanvasWebAgg"
+      ],
+      "local_scores": [
+        0.2
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk3.FigureManagerGTK3",
+      "api_type": "class",
+      "similarity": 0.1272727272727273,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk3agg.FigureManagerGTK3Agg",
+        "matplotlib.backends.backend_gtk3.FigureManagerGTK3"
+      ],
+      "local_scores": [
+        0.2,
+        0.6363636363636364
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4.FigureManagerGTK4",
+      "api_type": "class",
+      "similarity": 0.1272727272727273,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk4agg.FigureManagerGTK4Agg",
+        "matplotlib.backends.backend_gtk4.FigureManagerGTK4"
+      ],
+      "local_scores": [
+        0.2,
+        0.6363636363636364
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_template.FigureManagerTemplate",
+      "api_type": "class",
+      "similarity": 0.11000000000000001,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk3agg.FigureManagerGTK3Agg",
+        "matplotlib.backends.backend_template.FigureManagerTemplate"
+      ],
+      "local_scores": [
+        0.2,
+        0.55
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.backends.backend_pgf.GraphicsContextPgf",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.4.3",
+      "vpost": "3.5.0",
+      "resolved_fqn": "matplotlib.backends.backend_pgf.GraphicsContextPgf",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_template.GraphicsContextTemplate",
+          "similarity": 0.631579
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf._BackendPgf",
+          "similarity": 0.347826
+        },
+        {
+          "fqn": "matplotlib.patheffects.Normal",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.rcsetup._ignorecase",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.sphinxext.plot_directive.PlotError",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.streamplot.TerminateTrajectory",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.testing.compare._ConverterError",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.units.ConversionError",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.backend_bases.CloseEvent",
+          "similarity": 0.217391
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt5._BackendQT5",
+          "similarity": 0.217391
+        },
+        {
+          "fqn": "matplotlib.colorbar.ColorbarPatch",
+          "similarity": 0.217391
+        },
+        {
+          "fqn": "matplotlib.sphinxext.mathmpl.latex_math",
+          "similarity": 0.217391
+        },
+        {
+          "fqn": "matplotlib.backends.backend_macosx.TimerMac",
+          "similarity": 0.208333
+        },
+        {
+          "fqn": "matplotlib.colors.FuncNorm",
+          "similarity": 0.208333
+        },
+        {
+          "fqn": "matplotlib._mathtext.DejaVuSansFontConstants",
+          "similarity": 0.2
+        },
+        {
+          "fqn": "matplotlib._mathtext.DejaVuSerifFontConstants",
+          "similarity": 0.2
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3agg.FigureManagerGTK3Agg",
+          "similarity": 0.2
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4agg.FigureManagerGTK4Agg",
+          "similarity": 0.2
+        },
+        {
+          "fqn": "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+          "similarity": 0.2
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+          "similarity": 0.2
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_template.GraphicsContextTemplate",
+        "matplotlib.backends.backend_pgf._BackendPgf",
+        "matplotlib.patheffects.Normal",
+        "matplotlib.rcsetup._ignorecase",
+        "matplotlib.sphinxext.plot_directive.PlotError",
+        "matplotlib.streamplot.TerminateTrajectory",
+        "matplotlib.testing.compare._ConverterError",
+        "matplotlib.units.ConversionError",
+        "matplotlib.backend_bases.CloseEvent",
+        "matplotlib.backends.backend_qt5._BackendQT5",
+        "matplotlib.sphinxext.mathmpl.latex_math",
+        "matplotlib.backends.backend_macosx.TimerMac",
+        "matplotlib.colors.FuncNorm",
+        "matplotlib._mathtext.DejaVuSansFontConstants",
+        "matplotlib._mathtext.DejaVuSerifFontConstants",
+        "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+        "matplotlib.backends.backend_webagg.FigureCanvasWebAgg"
+      ],
+      "entered_iter": [
+        "matplotlib.colorbar.ColorbarPatch",
+        "matplotlib.backends.backend_gtk3agg.FigureManagerGTK3Agg",
+        "matplotlib.backends.backend_gtk4agg.FigureManagerGTK4Agg"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.colorbar.ColorbarPatch",
+      "path_score": 0.217391,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.colorbar.ColorbarPatch",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.patheffects.Normal",
+          "similarity": 0.277778
+        },
+        {
+          "fqn": "matplotlib.rcsetup._ignorecase",
+          "similarity": 0.277778
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3agg.FigureManagerGTK3Agg",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4agg.FigureManagerGTK4Agg",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "matplotlib.mathtext.MathTextWarning",
+          "similarity": 0.26087
+        },
+        {
+          "fqn": "matplotlib._type1font._BalancedExpression",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.sphinxext.plot_directive.PlotError",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.streamplot.TerminateTrajectory",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.testing.compare._ConverterError",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.units.ConversionError",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.backend_bases.CloseEvent",
+          "similarity": 0.238095
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt5._BackendQT5",
+          "similarity": 0.238095
+        },
+        {
+          "fqn": "matplotlib.sphinxext.mathmpl.latex_math",
+          "similarity": 0.238095
+        },
+        {
+          "fqn": "matplotlib.backends.backend_macosx.TimerMac",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.colors.FuncNorm",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib._mathtext.DejaVuSansFontConstants",
+          "similarity": 0.217391
+        },
+        {
+          "fqn": "matplotlib._mathtext.DejaVuSerifFontConstants",
+          "similarity": 0.217391
+        },
+        {
+          "fqn": "matplotlib._type1font._WhitespaceToken",
+          "similarity": 0.217391
+        },
+        {
+          "fqn": "matplotlib.bezier.NonIntersectingPathException",
+          "similarity": 0.217391
+        },
+        {
+          "fqn": "matplotlib.hatch.HatchPatternBase",
+          "similarity": 0.217391
+        }
+      ],
+      "entered_final": [
+        "matplotlib.patheffects.Normal",
+        "matplotlib.rcsetup._ignorecase",
+        "matplotlib._type1font._BalancedExpression",
+        "matplotlib.sphinxext.plot_directive.PlotError",
+        "matplotlib.streamplot.TerminateTrajectory",
+        "matplotlib.testing.compare._ConverterError",
+        "matplotlib.units.ConversionError",
+        "matplotlib.backend_bases.CloseEvent",
+        "matplotlib.backends.backend_qt5._BackendQT5",
+        "matplotlib.sphinxext.mathmpl.latex_math",
+        "matplotlib.backends.backend_macosx.TimerMac",
+        "matplotlib.colors.FuncNorm",
+        "matplotlib._mathtext.DejaVuSansFontConstants",
+        "matplotlib._mathtext.DejaVuSerifFontConstants",
+        "matplotlib._type1font._WhitespaceToken",
+        "matplotlib.bezier.NonIntersectingPathException"
+      ],
+      "entered_iter": [
+        "matplotlib.backends.backend_gtk3agg.FigureManagerGTK3Agg",
+        "matplotlib.backends.backend_gtk4agg.FigureManagerGTK4Agg",
+        "matplotlib.mathtext.MathTextWarning"
+      ],
+      "pruned": [
+        "matplotlib.hatch.HatchPatternBase"
+      ],
+      "prune_bound": 0.054348,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk3agg.FigureManagerGTK3Agg",
+      "path_score": 0.2,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.backends.backend_gtk3agg.FigureManagerGTK3Agg",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.FigureManagerGTK3",
+          "similarity": 0.636364
+        },
+        {
+          "fqn": "matplotlib.backends.backend_template.FigureManagerTemplate",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.FigureManagerGTK4",
+          "similarity": 0.44
+        },
+        {
+          "fqn": "matplotlib.backends._backend_gtk._FigureCanvasGTK",
+          "similarity": 0.32
+        },
+        {
+          "fqn": "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+          "similarity": 0.32
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+          "similarity": 0.32
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3._BackendGTK3",
+          "similarity": 0.307692
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3agg._BackendGTK3Cairo",
+          "similarity": 0.307692
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3cairo._BackendGTK3Cairo",
+          "similarity": 0.307692
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+          "similarity": 0.305556
+        },
+        {
+          "fqn": "matplotlib.patheffects.Normal",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.rcsetup._ignorecase",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.sphinxext.figmpl_directive.figmplnode",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.axes.__init__.SubplotBase",
+          "similarity": 0.238095
+        },
+        {
+          "fqn": "matplotlib._type1font._BalancedExpression",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.sphinxext.plot_directive.PlotError",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.streamplot.TerminateTrajectory",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.testing.compare._ConverterError",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.units.ConversionError",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.backend_bases.CloseEvent",
+          "similarity": 0.217391
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_gtk3.FigureManagerGTK3",
+        "matplotlib.backends.backend_template.FigureManagerTemplate",
+        "matplotlib.backends.backend_gtk4.FigureManagerGTK4",
+        "matplotlib.backends._backend_gtk._FigureCanvasGTK",
+        "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+        "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+        "matplotlib.backends.backend_gtk3._BackendGTK3",
+        "matplotlib.backends.backend_gtk3cairo._BackendGTK3Cairo",
+        "matplotlib.backends.backend_gtk3.SaveFigureGTK3",
+        "matplotlib.patheffects.Normal",
+        "matplotlib.rcsetup._ignorecase",
+        "matplotlib.sphinxext.figmpl_directive.figmplnode",
+        "matplotlib.axes.__init__.SubplotBase",
+        "matplotlib._type1font._BalancedExpression",
+        "matplotlib.sphinxext.plot_directive.PlotError",
+        "matplotlib.streamplot.TerminateTrajectory",
+        "matplotlib.testing.compare._ConverterError",
+        "matplotlib.units.ConversionError",
+        "matplotlib.backend_bases.CloseEvent"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.backends.backend_gtk3agg._BackendGTK3Cairo"
+      ],
+      "prune_bound": 0.088,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4agg.FigureManagerGTK4Agg",
+      "path_score": 0.2,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.backends.backend_gtk4agg.FigureManagerGTK4Agg",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.FigureManagerGTK4",
+          "similarity": 0.636364
+        },
+        {
+          "fqn": "matplotlib.backends.backend_template.FigureManagerTemplate",
+          "similarity": 0.55
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk3.FigureManagerGTK3",
+          "similarity": 0.44
+        },
+        {
+          "fqn": "matplotlib.backends._backend_gtk._FigureCanvasGTK",
+          "similarity": 0.32
+        },
+        {
+          "fqn": "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+          "similarity": 0.32
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+          "similarity": 0.32
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4._BackendGTK4",
+          "similarity": 0.307692
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4agg._BackendGTK4Agg",
+          "similarity": 0.307692
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4cairo._BackendGTK4Cairo",
+          "similarity": 0.307692
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.SaveFigureGTK4",
+          "similarity": 0.305556
+        },
+        {
+          "fqn": "matplotlib.patheffects.Normal",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.rcsetup._ignorecase",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.sphinxext.figmpl_directive.figmplnode",
+          "similarity": 0.25
+        },
+        {
+          "fqn": "matplotlib.axes.__init__.SubplotBase",
+          "similarity": 0.238095
+        },
+        {
+          "fqn": "matplotlib._type1font._BalancedExpression",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.sphinxext.plot_directive.PlotError",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.streamplot.TerminateTrajectory",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.testing.compare._ConverterError",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.units.ConversionError",
+          "similarity": 0.227273
+        },
+        {
+          "fqn": "matplotlib.backend_bases.CloseEvent",
+          "similarity": 0.217391
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends.backend_gtk4.FigureManagerGTK4",
+        "matplotlib.backends.backend_template.FigureManagerTemplate",
+        "matplotlib.backends.backend_gtk3.FigureManagerGTK3",
+        "matplotlib.backends._backend_gtk._FigureCanvasGTK",
+        "matplotlib.backends.backend_nbagg.FigureCanvasNbAgg",
+        "matplotlib.backends.backend_webagg.FigureCanvasWebAgg",
+        "matplotlib.backends.backend_gtk4._BackendGTK4",
+        "matplotlib.backends.backend_gtk4agg._BackendGTK4Agg",
+        "matplotlib.backends.backend_gtk4cairo._BackendGTK4Cairo",
+        "matplotlib.backends.backend_gtk4.SaveFigureGTK4",
+        "matplotlib.patheffects.Normal",
+        "matplotlib.rcsetup._ignorecase",
+        "matplotlib.sphinxext.figmpl_directive.figmplnode",
+        "matplotlib.axes.__init__.SubplotBase",
+        "matplotlib._type1font._BalancedExpression",
+        "matplotlib.sphinxext.plot_directive.PlotError",
+        "matplotlib.streamplot.TerminateTrajectory",
+        "matplotlib.testing.compare._ConverterError",
+        "matplotlib.units.ConversionError",
+        "matplotlib.backend_bases.CloseEvent"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.11,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.mathtext.MathTextWarning",
+      "path_score": 0.056711,
+      "boundary": null,
+      "vpre": null,
+      "vpost": null,
+      "resolved_fqn": null,
+      "resolved_kind": null,
+      "candidates": [],
+      "entered_final": [],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.11,
+      "dead_reason": "pruned_at_pop"
+    }
+  ]
+}

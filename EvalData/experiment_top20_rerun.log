@@ -1,0 +1,440 @@
+库: ['django', 'matplotlib', 'pandas'], 总行数: 161, workers: 32, top_k: 20
+
+开始行级并行实验（161 行）...
+/tmp/pear_worktrees_p2131165/pandas_0.19.2/pandas/tools/plotting.py:3835: SyntaxWarning: invalid escape sequence '\*'
+  """
+/tmp/pear_worktrees_p2131234/pandas_0.20.3/pandas/core/generic.py:1502: SyntaxWarning: invalid escape sequence '\m'
+  _shared_docs['to_latex'] = """
+/tmp/pear_worktrees_p2131234/pandas_0.20.3/pandas/core/generic.py:2903: SyntaxWarning: invalid escape sequence '\*'
+  _shared_docs['pipe'] = ("""
+/tmp/pear_worktrees_p2131300/pandas_0.22.0/pandas/core/frame.py:2616: SyntaxWarning: invalid escape sequence '\*'
+  """
+/tmp/pear_worktrees_p2131024/pandas_0.19.2/pandas/tools/plotting.py:3835: SyntaxWarning: invalid escape sequence '\*'
+  """
+/tmp/pear_worktrees_p2131164/pandas_0.13.0/pandas/tseries/period.py:292: SyntaxWarning: invalid escape sequence '\('
+  """
+/tmp/pear_worktrees_p2131165/pandas_0.20.0/pandas/core/window.py:833: SyntaxWarning: invalid escape sequence '\*'
+  _shared_docs['apply'] = dedent("""
+/tmp/pear_worktrees_p2131162/pandas_0.19.2/pandas/tools/plotting.py:3835: SyntaxWarning: invalid escape sequence '\*'
+  """
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_panel.py:478: SyntaxWarning: invalid escape sequence '\('
+  "shape of value must be \(3, 2\), "
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_panel.py:479: SyntaxWarning: invalid escape sequence '\('
+  "shape of given object was \(4, 2\)"):
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_panel.py:1039: SyntaxWarning: invalid escape sequence '\('
+  assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 4, 5\), indices imply \(4, 5, 5\)", testit)
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_panel.py:1043: SyntaxWarning: invalid escape sequence '\('
+  assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 4, 5\), indices imply \(5, 4, 5\)", testit)
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_panel.py:1047: SyntaxWarning: invalid escape sequence '\('
+  assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 4, 5\), indices imply \(5, 5, 4\)", testit)
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:2835: SyntaxWarning: invalid escape sequence '\('
+  msg = "Shape of passed values is \(3, 4\), indices imply \(3, 3\)"
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:2847: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(3, 1\)"):
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:2850: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(2, 2\)"):
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:7143: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2\] are too many rows for this multi_index of columns'):
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:7146: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2,3,4,5,6\], len of 7, but only 6 lines in file'):
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:9645: SyntaxWarning: invalid escape sequence '\d'
+  metachars = '[]', '()', '\d', '\w', '\s'
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:9645: SyntaxWarning: invalid escape sequence '\w'
+  metachars = '[]', '()', '\d', '\w', '\s'
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:9645: SyntaxWarning: invalid escape sequence '\s'
+  metachars = '[]', '()', '\d', '\w', '\s'
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:9967: SyntaxWarning: invalid escape sequence '\D'
+  res = df.replace({'\D': 1})
+/tmp/pear_worktrees_p2131094/pandas_0.17.1/pandas/tests/test_frame.py:16824: SyntaxWarning: invalid escape sequence '\('
+  "unsupported operand type\(s\) for "
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_frame.py:2337: SyntaxWarning: invalid escape sequence '\('
+  msg = "Shape of passed values is \(3, 4\), indices imply \(3, 3\)"
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_frame.py:2349: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(3, 1\)"):
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_frame.py:2352: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(2, 2\)"):
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_frame.py:4207: SyntaxWarning: invalid escape sequence '\.'
+  fmt.reset_option('^display\.')
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_frame.py:5702: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2\] are too many rows for this multi_index of columns'):
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_frame.py:5705: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2,3,4,5,6\], len of 7, but only 6 lines in file'):
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_frame.py:7851: SyntaxWarning: invalid escape sequence '\D'
+  res = df.replace({'\D': 1})
+/tmp/pear_worktrees_p2131095/pandas_0.19.2/pandas/tools/plotting.py:3835: SyntaxWarning: invalid escape sequence '\*'
+  """
+/tmp/pear_worktrees_p2131026/pandas_0.19.2/pandas/tools/plotting.py:3835: SyntaxWarning: invalid escape sequence '\*'
+  """
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:2835: SyntaxWarning: invalid escape sequence '\('
+  msg = "Shape of passed values is \(3, 4\), indices imply \(3, 3\)"
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:2847: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(3, 1\)"):
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:2850: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(2, 2\)"):
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:7143: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2\] are too many rows for this multi_index of columns'):
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:7146: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2,3,4,5,6\], len of 7, but only 6 lines in file'):
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:9645: SyntaxWarning: invalid escape sequence '\d'
+  metachars = '[]', '()', '\d', '\w', '\s'
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:9645: SyntaxWarning: invalid escape sequence '\w'
+  metachars = '[]', '()', '\d', '\w', '\s'
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:9645: SyntaxWarning: invalid escape sequence '\s'
+  metachars = '[]', '()', '\d', '\w', '\s'
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:9967: SyntaxWarning: invalid escape sequence '\D'
+  res = df.replace({'\D': 1})
+/tmp/pear_worktrees_p2131163/pandas_0.17.1/pandas/tests/test_frame.py:16824: SyntaxWarning: invalid escape sequence '\('
+  "unsupported operand type\(s\) for "
+/tmp/pear_worktrees_p2131163/pandas_0.13.0/pandas/tests/test_frame.py:2337: SyntaxWarning: invalid escape sequence '\('
+  msg = "Shape of passed values is \(3, 4\), indices imply \(3, 3\)"
+/tmp/pear_worktrees_p2131163/pandas_0.13.0/pandas/tests/test_frame.py:2349: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(3, 1\)"):
+/tmp/pear_worktrees_p2131163/pandas_0.13.0/pandas/tests/test_frame.py:2352: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(2, 2\)"):
+/tmp/pear_worktrees_p2131163/pandas_0.13.0/pandas/tests/test_frame.py:4207: SyntaxWarning: invalid escape sequence '\.'
+  fmt.reset_option('^display\.')
+/tmp/pear_worktrees_p2131163/pandas_0.13.0/pandas/tests/test_frame.py:5702: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2\] are too many rows for this multi_index of columns'):
+/tmp/pear_worktrees_p2131163/pandas_0.13.0/pandas/tests/test_frame.py:5705: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2,3,4,5,6\], len of 7, but only 6 lines in file'):
+/tmp/pear_worktrees_p2131163/pandas_0.13.0/pandas/tests/test_frame.py:7851: SyntaxWarning: invalid escape sequence '\D'
+  res = df.replace({'\D': 1})
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_panel.py:478: SyntaxWarning: invalid escape sequence '\('
+  "shape of value must be \(3, 2\), "
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_panel.py:479: SyntaxWarning: invalid escape sequence '\('
+  "shape of given object was \(4, 2\)"):
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_panel.py:1039: SyntaxWarning: invalid escape sequence '\('
+  assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 4, 5\), indices imply \(4, 5, 5\)", testit)
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_panel.py:1043: SyntaxWarning: invalid escape sequence '\('
+  assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 4, 5\), indices imply \(5, 4, 5\)", testit)
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/tests/test_panel.py:1047: SyntaxWarning: invalid escape sequence '\('
+  assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 4, 5\), indices imply \(5, 5, 4\)", testit)
+/tmp/pear_worktrees_p2131024/pandas_0.15.2/pandas/tseries/period.py:363: SyntaxWarning: invalid escape sequence '\('
+  """
+/tmp/pear_worktrees_p2131024/pandas_0.13.0/pandas/tseries/period.py:292: SyntaxWarning: invalid escape sequence '\('
+  """
+[pandas] pandas.core.indexes.multi.MultiIndex.set_labels | PEAR:OK(20个,rank=1,19.2s) | Baseline:(20个,rank=-1,10.6s)
+[pandas] pandas.core.frame.DataFrame.lookup | PEAR:OK(20个,rank=-1,24.0s) | Baseline:(20个,rank=-1,6.0s)
+/tmp/pear_worktrees_p2131095/pandas_0.13.0/pandas/tseries/period.py:292: SyntaxWarning: invalid escape sequence '\('
+  """
+[pandas] pandas.core.arrays.base.ExtensionArray._formatting_values | PEAR:OK(20个,rank=-1,33.3s) | Baseline:(20个,rank=-1,5.1s)
+[pandas] pandas.core.dtypes.common.is_datetimetz | PEAR:OK(20个,rank=1,37.9s) | Baseline:(20个,rank=-1,5.9s)
+[pandas] pandas.core.dtypes.common.is_extension_type | PEAR:OK(20个,rank=2,36.3s) | Baseline:(20个,rank=16,7.5s)
+[pandas] pandas.io.date_converters.generic_parser | PEAR:OK(20个,rank=-1,36.4s) | Baseline:(20个,rank=-1,7.4s)
+/tmp/pear_worktrees_p2131095/pandas_0.15.2/pandas/tseries/period.py:363: SyntaxWarning: invalid escape sequence '\('
+  """
+/tmp/pear_worktrees_p2131025/pandas_0.22.0/pandas/core/dtypes/dtypes.py:369: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(datetime64|M8)\[(?P<unit>.+), (?P<tz>.+)\]")
+/tmp/pear_worktrees_p2131025/pandas_0.22.0/pandas/core/dtypes/dtypes.py:481: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(P|p)eriod\[(?P<freq>.+)\]")
+/tmp/pear_worktrees_p2131025/pandas_0.22.0/pandas/core/dtypes/dtypes.py:599: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(I|i)nterval\[(?P<subtype>.+)\]")
+/tmp/pear_worktrees_p2131025/pandas_0.20.0/pandas/core/dtypes/dtypes.py:180: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(datetime64|M8)\[(?P<unit>.+), (?P<tz>.+)\]")
+/tmp/pear_worktrees_p2131025/pandas_0.20.0/pandas/core/dtypes/dtypes.py:292: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(P|p)eriod\[(?P<freq>.+)\]")
+/tmp/pear_worktrees_p2131025/pandas_0.20.0/pandas/core/dtypes/dtypes.py:410: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(I|i)nterval\[(?P<subtype>.+)\]")
+/tmp/pear_worktrees_p2131162/pandas_0.13.0/pandas/io/pytables.py:1620: SyntaxWarning: invalid escape sequence '\d'
+  m = re.search("values_block_(\d+)", name)
+/tmp/pear_worktrees_p2131162/pandas_0.13.0/pandas/io/pytables.py:3909: SyntaxWarning: invalid escape sequence '\d'
+  _re_levels = re.compile("^level_\d+$")
+/tmp/pear_worktrees_p2131029/pandas_0.13.0/pandas/util/testing.py:752: SyntaxWarning: invalid escape sequence '\d'
+  numeric_tuple = re.sub("[^\d_]_?", "", x).split("_")
+/tmp/pear_worktrees_p2131029/pandas_0.13.0/pandas/util/testing.py:1272: SyntaxWarning: invalid escape sequence '\('
+  """ Port of assertRaisesRegexp from unittest in Python 2.7 - used in with statement.
+/tmp/pear_worktrees_p2131165/pandas_0.20.0/pandas/util/testing.py:1874: SyntaxWarning: invalid escape sequence '\d'
+  numeric_tuple = re.sub("[^\d_]_?", "", x).split("_")
+/tmp/pear_worktrees_p2131165/pandas_0.20.0/pandas/util/testing.py:2404: SyntaxWarning: invalid escape sequence '\('
+  """
+[pandas] pandas.core.indexes.datetimes.cdate_range | PEAR:OK(20个,rank=-1,59.1s) | Baseline:(20个,rank=-1,3.4s)
+[pandas] pandas.core.panel.Panel.__iter__ | PEAR:OK(16个,rank=1,60.9s) | Baseline:(20个,rank=3,4.9s)
+[pandas] pandas.core.series.Series.sortlevel | PEAR:OK(20个,rank=1,60.8s) | Baseline:(20个,rank=-1,5.0s)
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/util/testing.py:752: SyntaxWarning: invalid escape sequence '\d'
+  numeric_tuple = re.sub("[^\d_]_?", "", x).split("_")
+/tmp/pear_worktrees_p2131094/pandas_0.13.0/pandas/util/testing.py:1272: SyntaxWarning: invalid escape sequence '\('
+  """ Port of assertRaisesRegexp from unittest in Python 2.7 - used in with statement.
+[pandas] pandas.io.date_converters.parse_date_fields | PEAR:OK(20个,rank=-1,71.8s) | Baseline:(20个,rank=-1,3.2s)
+[pandas] pandas.io.stata.StataReader.data | PEAR:OK(20个,rank=-1,71.4s) | Baseline:(20个,rank=-1,5.2s)
+[pandas] pandas.core.frame.DataFrame.sortlevel | PEAR:OK(20个,rank=1,74.1s) | Baseline:(20个,rank=-1,4.8s)
+[pandas] pandas.core.frame.DataFrame.from_items | PEAR:OK(20个,rank=-1,78.8s) | Baseline:(20个,rank=-1,5.3s)
+/tmp/pear_worktrees_p2131025/pandas_0.19.2/pandas/io/ga.py:371: SyntaxWarning: invalid escape sequence '\-'
+  if re.match("^[a-zA-Z0-9\-\_]+$", segment):
+/tmp/pear_worktrees_p2131025/pandas_0.13.0/pandas/io/ga.py:364: SyntaxWarning: invalid escape sequence '\-'
+  if re.match("^[a-zA-Z0-9\-\_]+$", segment):
+[pandas] pandas.core.groupby.groupby.GroupBy.backfill | PEAR:OK(20个,rank=1,33.8s) | Baseline:(20个,rank=4,7.4s)
+/tmp/pear_worktrees_p2131163/pandas_0.19.2/pandas/tools/plotting.py:3835: SyntaxWarning: invalid escape sequence '\*'
+  """
+/tmp/pear_worktrees_p2131162/pandas_0.16.3/pandas/core/generic.py:2052: SyntaxWarning: invalid escape sequence '\*'
+  _shared_docs['pipe'] = ("""
+/tmp/pear_worktrees_p2131163/pandas_0.18.0/pandas/tests/test_panel.py:538: SyntaxWarning: invalid escape sequence '\('
+  "shape of value must be \(3, 2\), "
+/tmp/pear_worktrees_p2131163/pandas_0.18.0/pandas/tests/test_panel.py:539: SyntaxWarning: invalid escape sequence '\('
+  "shape of given object was \(4, 2\)"):
+/tmp/pear_worktrees_p2131163/pandas_0.18.0/pandas/tests/test_panel.py:1177: SyntaxWarning: invalid escape sequence '\('
+  "Shape of passed values is \(3, 4, 5\), "
+/tmp/pear_worktrees_p2131163/pandas_0.18.0/pandas/tests/test_panel.py:1178: SyntaxWarning: invalid escape sequence '\('
+  "indices imply \(4, 5, 5\)",
+/tmp/pear_worktrees_p2131163/pandas_0.18.0/pandas/tests/test_panel.py:1185: SyntaxWarning: invalid escape sequence '\('
+  "Shape of passed values is \(3, 4, 5\), "
+/tmp/pear_worktrees_p2131163/pandas_0.18.0/pandas/tests/test_panel.py:1186: SyntaxWarning: invalid escape sequence '\('
+  "indices imply \(5, 4, 5\)",
+/tmp/pear_worktrees_p2131163/pandas_0.18.0/pandas/tests/test_panel.py:1193: SyntaxWarning: invalid escape sequence '\('
+  "Shape of passed values is \(3, 4, 5\), "
+/tmp/pear_worktrees_p2131163/pandas_0.18.0/pandas/tests/test_panel.py:1194: SyntaxWarning: invalid escape sequence '\('
+  "indices imply \(5, 5, 4\)",
+[pandas] pandas.core.resample.Resampler.backfill | PEAR:OK(20个,rank=1,34.0s) | Baseline:(20个,rank=12,11.2s)
+[pandas] pandas.core.frame.DataFrame.reindex_axis | PEAR:OK(20个,rank=-1,85.7s) | Baseline:(20个,rank=-1,5.2s)
+[pandas] pandas.core.panel.Panel.reindex_axis | PEAR:OK(20个,rank=-1,88.2s) | Baseline:(20个,rank=-1,5.0s)
+[pandas] pandas.core.generic.NDFrame.reindex_axis | PEAR:OK(20个,rank=-1,88.2s) | Baseline:(20个,rank=-1,5.1s)
+[pandas] pandas.core.dtypes.common.is_categorical | PEAR:OK(20个,rank=2,6.8s) | Baseline:(20个,rank=2,3.0s)
+[pandas] pandas.core.resample.Resampler.pad | PEAR:OK(20个,rank=1,21.8s) | Baseline:(20个,rank=13,4.7s)
+[pandas] pandas.core.series.Series.reindex_axis | PEAR:OK(20个,rank=2,91.7s) | Baseline:(20个,rank=-1,4.9s)
+[pandas] pandas.core.frame.DataFrame.applymap | PEAR:OK(20个,rank=1,9.4s) | Baseline:(20个,rank=1,5.0s)
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:2835: SyntaxWarning: invalid escape sequence '\('
+  msg = "Shape of passed values is \(3, 4\), indices imply \(3, 3\)"
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:2847: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(3, 1\)"):
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:2850: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(2, 2\)"):
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:7143: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2\] are too many rows for this multi_index of columns'):
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:7146: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2,3,4,5,6\], len of 7, but only 6 lines in file'):
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:9645: SyntaxWarning: invalid escape sequence '\d'
+  metachars = '[]', '()', '\d', '\w', '\s'
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:9645: SyntaxWarning: invalid escape sequence '\w'
+  metachars = '[]', '()', '\d', '\w', '\s'
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:9645: SyntaxWarning: invalid escape sequence '\s'
+  metachars = '[]', '()', '\d', '\w', '\s'
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:9967: SyntaxWarning: invalid escape sequence '\D'
+  res = df.replace({'\D': 1})
+/tmp/pear_worktrees_p2131160/pandas_0.17.1/pandas/tests/test_frame.py:16824: SyntaxWarning: invalid escape sequence '\('
+  "unsupported operand type\(s\) for "
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_frame.py:2337: SyntaxWarning: invalid escape sequence '\('
+  msg = "Shape of passed values is \(3, 4\), indices imply \(3, 3\)"
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_frame.py:2349: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(3, 1\)"):
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_frame.py:2352: SyntaxWarning: invalid escape sequence '\('
+  with assertRaisesRegexp(ValueError, "Shape of passed values is \(3, 2\), indices imply \(2, 2\)"):
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_frame.py:4207: SyntaxWarning: invalid escape sequence '\.'
+  fmt.reset_option('^display\.')
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_frame.py:5702: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2\] are too many rows for this multi_index of columns'):
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_frame.py:5705: SyntaxWarning: invalid escape sequence '\['
+  with assertRaisesRegexp(CParserError, 'Passed header=\[0,1,2,3,4,5,6\], len of 7, but only 6 lines in file'):
+/tmp/pear_worktrees_p2131160/pandas_0.13.0/pandas/tests/test_frame.py:7851: SyntaxWarning: invalid escape sequence '\D'
+  res = df.replace({'\D': 1})
+/tmp/pear_worktrees_p2131024/pandas_0.20.0/pandas/core/generic.py:2792: SyntaxWarning: invalid escape sequence '\*'
+  _shared_docs['pipe'] = ("""
+/tmp/pear_worktrees_p2131159/pandas_0.20.0/pandas/core/window.py:833: SyntaxWarning: invalid escape sequence '\*'
+  _shared_docs['apply'] = dedent("""
+/tmp/pear_worktrees_p2131024/pandas_0.20.0/pandas/core/window.py:833: SyntaxWarning: invalid escape sequence '\*'
+  _shared_docs['apply'] = dedent("""
+/tmp/pear_worktrees_p2131024/pandas_0.20.0/pandas/io/pytables.py:1766: SyntaxWarning: invalid escape sequence '\d'
+  m = re.search("values_block_(\d+)", name)
+[pandas] pandas.core.panel.Panel.__neg__ | PEAR:OK(20个,rank=-1,102.4s) | Baseline:(20个,rank=-1,5.1s)
+[pandas] pandas.tseries.converter.register | PEAR:OK(20个,rank=1,105.5s) | Baseline:(20个,rank=1,2.9s)
+/tmp/pear_worktrees_p2131024/pandas_0.20.0/pandas/io/pytables.py:4263: SyntaxWarning: invalid escape sequence '\d'
+  _re_levels = re.compile("^level_\d+$")
+[pandas] pandas.core.indexes.multi.MultiIndex.is_lexsorted | PEAR:OK(20个,rank=-1,68.9s) | Baseline:(20个,rank=-1,5.4s)
+/tmp/pear_worktrees_p2131159/pandas_0.20.0/pandas/io/parsers.py:52: SyntaxWarning: invalid escape sequence '\s'
+  _parser_params = """Also supports optionally iterating or breaking of the file
+/tmp/pear_worktrees_p2131159/pandas_0.20.0/pandas/io/parsers.py:827: SyntaxWarning: invalid escape sequence '\s'
+  if engine == 'c' and sep == '\s+':
+/tmp/pear_worktrees_p2131159/pandas_0.20.0/pandas/io/parsers.py:834: SyntaxWarning: invalid escape sequence '\s'
+  " different from '\s+' are"\
+/tmp/pear_worktrees_p2131159/pandas_0.20.0/pandas/io/parsers.py:839: SyntaxWarning: invalid escape sequence '\s'
+  result['delimiter'] = '\s+'
+[pandas] pandas.io.date_converters.parse_date_time | PEAR:OK(20个,rank=-1,90.0s) | Baseline:(20个,rank=-1,2.9s)
+[pandas] pandas.io.date_converters.parse_all_fields | PEAR:OK(20个,rank=-1,121.5s) | Baseline:(20个,rank=-1,3.1s)
+/tmp/pear_worktrees_p2131095/pandas_0.20.0/pandas/plotting/_core.py:2681: SyntaxWarning: invalid escape sequence '\*'
+  """
+[pandas] pandas.core.panel.Panel.fillna | PEAR:OK(20个,rank=-1,121.5s) | Baseline:(20个,rank=-1,5.2s)
+/tmp/pear_worktrees_p2131160/pandas_0.20.0/pandas/core/dtypes/dtypes.py:180: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(datetime64|M8)\[(?P<unit>.+), (?P<tz>.+)\]")
+/tmp/pear_worktrees_p2131160/pandas_0.20.0/pandas/core/dtypes/dtypes.py:292: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(P|p)eriod\[(?P<freq>.+)\]")
+/tmp/pear_worktrees_p2131160/pandas_0.20.0/pandas/core/dtypes/dtypes.py:410: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(I|i)nterval\[(?P<subtype>.+)\]")
+[pandas] pandas.core.indexes.base.Index.to_native_types | PEAR:OK(20个,rank=-1,92.1s) | Baseline:(20个,rank=-1,5.1s)
+[pandas] pandas.tools.plotting.scatter_matrix | PEAR:OK(20个,rank=1,125.7s) | Baseline:(20个,rank=-1,3.3s)
+[pandas] pandas.core.groupby.groupby.GroupBy.pad | PEAR:OK(20个,rank=1,57.1s) | Baseline:(20个,rank=5,4.8s)
+[pandas] pandas.core.frame.DataFrame.iteritems | PEAR:OK(20个,rank=4,51.8s) | Baseline:(20个,rank=1,5.2s)
+[pandas] pandas.core.panel.Panel._indexed_same | PEAR:OK(20个,rank=1,130.6s) | Baseline:(20个,rank=1,5.1s)
+/tmp/pear_worktrees_p2131162/pandas_0.18.0/pandas/core/generic.py:2572: SyntaxWarning: invalid escape sequence '\*'
+  _shared_docs['pipe'] = ("""
+/tmp/pear_worktrees_p2131160/pandas_0.18.0/pandas/core/dtypes.py:157: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(datetime64|M8)\[(?P<unit>.+), (?P<tz>.+)\]")
+[pandas] pandas.core.indexes.numeric.Int64Index | PEAR:OK(20个,rank=-1,74.5s) | Baseline:(20个,rank=-1,18.6s)
+[pandas] pandas.tests.extension.base.reduce.BaseNumericReduceTests | PEAR:OK(18个,rank=-1,43.6s) | Baseline:(20个,rank=-1,18.6s)
+[pandas] pandas.tests.extension.base.reduce.BaseBooleanReduceTests | PEAR:OK(18个,rank=-1,46.0s) | Baseline:(20个,rank=-1,18.6s)
+[pandas] pandas.tests.extension.base.reduce.BaseNoReduceTests | PEAR:OK(17个,rank=-1,43.8s) | Baseline:(20个,rank=-1,18.7s)
+[pandas] pandas.core.arrays.numpy_.PandasArray | PEAR:OK(20个,rank=1,48.2s) | Baseline:(20个,rank=1,18.3s)
+[pandas] pandas.core.indexes.numeric.Float64Index | PEAR:OK(20个,rank=-1,103.7s) | Baseline:(20个,rank=-1,8.1s)
+/tmp/pear_worktrees_p2131160/pandas_0.19.2/pandas/types/dtypes.py:167: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(datetime64|M8)\[(?P<unit>.+), (?P<tz>.+)\]")
+/tmp/pear_worktrees_p2131160/pandas_0.19.2/pandas/types/dtypes.py:272: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(P|p)eriod\[(?P<freq>.+)\]")
+[pandas] pandas.core.panel.Panel.__invert__ | PEAR:OK(20个,rank=-1,156.9s) | Baseline:(20个,rank=-1,4.8s)
+/tmp/pear_worktrees_p2131160/pandas_0.18.1/pandas/types/dtypes.py:157: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(datetime64|M8)\[(?P<unit>.+), (?P<tz>.+)\]")
+/tmp/pear_worktrees_p2131160/pandas_0.22.0/pandas/core/dtypes/dtypes.py:369: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(datetime64|M8)\[(?P<unit>.+), (?P<tz>.+)\]")
+/tmp/pear_worktrees_p2131160/pandas_0.22.0/pandas/core/dtypes/dtypes.py:481: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(P|p)eriod\[(?P<freq>.+)\]")
+/tmp/pear_worktrees_p2131160/pandas_0.22.0/pandas/core/dtypes/dtypes.py:599: SyntaxWarning: invalid escape sequence '\['
+  _match = re.compile("(I|i)nterval\[(?P<subtype>.+)\]")
+/tmp/pear_worktrees_p2131162/pandas_0.21.0/pandas/io/pytables.py:1795: SyntaxWarning: invalid escape sequence '\d'
+  m = re.search("values_block_(\d+)", name)
+/tmp/pear_worktrees_p2131162/pandas_0.21.0/pandas/io/pytables.py:4294: SyntaxWarning: invalid escape sequence '\d'
+  _re_levels = re.compile("^level_\d+$")
+[pandas] pandas.core.series.Series.iteritems | PEAR:OK(20个,rank=1,94.0s) | Baseline:(20个,rank=1,4.9s)
+[matplotlib] matplotlib.scale.InvertedLogTransformBase | PEAR:OK(19个,rank=1,82.8s) | Baseline:(20个,rank=6,1.1s)
+/tmp/pear_worktrees_p2131163/pandas_0.20.0/pandas/plotting/_core.py:2681: SyntaxWarning: invalid escape sequence '\*'
+  """
+[pandas] pandas.core.panel.Panel.__getattr__ | PEAR:OK(20个,rank=1,216.5s) | Baseline:(20个,rank=8,4.9s)
+[matplotlib] matplotlib.backend_bases.GraphicsContextBase.get_linestyle | PEAR:OK(20个,rank=-1,125.3s) | Baseline:(20个,rank=-1,1.1s)
+/tmp/pear_worktrees_p2131160/pandas_0.23.0/pandas/tests/internals/test_internals.py:1292: SyntaxWarning: invalid escape sequence '\['
+  msg = "Wrong number of dimensions. values.ndim != ndim \[1 != 2\]"
+[pandas] pandas.core.panel.Panel.__setstate__ | PEAR:OK(20个,rank=-1,228.8s) | Baseline:(20个,rank=-1,5.3s)
+[pandas] pandas.core.panel.Panel.keys | PEAR:OK(20个,rank=2,229.0s) | Baseline:(20个,rank=1,5.1s)
+[pandas] pandas.core.panel.Panel.reindex_like | PEAR:OK(20个,rank=-1,242.6s) | Baseline:(20个,rank=-1,5.1s)
+[pandas] pandas.core.panel.Panel.__getstate__ | PEAR:OK(20个,rank=1,244.9s) | Baseline:(20个,rank=-1,4.7s)
+[matplotlib] matplotlib.text.TextWithDash | PEAR:OK(20个,rank=4,33.7s) | Baseline:(20个,rank=2,1.2s)
+[pandas] pandas.core.indexes.numeric.UInt64Index | PEAR:OK(17个,rank=-1,210.9s) | Baseline:(20个,rank=-1,3.9s)
+[matplotlib] matplotlib.colors.DivergingNorm | PEAR:OK(20个,rank=1,169.6s) | Baseline:(20个,rank=1,1.2s)
+[pandas] pandas.core.dtypes.common.is_period | PEAR:OK(20个,rank=-1,288.6s) | Baseline:(20个,rank=19,24.1s)
+[matplotlib] matplotlib.dates.IndexDateFormatter | PEAR:OK(20个,rank=-1,171.5s) | Baseline:(20个,rank=-1,1.1s)
+[pandas] pandas.core.panel.Panel.pop | PEAR:OK(20个,rank=1,326.0s) | Baseline:(20个,rank=-1,4.8s)
+[matplotlib] matplotlib.offsetbox.DraggableBase.on_motion_blit | PEAR:OK(20个,rank=1,123.5s) | Baseline:(20个,rank=1,1.2s)
+[matplotlib] matplotlib.ticker.OldScalarFormatter | PEAR:OK(20个,rank=-1,168.9s) | Baseline:(20个,rank=-1,1.0s)
+[matplotlib] matplotlib.patches.YAArrow | PEAR:OK(20个,rank=-1,175.5s) | Baseline:(20个,rank=-1,1.2s)
+[matplotlib] matplotlib.projections.polar.RadialAxis.cla | PEAR:OK(20个,rank=1,85.7s) | Baseline:(20个,rank=2,1.2s)
+[matplotlib] matplotlib.projections.polar.ThetaAxis.cla | PEAR:OK(20个,rank=2,85.1s) | Baseline:(20个,rank=1,1.1s)
+[matplotlib] matplotlib.scale.LogTransformBase | PEAR:OK(20个,rank=2,207.2s) | Baseline:(20个,rank=3,1.0s)
+[matplotlib] matplotlib.ticker.Locator.autoscale | PEAR:OK(20个,rank=1,203.2s) | Baseline:(20个,rank=-1,1.2s)
+[matplotlib] matplotlib.legend.Legend.draggable | PEAR:OK(20个,rank=2,250.7s) | Baseline:(20个,rank=2,1.2s)
+[matplotlib] matplotlib.backends.backend_pgf.GraphicsContextPgf | PEAR:OK(20个,rank=-1,197.2s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.offsetbox.DraggableBase.artist_picker | PEAR:OK(20个,rank=5,197.2s) | Baseline:(20个,rank=8,1.1s)
+[matplotlib] matplotlib.ticker.IndexFormatter | PEAR:OK(20个,rank=7,197.9s) | Baseline:(20个,rank=8,1.0s)
+[matplotlib] matplotlib.backend_bases.FigureCanvasBase.pick | PEAR:OK(20个,rank=1,0.9s) | Baseline:(20个,rank=1,1.1s)
+[matplotlib] matplotlib.ticker.LogLocator.subs | PEAR:OK(20个,rank=-1,1.3s) | Baseline:(20个,rank=-1,1.3s)
+[matplotlib] matplotlib.cbook.warn_deprecated | PEAR:NO_CANDIDATE(0个,rank=-1,27.2s) | Baseline:(0个,rank=-1,0.0s)
+[matplotlib] matplotlib.axis.Tick.apply_tickdir | PEAR:OK(20个,rank=-1,27.8s) | Baseline:(20个,rank=-1,1.1s)
+/tmp/pear_worktrees_p2131164/pandas_0.20.0/pandas/core/window.py:833: SyntaxWarning: invalid escape sequence '\*'
+  _shared_docs['apply'] = dedent("""
+[pandas] pandas.core.panel.Panel.truncate | PEAR:OK(20个,rank=-1,364.6s) | Baseline:(20个,rank=-1,4.9s)
+[matplotlib] matplotlib.backend_bases.FigureCanvasBase.get_window_title | PEAR:OK(20个,rank=5,58.5s) | Baseline:(20个,rank=5,1.2s)
+[matplotlib] matplotlib.backend_bases.FigureCanvasBase.resize | PEAR:OK(20个,rank=1,34.7s) | Baseline:(20个,rank=1,1.1s)
+[matplotlib] matplotlib.colorbar.Colorbar.draw_all | PEAR:OK(20个,rank=-1,1.0s) | Baseline:(20个,rank=-1,1.2s)
+[matplotlib] matplotlib.backends.backend_ps.RendererPS.draw_gouraud_triangle | PEAR:OK(20个,rank=-1,41.6s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.backends.backend_pdf.RendererPdf.draw_gouraud_triangle | PEAR:OK(20个,rank=-1,39.2s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.scale.Log2Transform | PEAR:OK(20个,rank=-1,273.5s) | Baseline:(20个,rank=-1,1.0s)
+[matplotlib] matplotlib.backends.backend_tkagg.FigureManagerTkAgg | PEAR:OK(20个,rank=-1,294.6s) | Baseline:(20个,rank=-1,1.0s)
+[matplotlib] matplotlib.scale.InvertedLog2Transform | PEAR:OK(20个,rank=9,290.9s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.ticker.OldAutoLocator | PEAR:OK(20个,rank=-1,69.0s) | Baseline:(20个,rank=-1,1.2s)
+[matplotlib] matplotlib.backend_bases.NavigationToolbar2.set_cursor | PEAR:OK(20个,rank=1,68.5s) | Baseline:(20个,rank=1,1.1s)
+[matplotlib] matplotlib.scale.NaturalLogTransform | PEAR:OK(20个,rank=-1,273.9s) | Baseline:(20个,rank=-1,1.3s)
+[matplotlib] matplotlib.ticker.LogLocator.base | PEAR:OK(20个,rank=-1,68.4s) | Baseline:(20个,rank=-1,1.2s)
+[matplotlib] matplotlib.scale.InvertedNaturalLogTransform | PEAR:OK(20个,rank=-1,282.8s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.scale.Log10Transform | PEAR:OK(20个,rank=-1,281.7s) | Baseline:(20个,rank=-1,1.0s)
+[matplotlib] matplotlib.colorbar.Colorbar.on_mappable_changed | PEAR:OK(20个,rank=-1,233.1s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.cbook.deprecation.deprecated | PEAR:OK(20个,rank=1,113.1s) | Baseline:(20个,rank=1,10.1s)
+[matplotlib] matplotlib.ticker.LogFormatter.label_minor | PEAR:OK(20个,rank=1,80.2s) | Baseline:(20个,rank=1,1.1s)
+[matplotlib] matplotlib.backend_bases.GraphicsContextBase.set_graylevel | PEAR:OK(20个,rank=-1,337.7s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.backend_bases.GraphicsContextBase.set_linestyle | PEAR:OK(20个,rank=-1,334.9s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.contour.ClabelText | PEAR:OK(20个,rank=-1,74.7s) | Baseline:(20个,rank=-1,1.0s)
+[matplotlib] matplotlib.colorbar.ColorbarPatch | PEAR:OK(20个,rank=-1,143.9s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.axis.Axis.cla | PEAR:OK(20个,rank=1,200.8s) | Baseline:(20个,rank=1,1.3s)
+[matplotlib] matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_rgb | PEAR:OK(20个,rank=-1,39.3s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.scale.InvertedLog10Transform | PEAR:OK(20个,rank=9,336.8s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.backend_bases.FigureCanvasBase.set_window_title | PEAR:OK(20个,rank=6,128.7s) | Baseline:(20个,rank=5,1.1s)
+[django] django.db.models.fields.related.ReverseSingleRelatedObjectDescriptor | PEAR:OK(20个,rank=1,55.0s) | Baseline:(20个,rank=1,13.1s)
+[django] django.db.models.fields.related.SingleRelatedObjectDescriptor | PEAR:OK(20个,rank=1,54.1s) | Baseline:(20个,rank=1,13.1s)
+[matplotlib] matplotlib.contour.ContourLabeler.add_label_clabeltext | PEAR:OK(20个,rank=-1,80.8s) | Baseline:(20个,rank=-1,1.1s)
+[django] django.db.models.expressions.Date | PEAR:OK(20个,rank=-1,53.4s) | Baseline:(20个,rank=-1,1.2s)
+[django] django.db.models.expressions.DateTime | PEAR:OK(20个,rank=-1,53.4s) | Baseline:(20个,rank=-1,1.2s)
+[matplotlib] matplotlib.backends.backend_svg.RendererSVG.draw_gouraud_triangle | PEAR:OK(20个,rank=-1,120.8s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.textpath.TextPath.text_get_vertices_codes | PEAR:OK(20个,rank=-1,274.8s) | Baseline:(20个,rank=-1,1.1s)
+[matplotlib] matplotlib.backends.backend_ps.GraphicsContextPS | PEAR:OK(20个,rank=-1,183.7s) | Baseline:(20个,rank=-1,1.0s)
+[matplotlib] matplotlib.backends.backend_wxagg.FigureFrameWxAgg | PEAR:OK(20个,rank=-1,120.1s) | Baseline:(20个,rank=-1,1.0s)
+/tmp/pear_worktrees_p2131025/django_1.8.19/django/db/backends/base/operations.py:429: SyntaxWarning: invalid escape sequence '\%'
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+/tmp/pear_worktrees_p2131025/django_1.8.19/django/db/backends/base/operations.py:429: SyntaxWarning: invalid escape sequence '\_'
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+[matplotlib] matplotlib.backends.backend_wxcairo.FigureFrameWxCairo | PEAR:OK(20个,rank=-1,118.9s) | Baseline:(20个,rank=-1,1.0s)
+[django] django.db.backends.base.operations.BaseDatabaseOperations.check_aggregate_support | PEAR:OK(20个,rank=1,110.2s) | Baseline:(20个,rank=1,6.4s)
+[django] django.core.files.storage.FileSystemStorage.accessed_time | PEAR:OK(20个,rank=1,102.7s) | Baseline:(20个,rank=-1,6.4s)
+[django] django.views.debug.ExceptionReporterFilter | PEAR:NOT_FOUND(0个,rank=-1,0.0s) | Baseline:(20个,rank=-1,1.2s)
+[matplotlib] matplotlib.pyplot.plot_date | PEAR:OK(20个,rank=2,125.0s) | Baseline:(20个,rank=2,1.2s)
+[django] django.core.files.storage.FileSystemStorage.created_time | PEAR:OK(20个,rank=1,97.0s) | Baseline:(20个,rank=-1,1.4s)
+[matplotlib] matplotlib.ticker.LogFormatter.base | PEAR:OK(20个,rank=1,200.4s) | Baseline:(20个,rank=1,1.3s)
+[django] django.db.models.fields.files.FileField.get_filename | PEAR:OK(20个,rank=-1,102.2s) | Baseline:(20个,rank=-1,1.6s)
+[matplotlib] matplotlib.colorbar.Colorbar.update_bruteforce | PEAR:OK(20个,rank=2,306.3s) | Baseline:(20个,rank=1,1.3s)
+[django] django.core.files.storage.FileSystemStorage.modified_time | PEAR:OK(20个,rank=1,98.4s) | Baseline:(20个,rank=-1,1.4s)
+[matplotlib] matplotlib.spines.Spine.cla | PEAR:OK(20个,rank=1,286.8s) | Baseline:(20个,rank=8,1.0s)
+[matplotlib] matplotlib.backends.backend_agg.RendererAgg.tostring_rgb | PEAR:OK(20个,rank=-1,145.6s) | Baseline:(20个,rank=-1,1.2s)
+[matplotlib] matplotlib.cbook.deprecation.MatplotlibDeprecationWarning | PEAR:OK(20个,rank=1,217.8s) | Baseline:(20个,rank=1,1.0s)
+/tmp/pear_worktrees_p2131306/django_1.10.8/django/db/backends/sqlite3/introspection.py:126: SyntaxWarning: invalid escape sequence '\S'
+  m = re.search('references (\S*) ?\(["|]?(.*)["|]?\)', field_desc, re.I)
+/tmp/pear_worktrees_p2131306/django_1.10.8/django/db/backends/sqlite3/introspection.py:133: SyntaxWarning: invalid escape sequence '\('
+  m = re.match('FOREIGN KEY\(([^\)]*)\).*', field_desc, re.I)
+/tmp/pear_worktrees_p2131306/django_1.10.8/django/db/backends/sqlite3/introspection.py:176: SyntaxWarning: invalid escape sequence '\('
+  m = re.search('"(.*)".*references (.*) \(["|](.*)["|]\)', field_desc, re.I)
+[django] django.utils.decorators.classproperty | PEAR:OK(20个,rank=1,68.5s) | Baseline:(20个,rank=1,1.2s)
+[django] django.contrib.gis.db.models.functions.ForceRHR | PEAR:OK(18个,rank=1,110.0s) | Baseline:(20个,rank=1,1.2s)
+[django] django.contrib.staticfiles.templatetags.staticfiles.static | PEAR:OK(20个,rank=-1,114.7s) | Baseline:(20个,rank=-1,12.9s)
+[django] django.contrib.staticfiles.storage.CachedStaticFilesStorage | PEAR:OK(17个,rank=1,123.8s) | Baseline:(20个,rank=1,1.1s)
+[django] django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.proj4_version | PEAR:OK(20个,rank=3,81.4s) | Baseline:(20个,rank=3,1.3s)
+[django] django.test.runner.reorder_suite | PEAR:OK(20个,rank=1,74.2s) | Baseline:(20个,rank=1,0.3s)
+[matplotlib] matplotlib.offsetbox.bbox_artist | PEAR:OK(20个,rank=-1,272.5s) | Baseline:(20个,rank=-1,1.1s)
+[django] django.utils.http.is_safe_url | PEAR:OK(20个,rank=1,120.4s) | Baseline:(20个,rank=1,0.4s)
+[matplotlib] matplotlib.offsetbox.OffsetBox.get_extent | PEAR:OK(20个,rank=5,267.4s) | Baseline:(20个,rank=5,1.2s)
+[django] django.contrib.auth.views.SuccessURLAllowedHostsMixin | PEAR:NOT_FOUND(0个,rank=-1,0.0s) | Baseline:(20个,rank=-1,1.2s)
+[django] django.contrib.postgres.forms.jsonb.JSONField | PEAR:OK(20个,rank=1,123.3s) | Baseline:(20个,rank=1,1.2s)
+[django] django.contrib.postgres.fields.jsonb.KeyTextTransform | PEAR:OK(9个,rank=1,131.8s) | Baseline:(20个,rank=-1,1.1s)
+[django] django.db.models.fields.files.FileField.get_directory_name | PEAR:OK(20个,rank=-1,227.8s) | Baseline:(20个,rank=-1,1.4s)
+[django] django.contrib.gis.geos.point.Point.get_coords | PEAR:OK(20个,rank=-1,234.2s) | Baseline:(20个,rank=-1,1.3s)
+[django] django.db.models.fields.related.ManyRelatedObjectsDescriptor | PEAR:OK(20个,rank=-1,262.6s) | Baseline:(20个,rank=-1,1.2s)
+[django] django.db.backends.postgresql.operations.DatabaseOperations.ignore_conflicts_suffix_sql | PEAR:OK(20个,rank=-1,53.3s) | Baseline:(20个,rank=-1,1.4s)
+[django] django.db.backends.mysql.introspection.DatabaseIntrospection.get_indexes | PEAR:OK(20个,rank=-1,243.8s) | Baseline:(20个,rank=-1,1.5s)
+[django] django.contrib.gis.admin.options.GeoModelAdmin | PEAR:OK(20个,rank=-1,152.7s) | Baseline:(20个,rank=-1,1.2s)
+[django] django.contrib.gis.admin.options.OSMGeoAdmin | PEAR:OK(11个,rank=-1,149.3s) | Baseline:(20个,rank=-1,1.2s)
+[django] django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_key_columns | PEAR:OK(20个,rank=-1,75.0s) | Baseline:(20个,rank=-1,1.6s)
+[django] django.contrib.auth.views.LogoutView.get_next_page | PEAR:OK(20个,rank=-1,74.0s) | Baseline:(20个,rank=-1,1.4s)
+[django] django.forms.widgets.DateTimeBaseInput._format_value | PEAR:OK(20个,rank=1,299.9s) | Baseline:(20个,rank=1,1.4s)
+[django] django.contrib.postgres.forms.jsonb.InvalidJSONInput | PEAR:OK(20个,rank=1,193.1s) | Baseline:(20个,rank=1,1.1s)
+[django] django.utils.http.cookie_date | PEAR:OK(20个,rank=8,231.1s) | Baseline:(20个,rank=8,0.3s)
+[django] django.contrib.postgres.forms.jsonb.JSONString | PEAR:OK(18个,rank=1,188.3s) | Baseline:(20个,rank=1,1.2s)
+[django] django.utils.functional.allow_lazy | PEAR:OK(20个,rank=1,291.8s) | Baseline:(20个,rank=1,0.3s)
+[django] django.http.multipartparser.parse_header | PEAR:OK(20个,rank=1,54.8s) | Baseline:(20个,rank=1,0.3s)
+[django] django.test.utils.TestTemplateLoader | PEAR:OK(20个,rank=-1,316.8s) | Baseline:(20个,rank=-1,1.2s)
+[django] django.contrib.admin.utils.lookup_needs_distinct | PEAR:OK(20个,rank=1,184.2s) | Baseline:(20个,rank=1,0.3s)
+[django] django.http.request.HttpRequest.get_raw_uri | PEAR:OK(20个,rank=-1,187.5s) | Baseline:(20个,rank=-1,1.4s)
+[django] django.db.backends.postgresql.introspection.DatabaseIntrospection.get_indexes | PEAR:OK(20个,rank=-1,276.0s) | Baseline:(20个,rank=-1,1.4s)
+[django] django.db.backends.oracle.introspection.DatabaseIntrospection.get_indexes | PEAR:OK(20个,rank=-1,266.8s) | Baseline:(20个,rank=-1,1.4s)
+[django] django.contrib.postgres.fields.jsonb.KeyTransform | PEAR:OK(20个,rank=-1,206.7s) | Baseline:(20个,rank=-1,1.2s)
+[django] django.db.backends.mysql.operations.DatabaseOperations._convert_field_to_tz | PEAR:OK(20个,rank=1,166.5s) | Baseline:(20个,rank=1,1.4s)
+[django] django.test.testcases.SimpleTestCase.assertFormsetError | PEAR:OK(20个,rank=1,107.0s) | Baseline:(20个,rank=1,1.4s)
+[django] django.test.testcases.TransactionTestCase.assertQuerysetEqual | PEAR:OK(20个,rank=1,101.7s) | Baseline:(20个,rank=1,1.4s)
+[django] django.db.backends.postgresql.operations.DatabaseOperations._convert_field_to_tz | PEAR:OK(20个,rank=1,154.5s) | Baseline:(20个,rank=1,1.5s)
+[django] django.shortcuts.render_to_response | PEAR:OK(20个,rank=1,274.5s) | Baseline:(20个,rank=1,0.3s)
+[matplotlib] matplotlib.mlab.demean | PEAR:OK(20个,rank=1,605.2s) | Baseline:(20个,rank=-1,1.2s)
+[django] django.db.backends.postgresql.introspection.DatabaseIntrospection.get_key_columns | PEAR:OK(20个,rank=3,149.4s) | Baseline:(20个,rank=5,1.3s)
+[django] django.db.backends.mysql.introspection.DatabaseIntrospection.get_key_columns | PEAR:OK(20个,rank=1,152.8s) | Baseline:(20个,rank=3,1.3s)
+[django] django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_indexes | PEAR:OK(20个,rank=-1,296.2s) | Baseline:(20个,rank=-1,1.4s)
+[django] django.http.request.HttpRequest.is_ajax | PEAR:OK(20个,rank=-1,254.8s) | Baseline:(20个,rank=-1,1.2s)
+[django] django.db.backends.oracle.introspection.DatabaseIntrospection.get_key_columns | PEAR:OK(20个,rank=1,155.8s) | Baseline:(20个,rank=2,1.4s)
+
+完成，耗时 783s (13.1min)
+
+===== 汇总 =====
+django       n= 51  @1:26/20  @3:28/23  @5:28/24  @10:29/25  @20:29/25
+matplotlib   n= 60  @1:15/12  @3:20/17  @5:24/20  @10:28/24  @20:28/24
+pandas       n= 50  @1:18/7  @3:22/9  @5:23/11  @10:23/12  @20:23/16
+TOTAL        n=161  @1:59/39  @3:70/49  @5:75/55  @10:80/61  @20:80/65
+
+PEAR 结果目录: /home/he/PEAR/EvalData/PEAR/
+Baseline 结果目录: /home/he/PEAR/EvalData/Baseline/
+汇总 json: /home/he/PEAR/EvalData/experiment_summary_top20.json

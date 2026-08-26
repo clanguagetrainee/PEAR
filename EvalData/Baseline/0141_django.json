@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.contrib.postgres.fields.jsonb.KeyTextTransform",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.KeysTransform",
+      "api_type": "class",
+      "similarity": 0.5588235294117647,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.ValuesTransform",
+      "api_type": "class",
+      "similarity": 0.5588235294117647,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.lookups.HasKey",
+      "api_type": "class",
+      "similarity": 0.5161290322580645,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.json.HasKey",
+      "api_type": "class",
+      "similarity": 0.5161290322580645,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.forms.widgets.TextInput",
+      "api_type": "class",
+      "similarity": 0.4666666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.forms.UserChangeForm.Meta",
+      "api_type": "class",
+      "similarity": 0.45161290322580644,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.AbstractUser.Meta",
+      "api_type": "class",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.sessions.base_session.AbstractBaseSession.Meta",
+      "api_type": "class",
+      "similarity": 0.4411764705882353,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.forms.BaseUserCreationForm.Meta",
+      "api_type": "class",
+      "similarity": 0.4375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.models.Group.Meta",
+      "api_type": "class",
+      "similarity": 0.4375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.functions.window.Rank",
+      "api_type": "class",
+      "similarity": 0.4375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.models.OracleGeometryColumns.Meta",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.oracle.models.OracleSpatialRefSys.Meta",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.models.PostGISGeometryColumns.Meta",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.postgis.models.PostGISSpatialRefSys.Meta",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.models.SpatialiteGeometryColumns.Meta",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.db.backends.spatialite.models.SpatialiteSpatialRefSys.Meta",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.redirects.apps.RedirectsConfig",
+      "api_type": "class",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.lookups.Unaccent",
+      "api_type": "class",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.aggregates.Max",
+      "api_type": "class",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

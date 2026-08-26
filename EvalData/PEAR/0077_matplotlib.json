@@ -1,0 +1,714 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.3.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.axis.Axis.cla",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.axis.Axis.clear",
+      "api_type": "method",
+      "similarity": 0.96,
+      "evolution_path": [
+        "matplotlib.axis.Axis.clear"
+      ],
+      "local_scores": [
+        0.96
+      ]
+    },
+    {
+      "fqn": "matplotlib.sphinxext.mathmpl.MathDirective.run",
+      "api_type": "method",
+      "similarity": 0.4470588235294118,
+      "evolution_path": [
+        "matplotlib.sphinxext.mathmpl.MathDirective.run"
+      ],
+      "local_scores": [
+        0.4470588235294118
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_history_buttons",
+      "api_type": "method",
+      "similarity": 0.4375,
+      "evolution_path": [
+        "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_history_buttons"
+      ],
+      "local_scores": [
+        0.4375
+      ]
+    },
+    {
+      "fqn": "matplotlib.animation.ImageMagickBase._args",
+      "api_type": "method",
+      "similarity": 0.4235294117647059,
+      "evolution_path": [
+        "matplotlib.animation.ImageMagickBase._args"
+      ],
+      "local_scores": [
+        0.4235294117647059
+      ]
+    },
+    {
+      "fqn": "matplotlib.artist.Artist.remove",
+      "api_type": "method",
+      "similarity": 0.4148936170212766,
+      "evolution_path": [
+        "matplotlib.artist.Artist.remove"
+      ],
+      "local_scores": [
+        0.4148936170212766
+      ]
+    },
+    {
+      "fqn": "matplotlib.colors.LinearSegmentedColormap._init",
+      "api_type": "method",
+      "similarity": 0.4144144144144144,
+      "evolution_path": [
+        "matplotlib.colors.LinearSegmentedColormap._init"
+      ],
+      "local_scores": [
+        0.4144144144144144
+      ]
+    },
+    {
+      "fqn": "matplotlib.figure.Figure.__getstate__",
+      "api_type": "method",
+      "similarity": 0.4111111111111111,
+      "evolution_path": [
+        "matplotlib.figure.Figure.__getstate__"
+      ],
+      "local_scores": [
+        0.4111111111111111
+      ]
+    },
+    {
+      "fqn": "matplotlib.axes._secondary_axes.SecondaryAxis.set_alignment",
+      "api_type": "method",
+      "similarity": 0.4065934065934066,
+      "evolution_path": [
+        "matplotlib.axes._secondary_axes.SecondaryAxis.set_alignment"
+      ],
+      "local_scores": [
+        0.4065934065934066
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.Collection._set_edgecolor",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.collections.Collection._set_edgecolor"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.spines.Spine._recompute_transform",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [
+        "matplotlib.spines.Spine._recompute_transform"
+      ],
+      "local_scores": [
+        0.4
+      ]
+    },
+    {
+      "fqn": "matplotlib.widgets.SpanSelector._set_active_handle",
+      "api_type": "method",
+      "similarity": 0.3979591836734694,
+      "evolution_path": [
+        "matplotlib.widgets.SpanSelector._set_active_handle"
+      ],
+      "local_scores": [
+        0.3979591836734694
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_ps.RendererPS.create_hatch",
+      "api_type": "method",
+      "similarity": 0.39655172413793105,
+      "evolution_path": [
+        "matplotlib.backends.backend_ps.RendererPS.create_hatch"
+      ],
+      "local_scores": [
+        0.39655172413793105
+      ]
+    },
+    {
+      "fqn": "matplotlib.table.Cell.visible_edges",
+      "api_type": "method",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [
+        "matplotlib.table.Cell.visible_edges"
+      ],
+      "local_scores": [
+        0.3958333333333333
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorbar.Colorbar._reset_locator_formatter_scale",
+      "api_type": "method",
+      "similarity": 0.3884297520661157,
+      "evolution_path": [
+        "matplotlib.colorbar.Colorbar._reset_locator_formatter_scale"
+      ],
+      "local_scores": [
+        0.3884297520661157
+      ]
+    },
+    {
+      "fqn": "matplotlib.contour.ContourSet._process_colors",
+      "api_type": "method",
+      "similarity": 0.3879310344827586,
+      "evolution_path": [
+        "matplotlib.contour.ContourSet._process_colors"
+      ],
+      "local_scores": [
+        0.3879310344827586
+      ]
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.grid",
+      "api_type": "method",
+      "similarity": 0.3875968992248062,
+      "evolution_path": [
+        "matplotlib.axis.Axis.grid"
+      ],
+      "local_scores": [
+        0.3875968992248062
+      ]
+    },
+    {
+      "fqn": "matplotlib.markers.MarkerStyle._set_circle",
+      "api_type": "method",
+      "similarity": 0.3867924528301887,
+      "evolution_path": [
+        "matplotlib.markers.MarkerStyle._set_circle"
+      ],
+      "local_scores": [
+        0.3867924528301887
+      ]
+    },
+    {
+      "fqn": "matplotlib.tri._triangulation.Triangulation.set_mask",
+      "api_type": "method",
+      "similarity": 0.368364363748269,
+      "evolution_path": [
+        "matplotlib.tri.triangulation.Triangulation.set_mask",
+        "matplotlib.tri._triangulation.Triangulation.set_mask"
+      ],
+      "local_scores": [
+        0.3917525773195876,
+        0.9402985074626866
+      ]
+    },
+    {
+      "fqn": "matplotlib.cbook.CallbackRegistry.connect",
+      "api_type": "method",
+      "similarity": 0.336734693877551,
+      "evolution_path": [
+        "matplotlib.cbook.__init__.CallbackRegistry.connect",
+        "matplotlib.cbook.CallbackRegistry.connect"
+      ],
+      "local_scores": [
+        0.39285714285714285,
+        0.8571428571428571
+      ]
+    },
+    {
+      "fqn": "matplotlib.lines.Line2D._transform_path",
+      "api_type": "method",
+      "similarity": 0.22326674500587543,
+      "evolution_path": [
+        "matplotlib.axes._base._AxesBase.ArtistList.insert",
+        "matplotlib.lines.Line2D._transform_path"
+      ],
+      "local_scores": [
+        0.43478260869565216,
+        0.5135135135135135
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.axis.Axis.cla",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.5.3",
+      "vpost": "3.6.0",
+      "resolved_fqn": "matplotlib.axis.Axis.clear",
+      "resolved_kind": "forward",
+      "candidates": [
+        {
+          "fqn": "matplotlib.axis.Axis.clear",
+          "similarity": 0.96
+        },
+        {
+          "fqn": "matplotlib.sphinxext.mathmpl.MathDirective.run",
+          "similarity": 0.447059
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_history_buttons",
+          "similarity": 0.4375
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.ArtistList.insert",
+          "similarity": 0.434783
+        },
+        {
+          "fqn": "matplotlib.animation.ImageMagickBase._args",
+          "similarity": 0.423529
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.remove",
+          "similarity": 0.414894
+        },
+        {
+          "fqn": "matplotlib.colors.LinearSegmentedColormap._init",
+          "similarity": 0.414414
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.__getstate__",
+          "similarity": 0.411111
+        },
+        {
+          "fqn": "matplotlib.axes._secondary_axes.SecondaryAxis.set_alignment",
+          "similarity": 0.406593
+        },
+        {
+          "fqn": "matplotlib.collections.Collection._set_edgecolor",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.spines.Spine._recompute_transform",
+          "similarity": 0.4
+        },
+        {
+          "fqn": "matplotlib.widgets.SpanSelector._set_active_handle",
+          "similarity": 0.397959
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps.RendererPS.create_hatch",
+          "similarity": 0.396552
+        },
+        {
+          "fqn": "matplotlib.table.Cell.visible_edges",
+          "similarity": 0.395833
+        },
+        {
+          "fqn": "matplotlib.cbook.__init__.CallbackRegistry.connect",
+          "similarity": 0.392857
+        },
+        {
+          "fqn": "matplotlib.tri.triangulation.Triangulation.set_mask",
+          "similarity": 0.391753
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar._reset_locator_formatter_scale",
+          "similarity": 0.38843
+        },
+        {
+          "fqn": "matplotlib.contour.ContourSet._process_colors",
+          "similarity": 0.387931
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.grid",
+          "similarity": 0.387597
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle._set_circle",
+          "similarity": 0.386792
+        }
+      ],
+      "entered_final": [
+        "matplotlib.axis.Axis.clear",
+        "matplotlib.sphinxext.mathmpl.MathDirective.run",
+        "matplotlib.backends._backend_tk.NavigationToolbar2Tk.set_history_buttons",
+        "matplotlib.animation.ImageMagickBase._args",
+        "matplotlib.artist.Artist.remove",
+        "matplotlib.colors.LinearSegmentedColormap._init",
+        "matplotlib.figure.Figure.__getstate__",
+        "matplotlib.axes._secondary_axes.SecondaryAxis.set_alignment",
+        "matplotlib.collections.Collection._set_edgecolor",
+        "matplotlib.spines.Spine._recompute_transform",
+        "matplotlib.widgets.SpanSelector._set_active_handle",
+        "matplotlib.backends.backend_ps.RendererPS.create_hatch",
+        "matplotlib.table.Cell.visible_edges",
+        "matplotlib.colorbar.Colorbar._reset_locator_formatter_scale",
+        "matplotlib.contour.ContourSet._process_colors",
+        "matplotlib.axis.Axis.grid",
+        "matplotlib.markers.MarkerStyle._set_circle"
+      ],
+      "entered_iter": [
+        "matplotlib.axes._base._AxesBase.ArtistList.insert",
+        "matplotlib.cbook.__init__.CallbackRegistry.connect",
+        "matplotlib.tri.triangulation.Triangulation.set_mask"
+      ],
+      "pruned": [],
+      "prune_bound": null,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.ArtistList.insert",
+      "path_score": 0.434783,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.axes._base._AxesBase.ArtistList.insert",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.lines.Line2D._transform_path",
+          "similarity": 0.513514
+        },
+        {
+          "fqn": "matplotlib.widgets.RangeSlider._format",
+          "similarity": 0.512821
+        },
+        {
+          "fqn": "matplotlib.backend_bases.ToolContainerBase.add_tool",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.sphinxext.mathmpl.MathDirective.run",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pdf.PdfFile.alphaState",
+          "similarity": 0.493506
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.ToolbarTk._get_groupframe",
+          "similarity": 0.493151
+        },
+        {
+          "fqn": "matplotlib.ticker.ScalarFormatter.set_useMathText",
+          "similarity": 0.488372
+        },
+        {
+          "fqn": "matplotlib.backends.backend_pgf.LatexManager._setup_latex_process",
+          "similarity": 0.488095
+        },
+        {
+          "fqn": "matplotlib.figure.SubFigure.draw",
+          "similarity": 0.4875
+        },
+        {
+          "fqn": "matplotlib.colorbar.Colorbar.drag_pan",
+          "similarity": 0.487179
+        },
+        {
+          "fqn": "matplotlib.layout_engine.ConstrainedLayoutEngine.execute",
+          "similarity": 0.486111
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.SingleFigurePage.get",
+          "similarity": 0.485294
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg.WebAggApplication.WebSocket.on_message",
+          "similarity": 0.478873
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolManager.remove_tool",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "matplotlib.ticker.LogLocator._set_subs",
+          "similarity": 0.477273
+        },
+        {
+          "fqn": "matplotlib._mathtext.Parser.parse",
+          "similarity": 0.47619
+        },
+        {
+          "fqn": "matplotlib.axis.Axis.convert_units",
+          "similarity": 0.475
+        },
+        {
+          "fqn": "matplotlib.figure.Figure.__getstate__",
+          "similarity": 0.474359
+        },
+        {
+          "fqn": "matplotlib._mathtext.Char.get_kerning",
+          "similarity": 0.472973
+        },
+        {
+          "fqn": "matplotlib.axes._base._AxesBase.sharex",
+          "similarity": 0.472527
+        }
+      ],
+      "entered_final": [
+        "matplotlib.lines.Line2D._transform_path",
+        "matplotlib.widgets.RangeSlider._format",
+        "matplotlib.backend_bases.ToolContainerBase.add_tool",
+        "matplotlib.sphinxext.mathmpl.MathDirective.run",
+        "matplotlib.backends.backend_pdf.PdfFile.alphaState",
+        "matplotlib.backends._backend_tk.ToolbarTk._get_groupframe",
+        "matplotlib.ticker.ScalarFormatter.set_useMathText",
+        "matplotlib.backends.backend_pgf.LatexManager._setup_latex_process",
+        "matplotlib.figure.SubFigure.draw",
+        "matplotlib.colorbar.Colorbar.drag_pan",
+        "matplotlib.layout_engine.ConstrainedLayoutEngine.execute",
+        "matplotlib.backends.backend_webagg.WebAggApplication.SingleFigurePage.get",
+        "matplotlib.backends.backend_webagg.WebAggApplication.WebSocket.on_message",
+        "matplotlib.backend_managers.ToolManager.remove_tool",
+        "matplotlib.ticker.LogLocator._set_subs",
+        "matplotlib._mathtext.Parser.parse",
+        "matplotlib.axis.Axis.convert_units",
+        "matplotlib.figure.Figure.__getstate__",
+        "matplotlib._mathtext.Char.get_kerning",
+        "matplotlib.axes._base._AxesBase.sharex"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.217391,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.cbook.__init__.CallbackRegistry.connect",
+      "path_score": 0.392857,
+      "boundary": "DEPRECATED",
+      "vpre": "3.7.5",
+      "vpost": "3.8.0",
+      "resolved_fqn": "matplotlib.cbook.__init__.CallbackRegistry.connect",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.cbook.CallbackRegistry.connect",
+          "similarity": 0.857143
+        },
+        {
+          "fqn": "matplotlib.cbook.CallbackRegistry.disconnect",
+          "similarity": 0.557692
+        },
+        {
+          "fqn": "matplotlib.tri._triinterpolate.CubicTriInterpolator._interpolate_single_key",
+          "similarity": 0.555556
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolViewsPositions.update_view",
+          "similarity": 0.53719
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolManager._handle_toggle",
+          "similarity": 0.53211
+        },
+        {
+          "fqn": "matplotlib.cbook.CallbackRegistry._remove_proxy",
+          "similarity": 0.52
+        },
+        {
+          "fqn": "matplotlib.cm.ColormapRegistry.register",
+          "similarity": 0.513761
+        },
+        {
+          "fqn": "matplotlib.backends.backend_ps.RendererPS.create_hatch",
+          "similarity": 0.513043
+        },
+        {
+          "fqn": "matplotlib.layout_engine.TightLayoutEngine.execute",
+          "similarity": 0.510638
+        },
+        {
+          "fqn": "matplotlib.category.UnitData.update",
+          "similarity": 0.50495
+        },
+        {
+          "fqn": "matplotlib.axes._secondary_axes.SecondaryAxis.set_location",
+          "similarity": 0.504425
+        },
+        {
+          "fqn": "matplotlib.artist.ArtistInspector.pprint_setters",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.contour.ContourSet._process_linewidths",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "matplotlib.backends.backend_svg.XMLWriter.start",
+          "similarity": 0.495575
+        },
+        {
+          "fqn": "matplotlib.colors.LinearSegmentedColormap.reversed",
+          "similarity": 0.495146
+        },
+        {
+          "fqn": "matplotlib.mathtext.MathTextParser._parse_cached",
+          "similarity": 0.492188
+        },
+        {
+          "fqn": "matplotlib.testing.decorators._ImageComparisonBase.compare",
+          "similarity": 0.491525
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.contains",
+          "similarity": 0.491379
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx._FigureCanvasWxBase._get_key",
+          "similarity": 0.490741
+        },
+        {
+          "fqn": "matplotlib.dviread.Dvi._read",
+          "similarity": 0.488189
+        }
+      ],
+      "entered_final": [
+        "matplotlib.cbook.CallbackRegistry.connect",
+        "matplotlib.cbook.CallbackRegistry.disconnect",
+        "matplotlib.tri._triinterpolate.CubicTriInterpolator._interpolate_single_key",
+        "matplotlib.backend_tools.ToolViewsPositions.update_view",
+        "matplotlib.backend_managers.ToolManager._handle_toggle",
+        "matplotlib.cbook.CallbackRegistry._remove_proxy",
+        "matplotlib.cm.ColormapRegistry.register",
+        "matplotlib.backends.backend_ps.RendererPS.create_hatch",
+        "matplotlib.layout_engine.TightLayoutEngine.execute",
+        "matplotlib.category.UnitData.update",
+        "matplotlib.axes._secondary_axes.SecondaryAxis.set_location",
+        "matplotlib.artist.ArtistInspector.pprint_setters",
+        "matplotlib.contour.ContourSet._process_linewidths",
+        "matplotlib.colors.LinearSegmentedColormap.reversed",
+        "matplotlib.mathtext.MathTextParser._parse_cached",
+        "matplotlib.testing.decorators._ImageComparisonBase.compare",
+        "matplotlib.collections.Collection.contains",
+        "matplotlib.backends.backend_wx._FigureCanvasWxBase._get_key",
+        "matplotlib.dviread.Dvi._read"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.backends.backend_svg.XMLWriter.start"
+      ],
+      "prune_bound": 0.222965,
+      "dead_reason": null
+    },
+    {
+      "fqn": "matplotlib.tri.triangulation.Triangulation.set_mask",
+      "path_score": 0.391753,
+      "boundary": "DEPRECATED",
+      "vpre": "3.6.3",
+      "vpost": "3.7.0",
+      "resolved_fqn": "matplotlib.tri.triangulation.Triangulation.set_mask",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.tri._triangulation.Triangulation.set_mask",
+          "similarity": 0.940299
+        },
+        {
+          "fqn": "matplotlib.patches.StepPatch.set_data",
+          "similarity": 0.522727
+        },
+        {
+          "fqn": "matplotlib.text.Annotation.draw",
+          "similarity": 0.494118
+        },
+        {
+          "fqn": "matplotlib.artist.Artist.remove",
+          "similarity": 0.493976
+        },
+        {
+          "fqn": "matplotlib.backend_tools.ToolSetCursor._set_cursor_cbk",
+          "similarity": 0.488095
+        },
+        {
+          "fqn": "matplotlib.text._AnnotationBase.draggable",
+          "similarity": 0.486842
+        },
+        {
+          "fqn": "matplotlib.axis.XAxis.set_default_intervals",
+          "similarity": 0.482353
+        },
+        {
+          "fqn": "matplotlib.axis.YAxis.set_default_intervals",
+          "similarity": 0.482353
+        },
+        {
+          "fqn": "matplotlib.backend_managers.ToolManager.set_figure",
+          "similarity": 0.479452
+        },
+        {
+          "fqn": "matplotlib.widgets.SpanSelector._set_active_handle",
+          "similarity": 0.471264
+        },
+        {
+          "fqn": "matplotlib.table.Cell.visible_edges",
+          "similarity": 0.470588
+        },
+        {
+          "fqn": "matplotlib.widgets.Lasso.onrelease",
+          "similarity": 0.467532
+        },
+        {
+          "fqn": "matplotlib.markers.MarkerStyle._recache",
+          "similarity": 0.466667
+        },
+        {
+          "fqn": "matplotlib.patches.Annulus.set_radii",
+          "similarity": 0.461538
+        },
+        {
+          "fqn": "matplotlib.collections.Collection.set_linewidth",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "matplotlib.projections.polar.PolarAxes.set_rgrids",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "matplotlib.text.Annotation.get_window_extent",
+          "similarity": 0.457143
+        },
+        {
+          "fqn": "matplotlib.cm.ScalarMappable.set_clim",
+          "similarity": 0.455696
+        },
+        {
+          "fqn": "matplotlib.axes._secondary_axes.SecondaryAxis._set_scale",
+          "similarity": 0.451613
+        },
+        {
+          "fqn": "matplotlib.collections.Collection._set_edgecolor",
+          "similarity": 0.45
+        }
+      ],
+      "entered_final": [
+        "matplotlib.tri._triangulation.Triangulation.set_mask",
+        "matplotlib.patches.StepPatch.set_data",
+        "matplotlib.text.Annotation.draw",
+        "matplotlib.artist.Artist.remove",
+        "matplotlib.backend_tools.ToolSetCursor._set_cursor_cbk",
+        "matplotlib.text._AnnotationBase.draggable",
+        "matplotlib.axis.XAxis.set_default_intervals",
+        "matplotlib.axis.YAxis.set_default_intervals",
+        "matplotlib.backend_managers.ToolManager.set_figure",
+        "matplotlib.widgets.SpanSelector._set_active_handle",
+        "matplotlib.table.Cell.visible_edges",
+        "matplotlib.widgets.Lasso.onrelease",
+        "matplotlib.markers.MarkerStyle._recache",
+        "matplotlib.patches.Annulus.set_radii",
+        "matplotlib.collections.Collection.set_linewidth",
+        "matplotlib.projections.polar.PolarAxes.set_rgrids",
+        "matplotlib.text.Annotation.get_window_extent",
+        "matplotlib.axes._secondary_axes.SecondaryAxis._set_scale",
+        "matplotlib.collections.Collection._set_edgecolor"
+      ],
+      "entered_iter": [],
+      "pruned": [
+        "matplotlib.cm.ScalarMappable.set_clim"
+      ],
+      "prune_bound": 0.223267,
+      "dead_reason": null
+    }
+  ]
+}

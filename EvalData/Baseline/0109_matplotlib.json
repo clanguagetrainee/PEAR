@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.9.4",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.contour.ContourLabeler.add_label_clabeltext",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.transforms.Transform.__add__",
+      "api_type": "method",
+      "similarity": 0.4594594594594595,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib._layoutgrid.LayoutGrid.add_child",
+      "api_type": "method",
+      "similarity": 0.425531914893617,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorbar.Colorbar.set_label",
+      "api_type": "method",
+      "similarity": 0.40816326530612246,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._axes.Axes.quiverkey",
+      "api_type": "method",
+      "similarity": 0.40425531914893614,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.testing.jpl_units.Duration.Duration.__add__",
+      "api_type": "method",
+      "similarity": 0.3958333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_gtk.RubberbandGTK.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.RubberbandTk.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.RubberbandQt.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.RubberbandWx.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dviread.Dvi._fnt_def",
+      "api_type": "method",
+      "similarity": 0.3953488372093023,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.streamplot.DomainMap.start_trajectory",
+      "api_type": "method",
+      "similarity": 0.391304347826087,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.figure.FigureBase.add_gridspec",
+      "api_type": "method",
+      "similarity": 0.3877551020408163,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.patheffects.PathEffectRenderer.draw_path",
+      "api_type": "method",
+      "similarity": 0.38636363636363635,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.RendererBase.draw_text",
+      "api_type": "method",
+      "similarity": 0.3829787234042553,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.38095238095238093,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._process_plot_var_args._make_coordinates",
+      "api_type": "method",
+      "similarity": 0.38,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_agg.FigureCanvasAgg._print_pil",
+      "api_type": "method",
+      "similarity": 0.38,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_macosx.NavigationToolbar2Mac.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.38,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.inset.InsetIndicator._shared_setter",
+      "api_type": "method",
+      "similarity": 0.37777777777777777,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.legend_handler.HandlerStepPatch._create_patch",
+      "api_type": "method",
+      "similarity": 0.37777777777777777,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

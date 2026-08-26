@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.4.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.ticker.OldAutoLocator",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.ticker.AutoMinorLocator",
+      "api_type": "class",
+      "similarity": 0.5427509293680297,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.MultipleLocator",
+      "api_type": "class",
+      "similarity": 0.5422535211267606,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.LinearLocator",
+      "api_type": "class",
+      "similarity": 0.509375,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dates.MicrosecondLocator",
+      "api_type": "class",
+      "similarity": 0.4883720930232558,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.OffsetFrom",
+      "api_type": "class",
+      "similarity": 0.4690909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.LogFormatterMathtext",
+      "api_type": "class",
+      "similarity": 0.45985401459854014,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dates.DateLocator",
+      "api_type": "class",
+      "similarity": 0.453125,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.HammerAxes",
+      "api_type": "class",
+      "similarity": 0.4520547945205479,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dates.RRuleLocator",
+      "api_type": "class",
+      "similarity": 0.45132743362831856,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dates.AutoDateFormatter",
+      "api_type": "class",
+      "similarity": 0.4509090909090909,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.PercentFormatter",
+      "api_type": "class",
+      "similarity": 0.45,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.LambertAxes.LambertTransform",
+      "api_type": "class",
+      "similarity": 0.44528301886792454,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.ListedColormap",
+      "api_type": "class",
+      "similarity": 0.4423676012461059,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.InvertedSymmetricalLogTransform",
+      "api_type": "class",
+      "similarity": 0.4416961130742049,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.projections.geo.LambertAxes.InvertedLambertTransform",
+      "api_type": "class",
+      "similarity": 0.42962962962962964,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.tri._triinterpolate._DOF_estimator_min_E",
+      "api_type": "class",
+      "similarity": 0.42805755395683454,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.scale.SymmetricalLogTransform",
+      "api_type": "class",
+      "similarity": 0.4264705882352941,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.FixedLocator",
+      "api_type": "class",
+      "similarity": 0.42248062015503873,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorbar._ColorbarAxesLocator",
+      "api_type": "class",
+      "similarity": 0.4208754208754209,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker._Edge_integer",
+      "api_type": "class",
+      "similarity": 0.4189723320158103,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

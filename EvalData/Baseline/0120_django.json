@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.9.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.expressions.DateTime",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.db.models.expressions.Subquery",
+      "api_type": "class",
+      "similarity": 0.606951871657754,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.CombinedExpression",
+      "api_type": "class",
+      "similarity": 0.6004962779156328,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.When",
+      "api_type": "class",
+      "similarity": 0.5835411471321695,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.ColPairs",
+      "api_type": "class",
+      "similarity": 0.5734870317002881,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.operations.fields.AlterField",
+      "api_type": "class",
+      "similarity": 0.5459610027855153,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.Case",
+      "api_type": "class",
+      "similarity": 0.5361305361305362,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.Value",
+      "api_type": "class",
+      "similarity": 0.5289672544080605,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.operations.special.RunSQL",
+      "api_type": "class",
+      "similarity": 0.5271739130434783,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.Func",
+      "api_type": "class",
+      "similarity": 0.5248868778280543,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.urls.resolvers.URLPattern",
+      "api_type": "class",
+      "similarity": 0.523943661971831,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.NegatedExpression",
+      "api_type": "class",
+      "similarity": 0.5174603174603175,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.Col",
+      "api_type": "class",
+      "similarity": 0.5172413793103449,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.Sliced",
+      "api_type": "class",
+      "similarity": 0.514792899408284,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.sql.query.RawQuery",
+      "api_type": "class",
+      "similarity": 0.5123287671232877,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.operations.models.AddIndex",
+      "api_type": "class",
+      "similarity": 0.5122615803814714,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.migrations.operations.fields.AddField",
+      "api_type": "class",
+      "similarity": 0.5118110236220472,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.query.Prefetch",
+      "api_type": "class",
+      "similarity": 0.510989010989011,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.query_utils.FilteredRelation",
+      "api_type": "class",
+      "similarity": 0.5095541401273885,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.F",
+      "api_type": "class",
+      "similarity": 0.5086705202312138,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.search.SearchQuery",
+      "api_type": "class",
+      "similarity": 0.5080385852090032,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

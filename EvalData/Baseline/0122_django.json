@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "1.9.13",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.models.fields.files.FileField.get_directory_name",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.contrib.gis.gdal.field.Field.name",
+      "api_type": "method",
+      "similarity": 0.46153846153846156,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.layer.Layer.name",
+      "api_type": "method",
+      "similarity": 0.46153846153846156,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.datasource.DataSource.name",
+      "api_type": "method",
+      "similarity": 0.4358974358974359,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.files.storage.filesystem.FileSystemStorage.get_alternative_name",
+      "api_type": "method",
+      "similarity": 0.4318181818181818,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.core.mail.backends.filebased.EmailBackend._get_filename",
+      "api_type": "method",
+      "similarity": 0.43103448275862066,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.feature.Feature.layer_name",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset",
+      "api_type": "method",
+      "similarity": 0.425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.tasks.base.Task.get_result",
+      "api_type": "method",
+      "similarity": 0.42,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.base.introspection.BaseDatabaseIntrospection.get_migratable_models",
+      "api_type": "method",
+      "similarity": 0.4186046511627907,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_object",
+      "api_type": "method",
+      "similarity": 0.4186046511627907,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.auth.views.RedirectURLMixin.get_redirect_url",
+      "api_type": "method",
+      "similarity": 0.41818181818181815,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.driver.Driver.name",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.gdal.raster.source.GDALRaster.name",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_primary_key_columns",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.sqlite3.introspection.DatabaseIntrospection.get_relations",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.related.ForeignKey.get_default",
+      "api_type": "method",
+      "similarity": 0.4166666666666667,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.admin.options.ModelAdmin._get_edited_object_pks",
+      "api_type": "method",
+      "similarity": 0.41509433962264153,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.expressions.ExpressionWrapper.get_group_by_cols",
+      "api_type": "method",
+      "similarity": 0.41509433962264153,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_x",
+      "api_type": "method",
+      "similarity": 0.4146341463414634,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.coordseq.GEOSCoordSeq._get_y",
+      "api_type": "method",
+      "similarity": 0.4146341463414634,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

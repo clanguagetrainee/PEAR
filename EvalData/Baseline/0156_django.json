@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "4.0.10",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.db.backends.postgresql.operations.DatabaseOperations.ignore_conflicts_suffix_sql",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "candidates": [
+    {
+      "fqn": "django.http.request.QueryDict.setlistdefault",
+      "api_type": "method",
+      "similarity": 0.42424242424242425,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.io.WKBReader.read",
+      "api_type": "method",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.gis.geos.io.WKTReader.read",
+      "api_type": "method",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.messages.storage.cookie.MessageSerializer.loads",
+      "api_type": "method",
+      "similarity": 0.41935483870967744,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.mysql.schema.DatabaseSchemaEditor._comment_sql",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.reverse_related.ManyToOneRel.__getstate__",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.edit.BaseCreateView.get",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.views.generic.edit.BaseCreateView.post",
+      "api_type": "method",
+      "similarity": 0.4117647058823529,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.contrib.postgres.fields.hstore.HStoreField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.DateField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.DateTimeField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.DurationField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.EmailField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.FloatField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.IntegerField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.TimeField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.URLField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.__init__.UUIDField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.models.fields.files.ImageField.formfield",
+      "api_type": "method",
+      "similarity": 0.40625,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "django.db.backends.mysql.operations.DatabaseOperations.insert_statement",
+      "api_type": "method",
+      "similarity": 0.40540540540540543,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

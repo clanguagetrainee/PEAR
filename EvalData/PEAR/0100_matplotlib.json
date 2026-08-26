@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.6.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.backends.backend_pdf.RendererPdf.draw_gouraud_triangle",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "matplotlib.backends._backend_gtk.RubberbandGTK.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [
+        "matplotlib.backends._backend_gtk.RubberbandGTK.draw_rubberband"
+      ],
+      "local_scores": [
+        0.4222222222222222
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends._backend_tk.RubberbandTk.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [
+        "matplotlib.backends._backend_tk.RubberbandTk.draw_rubberband"
+      ],
+      "local_scores": [
+        0.4222222222222222
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_qt.RubberbandQt.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [
+        "matplotlib.backends.backend_qt.RubberbandQt.draw_rubberband"
+      ],
+      "local_scores": [
+        0.4222222222222222
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_wx.RubberbandWx.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.4222222222222222,
+      "evolution_path": [
+        "matplotlib.backends.backend_wx.RubberbandWx.draw_rubberband"
+      ],
+      "local_scores": [
+        0.4222222222222222
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [
+        "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.draw_rubberband"
+      ],
+      "local_scores": [
+        0.4090909090909091
+      ]
+    },
+    {
+      "fqn": "matplotlib.patches.Shadow.draw",
+      "api_type": "method",
+      "similarity": 0.3902439024390244,
+      "evolution_path": [
+        "matplotlib.patches.Shadow.draw"
+      ],
+      "local_scores": [
+        0.3902439024390244
+      ]
+    },
+    {
+      "fqn": "matplotlib.patheffects.PathEffectRenderer.draw_path",
+      "api_type": "method",
+      "similarity": 0.3829787234042553,
+      "evolution_path": [
+        "matplotlib.patheffects.PathEffectRenderer.draw_path"
+      ],
+      "local_scores": [
+        0.3829787234042553
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_macosx.NavigationToolbar2Mac.draw_rubberband",
+      "api_type": "method",
+      "similarity": 0.37735849056603776,
+      "evolution_path": [
+        "matplotlib.backends.backend_macosx.NavigationToolbar2Mac.draw_rubberband"
+      ],
+      "local_scores": [
+        0.37735849056603776
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections._CollectionWithSizes.draw",
+      "api_type": "method",
+      "similarity": 0.36363636363636365,
+      "evolution_path": [
+        "matplotlib.collections._CollectionWithSizes.draw"
+      ],
+      "local_scores": [
+        0.36363636363636365
+      ]
+    },
+    {
+      "fqn": "matplotlib.colorbar._ColorbarSpine.draw",
+      "api_type": "method",
+      "similarity": 0.36363636363636365,
+      "evolution_path": [
+        "matplotlib.colorbar._ColorbarSpine.draw"
+      ],
+      "local_scores": [
+        0.36363636363636365
+      ]
+    },
+    {
+      "fqn": "matplotlib.offsetbox.TextArea.draw",
+      "api_type": "method",
+      "similarity": 0.3617021276595745,
+      "evolution_path": [
+        "matplotlib.offsetbox.TextArea.draw"
+      ],
+      "local_scores": [
+        0.3617021276595745
+      ]
+    },
+    {
+      "fqn": "matplotlib.spines.Spine.draw",
+      "api_type": "method",
+      "similarity": 0.3617021276595745,
+      "evolution_path": [
+        "matplotlib.spines.Spine.draw"
+      ],
+      "local_scores": [
+        0.3617021276595745
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.RendererBase.draw_gouraud_triangles",
+      "api_type": "method",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [
+        "matplotlib.backend_bases.RendererBase.draw_gouraud_triangles"
+      ],
+      "local_scores": [
+        0.35714285714285715
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_template.FigureCanvasTemplate.draw",
+      "api_type": "method",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [
+        "matplotlib.backends.backend_template.FigureCanvasTemplate.draw"
+      ],
+      "local_scores": [
+        0.35714285714285715
+      ]
+    },
+    {
+      "fqn": "matplotlib.collections.EllipseCollection.draw",
+      "api_type": "method",
+      "similarity": 0.35714285714285715,
+      "evolution_path": [
+        "matplotlib.collections.EllipseCollection.draw"
+      ],
+      "local_scores": [
+        0.35714285714285715
+      ]
+    },
+    {
+      "fqn": "matplotlib.patheffects.AbstractPathEffect.draw_path",
+      "api_type": "method",
+      "similarity": 0.35185185185185186,
+      "evolution_path": [
+        "matplotlib.patheffects.AbstractPathEffect.draw_path"
+      ],
+      "local_scores": [
+        0.35185185185185186
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4._draw_func",
+      "api_type": "method",
+      "similarity": 0.34782608695652173,
+      "evolution_path": [
+        "matplotlib.backends.backend_gtk4.FigureCanvasGTK4._draw_func"
+      ],
+      "local_scores": [
+        0.34782608695652173
+      ]
+    },
+    {
+      "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.blit",
+      "api_type": "method",
+      "similarity": 0.34782608695652173,
+      "evolution_path": [
+        "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.blit"
+      ],
+      "local_scores": [
+        0.34782608695652173
+      ]
+    },
+    {
+      "fqn": "matplotlib.backend_bases.RendererBase.draw_tex",
+      "api_type": "method",
+      "similarity": 0.3469387755102041,
+      "evolution_path": [
+        "matplotlib.backend_bases.RendererBase.draw_tex"
+      ],
+      "local_scores": [
+        0.3469387755102041
+      ]
+    },
+    {
+      "fqn": "matplotlib.transforms.Affine2D.rotate_around",
+      "api_type": "method",
+      "similarity": 0.3469387755102041,
+      "evolution_path": [
+        "matplotlib.transforms.Affine2D.rotate_around"
+      ],
+      "local_scores": [
+        0.3469387755102041
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "matplotlib.backends.backend_pdf.RendererPdf.draw_gouraud_triangle",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.8.4",
+      "vpost": "3.9.0",
+      "resolved_fqn": "matplotlib.backends.backend_pdf.RendererPdf.draw_gouraud_triangle",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "matplotlib.backends._backend_gtk.RubberbandGTK.draw_rubberband",
+          "similarity": 0.422222
+        },
+        {
+          "fqn": "matplotlib.backends._backend_tk.RubberbandTk.draw_rubberband",
+          "similarity": 0.422222
+        },
+        {
+          "fqn": "matplotlib.backends.backend_qt.RubberbandQt.draw_rubberband",
+          "similarity": 0.422222
+        },
+        {
+          "fqn": "matplotlib.backends.backend_wx.RubberbandWx.draw_rubberband",
+          "similarity": 0.422222
+        },
+        {
+          "fqn": "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.draw_rubberband",
+          "similarity": 0.409091
+        },
+        {
+          "fqn": "matplotlib.patches.Shadow.draw",
+          "similarity": 0.390244
+        },
+        {
+          "fqn": "matplotlib.patheffects.PathEffectRenderer.draw_path",
+          "similarity": 0.382979
+        },
+        {
+          "fqn": "matplotlib.backends.backend_macosx.NavigationToolbar2Mac.draw_rubberband",
+          "similarity": 0.377358
+        },
+        {
+          "fqn": "matplotlib.collections._CollectionWithSizes.draw",
+          "similarity": 0.363636
+        },
+        {
+          "fqn": "matplotlib.colorbar._ColorbarSpine.draw",
+          "similarity": 0.363636
+        },
+        {
+          "fqn": "matplotlib.offsetbox.TextArea.draw",
+          "similarity": 0.361702
+        },
+        {
+          "fqn": "matplotlib.spines.Spine.draw",
+          "similarity": 0.361702
+        },
+        {
+          "fqn": "matplotlib.backend_bases.RendererBase.draw_gouraud_triangles",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "matplotlib.backends.backend_template.FigureCanvasTemplate.draw",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "matplotlib.collections.EllipseCollection.draw",
+          "similarity": 0.357143
+        },
+        {
+          "fqn": "matplotlib.patheffects.AbstractPathEffect.draw_path",
+          "similarity": 0.351852
+        },
+        {
+          "fqn": "matplotlib.backends.backend_gtk4.FigureCanvasGTK4._draw_func",
+          "similarity": 0.347826
+        },
+        {
+          "fqn": "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.blit",
+          "similarity": 0.347826
+        },
+        {
+          "fqn": "matplotlib.backend_bases.RendererBase.draw_tex",
+          "similarity": 0.346939
+        },
+        {
+          "fqn": "matplotlib.transforms.Affine2D.rotate_around",
+          "similarity": 0.346939
+        }
+      ],
+      "entered_final": [
+        "matplotlib.backends._backend_gtk.RubberbandGTK.draw_rubberband",
+        "matplotlib.backends._backend_tk.RubberbandTk.draw_rubberband",
+        "matplotlib.backends.backend_qt.RubberbandQt.draw_rubberband",
+        "matplotlib.backends.backend_wx.RubberbandWx.draw_rubberband",
+        "matplotlib.backends.backend_webagg_core.NavigationToolbar2WebAgg.draw_rubberband",
+        "matplotlib.patches.Shadow.draw",
+        "matplotlib.patheffects.PathEffectRenderer.draw_path",
+        "matplotlib.backends.backend_macosx.NavigationToolbar2Mac.draw_rubberband",
+        "matplotlib.collections._CollectionWithSizes.draw",
+        "matplotlib.colorbar._ColorbarSpine.draw",
+        "matplotlib.offsetbox.TextArea.draw",
+        "matplotlib.spines.Spine.draw",
+        "matplotlib.backend_bases.RendererBase.draw_gouraud_triangles",
+        "matplotlib.backends.backend_template.FigureCanvasTemplate.draw",
+        "matplotlib.collections.EllipseCollection.draw",
+        "matplotlib.patheffects.AbstractPathEffect.draw_path",
+        "matplotlib.backends.backend_gtk4.FigureCanvasGTK4._draw_func",
+        "matplotlib.backends.backend_tkagg.FigureCanvasTkAgg.blit",
+        "matplotlib.backend_bases.RendererBase.draw_tex",
+        "matplotlib.transforms.Affine2D.rotate_around"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.346939,
+      "dead_reason": null
+    }
+  ]
+}

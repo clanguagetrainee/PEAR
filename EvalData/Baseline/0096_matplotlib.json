@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "matplotlib",
+    "source_version": "3.5.3",
+    "target_version": "3.11.1",
+    "old_api_fqn": "matplotlib.ticker.LogLocator.subs",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/matplotlib"
+  },
+  "candidates": [
+    {
+      "fqn": "matplotlib.ticker.LogLocator._set_subs",
+      "api_type": "method",
+      "similarity": 0.8472222222222222,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cm.ColormapRegistry.register",
+      "api_type": "method",
+      "similarity": 0.5425531914893617,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.widgets.SliderBase._stepped_value",
+      "api_type": "method",
+      "similarity": 0.5333333333333333,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pdf.PdfPages.savefig",
+      "api_type": "method",
+      "similarity": 0.5308641975308642,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.MultiNorm.clip",
+      "api_type": "method",
+      "similarity": 0.5308641975308642,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.MultiNorm.vmax",
+      "api_type": "method",
+      "similarity": 0.5308641975308642,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colors.MultiNorm.vmin",
+      "api_type": "method",
+      "similarity": 0.5308641975308642,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backends.backend_pgf.PdfPages.savefig",
+      "api_type": "method",
+      "similarity": 0.53,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.colorizer.Colorizer._set_cmap",
+      "api_type": "method",
+      "similarity": 0.5185185185185185,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.ticker.ScalarFormatter.set_useMathText",
+      "api_type": "method",
+      "similarity": 0.5168539325842697,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.animation.FuncAnimation._draw_frame",
+      "api_type": "method",
+      "similarity": 0.5106382978723404,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.dviread.DviFont.resolve_path",
+      "api_type": "method",
+      "similarity": 0.5094339622641509,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.GraphicsContextBase.set_dashes",
+      "api_type": "method",
+      "similarity": 0.5060240963855421,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.text.Text.set_rotation",
+      "api_type": "method",
+      "similarity": 0.5060240963855421,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axis.Axis.convert_units",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.backend_bases.ToolContainerBase.add_tool",
+      "api_type": "method",
+      "similarity": 0.5,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.artist.Artist._set_alpha_for_array",
+      "api_type": "method",
+      "similarity": 0.49504950495049505,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase.set_adjustable",
+      "api_type": "method",
+      "similarity": 0.49473684210526314,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.axes._base._AxesBase._set_position",
+      "api_type": "method",
+      "similarity": 0.4942528735632184,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "matplotlib.cbook.CallbackRegistry.process",
+      "api_type": "method",
+      "similarity": 0.49411764705882355,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

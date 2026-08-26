@@ -1,0 +1,153 @@
+{
+  "task": {
+    "lib_name": "pandas",
+    "source_version": "0.25.3",
+    "target_version": "3.0.5",
+    "old_api_fqn": "pandas.io.stata.StataReader.data",
+    "api_type": "method",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/pandas"
+  },
+  "candidates": [
+    {
+      "fqn": "pandas.core.arrays.arrow.array.ArrowExtensionArray.__neg__",
+      "api_type": "method",
+      "similarity": 0.43902439024390244,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.multi.MultiIndex.unique",
+      "api_type": "method",
+      "similarity": 0.43902439024390244,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.sas.sas7bdat.SAS7BDATReader.__next__",
+      "api_type": "method",
+      "similarity": 0.43902439024390244,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.range.RangeIndex._format_attrs",
+      "api_type": "method",
+      "similarity": 0.43478260869565216,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.range.RangeIndex._data",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.series.Series.isin",
+      "api_type": "method",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.col.Expression.__neg__",
+      "api_type": "method",
+      "similarity": 0.4186046511627907,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.col.Expression.__pos__",
+      "api_type": "method",
+      "similarity": 0.4186046511627907,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame._get_bool_data",
+      "api_type": "method",
+      "similarity": 0.4186046511627907,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.ops.MathCall.__repr__",
+      "api_type": "method",
+      "similarity": 0.4146341463414634,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin._summary",
+      "api_type": "method",
+      "similarity": 0.4146341463414634,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.col.Expression.__abs__",
+      "api_type": "method",
+      "similarity": 0.41025641025641024,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.computation.pytables.BinOp.generate",
+      "api_type": "method",
+      "similarity": 0.41025641025641024,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.window.rolling.BaseWindowGroupby._gotitem",
+      "api_type": "method",
+      "similarity": 0.4090909090909091,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.tests.reshape.merge.test_merge_asof.TestAsOfMerge.prep_data",
+      "api_type": "method",
+      "similarity": 0.40816326530612246,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame.dtypes",
+      "api_type": "method",
+      "similarity": 0.40540540540540543,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.errors.__init__.AbstractMethodError.__str__",
+      "api_type": "method",
+      "similarity": 0.40476190476190477,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.arrays.categorical.Categorical._validate_scalar",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.core.generic.NDFrame._get_numeric_data",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    },
+    {
+      "fqn": "pandas.io.json._json.JsonReader._get_data_from_filepath",
+      "api_type": "method",
+      "similarity": 0.4,
+      "evolution_path": [],
+      "local_scores": []
+    }
+  ]
+}

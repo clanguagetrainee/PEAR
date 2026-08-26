@@ -1,0 +1,354 @@
+{
+  "task": {
+    "lib_name": "django",
+    "source_version": "3.0.14",
+    "target_version": "6.0.7",
+    "old_api_fqn": "django.utils.decorators.classproperty",
+    "api_type": "class",
+    "top_k": 20,
+    "lib_repo_path": "/home/he/PEAR/Libraries/django"
+  },
+  "status": "OK",
+  "error": null,
+  "candidates": [
+    {
+      "fqn": "django.utils.functional.classproperty",
+      "api_type": "class",
+      "similarity": 0.9795918367346939,
+      "evolution_path": [
+        "django.utils.functional.classproperty"
+      ],
+      "local_scores": [
+        0.9795918367346939
+      ]
+    },
+    {
+      "fqn": "django.template.defaulttags.TemplateLiteral",
+      "api_type": "class",
+      "similarity": 0.5,
+      "evolution_path": [
+        "django.template.defaulttags.TemplateLiteral"
+      ],
+      "local_scores": [
+        0.5
+      ]
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetCurrentLanguageBidiNode",
+      "api_type": "class",
+      "similarity": 0.4603174603174603,
+      "evolution_path": [
+        "django.templatetags.i18n.GetCurrentLanguageBidiNode"
+      ],
+      "local_scores": [
+        0.4603174603174603
+      ]
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetCurrentLanguageNode",
+      "api_type": "class",
+      "similarity": 0.4603174603174603,
+      "evolution_path": [
+        "django.templatetags.i18n.GetCurrentLanguageNode"
+      ],
+      "local_scores": [
+        0.4603174603174603
+      ]
+    },
+    {
+      "fqn": "django.db.migrations.exceptions.NodeNotFoundError",
+      "api_type": "class",
+      "similarity": 0.4583333333333333,
+      "evolution_path": [
+        "django.db.migrations.exceptions.NodeNotFoundError"
+      ],
+      "local_scores": [
+        0.4583333333333333
+      ]
+    },
+    {
+      "fqn": "django.templatetags.tz.GetCurrentTimezoneNode",
+      "api_type": "class",
+      "similarity": 0.453125,
+      "evolution_path": [
+        "django.templatetags.tz.GetCurrentTimezoneNode"
+      ],
+      "local_scores": [
+        0.453125
+      ]
+    },
+    {
+      "fqn": "django.test.utils.Approximate",
+      "api_type": "class",
+      "similarity": 0.4342105263157895,
+      "evolution_path": [
+        "django.test.utils.Approximate"
+      ],
+      "local_scores": [
+        0.4342105263157895
+      ]
+    },
+    {
+      "fqn": "django.test.testcases._DatabaseFailure",
+      "api_type": "class",
+      "similarity": 0.43333333333333335,
+      "evolution_path": [
+        "django.test.testcases._DatabaseFailure"
+      ],
+      "local_scores": [
+        0.43333333333333335
+      ]
+    },
+    {
+      "fqn": "django.http.multipartparser.InterBoundaryIter",
+      "api_type": "class",
+      "similarity": 0.42857142857142855,
+      "evolution_path": [
+        "django.http.multipartparser.InterBoundaryIter"
+      ],
+      "local_scores": [
+        0.42857142857142855
+      ]
+    },
+    {
+      "fqn": "django.template.backends.django.Template",
+      "api_type": "class",
+      "similarity": 0.4268292682926829,
+      "evolution_path": [
+        "django.template.backends.django.Template"
+      ],
+      "local_scores": [
+        0.4268292682926829
+      ]
+    },
+    {
+      "fqn": "django.template.base.TextNode",
+      "api_type": "class",
+      "similarity": 0.4264705882352941,
+      "evolution_path": [
+        "django.template.base.TextNode"
+      ],
+      "local_scores": [
+        0.4264705882352941
+      ]
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetLanguageInfoNode",
+      "api_type": "class",
+      "similarity": 0.4246575342465753,
+      "evolution_path": [
+        "django.templatetags.i18n.GetLanguageInfoNode"
+      ],
+      "local_scores": [
+        0.4246575342465753
+      ]
+    },
+    {
+      "fqn": "django.forms.models.ModelChoiceIteratorValue",
+      "api_type": "class",
+      "similarity": 0.4230769230769231,
+      "evolution_path": [
+        "django.forms.models.ModelChoiceIteratorValue"
+      ],
+      "local_scores": [
+        0.4230769230769231
+      ]
+    },
+    {
+      "fqn": "django.template.base.VariableNode",
+      "api_type": "class",
+      "similarity": 0.42105263157894735,
+      "evolution_path": [
+        "django.template.base.VariableNode"
+      ],
+      "local_scores": [
+        0.42105263157894735
+      ]
+    },
+    {
+      "fqn": "django.templatetags.i18n.GetAvailableLanguagesNode",
+      "api_type": "class",
+      "similarity": 0.42028985507246375,
+      "evolution_path": [
+        "django.templatetags.i18n.GetAvailableLanguagesNode"
+      ],
+      "local_scores": [
+        0.42028985507246375
+      ]
+    },
+    {
+      "fqn": "django.core.serializers.base.Deserializer",
+      "api_type": "class",
+      "similarity": 0.4189189189189189,
+      "evolution_path": [
+        "django.core.serializers.base.Deserializer"
+      ],
+      "local_scores": [
+        0.4189189189189189
+      ]
+    },
+    {
+      "fqn": "django.conf.__init__.SettingsReference",
+      "api_type": "class",
+      "similarity": 0.4126984126984127,
+      "evolution_path": [
+        "django.conf.__init__.SettingsReference"
+      ],
+      "local_scores": [
+        0.4126984126984127
+      ]
+    },
+    {
+      "fqn": "django.utils.log.CallbackFilter",
+      "api_type": "class",
+      "similarity": 0.4126984126984127,
+      "evolution_path": [
+        "django.utils.log.CallbackFilter"
+      ],
+      "local_scores": [
+        0.4126984126984127
+      ]
+    },
+    {
+      "fqn": "django.template.base.VariableDoesNotExist",
+      "api_type": "class",
+      "similarity": 0.40625,
+      "evolution_path": [
+        "django.template.base.VariableDoesNotExist"
+      ],
+      "local_scores": [
+        0.40625
+      ]
+    },
+    {
+      "fqn": "django.utils.feedgenerator.Enclosure",
+      "api_type": "class",
+      "similarity": 0.40350877192982454,
+      "evolution_path": [
+        "django.utils.feedgenerator.Enclosure"
+      ],
+      "local_scores": [
+        0.40350877192982454
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "fqn": "django.utils.decorators.classproperty",
+      "path_score": 1.0,
+      "boundary": "DEPRECATED",
+      "vpre": "3.0.14",
+      "vpost": "3.1",
+      "resolved_fqn": "django.utils.decorators.classproperty",
+      "resolved_kind": "direct",
+      "candidates": [
+        {
+          "fqn": "django.utils.functional.classproperty",
+          "similarity": 0.979592
+        },
+        {
+          "fqn": "django.template.defaulttags.TemplateLiteral",
+          "similarity": 0.5
+        },
+        {
+          "fqn": "django.templatetags.i18n.GetCurrentLanguageBidiNode",
+          "similarity": 0.460317
+        },
+        {
+          "fqn": "django.templatetags.i18n.GetCurrentLanguageNode",
+          "similarity": 0.460317
+        },
+        {
+          "fqn": "django.db.migrations.exceptions.NodeNotFoundError",
+          "similarity": 0.458333
+        },
+        {
+          "fqn": "django.templatetags.tz.GetCurrentTimezoneNode",
+          "similarity": 0.453125
+        },
+        {
+          "fqn": "django.test.utils.Approximate",
+          "similarity": 0.434211
+        },
+        {
+          "fqn": "django.test.testcases._DatabaseFailure",
+          "similarity": 0.433333
+        },
+        {
+          "fqn": "django.http.multipartparser.InterBoundaryIter",
+          "similarity": 0.428571
+        },
+        {
+          "fqn": "django.template.backends.django.Template",
+          "similarity": 0.426829
+        },
+        {
+          "fqn": "django.template.base.TextNode",
+          "similarity": 0.426471
+        },
+        {
+          "fqn": "django.templatetags.i18n.GetLanguageInfoNode",
+          "similarity": 0.424658
+        },
+        {
+          "fqn": "django.forms.models.ModelChoiceIteratorValue",
+          "similarity": 0.423077
+        },
+        {
+          "fqn": "django.template.base.VariableNode",
+          "similarity": 0.421053
+        },
+        {
+          "fqn": "django.templatetags.i18n.GetAvailableLanguagesNode",
+          "similarity": 0.42029
+        },
+        {
+          "fqn": "django.core.serializers.base.Deserializer",
+          "similarity": 0.418919
+        },
+        {
+          "fqn": "django.conf.__init__.SettingsReference",
+          "similarity": 0.412698
+        },
+        {
+          "fqn": "django.utils.log.CallbackFilter",
+          "similarity": 0.412698
+        },
+        {
+          "fqn": "django.template.base.VariableDoesNotExist",
+          "similarity": 0.40625
+        },
+        {
+          "fqn": "django.utils.feedgenerator.Enclosure",
+          "similarity": 0.403509
+        }
+      ],
+      "entered_final": [
+        "django.utils.functional.classproperty",
+        "django.template.defaulttags.TemplateLiteral",
+        "django.templatetags.i18n.GetCurrentLanguageBidiNode",
+        "django.templatetags.i18n.GetCurrentLanguageNode",
+        "django.db.migrations.exceptions.NodeNotFoundError",
+        "django.templatetags.tz.GetCurrentTimezoneNode",
+        "django.test.utils.Approximate",
+        "django.test.testcases._DatabaseFailure",
+        "django.http.multipartparser.InterBoundaryIter",
+        "django.template.backends.django.Template",
+        "django.template.base.TextNode",
+        "django.templatetags.i18n.GetLanguageInfoNode",
+        "django.forms.models.ModelChoiceIteratorValue",
+        "django.template.base.VariableNode",
+        "django.templatetags.i18n.GetAvailableLanguagesNode",
+        "django.core.serializers.base.Deserializer",
+        "django.conf.__init__.SettingsReference",
+        "django.utils.log.CallbackFilter",
+        "django.template.base.VariableDoesNotExist",
+        "django.utils.feedgenerator.Enclosure"
+      ],
+      "entered_iter": [],
+      "pruned": [],
+      "prune_bound": 0.403509,
+      "dead_reason": null
+    }
+  ]
+}
