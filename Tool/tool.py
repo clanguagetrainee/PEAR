@@ -9,6 +9,7 @@
 #  不反向。对应设计文档 §6 Tool 定位与 §9.6 body 按需提取。
 
 import ast
+import fcntl
 import json
 import os
 import re
@@ -465,8 +466,34 @@ class SourceProvider:
         cache[module_fqn] = tree
         return tree
 
+    def _acquire_version_lock(self, version: str):
+        """获取 (lib, version) 级别的进程间互斥锁（fcntl.flock，阻塞等待）。
+
+        锁粒度取 (lib, version) 而非 (lib, type, version)：同一版本的
+        class/function/method 批生成共享同一个 git worktree 检出，必须串行。
+        锁文件常驻 {cache_dir}/.locks/{lib}/{version}.lock，永不删除——
+        删除会让后来的进程在新路径上新建锁文件，与旧 fd 的锁不是同一把，
+        破坏互斥。解锁由调用方 finally 中 flock(LOCK_UN) + close 完成，
+        进程异常退出时内核自动释放。
+
+        输入参数：
+            version (str)：规范化版本号。
+        返回值：
+            IO：已持有 LOCK_EX 的锁文件句柄（调用方负责 finally 释放）。
+        """
+        lock_dir = os.path.join(self.cache_dir, '.locks', self.lib_name)
+        os.makedirs(lock_dir, exist_ok=True)
+        lock_path = os.path.join(lock_dir, f'{version}.lock')
+        fh = open(lock_path, 'a+')
+        fcntl.flock(fh, fcntl.LOCK_EX)
+        return fh
+
     def ensure_batch(self, api_type: str, version: str) -> None:
         """确保 (lib, api_type, version) 批已生成；已生成则无操作，否则整批提取落盘。
+
+        并发安全：快路径（.done 已存在）不加锁直接返回；缺失时按 (lib, version)
+        加进程间互斥锁，锁内二次检查 .done——并发中其他进程已生成则直接复用其
+        产物，只有首个持锁且仍未生成者才执行提取（不会重复生成、不会覆盖）。
 
         输入参数：
             api_type (str)：'class' | 'function' | 'method'。
@@ -480,37 +507,46 @@ class SourceProvider:
         batch_dir = self._batch_dir(api_type, version)
         done = os.path.join(batch_dir, '.done')
         if os.path.exists(done):
-            return
+            return  # 快路径：已有批次，不加锁
 
-        src_dir = self.source_dir(version)
-        pkg_root = self._resolve_package_root(src_dir)
+        # 慢路径：缺失批次，加锁后二次检查再生成
+        fh = self._acquire_version_lock(version)
+        try:
+            if os.path.exists(done):
+                return  # 二次检查：并发中其他进程已生成完毕，直接复用
 
-        defs: Dict[str, str] = {}
-        for fpath, pyi in self._iter_source_files(pkg_root):
-            try:
-                with open(fpath, 'r', encoding='utf-8') as f:
-                    code = f.read()
-            except (OSError, UnicodeDecodeError) as e:
-                print(f"[SourceProvider] {fpath} 读取失败: {e}")
-                continue
-            tree = safe_parse(code, fpath)
-            if tree is None:
-                continue
-            d2f = Def2format()
-            d2f.toFormat(fpath, src_dir, pkg_root, self.lib_name)
-            prefix = d2f.prefix
-            self._collect(tree.body, prefix, api_type, pyi, defs)
+            src_dir = self.source_dir(version)
+            pkg_root = self._resolve_package_root(src_dir)
 
-        os.makedirs(batch_dir, exist_ok=True)
-        for fqn, text in defs.items():
-            # internal_fqn 只含点号与标识符，不含路径分隔符，可直接作文件名
-            out_path = os.path.join(batch_dir, f"{fqn}.py")
-            with open(out_path, 'w', encoding='utf-8') as f:
-                f.write(text)
-        with open(done, 'w', encoding='utf-8') as f:
-            f.write('')
-        print(f"[SourceProvider] 生成 {self.lib_name} {version} {api_type} "
-              f"定义 {len(defs)} 个 -> {batch_dir}")
+            defs: Dict[str, str] = {}
+            for fpath, pyi in self._iter_source_files(pkg_root):
+                try:
+                    with open(fpath, 'r', encoding='utf-8') as f:
+                        code = f.read()
+                except (OSError, UnicodeDecodeError) as e:
+                    print(f"[SourceProvider] {fpath} 读取失败: {e}")
+                    continue
+                tree = safe_parse(code, fpath)
+                if tree is None:
+                    continue
+                d2f = Def2format()
+                d2f.toFormat(fpath, src_dir, pkg_root, self.lib_name)
+                prefix = d2f.prefix
+                self._collect(tree.body, prefix, api_type, pyi, defs)
+
+            os.makedirs(batch_dir, exist_ok=True)
+            for fqn, text in defs.items():
+                # internal_fqn 只含点号与标识符，不含路径分隔符，可直接作文件名
+                out_path = os.path.join(batch_dir, f"{fqn}.py")
+                with open(out_path, 'w', encoding='utf-8') as f:
+                    f.write(text)
+            with open(done, 'w', encoding='utf-8') as f:
+                f.write('')
+            print(f"[SourceProvider] 生成 {self.lib_name} {version} {api_type} "
+                  f"定义 {len(defs)} 个 -> {batch_dir}")
+        finally:
+            fcntl.flock(fh, fcntl.LOCK_UN)
+            fh.close()
 
     def get_api(self, internal_fqn: str, api_type: str, version: str) -> Optional[str]:
         """返回 internal_fqn 在 version 的完整 API 定义文本；该批未生成则整批生成。

@@ -32,6 +32,24 @@ class Task:
     top_k: int
     lib_repo_path: str
 
+    def to_dict(self) -> dict:
+        """把 Task 序列化为 dict（全字段，含 lib_repo_path）。
+
+        输入参数：
+            无（self）。
+        返回值：
+            dict：Task 全字段的浅拷贝（键名与字段同名）。
+        """
+        return {
+            "lib_name": self.lib_name,
+            "source_version": self.source_version,
+            "target_version": self.target_version,
+            "old_api_fqn": self.old_api_fqn,
+            "api_type": self.api_type,
+            "top_k": self.top_k,
+            "lib_repo_path": self.lib_repo_path,
+        }
+
 
 @dataclass
 class APIRecord:
@@ -119,8 +137,8 @@ class ResolvedApi:
     字段：
         original_fqn (str)：输入的 API 完整名（最外层）。
         resolved_fqn (str)：更正后的实质 API FQN（用于相似度比对）。
-        kind (str)：'direct' | 'alias' | 'forward' | 'nested'
-                   | 'alias_external' | 'nested_external' | 'unknown'。
+        kind (str)：'direct' | 'alias' | 'forward'
+                   | 'alias_external' | 'unknown'。
         definition (Optional[str])：resolved_fqn 在该版本的完整 API 定义
             （装饰器 + 签名 + 实现，ast.unparse 整节点），无则 None。
     """
@@ -148,6 +166,23 @@ class Candidate:
     evolution_path: List[str] = field(default_factory=list)
     local_scores: List[float] = field(default_factory=list)
 
+    def to_dict(self) -> dict:
+        """把 Candidate 序列化为 dict。
+
+        输入参数：
+            无（self）。
+        返回值：
+            dict：含 fqn/api_type/similarity/evolution_path/local_scores，
+            evolution_path 与 local_scores 为拷贝后的 list。
+        """
+        return {
+            "fqn": self.fqn,
+            "api_type": self.api_type,
+            "similarity": self.similarity,
+            "evolution_path": list(self.evolution_path),
+            "local_scores": list(self.local_scores),
+        }
+
 
 @dataclass
 class Result:
@@ -158,8 +193,31 @@ class Result:
         status (str)：'OK' | 'NOT_DEPRECATED' | 'NOT_FOUND' | 'NO_CANDIDATE' | 'ERROR'。
         candidates (List[Candidate])：已按最终评分降序、去重后的候选列表。
         error (Optional[str])：status=ERROR 时的错误描述。
+        trace (List[dict])：BFS 完整执行轨迹，每元素一条节点记录（fqn / 调整版本对
+            vpre-vpost / 更正后 API / 该跳候选及相似度 / 进 final·进迭代·剪枝·死分支），
+            供诊断分析落盘（jsonl）。默认空列表。
     """
     task: Task
     status: str
     candidates: List[Candidate] = field(default_factory=list)
     error: Optional[str] = None
+    trace: List[dict] = field(default_factory=list)
+
+    def to_dict(self) -> dict:
+        """把 Result 序列化为完整 dict（推荐结果 + 完整轨迹）。
+
+        输入参数：
+            无（self）。
+        返回值：
+            dict：{"task", "status", "error", "candidates", "trace"}。
+            task 为 Task.to_dict；candidates 为 List[dict]（Candidate.to_dict，
+            已按最终评分降序去重）；trace 为 List[dict]（原始 BFS 轨迹，各字段
+            见 Pipeline._trace_node）。
+        """
+        return {
+            "task": self.task.to_dict(),
+            "status": self.status,
+            "error": self.error,
+            "candidates": [c.to_dict() for c in self.candidates],
+            "trace": self.trace,
+        }

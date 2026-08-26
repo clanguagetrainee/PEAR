@@ -6,9 +6,11 @@
 #  直到 FunctionDef/ClassDef（拿到定义）或库外（解析失败）。对应设计文档 §8 流程
 #  (b) 的「更正为实质 API」，替换原 resolveApi 的层 1-4 近似匹配。
 #
-#  本模块把原 resolveApi.py 的 `_name_of` / `_is_harmless` / `_forward_target` /
-#  `_main_call_name` 移入复用（它们负责「提取名字链 + 识别 forward/nested」，
-#  不涉及 import 近似），resolveApi.py 仅保留薄入口。
+#  本模块把原 resolveApi.py 的 `_name_of` / `_is_harmless` / `_forward_target`
+#  移入复用（它们负责「提取名字链 + 识别纯转发 forward」，不涉及 import 近似），
+#  resolveApi.py 仅保留薄入口。forward 追目标时校验粒度一致性：目标须与原 API
+#  同粒度（function/method/class）才做更正，跨粒度保留原定义；指向的 API 若为
+#  单下划线开头的内部私有名（_x，非 __x），即使同粒度也退化为保留原定义。
 
 import ast
 from typing import Dict, List, Optional, Set, Tuple
@@ -18,7 +20,7 @@ from Tool.tool import SourceProvider
 
 
 # ---------------------------------------------------------------------------
-# 表达式名提取 / 转发与嵌套识别（自原 resolveApi.py 迁移，逻辑不变）
+# 表达式名提取 / 纯转发识别（自原 resolveApi.py 迁移，逻辑不变）
 # ---------------------------------------------------------------------------
 
 ## 无害前置调用名（转发识别时忽略的 print / warnings 类语句）
@@ -91,30 +93,14 @@ def _forward_target(func: ast.AST) -> Optional[str]:
     return None
 
 
-def _main_call_name(func: ast.AST) -> Optional[str]:
-    """取函数体内按源码顺序第一个（非无害）调用的目标名。
-
-    输入参数：
-        func (ast.AST)：FunctionDef / AsyncFunctionDef 节点。
-    返回值：
-        Optional[str]：主调用目标名；无调用返回 None。
-    """
-    calls: List[Tuple[int, int, ast.Call]] = []
-    for node in ast.walk(func):
-        if isinstance(node, ast.Call):
-            calls.append((node.lineno, node.col_offset, node))
-    calls.sort(key=lambda t: (t[0], t[1]))
-    for _, _, call in calls:
-        name = _name_of(call.func)
-        if name and name not in _HARMLESS_CALLS:
-            return name
-    return None
-
-
 def _identify_call_target_node(func: ast.AST) -> Tuple[Optional[str], str]:
     """从 FunctionDef 节点识别调用目标，返回 (目标名, kind)。
 
-    kind：'forward'（纯转发）| 'nested'（内含调用非转发）| 'direct'（无调用）。
+    kind：'forward'（纯转发）| 'direct'（非纯转发，保留自身定义）。
+    仅纯转发（body 只剩一条 return 单个调用/名字）才追被调目标；其余（多语句、
+    含辅助调用的正常实现等）一律 direct，不做「取首个调用」的嵌套近似，避免把
+    正常方法误更正到其首个内部调用（宁漏荐不错荐）。追目标前 resolve 还会校验
+    目标与原 API 同粒度（function/method/class），跨粒度同样落回 direct。
 
     输入参数：
         func (ast.AST)：FunctionDef / AsyncFunctionDef 节点。
@@ -124,9 +110,6 @@ def _identify_call_target_node(func: ast.AST) -> Tuple[Optional[str], str]:
     target = _forward_target(func)
     if target is not None:
         return target, 'forward'
-    target = _main_call_name(func)
-    if target is not None:
-        return target, 'nested'
     return None, 'direct'
 
 
@@ -139,7 +122,7 @@ class ImportResolver:
 
     依赖 SourceProvider 提供模块级 AST（module_ast / locate_module）。解析失败
     （库外 / 无法定位）一律返回 None，由调用方映射为 alias_external /
-    nested_external（宁漏荐不错荐，见 resolve 流程）。
+    unknown（宁漏荐不错荐，见 resolve 流程）。
     """
 
     def __init__(self, provider: SourceProvider):
@@ -421,18 +404,107 @@ class ImportResolver:
             return self._self_target(name, fqn)
         return self._resolve_name(name, module_fqn, version, local_imports)
 
+    def _node_kind(self, fqn: str, version: str) -> Optional[str]:
+        """返回 fqn 直接定位节点的粒度：'class' | 'function' | 'method'。
+
+        用于 forward 追目标的粒度一致性校验：嵌套指向的 API 必须与原 API 同粒度
+        （同为函数/方法/类）才做更正。节点为赋值别名 / import 中转（非 FunctionDef /
+        ClassDef）时返回 None（粒度未定，交由递归继续定位，不做拦截）。
+
+        输入参数：
+            fqn (str)：internal_fqn。
+            version (str)：版本号。
+        返回值：
+            Optional[str]：节点粒度；非定义节点或无法定位返回 None。
+        """
+        located = self._locate(fqn, version)
+        if located is None:
+            return None
+        node, module_fqn = located
+        if isinstance(node, ast.ClassDef):
+            return 'class'
+        if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)):
+            rel = fqn[len(module_fqn):].lstrip('.')
+            return 'method' if '.' in rel else 'function'
+        return None
+
+    def _is_single_underscore(self, fqn: str) -> bool:
+        """判断 fqn 最后一段是否以单个下划线开头（_x，非 __x / ___x）。
+
+        用于 forward 追目标：嵌套指向的 API 若为单下划线开头的内部私有名（如
+        _helper），即使粒度一致也不追，退化为 direct 保留原定义；双下划线（__）
+        及更长的下划线前缀不拦截（通常是 name mangling / 特殊方法，非私有辅助）。
+
+        输入参数：
+            fqn (str)：internal_fqn。
+        返回值：
+            bool：最后一段以单个下划线开头（首字符 '_' 且次字符非 '_'）返回 True。
+        """
+        leaf = fqn.rsplit('.', 1)[-1]
+        return leaf.startswith('_') and not leaf.startswith('__')
+
+    def _definition_at(self, fqn: str, version: str) -> Optional[str]:
+        """返回 fqn 在指定 version 下的完整定义（ast.unparse 整节点）。
+
+        仅对 FunctionDef / AsyncFunctionDef / ClassDef 返回定义文本；赋值别名 /
+        import 中转等非定义节点返回 None（它们不是「原 API 定义」）。
+
+        输入参数：
+            fqn (str)：internal_fqn。
+            version (str)：版本号。
+        返回值：
+            Optional[str]：定义文本；version 下无此 fqn 或非定义节点返回 None。
+        """
+        located = self._locate(fqn, version)
+        if located is None:
+            return None
+        node, _ = located
+        if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)):
+            return ast.unparse(node)
+        return None
+
+    def _fallback_definition(self, fqn: str, version: str,
+                             source_version: str) -> Optional[str]:
+        """保留自身定义（direct）时的回退定义：优先取 source_version 下 fqn 的原始定义。
+
+        凡 resolve 决定「保留原 API 自身定义」（非纯转发、class 无嵌套、forward 追
+        目标失败、跨粒度等）时，定义都取自 source_version（= Vs）下 fqn 的原始实现，
+        而非 version（= vpre）下可能已退化的定义。source_version 下 fqn 可能不存在
+        （BFS 迭代分支追到的中间候选 API 在 Vs 尚未引入），此时回退到 version 下定义。
+
+        输入参数：
+            fqn (str)：待分析 API 完整名。
+            version (str)：fqn 所在版本（= vpre）。
+            source_version (str)：实验源版本（= Vs）。
+        返回值：
+            Optional[str]：定义文本；两版本均无返回 None。
+        """
+        d = self._definition_at(fqn, source_version)
+        if d is not None:
+            return d
+        return self._definition_at(fqn, version)
+
     # ---- 主入口 ----
 
-    def resolve(self, fqn: str, version: str, api_type: str,
+    def resolve(self, fqn: str, version: str, source_version: str, api_type: str,
                 visited: Optional[Set[str]] = None) -> ResolvedApi:
         """把 fqn 更正为实质 API 定义（赋值/嵌套调用/import 链递归 + visited 防环）。
 
         流程对应设计：定位节点 -> 赋值形态追 value / 定义形态判断嵌套调用 ->
-        递归解析目标直到 FunctionDef/ClassDef（定义）或库外（空推荐）。
+        递归解析目标直到 FunctionDef/ClassDef（定义）或库外（空推荐）。嵌套调用
+        追目标时校验粒度一致性：目标须与原 API 同粒度（function/method/class）才
+        更正，跨粒度（如 function 转发到 class）保留原定义（direct）；指向的 API
+        若为单下划线开头的内部私有名（_x，非 __x），即使同粒度也退化为 direct。
+        凡保留自身定义（direct）的场景——class 无嵌套、非纯转发、forward 追目标
+        失败（解析不到库内 / 也是别名 / 跨粒度 / 单下划线私有名）——定义均取自
+        source_version 下 fqn 的原始定义，而非 version 下已退化的定义。
 
         输入参数：
             fqn (str)：待分析 API 完整名。
-            version (str)：fqn 所在版本。
+            version (str)：fqn 所在版本（= boundary.vpre，用于定位节点）。
+            source_version (str)：fqn 的起点版本（BFS 队列 pos；根节点 = Vs，
+                迭代分支 = 上一跳 vpost）。回退定义优先取该版本下 fqn 的原始定义；
+                该版本无此 fqn 时回退到 version 下定义。
             api_type (str)：'class' | 'function' | 'method'。
             visited (Optional[Set[str]])：递归防环集合，外部无需传入。
         返回值：
@@ -460,8 +532,8 @@ class ImportResolver:
             if target is None:
                 return ResolvedApi(original_fqn=fqn, resolved_fqn=fqn,
                                    kind='alias_external')
-            inner = self.resolve(target, version, api_type, visited)
-            if inner.kind in ('alias_external', 'nested_external', 'unknown'):
+            inner = self.resolve(target, version, source_version, api_type, visited)
+            if inner.kind in ('alias_external', 'unknown'):
                 return ResolvedApi(original_fqn=fqn, resolved_fqn=inner.resolved_fqn,
                                    kind=inner.kind, definition=inner.definition)
             return ResolvedApi(original_fqn=fqn, resolved_fqn=inner.resolved_fqn,
@@ -473,8 +545,8 @@ class ImportResolver:
             bindings = self._bindings(module_fqn, version)
             entry = bindings.get(name)
             if entry is not None and entry[0] == 'import':
-                inner = self.resolve(entry[1], version, api_type, visited)
-                if inner.kind in ('alias_external', 'nested_external', 'unknown'):
+                inner = self.resolve(entry[1], version, source_version, api_type, visited)
+                if inner.kind in ('alias_external', 'unknown'):
                     return ResolvedApi(original_fqn=fqn, resolved_fqn=inner.resolved_fqn,
                                        kind=inner.kind, definition=inner.definition)
                 return ResolvedApi(original_fqn=fqn, resolved_fqn=inner.resolved_fqn,
@@ -485,22 +557,43 @@ class ImportResolver:
         # ---- 定义形态：class 无嵌套语义 ----
         if isinstance(node, ast.ClassDef) or api_type == 'class':
             return ResolvedApi(original_fqn=fqn, resolved_fqn=fqn,
-                               kind='direct', definition=ast.unparse(node))
+                               kind='direct',
+                               definition=self._fallback_definition(fqn, version, source_version))
 
         # ---- 定义形态：函数 -> 判断嵌套调用 ----
         target, kind = _identify_call_target_node(node)
         if target is None:
             return ResolvedApi(original_fqn=fqn, resolved_fqn=fqn,
-                               kind='direct', definition=ast.unparse(node))
+                               kind='direct',
+                               definition=self._fallback_definition(fqn, version, source_version))
         local_imports = self._local_imports(node, module_fqn)
         resolved_target = self._resolve_target(target, module_fqn, version, fqn,
                                                api_type, local_imports)
         if resolved_target is None:
+            # 追目标解析不到库内（内置函数如 list/getattr 或未 import 的名字），
+            # 说明当前 fqn 本身就是最终定义，保留自身定义（direct），与跨粒度/单下划线一致。
             return ResolvedApi(original_fqn=fqn, resolved_fqn=fqn,
-                               kind='nested_external', definition=ast.unparse(node))
-        inner = self.resolve(resolved_target, version, api_type, visited)
-        if inner.kind in ('alias_external', 'nested_external', 'unknown'):
+                               kind='direct',
+                               definition=self._fallback_definition(fqn, version, source_version))
+        # 粒度一致性校验：嵌套指向的目标必须与原 API 同粒度（同为 function/method/
+        # class）才追；跨粒度（如 function 转发到 class、method 转发到 function）
+        # 不做更正，保留原 API 定义（direct）。目标为别名/import 中转时 _node_kind
+        # 返回 None（粒度未定），交由递归继续定位。
+        target_kind = self._node_kind(resolved_target, version)
+        if target_kind is not None and target_kind != api_type:
+            return ResolvedApi(original_fqn=fqn, resolved_fqn=fqn,
+                               kind='direct',
+                               definition=self._fallback_definition(fqn, version, source_version))
+        # 单下划线私有名拦截：指向的 API 若为单下划线开头（_x，非 __x），即使粒度
+        # 一致也不追，退化为 direct 保留原定义（内部辅助 API 不作替换目标）。
+        if self._is_single_underscore(resolved_target):
+            return ResolvedApi(original_fqn=fqn, resolved_fqn=fqn,
+                               kind='direct',
+                               definition=self._fallback_definition(fqn, version, source_version))
+        inner = self.resolve(resolved_target, version, source_version, api_type, visited)
+        if inner.kind in ('alias_external', 'unknown'):
             return ResolvedApi(original_fqn=fqn, resolved_fqn=inner.resolved_fqn,
-                               kind=inner.kind, definition=inner.definition)
+                               kind=inner.kind,
+                               definition=self._fallback_definition(fqn, version, source_version))
         return ResolvedApi(original_fqn=fqn, resolved_fqn=inner.resolved_fqn,
                            kind=kind, definition=inner.definition)

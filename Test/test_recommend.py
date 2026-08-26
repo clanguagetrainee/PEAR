@@ -2,12 +2,14 @@
 #  recommend 单元测试
 #  职责：纯单元（用 conftest.FakeProvider 替身），验证 recommend 的
 #  排除语义（排除 original_fqn、保留 resolved_fqn）、相似度降序、top_k 截断、
-#  定义缺失 / 无候选时空结果。
+#  定义缺失 / 无候选时空结果，及 repr_cache（候选 tokenize 复用）的复用与
+#  None 向后兼容。
 
 import pytest
 
 from conftest import FakeProvider
 from Tool.model import APIRecord, KnowledgeBase, ResolvedApi
+from Recommend import recommend as recommend_mod
 from Recommend.recommend import recommend
 
 
@@ -95,3 +97,58 @@ def test_empty_when_no_candidates():
     cands = recommend(resolved, VERSION, VERSION, 'function',
                       make_kb(), FakeProvider(defs), top_k=3)
     assert cands == []
+
+
+# ---------------------------------------------------------------------------
+# repr_cache 复用测试
+# ---------------------------------------------------------------------------
+
+def test_repr_cache_reuses_candidate_reprs(monkeypatch):
+    """同一 (api_type, to_version) 的候选 repr 只构建一次：第二次调用只重建
+    query_repr，候选 repr 从缓存复用，结果与首次一致。"""
+    build_calls = []
+    real_build = recommend_mod.build_repr
+
+    def counting_build(def_text):
+        build_calls.append(def_text)
+        return real_build(def_text)
+
+    monkeypatch.setattr(recommend_mod, 'build_repr', counting_build)
+
+    defs = {
+        'fakelib.mod.a': 'def a(x):\n    return x + 1\n',
+        'fakelib.mod.b': 'def b(x):\n    return x + 1\n',
+        'fakelib.mod.c': 'def c(x):\n    return x - 1\n',
+    }
+    resolved = make_resolved('fakelib.mod.old', 'fakelib.mod.old',
+                             'def old(x):\n    return x + 1\n')
+    cache = {}
+    r1 = recommend(resolved, VERSION, VERSION, 'function', make_kb(),
+                   FakeProvider(defs), top_k=3, repr_cache=cache)
+    n_first = len(build_calls)
+    r2 = recommend(resolved, VERSION, VERSION, 'function', make_kb(),
+                   FakeProvider(defs), top_k=3, repr_cache=cache)
+    n_second = len(build_calls) - n_first
+
+    # 首次 = 3 候选 + 1 query；第二次仅重建 query，3 候选 repr 全部复用
+    assert n_first == 4
+    assert n_second == 1
+    assert [c.fqn for c in r1] == [c.fqn for c in r2]
+
+
+def test_repr_cache_none_backward_compatible():
+    """不传 repr_cache（None）与传空 cache 结果一致（向后兼容）。"""
+    defs = {
+        'fakelib.mod.a': 'def a(x):\n    return x + 1\n',
+        'fakelib.mod.b': 'def b(x):\n    return x + 1\n',
+        'fakelib.mod.c': 'def c(x):\n    return x - 1\n',
+    }
+    resolved = make_resolved('fakelib.mod.old', 'fakelib.mod.old',
+                             'def old(x):\n    return x + 1\n')
+    r_none = recommend(resolved, VERSION, VERSION, 'function', make_kb(),
+                       FakeProvider(defs), top_k=3)
+    r_cache = recommend(resolved, VERSION, VERSION, 'function', make_kb(),
+                        FakeProvider(defs), top_k=3, repr_cache={})
+    assert [c.fqn for c in r_none] == [c.fqn for c in r_cache]
+    assert [c.similarity for c in r_none] == pytest.approx(
+        [c.similarity for c in r_cache])

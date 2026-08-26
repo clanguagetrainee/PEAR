@@ -2,8 +2,9 @@
 #  测试夹具：构造多版本假库 git 仓库
 #  职责：在指定目录生成一个本地 git 仓库（含 fakelib 包与 4 个 tag），预置 API
 #  演化形态：
-#   - 单跳 forward（old_api→new_api）、alias（aliased→new_api 赋值别名）、nested
-#     （nested_api→_helper）、direct（simple_api 直接删除）、not_deprecated（new_api）。
+#   - 单跳 forward（old_api→new_api）、alias（aliased→new_api 赋值别名）、direct
+#     （simple_api 直接删除）、多语句实现（nested_api/external_api 不追首个调用）、
+#     not_deprecated（new_api）。
 #   - 多跳链 chain_api→mid_api→new_api2（跨 4 个版本，验证 BFS 第二跳 + ∏ 连乘 +
 #     汇总去重）。
 #   - 跨模块形态（fakelib/_impl.py）：import 别名、点链调用、跨模块赋值别名、
@@ -35,9 +36,8 @@ def aliased(x):
 
 
 def nested_api(x):
-    """嵌套调用（非纯转发）"""
-    y = _helper(x)
-    return y + 1
+    """v1.0.0 原始实现（单语句）；v1.1.0 改为多语句，direct 回退应取本定义"""
+    return x * 2
 
 
 def _helper(x):
@@ -74,7 +74,27 @@ class Service:
         self.name = name
 
     def process(self, x):
-        return x * 2
+        return x * 3
+
+
+def func_to_class(x):
+    """原始实现（v1.0.0）；v1.1.0 改为转发 class，跨粒度回退应取本定义"""
+    return x * 2
+
+
+def fwd_private(x):
+    """v1.0.0 原始实现；v1.1.0 转发到单下划线 _helper（应退化为 direct 取本定义）"""
+    return x * 3
+
+
+def fwd_dunder(x):
+    """v1.0.0 原始实现；v1.1.0 转发到双下划线 __dunder（非单下划线，应正常 forward）"""
+    return x * 3
+
+
+def __dunder(x):
+    """双下划线私有名（非单下划线，不拦截）"""
+    return x * 2
 ''',
         "_impl.py": '''\
 def cross_new_api(x):
@@ -116,7 +136,7 @@ cycle_b = cycle_a()
 
 
 def nested_api(x):
-    """嵌套调用（非纯转发）"""
+    """多语句实现（含辅助调用，应判 direct）"""
     y = _helper(x)
     return y + 1
 
@@ -167,7 +187,7 @@ def local_import_api(x):
 
 
 def external_api(x):
-    """嵌套调用库外 API（np 未 import）"""
+    """多语句实现调用库外 API（np 未 import，应判 direct）"""
     y = np.where(x)
     return y
 
@@ -186,6 +206,26 @@ class Service:
 
     def process(self, x):
         return x * 2
+
+
+def func_to_class(x):
+    """function 转发到 class（跨粒度，应判 direct）"""
+    return Service(x)
+
+
+def fwd_private(x):
+    """转发到单下划线 _helper（私有名，应退化为 direct）"""
+    return _helper(x)
+
+
+def fwd_dunder(x):
+    """转发到双下划线 __dunder（非单下划线，应正常 forward）"""
+    return __dunder(x)
+
+
+def __dunder(x):
+    """双下划线私有名（非单下划线，不拦截）"""
+    return x * 2
 ''',
         "_impl.py": '''\
 def cross_new_api(x):
